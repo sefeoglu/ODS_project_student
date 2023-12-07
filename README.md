@@ -1,2 +1,2 @@
-# ODS_project_student
+# ODS project class' project
 A new ontology matching evaluation project.
