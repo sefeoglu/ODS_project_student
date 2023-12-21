@@ -13,11 +13,11 @@
         "metrics_folder": "./OntologyAlignment/tensorboard/"
     },
     "conference": {
-            "ontologies_folder" : "./Documents/datasets/conference/ontologies",
-            "alignments_folder" : "./Documents/datasets/conference/alignments",
+            "ontologies_folder" : "/Users/sefika/SORBET_ISWC23_ODS_project_base/data/ontologies",
+            "alignments_folder" : "/Users/sefika/SORBET_ISWC23_ODS_project_base/data/alignments",
     
-            "//ontologies_folder": "/home/francis/Documents/School/master/projects/datasets/conference/ontologies/",
-            "//alignments_folder": "/home/francis/Documents/School/master/projects/datasets/conference/alignments/",
+            "//ontologies_folder": "/Users/sefika/SORBET_ISWC23_ODS_project_base/data/ontologies",
+            "//alignments_folder": "/Users/sefika/SORBET_ISWC23_ODS_project_base/data/alignments",
     
             "fine_tuned_path" : "./store/conference_MLM_pretrained/",
             "pair_tuned_path" : "./store/conference_pair_trained/",
