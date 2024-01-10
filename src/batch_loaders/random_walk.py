@@ -96,9 +96,10 @@ class RandomWalkConfig():
 
 
 class RandomWalk():
-    def __init__(self, onto, first_node=None, walk_config: RandomWalkConfig=None):
+    def __init__(self, onto, walk_type = 'randomWalk', first_node=None, walk_config: RandomWalkConfig=None):
         """
-        Makes a walk in the ontology with paths types in probabilities
+        walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
+        walk_type = 'randomTree': Makes a Tree in the ontology with node types in probabilities
         """
 
 
@@ -161,16 +162,116 @@ class RandomWalk():
                     self.branches_index = [0]
                 break
             
-            walk_ids.extend(["[SEP]"])
 
             # Add a branch
-            self.branches_index.append(len(walk_ids))
+            
+            self.branches_index.append(1 + len(walk_ids))
 
-            _, sub_walk_ids = sample_walk(onto=onto,  first_node=first_node, exclude_nodes=visited_nodes, path_length=walk_config.max_path_length, 
-                            parent_prob=parent_prob, child_prob=child_prob, object_prob=object_prop_prob)
+            if (walk_type == 'randomWalk'):
+                walk_ids.extend(["[SEP]"])
+                self.branches_index.append(len(walk_ids))
+                _, sub_walk_ids = sample_walk(onto=onto,  first_node=first_node, exclude_nodes=visited_nodes, path_length=walk_config.max_path_length, 
+                                parent_prob=parent_prob, child_prob=child_prob, object_prob=object_prop_prob)
 
-            visited_nodes.update(set(sub_walk_ids))
-            walk_ids.extend(sub_walk_ids)
+                visited_nodes.update(set(sub_walk_ids))
+                walk_ids.extend(sub_walk_ids)
+            elif (walk_type == 'randomTree'):
+                Stack = [(first_node, 0)]       #(node, depthOfNodeInTree)
+                while (len(Stack) != 0):
+                    current_node, depth_Node = Stack.pop(0)
+
+                    if current_node != "Thing":
+                        """
+                        Makes a Tree in the ontology with node types in probabilities
+                        """
+                        breadth = walk_config.n_branches
+                        path_length = walk_config.max_path_length
+                        #print(f"breadth: {breadth}, path_length: {path_length}")
+                        object_prob=object_prop_prob
+                        
+                        if not path_length:
+                            path_length = random.randint(2,6)
+                            path_length = 5#ToDo
+
+                        if not first_node:
+                            first_node = random.choice(list(set(onto.classes) - {"Thing"}))
+                            while (len(onto.get_parents(first_node)) + 
+                                   len(onto.get_childs(first_node)) + 
+                                   len(onto.get_object_properties(first_node))) == 0:
+                                first_node = random.choice(list(set(onto.classes) - {"Thing"}))
+
+                        #walk = copy.deepcopy(onto.get_id_label(first_node))
+                        #walk_ids = [first_node]
+
+                        """
+                        start algorithm
+                        """
+
+                        #visitedNodes = exclude_nodes if exclude_nodes else set(walk_ids)
+                            
+                        possible_parent_next_nodes       = list(set(onto.get_parents(current_node)) - visited_nodes)
+                        possible_child_next_nodes        = list(set(onto.get_childs(current_node)) - visited_nodes)
+                        possible_object_prop_next_nodes  = list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(current_node)))
+
+                        true_parent_prob      = parent_prob if len(possible_parent_next_nodes) > 0 else 0
+                        true_child_prob       = child_prob if len(possible_child_next_nodes) > 0 else 0
+                        true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
+                        
+                        if (true_parent_prob + true_child_prob + true_object_prop_prob) == 0:
+                            break
+                        counterParent = 0
+                        counterChild = 0
+                        counterObject_prop = 0
+                        for i in range(breadth):
+                            choice = random.choices(["parent", "child", "object_prop"], 
+                                                       weights=(true_parent_prob, true_child_prob, true_object_prop_prob))[0]
+                            if (choice == "parent"):
+                                counterParent += 1
+                            elif (choice == "child"):
+                                counterChild += 1
+                            elif (choice == "object_prop"):
+                                counterObject_prop += 1
+                        counterParent = min(counterParent, len(possible_parent_next_nodes))
+                        counterChild = min(counterChild, len(possible_child_next_nodes))
+                        counterObject_prop = min(counterObject_prop, len(possible_object_prop_next_nodes))
+                            
+                    #add parent types to walk and perhaps to stack:
+                        ParentSample = random.sample(possible_parent_next_nodes, counterParent)
+                        for nextNode in ParentSample:
+                            walk_ids += ["[SEP]", current_node, ">", nextNode]
+                        if (depth_Node < path_length):
+                            #Stack += (ParentSample, depth_Node+1)
+                            Stack += [(parent, depth_Node+1) for parent in ParentSample]
+                        
+                    #add child types to walk and perhaps to stack:
+                        ChildSample = random.sample(possible_child_next_nodes, counterChild)
+                        for nextNode in ChildSample:
+                            walk_ids += ["[SEP]", current_node, ">", nextNode]
+                        if (depth_Node < path_length):
+                            #Stack += (ChildSample, depth_Node+1)
+                            Stack += [(child, depth_Node+1) for child in ChildSample]
+
+                    #add object types to walk and perhaps to stack:
+                        IDs = random.sample(possible_object_prop_next_nodes, counterObject_prop)
+                        for relation, nextNode in IDs:
+                            walk_ids += ["[SEP]", current_node, relation, nextNode]
+                        secondItem = lambda x : x[1]
+                        if (depth_Node < path_length):
+                            Stack += [(ID[1], depth_Node+1) for ID in IDs]
+
+                        #walk += onto.get_id_label(relation) + onto.get_id_label(next_node)
+
+
+                        visited_nodes.update(set(walk_ids))
+
+                        """
+                        if relation != ":":
+                            current_node = next_node
+                        """
+                    
+                    
+            else:
+                raise Exception(f"walk_type '{walk_type}' does not exist")
 
         if walk_config.use_synonyms:
             # Randomly replace concept by its synonyms
@@ -194,6 +295,7 @@ class RandomWalk():
         self.walk = walk
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
+        #print(self.sentence)
 
 
     def _get_mask_at_index(self, i, masked_array=None):
