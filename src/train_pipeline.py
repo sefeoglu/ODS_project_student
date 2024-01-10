@@ -168,7 +168,7 @@ class TrainPipeline:
                         self._write_embedding_file(onto, self.model, 0)
         
         loader = self.model.loader_type(**self.loader_config, walk_config=self.train_walks)
-
+    """
         optim = Adam(self.model.parameters(), lr=lr)
 
         for epoch in range(epochs):
@@ -272,4 +272,6 @@ class TrainPipeline:
                     labels = labels + onto_data["embeddings_label"]
 
 
-        self.tensorboard_writer.add_embedding(embeddings, metadata=labels, global_step=epoch, tag=tag)     
+        self.tensorboard_writer.add_embedding(embeddings, metadata=labels, global_step=epoch, tag=tag)
+
+    """
