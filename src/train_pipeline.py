@@ -169,6 +169,7 @@ class TrainPipeline:
         
         loader = self.model.loader_type(**self.loader_config, walk_config=self.train_walks)
 
+        """
         optim = Adam(self.model.parameters(), lr=lr)
 
         for epoch in range(epochs):
@@ -231,7 +232,7 @@ class TrainPipeline:
                     for _, onto in track.ontologies_map.items():
                         self._write_embedding_file(onto, self.model, epoch)
         
-
+        """
 
     def _write_embedding_file(self, ontology, model, epoch=0):
 
