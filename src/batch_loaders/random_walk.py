@@ -308,10 +308,10 @@ class RandomWalk():
         rel = None
         for i, item in enumerate(L):
             if (item == '<' or item == '>'):
-                triples.append((L[i-1], item, L[i+1]))
+                triples.append({f"{onto.onto_name}#{first_node}":(L[i-1], item, L[i+1])})
         import json
         json_data = json.dumps(triples, indent=1)
-        with open('triples.json', 'w') as json_file:
+        with open(f'triples_{walk_type}.json', 'w') as json_file:
             json_file.write(json_data)
         """
 

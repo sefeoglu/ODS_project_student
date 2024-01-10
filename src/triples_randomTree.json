@@ -1,0 +1,2298 @@
+[
+ {
+  "confOf#Trip": [
+   "trip",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "confOf#Trip": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "confOf#Trip": [
+   "social event",
+   ">",
+   "reception "
+  ]
+ },
+ {
+  "confOf#Trip": [
+   "social event",
+   ">",
+   "banquet "
+  ]
+ },
+ {
+  "confOf#Trip": [
+   "event",
+   ">",
+   "administrative event "
+  ]
+ },
+ {
+  "confOf#Trip": [
+   "event",
+   ">",
+   "working event"
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "banquet",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "social event",
+   ">",
+   "reception "
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "social event",
+   ">",
+   "trip "
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "event",
+   ">",
+   "working event "
+  ]
+ },
+ {
+  "confOf#Banquet": [
+   "event",
+   ">",
+   "administrative event"
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "reception",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "social event",
+   ">",
+   "banquet "
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "social event",
+   ">",
+   "trip "
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "event",
+   ">",
+   "working event "
+  ]
+ },
+ {
+  "confOf#Reception": [
+   "event",
+   ">",
+   "administrative event"
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "social event",
+   ">",
+   "trip "
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "social event",
+   ">",
+   "reception "
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "social event",
+   ">",
+   "banquet "
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "event",
+   ">",
+   "working event "
+  ]
+ },
+ {
+  "confOf#Social_event": [
+   "event",
+   ">",
+   "administrative event"
+  ]
+ },
+ {
+  "confOf#Event": [
+   "event",
+   ">",
+   "working event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "event",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "event",
+   ">",
+   "administrative event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "working event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "working event",
+   ">",
+   "tutorial "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "working event",
+   ">",
+   "conference "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "social event",
+   ">",
+   "reception "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "social event",
+   ">",
+   "trip "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "social event",
+   ">",
+   "banquet "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "administrative event",
+   ">",
+   "registration of participants event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "administrative event",
+   ">",
+   "reviewing event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "administrative event",
+   ">",
+   "reviewing results event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "administrative event",
+   ">",
+   "camera ready event "
+  ]
+ },
+ {
+  "confOf#Event": [
+   "administrative event",
+   ">",
+   "submission event"
+  ]
+ },
+ {
+  "confOf#Contribution": [
+   "contribution",
+   ">",
+   "Thing "
+  ]
+ },
+ {
+  "confOf#Contribution": [
+   "contribution",
+   ">",
+   "poster "
+  ]
+ },
+ {
+  "confOf#Contribution": [
+   "contribution",
+   ">",
+   "short paper "
+  ]
+ },
+ {
+  "confOf#Contribution": [
+   "contribution",
+   ">",
+   "paper"
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "event",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "event",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "scientific event",
+   ">",
+   "track "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "scientific event",
+   ">",
+   "individual presentation "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "scientific event",
+   ">",
+   "conference "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "scientific event",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "social event",
+   ">",
+   "conference banquet "
+  ]
+ },
+ {
+  "ekaw#Event": [
+   "social event",
+   ">",
+   "conference trip"
+  ]
+ },
+ {
+  "ekaw#Person": [
+   "person",
+   ">",
+   "agency staff member "
+  ]
+ },
+ {
+  "ekaw#Person": [
+   "person",
+   ">",
+   "conference participant "
+  ]
+ },
+ {
+  "ekaw#Person": [
+   "person",
+   ">",
+   "student "
+  ]
+ },
+ {
+  "ekaw#Person": [
+   "person",
+   ">",
+   "paper author "
+  ]
+ },
+ {
+  "ekaw#Person": [
+   "person",
+   ">",
+   "possible reviewer"
+  ]
+ },
+ {
+  "ekaw#Accepted_Paper": [
+   "accepted paper",
+   ">",
+   "evaluated paper "
+  ]
+ },
+ {
+  "ekaw#Accepted_Paper": [
+   "evaluated paper",
+   ">",
+   "assigned paper "
+  ]
+ },
+ {
+  "ekaw#Accepted_Paper": [
+   "evaluated paper",
+   ">",
+   "rejected paper "
+  ]
+ },
+ {
+  "ekaw#Accepted_Paper": [
+   "assigned paper",
+   ">",
+   "submitted paper"
+  ]
+ },
+ {
+  "ekaw#Rejected_Paper": [
+   "rejected paper",
+   ">",
+   "evaluated paper "
+  ]
+ },
+ {
+  "ekaw#Rejected_Paper": [
+   "evaluated paper",
+   ">",
+   "assigned paper "
+  ]
+ },
+ {
+  "ekaw#Rejected_Paper": [
+   "evaluated paper",
+   ">",
+   "accepted paper "
+  ]
+ },
+ {
+  "ekaw#Rejected_Paper": [
+   "assigned paper",
+   ">",
+   "submitted paper"
+  ]
+ },
+ {
+  "ekaw#Evaluated_Paper": [
+   "evaluated paper",
+   ">",
+   "assigned paper "
+  ]
+ },
+ {
+  "ekaw#Evaluated_Paper": [
+   "evaluated paper",
+   ">",
+   "accepted paper "
+  ]
+ },
+ {
+  "ekaw#Evaluated_Paper": [
+   "evaluated paper",
+   ">",
+   "rejected paper "
+  ]
+ },
+ {
+  "ekaw#Evaluated_Paper": [
+   "assigned paper",
+   ">",
+   "submitted paper"
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "camera ready paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "paper",
+   ">",
+   "conference paper "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Camera_Ready_Paper": [
+   "submitted paper",
+   ">",
+   "assigned paper"
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "positive review",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "review",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "review",
+   ">",
+   "negative review "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "review",
+   ">",
+   "neutral review "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "document",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Positive_Review": [
+   "document",
+   ">",
+   "flyer"
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "workshop paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "paper",
+   ">",
+   "demo paper "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Workshop_Paper": [
+   "submitted paper",
+   ">",
+   "assigned paper"
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "industrial paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "paper",
+   ">",
+   "demo paper "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Industrial_Paper": [
+   "document",
+   ">",
+   "multi author volume"
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "poster paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "demo paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "industrial paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "workshop paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "conference paper "
+  ]
+ },
+ {
+  "ekaw#Paper": [
+   "paper",
+   ">",
+   "camera ready paper"
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "conference paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "paper",
+   ">",
+   "industrial paper "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Conference_Paper": [
+   "document",
+   ">",
+   "abstract"
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "industrial session",
+   ">",
+   "conference session "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "conference session",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "session",
+   ">",
+   "workshop session "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "session",
+   ">",
+   "regular session "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "session",
+   ">",
+   "demo session "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "scientific event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "scientific event",
+   ">",
+   "individual presentation "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "scientific event",
+   ">",
+   "conference "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Industrial_Session": [
+   "scientific event",
+   ">",
+   "track"
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "conference session",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "conference session",
+   ">",
+   "industrial session "
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "session",
+   ">",
+   "poster session "
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "session",
+   ">",
+   "workshop session "
+  ]
+ },
+ {
+  "ekaw#Conference_Session": [
+   "session",
+   ">",
+   "demo session"
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "regular session",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "scientific event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "scientific event",
+   ">",
+   "track "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "scientific event",
+   ">",
+   "individual presentation "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Regular_Session": [
+   "event",
+   ">",
+   "social event"
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "poster session",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "session",
+   ">",
+   "conference session "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "session",
+   ">",
+   "demo session "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "scientific event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "scientific event",
+   ">",
+   "track "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Poster_Session": [
+   "conference session",
+   ">",
+   "industrial session"
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "demo session",
+   ">",
+   "session "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "session",
+   ">",
+   "conference session "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "scientific event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "scientific event",
+   ">",
+   "track "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "conference session",
+   ">",
+   "industrial session "
+  ]
+ },
+ {
+  "ekaw#Demo_Session": [
+   "event",
+   ">",
+   "social event"
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "scientific event "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "poster session "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "conference session "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "demo session "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "scientific event",
+   ">",
+   "workshop "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "scientific event",
+   ">",
+   "individual presentation "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "scientific event",
+   ">",
+   "track "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "scientific event",
+   ">",
+   "conference "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "workshop session "
+  ]
+ },
+ {
+  "ekaw#Session": [
+   "session",
+   ">",
+   "regular session"
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "abstract",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "abstract",
+   ">",
+   "tutorial abstract "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "document",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Abstract": [
+   "abstract",
+   ">",
+   "invited talk abstract"
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "paper",
+   ">",
+   "poster paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "paper",
+   ">",
+   "industrial paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "paper",
+   ">",
+   "workshop paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "multi author volume",
+   ">",
+   "proceedings "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "review",
+   ">",
+   "negative review "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "review",
+   ">",
+   "positive review "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "review",
+   ">",
+   "neutral review "
+  ]
+ },
+ {
+  "ekaw#Document": [
+   "proceedings",
+   ">",
+   "conference proceedings"
+  ]
+ },
+ {
+  "ekaw#Paper_Author": [
+   "paper author",
+   ">",
+   "person "
+  ]
+ },
+ {
+  "ekaw#Paper_Author": [
+   "person",
+   ">",
+   "agency staff member "
+  ]
+ },
+ {
+  "ekaw#Paper_Author": [
+   "person",
+   ">",
+   "possible reviewer "
+  ]
+ },
+ {
+  "ekaw#Paper_Author": [
+   "person",
+   ">",
+   "conference participant "
+  ]
+ },
+ {
+  "ekaw#Paper_Author": [
+   "person",
+   ">",
+   "student"
+  ]
+ },
+ {
+  "ekaw#Conference_Trip": [
+   "conference trip",
+   ">",
+   "social event "
+  ]
+ },
+ {
+  "ekaw#Conference_Trip": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Conference_Trip": [
+   "social event",
+   ">",
+   "conference banquet "
+  ]
+ },
+ {
+  "ekaw#Conference_Trip": [
+   "event",
+   ">",
+   "scientific event"
+  ]
+ },
+ {
+  "ekaw#Social_Event": [
+   "social event",
+   ">",
+   "event "
+  ]
+ },
+ {
+  "ekaw#Social_Event": [
+   "social event",
+   ">",
+   "conference banquet "
+  ]
+ },
+ {
+  "ekaw#Social_Event": [
+   "social event",
+   ">",
+   "conference trip "
+  ]
+ },
+ {
+  "ekaw#Social_Event": [
+   "event",
+   ">",
+   "scientific event"
+  ]
+ },
+ {
+  "ekaw#Tutorial_Abstract": [
+   "tutorial abstract",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Tutorial_Abstract": [
+   "abstract",
+   ">",
+   "invited talk abstract"
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "person "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "early registered participant "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "program committee chair "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "person",
+   ">",
+   "agency staff member "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "person",
+   ">",
+   "possible reviewer "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "person",
+   ">",
+   "paper author "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "person",
+   ">",
+   "student "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "session chair "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "tutorial chair "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "demo chair "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "late registered participant "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "presenter "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "session chair",
+   ">",
+   "program committee member "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "workshop chair "
+  ]
+ },
+ {
+  "ekaw#Conference_Participant": [
+   "conference participant",
+   ">",
+   "organizing committee member"
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "submitted paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "submitted paper",
+   ">",
+   "assigned paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "paper",
+   ">",
+   "poster paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "paper",
+   ">",
+   "workshop paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "paper",
+   ">",
+   "conference paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "paper",
+   ">",
+   "camera ready paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "assigned paper",
+   ">",
+   "evaluated paper "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "document",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Submitted_Paper": [
+   "document",
+   ">",
+   "programme brochure"
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "assigned paper",
+   ">",
+   "submitted paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "assigned paper",
+   ">",
+   "evaluated paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "submitted paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "evaluated paper",
+   ">",
+   "accepted paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "evaluated paper",
+   ">",
+   "rejected paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "paper",
+   ">",
+   "demo paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "paper",
+   ">",
+   "poster paper "
+  ]
+ },
+ {
+  "ekaw#Assigned_Paper": [
+   "paper",
+   ">",
+   "conference paper"
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "negative review",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "review",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "review",
+   ">",
+   "positive review "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "review",
+   ">",
+   "neutral review "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "document",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Negative_Review": [
+   "document",
+   ">",
+   "flyer"
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "review",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "review",
+   ">",
+   "neutral review "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "review",
+   ">",
+   "negative review "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "review",
+   ">",
+   "positive review "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Review": [
+   "document",
+   ">",
+   "paper"
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "neutral review",
+   ">",
+   "review "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "review",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "review",
+   ">",
+   "negative review "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Neutral_Review": [
+   "document",
+   ">",
+   "flyer"
+  ]
+ },
+ {
+  "ekaw#Organising_Agency": [
+   "organising agency",
+   ">",
+   "organisation "
+  ]
+ },
+ {
+  "ekaw#Organising_Agency": [
+   "organisation",
+   ">",
+   "proceedings publisher "
+  ]
+ },
+ {
+  "ekaw#Organising_Agency": [
+   "organisation",
+   ">",
+   "academic institution"
+  ]
+ },
+ {
+  "ekaw#Academic_Institution": [
+   "academic institution",
+   ">",
+   "organisation "
+  ]
+ },
+ {
+  "ekaw#Academic_Institution": [
+   "academic institution",
+   ">",
+   "research institute "
+  ]
+ },
+ {
+  "ekaw#Academic_Institution": [
+   "academic institution",
+   ">",
+   "university "
+  ]
+ },
+ {
+  "ekaw#Academic_Institution": [
+   "organisation",
+   ">",
+   "organising agency "
+  ]
+ },
+ {
+  "ekaw#Academic_Institution": [
+   "organisation",
+   ">",
+   "proceedings publisher"
+  ]
+ },
+ {
+  "ekaw#Organisation": [
+   "organisation",
+   ">",
+   "organising agency "
+  ]
+ },
+ {
+  "ekaw#Organisation": [
+   "organisation",
+   ">",
+   "academic institution "
+  ]
+ },
+ {
+  "ekaw#Organisation": [
+   "organisation",
+   ">",
+   "proceedings publisher"
+  ]
+ },
+ {
+  "ekaw#Proceedings_Publisher": [
+   "proceedings publisher",
+   ">",
+   "organisation "
+  ]
+ },
+ {
+  "ekaw#Proceedings_Publisher": [
+   "organisation",
+   ">",
+   "academic institution "
+  ]
+ },
+ {
+  "ekaw#Proceedings_Publisher": [
+   "organisation",
+   ">",
+   "organising agency "
+  ]
+ },
+ {
+  "ekaw#Proceedings_Publisher": [
+   "academic institution",
+   ">",
+   "research institute "
+  ]
+ },
+ {
+  "ekaw#Proceedings_Publisher": [
+   "academic institution",
+   ">",
+   "university"
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "poster paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "paper",
+   ">",
+   "workshop paper "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "paper",
+   ">",
+   "demo paper "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Poster_Paper": [
+   "document",
+   ">",
+   "programme brochure"
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "regular paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "paper",
+   ">",
+   "camera ready paper "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "paper",
+   ">",
+   "conference paper "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "document",
+   ">",
+   "programme brochure "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Regular_Paper": [
+   "document",
+   ">",
+   "web site"
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "demo paper",
+   ">",
+   "paper "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "paper",
+   ">",
+   "document "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "paper",
+   ">",
+   "workshop paper "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "paper",
+   ">",
+   "regular paper "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "document",
+   ">",
+   "abstract "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "document",
+   ">",
+   "web site "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "document",
+   ">",
+   "multi author volume "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "document",
+   ">",
+   "flyer "
+  ]
+ },
+ {
+  "ekaw#Demo_Paper": [
+   "document",
+   ">",
+   "review"
+  ]
+ }
+]
