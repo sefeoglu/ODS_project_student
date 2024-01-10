@@ -298,7 +298,7 @@ class RandomWalk():
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
         #print(self.sentence)
-"""
+        """
 
         #code to save triples to json
         import re
@@ -313,9 +313,9 @@ class RandomWalk():
         json_data = json.dumps(triples, indent=1)
         with open('triples.json', 'w') as json_file:
             json_file.write(json_data)
-"""
+        """
 
-        
+
 
 
     def _get_mask_at_index(self, i, masked_array=None):
