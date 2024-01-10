@@ -6,6 +6,8 @@ from globals import Globals
 from enum import Enum
 import logging
 
+triples = []#for saving triples to json
+
 
 logger = logging.getLogger("onto")
 
@@ -99,7 +101,7 @@ class RandomWalk():
     def __init__(self, onto, walk_type = 'randomWalk', first_node=None, walk_config: RandomWalkConfig=None):
         """
         walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
-        walk_type = 'randomTree': Makes a Tree in the ontology with node types in probabilities
+        walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
         """
 
 
@@ -296,6 +298,24 @@ class RandomWalk():
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
         #print(self.sentence)
+"""
+
+        #code to save triples to json
+        import re
+        L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
+        #print(L)
+        last = self.walk[1]
+        rel = None
+        for i, item in enumerate(L):
+            if (item == '<' or item == '>'):
+                triples.append((L[i-1], item, L[i+1]))
+        import json
+        json_data = json.dumps(triples, indent=1)
+        with open('triples.json', 'w') as json_file:
+            json_file.write(json_data)
+"""
+
+        
 
 
     def _get_mask_at_index(self, i, masked_array=None):
