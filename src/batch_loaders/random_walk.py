@@ -6,7 +6,7 @@ from globals import Globals
 from enum import Enum
 import logging
 
-triples = []#for saving triples to json
+triples = {}#for saving triples to json
 
 
 logger = logging.getLogger("onto")
@@ -313,7 +313,12 @@ class RandomWalk():
             if (item == '<' or item == '>'):
                 if verbalize:
                     item = textParentOf if item == '>' else textChildOf
-                triples.append({f"{onto.onto_name}#{first_node}":(L[i-1], item, L[i+1])})
+                name = f"{onto.onto_name}#{first_node}"
+                triple = (L[i-1], item, L[i+1])
+                if (triples.get(name) == None):
+                    triples[name] = [triple]
+                else:
+                    triples[name].append((L[i-1], item, L[i+1]))
         import json
         json_data = json.dumps(triples, indent=1)
         with open(f'triples_{walk_type}{"_verbalized" if verbalize else ""}.json', 'w') as json_file:

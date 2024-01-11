@@ -1,2326 +1,1651 @@
-[
- {
-  "confOf#Trip": [
+{
+ "confOf#Trip": [
+  [
    "trip",
    "is parent of",
    "social event "
-  ]
- },
- {
-  "confOf#Trip": [
+  ],
+  [
    "social event",
    "is parent of",
    "event "
-  ]
- },
- {
-  "confOf#Trip": [
-   "social event",
-   "is parent of",
-   "banquet "
-  ]
- },
- {
-  "confOf#Trip": [
+  ],
+  [
    "social event",
    "is parent of",
    "reception "
-  ]
- },
- {
-  "confOf#Trip": [
+  ],
+  [
+   "social event",
+   "is parent of",
+   "banquet "
+  ],
+  [
    "event",
    "is parent of",
    "working event "
-  ]
- },
- {
-  "confOf#Trip": [
+  ],
+  [
    "event",
    "is parent of",
    "administrative event"
   ]
- },
- {
-  "confOf#Banquet": [
+ ],
+ "confOf#Banquet": [
+  [
    "banquet",
    "is parent of",
    "social event "
-  ]
- },
- {
-  "confOf#Banquet": [
+  ],
+  [
    "social event",
    "is parent of",
    "event "
-  ]
- },
- {
-  "confOf#Banquet": [
-   "social event",
-   "is parent of",
-   "reception "
-  ]
- },
- {
-  "confOf#Banquet": [
+  ],
+  [
    "social event",
    "is parent of",
    "trip "
-  ]
- },
- {
-  "confOf#Banquet": [
-   "event",
-   "is parent of",
-   "working event "
-  ]
- },
- {
-  "confOf#Banquet": [
-   "event",
-   "is parent of",
-   "administrative event"
-  ]
- },
- {
-  "confOf#Reception": [
-   "reception",
-   "is parent of",
-   "social event "
-  ]
- },
- {
-  "confOf#Reception": [
-   "social event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "confOf#Reception": [
-   "social event",
-   "is parent of",
-   "banquet "
-  ]
- },
- {
-  "confOf#Reception": [
-   "social event",
-   "is parent of",
-   "trip "
-  ]
- },
- {
-  "confOf#Reception": [
-   "event",
-   "is parent of",
-   "working event "
-  ]
- },
- {
-  "confOf#Reception": [
-   "event",
-   "is parent of",
-   "administrative event"
-  ]
- },
- {
-  "confOf#Social_event": [
-   "social event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "confOf#Social_event": [
-   "social event",
-   "is parent of",
-   "reception "
-  ]
- },
- {
-  "confOf#Social_event": [
+  ],
+  [
    "event",
    "is parent of",
    "administrative event "
-  ]
- },
- {
-  "confOf#Social_event": [
+  ],
+  [
    "event",
    "is parent of",
-   "working event "
+   "working event"
   ]
- },
- {
-  "confOf#Social_event": [
+ ],
+ "confOf#Reception": [
+  [
+   "reception",
+   "is parent of",
+   "social event "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "trip "
+  ],
+  [
+   "event",
+   "is parent of",
+   "administrative event "
+  ],
+  [
+   "event",
+   "is parent of",
+   "working event"
+  ]
+ ],
+ "confOf#Social_event": [
+  [
+   "social event",
+   "is parent of",
+   "event "
+  ],
+  [
    "social event",
    "is parent of",
    "banquet "
-  ]
- },
- {
-  "confOf#Social_event": [
+  ],
+  [
+   "social event",
+   "is parent of",
+   "reception "
+  ],
+  [
+   "event",
+   "is parent of",
+   "working event "
+  ],
+  [
+   "event",
+   "is parent of",
+   "administrative event "
+  ],
+  [
    "social event",
    "is parent of",
    "trip"
   ]
- },
- {
-  "confOf#Event": [
-   "event",
-   "is parent of",
-   "social event "
-  ]
- },
- {
-  "confOf#Event": [
+ ],
+ "confOf#Event": [
+  [
    "event",
    "is parent of",
    "working event "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
+   "event",
+   "is parent of",
+   "social event "
+  ],
+  [
    "event",
    "is parent of",
    "administrative event "
-  ]
- },
- {
-  "confOf#Event": [
-   "social event",
-   "is parent of",
-   "banquet "
-  ]
- },
- {
-  "confOf#Event": [
-   "social event",
-   "is parent of",
-   "trip "
-  ]
- },
- {
-  "confOf#Event": [
-   "social event",
-   "is parent of",
-   "reception "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
    "working event",
    "is parent of",
    "workshop "
-  ]
- },
- {
-  "confOf#Event": [
-   "working event",
-   "is parent of",
-   "conference "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
    "working event",
    "is parent of",
    "tutorial "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
+   "working event",
+   "is parent of",
+   "conference "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "trip "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "banquet "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "reception "
+  ],
+  [
    "administrative event",
    "is parent of",
    "reviewing event "
-  ]
- },
- {
-  "confOf#Event": [
-   "administrative event",
-   "is parent of",
-   "submission event "
-  ]
- },
- {
-  "confOf#Event": [
-   "administrative event",
-   "is parent of",
-   "camera ready event "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
    "administrative event",
    "is parent of",
    "registration of participants event "
-  ]
- },
- {
-  "confOf#Event": [
+  ],
+  [
+   "administrative event",
+   "is parent of",
+   "submission event "
+  ],
+  [
+   "administrative event",
+   "is parent of",
+   "camera ready event "
+  ],
+  [
    "administrative event",
    "is parent of",
    "reviewing results event"
   ]
- },
- {
-  "confOf#Contribution": [
+ ],
+ "confOf#Contribution": [
+  [
    "contribution",
    "is parent of",
    "Thing "
-  ]
- },
- {
-  "confOf#Contribution": [
-   "contribution",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "confOf#Contribution": [
+  ],
+  [
    "contribution",
    "is parent of",
    "short paper "
-  ]
- },
- {
-  "confOf#Contribution": [
+  ],
+  [
+   "contribution",
+   "is parent of",
+   "paper "
+  ],
+  [
    "contribution",
    "is parent of",
    "poster"
   ]
- },
- {
-  "ekaw#Event": [
-   "event",
-   "is parent of",
-   "social event "
-  ]
- },
- {
-  "ekaw#Event": [
+ ],
+ "ekaw#Event": [
+  [
    "event",
    "is parent of",
    "scientific event "
-  ]
- },
- {
-  "ekaw#Event": [
-   "social event",
+  ],
+  [
+   "event",
    "is parent of",
-   "conference banquet "
-  ]
- },
- {
-  "ekaw#Event": [
-   "social event",
+   "social event "
+  ],
+  [
+   "scientific event",
    "is parent of",
-   "conference trip "
-  ]
- },
- {
-  "ekaw#Event": [
+   "individual presentation "
+  ],
+  [
    "scientific event",
    "is parent of",
    "conference "
-  ]
- },
- {
-  "ekaw#Event": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "workshop "
-  ]
- },
- {
-  "ekaw#Event": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "track "
-  ]
- },
- {
-  "ekaw#Event": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "session "
-  ]
- },
- {
-  "ekaw#Event": [
-   "scientific event",
+  ],
+  [
+   "social event",
    "is parent of",
-   "individual presentation"
-  ]
- },
- {
-  "ekaw#Person": [
-   "person",
+   "conference banquet "
+  ],
+  [
+   "social event",
    "is parent of",
-   "conference participant "
-  ]
- },
- {
-  "ekaw#Person": [
-   "person",
+   "conference trip "
+  ],
+  [
+   "individual presentation",
    "is parent of",
-   "agency staff member "
-  ]
- },
- {
-  "ekaw#Person": [
-   "person",
+   "tutorial "
+  ],
+  [
+   "individual presentation",
    "is parent of",
-   "student "
-  ]
- },
- {
-  "ekaw#Person": [
-   "person",
+   "contributed talk "
+  ],
+  [
+   "individual presentation",
    "is parent of",
-   "paper author "
+   "invited talk"
   ]
- },
- {
-  "ekaw#Person": [
+ ],
+ "ekaw#Person": [
+  [
    "person",
    "is parent of",
    "possible reviewer "
-  ]
- },
- {
-  "ekaw#Person": [
-   "conference participant",
+  ],
+  [
+   "person",
    "is parent of",
-   "program committee chair "
-  ]
- },
- {
-  "ekaw#Person": [
+   "conference participant "
+  ],
+  [
+   "person",
+   "is parent of",
+   "agency staff member "
+  ],
+  [
+   "person",
+   "is parent of",
+   "student "
+  ],
+  [
+   "person",
+   "is parent of",
+   "paper author "
+  ],
+  [
+   "possible reviewer",
+   "is parent of",
+   "program committee member "
+  ],
+  [
    "conference participant",
    "is parent of",
    "early registered participant "
-  ]
- },
- {
-  "ekaw#Person": [
+  ],
+  [
    "conference participant",
    "is parent of",
-   "demo chair "
-  ]
- },
- {
-  "ekaw#Person": [
+   "program committee chair "
+  ],
+  [
    "conference participant",
    "is parent of",
    "late registered participant "
-  ]
- },
- {
-  "ekaw#Person": [
+  ],
+  [
    "conference participant",
    "is parent of",
-   "presenter"
+   "presenter "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "organizing committee member"
   ]
- },
- {
-  "ekaw#Accepted_Paper": [
+ ],
+ "ekaw#Accepted_Paper": [
+  [
    "accepted paper",
    "is parent of",
    "evaluated paper "
-  ]
- },
- {
-  "ekaw#Accepted_Paper": [
+  ],
+  [
    "evaluated paper",
    "is parent of",
    "assigned paper "
-  ]
- },
- {
-  "ekaw#Accepted_Paper": [
+  ],
+  [
    "evaluated paper",
    "is parent of",
    "rejected paper "
-  ]
- },
- {
-  "ekaw#Accepted_Paper": [
+  ],
+  [
    "assigned paper",
    "is parent of",
    "submitted paper"
   ]
- },
- {
-  "ekaw#Rejected_Paper": [
+ ],
+ "ekaw#Rejected_Paper": [
+  [
    "rejected paper",
    "is parent of",
    "evaluated paper "
-  ]
- },
- {
-  "ekaw#Rejected_Paper": [
+  ],
+  [
    "evaluated paper",
    "is parent of",
    "assigned paper "
-  ]
- },
- {
-  "ekaw#Rejected_Paper": [
+  ],
+  [
    "evaluated paper",
    "is parent of",
    "accepted paper "
-  ]
- },
- {
-  "ekaw#Rejected_Paper": [
+  ],
+  [
    "assigned paper",
    "is parent of",
    "submitted paper"
   ]
- },
- {
-  "ekaw#Evaluated_Paper": [
+ ],
+ "ekaw#Evaluated_Paper": [
+  [
    "evaluated paper",
    "is parent of",
    "assigned paper "
-  ]
- },
- {
-  "ekaw#Evaluated_Paper": [
+  ],
+  [
+   "evaluated paper",
+   "is parent of",
+   "accepted paper "
+  ],
+  [
    "evaluated paper",
    "is parent of",
    "rejected paper "
-  ]
- },
- {
-  "ekaw#Evaluated_Paper": [
-   "evaluated paper",
-   "is parent of",
-   "accepted paper "
-  ]
- },
- {
-  "ekaw#Evaluated_Paper": [
+  ],
+  [
    "assigned paper",
    "is parent of",
    "submitted paper"
   ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
+ ],
+ "ekaw#Camera_Ready_Paper": [
+  [
    "camera ready paper",
    "is parent of",
    "paper "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
    "document "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
-   "conference paper "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
+   "workshop paper "
+  ],
+  [
    "paper",
    "is parent of",
    "industrial paper "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
-   "paper",
-   "is parent of",
-   "regular paper "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
+  ],
+  [
    "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Camera_Ready_Paper": [
-   "document",
-   "is parent of",
-   "web site"
-  ]
- },
- {
-  "ekaw#Positive_Review": [
-   "positive review",
    "is parent of",
    "review "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
-   "review",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
-   "review",
-   "is parent of",
-   "negative review "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
-   "review",
-   "is parent of",
-   "neutral review "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
+  ],
+  [
    "document",
    "is parent of",
    "programme brochure "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
+  ],
+  [
    "document",
    "is parent of",
    "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract"
   ]
- },
- {
-  "ekaw#Positive_Review": [
+ ],
+ "ekaw#Positive_Review": [
+  [
+   "positive review",
+   "is parent of",
+   "review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "neutral review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "negative review"
+  ]
+ ],
+ "ekaw#Workshop_Paper": [
+  [
+   "workshop paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "industrial paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
    "document",
    "is parent of",
    "abstract "
-  ]
- },
- {
-  "ekaw#Positive_Review": [
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
    "document",
    "is parent of",
    "flyer"
   ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "workshop paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "paper",
-   "is parent of",
-   "demo paper "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "paper",
-   "is parent of",
-   "conference paper "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Workshop_Paper": [
-   "document",
-   "is parent of",
-   "programme brochure"
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
+ ],
+ "ekaw#Industrial_Paper": [
+  [
    "industrial paper",
    "is parent of",
    "paper "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
    "document "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "paper",
-   "is parent of",
-   "regular paper "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "paper",
-   "is parent of",
-   "submitted paper "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Industrial_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume"
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "industrial paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "submitted paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "camera ready paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "conference paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "regular paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "workshop paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "poster paper "
-  ]
- },
- {
-  "ekaw#Paper": [
-   "paper",
-   "is parent of",
-   "demo paper"
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "conference paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "paper",
-   "is parent of",
-   "workshop paper "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "paper",
-   "is parent of",
-   "submitted paper "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "paper",
-   "is parent of",
-   "poster paper "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
    "demo paper "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
+  ],
+  [
    "document",
    "is parent of",
    "multi author volume "
-  ]
- },
- {
-  "ekaw#Conference_Paper": [
+  ],
+  [
    "document",
    "is parent of",
-   "programme brochure"
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer"
   ]
- },
- {
-  "ekaw#Industrial_Session": [
+ ],
+ "ekaw#Paper": [
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "demo paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "regular paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "industrial paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "poster paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "conference paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "submitted paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "workshop paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "camera ready paper"
+  ]
+ ],
+ "ekaw#Conference_Paper": [
+  [
+   "conference paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "workshop paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "industrial paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "ekaw#Industrial_Session": [
+  [
    "industrial session",
    "is parent of",
    "conference session "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
+  ],
+  [
    "conference session",
    "is parent of",
    "session "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
+  ],
+  [
    "session",
    "is parent of",
    "scientific event "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "session",
-   "is parent of",
-   "regular session "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "session",
-   "is parent of",
-   "demo session "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "scientific event",
-   "is parent of",
-   "workshop "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "scientific event",
-   "is parent of",
-   "conference "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "scientific event",
-   "is parent of",
-   "track "
-  ]
- },
- {
-  "ekaw#Industrial_Session": [
-   "scientific event",
-   "is parent of",
-   "individual presentation"
-  ]
- },
- {
-  "ekaw#Conference_Session": [
-   "conference session",
-   "is parent of",
-   "session "
-  ]
- },
- {
-  "ekaw#Conference_Session": [
-   "conference session",
-   "is parent of",
-   "industrial session "
-  ]
- },
- {
-  "ekaw#Conference_Session": [
-   "session",
-   "is parent of",
-   "scientific event "
-  ]
- },
- {
-  "ekaw#Conference_Session": [
+  ],
+  [
    "session",
    "is parent of",
    "poster session "
-  ]
- },
- {
-  "ekaw#Conference_Session": [
+  ],
+  [
    "session",
    "is parent of",
    "demo session "
-  ]
- },
- {
-  "ekaw#Conference_Session": [
-   "session",
-   "is parent of",
-   "regular session"
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "regular session",
-   "is parent of",
-   "session "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "session",
-   "is parent of",
-   "scientific event "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "session",
-   "is parent of",
-   "conference session "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "event "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "scientific event",
-   "is parent of",
-   "conference "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "scientific event",
-   "is parent of",
-   "track "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "individual presentation "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "scientific event",
-   "is parent of",
-   "workshop "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "conference session",
-   "is parent of",
-   "industrial session "
-  ]
- },
- {
-  "ekaw#Regular_Session": [
-   "event",
-   "is parent of",
-   "social event"
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "poster session",
-   "is parent of",
-   "session "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "session",
-   "is parent of",
-   "scientific event "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "session",
-   "is parent of",
-   "demo session "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "session",
-   "is parent of",
-   "workshop session "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "session",
-   "is parent of",
-   "regular session "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "session",
-   "is parent of",
-   "conference session "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "scientific event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "scientific event",
-   "is parent of",
-   "track "
-  ]
- },
- {
-  "ekaw#Poster_Session": [
-   "scientific event",
-   "is parent of",
-   "individual presentation"
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "demo session",
-   "is parent of",
-   "session "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "session",
-   "is parent of",
-   "scientific event "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "session",
-   "is parent of",
-   "regular session "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "scientific event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "scientific event",
-   "is parent of",
-   "workshop "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
-   "scientific event",
-   "is parent of",
-   "track "
-  ]
- },
- {
-  "ekaw#Demo_Session": [
+  ],
+  [
    "scientific event",
    "is parent of",
    "conference"
   ]
- },
- {
-  "ekaw#Session": [
+ ],
+ "ekaw#Conference_Session": [
+  [
+   "conference session",
+   "is parent of",
+   "session "
+  ],
+  [
+   "conference session",
+   "is parent of",
+   "industrial session "
+  ],
+  [
    "session",
    "is parent of",
    "scientific event "
-  ]
- },
- {
-  "ekaw#Session": [
-   "session",
-   "is parent of",
-   "poster session "
-  ]
- },
- {
-  "ekaw#Session": [
-   "session",
-   "is parent of",
-   "conference session "
-  ]
- },
- {
-  "ekaw#Session": [
-   "scientific event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "ekaw#Session": [
-   "scientific event",
-   "is parent of",
-   "individual presentation "
-  ]
- },
- {
-  "ekaw#Session": [
-   "session",
-   "is parent of",
-   "workshop session "
-  ]
- },
- {
-  "ekaw#Session": [
+  ],
+  [
    "session",
    "is parent of",
    "demo session "
-  ]
- },
- {
-  "ekaw#Session": [
+  ],
+  [
    "session",
    "is parent of",
-   "regular session"
+   "poster session"
   ]
- },
- {
-  "ekaw#Abstract": [
+ ],
+ "ekaw#Regular_Session": [
+  [
+   "regular session",
+   "is parent of",
+   "session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "scientific event "
+  ],
+  [
+   "session",
+   "is parent of",
+   "demo session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "poster session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "conference session "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "workshop "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "track"
+  ]
+ ],
+ "ekaw#Poster_Session": [
+  [
+   "poster session",
+   "is parent of",
+   "session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "scientific event "
+  ],
+  [
+   "session",
+   "is parent of",
+   "regular session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "workshop session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "conference session "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "track"
+  ]
+ ],
+ "ekaw#Demo_Session": [
+  [
+   "demo session",
+   "is parent of",
+   "session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "scientific event "
+  ],
+  [
+   "session",
+   "is parent of",
+   "workshop session "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "track"
+  ]
+ ],
+ "ekaw#Session": [
+  [
+   "session",
+   "is parent of",
+   "regular session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "workshop session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "poster session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "demo session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "conference session "
+  ],
+  [
+   "session",
+   "is parent of",
+   "scientific event "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "track "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "individual presentation "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "conference "
+  ],
+  [
+   "scientific event",
+   "is parent of",
+   "workshop "
+  ],
+  [
+   "event",
+   "is parent of",
+   "social event"
+  ]
+ ],
+ "ekaw#Abstract": [
+  [
    "abstract",
    "is parent of",
    "document "
-  ]
- },
- {
-  "ekaw#Abstract": [
+  ],
+  [
    "abstract",
    "is parent of",
    "invited talk abstract "
-  ]
- },
- {
-  "ekaw#Abstract": [
+  ],
+  [
    "abstract",
    "is parent of",
    "tutorial abstract "
-  ]
- },
- {
-  "ekaw#Abstract": [
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
    "document",
    "is parent of",
    "multi author volume "
-  ]
- },
- {
-  "ekaw#Abstract": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Abstract": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Abstract": [
+  ],
+  [
    "document",
    "is parent of",
    "programme brochure "
-  ]
- },
- {
-  "ekaw#Abstract": [
-   "document",
-   "is parent of",
-   "flyer"
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Document": [
-   "review",
-   "is parent of",
-   "positive review "
-  ]
- },
- {
-  "ekaw#Document": [
-   "review",
-   "is parent of",
-   "neutral review "
-  ]
- },
- {
-  "ekaw#Document": [
-   "review",
-   "is parent of",
-   "negative review "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Document": [
-   "document",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "multi author volume",
-   "is parent of",
-   "proceedings "
-  ]
- },
- {
-  "ekaw#Document": [
-   "paper",
-   "is parent of",
-   "regular paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "paper",
-   "is parent of",
-   "submitted paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "paper",
-   "is parent of",
-   "workshop paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "paper",
-   "is parent of",
-   "industrial paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "paper",
-   "is parent of",
-   "demo paper "
-  ]
- },
- {
-  "ekaw#Document": [
-   "proceedings",
-   "is parent of",
-   "conference proceedings"
-  ]
- },
- {
-  "ekaw#Paper_Author": [
-   "paper author",
-   "is parent of",
-   "person "
-  ]
- },
- {
-  "ekaw#Paper_Author": [
-   "person",
-   "is parent of",
-   "agency staff member "
-  ]
- },
- {
-  "ekaw#Paper_Author": [
-   "person",
-   "is parent of",
-   "possible reviewer "
-  ]
- },
- {
-  "ekaw#Paper_Author": [
-   "person",
-   "is parent of",
-   "student "
-  ]
- },
- {
-  "ekaw#Paper_Author": [
-   "person",
-   "is parent of",
-   "conference participant"
-  ]
- },
- {
-  "ekaw#Conference_Trip": [
-   "conference trip",
-   "is parent of",
-   "social event "
-  ]
- },
- {
-  "ekaw#Conference_Trip": [
-   "social event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "ekaw#Conference_Trip": [
-   "social event",
-   "is parent of",
-   "conference banquet "
-  ]
- },
- {
-  "ekaw#Conference_Trip": [
-   "event",
-   "is parent of",
-   "scientific event"
-  ]
- },
- {
-  "ekaw#Social_Event": [
-   "social event",
-   "is parent of",
-   "event "
-  ]
- },
- {
-  "ekaw#Social_Event": [
-   "social event",
-   "is parent of",
-   "conference trip "
-  ]
- },
- {
-  "ekaw#Social_Event": [
-   "event",
-   "is parent of",
-   "scientific event "
-  ]
- },
- {
-  "ekaw#Social_Event": [
-   "social event",
-   "is parent of",
-   "conference banquet"
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "tutorial abstract",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "abstract",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "abstract",
-   "is parent of",
-   "invited talk abstract "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "document",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Tutorial_Abstract": [
-   "document",
-   "is parent of",
-   "programme brochure"
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "person "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "session chair "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "program committee chair "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "early registered participant "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "person",
-   "is parent of",
-   "possible reviewer "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "person",
-   "is parent of",
-   "student "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "person",
-   "is parent of",
-   "paper author "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "person",
-   "is parent of",
-   "agency staff member "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "session chair",
-   "is parent of",
-   "program committee member "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "demo chair "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "presenter "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "tutorial chair "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "organizing committee member "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "late registered participant "
-  ]
- },
- {
-  "ekaw#Conference_Participant": [
-   "conference participant",
-   "is parent of",
-   "workshop chair"
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "submitted paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "submitted paper",
-   "is parent of",
-   "assigned paper "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "paper",
-   "is parent of",
-   "regular paper "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "paper",
-   "is parent of",
-   "camera ready paper "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "assigned paper",
-   "is parent of",
-   "evaluated paper "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Submitted_Paper": [
-   "document",
-   "is parent of",
-   "review"
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "assigned paper",
-   "is parent of",
-   "submitted paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "assigned paper",
-   "is parent of",
-   "evaluated paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "submitted paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "evaluated paper",
-   "is parent of",
-   "rejected paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "evaluated paper",
-   "is parent of",
-   "accepted paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "paper",
-   "is parent of",
-   "demo paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "paper",
-   "is parent of",
-   "poster paper "
-  ]
- },
- {
-  "ekaw#Assigned_Paper": [
-   "paper",
-   "is parent of",
-   "conference paper"
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "negative review",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "review",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "review",
-   "is parent of",
-   "neutral review "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "review",
-   "is parent of",
-   "positive review "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "document",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Negative_Review": [
-   "document",
-   "is parent of",
-   "multi author volume"
-  ]
- },
- {
-  "ekaw#Review": [
-   "review",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Review": [
-   "review",
-   "is parent of",
-   "neutral review "
-  ]
- },
- {
-  "ekaw#Review": [
-   "review",
-   "is parent of",
-   "positive review "
-  ]
- },
- {
-  "ekaw#Review": [
-   "review",
-   "is parent of",
-   "negative review "
-  ]
- },
- {
-  "ekaw#Review": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Review": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Review": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Review": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Review": [
-   "document",
-   "is parent of",
-   "multi author volume"
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "neutral review",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "review",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "review",
-   "is parent of",
-   "negative review "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "review",
-   "is parent of",
-   "positive review "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "document",
-   "is parent of",
-   "flyer "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Neutral_Review": [
+  ],
+  [
    "document",
    "is parent of",
    "paper"
   ]
- },
- {
-  "ekaw#Organising_Agency": [
+ ],
+ "ekaw#Document": [
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume"
+  ]
+ ],
+ "ekaw#Paper_Author": [
+  [
+   "paper author",
+   "is parent of",
+   "person "
+  ],
+  [
+   "person",
+   "is parent of",
+   "student "
+  ],
+  [
+   "person",
+   "is parent of",
+   "possible reviewer "
+  ],
+  [
+   "person",
+   "is parent of",
+   "agency staff member "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ]
+ ],
+ "ekaw#Conference_Trip": [
+  [
+   "conference trip",
+   "is parent of",
+   "social event "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "conference banquet "
+  ],
+  [
+   "event",
+   "is parent of",
+   "scientific event"
+  ]
+ ],
+ "ekaw#Social_Event": [
+  [
+   "social event",
+   "is parent of",
+   "event "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "conference trip "
+  ],
+  [
+   "social event",
+   "is parent of",
+   "conference banquet "
+  ],
+  [
+   "event",
+   "is parent of",
+   "scientific event"
+  ]
+ ],
+ "ekaw#Tutorial_Abstract": [
+  [
+   "tutorial abstract",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "abstract",
+   "is parent of",
+   "document "
+  ],
+  [
+   "abstract",
+   "is parent of",
+   "invited talk abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ]
+ ],
+ "ekaw#Conference_Participant": [
+  [
+   "conference participant",
+   "is parent of",
+   "person "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "demo chair "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "early registered participant "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "tutorial chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "possible reviewer "
+  ],
+  [
+   "person",
+   "is parent of",
+   "agency staff member "
+  ],
+  [
+   "person",
+   "is parent of",
+   "student "
+  ],
+  [
+   "person",
+   "is parent of",
+   "paper author "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "workshop chair "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "organizing committee member "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "late registered participant "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "session chair "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "program committee chair "
+  ],
+  [
+   "workshop chair",
+   "is parent of",
+   "program committee member "
+  ],
+  [
+   "organizing committee member",
+   "is parent of",
+   "organizing committee chair "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "presenter "
+  ],
+  [
+   "presenter",
+   "is parent of",
+   "invited speaker"
+  ]
+ ],
+ "ekaw#Submitted_Paper": [
+  [
+   "submitted paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "submitted paper",
+   "is parent of",
+   "assigned paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "poster paper "
+  ],
+  [
+   "assigned paper",
+   "is parent of",
+   "evaluated paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "ekaw#Assigned_Paper": [
+  [
+   "assigned paper",
+   "is parent of",
+   "submitted paper "
+  ],
+  [
+   "assigned paper",
+   "is parent of",
+   "evaluated paper "
+  ],
+  [
+   "submitted paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "evaluated paper",
+   "is parent of",
+   "accepted paper "
+  ],
+  [
+   "evaluated paper",
+   "is parent of",
+   "rejected paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "poster paper"
+  ]
+ ],
+ "ekaw#Negative_Review": [
+  [
+   "negative review",
+   "is parent of",
+   "review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "document "
+  ],
+  [
+   "review",
+   "is parent of",
+   "neutral review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "positive review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site"
+  ]
+ ],
+ "ekaw#Review": [
+  [
+   "review",
+   "is parent of",
+   "document "
+  ],
+  [
+   "review",
+   "is parent of",
+   "positive review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "negative review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "neutral review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer"
+  ]
+ ],
+ "ekaw#Neutral_Review": [
+  [
+   "neutral review",
+   "is parent of",
+   "review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "document "
+  ],
+  [
+   "review",
+   "is parent of",
+   "negative review "
+  ],
+  [
+   "review",
+   "is parent of",
+   "positive review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume"
+  ]
+ ],
+ "ekaw#Organising_Agency": [
+  [
    "organising agency",
    "is parent of",
    "organisation "
-  ]
- },
- {
-  "ekaw#Organising_Agency": [
+  ],
+  [
    "organisation",
    "is parent of",
    "proceedings publisher "
-  ]
- },
- {
-  "ekaw#Organising_Agency": [
+  ],
+  [
    "organisation",
    "is parent of",
    "academic institution"
   ]
- },
- {
-  "ekaw#Academic_Institution": [
+ ],
+ "ekaw#Academic_Institution": [
+  [
    "academic institution",
    "is parent of",
    "organisation "
-  ]
- },
- {
-  "ekaw#Academic_Institution": [
-   "academic institution",
-   "is parent of",
-   "research institute "
-  ]
- },
- {
-  "ekaw#Academic_Institution": [
+  ],
+  [
    "academic institution",
    "is parent of",
    "university "
-  ]
- },
- {
-  "ekaw#Academic_Institution": [
-   "organisation",
-   "is parent of",
-   "proceedings publisher "
-  ]
- },
- {
-  "ekaw#Academic_Institution": [
-   "organisation",
-   "is parent of",
-   "organising agency"
-  ]
- },
- {
-  "ekaw#Organisation": [
+  ],
+  [
    "organisation",
    "is parent of",
    "organising agency "
-  ]
- },
- {
-  "ekaw#Organisation": [
+  ],
+  [
    "organisation",
    "is parent of",
    "proceedings publisher "
-  ]
- },
- {
-  "ekaw#Organisation": [
-   "organisation",
-   "is parent of",
-   "academic institution"
-  ]
- },
- {
-  "ekaw#Proceedings_Publisher": [
-   "proceedings publisher",
-   "is parent of",
-   "organisation "
-  ]
- },
- {
-  "ekaw#Proceedings_Publisher": [
-   "organisation",
-   "is parent of",
-   "academic institution "
-  ]
- },
- {
-  "ekaw#Proceedings_Publisher": [
-   "organisation",
-   "is parent of",
-   "organising agency "
-  ]
- },
- {
-  "ekaw#Proceedings_Publisher": [
-   "academic institution",
-   "is parent of",
-   "university "
-  ]
- },
- {
-  "ekaw#Proceedings_Publisher": [
+  ],
+  [
    "academic institution",
    "is parent of",
    "research institute"
   ]
- },
- {
-  "ekaw#Poster_Paper": [
+ ],
+ "ekaw#Organisation": [
+  [
+   "organisation",
+   "is parent of",
+   "organising agency "
+  ],
+  [
+   "organisation",
+   "is parent of",
+   "academic institution "
+  ],
+  [
+   "organisation",
+   "is parent of",
+   "proceedings publisher"
+  ]
+ ],
+ "ekaw#Proceedings_Publisher": [
+  [
+   "proceedings publisher",
+   "is parent of",
+   "organisation "
+  ],
+  [
+   "organisation",
+   "is parent of",
+   "academic institution "
+  ],
+  [
+   "organisation",
+   "is parent of",
+   "organising agency "
+  ],
+  [
+   "academic institution",
+   "is parent of",
+   "research institute "
+  ],
+  [
+   "academic institution",
+   "is parent of",
+   "university"
+  ]
+ ],
+ "ekaw#Poster_Paper": [
+  [
    "poster paper",
    "is parent of",
    "paper "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
    "document "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
-   "conference paper "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "paper",
-   "is parent of",
-   "industrial paper "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "document",
-   "is parent of",
-   "web site "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Poster_Paper": [
-   "document",
-   "is parent of",
-   "flyer"
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "regular paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "paper",
-   "is parent of",
-   "document "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "paper",
-   "is parent of",
-   "industrial paper "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "paper",
-   "is parent of",
-   "workshop paper "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "document",
-   "is parent of",
-   "multi author volume "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "document",
-   "is parent of",
-   "abstract "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "document",
-   "is parent of",
-   "programme brochure "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "document",
-   "is parent of",
-   "review "
-  ]
- },
- {
-  "ekaw#Regular_Paper": [
-   "document",
-   "is parent of",
-   "flyer"
-  ]
- },
- {
-  "ekaw#Demo_Paper": [
-   "demo paper",
-   "is parent of",
-   "paper "
-  ]
- },
- {
-  "ekaw#Demo_Paper": [
+   "submitted paper "
+  ],
+  [
    "paper",
    "is parent of",
    "camera ready paper "
-  ]
- },
- {
-  "ekaw#Demo_Paper": [
+  ],
+  [
    "paper",
    "is parent of",
-   "conference paper "
+   "industrial paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "submitted paper",
+   "is parent of",
+   "assigned paper"
   ]
- },
- {
-  "ekaw#Demo_Paper": [
+ ],
+ "ekaw#Regular_Paper": [
+  [
+   "regular paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "demo paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "submitted paper "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure "
+  ],
+  [
+   "document",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ]
+ ],
+ "ekaw#Demo_Paper": [
+  [
+   "demo paper",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "document "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "poster paper "
+  ],
+  [
    "paper",
    "is parent of",
    "regular paper "
-  ]
- },
- {
-  "ekaw#Demo_Paper": [
-   "paper",
+  ],
+  [
+   "document",
    "is parent of",
-   "workshop paper "
-  ]
- },
- {
-  "ekaw#Demo_Paper": [
-   "paper",
+   "review "
+  ],
+  [
+   "document",
    "is parent of",
-   "submitted paper"
+   "multi author volume "
+  ],
+  [
+   "document",
+   "is parent of",
+   "flyer "
+  ],
+  [
+   "document",
+   "is parent of",
+   "web site "
+  ],
+  [
+   "document",
+   "is parent of",
+   "programme brochure"
   ]
- }
-]
+ ]
+}
