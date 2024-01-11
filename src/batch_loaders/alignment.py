@@ -31,6 +31,9 @@ class Alignment:
     def __repr__(self):
         return "({}#{}, {}#{}, {})".format(self.source_onto, self.id1, self.target_onto, self.id2, self.label)
 
+    def to_tuple(self):
+        return (self.source_onto + '#' + self.id1, self.target_onto + '#' + self.id2, self.label)
+
     def __hash__(self):
         
         if self.source_onto < self.target_onto:

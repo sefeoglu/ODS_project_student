@@ -170,6 +170,17 @@ class TrainPipeline:
         loader = self.model.loader_type(**self.loader_config, walk_config=self.train_walks)
 
         """
+        #save alignments to json
+        alignments = loader.get_batch_alignments(0)
+        #print(alignments[0].to_tuple())
+        #print(type(alignments[0]))
+        import json
+        json_data = json.dumps([obj.to_tuple() for obj in alignments], indent=1)
+        with open('alignments.json', 'w') as json_file:
+            json_file.write(json_data)
+        """
+
+        """
         optim = Adam(self.model.parameters(), lr=lr)
 
         for epoch in range(epochs):
