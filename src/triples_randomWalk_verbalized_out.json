@@ -1,0 +1,128 @@
+[
+    {
+        "confOf#Trip": "The child of a social event is the child of a working event and a workshop."
+    },
+    {
+        "confOf#Banquet": "The banquet is the child of a social event which is the parent of the reception."
+    },
+    {
+        "confOf#Reception": "The child of a social event is the child of a trip."
+    },
+    {
+        "confOf#Social_event": "The social event is the parent of the reception and the banquet. It is also the parent of the submission event and the reception."
+    },
+    {
+        "confOf#Event": "The social event is the parent of the reception and the administrative event. The workshop and the work event are also parents of the working event."
+    },
+    {
+        "confOf#Contribution": "The poster and the short paper are both contributions."
+    },
+    {
+        "ekaw#Event": "The social event is the parent of the conference trip, the scientific event is the parent of the individual presentation and the invited talk."
+    },
+    {
+        "ekaw#Person": "The child of a conference participant is the child of a workshop chair. The child is the parent of a paper author and a possible reviewer. The child is the parent of a program committee member and the program committee chair."
+    },
+    {
+        "ekaw#Accepted_Paper": "The accepted paper is the child of the evaluated paper and the parent of the rejected paper."
+    },
+    {
+        "ekaw#Rejected_Paper": "The rejected paper is the child of the evaluated paper and the accepted paper."
+    },
+    {
+        "ekaw#Evaluated_Paper": "The evaluation paper is the child of assigned paper and rejected paper. The paper is also the child of submitted paper and accepted paper. The paper is also the child of the programme brochure."
+    },
+    {
+        "ekaw#Camera_Ready_Paper": "The camera ready paper is a child of paper and a document."
+    },
+    {
+        "ekaw#Positive_Review": "The positive review is a child of the document review which is the parent of the poster paper."
+    },
+    {
+        "ekaw#Workshop_Paper": "The workshop paper is a child of paper. It is the parent of the submitted paper, the assigned paper and the evaluated paper. The rejected paper is also the parent of the submitted paper."
+    },
+    {
+        "ekaw#Industrial_Paper": "Industrial paper is a child of document."
+    },
+    {
+        "ekaw#Paper": "The paper is the parent of both the industrial paper and the conference paper. It is the parent of both the submitted paper and the assigned paper. The paper is also the parent of the accepted paper and the workshop paper. The paper is also the parent of the neutral review paper."
+    },
+    {
+        "ekaw#Conference_Paper": "The conference paper is the child of the poster paper."
+    },
+    {
+        "ekaw#Industrial_Session": "The industrial session is the child of the conference session. The conference banquet is also the parent of the social event which is also a child of the scientific event."
+    },
+    {
+        "ekaw#Conference_Session": "The conference session is the parent of both the scientific event and the industrial session."
+    },
+    {
+        "ekaw#Regular_Session": "The regular session is child of the scientific event which is the parent of the workshop."
+    },
+    {
+        "ekaw#Poster_Session": "The poster session is the child of the scientific event which is the parent of the conference."
+    },
+    {
+        "ekaw#Demo_Session": "The demo session is the child of the conference session and the industrial session."
+    },
+    {
+        "ekaw#Session": "The session is the child of a scientific event. It is also the parent of a conference session, a demo session, and a poster session. It is also the parent of a conference session and an industrial session."
+    },
+    {
+        "ekaw#Abstract": "The abstract is the child of the flyer, the tutorial abstract and the invited talk abstract."
+    },
+    {
+        "ekaw#Document": "The document is the parent of both the review and the neutral review. It is also the parent of the flyer, the abstract and the tutorial abstract."
+    },
+    {
+        "ekaw#Paper_Author": "The paper author is a child of the person who is the parent of the conference participant and the session chair."
+    },
+    {
+        "ekaw#Conference_Trip": "The conference trip is the child of the social event which is the parent of the conference banquet."
+    },
+    {
+        "ekaw#Social_Event": "The social event is the parent of the conference banquet and the conference trip. It is also the child of the scientific event."
+    },
+    {
+        "ekaw#Tutorial_Abstract": "The abstract of a tutorial is a child of the flyer."
+    },
+    {
+        "ekaw#Conference_Participant": "The conference participant is the parent of the demo chair, the session chair and the tutorial chair. The student is the child of the workshop chair and the program committee member is the child of the possible reviewer."
+    },
+    {
+        "ekaw#Submitted_Paper": "The paper submitted is the child of poster paper, the paper assigned is the parent of the evaluated paper and the paper rejected."
+    },
+    {
+        "ekaw#Assigned_Paper": "The assigned paper is the parent of both the evaluated paper and the accepted paper. The paper is also the child of the document which is the parent of the neutral review."
+    },
+    {
+        "ekaw#Negative_Review": "The negative review is the child of the review which is the parent of the multi author volume."
+    },
+    {
+        "ekaw#Review": "Review is the parent of both the negative review and the positive review. It is also the parent of the abstract and the tutorial abstract."
+    },
+    {
+        "ekaw#Neutral_Review": "The neutral review is the parent of the positive review."
+    },
+    {
+        "ekaw#Organising_Agency": "The organising agency is a child of the organisation which is parented by an academic institution."
+    },
+    {
+        "ekaw#Academic_Institution": "The academic institution is parented by the organising agency, the research institute and the university."
+    },
+    {
+        "ekaw#Organisation": "The parent organisation of the proceedings publisher is the organising agency. The organising agency is the parent organisation of the academic institution, the university and the proceedings publisher."
+    },
+    {
+        "ekaw#Proceedings_Publisher": "The proceedings publisher is a child of the organisation which is parented by the organising agency."
+    },
+    {
+        "ekaw#Poster_Paper": "The poster paper is a child of paper which is also a child of a document."
+    },
+    {
+        "ekaw#Regular_Paper": "The parent of the camera ready paper is paper which is the child of the regular paper."
+    },
+    {
+        "ekaw#Demo_Paper": "Demo paper is a child of paper which is parented by both submitted paper and assigned paper. Evaluated paper is also parented by rejected paper."
+    }
+]
