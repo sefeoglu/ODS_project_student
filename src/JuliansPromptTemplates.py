@@ -38,7 +38,7 @@ def JPrompt(promptCounter = -1):
         for i in range(len(triples)):
             prompt.append('\n' + JPrompt(i))
     else:
-        prompt = problemDefinition + objective + '\n'
+        prompt = problemDefinition + '\n' + objective + '\n'
         key1 = triples[promptCounter][0]
         key2 = triples[promptCounter][1]
         onto1, node1 = key1.split("#")
@@ -48,10 +48,10 @@ def JPrompt(promptCounter = -1):
         context = formatContext()
         cont1 = context.get(key1)
         cont2 = context.get(key2)
-        prompt += f'{cont1}\n' if (cont1 != None) else ''
-        prompt += f'{cont2}\n' if (cont2 != None) else ''
+        prompt += f'{key1}: {cont1}\n' if (cont1 != None) else ''
+        prompt += f'{key2}: {cont2}\n' if (cont2 != None) else ''
             
-        prompt += f'Is the concept "{node1}" the same as the concept "{node2}"? Answer: yes or no'
+        prompt += f'Is the concept "{node1}" the same as the concept "{node2}"? yes or no:'
         
     return prompt
 
