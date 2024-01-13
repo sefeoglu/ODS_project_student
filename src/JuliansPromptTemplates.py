@@ -51,7 +51,7 @@ def JPrompt(promptCounter = -1):
         prompt += f'{key1}: {cont1}\n' if (cont1 != None) else ''
         prompt += f'{key2}: {cont2}\n' if (cont2 != None) else ''
             
-        prompt += f'Is the concept "{node1}" the same as the concept "{node2}"? yes or no:'
+        prompt += f'Does the concept "{node1}" correspond to the concept "{node2}"? yes or no:'
         
     return prompt
 
