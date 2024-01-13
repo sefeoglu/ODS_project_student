@@ -1,7 +1,7 @@
 import json
 
 problemDefinition = 'In this task, we are given two ontologies in the form of <Subject> is <relation> of <Object>, which consist of classes and properties.'
-objective = 'Our objective is to provide ontology mapping for the provided ontologie based on their semantic similarities.'
+objective = 'Our objective is to provide ontology mapping for the provided ontologies based on their semantic similarities.'
 #importing data1
 def importTriples(json_file_path = 'alignments.json'):
     with open(json_file_path, 'r') as file:
@@ -28,6 +28,7 @@ def JPrompt(promptCounter = -1):
         prompt = f'Is the concept "{tuples[promptCounter][0]}" the same as the concept "{tuples[promptCounter][1]}" yes or no?'
     return prompt
 
+"""
 def JPrompt2(promptCounter = -1):
     tuples = groupTriples()
     prompt = ''
@@ -40,6 +41,8 @@ def JPrompt2(promptCounter = -1):
         prompt += f"({tuples[promptCounter][0]}, {tuples[promptCounter][1]})"
         prompt += '\n\n' + objective
     return prompt
+
+"""
 
 """
 #prepare some prompts from GPT paper: https://disi.unitn.it/~pavel/om2023/papers/om2023_STpaper1.pdf
