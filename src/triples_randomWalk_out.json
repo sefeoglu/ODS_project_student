@@ -1,0 +1,128 @@
+[
+    {
+        "confOf#Trip": "A social event is a social event that can be held at a reception."
+    },
+    {
+        "confOf#Banquet": "The banquet is a social event, as is a working event. A conference is also a working event."
+    },
+    {
+        "confOf#Reception": "A social event is a reception and a banquet is also a social event."
+    },
+    {
+        "confOf#Social_event": "<unk> is a social event, which includes a reception, banquet and a trip. It is also an administrative event. It also includes a submission event."
+    },
+    {
+        "confOf#Event": "The social event is a social event that can take place on a trip. It also includes a working event, a tutorial event and an administrative event."
+    },
+    {
+        "confOf#Contribution": "<unk> is a short paper that can be used as a contribution to a poster."
+    },
+    {
+        "ekaw#Event": "The social event of the year is the conference banquet. The scientific event is the workshop."
+    },
+    {
+        "ekaw#Person": "The agency staff member and the paper author are both members of the program committee. The program committee chair is the <unk> conference participant and the program committee chair is the program committee chair."
+    },
+    {
+        "ekaw#Accepted_Paper": "The program brochure contains the following: <unk> accepted paper; <unk> evaluated paper; <unk> assigned paper; <unk> submitted paper; <unk> submitted paper."
+    },
+    {
+        "ekaw#Rejected_Paper": "The rejected paper is categorized as \"evaluated paper\", \"assigned paper\", \"submitted paper\" and \"demo paper\"."
+    },
+    {
+        "ekaw#Evaluated_Paper": "The paper evaluated is the same as the paper accepted and the paper rejected. The paper is classified as \"industrial paper\". The paper is assigned to the paper and the paper submitted is the same."
+    },
+    {
+        "ekaw#Camera_Ready_Paper": "<unk> is a type of paper that is camera ready and can be used as a flyer."
+    },
+    {
+        "ekaw#Positive_Review": "<unk> is a positive review and a negative review is also a review."
+    },
+    {
+        "ekaw#Workshop_Paper": "The abstract of a workshop paper is \"tutorial abstract\" and can be found in the document \"Workshop paper\"."
+    },
+    {
+        "ekaw#Industrial_Paper": "<unk> is a type of paper that is used in the production of a multi author volume."
+    },
+    {
+        "ekaw#Paper": "<unk> is a document that can be found in the programme brochure. It can also be found in the workshop, as well as in the poster paper."
+    },
+    {
+        "ekaw#Conference_Paper": "<unk> is a conference paper."
+    },
+    {
+        "ekaw#Industrial_Session": "<unk> is a session of the industrial session and the scientific event. <unk> is a session of the conference session and <unk> is a session of the scientific event."
+    },
+    {
+        "ekaw#Conference_Session": "<unk> is a scientific event which is held in conjunction with a conference session. It is also known as an industrial session."
+    },
+    {
+        "ekaw#Regular_Session": "The regular session is <unk> and the poster session is also a session."
+    },
+    {
+        "ekaw#Poster_Session": "<unk> is a session of a scientific event where an individual presentation is made and a contributed talk is given."
+    },
+    {
+        "ekaw#Demo_Session": "<unk> is a session that is part of a scientific event and is a demo session."
+    },
+    {
+        "ekaw#Session": "<unk> is a scientific event. <unk> is a social event. <unk> is a conference banquet. <unk> is a regular session. <unk> is a social event. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session. <unk> is a conference session."
+    },
+    {
+        "ekaw#Abstract": "The abstract of a paper (submitted) is a tutorial abstract. The paper is evaluated and accepted. The invited talk abstract is a tutorial abstract."
+    },
+    {
+        "ekaw#Document": "The document \"Program brochure\" and \"web site\" contain the following: \"Review\" and \"positive review\". The multi author volume and the conference proceedings."
+    },
+    {
+        "ekaw#Paper_Author": "The paper author is a person who is a participant in a conference."
+    },
+    {
+        "ekaw#Conference_Trip": "The conference trip is a social event, as is the conference banquet."
+    },
+    {
+        "ekaw#Social_Event": "The social event of the year is the conference banquet and the conference trip. It is also the event of the scientific event which is a track event."
+    },
+    {
+        "ekaw#Tutorial_Abstract": "<unk> is the abstract of a tutorial and can be found in a document called a flyer."
+    },
+    {
+        "ekaw#Conference_Participant": "The conference participant is invited to speak at the conference. The session chair is the session chair and the student is the conference participant. The program committee chair is a member of the program committee and a possible reviewer is a possible reviewer."
+    },
+    {
+        "ekaw#Submitted_Paper": "Submitted paper is categorized as a regular paper, assigned paper is considered a paper and accepted paper is also considered a submitted paper."
+    },
+    {
+        "ekaw#Assigned_Paper": "The assignment of paper is based on the following: <unk> submitted paper; <unk> camera ready paper; <unk> evaluated paper; and <unk> rejected paper."
+    },
+    {
+        "ekaw#Negative_Review": "<unk> is a negative review, as is a positive review."
+    },
+    {
+        "ekaw#Review": "Review of a programme brochure is a document that can be found under the heading ''Program brochure''. Positive review is a review which is categorized as ''neutral review''."
+    },
+    {
+        "ekaw#Neutral_Review": "<unk> is a neutral review."
+    },
+    {
+        "ekaw#Organising_Agency": "The organising agency is <unk> and the organisation is > an academic institution."
+    },
+    {
+        "ekaw#Academic_Institution": "The organising agency for academic institutions is the organising agency for academic institutions. The research institute is the academic institution and the university is the academic institution."
+    },
+    {
+        "ekaw#Organisation": "The organising agency for proceedings publisher is the organisation > the academic institution is the university."
+    },
+    {
+        "ekaw#Proceedings_Publisher": "The proceedings publisher is a organising agency."
+    },
+    {
+        "ekaw#Poster_Paper": "Poster paper is a type of document."
+    },
+    {
+        "ekaw#Regular_Paper": "The paper \"regular\" is a conference paper."
+    },
+    {
+        "ekaw#Demo_Paper": "Demo paper is a type of paper that can be used as a substitute for industrial paper."
+    }
+]

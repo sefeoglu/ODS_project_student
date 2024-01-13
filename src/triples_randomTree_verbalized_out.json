@@ -1,0 +1,128 @@
+[
+    {
+        "confOf#Trip": "The parent of a social event is a banquet, a social event, a working event and an administrative event."
+    },
+    {
+        "confOf#Banquet": "The parent of a social event is a banquet. It is also the parent of a trip, an administrative event and a working event."
+    },
+    {
+        "confOf#Reception": "The receptionist is the parent of the social event, the trip, the administrative event and the working event."
+    },
+    {
+        "confOf#Social_event": "The social event is the parent of the banquet, the reception and the administrative event. It is also the parent of the trip."
+    },
+    {
+        "confOf#Event": "The social event is the parent of the working event, the conference and the reception. The event is also the parent of the registration of participants and the submission event. The event is also the parent of the review results event."
+    },
+    {
+        "confOf#Contribution": "The short paper and the poster are both contributions."
+    },
+    {
+        "ekaw#Event": "The parent of a scientific event is a social event. It is the parent of a conference, a conference banquet and a conference trip. It is also the parent of a workshop and an invited talk."
+    },
+    {
+        "ekaw#Person": "The parents of conference participants are the agency staff member and the presenter. They are the parents of the early registered participant and the late registered participant. They are the parents of the program committee chair and the presenter. They are also the parents of the paper author and the student."
+    },
+    {
+        "ekaw#Accepted_Paper": "The accepted paper is the parent of the evaluated paper, the assigned paper is the parent of the rejected paper and the submitted paper is the parent of the evaluated paper."
+    },
+    {
+        "ekaw#Rejected_Paper": "The rejected paper is the parent of the evaluated paper, the assigned paper is the parent of accepted paper and the submitted paper is the parent of evaluated paper."
+    },
+    {
+        "ekaw#Evaluated_Paper": "The assigned paper is the parent of the evaluated paper, the accepted paper and the submitted paper."
+    },
+    {
+        "ekaw#Camera_Ready_Paper": "The document is the parent of the programme brochure, the web site and the multi author volume. It is also the parent of the workshop paper and the industrial paper."
+    },
+    {
+        "ekaw#Positive_Review": "The positive review is the parent of the neutral review and the negative review."
+    },
+    {
+        "ekaw#Workshop_Paper": "The paper is the parent of the workshop paper and the flyer. It is also the parent of the industrial paper, the web site, the abstract and the multi author volume."
+    },
+    {
+        "ekaw#Industrial_Paper": "The paper used in the production of the programme brochure and flyer is the parent of both the demo paper and the industrial paper."
+    },
+    {
+        "ekaw#Paper": "The paper is the parent of both the demo and the submitted papers. It is also the parent of the web site and the conference paper. It is also the parent of the abstract and programme brochure. It is also the parent of the conference paper and the workshop paper."
+    },
+    {
+        "ekaw#Conference_Paper": "The conference paper is the parent of both the workshop paper and the industrial paper. It is also the parent of the flyer, the multi author volume, the review document and the abstract."
+    },
+    {
+        "ekaw#Industrial_Session": "The conference session is the parent of the industrial session and the scientific event. It is also the parent of the poster session, the demo session and the individual presentation."
+    },
+    {
+        "ekaw#Conference_Session": "The conference session is the parent of the industrial session, the scientific event, the demo session and the poster session."
+    },
+    {
+        "ekaw#Regular_Session": "The session is the parent of the regular session and the scientific event. It is also the parent of the workshop and the track. It is also the parent of the demo session and the poster session."
+    },
+    {
+        "ekaw#Poster_Session": "The poster session is the parent of the regular session, the workshop session and the conference session. It is also the parent of the scientific event which is also the parent of the track."
+    },
+    {
+        "ekaw#Demo_Session": "The demo session is the parent of the session of the scientific event which is also the parent of the track. The workshop session is also the parent of the scientific event."
+    },
+    {
+        "ekaw#Session": "The session is the parent of the regular session, the workshop session, the demo session, the conference session and the social event. The parent of the scientific event is the scientific event which is also the parent of the track."
+    },
+    {
+        "ekaw#Abstract": "The abstract of a document is the parent of the invited talk abstract, the tutorial abstract, the web site, the multi author volume, the programme brochure and the paper."
+    },
+    {
+        "ekaw#Document": "The document is the parent of the web site, the programme brochure, the abstract, the flyer and the multi author volume."
+    },
+    {
+        "ekaw#Paper_Author": "The paper author is the parent of a student, a possible reviewer, a staff member and a conference participant."
+    },
+    {
+        "ekaw#Conference_Trip": "The social event is the parent of the conference trip and the conference banquet. It is also the parent of the scientific event."
+    },
+    {
+        "ekaw#Social_Event": "The social event is the parent of the conference trip, the conference banquet and the scientific event."
+    },
+    {
+        "ekaw#Tutorial_Abstract": "The abstract of a tutorial is the parent of the program brochure, the flyer and the review document. It is also the parent of the invited talk abstract and the review document."
+    },
+    {
+        "ekaw#Conference_Participant": "The conference participant is the parent of the early registered participant, the demo chair, the workshop chair, the program committee chair, the organizing committee chair and the session chair. The conference participant is the parent of the invited speaker, the presenter and the presenter. The conference participant is also the parent of the student and the paper author."
+    },
+    {
+        "ekaw#Submitted_Paper": "The parent of a submitted paper is a poster paper. It is also the parent of an evaluated paper. It is also the parent of a flyer and a review. It is also the parent of a web site and an abstract."
+    },
+    {
+        "ekaw#Assigned_Paper": "The assigned paper is the parent of the submitted paper, the evaluated paper, the accepted paper and the rejected paper. The poster paper is also the parent of the assigned paper."
+    },
+    {
+        "ekaw#Negative_Review": "The document is the parent of the flyer, the abstract, the programme brochure and the web site. Both the negative and the positive reviews are parented by the same document."
+    },
+    {
+        "ekaw#Review": "The document is the parent of the programme brochure, the abstract and flyer. The document is the parent of the programme brochure and is the parent of both the positive and the negative reviews."
+    },
+    {
+        "ekaw#Neutral_Review": "The document is the parent of the programme brochure, the flyer, and the multi author volume. The document is also the parent of the abstract and the neutral review."
+    },
+    {
+        "ekaw#Organising_Agency": "The organising agency is parented by the proceedings publisher and the academic institution."
+    },
+    {
+        "ekaw#Academic_Institution": "The academic institution is the parent of the university and the research institute. It is also the parent of the organising agency and the proceedings publisher."
+    },
+    {
+        "ekaw#Organisation": "The parent organisation of proceedings publisher is the organising agency and the academic institution."
+    },
+    {
+        "ekaw#Proceedings_Publisher": "The publisher of proceedings is the parent organisation of the academic institution, the organising agency, the research institute and the university."
+    },
+    {
+        "ekaw#Poster_Paper": "The paper is the parent of the poster, the programme brochure and the assigned paper. It is also the parent of the web site and the abstracted document."
+    },
+    {
+        "ekaw#Regular_Paper": "The paper is the parent of the flyer, the programme brochure, the abstract and the web site. Paper is the parent of both the paper and the demo paper."
+    },
+    {
+        "ekaw#Demo_Paper": "The paper used to be the parent of demo paper, poster paper, regular paper, review paper, flyer, web site and programme brochure."
+    }
+]
