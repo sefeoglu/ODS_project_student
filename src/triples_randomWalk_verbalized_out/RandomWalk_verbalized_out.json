@@ -1,0 +1,1412 @@
+[
+    {
+        "confOf#Trip": "The trip is child of a social event which is the parent of a banquet or a working event."
+    },
+    {
+        "confOf#Banquet": "The banquet is a social event which is parented by the administrative event. The banquet is also a social event which is also parented by the reception."
+    },
+    {
+        "confOf#Reception": "The social event is the parent of the banquet and the reception. The reception is the child of the social event which is also the parent of the administrative event. The event is also the parent of the camera ready event."
+    },
+    {
+        "confOf#Social_event": "The social event is the parent of the banquet and reception. It is also the parent of the trip and the administrative event. It is also the parent of the camera ready event. It is also the parent of the work event and the social event is the parent of the reception."
+    },
+    {
+        "confOf#Event": "The parent of a working event is the parent of a social event. The event is also the parent of a conference and a working event. The social event is also the parent of a trip. The event is also the parent of a reviewing results event."
+    },
+    {
+        "confOf#Contribution": "Thing and short paper are both contributions. The poster and short paper are both contributions."
+    },
+    {
+        "confOf#Organization": "The parent organization of a company is the university. The university is the parent organization of a company."
+    },
+    {
+        "confOf#Person": "The child of Thing is the parent of the participant in the program committee. The chair program committee is also the parent of the participant. The assistant and the science worker are also parents of the child."
+    },
+    {
+        "confOf#Company": "The company is child of an organization which is parented by the university."
+    },
+    {
+        "confOf#University": "The university is the child of an organization which is parented by a company."
+    },
+    {
+        "confOf#Scholar": "Thing is a child of a person who is a child of a scholar."
+    },
+    {
+        "confOf#Administrator": "The administrator is the child of the person who is the parent of the author and the child of Thing."
+    },
+    {
+        "confOf#Poster": "The poster is a child of the short paper contribution and the child of Thing."
+    },
+    {
+        "confOf#Paper": "The paper is the child of the poster and the child of the Thing."
+    },
+    {
+        "confOf#Short_paper": "The short paper is a child of the poster and the parent of the short paper."
+    },
+    {
+        "confOf#Reviewing_results_event": "The review results event is a child of the administrative event. The social event is the parent of the trip and the review results event is the child of the administrative event. The event is also the parent of the camera ready event."
+    },
+    {
+        "confOf#Administrative_event": "The administrative event is the parent of the conference and the working event. It is also the parent of the registration of participants and the review of results event. It is also the parent of the conference and is also the parent of the tutorial event."
+    },
+    {
+        "confOf#Reviewing_event": "Review event is a child of the administrative event which is the parent of the registration of participants event."
+    },
+    {
+        "confOf#Registration_of_participants_event": "The registration of participants event is a child of the administrative event, which is also the parent of the working event, which is also the parent of the tutorial. The registration of participants event is also a child of the reviewing results event."
+    },
+    {
+        "confOf#Submission_event": "The submission event is a child of the administrative event which is the parent of the camera ready event. The social event is also a child of the administrative event which is also the parent of the reception."
+    },
+    {
+        "confOf#Camera_Ready_event": "The camera ready event is a child of the administrative event which is the parent of the registration of participants. The social event is also a child of the administrative event."
+    },
+    {
+        "confOf#Workshop": "The child of a working event is the child of a social event. The social event is the parent of reception and the child of a working event is the child of an administrative event. The child of a working event is also the child of a submission event."
+    },
+    {
+        "confOf#Conference": "The working event is the parent of a tutorial. It is the child of a conference which is also the child of a conference."
+    },
+    {
+        "confOf#Tutorial": "The working event is the parent of the workshop and the conference. The tutorial is the child of the working event."
+    },
+    {
+        "confOf#Working_event": "The parent of a working event is the administrative event. It is also the parent of a conference and a review event. It is also the parent of a working event which is also the parent of a working event. It is also the parent of a working event which is also the parent of a working event."
+    },
+    {
+        "confOf#Member": "The child of a participant is the child of a person who is the parent of a student. The child is also the child of a Thing."
+    },
+    {
+        "confOf#Participant": "The parent of a participant is the parent of a student and a regular participant. The child of a participant is the child of a person who is the parent of a member. The child of a participant is the child of a Thing and the parent of a student is the parent of a regular participant."
+    },
+    {
+        "confOf#Member_PC": "The child of a member program committee is the parent of a volunteer and a scholar."
+    },
+    {
+        "confOf#Chair_PC": "The chair program committee is child of a person who is the parent of a member program committee and a child of a Thing."
+    },
+    {
+        "confOf#Student": "The child of a student is the child of a regular student and a volunteer."
+    },
+    {
+        "confOf#Science_Worker": "The science worker is a child of a person who is the parent of a member of the program committee and the chair program committee."
+    },
+    {
+        "confOf#Assistant": "The assistant is a child of a person who is also a child of Thing."
+    },
+    {
+        "confOf#Volunteer": "The child of a volunteer is the parent of the author and the chair of the program committee."
+    },
+    {
+        "confOf#Regular": "Regular is a child of a participant who is the parent of a member. The regular is also a child of a member."
+    },
+    {
+        "confOf#Author": "The author of Thing is a child of a person who is also a child of Thing."
+    },
+    {
+        "ekaw#Event": "The parent of a scientific event is a conference trip. It is also the parent of a social event. The conference trip is also a social event."
+    },
+    {
+        "ekaw#Person": "The child of a program committee member and a program committee chair is the parent of a possible reviewer. The child is the parent of a paper author and a conference participant. The student is the parent of the conference participant and the early registered participant is the student. The agency staff member is also the parent of the conference participant and the child is the child of the program committee chair and the child is the child of the program committee member and the child is the child of the program committee member."
+    },
+    {
+        "ekaw#Accepted_Paper": "The accepted paper is the child of both the evaluated paper and the submitted paper. The rejected paper is the parent of the evaluated paper and the assigned paper is the child of the submitted paper."
+    },
+    {
+        "ekaw#Rejected_Paper": "The rejected paper is the parent of the accepted paper. It is also the child of the evaluated paper which is the child of the assigned paper. The paper is also the child of the submitted paper which is also the child of the evaluated paper."
+    },
+    {
+        "ekaw#Evaluated_Paper": "The evaluated paper is the parent of accepted paper and rejected paper. It is also the child of both assigned paper and submitted paper. The paper is also the parent of industrial paper."
+    },
+    {
+        "ekaw#Camera_Ready_Paper": "The document camera ready paper is the child of both paper and web site. The document is the parent of the abstract document."
+    },
+    {
+        "ekaw#Positive_Review": "The positive review is the child of the neutral review and the document flyer."
+    },
+    {
+        "ekaw#Workshop_Paper": "The multi author volume is the parent of proceedings and the workshop paper. The poster paper is also a child of the workshop paper."
+    },
+    {
+        "ekaw#Industrial_Paper": "Paper is a child of both paper and paper. It is the parent of the document, the abstract and the tutorial abstract. It is also the parent of the assigned paper and the evaluated paper."
+    },
+    {
+        "ekaw#Paper": "The paper is a child of the document flyer. It is also the parent of the workshop paper, the conference paper and the industrial paper. It is also the parent of the paper that was submitted. It is also the parent of the paper that was rejected. It is also the parent of the paper that was assigned."
+    },
+    {
+        "ekaw#Conference_Paper": "The conference paper is a child of both the workshop paper and the flyer."
+    },
+    {
+        "ekaw#Industrial_Session": "The conference session is the child of the conference session and the workshop session. The industrial session is the child of the conference session and the workshop session."
+    },
+    {
+        "ekaw#Conference_Session": "The conference session is the parent of both the poster session and the conference session. The session is also the child of the scientific event which is the parent of the track."
+    },
+    {
+        "ekaw#Regular_Session": "The regular session is the child of both the demo session and the scientific event. The social event is also a child of the regular session."
+    },
+    {
+        "ekaw#Poster_Session": "The poster session is the child of the demo session and the workshop session."
+    },
+    {
+        "ekaw#Demo_Session": "The demo session is a child of the regular session and is also the child of the scientific event. It is the parent of the individual presentation and the tutorial."
+    },
+    {
+        "ekaw#Session": "The parent of the conference session is the parent of the industrial session. The conference session is the parent of the conference and the social event is also the parent of the workshop session. The session is the child of the scientific event which is also the parent of the social event. The session is also the parent of the demo session which is also the parent of the conference session."
+    },
+    {
+        "ekaw#Abstract": "Abstract is a child of the flyer and the paper. It is also the parent of the submitted paper and the tutorial abstract. It is also the parent of the invited talk abstract."
+    },
+    {
+        "ekaw#Document": "The document is the parent of the flyer and the web site. It is also the parent of the flyer and flyer. It is also the parent of the flyer and poster paper. It is also the parent of the abstract and invited talk abstract. The review and positive review of the document is also the parent of the proceedings."
+    },
+    {
+        "ekaw#Paper_Author": "The paper author is a child of a person who is the parent of a student and a possible reviewer. The program committee member is the parent of the workshop chair and the program committee member is the program chair."
+    },
+    {
+        "ekaw#Conference_Trip": "The conference trip is a child of the social event which is the parent of the conference banquet. The conference trip is also a child of the scientific event which is also the parent of the track."
+    },
+    {
+        "ekaw#Social_Event": "The social event is the parent of the conference banquet and the conference trip. It is also the parent of the scientific event which is also the parent of the conference trip. The demo session is also a social event."
+    },
+    {
+        "ekaw#Tutorial_Abstract": "The abstract of a tutorial is a child of the invited talk abstract and the abstract of a document."
+    },
+    {
+        "ekaw#Conference_Participant": "The conference participant is a child of a student and a presenter. The presenter is a student and the invited speaker is a presenter. The conference participant is also a parent of a late registered participant. The conference participant is also a child of a program committee member and a program committee member. The program committee chair is also a child of a possible reviewer."
+    },
+    {
+        "ekaw#Submitted_Paper": "The paper submitted is the child of both the assigned paper and the evaluated paper. The paper is also the child of the flyer and is the parent of the conference paper. The paper is also the child of the paper which is also the parent of the flyer."
+    },
+    {
+        "ekaw#Assigned_Paper": "The assigned paper is the parent of both accepted paper and evaluated paper. The paper is also the parent of poster paper and is the child of both submitted paper and evaluated paper."
+    },
+    {
+        "ekaw#Negative_Review": "The negative review is the child of a review which is the parent of a positive review. The review is also the child of a review."
+    },
+    {
+        "ekaw#Review": "The positive review and the neutral review are both parented by the same person. Both review and neutral review are of the same document. The review of the programme brochure is also parented by both the positive review and the negative review."
+    },
+    {
+        "ekaw#Neutral_Review": "The neutral review is a child of the positive review. The review is also a child of the document paper which is the parent of the workshop paper."
+    },
+    {
+        "ekaw#Organising_Agency": "The organising agency is a child of the academic institution which is parented by the university and the research institute."
+    },
+    {
+        "ekaw#Academic_Institution": "The academic institution is parented by the university and the organising agency. The university is the parent of the academic institution and the organising agency is the parent of the research institute."
+    },
+    {
+        "ekaw#Organisation": "The parent organisation is the academic institution which is the parent of the research institute. The organising agency is the parent organisation of the proceedings publisher which is the parent organisation of the academic institution."
+    },
+    {
+        "ekaw#Proceedings_Publisher": "Proceedings publisher is a child of an organisation which is parented by the organising agency. The organisation is also parented by an academic institution which is parented by the university."
+    },
+    {
+        "ekaw#Poster_Paper": "The poster paper is a child of both paper and workshop paper. It is the parent of the programme brochure and is also the child of poster paper."
+    },
+    {
+        "ekaw#Regular_Paper": "Regular paper is a child of both workshop paper and poster paper."
+    },
+    {
+        "ekaw#Demo_Paper": "Demo paper is a child of both poster paper and paper. It is also a child of document paper."
+    },
+    {
+        "ekaw#Research_Institute": "The research institute is the child of the academic institution which is parented by the university. The research institute is the child of the academic institution which is the parent of the proceedings publisher."
+    },
+    {
+        "ekaw#Scientific_Event": "The scientific event is the parent of the conference and the industrial session. It is also the parent of the conference banquet. It is also the parent of the social event which is also the parent of the conference. It is also the parent of the workshop which is also the parent of the scientific event."
+    },
+    {
+        "ekaw#Invited_Talk_Abstract": "The abstract of an invited talk is a child of the tutorial abstract and is a child of a document which is parented by a web site."
+    },
+    {
+        "ekaw#Agency_Staff_Member": "The agency staff member is the child of a person who is the parent of a conference participant. The session chair is the parent of the conference participant."
+    },
+    {
+        "ekaw#Workshop_Session": "The child of a workshop session is a child of a regular session and a scientific event."
+    },
+    {
+        "ekaw#Track": "The track is child of the scientific event which is parented by the conference and the social event. The event is also the parent of the conference banquet."
+    },
+    {
+        "ekaw#Invited_Talk": "The invited talk is a child of a scientific event. The invited talk is a child of a scientific event. The invited talk is a child of a scientific event."
+    },
+    {
+        "ekaw#Workshop": "The child of a scientific event is a workshop which is the parent of a social event. The workshop is also the child of a scientific event which is the parent of a conference."
+    },
+    {
+        "ekaw#Tutorial": "The child of a social event is the parent of a conference trip. It is also the child of a scientific event which is also the child of a tutorial. The individual presentation is the child of a scientific event which is also the child of a social event."
+    },
+    {
+        "ekaw#Contributed_Talk": "The contributed talk is a child of the individual presentation and is the parent of the invited talk. The tutorial is also a child of the contributed talk."
+    },
+    {
+        "ekaw#Conference": "The conference is the child of a scientific event which is also the parent of a social event. The conference trip is also a child of a scientific event which is also the parent of a workshop."
+    },
+    {
+        "ekaw#Demo_Chair": "The demo chair is the child of a conference participant who is the parent of a paper author. The conference participant is also the child of a conference participant."
+    },
+    {
+        "ekaw#Tutorial_Chair": "The conference participant is the parent of the presenter and the invited speaker. The presenter is the presenter and the tutorial chair is the child of the conference participant. The child of the program committee member is the child of the possible reviewer. The child of the program committee member is the child of the student and the child of the program chair is the child of the program committee member."
+    },
+    {
+        "ekaw#PC_Chair": "The program committee chair is the child of the conference participant and the presenter. The child of the presenter and the invited speaker is the presenter. The child of the program committee chair is the child of the student and the child of the program committee chair. The child of the program committee chair is the child of the workshop chair and the child of the possible reviewer."
+    },
+    {
+        "ekaw#PC_Member": "The program committee chair is the parent of the student and the conference participant. The program committee member is also the parent of the session chair and the program committee chair. The program committee member is also the parent of the workshop chair and the program committee chair. The conference participant is the presenter and the invited speaker is also a presenter."
+    },
+    {
+        "ekaw#OC_Member": "The conference participant is a child of the conference chair and the program committee chair. The program committee chair is the parent of the workshop chair and the program committee chair. The program committee chair is the child of the conference participant and the program committee chair is the parent of the workshop chair. The conference participant is a child of the program committee chair and the program committee chair is the parent of the workshop chair."
+    },
+    {
+        "ekaw#Proceedings": "The multi author volume is a document that is parented to a programme brochure. It is also the child of the conference proceedings which is the parent of the conference proceedings."
+    },
+    {
+        "ekaw#Programme_Brochure": "The programme brochure is a child of two documents: the abstract and the tutorial abstract. The abstract is the parent of the submitted paper, the assigned paper and the accepted paper."
+    },
+    {
+        "ekaw#Flyer": "The flyer is child of the document review which is the parent of the positive review. The abstract of the flyer is also the parent of the invited talk abstract."
+    },
+    {
+        "ekaw#Web_Site": "The web site is the child of a document which is parented by paper. The document is also the parent of the abstract and the invited talk abstract."
+    },
+    {
+        "ekaw#Multi-author_Volume": "The multi author volume is the child of the flyer and the conference proceedings. It is also the parent of the abstract and the invited talk abstract."
+    },
+    {
+        "ekaw#Individual_Presentation": "The parent of an individual presentation is the parent of a contributed talk and a tutorial. This is a child of the scientific event which is also the parent of the conference. The event is also the parent of the workshop session."
+    },
+    {
+        "ekaw#OC_Chair": "The conference participant is the parent of a presenter. The conference chair is a child of the organizing committee member who is also a child of the conference participant."
+    },
+    {
+        "ekaw#Conference_Banquet": "The conference banquet is a social event which is parented by a conference trip. It is also a social event which is also parented by a scientific event."
+    },
+    {
+        "ekaw#Workshop_Chair": "The workshop chair is the child of a program committee member, a session chair member and a conference participant. The conference participant is the parent of the program committee member, a possible reviewer and a demo chair."
+    },
+    {
+        "ekaw#Conference_Proceedings": "The multi author volume is a document that is parented to paper. It is also the child of the conference proceedings. The abstract is the parent of the invited talk abstract."
+    },
+    {
+        "ekaw#Session_Chair": "The session chair is a child of the conference participant and the parent of the late registered participant. The program committee member is also a child of the possible reviewer. The reviewer is a child of the program committee member and the session chair is a child of the program committee member."
+    },
+    {
+        "ekaw#Early-Registered_Participant": "The early registered participant is the child of a conference participant who is the parent of a conference participant. The workshop chair is a child of a program committee member who is a child of a possible reviewer."
+    },
+    {
+        "ekaw#Late-Registered_Participant": "The late registered participant is a child of a conference participant who is also a child of a person who is the parent of an agency staff member."
+    },
+    {
+        "ekaw#University": "The university is the child of the academic institution which is parented by the research institute. It is also the child of the organisation which is the parent of the organising agency."
+    },
+    {
+        "ekaw#Possible_Reviewer": "The child of the conference participant is the child of the parent of the presenter and the invited speaker. The child of the conference participant is the child of the program committee member and the program committee chair. The program committee chair is the program committee chair and the program committee chair is the program committee chair."
+    },
+    {
+        "ekaw#Student": "The student is the child of a person who is the parent of an agency staff member. The student is also the parent of a conference participant and an early registered participant."
+    },
+    {
+        "ekaw#Invited_Speaker": "The conference participant is the parent of the session chair and the demo chair. The invited speaker is the child of the presenter and the presenter. The program committee member is the parent of the tutorial chair."
+    },
+    {
+        "ekaw#Presenter": "The presenter is the parent of the invited speaker and the conference participant. The presenter is also the parent of the paper author and the program committee member. The program committee member is also the child of a possible reviewer."
+    },
+    {
+        "ekaw#SC_Member": "The program committee chair is the parent of the conference participant who is a child of the conference participant. The program committee chair is also the parent of the tutorial chair who is a child of the conference participant. The session chair is the child of the program committee chair and the program committee chair is the parent of the program committee chair."
+    },
+    {
+        "cmt#Meta-Reviewer": "The meta reviewer is the child of the reviewer and the user. The author is the parent of the reviewer and not the reviewer."
+    },
+    {
+        "cmt#Reviewer": "The reviewer is the child of the user and the meta reviewer. The reviewer is also the child of the administrator and the conference chair. The conference chair is the parent of the chairman and the associated chair is the chairman. The co author is also the parent of the program committee chair."
+    },
+    {
+        "cmt#Decision": "The parent of the acceptance decision is the parent of the acceptance decision. The rejection decision is also the parent of the acceptance decision."
+    },
+    {
+        "cmt#Person": "The parent of the conference member and the co author is the chairman of the program committee chair. The program committee member is also the parent of the external reviewer. The co author is also the parent of the user and the conference chair."
+    },
+    {
+        "cmt#Document": "The paper is the parent of both review and meta review. It is the parent of both paper and paper full version."
+    },
+    {
+        "cmt#Conference": "Thing is the child of the conference."
+    },
+    {
+        "cmt#ConferenceChair": "The conference chair is the parent of the chairman and the chairman. The associated chair is the parent of the conference member and the reviewer is the child of the user. The chair is also the child of the program committee member who is also the parent of the conference member."
+    },
+    {
+        "cmt#ConferenceMember": "The parent of the conference chair is the chairman and the chair is the chairman. The other parents are the administrator and the reviewer. The reviewer is the parent of the meta reviewer and the reviewer is the parent of the program committee chair. The author of the book is also the author of the book."
+    },
+    {
+        "cmt#AssociatedChair": "The associated chair is the child of a conference member and a program committee member. The chairman is the parent of the associated chair and the chairman is the child of the program committee chair. The associated chair is also the child of a conference member and a program committee member."
+    },
+    {
+        "cmt#ProgramCommitteeMember": "The parent of a program committee member is the administrator. The program committee member is the parent of the user and the reviewer. The reviewer is the parent of the meta reviewer and is the child of the program committee member. The associated chair and the conference chair are both parents of the program committee member."
+    },
+    {
+        "cmt#AuthorNotReviewer": "The author is the parent of the conference chair and the conference member. The reviewer is the parent of the meta reviewer and the author is the child of the conference member and the conference chair. The user is the child of the author and the conference chair is the parent of the conference chair and the author not reviewer is the child of the conference member."
+    },
+    {
+        "cmt#ExternalReviewer": "The external reviewer is the parent of the program committee member and the meta reviewer. The conference chair is the child of the conference chair and the chairman is the child of the conference chair."
+    },
+    {
+        "cmt#Chairman": "The chairman of the program committee is the child of the associated chair and the program committee chair. The chair is the child of the conference member and the parent of the conference member. The chair is the child of the conference member and the associated chair is also the child of the program committee chair."
+    },
+    {
+        "cmt#ProgramCommitteeChair": "The program committee chair is the child of the user and the parent of the program committee member. The associated chair is the child of the conference member and the chairman is the parent of the associated chair. The user is the parent of the program committee chair and the program committee chair is the child of the chairman. The reviewer is the parent of the program committee chair and the associated chair is the child of the conference member."
+    },
+    {
+        "cmt#Acceptance": "Acceptance is the child of the parent of the rejection. The parent of the rejection is the parent of the acceptance."
+    },
+    {
+        "cmt#Rejection": "The parent of the rejection is the parent of the acceptance decision. The child of the rejection decision is the child of the acceptance decision."
+    },
+    {
+        "cmt#Review": "The document review is a child of both the paper and the full version. It is the parent of both the meta review and the paper review."
+    },
+    {
+        "cmt#Paper": "The paper is the child of the document review which is the parent of the meta review and the paper abstract. The paper is also the parent of the paper full version which is also the child of the document review."
+    },
+    {
+        "cmt#Author": "The author is the parent of a conference member, a program committee member and a co author. The reviewer and the meta reviewer are both parents of the same person. The author is the child of the user and the conference member. The co author is the parent of the co author and the author is the parent of the co author and the author is the parent of the co author."
+    },
+    {
+        "cmt#User": "The co author is the parent of the user who is the child of the conference member and the program committee member. The administrator is the parent of the user who is the child of the chairman and the reviewer. The reviewer is the parent of the meta reviewer and the reviewer is the child of the reviewer. The reviewer is the parent of the program committee member and the conference member is the child of the program committee member."
+    },
+    {
+        "cmt#Co-author": "The co author is the parent of the user and the administrator. The co author is the child of the author and not the reviewer."
+    },
+    {
+        "cmt#PaperAbstract": "The paper abstract is a child of paper, which is the parent of the full version of paper. It is also the child of the document review which is the parent of meta review."
+    },
+    {
+        "cmt#PaperFullVersion": "The paper full version is a child of paper and is the parent of the paper abstract."
+    },
+    {
+        "cmt#Administrator": "The administrator is the child of the user and the conference member. The conference chair is the parent of the conference chair and the chairman. The reviewer is the child of the conference member and the administrator is the child of the conference member."
+    },
+    {
+        "cmt#Meta-Review": "The meta review is a child of the document review which is a child of the document review. The document review is the parent of the paper full version."
+    },
+    {
+        "conference#Conference_participant": "The parent of the conference participant is the committee member who is the parent of the organizer. The conference participant is also the child of the invited speaker and the co author, the regular author and the track workshop chair. The active conference participant is the child of the committee member and the committee member is the parent of the organizer."
+    },
+    {
+        "conference#Active_conference_participant": "The active conference participant is a child of a committee member, a reviewer and a committee member. The conference contributor is a child of a person who is the parent of a conference participant. The conference participant is also a child of an invited speaker and a conference co author. The committee member is the parent of the conference organizer and the regular author is the parent of the reviewer."
+    },
+    {
+        "conference#Passive_conference_participant": "The active conference participant is the parent of the conference participant who is a child of a conference contributor. The passive conference participant is the parent of the conference participant and the active conference participant."
+    },
+    {
+        "conference#Person": "The parent of the active conference participant is the reviewer. The committee member is the parent of the organizers. The committee member is also the parent of the paid applicant and the registered applicant. The active conference participant is the child of the regular author and the contribution 1st author. The committee member is the parent of the track workshop chair and the committee member is the parent of the conference applicant."
+    },
+    {
+        "conference#Review_expertise": "Thing is a child of review expertise."
+    },
+    {
+        "conference#Submitted_contribution": "The poster is the child of both the conference contribution and the invited talk. The poster is also the child of the child of the conference contribution. The poster is also the child of the child of the conference contribution. The poster is also the child of the child of the conference contribution. The poster is also the child of the child of the conference contribution. The poster is also the child of the child of the conference contribution."
+    },
+    {
+        "conference#Reviewer": "The reviewer is a child of a person who is the parent of a committee member and the chair of a track workshop. The reviewer is also the child of a committee member and the chair."
+    },
+    {
+        "conference#Regular_author": "The active conference participant is a child of a person who is the parent of a conference participant. The conference contributor is a child of a person who is the parent of a conference participant. The conference contributor is a child of a person who is the parent of a conference participant. The conference contributor is the invited speaker and the contributor is the contributor to the contribution 1st author. The contributor to the contribution 1st author is the parent of the contributor to the contribution 1st author. The contributor to the contribution"
+    },
+    {
+        "conference#Conference_contributor": "The active conference participant is the child of the conference applicant and the registered applicant. The conference contributor is the parent of the invited speaker, the regular author, the contribution co author and the active conference participant. The track workshop chair is also a parent of the conference contributor."
+    },
+    {
+        "conference#Contribution_1th-author": "The contribution 1st author is the child of the active conference participant and the parent of the conference participant. The parent of the conference participant is the active conference participant. The regular author is the child of the active conference participant and the parent of the passive conference participant."
+    },
+    {
+        "conference#Contribution_co-author": "The contribution co author is the child of a committee member and a conference contributor. The invited speaker is the parent of the conference participant and the conference contributor is the child of the committee member and the regular author is the child of the conference contributor."
+    },
+    {
+        "conference#Conference_contribution": "The conference contribution is made by the conference document. The conference document contains the call for paper. The conference contribution is made by the conference document. The conference contribution is made by the poster, the invited talk and the extended abstract. The conference contribution is also made by the conference document. The parent of the conference contribution is the child of the poster, the child of the invited talk and the child of the reviewed contribution."
+    },
+    {
+        "conference#Co-chair": "The co chair is the child of a committee member who is the parent of the chair. The organizer of the Thing is also a child of the committee member."
+    },
+    {
+        "conference#Committee": "The committee is the parent of the steering committee and the organizing committee. The committee is also the parent of the program committee and the steering committee."
+    },
+    {
+        "conference#Committee_member": "The committee member is the parent of the reviewer and the co chair. The committee member is also the parent of the organizer and the co chair. The committee member is the parent of the conference applicant and the paid applicant. The committee member is the parent of the conference applicant and the organizer is the child of Thing."
+    },
+    {
+        "conference#Abstract": "The extended abstract is a child of both the paper and the conference contribution. It is also a child of the written contribution which is also a child of the poster."
+    },
+    {
+        "conference#Extended_abstract": "The extended abstract is the parent of both the paper and the abstract. The paper contribution is the parent of the extended abstract and the poster contribution is also the parent of the extended abstract."
+    },
+    {
+        "conference#Invited_speaker": "The invited speaker is the parent of the active conference participant, the conference contributor, the regular author and the conference contributor. The invited speaker is the child of the conference contributor and the conference contributor. The conference contributor is the parent of the conference participant and the conference participant is the conference participant's passive parent."
+    },
+    {
+        "conference#Information_for_participants": "The conference document is the parent of the conference website and the conference contribution. The information for participants is child of the conference document which is also the parent of the poster."
+    },
+    {
+        "conference#Conference_document": "The conference document is the parent of the call for paper and conference announcement. The conference document is also the parent of the call for participation. The conference document is also the parent of the conference announcement and the conference document is also the parent of the call for participation. The conference document is also the parent of the conference announcement and the conference document is also the parent of the call for participation. The conference document is also the parent of the conference announcement and the conference document is also the parent of the information for participants."
+    },
+    {
+        "conference#Organization": "Thing is an organization that is parented by the organizer who is the child of the organizer."
+    },
+    {
+        "conference#Regular_contribution": "The paper contribution is a regular contribution. It is also the parent of the invited talk and the conference contribution. It is also the parent of the extended abstract which is the extended abstract. It is also the parent of the reviewed contribution which is also the parent of the accepted contribution."
+    },
+    {
+        "conference#Poster": "The poster is the child of both the conference contribution and the invited talk. It is parented by both the written contribution and the submitted contribution. Both the conference contribution and the invited talk are also children of the poster."
+    },
+    {
+        "conference#Written_contribution": "The conference contribution is the child of the invited talk and the presentation. The written contribution is the child of the poster and the conference contribution is the child of the conference contribution. The written contribution is the parent of the conference contribution and the paper contribution is the child of the conference contribution."
+    },
+    {
+        "conference#Conference_applicant": "The child of a conference applicant is a child of a person who is the parent of a reviewer. The child of a conference applicant is a child of a registered applicant and a paid applicant. The child of a late paid applicant is a child of a registered applicant and a child of a registered applicant."
+    },
+    {
+        "conference#Camera_ready_contribution": "The camera ready contribution is the child of the accepted contribution and the reviewed contribution. The reviewed contribution is the parent of the rejected contribution."
+    },
+    {
+        "conference#Accepted_contribution": "The accepted contribution is the parent of both the reviewed contribution and the camera ready contribution. The review contribution is the parent of the regular contribution and the accepted contribution is the child of the rejected contribution."
+    },
+    {
+        "conference#Program_committee": "The program committee is the child of committees which include the organizing committee, the steering committee and the program committee."
+    },
+    {
+        "conference#Organizing_committee": "The organizing committee is the child of the committee which is the parent of the program committee and the steering committee."
+    },
+    {
+        "conference#Steering_committee": "The steering committee is the child of the committee which is the parent of the committee which is the organizing committee."
+    },
+    {
+        "conference#Conference_volume": "The conference volume is the child of the conference."
+    },
+    {
+        "conference#Conference": "The conference volume is the parent of the conference."
+    },
+    {
+        "conference#Call_for_paper": "The conference document is the parent of the call for paper, the conference contribution and the invited talk. The conference contribution is the child of the conference document and the call for paper is the child of the conference contribution."
+    },
+    {
+        "conference#Conference_announcement": "The conference announcement is a child of conference document which is parented by conference www and is the parent of conference document which is also parented by conference document review."
+    },
+    {
+        "conference#Paper": "The paper is the parent of the written contribution and the regular contribution. The extended abstract is also the parent of the extended abstract."
+    },
+    {
+        "conference#Invited_talk": "The conference contribution is the parent of the invited talk which is the child of the presentation. The conference contribution is the child of the written contribution which is the parent of the submitted contribution."
+    },
+    {
+        "conference#Conference_part": "The conference part is the parent of both the workshop and the tutorial. It is also the parent of the track and the workshop."
+    },
+    {
+        "conference#Presentation": "The conference contribution is the parent of the poster and the invited talk. The written contribution is the parent of the invited talk and the conference contribution is the parent of the poster. The poster is the child of the conference contribution and the written contribution is the child of the regular contribution."
+    },
+    {
+        "conference#Chair": "The chair of a committee is a child of a committee member who is also a child of a committee member."
+    },
+    {
+        "conference#Track": "The track is child of the conference part and the parent of the workshop."
+    },
+    {
+        "conference#Workshop": "The conference part of the workshop is the parent of track and the conference part of the workshop."
+    },
+    {
+        "conference#Tutorial": "The workshop is the parent of the conference part and the tutorial is child of the conference part."
+    },
+    {
+        "conference#Rejected_contribution": "The rejected contribution is the parent of the reviewed contribution and the accepted contribution. The reviewed contribution is the parent of the camera ready contribution and is also the child of the regular contribution which is also the child of the paper contribution."
+    },
+    {
+        "conference#Reviewed_contribution": "The parent of the conference contribution is the parent of the conference contribution. The conference contribution is also the parent of the poster. The conference contribution is also the parent of the conference contribution. The conference contribution is also the parent of the conference contribution. The reviewed contribution is the parent of the accepted contribution and the camera ready contribution. The reviewed contribution is the child of the conference contribution and the written contribution is also the child of the conference contribution."
+    },
+    {
+        "conference#Review": "Review is a child of conference document which is parented to call for paper."
+    },
+    {
+        "conference#Late_paid_applicant": "The late paid applicant is the child of the paid applicant and the parent of the early paid applicant."
+    },
+    {
+        "conference#Paid_applicant": "The paid applicant is the parent of the late paid applicant and the registered applicant. The registered applicant is the child of the conference applicant and the conference participant. The conference participant is a passive conference participant. The paid applicant is the child of the conference participant and the registered applicant is the parent of the reviewer."
+    },
+    {
+        "conference#Early_paid_applicant": "The late paid applicant is the child of the paid applicant and the child of the paid applicant. The late paid applicant is the parent of the late paid applicant."
+    },
+    {
+        "conference#Organizer": "The parent of the conference applicant is the registered applicant. The late paid applicant is also a parent of the paid applicant. The child of the committee member is the child of the chair and the committee member is the child of the committee member."
+    },
+    {
+        "conference#Call_for_participation": "The conference document is the parent of the conference contribution, the written contribution and the regular contribution. The conference contribution is the parent of the conference document which is the parent of the conference document. The conference document is the parent of the conference review and the call for participation is the child of the conference document."
+    },
+    {
+        "conference#Registeered_applicant": "The child of a conference applicant is the child of a person who is a parent of a committee member, a co chair and a committee member. The child of a registered applicant is the child of a late paid applicant and a conference applicant. The child of a registered applicant is the child of a conference applicant and a conference applicant."
+    },
+    {
+        "conference#Track-workshop_chair": "The track workshop chair is the child of a person who is the parent of a conference contributor and a registered applicant. The registered applicant is the parent of a paid applicant and the early paid applicant is the parent of the paid applicant. The regular author is also a parent of the track workshop chair."
+    },
+    {
+        "conference#Conference_www": "Conference www is the child of conference document and conference announcement. It is the parent of the conference contribution which is written and the poster is the child of the conference contribution. The regular contribution is also the child of the conference announcement."
+    },
+    {
+        "conference#Review_preference": "Thing is a child of review preference."
+    },
+    {
+        "iasted#Presenter_house": "The presenter house is a child of the building which is the parent of the conference hotel."
+    },
+    {
+        "iasted#Building": "The building is the parent of the presenter house, the conference restaurant and the presenter university. The building is also the parent of the presenter house and the conference restaurant. The building is also the parent of the single hotel room and the presenter house. The building is also the parent of the sponsor company house."
+    },
+    {
+        "iasted#Presenter_state": "The presenter state is a child of the conference state and the parent state of the presenter state."
+    },
+    {
+        "iasted#Delegate": "The delegate is the parent of a student and a non speaker. The delegate is also the parent of a session chair and a iasted member. The delegate is also the parent of a technical committee. The delegate is also the parent of a hotel presenter and a non speaker."
+    },
+    {
+        "iasted#Presenter_city": "The presenter city is a child of the city of Thing and the parent city of the sponsor city."
+    },
+    {
+        "iasted#Hotel_registration_form": "The hotel registration form is a child of the document \"Record of attendance\". It is also a child of the document \"Transparency\" which is the parent of the hotel registration form."
+    },
+    {
+        "iasted#Deadline_hotel_reservation": "The parent of the trip day is the child of the deadline for hotel reservation which is also the child of the deadline."
+    },
+    {
+        "iasted#Form": "The parent of the registration form is the author information form. The registration form is also the parent of the hotel registration form and the brief introduction for session chair."
+    },
+    {
+        "iasted#Car": "The car is a child of the transport vehicle, which is also the parent of the taxi and shuttle bus."
+    },
+    {
+        "iasted#Transport_vehicle": "The parent of a transport vehicle is the parent of a taxi, a shuttle bus and a van. The transport vehicle is also the parent of an invitation letter. The parent of a transport vehicle is the parent of an audiovisual equipment."
+    },
+    {
+        "iasted#Mailing_list": "The mailing list is a document that is child of the card, credit card and hotel registration forms. The mailing list is also child of the mailing list."
+    },
+    {
+        "iasted#Document": "The document is the parent of the mailing list, the mailing list, and the registration form. It is also the parent of the book proceeding, the book submission and the initial manuscript. It is also the parent of the payment document which is also the parent of the bank transfer."
+    },
+    {
+        "iasted#Renting": "The parent of the full day tour is the parent of the activity after conference. The activity before conference is the child of the parent of the conference activity. The activity before conference is the child of the parent of the introduction activity."
+    },
+    {
+        "iasted#Activity_before_conference": "The parent of the conference activity is the parent of the conference activity. The conference activity includes a coffee break. The activity before conference is also the parent of the research and modelling activities. The parent of the rental activity is the parent of the conference activity and the parent of the acceptance of manuscript."
+    },
+    {
+        "iasted#Dinner_banquet": "The dinner banquet is a child of the social program of the conference activity. The conference activity is preceded by the activity before conference and the activity before conference. The parent of the conference activity is the accepting of manuscript."
+    },
+    {
+        "iasted#One_day_presenter": "One day presenter is child of delegate who is parent of technical committee. Delegate is child of person."
+    },
+    {
+        "iasted#Social_program": "The social program is part of the conference activity which is parented by the registration and dinner banquet. The social program is also part of the conference activity which is also the parent of the dinner banquet."
+    },
+    {
+        "iasted#Activity": "The parent of both the full day tour and the conference activity is the parent of the full day tour. Research and modelling are involved in the full day tour. The lecture and speaker lecture are part of the conference activity. The welcome address is also a part of the conference activity."
+    },
+    {
+        "iasted#Person": "The delegate is the parent of the delegate and the session chair. The delegate is the parent of the non speaker and the worker non speaker."
+    },
+    {
+        "iasted#PowerPoint_presentation": "Power point presentation is a child of conference activity which is parented by the social program and the dinner banquet. Power point presentation is a child of conference activity which is also parented by the technical activity."
+    },
+    {
+        "iasted#Presentation": "The parent of a conference activity is a lecturer, the parent of a plenary lecture and the parent of a power point presentation. Both presentations are part of the conference activity and are part of the conference activity before the conference."
+    },
+    {
+        "iasted#Conference_restaurant": "The main office and the conference restaurant are both located in the same building. The building is the child of the conference hall and the conference restaurant."
+    },
+    {
+        "iasted#Conference_city": "Thing is a child of conference city which is the child of conference city."
+    },
+    {
+        "iasted#Conference_state": "The conference state is the child of the sponsor state and the child of the conference state."
+    },
+    {
+        "iasted#Submissions_deadline": "The submissions deadline is child of the conference days and the parent of the conference days. The submissions deadline is also child of the conference days."
+    },
+    {
+        "iasted#Deadline": "The deadline for registering is the parent of the conference days and the submissions deadline. The parent of the trip day is the parent of the hotel reservation and the deadline for a camera ready manuscript."
+    },
+    {
+        "iasted#Simulating": "Simulating is a child of research which is parented to modelling. Research is the child of the activity before conference and the simulating is the child of research."
+    },
+    {
+        "iasted#Research": "Research is child of both the activity before conference and the activity before conference. It is parented by both the simulating of research and the modelling of research."
+    },
+    {
+        "iasted#Technic_activity": "The parent of the conference activity is the introduction of the speaker. The activity after the conference and the full day tour is also part of the conference activity."
+    },
+    {
+        "iasted#Conference_activity": "The parent of the conference activity is the parent of the welcome address, the presentation of power point presentation and the registration of the conference activity. The conference activity is followed by the activity before conference and the activity after conference. The parent of the cocktail reception is the parent of the registration and the activity after conference."
+    },
+    {
+        "iasted#Technical_commitee": "The child of a delegate is the child of a delegate who is the parent of a one day presenter. The child of a technical committee is a delegate who is a child of a person."
+    },
+    {
+        "iasted#Place": "The parent of the main office is the parent of the conference hall and the main office. The building is the parent of the presenter university and the hotel room is the parent of the single hotel room and the conference hall. The parent of the conference hall is the parent of the conference hall and the main office is the parent of the conference hall."
+    },
+    {
+        "iasted#Author_cd_proceedings_included": "The author of the cd proceedings included is the child of the speaker and the delegate. The delegate is the parent of the one day presenter and the author is the child of the speaker and the tutor speaker."
+    },
+    {
+        "iasted#Author": "The author is the parent of the lecturer and the student lecturer. The delegate is the parent of the one day presenter and the lecturer is the parent of the reviewer. The author is the parent of the author of the cd proceedings included in the plenary lecture speaker."
+    },
+    {
+        "iasted#Cd_proceening": "cd proceeding is a child of publication which is parented by book proceeding."
+    },
+    {
+        "iasted#Trip_day": "One conference day is a trip day and the other is a conference day. The trip day is a child of conference days and the parent of one conference day is the trip day."
+    },
+    {
+        "iasted#Time": "The parent of conference days is the parent of one conference day and the trip day. The deadline for submissions is the submissions deadline and the parent of conference days is the parent of one conference day."
+    },
+    {
+        "iasted#Record_of_attendance": "The record of attendance is child of the form registration form and the document invitation letter."
+    },
+    {
+        "iasted#Listener": "The listener is a child of the delegate who is the parent of the iasted non member. The listener is a child of the delegate who is the parent of the iasted non member."
+    },
+    {
+        "iasted#Session_room": "Thing is a child of the session room which is also a child of the session room."
+    },
+    {
+        "iasted#Brief_introduction_for_Session_chair": "The brief introduction for session chair is child of the document brief introduction for session chair. The document is parented to the publication of book proceeding."
+    },
+    {
+        "iasted#Session_chair": "The delegate is the parent of the listener and the child of the session chair. The delegate is also the parent of an iasted non member."
+    },
+    {
+        "iasted#Invitation_letter": "The lcd projector and audiovisual equipment are both parents of the lcd projector. The invitation letter is a document which is also a child of a transport vehicle."
+    },
+    {
+        "iasted#Registration_form": "The registration form is child of the document which is the parent of the brief introduction for the session chair. The registration form is also child of the document."
+    },
+    {
+        "iasted#Viza": "The parent of the registration form is the document which is the child of the document which is also the child of the document."
+    },
+    {
+        "iasted#Registration": "The parent of the conference activity is the cocktail reception. The child of the conference activity is the child of the registration. The activity after the conference is the parent of the departure."
+    },
+    {
+        "iasted#Conference_days": "The parent of one conference day is the parent of one conference day. The conference days are also the parent of one trip day. The conference days are also the parent of one conference day and the deadline is the same."
+    },
+    {
+        "iasted#Conference_building": "The conference building is the child of the building which is the parent of the presenter university. The building is also the child of the Thing."
+    },
+    {
+        "iasted#Registration_fee": "The parent of the student registration fee is the parent of the author attended book registration fee. The non-author registration fee is also the registration fee. The fee is also the parent of the member registration fee and the parent of the author attended cd registration fee. The parent of the non-author registration fee is the parent of the tip registration fee and the parent of the author attended book registration fee."
+    },
+    {
+        "iasted#Departure": "Activity after conference is a full day tour. It is a child of the activity before conference and the parent of research. Research is also a child of the activity after conference."
+    },
+    {
+        "iasted#Activity_after_conference": "The activity after conference is the parent of both the full day tour and the departure. It is the parent of the activity before conference and the child of the activity before conference. The activity after conference is the parent of the full day tour and the child of the conference activity is the parent of the departure."
+    },
+    {
+        "iasted#Conference_airport": "The main office is located in the building which is the parent of the conference airport. The conference airport is the child of the building which is the parent of the conference building."
+    },
+    {
+        "iasted#Worker_lecturer": "The student lecturer is the parent of the worker lecturer who is the child of the lecturer. The author of the cd proceedings is the parent of the lecturer who is the child of the lecturer."
+    },
+    {
+        "iasted#Lecturer": "The lecturer is the parent of the student lecturer and the worker lecturer. The lecturer is also the parent of the reviewer and the student lecturer. The author of the book is the author of the book. The lecturer is the child of the speaker and the student lecturer is the parent of the lecturer."
+    },
+    {
+        "iasted#Transparency": "Transparency is a document that is parented by the parent of the card and the credit card. It is also the child of the document which is the parent of the card."
+    },
+    {
+        "iasted#Speaker": "The delegate is the parent of the conference hiker and the reviewer. The delegate is also the parent of the sponsor and the speaker. The author is the author of the cd proceedings and the speaker is the child of the delegate."
+    },
+    {
+        "iasted#City": "The city of Thing is the parent city of the presenter city and trip city. The city is also the parent city of the presenter city and the presenter city. The city is also the parent city of the sponsor city and the city is the child of the city of Thing."
+    },
+    {
+        "iasted#Card": "The card is the parent of the credit card and the payment document. The card is also the child of the payment document."
+    },
+    {
+        "iasted#Item": "The parent of a document is the parent of a cd proceeding. The document is also the parent of a transport vehicle, a van and a lcd projector. The document is also the parent of a computer and audiovisual equipment. The parent of the cd proceeding is the parent of the book. The parent of the cd proceeding is the parent of the card and the parent of the record of attendance is the parent of the document."
+    },
+    {
+        "iasted#Author_attendee_book_registration_fee": "The non-author registration fee is the child of the author attended book registration fee. The registration fee is also the parent of the hotel fee and the author attended book registration fee."
+    },
+    {
+        "iasted#Book_proceeding": "The book proceeding is a child of the cd proceeding and the book proceeding."
+    },
+    {
+        "iasted#Video_cassette_player": "The lcd projector and the video cassette player are both children of audiovisual equipment. The latter is also the parent of the publication of a book."
+    },
+    {
+        "iasted#Audiovisual_equipment": "The parent of the audiovisual equipment is the card, the credit card, the overhead projector, the video cassette player and the lcd projector. The computer and the audiovisual equipment are also parents of the audiovisual equipment. The final manuscript is also submitted."
+    },
+    {
+        "iasted#Video_presentation": "Video presentation is a child of conference activity and is a child of presentation."
+    },
+    {
+        "iasted#Hotel_room": "The single hotel room is the parent of the double hotel room and the conference hall. The hotel room is also the parent of the conference hall and the hotel room is the parent of the conference hall."
+    },
+    {
+        "iasted#Hotel_presenter": "The delegate is the parent of the conference hiker and the hotel presenter. The delegate is also the parent of the non speaker and the worker."
+    },
+    {
+        "iasted#Conference_hotel": "The conference hotel is a child of the building which is the parent of the presenter university. The building is also the child of the Thing."
+    },
+    {
+        "iasted#Money": "The parents of sponsorship and hotel fees are the parents of money which is the parent of the tax payer. The latter is the parent of the departure tax and the hotel fee. The parents of sponsorship and hotel fees are also the parents of the tax payer."
+    },
+    {
+        "iasted#State": "The presenter state is the parent state of the conference state. The sponsor state is the presenter state and the presenter state is the presenter state."
+    },
+    {
+        "iasted#Introduction": "The introduction of a speaker is a child of the conference activity. It is also the parent of the dinner banquet, the coffee break and the introduction of the speaker."
+    },
+    {
+        "iasted#Welcome_address": "The welcome address of a conference activity is child of the cocktail reception. The conference activity is also the parent of the cocktail reception."
+    },
+    {
+        "iasted#Value_added_tax": "The value added tax is a child of both the tax and the departure tax. It is the parent of the registration fee and the non-author registration fee."
+    },
+    {
+        "iasted#Tax": "The parent of the departure tax is the parent of the value added tax. The tax is also the parent of the hotel fee and the fee for an extra trip. Both the departure tax and the value added tax are taxed."
+    },
+    {
+        "iasted#Refusing_manuscript": "The child of the activity before conference is the child of the activity before conference. The child of the activity before conference is the child of the activity before conference and the child of receiving the manuscript."
+    },
+    {
+        "iasted#Final_manuscript": "The final manuscript is a child of the submission of a document which is the parent of the publication. The final manuscript is also the child of the document."
+    },
+    {
+        "iasted#Accepting_manuscript": "Accepting manuscript is a child of both the activity before conference and the rejection of manuscript. Research is the parent of modelling and the research is also the child of accepting manuscript."
+    },
+    {
+        "iasted#Submission": "The document review is the parent of the initial manuscript and the final manuscript. It is also the parent of the brief introduction for the session chair."
+    },
+    {
+        "iasted#Sponsor_city": "The sponsor city is the parent city of the presenter city and the conference city."
+    },
+    {
+        "iasted#Sponsor": "One day presenter is a child of a person who is parented by a delegate. The delegate is the parent of the sponsor and the child is the child of the delegate."
+    },
+    {
+        "iasted#Introduction_of_speaker": "The introduction of speaker is the child of the conference activity. It is the parent of the full day tour and the conference activity after conference. The introduction of speaker is the child of the conference activity and is the parent of the coffee break."
+    },
+    {
+        "iasted#Conference_hall": "The conference hall is the child of Thing and the parent of the building."
+    },
+    {
+        "iasted#Plenary_lecture": "The plenary lecture is the child of the conference activity which is parented by the registration. It is also the child of the speaker lecture and the session."
+    },
+    {
+        "iasted#Lecture": "The lecture is part of the conference activity. It is also the parent of the plenary lecture, which is also part of the conference activity. It is also the parent of the coffee break. It is also the parent of the lecturer lecture and the lecturer lecture."
+    },
+    {
+        "iasted#Plenary_lecture_speaker": "The author of the plenary lecture is the child of the speaker who is the parent of a reviewer. The author is the child of the speaker and the speaker is the child of the speaker."
+    },
+    {
+        "iasted#LCD_projector": "The lcd projector is a child of audiovisual equipment which is the parent of the video cassette player."
+    },
+    {
+        "iasted#Deadline_for_notification_of_acceptance": "The deadline for notification of acceptance is child of the submissions deadline and is also child of the conference days."
+    },
+    {
+        "iasted#Tutorial": "The child of a lecturer is the child of a conference activity. The lecturer is the parent of a video presentation. The conference activity is followed by an activity after the conference."
+    },
+    {
+        "iasted#Tutorial_speaker": "The author of the cd proceedings included in the tutorial speaker is the child of the author who is the parent of the lecturer and the student lecturer."
+    },
+    {
+        "iasted#Session": "The speaker lecture is the parent of the session which is the child of the conference activity. The lecture is the parent of the plenary lecture and the conference activity after the conference."
+    },
+    {
+        "iasted#Registation_deadline": "The registration deadline is the child of the parent who is the parent of trip day. The registration deadline is the child of the parent who is the parent of trip day."
+    },
+    {
+        "iasted#Single_hotel_room": "The single hotel room is the child of a double hotel room and a child of a Thing."
+    },
+    {
+        "iasted#Non_speaker": "The non speaker is the child of the delegate and the delegate. The delegate is the parent of the student non speaker and the worker non speaker. The student non speaker is also a child of the delegate."
+    },
+    {
+        "iasted#Author_information_form": "The author information form is the child of the document and the parent of the hotel registration form."
+    },
+    {
+        "iasted#Nonmember_registration_fee": "The non-member registration fee is the child of the member registration fee and the author attended book registration fee."
+    },
+    {
+        "iasted#IASTED_non_member": "iasted non member is a child of a delegate who is the parent of a student or a non speaker. The delegate is also the parent of a hotel presenter."
+    },
+    {
+        "iasted#Hotel_fee": "The parent of the registration fee is the parent of the hotel fee which is a child of the hotel fee. The hotel fee is also a child of the money involved in sponsorship."
+    },
+    {
+        "iasted#Fee": "The parent of the fee for extra trip is the parent of the registration fee. The registration fee is also for the author attended book registration. The fee is also for the departure tax. The parent of the fee is the parent of the tax and the hotel fee. The parent of the fee is the parent of the tip and the hotel fee."
+    },
+    {
+        "iasted#Publication": "The cd proceeding and the book proceeding are both published. The other two are the transport vehicle and the shuttle bus."
+    },
+    {
+        "iasted#Taxi": "The parent of a book proceeding is the publication of a book. The transport vehicle is a transport vehicle which is also the child of a taxi. The shuttle bus is also a transport vehicle."
+    },
+    {
+        "iasted#Sponsor_state": "The sponsor state is the child of the conference state and the presenter state."
+    },
+    {
+        "iasted#Reviewer": "The reviewer is a child of the speaker who is the parent of the author who is the author of the cd proceedings. The delegate is the parent of the sponsor and the speaker is the child of the delegate."
+    },
+    {
+        "iasted#Review": "Review is a child of document which is parented by transparency."
+    },
+    {
+        "iasted#Modelling": "Research is a part of the research that is carried out before the conference. It is also part of the research that is parented by a rejection of a manuscript."
+    },
+    {
+        "iasted#Worker_non_speaker": "The delegate is the parent of a hotel presenter and the delegate is the parent of a one day presenter. The worker non speaker is the child of the delegate and the delegate is the child of the hotel presenter."
+    },
+    {
+        "iasted#Nonauthor_registration_fee": "The non-author registration fee is the child of the parent of the author attended book registration fee and the parent of the hotel registration fee."
+    },
+    {
+        "iasted#Payment_document": "The parent of a payment document is a cheque. The payment document is also known as a bank transfer. It is also known as a registration form. The parent of audiovisual equipment is the parent of a video cassette player."
+    },
+    {
+        "iasted#Camera_ready_manuscript_deadline": "The deadline for submitting a manuscript is the parent of the deadline for notification of acceptance. The deadline for submitting a manuscript is the camera ready deadline."
+    },
+    {
+        "iasted#One_conference_day": "One conference day is a child of conference days. It is also a child of trip day. It is also a child of the deadline for a camera ready manuscript."
+    },
+    {
+        "iasted#Fee_for_extra_trip": "The fee for extra trip is child of the parent of the registration fee and the member registration fee. The fee is also child of the parent of the tax which is the parent of the value added tax."
+    },
+    {
+        "iasted#Full_day_tour": "The full day tour is a child of conference activity which is followed by a full day tour. The parent of the full day tour is the conference and the child is the parent of the departure."
+    },
+    {
+        "iasted#Conference_Hiker": "The delegate is the parent of the hotel presenter and the speaker. The delegate is also the parent of the reviewer and the speaker. The conference hike is a child of the delegate."
+    },
+    {
+        "iasted#Computer": "The parent of a transport vehicle is a van. The transport vehicle is also a child of audiovisual equipment. The computer is a child of the audiovisual equipment."
+    },
+    {
+        "iasted#IASTED_member": "The iasted member is a child of the delegate who is the parent of the conference hike."
+    },
+    {
+        "iasted#Memeber_registration_fee": "The non-member registration fee and the member registration fee are both child of the registration fee. The registration fee is also the child of the non-member registration fee and the money is the parent of the tip."
+    },
+    {
+        "iasted#Author_book_proceedings_included": "The author is the child of the speaker and the child of the delegate. The author is the child of the speaker and the author is the child of the author book proceedings."
+    },
+    {
+        "iasted#Sponsor_company_house": "The sponsor company house is the child of the conference building and the building is the parent of the conference hotel."
+    },
+    {
+        "iasted#Sponzorship": "The parent of a tip is the parent of the child who is a sponsor of money."
+    },
+    {
+        "iasted#Student_lecturer": "The student lecturer is the child of the teacher lecturer and the student lecturer. The teacher lecturer is the parent of the teacher lecturer and the student lecturer is the child of the teacher lecturer."
+    },
+    {
+        "iasted#Trip_city": "The child of a trip city is the parent of a sponsor city. The city is the child of the child of the city."
+    },
+    {
+        "iasted#Cheque": "The parent of the audiovisual equipment is the lcd projector. The cheque is a payment document which is also known as a bank transfer."
+    },
+    {
+        "iasted#Shuttle_bus": "The shuttle bus is a transport vehicle which is the parent of a van and a transport vehicle called a car."
+    },
+    {
+        "iasted#Student_non_speaker": "The student non speaker is the child of a delegate and a student who is also a child of a non speaker. The parent of a non speaker is a worker non speaker."
+    },
+    {
+        "iasted#Student_registration_fee": "The parent of the student registration fee is the author attended cd registration fee. The student registration fee is the child of the registration fee."
+    },
+    {
+        "iasted#Author_attendee_cd_registration_fee": "The author attended cd registration fee is the child of the registration fee. The registration fee is the child of the registration fee. The registration fee is the child of the fee and the money is the parent of the tax. The value added tax is also a parent of the tax."
+    },
+    {
+        "iasted#Tip": "The parent of a tip is the parent of the fee for an extra trip. The tip is also the parent of the hotel fee."
+    },
+    {
+        "iasted#Credit_card": "The credit card is the child of the card which is the parent of the publication. The card is also the child of the document which is also the parent of via."
+    },
+    {
+        "iasted#Van": "The van is a transport vehicle which is the parent of a taxi and a van is also a transport vehicle."
+    },
+    {
+        "iasted#Main_office": "The main office is child of Thing and the main office is also child of Thing."
+    },
+    {
+        "iasted#Presenter_university": "The presenter university is a child of building which is parented by a sponsor company house. The building is also a child of Thing and the presenter university."
+    },
+    {
+        "iasted#Departure_tax": "The departure tax is a child of the tax which is parented by the value added tax and the departure tax."
+    },
+    {
+        "iasted#Receiving_manuscript": "The child of receiving manuscript is the child of the activity before conference and the activity after conference. The child of receiving manuscript is the parent of the activity before conference and the child of accepting manuscript."
+    },
+    {
+        "iasted#Double_hotel_room": "The parent of a double hotel room is the sponsor company house. The hotel room is also the child of a single hotel room. The building is the parent of the sponsor company house."
+    },
+    {
+        "iasted#Initial_manuscipt": "The final manuscript is the child of the initial manuscript and the parent of the final manuscript."
+    },
+    {
+        "iasted#Coffee_break": "Coffee break is a child of the conference activity. It is also the parent of the activity before the conference and the activity before the conference. The rental activity is also a child of the conference activity."
+    },
+    {
+        "iasted#Bank_transfer": "The parent of a cheque is the bank transfer. The bank transfer is the child of the payment document and the bank transfer is the child of the payment document."
+    },
+    {
+        "iasted#Overhead_projector": "The overhead projector is a child of audiovisual equipment which is parented to the computer. The overhead projector is also a child of audiovisual equipment which is parented to the publication of a book."
+    },
+    {
+        "iasted#Speaker_lecture": "The speaker lecture is a child of a session where the lecturer is a parent of a tutorial. The lecturer is a child of a session where the lecturer is a child."
+    },
+    {
+        "iasted#Coctail_reception": "The cocktail reception is part of the conference activity. The parent of the full day tour is the parent of the full day tour. The cocktail reception is part of the conference activity."
+    },
+    {
+        "sigkdd#Hotel": "The main office is the parent of the hotel which is also the child of the conference hall."
+    },
+    {
+        "sigkdd#Place": "The main office is the parent of the hotel and the conference hall. The hotel is the parent of the conference hall and the hotel is the parent of the conference hall."
+    },
+    {
+        "sigkdd#Abstract": "The abstract is a child of the document review and the parent of the document review."
+    },
+    {
+        "sigkdd#Document": "The document is parented to the abstract and the review. The paper is the parent of the document and the paper is the parent of the abstract."
+    },
+    {
+        "sigkdd#Deadline_Abstract_Submission": "The deadline for abstract submission is the parent of the deadline paper submission and the deadline author notification."
+    },
+    {
+        "sigkdd#Best_Applications_Paper_Award": "The best applications paper award is a child of the best research paper award."
+    },
+    {
+        "sigkdd#Award": "The best applications paper award is the parent of the best student paper award. The best research paper award is also the parent of the best research paper award."
+    },
+    {
+        "sigkdd#Deadline_Paper_Submission": "The deadline for paper submission is the parent of the deadline abstract submission."
+    },
+    {
+        "sigkdd#Deadline": "The deadline for abstract submission is the parent of the deadline paper submission. The deadline is also the parent of the deadline author notification."
+    },
+    {
+        "sigkdd#Deadline_Author_notification": "The deadline author notification is child of the deadline abstract submission and is the parent of the deadline abstract submission."
+    },
+    {
+        "sigkdd#Webmaster": "The webmaster is a child of the organization which is parented by the program chair and the organizing committee member."
+    },
+    {
+        "sigkdd#Organizator": "The parent organization of the speaker is the program chair. The organization is also the parent of the general chair and the program chair. The webmaster and the program chair are both members of the organizing committee."
+    },
+    {
+        "sigkdd#Author_of_paper_student": "The author of paper is the child of the author who is the parent of the author of paper. The student is the author of paper."
+    },
+    {
+        "sigkdd#Best_Student_Paper_Award": "The best student paper award is a child of both the best research paper award and the best student paper award."
+    },
+    {
+        "sigkdd#Author": "The author of paper is the child of the speaker and the listener. The author is the parent of the invited speaker and the author of paper student."
+    },
+    {
+        "sigkdd#ACM_SIGKDD": "acm sigkdd is a child of Thing."
+    },
+    {
+        "sigkdd#Sponzor": "The sponsors of the exhibitors are the silver and bronze supporters. The best student paper supporter and the silver supporter are also sponsors."
+    },
+    {
+        "sigkdd#Exhibitor": "The sponsor of the exhibitors is the parent of the platinum supporter and the bronze supporter."
+    },
+    {
+        "sigkdd#Registration_SIGMOD_Member": "The registration signed member is a child of the registration fee which is paid by the parent of the sponsor. The registration signed member is also a child of the registration fee."
+    },
+    {
+        "sigkdd#Registration_fee": "The registration fee is for the registration of a student and a registered sigkdd member. The registration fee is also for the registration of a signed member and the registration of a registered student. The registration fee is also for the registration of a registered student and the registration fee for registration of a registered sigkdd member."
+    },
+    {
+        "sigkdd#Person": "The child of Thing is the parent of the speaker and the listener. The speaker is also the parent of the general chair and the speaker is also the parent of the program committee member. The author of paper student is also a parent of the speaker."
+    },
+    {
+        "sigkdd#Bronze_Supporter": "The bronze supporter is a child of the sponsor who is the parent of the silver supporter."
+    },
+    {
+        "sigkdd#Committee": "The committee is the parent of the organizing committee and the best paper awards committee. The committee is also the parent of the program committee and the organizing committee."
+    },
+    {
+        "sigkdd#Platinum_Supporter": "The best student paper supporter is a child of the platinum supporter and the parent of the exhibitors."
+    },
+    {
+        "sigkdd#Conference_hall": "The main office is located in the conference hall which is the child of the conference hall and the hotel."
+    },
+    {
+        "sigkdd#Best_Paper_Awards_Committee": "The best paper awards committee is a child of the committee which is parented by the organizing committee. The committee is also the child of the best paper awards committee."
+    },
+    {
+        "sigkdd#Program_Chair": "The program chair is a child of the organization Thing which is a child of the person who is the child of the organization."
+    },
+    {
+        "sigkdd#Main_office": "The main office is the parent of the hotel and the conference hall."
+    },
+    {
+        "sigkdd#Registration_Non-Member": "The registration non member is a child of the registration fee which is paid by the parent of the sponsor. The registration fee is also paid by the parent of the registered member."
+    },
+    {
+        "sigkdd#Fee": "The registration fee is the parent of the registration sigkdd member and the registration non member. The registration fee is also the parent of the sponsor fee."
+    },
+    {
+        "sigkdd#Review": "The document review is the child of the document abstract and the document review."
+    },
+    {
+        "sigkdd#Sponzor_fee": "The sponsor fee is paid by the parent of the registration fee and the registration non member. The sponsor fee is also paid by the parent of the registration fee."
+    },
+    {
+        "sigkdd#Registration_SIGKDD_Member": "The registration fee for sigkdd members is the parent of the registration signed member and the registration sigkdd member. The registration fee is also the parent of the sponsor fee."
+    },
+    {
+        "sigkdd#Program_Committee": "The program committee is a child of the committee which is parented by the organizing committee and the committee."
+    },
+    {
+        "sigkdd#General_Chair": "The general chair is a child of the organization which is parented by an organizing committee member. The person is the child of Thing and the general chair is a child of the organization."
+    },
+    {
+        "sigkdd#Speaker": "The child of a person is the child of a person who is the child of Thing and is the parent of the invited speaker. The author of paper student is also the parent of the child of the speaker who is also the child of the author of paper student."
+    },
+    {
+        "sigkdd#Gold_Supporter": "The gold supporter and the bronze supporter are both children of sponsors who are both parents of exhibitors."
+    },
+    {
+        "sigkdd#Registration_Student": "The registration student is a child of the registration fee which is paid by the parent of the sponsor. The registration student is also a child of the registration fee."
+    },
+    {
+        "sigkdd#Organizing_Committee": "The best paper awards committee is the parent of the committee which is the organizing committee. The committee is also the child of the committee which is also the parent of the program committee."
+    },
+    {
+        "sigkdd#Listener": "The listener is a child of the person who is the parent of the speaker and the invited speaker. The listener is also the child of Thing."
+    },
+    {
+        "sigkdd#Program_Committee_member": "The program committee member is a child of Thing which is a child of the organization Thing."
+    },
+    {
+        "sigkdd#Invited_Speaker": "The invited speaker is a child of a person who is the parent of a program committee member. The speaker is also the parent of the author of paper."
+    },
+    {
+        "sigkdd#Best_Research_Paper_Award": "The best research paper award is a child of both the best student paper award and the best research paper award."
+    },
+    {
+        "sigkdd#Best_Student_Paper_Supporter": "The best student paper supporter is a child of a sponsor who is the parent of a platinum supporter and a silver supporter."
+    },
+    {
+        "sigkdd#Paper": "The paper is a child of the document review and the document abstract."
+    },
+    {
+        "sigkdd#Silver_Supporter": "The silver supporter is a child of a sponsor who is the parent of the best student paper supporter."
+    },
+    {
+        "sigkdd#Organizing_Committee_member": "The organizing committee member is a child of an organization which is parented by a webmaster."
+    },
+    {
+        "sigkdd#Author_of_paper": "The author of paper is a child of a speaker and a parent of a student. The speaker is also a child of the author of paper."
+    },
+    {
+        "edas#SlideSet": "The meal menu is a slide set which is a child of a document which is also a child of paper. The withdrawn paper is also a child of the document."
+    },
+    {
+        "edas#Review": "Review is a child of document which is parented to the meal menu. It is also a child of paper which is parented to rejected paper."
+    },
+    {
+        "edas#Programme": "The meal menu is a child of the meal menu and the document is the parent of the meal menu."
+    },
+    {
+        "edas#Paper": "The paper is the parent of withdrawn paper and accepted paper. The paper is also the parent of rated papers and rejected papers. The paper is also the parent of pending papers and published papers."
+    },
+    {
+        "edas#MealMenu": "The meal menu is a child of the document meal menu which is the parent of the program and the document review."
+    },
+    {
+        "edas#Document": "The document is the parent of the meal menu and the document is the parent of the program. The document is the parent of the pending paper and the paper is the parent of the active paper and the rated paper. The document is the parent of the meal menu and the document is the parent of the slide set."
+    },
+    {
+        "edas#Topic": "The security topic is the parent of the operating topicsystems, the parallel and distributed computing topic, the cryptography topic, the test only topic and the satellite and space communications topic."
+    },
+    {
+        "edas#ConferenceEvent": "The conference event is the parent of the academic event, the paper presentation, and the reception. The dinner event is the parent of the conference dinner and the social event is the parent of the reception."
+    },
+    {
+        "edas#Call": "The call for papers and the call for reviews are both parented by the call for reviews. The call for papers is also parented by the call for manuscripts."
+    },
+    {
+        "edas#ReviewRating": "The parent of the child who received the reject rating is the parent of the child who received the accept rating. The child who received the reject rating was the parent of the child who received the accept rating. The child who received the reject rating was the parent of the child who received the accept rating."
+    },
+    {
+        "edas#Organization": "ngo is a non-profit organization which is parented by the government and the industry organizations. The ngo organization is also parented by the industry and the government organizations."
+    },
+    {
+        "edas#Conference": "The single level conference is the parent of both the two level conference and the single level conference. Thing and Thing are both children of the conference."
+    },
+    {
+        "edas#PersonalHistory": "Personal history is the parent of personal review history, personal publication history and personal review history."
+    },
+    {
+        "edas#Sponsorship": "The parent company of sponsorship is the travel grant."
+    },
+    {
+        "edas#ReviewQuestion": "The review question is the parent of the textual review question and the numerical review question."
+    },
+    {
+        "edas#Person": "The parent of the presenter and the tpc member is the parent of the conference chair and the session chair. The reviewer is also the parent of the session chair and the conference chair."
+    },
+    {
+        "edas#Place": "The parent of the conference venue, the meeting room and the dining place is the parent of the accommodation."
+    },
+    {
+        "edas#WeekRejectRating": "The review rating is the parent of the week reject rating, the review rating is the child of the review rating and the accept rating."
+    },
+    {
+        "edas#AcceptRating": "The accept rating is the parent of the review rating and the child of the reject rating. The accept rating is the parent of the review rating and the child of the accept if room rating."
+    },
+    {
+        "edas#AccpetIfRoomRating": "The parent of the review rating is the parent of the review rating which is the week reject rating. Accept if room rating is the parent of the review rating which is the week reject rating."
+    },
+    {
+        "edas#RejectRating": "The child of the review rating is the child of the accept if room rating. The child of the review rating is the parent of the week reject rating."
+    },
+    {
+        "edas#MealEvent": "The meal event is a non academic event. It is the parent of the conference dinner and the break event. It is also the child of the conference dinner."
+    },
+    {
+        "edas#NonAcademicEvent": "The non academic event is the parent of the conference event which is also the parent of the organizational meeting. It is also the parent of the break event, which is also the parent of the excursion. It is also the parent of the meal event which is also the parent of the conference dinner. It is also the parent of the dinner event which is also the parent of the conference dinner."
+    },
+    {
+        "edas#BreakEvent": "The break event is a non academic event. It is also a social event. It is also a break from the conference dinner. It is also a break from coffee break. It is also a break from the conference dinner."
+    },
+    {
+        "edas#ParallelAndDistributedComputingTopic": "The parallel and distributed computing topic is a child of both cad and parallel and distributed computing."
+    },
+    {
+        "edas#WirelessCommunicationsTopic": "The wireless communications topic is a child of computer architecture and operating topicsystems."
+    },
+    {
+        "edas#OperatingTopicsystems": "Operation topicsystems is a child of medicine and antennas."
+    },
+    {
+        "edas#ComputerNetworksTopic": "The computer networks topic is the parent of computer networks (optical) and computer networks (management). It is also the parent of computer networks and antennas."
+    },
+    {
+        "edas#SatelliteAndSpaceCommunicationsTopic": "The satellite and space communications topic is a child of both the signal processing and the operating topicsystems."
+    },
+    {
+        "edas#CADTopic": "The topic of cad is the parent of cryptography and microelectronics."
+    },
+    {
+        "edas#MultimediaTopic": "The satellite and space communications topic is a child of the multimedia topic which is also a child of the mobile computing topic."
+    },
+    {
+        "edas#CommunicationsTopic": "The topic of communications is child of the topic of medicine and is parented by the topic of communications."
+    },
+    {
+        "edas#PowerlineTransmissionTopic": "The overline transmission topic is a child of both antennas and security."
+    },
+    {
+        "edas#AntennasTopic": "The antennas topic is a child of cad and multimedia topics."
+    },
+    {
+        "edas#PerformanceTopic": "The performance topic is the child of mobile computing and microelectronics."
+    },
+    {
+        "edas#SignalProcessingTopic": "The signal processing topic is a child of the communication and performance topics."
+    },
+    {
+        "edas#MicroelectronicsTopic": "The microelectronics topic is a child of medicine and the overline transmission topic."
+    },
+    {
+        "edas#TestOnlyTopic": "Test only is a child of cad and multimedia topics."
+    },
+    {
+        "edas#RadioCommunicationsTopic": "The radio communications topic is a child of the satellite and space communications topics and the microelectronics topics."
+    },
+    {
+        "edas#ComputerArchitectureTopic": "The topic of computer architecture is child of communication theory and multimedia."
+    },
+    {
+        "edas#MedicineTopic": "The overline transmission topic is a child of medicine and the test only topic is also a child of that topic."
+    },
+    {
+        "edas#SecurityTopic": "The security topic is a child of cryptography and antennas."
+    },
+    {
+        "edas#MobileComputingTopic": "The mobile computing topic is a child of both the communications and cryptography topics."
+    },
+    {
+        "edas#CryptographyTopic": "The topic of cryptography is the parent of parallel and distributed computing and is also the parent of test only."
+    },
+    {
+        "edas#CommunicationTheoryTopic": "The communication theory topic is a child of parallel and distributed computing and is also the parent of overline transmission."
+    },
+    {
+        "edas#ConferenceChair": "The conference chair is a child of a person who is the parent of a tpc member."
+    },
+    {
+        "edas#Author": "The author is the child of the presenter and the conference chair. The author is the parent of the presenter and the reviewer."
+    },
+    {
+        "edas#DiningPlace": "The parent of the accommodation and the dining place is the conference venue."
+    },
+    {
+        "edas#Presenter": "The presenter is a child of the author who is the parent of the conference chair. The presenter is a child of the author who is the child of the person who is the presenter."
+    },
+    {
+        "edas#AcademiaOrganization": "The ngo is the parent organization of the academia organization which is the child of the industry organization and the parent organization of the ngo."
+    },
+    {
+        "edas#IndustryOrganization": "The government organization is the parent of the industry organization which is the child of the industry organization which is also the parent of the academic organization."
+    },
+    {
+        "edas#NGO": "ngo is a child of an organization which is parented by an industry organization and an academic organization."
+    },
+    {
+        "edas#GovernmentOrganization": "The government organization is parented by the ngo and the academic organization."
+    },
+    {
+        "edas#ComputerNetworksEnterpriseTopic": "The computer networks enterprise topic is the child of the computer networks topic. It is also the parent of the performance topic and is also the child of the test only topic."
+    },
+    {
+        "edas#ComputerNetworksSwitchingTopic": "The computer networks switching topic is a child of the computer networks topic. It is also the parent of the topic of computer networks management. It is also the child of the cryptography topic."
+    },
+    {
+        "edas#ComputerNetworksSensorTopic": "The computer networks sensor is a child of the computer networks topic which is also the parent of the signal processing topic. It is also the parent of the cryptography topic."
+    },
+    {
+        "edas#ComputerNetworksSecurityTopic": "Computer networks are the parent of medicine and the computer networks (security) topic. The latter is also the parent of computer networks and computer networks measurements."
+    },
+    {
+        "edas#ComputerNetworksOpticalTopic": "Computer networks is the parent of computer networks (optical) and parallel and distributed computing."
+    },
+    {
+        "edas#ComputerNetworksMeasurementsTopic": "The computer network is the parent of the security topic and is the child of the computer networks topic. It is also the child of the computer networks topic which is also the child of the computer networks."
+    },
+    {
+        "edas#ComputerNetworksManagementTopic": "The computer networks management topic is a child of the computer networks management topic. It is also the parent of the computer networks enterprise topic."
+    },
+    {
+        "edas#ComputerNetworksAapplicationsTopic": "The computer network is a topic that is related to medicine. It is also the parent of mobile computing and is the child of computer networks."
+    },
+    {
+        "edas#ActivePaper": "The active paper is the parent of rated papers and rated papers. It is also the child of the document which is the parent of the slide set."
+    },
+    {
+        "edas#PendingPaper": "pending paper is a child of rejected paper and active paper. rated papers are also children of pending paper."
+    },
+    {
+        "edas#WithdrawnPaper": "withdrawn paper is a child of both published paper and withdrawn paper."
+    },
+    {
+        "edas#RejectedPaper": "The rejected paper is the child of both published paper and accepted paper."
+    },
+    {
+        "edas#AcceptedPaper": "Accepted paper is a child of both paper and pending paper. It is also a child of a meal menu."
+    },
+    {
+        "edas#PublishedPaper": "The published paper is the child of both pending paper and published paper."
+    },
+    {
+        "edas#Attendee": "The child of the session chair and the conference chair is the child of the person who attended."
+    },
+    {
+        "edas#CoffeeBreak": "Coffee break is a break event that is parented by both meal break and coffee break."
+    },
+    {
+        "edas#FreeTimeBreak": "The free time break is the parent of the coffee break and the break event."
+    },
+    {
+        "edas#MealBreak": "The break event is a non academic event. It is also the parent of a conference dinner. It is also the parent of a free time break."
+    },
+    {
+        "edas#Reviewer": "The reviewer is a child of the author and the parent of the tpc member."
+    },
+    {
+        "edas#ClosingTalk": "The closing talk is the child of the talk event which is the parent of the welcome talk."
+    },
+    {
+        "edas#WelcomeTalk": "The welcome talk is a child of an academic event. The talk event is also a child of an academic event which is the parent of a paper presentation."
+    },
+    {
+        "edas#TalkEvent": "The talk event is the parent of the closing talk and the paper presentation. The talk event is also the parent of the closing talk and the paper presentation."
+    },
+    {
+        "edas#SessionChair": "The session chair is a child of a person who is the parent of a reviewer and the attendee."
+    },
+    {
+        "edas#TPCMember": "The tpc member is a child of a person who is the parent of a presenter and the conference chair. The author is the parent of the presenter."
+    },
+    {
+        "edas#TwoLevelConference": "The two level conference is the child of the single level conference and the conference Thing."
+    },
+    {
+        "edas#CallForPapers": "Call for papers is a child of both call for reviews and call for manuscripts."
+    },
+    {
+        "edas#TextualReviewQuestion": "The textual review question is the child of the review question and the numerical review question."
+    },
+    {
+        "edas#NumericalReviewQuestion": "The numerical review question is the child of the review question and the parent of the textual review question."
+    },
+    {
+        "edas#OrganizationalMeeting": "The organizational meeting is the child of both the academic event and the workshop. The break event is the parent of the conference event and the free time break event."
+    },
+    {
+        "edas#PaperPresentation": "Paper presentation is a child of an academic event which is parented by an organizational meeting. It is also a child of a conference event which is also parented by a break event."
+    },
+    {
+        "edas#Workshop": "The workshop is the child of an academic event which is the parent of an organizational meeting. The talk event is also the parent of the welcome talk."
+    },
+    {
+        "edas#AcademicEvent": "The conference event is the parent of the conference event. The event is also the parent of the social event which is also the parent of the excursion. The conference event is also the parent of the paper presentation and the talk event. The talk event is also the parent of the closing talk."
+    },
+    {
+        "edas#PersonalPublicationHistory": "The personal publication history is the child of both personal history and personal review history."
+    },
+    {
+        "edas#Excursion": "The excursion is a child of a social event. It is also a child of a conference event. It is also a child of a workshop. It is also a child of a non academic event. It is also a child of a reception."
+    },
+    {
+        "edas#SocialEvent": "The parent of a social event is the reception. The event is a non academic event and is also the parent of an excursion. The break event is a break event and is also the parent of a coffee break."
+    },
+    {
+        "edas#CallForReviews": "The call for reviews and the call for papers are both children of the caller."
+    },
+    {
+        "edas#PersonalReviewHistory": "The personal review history is the child of the personal publication history and the parent of the personal review history."
+    },
+    {
+        "edas#ConferenceVenuePlace": "The conference venue is the child of the parent of the dining place and the conference venue is the child of the conference venue."
+    },
+    {
+        "edas#CallForManuscripts": "call for manuscripts is a child of call for papers and is also a child of call for manuscripts."
+    },
+    {
+        "edas#Reception": "The social event is a non academic event. It is also the parent of an excursion. It is also the child of a conference event which is also a child of a social event."
+    },
+    {
+        "edas#SingleLevelConference": "The single level conference is the child of Thing and the conference is also the child of the conference Thing."
+    },
+    {
+        "edas#MeetingRoomPlace": "The meeting room is a child of the parent of the dining place and the accommodation place."
+    },
+    {
+        "edas#AccommodationPlace": "The parent of the meeting room is the parent of the accommodation place which is child of the parent of the meeting room."
+    },
+    {
+        "edas#RatedPapers": "rated papers are children of paper which is parented by published paper. The active paper is also the child of paper which is also the parent of rejected paper."
+    },
+    {
+        "edas#TravelGrant": "The travel grant is a child of sponsorship."
+    },
+    {
+        "edas#ConferenceDinner": "The conference dinner is a non academic event. It is also the parent of the paper presentation. It is also the child of the conference dinner which is a non academic event."
+    }
+]
