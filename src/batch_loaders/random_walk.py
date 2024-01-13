@@ -307,7 +307,6 @@ class RandomWalk():
         import re
         L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
         #print(L)
-        last = self.walk[1]
         rel = None
         for i, item in enumerate(L):
             if (item == '<' or item == '>'):
@@ -321,7 +320,7 @@ class RandomWalk():
                     triples[name].append((L[i-1], item, L[i+1]))
         import json
         json_data = json.dumps(triples, indent=1)
-        with open(f'triples_{walk_type}{"_verbalized" if verbalize else ""}.json', 'w') as json_file:
+        with open(f'./triplesJ/triples_{walk_type}{"_verbalized" if verbalize else ""}.json', 'w') as json_file:
             json_file.write(json_data)
         """
 
