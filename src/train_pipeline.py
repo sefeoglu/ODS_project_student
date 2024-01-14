@@ -171,7 +171,9 @@ class TrainPipeline:
 
         """
         #save alignments to json
-        alignments = loader.get_batch_alignments(0)
+        alignments = [] #loader.get_batch_alignments(0)
+        for i in range(100):
+            alignments.append(loader.interNegativeSampler.sample_distance())
         #print(alignments[0].to_tuple())
         #print(type(alignments[0]))
         import json
