@@ -8,7 +8,7 @@ def importTriples(json_file_path = 'alignments.json'):
         data = json.load(file)
     return data
 
-def importContext(json_file_path = 'triples_randomWalk_out.json'):
+def importContext(json_file_path = './triples_randomWalk_out/triples_randomWalk_out.json'):
     with open(json_file_path, 'r') as file:
         data = json.load(file)
     return data
@@ -36,13 +36,17 @@ def JPrompt(promptCounter = -1):
     if (promptCounter < 0 or promptCounter >= len(triples)):
         prompt = []
         for i in range(len(triples)):
-            prompt.append('\n' + JPrompt(i))
+            p = JPrompt(i)
+            if (len(p) > 0):
+                prompt.append('\n' + p)
     else:
         prompt = problemDefinition + '\n' + objective + '\n'
         key1 = triples[promptCounter][0]
         key2 = triples[promptCounter][1]
         onto1, node1 = key1.split("#")
         onto2, node2 = key2.split("#")
+        if (onto1 == onto2):
+            return ''
         
         #add context
         context = formatContext()
