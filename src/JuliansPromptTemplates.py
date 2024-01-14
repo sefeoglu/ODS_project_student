@@ -8,7 +8,7 @@ def importTriples(json_file_path = 'alignments.json'):
         data = json.load(file)
     return data
 
-def importContext(json_file_path = './triples_randomWalk_out/triples_randomWalk_out.json'):
+def importContext(json_file_path = './triples_randomWalk_verbalized_out/RandomWalk_verbalized_out.json'):
     with open(json_file_path, 'r') as file:
         data = json.load(file)
     return data
