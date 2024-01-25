@@ -3,7 +3,7 @@ import json
 problemDefinition = 'In this task, we are given two concepts along with their definitions from two ontologies.'
 objective = 'Our objective is to provide ontology mapping for the provided ontologies based on their semantic similarities.'
 #importing data1
-def importTriples(json_file_path = 'alignments.json'):
+def importTriples(json_file_path = './result_alignments/conference/alignments.json'):
     with open(json_file_path, 'r') as file:
         data = json.load(file)
     return data
@@ -49,7 +49,7 @@ def getPrompt1(promptCounter = -1, skipIfNoContext = True):
     if (promptCounter < 0 or promptCounter >= len(triples)):
         prompt = []
         for i in range(len(triples)):
-            p = JPrompt(i, skipIfNoContext)
+            p = getPrompt1(i, skipIfNoContext)
             if (len(p) > 0):
                 prompt.append(p)
     else:

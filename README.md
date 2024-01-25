@@ -17,6 +17,6 @@ git clone https://github.com/sefeoglu/ODS_project_student.git
 cd src
 ```
 ```python
-python3 train.py
+python3 ProjectODS.py
 
 ```

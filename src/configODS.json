@@ -1,0 +1,8 @@
+{
+	"reformatThisFile": false,
+	"resetThisFile": false,
+	"runRandomWalk": true,
+	"runRandomTree": false,
+	"saveAlignmentsToJson": true,
+	"alignmentPath": "../results/result_alignments/conference/alignments.json"
+}

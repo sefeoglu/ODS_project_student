@@ -52,7 +52,7 @@ Globals.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # MLM avec moins de MASK pour largebio
 # Pas de synonyms pour pairwise
 
-def train(tracks, extra_tracks=None, pretrained=None, candidate_selector="none", matcher="greedy", loader_config=None, 
+def train(tracks, saveAlignmentsToJson = False, alignmentsPath = 'alignments.json', extra_tracks=None, pretrained=None, candidate_selector="none", matcher="greedy", loader_config=None, 
                 pretrained_epoch="", train_walks=None, inference_walks=None, consider_train_set=False, test_size=0.8, save=False):
 
     if loader_config is None:
@@ -117,8 +117,8 @@ def train(tracks, extra_tracks=None, pretrained=None, candidate_selector="none",
                         #   "thresholds": [0.45, 0.5, 0.55]},
         tensorboard_writer=writer
     )
-
-    trainer.train(config, tracks, extra_tracks=extra_tracks, epochs=75, test_size=test_size, consider_train_set=consider_train_set, \
+    print("----------------------------", alignmentsPath)
+    trainer.train(config, tracks, saveAlignmentsToJson = saveAlignmentsToJson, alignmentsPath = alignmentsPath, extra_tracks=extra_tracks, epochs=75, test_size=test_size, consider_train_set=consider_train_set, \
                   save_model=False, save_path=f"./store/{'_'.join(tracks)}/", lr=1e-5)
 
     trainer.run_metrics(trainer.tracks)
@@ -126,23 +126,4 @@ def train(tracks, extra_tracks=None, pretrained=None, candidate_selector="none",
 
 
 no_walk = RandomWalkConfig(n_branches=0)
-infer_walk = RandomWalkConfig(strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
-
-
-loader_config = {
-    "iir":0.8, 
-    "inter_soft_r":0.0, 
-    "intra_soft_r":0.0, 
-    "negative_sampling_strategy": "ontologic_relation",
-    "no_hard_negative_samples":False,
-    "epoch_over_alignments": False,
-    "A": 5,
-    "batch_size":32, 
-    "n_alignments_per_batch":4
-}
-
-
-
-train(["conference"], pretrained=config["General"]["model"], \
-              test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk, inference_walks=infer_walk)
 

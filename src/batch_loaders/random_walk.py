@@ -85,20 +85,21 @@ class WalkStrategy(Enum):
     LINEAGE_PATH = 4
     
 class RandomWalkConfig():
-     def __init__(self, n_branches=None, max_path_length=None, strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
+     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
         
         if n_branches is None:
             n_branches = random.randint(0,3)
 
         self.n_branches = n_branches
-        self.strategy = strategy
         self.max_path_length = max_path_length
+        self.walk_type = walk_type
+        self.strategy = strategy
         self.use_synonyms = use_synonyms
 
 
 
 class RandomWalk():
-    def __init__(self, onto, walk_type = 'randomWalk', first_node=None, walk_config: RandomWalkConfig=None):
+    def __init__(self, onto, first_node=None, walk_config: RandomWalkConfig=None):
         """
         walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
         walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
@@ -169,7 +170,7 @@ class RandomWalk():
             
             self.branches_index.append(1 + len(walk_ids))
 
-            if (walk_type == 'randomWalk'):
+            if (walk_config.walk_type == 'randomWalk'):
                 walk_ids.extend(["[SEP]"])
                 self.branches_index.append(len(walk_ids))
                 _, sub_walk_ids = sample_walk(onto=onto,  first_node=first_node, exclude_nodes=visited_nodes, path_length=walk_config.max_path_length, 
@@ -177,7 +178,7 @@ class RandomWalk():
 
                 visited_nodes.update(set(sub_walk_ids))
                 walk_ids.extend(sub_walk_ids)
-            elif (walk_type == 'randomTree'):
+            elif (walk_config.walk_type == 'randomTree'):
                 Stack = [(first_node, 0)]       #(node, depthOfNodeInTree)
                 while (len(Stack) != 0):
                     current_node, depth_Node = Stack.pop(0)

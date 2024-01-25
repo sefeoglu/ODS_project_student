@@ -94,7 +94,7 @@ class TrainPipeline:
         return all_results
 
 
-    def train(self, config, tracks, extra_tracks=None, epochs=30, lr=1e-5, test_size=0.8, consider_train_set=False, save_model=False, save_path=None, write_embeddings=False):
+    def train(self, config, tracks, extra_tracks=None, epochs=30, lr=1e-5, test_size=0.8, consider_train_set=False, save_model=False, save_path=None, write_embeddings=False, saveAlignmentsToJson = False, alignmentsPath = 'alignments.json'):
 
         tracks = [Track(track, config, metrics_config=self.metrics_config) for track in tracks]
         for t in tracks:
@@ -169,18 +169,15 @@ class TrainPipeline:
         
         loader = self.model.loader_type(**self.loader_config, walk_config=self.train_walks)
 
-        """
-        #save alignments to json
-        alignments = [] #loader.get_batch_alignments(0)
-        for i in range(500):
-            alignments.append(loader.interNegativeSampler.sample_distance())
-        #print(alignments[0].to_tuple())
-        #print(type(alignments[0]))
-        import json
-        json_data = json.dumps([obj.to_tuple() for obj in alignments], indent=1)
-        with open('alignments.json', 'w') as json_file:
-            json_file.write(json_data)
-        """
+        if saveAlignmentsToJson:
+            #save alignments to json
+            alignments = [] #loader.get_batch_alignments(0)
+            for i in range(500):
+                alignments.append(loader.interNegativeSampler.sample_distance())
+            import json
+            json_data = json.dumps([obj.to_tuple() for obj in alignments], indent=1)
+            with open(alignmentsPath, 'w') as json_file:
+                json_file.write(json_data)
 
     def _write_embedding_file(self, ontology, model, epoch=0):
 
