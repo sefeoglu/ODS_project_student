@@ -31,7 +31,7 @@ def groupTriples():
     return tuples
 
 #promptCounter is the index of the desired prompt, if promptCounter < 0 all prompts are returned as a list
-def JPrompt(promptCounter = -1, skipIfNoContext = True):
+def getPrompt1(promptCounter = -1, skipIfNoContext = True):
     triples = importTriples()
     context = formatContext()
 
@@ -74,6 +74,6 @@ def JPrompt(promptCounter = -1, skipIfNoContext = True):
     return prompt
 
 
-p = JPrompt()
-#p = JPrompt(4)
+p = getPrompt1()
+#p = getPrompt1(4)
 print('\n\n'.join(p) if (type(p) == type([])) else p)
