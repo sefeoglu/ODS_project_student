@@ -73,57 +73,6 @@ def JPrompt(promptCounter = -1, skipIfNoContext = True):
         
     return prompt
 
-"""
-def JPrompt2(promptCounter = -1):
-    tuples = groupTriples()
-    prompt = ''
-    if (promptCounter < 0 or promptCounter >= len(tuples)):
-        for i in range(len(tuples)):
-            prompt += JPrompt(i)
-            prompt += '\n----------------------------------------------\n'
-    else: 
-        prompt = 'I will give you a Tuple in the form of (Class/Object from Ontology1, Class/Object from Ontology2).\n\n'
-        prompt += f"({tuples[promptCounter][0]}, {tuples[promptCounter][1]})"
-        prompt += '\n\n' + objective
-    return prompt
-
-"""
-
-"""
-#prepare some prompts from GPT paper: https://disi.unitn.it/~pavel/om2023/papers/om2023_STpaper1.pdf
-def prompt1():
-    data1Keys, data1 = importTriples()
-    prompt = problemDefinition + '\nOntology 1:\n'
-    for key in data1Keys:
-        tmpHelp = lambda input_list : ', '.join(' '.join(item) for item in input_list)
-        prompt += tmpHelp(data1[key])
-    prompt += '\n' + objective
-    return prompt
-
-def prompt2():
-    data1Keys, data1 = importTriples()
-    prompt1 = problemDefinition + '\nOntology 1:\n'
-    for key in data1Keys:
-        tmpHelp = lambda input_list : ', '.join(' '.join(item) for item in input_list)
-        prompt1 += tmpHelp(data1[key])
-    prompt2 = 'Provide a complete and comprehensive matching of the ontologies'
-    return prompt1, prompt2
-
-def prompt7():
-    data1Keys, data1 = importTriples()
-    prompt1 = problemDefinition + '\nOntology 1:\n'
-    for key in data1Keys:
-        tmpHelp = lambda input_list : ', '.join(' '.join(item) for item in input_list)
-        prompt1 += tmpHelp(data1[key])
-    prompt2 = 'For a class/property in the first ontology, which class/property in ontology 2 is the best match?'
-    prompt2 += '\nOntology 2:\n'
-    return prompt1, prompt2
-
-#print(prompt1())
-#print('\n'.join(prompt2()))
-#print('\n'.join(prompt7()))
-"""
-
 
 p = JPrompt()
 #p = JPrompt(4)
