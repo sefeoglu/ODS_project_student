@@ -44,7 +44,13 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
     context = formatContext(importContext(contextPath))
     #choose correct function for promptVersion
     if promptVersion == 0:
+        generatePrompt = lambda triples, context, promptCounter : prompt0(triples, context, promptCounter)
+    elif promptVersion == 1:
         generatePrompt = lambda triples, context, promptCounter : prompt1(triples, context, promptCounter)
+    elif promptVersion == 2:
+        generatePrompt = lambda triples, context, promptCounter : prompt2(triples, context, promptCounter)
+    elif promptVersion == 3:
+        generatePrompt = lambda triples, context, promptCounter : prompt3(triples, context, promptCounter)
     #skipIfNoContext
     if (skipIfNoContext):
         tmpTriples = []
@@ -67,12 +73,47 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
         
     return prompt
 
-def prompt1(triples, context, promptCounter):
+def prompt0(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = problemDefinition + '\n' + objective + '\n'    
     prompt += f'{key1}: {cont1}\n' if (cont1 != None) else ''
     prompt += f'{key2}: {cont2}\n' if (cont2 != None) else ''
     prompt += f'Does the concept "{node1}" correspond to the concept "{node2}"? yes or no:'
+    #workaround
+    if (onto1 == onto2):
+        return ''
+    return prompt
+
+def prompt1(triples, context, promptCounter):
+    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    prompt = 'Classify if the following two concepts are the same.\n'
+    prompt += f'###First concept {node1}:\n'
+    prompt += f'{cont1}\n' if (cont1 != None) else ''
+    prompt += f'###Second concept {node2}:\n'
+    prompt += f'{cont2}\n' if (cont2 != None) else ''
+    prompt += 'Answer yes or no:'
+    #workaround
+    if (onto1 == onto2):
+        return ''
+    return prompt
+
+def prompt2(triples, context, promptCounter):
+    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    prompt = f'Is {node1} and {node2} the same?\n'
+    prompt += f'The answer which can be yes or no is:'
+    #workaround
+    if (onto1 == onto2):
+        return ''
+    return prompt
+
+def prompt3(triples, context, promptCounter):
+    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    prompt = 'Classify if two concepts refer to the same real word entity.\n'
+    prompt += f'This is the context for the first concept "{node1}":\n'
+    prompt += f'{cont1}\n\n' if (cont1 != None) else ''
+    prompt += f'This is the context for the second concept "{node2}":\n'
+    prompt += f'{cont2}\n' if (cont2 != None) else ''
+    prompt += f'Do these concepts "{node1}" and "{node2}" refer to the same real word entity? yes or no:'
     #workaround
     if (onto1 == onto2):
         return ''

@@ -1,13 +1,16 @@
 {
 	"reformatThisFile": false,
 	"resetThisFile": false,
-	"exportAlignmentsToJson": false,
-	"exportRandomWalkTriples": false,
-	"exportRandomTreeTriples": false,
+	"exportAlignmentsToJson": true,
+	"exportRandomWalkTriples": true,
+	"exportRandomTreeTriples": true,
 	"exportWalkPromptsToJson": true,
 	"exportTreePromptsToJson": true,
 	"promptsFoExportToJson": [
-		0
+		0,
+		1,
+		2,
+		3
 	],
 	"alignmentPath": "../results/result_alignments/conference/alignments.json",
 	"walkTriplesPath": "../results/result_triples/triples_randomWalk.json",
