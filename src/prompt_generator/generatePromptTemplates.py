@@ -42,6 +42,7 @@ def groupTriples():
 def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1, skipIfNoContext = True):
     triples = importTriples(alignmentPath)
     context = formatContext(importContext(contextPath))
+    #choose correct function for promptVersion
     if promptVersion == 0:
         generatePrompt = lambda triples, context, promptCounter : prompt1(triples, context, promptCounter)
     #skipIfNoContext
@@ -57,8 +58,8 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
     #generate one or all prompts
     if (promptCounter < 0 or promptCounter >= len(triples)):
         prompt = []
-        for i in range(len(triples)):
-            p = generatePrompt(triples, context, i)
+        for promptCounter in range(len(triples)):
+            p = generatePrompt(triples, context, promptCounter)
             if (len(p) > 0):
                 prompt.append(p)
     else:
@@ -67,24 +68,25 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
     return prompt
 
 def prompt1(triples, context, promptCounter):
-    prompt = problemDefinition + '\n' + objective + '\n'
-    key1 = triples[promptCounter][0]
-    key2 = triples[promptCounter][1]
-    onto1, node1 = key1.split("#")
-    onto2, node2 = key2.split("#")
-    
-    #add context
-    cont1 = context.get(key1)
-    cont2 = context.get(key2)
-    
+    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    prompt = problemDefinition + '\n' + objective + '\n'    
     prompt += f'{key1}: {cont1}\n' if (cont1 != None) else ''
     prompt += f'{key2}: {cont2}\n' if (cont2 != None) else ''
-        
     prompt += f'Does the concept "{node1}" correspond to the concept "{node2}"? yes or no:'
     #workaround
     if (onto1 == onto2):
         return ''
     return prompt
+
+#extract necessary information for generating prompt
+def extract(triples, context, promptCounter):
+    key1 = triples[promptCounter][0]
+    key2 = triples[promptCounter][1]
+    onto1, node1 = key1.split("#")
+    onto2, node2 = key2.split("#")
+    cont1 = context.get(key1)
+    cont2 = context.get(key2)
+    return key1, key2, cont1, cont2, onto1, onto2, node1, node2
 
 def savePromptToJson(promptList, json_path):
     data = json.dumps(promptList, indent='\t')
