@@ -86,6 +86,11 @@ def prompt1(triples, context, promptCounter):
         return ''
     return prompt
 
+def savePromptToJson(promptList, json_path):
+    data = json.dumps(promptList, indent='\t')
+    with open(json_path, 'w') as json_file:
+        json_file.write(data)
+
 
 #p = getPrompt("../../results/result_alignments/conference/alignments.json", "../../results/result_triples/triples_randomTree_verbalized_out.json")
 #p = getPrompt(4)

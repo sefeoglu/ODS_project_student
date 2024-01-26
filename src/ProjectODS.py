@@ -36,6 +36,16 @@ def main():
         infer_walk_TREE = RandomWalkConfig(walk_type = 'randomTree', saveTriplesToJson = True, triplesPath = configODS.get('treeTriplesPath'), strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
         train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = False, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_TREE, inference_walks=infer_walk_TREE)
         print(f"exported random tree triples to '{configODS.get('treeTriplesPath')}'")
-
+    promptVersion = configODS.get('promptsFoExportToJson')
+    if promptVersion:
+        for i in promptVersion:
+            if configODS.get('exportWalkPromptsToJson'):
+                promptList = generatePromptTemplates.getPrompt(configODS.get('alignmentPath'), configODS.get('verbalizedWalkTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}.json")
+                print(f"exported 'walkPromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
+            if configODS.get('exportTreePromptsToJson'):
+                promptList = generatePromptTemplates.getPrompt(configODS.get('alignmentPath'), configODS.get('verbalizedTreeTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}.json")
+                print(f"exported 'treePromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
         
 main()

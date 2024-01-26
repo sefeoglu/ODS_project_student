@@ -23,13 +23,15 @@ def resetConfigODS(configODSPath):
                  'exportAlignmentsToJson' : True,
                  'exportRandomWalkTriples' : True,
                  'exportRandomTreeTriples' : True,
-                 "exportWalkPromptsToJson": True,
-                 "exportTreePromptsToJson": True,
+                 'exportWalkPromptsToJson': True,
+                 'exportTreePromptsToJson': True,
+                 'promptsFoExportToJson': [0],
                  'alignmentPath' : '../results/result_alignments/conference/alignments.json',
                  "walkTriplesPath": "../results/result_triples/triples_randomWalk.json",
                  "treeTriplesPath": "../results/result_triples/triples_randomTree.json",
                  'verbalizedWalkTriplesPath' : '../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json',
-                 'verbalizedTreeTriplesPath' : '../results/result_triples_verbalized/triples_randomTree_verbalized_out.json'
+                 'verbalizedTreeTriplesPath' : '../results/result_triples_verbalized/triples_randomTree_verbalized_out.json',
+                 'promptsPath' : '../results/result_prompts/',
                  }
     exportConfigODS(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
