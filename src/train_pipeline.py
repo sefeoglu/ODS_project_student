@@ -95,7 +95,6 @@ class TrainPipeline:
 
 
     def train(self, config, tracks, extra_tracks=None, epochs=30, lr=1e-5, test_size=0.8, consider_train_set=False, save_model=False, save_path=None, write_embeddings=False, saveAlignmentsToJson = False, alignmentsPath = 'alignments.json'):
-
         tracks = [Track(track, config, metrics_config=self.metrics_config) for track in tracks]
         for t in tracks:
             t.split_train_test(test_size, consider_train_set=consider_train_set)

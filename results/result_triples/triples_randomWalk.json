@@ -1,0 +1,3605 @@
+{
+ "cmt#Meta-Reviewer": [
+  [
+   "meta reviewer",
+   "is child of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference member"
+  ],
+  [
+   "meta reviewer",
+   "is child of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "author"
+  ]
+ ],
+ "cmt#Reviewer": [
+  [
+   "reviewer",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer "
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "associated chair "
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer"
+  ]
+ ],
+ "cmt#Decision": [
+  [
+   "decision",
+   "is parent of",
+   "acceptance "
+  ],
+  [
+   "decision",
+   "is parent of",
+   "rejection"
+  ],
+  [
+   "decision",
+   "is parent of",
+   "rejection "
+  ],
+  [
+   "decision",
+   "is parent of",
+   "acceptance"
+  ]
+ ],
+ "cmt#Person": [
+  [
+   "person",
+   "is parent of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "conference member "
+  ],
+  [
+   "person",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is parent of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is parent of",
+   "chairman "
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ],
+  [
+   "person",
+   "is parent of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer "
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "person",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "associated chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is parent of",
+   "program committee chair"
+  ]
+ ],
+ "cmt#Document": [
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper abstract "
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review"
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review "
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper abstract"
+  ]
+ ],
+ "cmt#Conference": [
+  [
+   "conference",
+   "is child of",
+   "Thing"
+  ],
+  [
+   "conference",
+   "is child of",
+   "Thing"
+  ]
+ ],
+ "cmt#ConferenceChair": [
+  [
+   "conference chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "reviewer "
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member "
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ]
+ ],
+ "cmt#ConferenceMember": [
+  [
+   "conference member",
+   "is parent of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "associated chair "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "associated chair"
+  ],
+  [
+   "associated chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author "
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer"
+  ]
+ ],
+ "cmt#AssociatedChair": [
+  [
+   "associated chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "associated chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "administrator"
+  ],
+  [
+   "associated chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is child of",
+   "person"
+  ]
+ ],
+ "cmt#ProgramCommitteeMember": [
+  [
+   "program committee member",
+   "is parent of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ],
+  [
+   "associated chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ],
+  [
+   "program committee member",
+   "is parent of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member "
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ]
+ ],
+ "cmt#AuthorNotReviewer": [
+  [
+   "author not reviewer",
+   "is child of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author"
+  ],
+  [
+   "author not reviewer",
+   "is child of",
+   "author"
+  ],
+  [
+   "author",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ]
+ ],
+ "cmt#ExternalReviewer": [
+  [
+   "external reviewer",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ],
+  [
+   "associated chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "external reviewer",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member"
+  ]
+ ],
+ "cmt#Chairman": [
+  [
+   "chairman",
+   "is child of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author "
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair "
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair "
+  ],
+  [
+   "chairman",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer "
+  ],
+  [
+   "chairman",
+   "is child of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair "
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ]
+ ],
+ "cmt#ProgramCommitteeChair": [
+  [
+   "program committee chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is child of",
+   "conference member "
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "external reviewer"
+  ],
+  [
+   "program committee chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ],
+  [
+   "associated chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is child of",
+   "person "
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ]
+ ],
+ "cmt#Acceptance": [
+  [
+   "acceptance",
+   "is child of",
+   "decision"
+  ],
+  [
+   "decision",
+   "is parent of",
+   "rejection"
+  ],
+  [
+   "acceptance",
+   "is child of",
+   "decision"
+  ],
+  [
+   "decision",
+   "is parent of",
+   "rejection"
+  ]
+ ],
+ "cmt#Rejection": [
+  [
+   "rejection",
+   "is child of",
+   "decision"
+  ],
+  [
+   "decision",
+   "is parent of",
+   "acceptance"
+  ],
+  [
+   "rejection",
+   "is child of",
+   "decision"
+  ],
+  [
+   "decision",
+   "is parent of",
+   "acceptance"
+  ]
+ ],
+ "cmt#Review": [
+  [
+   "review",
+   "is parent of",
+   "meta review "
+  ],
+  [
+   "review",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper full version"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review "
+  ],
+  [
+   "review",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper full version"
+  ]
+ ],
+ "cmt#Paper": [
+  [
+   "paper",
+   "is parent of",
+   "paper full version "
+  ],
+  [
+   "paper",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper abstract"
+  ],
+  [
+   "paper",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "review "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper abstract "
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper full version"
+  ]
+ ],
+ "cmt#Author": [
+  [
+   "author",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair "
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author "
+  ],
+  [
+   "author",
+   "is parent of",
+   "author not reviewer"
+  ],
+  [
+   "author",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair"
+  ],
+  [
+   "conference chair",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "person "
+  ],
+  [
+   "author",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer "
+  ],
+  [
+   "author",
+   "is parent of",
+   "co author "
+  ],
+  [
+   "author",
+   "is parent of",
+   "author not reviewer"
+  ]
+ ],
+ "cmt#User": [
+  [
+   "user",
+   "is parent of",
+   "administrator "
+  ],
+  [
+   "user",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer "
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "associated chair"
+  ],
+  [
+   "associated chair",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member "
+  ],
+  [
+   "user",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "author not reviewer"
+  ],
+  [
+   "user",
+   "is parent of",
+   "administrator "
+  ],
+  [
+   "user",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "chairman"
+  ],
+  [
+   "chairman",
+   "is child of",
+   "program committee chair"
+  ],
+  [
+   "program committee chair",
+   "is child of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "conference chair "
+  ],
+  [
+   "user",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is parent of",
+   "author not reviewer "
+  ],
+  [
+   "user",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is parent of",
+   "meta reviewer"
+  ]
+ ],
+ "cmt#Co-author": [
+  [
+   "co author",
+   "is child of",
+   "author"
+  ],
+  [
+   "author",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "reviewer"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "administrator"
+  ],
+  [
+   "co author",
+   "is child of",
+   "author"
+  ],
+  [
+   "author",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member"
+  ],
+  [
+   "program committee member",
+   "is child of",
+   "person"
+  ]
+ ],
+ "cmt#PaperAbstract": [
+  [
+   "paper abstract",
+   "is child of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review"
+  ],
+  [
+   "paper abstract",
+   "is child of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is parent of",
+   "paper full version"
+  ]
+ ],
+ "cmt#PaperFullVersion": [
+  [
+   "paper full version",
+   "is child of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "review",
+   "is parent of",
+   "meta review"
+  ],
+  [
+   "paper full version",
+   "is child of",
+   "paper"
+  ],
+  [
+   "paper",
+   "is child of",
+   "document"
+  ]
+ ],
+ "cmt#Administrator": [
+  [
+   "administrator",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "author"
+  ],
+  [
+   "administrator",
+   "is child of",
+   "user"
+  ],
+  [
+   "user",
+   "is parent of",
+   "author"
+  ],
+  [
+   "author",
+   "is child of",
+   "conference member"
+  ],
+  [
+   "conference member",
+   "is parent of",
+   "program committee member"
+  ]
+ ],
+ "cmt#Meta-Review": [
+  [
+   "meta review",
+   "is child of",
+   "review"
+  ],
+  [
+   "review",
+   "is child of",
+   "document"
+  ],
+  [
+   "meta review",
+   "is child of",
+   "review"
+  ],
+  [
+   "review",
+   "is child of",
+   "document"
+  ],
+  [
+   "document",
+   "is parent of",
+   "paper"
+  ]
+ ],
+ "conference#Conference_participant": [
+  [
+   "conference participant",
+   "is child of",
+   "passive conference participant "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "invited speaker"
+  ],
+  [
+   "invited speaker",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution co author "
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair "
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "passive conference participant "
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author"
+  ]
+ ],
+ "conference#Active_conference_participant": [
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "passive conference participant "
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "invited speaker"
+  ],
+  [
+   "invited speaker",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "reviewer "
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution co author "
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "invited speaker"
+  ]
+ ],
+ "conference#Passive_conference_participant": [
+  [
+   "passive conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "passive conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ]
+ ],
+ "conference#Person": [
+  [
+   "person",
+   "is parent of",
+   "track workshop chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "passive conference participant "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author "
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "invited speaker"
+  ],
+  [
+   "invited speaker",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author "
+  ],
+  [
+   "person",
+   "is parent of",
+   "reviewer "
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair "
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ]
+ ],
+ "conference#Review_expertise": [
+  [
+   "review expertise",
+   "is child of",
+   "Thing"
+  ],
+  [
+   "review expertise",
+   "is child of",
+   "Thing"
+  ]
+ ],
+ "conference#Submitted_contribution": [
+  [
+   "submitted contribution",
+   "is child of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "conference contribution "
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution "
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "extended abstract"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "rejected contribution "
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "conference contribution "
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "conference#Reviewer": [
+  [
+   "reviewer",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair"
+  ],
+  [
+   "reviewer",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "passive conference participant"
+  ]
+ ],
+ "conference#Regular_author": [
+  [
+   "regular author",
+   "is parent of",
+   "contribution co author "
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is parent of",
+   "passive conference participant "
+  ],
+  [
+   "regular author",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is parent of",
+   "early paid applicant "
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution co author "
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author "
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "invited speaker"
+  ],
+  [
+   "invited speaker",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "reviewer"
+  ]
+ ],
+ "conference#Conference_contributor": [
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author "
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair "
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "passive conference participant "
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "invited speaker"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair "
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "passive conference participant "
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "invited speaker "
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author"
+  ]
+ ],
+ "conference#Contribution_1th-author": [
+  [
+   "contribution 1th author",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "contribution 1th author",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair"
+  ]
+ ],
+ "conference#Contribution_co-author": [
+  [
+   "contribution co author",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "contribution co author",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "invited speaker"
+  ]
+ ],
+ "conference#Conference_contribution": [
+  [
+   "conference contribution",
+   "is parent of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution "
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "regular contribution "
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "presentation"
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "invited talk "
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "presentation"
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "invited talk "
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "submitted contribution "
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for paper"
+  ]
+ ],
+ "conference#Co-chair": [
+  [
+   "co chair",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "co chair",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "organizer"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "organization"
+  ]
+ ],
+ "conference#Committee": [
+  [
+   "committee",
+   "is child of",
+   "organizing committee "
+  ],
+  [
+   "committee",
+   "is parent of",
+   "program committee "
+  ],
+  [
+   "committee",
+   "is child of",
+   "steering committee"
+  ],
+  [
+   "committee",
+   "is parent of",
+   "organizing committee "
+  ],
+  [
+   "committee",
+   "is parent of",
+   "steering committee "
+  ],
+  [
+   "committee",
+   "is child of",
+   "program committee"
+  ]
+ ],
+ "conference#Committee_member": [
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "active conference participant "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "organizer"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "Thing"
+  ],
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "reviewer "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "organizer"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "Thing "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair "
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair"
+  ]
+ ],
+ "conference#Abstract": [
+  [
+   "abstract",
+   "is child of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "abstract",
+   "is child of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "paper"
+  ]
+ ],
+ "conference#Extended_abstract": [
+  [
+   "extended abstract",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "poster "
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract"
+  ],
+  [
+   "extended abstract",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution "
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "conference#Invited_speaker": [
+  [
+   "invited speaker",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member "
+  ],
+  [
+   "invited speaker",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is parent of",
+   "contribution 1th author"
+  ],
+  [
+   "invited speaker",
+   "is parent of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "regular author"
+  ],
+  [
+   "regular author",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair"
+  ]
+ ],
+ "conference#Information_for_participants": [
+  [
+   "information for participants",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "information for participants",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for participation"
+  ]
+ ],
+ "conference#Conference_document": [
+  [
+   "conference document",
+   "is parent of",
+   "call for participation "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "regular contribution "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "information for participants "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for paper"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for paper "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for participation "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "information for participants "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www "
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is parent of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "conference#Organization": [
+  [
+   "organization",
+   "is parent of",
+   "organizer"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "active conference participant"
+  ],
+  [
+   "organization",
+   "is parent of",
+   "organizer"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "Thing"
+  ]
+ ],
+ "conference#Regular_contribution": [
+  [
+   "regular contribution",
+   "is child of",
+   "paper "
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution "
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "invited talk"
+  ],
+  [
+   "invited talk",
+   "is child of",
+   "presentation"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "paper "
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract "
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "submitted contribution"
+  ]
+ ],
+ "conference#Poster": [
+  [
+   "poster",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "poster",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "written contribution "
+  ],
+  [
+   "poster",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "presentation"
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "invited talk"
+  ]
+ ],
+ "conference#Written_contribution": [
+  [
+   "written contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "rejected contribution "
+  ],
+  [
+   "written contribution",
+   "is parent of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "extended abstract "
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "poster"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "poster"
+  ],
+  [
+   "poster",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "presentation"
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "invited talk "
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution"
+  ]
+ ],
+ "conference#Conference_applicant": [
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "chair "
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "late paid applicant"
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "early paid applicant "
+  ],
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "organizer"
+  ]
+ ],
+ "conference#Camera_ready_contribution": [
+  [
+   "camera ready contribution",
+   "is child of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "rejected contribution"
+  ],
+  [
+   "camera ready contribution",
+   "is child of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "rejected contribution"
+  ]
+ ],
+ "conference#Accepted_contribution": [
+  [
+   "accepted contribution",
+   "is child of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "rejected contribution "
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution "
+  ],
+  [
+   "accepted contribution",
+   "is child of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "rejected contribution"
+  ]
+ ],
+ "conference#Program_committee": [
+  [
+   "program committee",
+   "is parent of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is child of",
+   "organizing committee"
+  ],
+  [
+   "program committee",
+   "is parent of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is child of",
+   "steering committee"
+  ]
+ ],
+ "conference#Organizing_committee": [
+  [
+   "organizing committee",
+   "is parent of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is child of",
+   "steering committee"
+  ],
+  [
+   "organizing committee",
+   "is parent of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is parent of",
+   "steering committee"
+  ]
+ ],
+ "conference#Steering_committee": [
+  [
+   "steering committee",
+   "is child of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is parent of",
+   "organizing committee"
+  ],
+  [
+   "steering committee",
+   "is child of",
+   "committee"
+  ],
+  [
+   "committee",
+   "is child of",
+   "organizing committee"
+  ]
+ ],
+ "conference#Conference_volume": [
+  [
+   "conference volume",
+   "is child of",
+   "conference"
+  ],
+  [
+   "conference volume",
+   "is child of",
+   "conference"
+  ]
+ ],
+ "conference#Conference": [
+  [
+   "conference",
+   "is parent of",
+   "conference volume"
+  ],
+  [
+   "conference",
+   "is parent of",
+   "conference volume"
+  ]
+ ],
+ "conference#Call_for_paper": [
+  [
+   "call for paper",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for participation"
+  ],
+  [
+   "call for paper",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www"
+  ]
+ ],
+ "conference#Conference_announcement": [
+  [
+   "conference announcement",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "review"
+  ],
+  [
+   "conference announcement",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www"
+  ]
+ ],
+ "conference#Paper": [
+  [
+   "paper",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "paper",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "extended abstract"
+  ],
+  [
+   "extended abstract",
+   "is parent of",
+   "abstract"
+  ]
+ ],
+ "conference#Invited_talk": [
+  [
+   "invited talk",
+   "is child of",
+   "presentation"
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "invited talk",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "presentation"
+  ]
+ ],
+ "conference#Conference_part": [
+  [
+   "conference part",
+   "is parent of",
+   "workshop "
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "track "
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "tutorial"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "track "
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "tutorial "
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "workshop"
+  ]
+ ],
+ "conference#Presentation": [
+  [
+   "presentation",
+   "is parent of",
+   "invited talk"
+  ],
+  [
+   "invited talk",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "accepted contribution"
+  ],
+  [
+   "presentation",
+   "is child of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is parent of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is parent of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "rejected contribution "
+  ],
+  [
+   "presentation",
+   "is parent of",
+   "invited talk"
+  ]
+ ],
+ "conference#Chair": [
+  [
+   "chair",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is parent of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "late paid applicant"
+  ],
+  [
+   "chair",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair"
+  ]
+ ],
+ "conference#Track": [
+  [
+   "track",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "tutorial"
+  ],
+  [
+   "track",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "tutorial"
+  ]
+ ],
+ "conference#Workshop": [
+  [
+   "workshop",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "track"
+  ],
+  [
+   "workshop",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "tutorial"
+  ]
+ ],
+ "conference#Tutorial": [
+  [
+   "tutorial",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "workshop"
+  ],
+  [
+   "tutorial",
+   "is child of",
+   "conference part"
+  ],
+  [
+   "conference part",
+   "is parent of",
+   "track"
+  ]
+ ],
+ "conference#Rejected_contribution": [
+  [
+   "rejected contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "submitted contribution"
+  ],
+  [
+   "rejected contribution",
+   "is parent of",
+   "reviewed contribution"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "accepted contribution"
+  ]
+ ],
+ "conference#Reviewed_contribution": [
+  [
+   "reviewed contribution",
+   "is child of",
+   "rejected contribution "
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution "
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "regular contribution",
+   "is child of",
+   "paper"
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "accepted contribution"
+  ],
+  [
+   "accepted contribution",
+   "is parent of",
+   "camera ready contribution "
+  ],
+  [
+   "reviewed contribution",
+   "is parent of",
+   "rejected contribution "
+  ],
+  [
+   "reviewed contribution",
+   "is child of",
+   "submitted contribution"
+  ],
+  [
+   "submitted contribution",
+   "is child of",
+   "poster"
+  ]
+ ],
+ "conference#Review": [
+  [
+   "review",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "call for participation"
+  ],
+  [
+   "review",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference announcement"
+  ]
+ ],
+ "conference#Late_paid_applicant": [
+  [
+   "late paid applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is parent of",
+   "early paid applicant"
+  ],
+  [
+   "late paid applicant",
+   "is child of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "early paid applicant"
+  ]
+ ],
+ "conference#Paid_applicant": [
+  [
+   "paid applicant",
+   "is child of",
+   "early paid applicant "
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is child of",
+   "conference applicant "
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "late paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "early paid applicant "
+  ],
+  [
+   "paid applicant",
+   "is parent of",
+   "late paid applicant "
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is child of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair"
+  ]
+ ],
+ "conference#Early_paid_applicant": [
+  [
+   "early paid applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "registered applicant"
+  ],
+  [
+   "registered applicant",
+   "is child of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair"
+  ],
+  [
+   "early paid applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is parent of",
+   "late paid applicant"
+  ]
+ ],
+ "conference#Organizer": [
+  [
+   "organizer",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "co chair "
+  ],
+  [
+   "organizer",
+   "is child of",
+   "organization "
+  ],
+  [
+   "organizer",
+   "is child of",
+   "Thing"
+  ],
+  [
+   "organizer",
+   "is child of",
+   "organization "
+  ],
+  [
+   "organizer",
+   "is child of",
+   "Thing "
+  ],
+  [
+   "organizer",
+   "is child of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "track workshop chair"
+  ]
+ ],
+ "conference#Call_for_participation": [
+  [
+   "call for participation",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference www"
+  ],
+  [
+   "call for participation",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "review"
+  ]
+ ],
+ "conference#Registeered_applicant": [
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "late paid applicant "
+  ],
+  [
+   "registered applicant",
+   "is child of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "registered applicant",
+   "is parent of",
+   "paid applicant"
+  ],
+  [
+   "paid applicant",
+   "is child of",
+   "late paid applicant "
+  ],
+  [
+   "registered applicant",
+   "is child of",
+   "conference applicant"
+  ],
+  [
+   "conference applicant",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference contributor"
+  ]
+ ],
+ "conference#Track-workshop_chair": [
+  [
+   "track workshop chair",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "conference participant"
+  ],
+  [
+   "conference participant",
+   "is child of",
+   "active conference participant"
+  ],
+  [
+   "active conference participant",
+   "is child of",
+   "conference contributor"
+  ],
+  [
+   "conference contributor",
+   "is parent of",
+   "invited speaker"
+  ],
+  [
+   "track workshop chair",
+   "is child of",
+   "person"
+  ],
+  [
+   "person",
+   "is parent of",
+   "committee member"
+  ],
+  [
+   "committee member",
+   "is parent of",
+   "organizer"
+  ]
+ ],
+ "conference#Conference_www": [
+  [
+   "conference www",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "conference contribution"
+  ],
+  [
+   "conference contribution",
+   "is child of",
+   "written contribution"
+  ],
+  [
+   "written contribution",
+   "is child of",
+   "regular contribution"
+  ],
+  [
+   "conference www",
+   "is child of",
+   "conference document"
+  ],
+  [
+   "conference document",
+   "is parent of",
+   "information for participants"
+  ]
+ ],
+ "conference#Review_preference": [
+  [
+   "review preference",
+   "is child of",
+   "Thing"
+  ],
+  [
+   "review preference",
+   "is child of",
+   "Thing"
+  ]
+ ]
+}

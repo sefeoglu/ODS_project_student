@@ -1,5 +1,6 @@
 import json
 import configODSImport
+from prompt_generator import generatePromptTemplates
 
 def main():
     configODS = configODSImport.getConfigODS()
@@ -23,11 +24,18 @@ def main():
         "n_alignments_per_batch":4
     }
     #define different walk configs
+    if (configODS.get('exportAlignmentsToJson') == True):
+        infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = False, strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
+        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = True, alignmentsPath = configODS.get('alignmentPath'), test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
+        print(f"exported alignments to '{configODS.get('alignmentPath')}'")
+    if configODS.get('exportRandomWalkTriples') == True:
+        infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = True, triplesPath = configODS.get('walkTriplesPath'), strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
+        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = False, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
+        print(f"exported random walk triples to '{configODS.get('walkTriplesPath')}'")
+    if configODS.get('exportRandomTreeTriples') == True:
+        infer_walk_TREE = RandomWalkConfig(walk_type = 'randomTree', saveTriplesToJson = True, triplesPath = configODS.get('treeTriplesPath'), strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
+        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = False, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_TREE, inference_walks=infer_walk_TREE)
+        print(f"exported random tree triples to '{configODS.get('treeTriplesPath')}'")
 
-    if configODS.get('runRandomWalk') == True:
-        infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
-        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = configODS.get('saveAlignmentsToJson'), alignmentsPath = configODS.get('alignmentPath'), test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
-    if configODS.get('runRandomTree') == True:
-        infer_walk_TREE = RandomWalkConfig(walk_type = 'randomTree', strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
-        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = configODS.get('saveAlignmentsToJson'), alignmentsPath = configODS.get('alignmentPath'), test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_TREE, inference_walks=infer_walk_TREE)
+        
 main()

@@ -85,7 +85,7 @@ class WalkStrategy(Enum):
     LINEAGE_PATH = 4
     
 class RandomWalkConfig():
-     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
+     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', saveTriplesToJson = False, triplesPath = '../results/result_triples/triples_randomWalk.json', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
         
         if n_branches is None:
             n_branches = random.randint(0,3)
@@ -93,6 +93,8 @@ class RandomWalkConfig():
         self.n_branches = n_branches
         self.max_path_length = max_path_length
         self.walk_type = walk_type
+        self.saveTriplesToJson = saveTriplesToJson
+        self.triplesPath = triplesPath
         self.strategy = strategy
         self.use_synonyms = use_synonyms
 
@@ -101,8 +103,8 @@ class RandomWalkConfig():
 class RandomWalk():
     def __init__(self, onto, first_node=None, walk_config: RandomWalkConfig=None):
         """
-        walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
-        walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
+        walk_config.walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
+        walk_config.walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
         """
 
 
@@ -274,7 +276,7 @@ class RandomWalk():
                     
                     
             else:
-                raise Exception(f"walk_type '{walk_type}' does not exist")
+                raise Exception(f"walk_type '{walk_config.walk_type}' does not exist")
 
         if walk_config.use_synonyms:
             # Randomly replace concept by its synonyms
@@ -298,32 +300,28 @@ class RandomWalk():
         self.walk = walk
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
-        #print(self.sentence)
-        """
-
         #code to save triples to json
-        verbalize = True
-        textChildOf = 'is child of'
-        textParentOf = 'is parent of'
-        import re
-        L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
-        #print(L)
-        rel = None
-        for i, item in enumerate(L):
-            if (item == '<' or item == '>'):
-                if verbalize:
-                    item = textParentOf if item == '>' else textChildOf
-                name = f"{onto.onto_name}#{first_node}"
-                triple = (L[i-1], item, L[i+1])
-                if (triples.get(name) == None):
-                    triples[name] = [triple]
-                else:
-                    triples[name].append((L[i-1], item, L[i+1]))
-        import json
-        json_data = json.dumps(triples, indent=1)
-        with open(f'./triplesJ/triples_{walk_type}{"_verbalized" if verbalize else ""}.json', 'w') as json_file:
-            json_file.write(json_data)
-        """
+        if walk_config.saveTriplesToJson:
+            verbalize = True
+            textChildOf = 'is child of'
+            textParentOf = 'is parent of'
+            import re
+            L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
+            rel = None
+            for i, item in enumerate(L):
+                if (item == '<' or item == '>'):
+                    if verbalize:
+                        item = textParentOf if item == '>' else textChildOf
+                    name = f"{onto.onto_name}#{first_node}"
+                    triple = (L[i-1], item, L[i+1])
+                    if (triples.get(name) == None):
+                        triples[name] = [triple]
+                    else:
+                        triples[name].append((L[i-1], item, L[i+1]))
+            import json
+            json_data = json.dumps(triples, indent=1)
+            with open(walk_config.triplesPath, 'w') as json_file:
+                json_file.write(json_data)
 
 
 

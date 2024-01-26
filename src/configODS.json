@@ -1,8 +1,14 @@
 {
 	"reformatThisFile": false,
 	"resetThisFile": false,
-	"runRandomWalk": true,
-	"runRandomTree": false,
-	"saveAlignmentsToJson": true,
-	"alignmentPath": "../results/result_alignments/conference/alignments.json"
+	"exportAlignmentsToJson": true,
+	"exportRandomWalkTriples": true,
+	"exportRandomTreeTriples": true,
+	"exportWalkPromptsToJson": true,
+	"exportTreePromptsToJson": true,
+	"alignmentPath": "../results/result_alignments/conference/alignments.json",
+	"walkTriplesPath": "../results/result_triples/triples_randomWalk.json",
+	"treeTriplesPath": "../results/result_triples/triples_randomTree.json",
+	"verbalizedWalkTriplesPath": "../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json",
+	"verbalizedTreeTriplesPath": "../results/result_triples_verbalized/triples_randomTree_verbalized_out.json"
 }

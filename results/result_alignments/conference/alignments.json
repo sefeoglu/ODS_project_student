@@ -5,24 +5,359 @@
   0.6
  ],
  [
-  "cmt#Person",
-  "conference#Reviewer",
+  "cmt#Review",
+  "conference#Conference_document",
   0.8
  ],
  [
-  "cmt#Document",
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Invited_speaker",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
   "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
   0.8
  ],
  [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
+  "cmt#ProgramCommittee",
+  "conference#Committee",
   0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Invited_speaker",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
  ],
  [
   "cmt#Thing",
   "conference#Conference",
   0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Regular_contribution",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Contribution_co-author",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Information_for_participants",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Extended_abstract",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Invited_talk",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Abstract",
+  0.0
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Conference_participant",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Thing",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Review",
+  "conference#Abstract",
+  0.0
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Submitted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Call_for_paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Conference_applicant",
+  0.6
+ ],
+ [
+  "cmt#ConferenceChair",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Invited_speaker",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Information_for_participants",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Conference_applicant",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Information_for_participants",
+  0.6
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Organization",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Active_conference_participant",
+  0.6
  ],
  [
   "cmt#User",
@@ -35,99 +370,29 @@
   0.4
  ],
  [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Contribution_co-author",
-  0.19999999999999996
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Administrator",
+  "cmt#ConferenceMember",
   "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
   0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Early_paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Paid_applicant",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Contribution_1th-author",
-  0.19999999999999996
  ],
  [
   "cmt#Review",
-  "conference#Abstract",
+  "conference#Reviewed_contribution",
   0.0
  ],
  [
-  "cmt#Paper",
-  "conference#Review",
+  "cmt#Person",
+  "conference#Chair",
   0.6
  ],
  [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
   "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Co-author",
-  "conference#Person",
+  "conference#Invited_talk",
   0.4
  ],
  [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
  ],
  [
   "cmt#Paper",
@@ -135,8 +400,28 @@
   0.6
  ],
  [
-  "cmt#Thing",
-  "conference#Conference",
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Organization",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
   0.8
  ],
  [
@@ -145,634 +430,24 @@
   0.8
  ],
  [
-  "cmt#Person",
-  "conference#Regular_author",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Steering_committee",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review_expertise",
-  0.0
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Regular_author",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Submitted_contribution",
-  0.19999999999999996
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_participant",
-  0.6
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Information_for_participants",
-  0.19999999999999996
- ],
- [
-  "cmt#Author",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Chairman",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
   "cmt#Meta-Reviewer",
   "conference#Reviewer",
   0.8
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
   "cmt#Person",
-  "conference#Organizer",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review_preference",
-  0.0
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Person",
-  "conference#Organizer",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Author",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Call_for_participation",
-  0.19999999999999996
- ],
- [
-  "cmt#Review",
-  "conference#Abstract",
-  0.0
- ],
- [
-  "cmt#Review",
-  "conference#Conference_contribution",
-  0.6
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Administrator",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Review_preference",
-  0.19999999999999996
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Author",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Organization",
-  0.4
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Co-author",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Administrator",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Paid_applicant",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_announcement",
-  0.19999999999999996
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Paid_applicant",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Co-author",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_contributor",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Registeered_applicant",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Late_paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Organizer",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Track-workshop_chair",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Extended_abstract",
-  0.6
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_paper",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Document",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Reviewer",
   "conference#Contribution_1th-author",
-  0.19999999999999996
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Organization",
   0.4
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Passive_conference_participant",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Registeered_applicant",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
+  "cmt#Meta-Review",
+  "conference#Review",
   0.8
  ],
  [
   "cmt#ProgramCommittee",
   "conference#Steering_committee",
   0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Call_for_participation",
-  0.19999999999999996
- ],
- [
-  "cmt#Review",
-  "conference#Conference_announcement",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Late_paid_applicant",
-  0.0
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Extended_abstract",
-  0.19999999999999996
- ],
- [
-  "cmt#Person",
-  "conference#Passive_conference_participant",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Conference_www",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Active_conference_participant",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Thing",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Invited_talk",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_participation",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Conference_applicant",
-  0.8
  ],
  [
   "cmt#Paper",
@@ -782,6 +457,176 @@
  [
   "cmt#Reviewer",
   "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Contribution_1th-author",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Submitted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Abstract",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Co-chair",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Regular_contribution",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Chair",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Extended_abstract",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Person",
+  "conference#Contribution_1th-author",
+  0.4
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#User",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Submitted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Invited_talk",
+  0.4
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Conference_contributor",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Organizer",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Late_paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
   0.8
  ],
  [
@@ -790,9 +635,99 @@
   0.8
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Paper",
+  "cmt#ProgramCommitteeMember",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Reviewed_contribution",
   0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Invited_talk",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommitteeMember",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Track-workshop_chair",
+  0.8
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Accepted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#AssociatedChair",
+  "conference#Person",
+  0.6
  ],
  [
   "cmt#Thing",
@@ -800,14 +735,14 @@
   0.8
  ],
  [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
+  "cmt#Person",
+  "conference#Conference_applicant",
+  0.8
  ],
  [
-  "cmt#Review",
-  "conference#Presentation",
-  0.4
+  "cmt#Paper",
+  "conference#Review",
+  0.6
  ],
  [
   "cmt#AuthorNotReviewer",
@@ -820,19 +755,119 @@
   0.8
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Paper",
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Invited_talk",
+  0.4
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#ExternalReviewer",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
   0.4
  ],
  [
   "cmt#Person",
-  "conference#Conference_applicant",
+  "conference#Contribution_co-author",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Conference_announcement",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
   0.8
  ],
  [
   "cmt#Reviewer",
-  "conference#Contribution_co-author",
+  "conference#Paid_applicant",
   0.19999999999999996
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Chair",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Co-chair",
+  0.4
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
  ],
  [
   "cmt#Review",
@@ -845,23 +880,33 @@
   0.8
  ],
  [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
   "cmt#Reviewer",
-  "conference#Organizer",
+  "conference#Co-chair",
   0.4
  ],
  [
-  "cmt#Reviewer",
-  "conference#Thing",
-  0.19999999999999996
+  "cmt#Document",
+  "conference#Paper",
+  0.8
  ],
  [
-  "cmt#Review",
-  "conference#Submitted_contribution",
-  0.19999999999999996
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
  ],
  [
-  "cmt#Paper",
-  "conference#Conference_document",
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
   0.4
  ],
  [
@@ -871,432 +916,12 @@
  ],
  [
   "cmt#Reviewer",
-  "conference#Paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Chairman",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Document",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Invited_talk",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Track-workshop_chair",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Track-workshop_chair",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Invited_speaker",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Rejected_contribution",
-  0.19999999999999996
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Organizer",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Review_preference",
-  0.19999999999999996
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Passive_conference_participant",
-  0.4
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Track-workshop_chair",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#Administrator",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review_expertise",
-  0.0
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Review_preference",
-  0.19999999999999996
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Extended_abstract",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Poster",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_www",
-  0.19999999999999996
- ],
- [
-  "cmt#Person",
-  "conference#Early_paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Person",
   "conference#Conference_contributor",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Conference_www",
   0.6
  ],
  [
-  "cmt#ConferenceMember",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Administrator",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#Review",
+  "cmt#Paper",
   "conference#Submitted_contribution",
-  0.19999999999999996
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Document",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_contributor",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
   0.6
  ],
  [
@@ -1305,119 +930,59 @@
   0.4
  ],
  [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Invited_talk",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
   "cmt#Person",
-  "conference#Registeered_applicant",
-  0.6
- ],
- [
-  "cmt#Co-author",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Reviewed_contribution",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Organization",
-  0.19999999999999996
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Co-author",
   "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Conference_applicant",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
   0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Late_paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Thing",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Reviewer",
+  0.8
  ],
  [
   "cmt#Thing",
@@ -1425,29 +990,29 @@
   0.8
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Paper",
+  "cmt#Review",
+  "conference#Regular_contribution",
   0.4
+ ],
+ [
+  "cmt#Author",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
  ],
  [
   "cmt#Review",
-  "conference#Conference_announcement",
-  0.6
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_participant",
-  0.6
- ],
- [
-  "cmt#Person",
-  "conference#Paid_applicant",
-  0.4
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
+  "conference#Extended_abstract",
+  0.19999999999999996
  ],
  [
   "cmt#ProgramCommittee",
@@ -1455,74 +1020,14 @@
   0.6
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
   "cmt#Paper",
-  "conference#Call_for_paper",
-  0.19999999999999996
+  "conference#Presentation",
+  0.4
  ],
  [
-  "cmt#ExternalReviewer",
+  "cmt#Co-author",
   "conference#Person",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
   0.4
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Submitted_contribution",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Poster",
-  0.4
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  0.8
  ],
  [
   "cmt#Meta-Reviewer",
@@ -1531,13 +1036,98 @@
  ],
  [
   "cmt#Review",
-  "conference#Invited_talk",
-  0.4
+  "conference#Extended_abstract",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Late_paid_applicant",
+  0.0
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
  ],
  [
   "cmt#Person",
-  "conference#Track-workshop_chair",
+  "conference#Reviewer",
   0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Abstract",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Information_for_participants",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Thing",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
  ],
  [
   "cmt#Thing",
@@ -1545,43 +1135,113 @@
   0.8
  ],
  [
-  "cmt#Review",
-  "conference#Paper",
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
   0.6
  ],
  [
-  "cmt#Person",
-  "conference#Thing",
-  0.4
+  "cmt#Paper",
+  "conference#Accepted_contribution",
+  0.19999999999999996
  ],
  [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
+  "cmt#Review",
+  "conference#Reviewed_contribution",
+  0.0
+ ],
+ [
+  "cmt#Author",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Submitted_contribution",
+  0.6
+ ],
+ [
+  "cmt#User",
+  "conference#Reviewer",
   0.8
  ],
  [
   "cmt#Review",
-  "conference#Conference_www",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Call_for_participation",
   0.6
+ ],
+ [
+  "cmt#Administrator",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Administrator",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Submitted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
  ],
  [
   "cmt#Review",
   "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Abstract",
-  0.0
- ],
- [
-  "cmt#Paper",
-  "conference#Reviewed_contribution",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
   0.6
  ],
  [
@@ -1590,69 +1250,34 @@
   0.4
  ],
  [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Poster",
+  0.4
+ ],
+ [
   "cmt#ProgramCommittee",
   "conference#Steering_committee",
   0.6
  ],
  [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
   "cmt#Reviewer",
   "conference#Person",
   0.8
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_participation",
-  0.6
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Person",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Early_paid_applicant",
-  0.19999999999999996
- ],
- [
-  "cmt#Person",
-  "conference#Conference_applicant",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.6
  ],
  [
   "cmt#Author",
@@ -1661,57 +1286,37 @@
  ],
  [
   "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Track-workshop_chair",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
+  "conference#Camera_ready_contribution",
+  0.0
  ],
  [
   "cmt#Review",
-  "conference#Paper",
+  "conference#Information_for_participants",
   0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Review_preference",
+  0.0
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Call_for_participation",
+  0.6
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Person",
+  0.8
  ],
  [
   "cmt#Thing",
   "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
   0.8
  ],
  [
@@ -1720,18 +1325,33 @@
   0.8
  ],
  [
-  "cmt#Person",
-  "conference#Organizer",
-  0.6
+  "cmt#ConferenceMember",
+  "conference#Reviewer",
+  0.8
  ],
  [
   "cmt#Review",
   "conference#Paper",
-  0.19999999999999996
+  0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Review",
+  "cmt#Reviewer",
+  "conference#Co-chair",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
   0.6
  ],
  [
@@ -1740,44 +1360,24 @@
   0.6
  ],
  [
-  "cmt#Person",
-  "conference#Organization",
+  "cmt#Review",
+  "conference#Invited_talk",
   0.4
  ],
  [
-  "cmt#Person",
-  "conference#Conference_participant",
+  "cmt#Conference",
+  "conference#Conference_volume",
   0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Review_preference",
+  0.19999999999999996
  ],
  [
   "cmt#Paper",
   "conference#Review",
   0.6
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
- ],
- [
-  "cmt#Document",
-  "conference#Review",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Regular_contribution",
-  0.4
- ],
- [
-  "cmt#User",
-  "conference#Person",
-  0.8
  ],
  [
   "cmt#Review",
@@ -1786,38 +1386,33 @@
  ],
  [
   "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Document",
-  "conference#Review",
+  "conference#Regular_contribution",
   0.8
  ],
  [
-  "cmt#Document",
-  "conference#Review",
-  0.8
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
  ],
  [
-  "cmt#Reviewer",
-  "conference#Paid_applicant",
+  "cmt#Review",
+  "conference#Submitted_contribution",
   0.19999999999999996
  ],
  [
   "cmt#Paper",
-  "conference#Conference_announcement",
-  0.19999999999999996
+  "conference#Conference_document",
+  0.4
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Review",
-  0.8
+  "cmt#Author",
+  "conference#Reviewer",
+  0.6
  ],
  [
-  "cmt#Document",
+  "cmt#Review",
   "conference#Paper",
-  0.8
+  0.6
  ],
  [
   "cmt#Thing",
@@ -1825,8 +1420,178 @@
   0.8
  ],
  [
+  "cmt#Reviewer",
+  "conference#Chair",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
   "cmt#Person",
-  "conference#Thing",
+  "conference#Passive_conference_participant",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Contribution_1th-author",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Invited_speaker",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Extended_abstract",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Review_expertise",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Document",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Active_conference_participant",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#AssociatedChair",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Paid_applicant",
+  0.4
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Document",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Contribution_1th-author",
+  0.4
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Extended_abstract",
+  0.19999999999999996
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Reviewer",
   0.4
  ],
  [
@@ -1835,14 +1600,109 @@
   0.6
  ],
  [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
+  "cmt#ExternalReviewer",
+  "conference#Reviewer",
+  0.4
  ],
  [
   "cmt#Person",
-  "conference#Regular_author",
+  "conference#Early_paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Contribution_co-author",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Author",
+  "conference#Person",
   0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Invited_talk",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
  ],
  [
   "cmt#ProgramCommitteeMember",
@@ -1850,8 +1710,88 @@
   0.8
  ],
  [
-  "cmt#Reviewer",
+  "cmt#Person",
+  "conference#Passive_conference_participant",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
   "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Conference_applicant",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#AssociatedChair",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Conference_applicant",
+  0.8
+ ],
+ [
+  "cmt#ExternalReviewer",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Conference_applicant",
+  0.8
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Thing",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Passive_conference_participant",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Reviewer",
   0.8
  ],
  [
@@ -1861,17 +1801,37 @@
  ],
  [
   "cmt#Person",
-  "conference#Passive_conference_participant",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_contribution",
+  "conference#Regular_author",
   0.6
  ],
  [
   "cmt#Review",
-  "conference#Conference_document",
+  "conference#Conference_contribution",
+  0.6
+ ],
+ [
+  "cmt#ConferenceChair",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
   0.8
  ],
  [
@@ -1880,232 +1840,12 @@
   0.6
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewer",
+  "cmt#Meta-Reviewer",
+  "conference#Person",
   0.4
- ],
- [
-  "cmt#Review",
-  "conference#Submitted_contribution",
-  0.19999999999999996
  ],
  [
   "cmt#Document",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Abstract",
-  0.0
- ],
- [
-  "cmt#Reviewer",
-  "conference#Track-workshop_chair",
-  0.6
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Contribution_co-author",
-  0.4
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Information_for_participants",
-  0.19999999999999996
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Regular_contribution",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Person",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  0.6
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Contribution_co-author",
-  0.19999999999999996
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Thing",
-  0.4
- ],
- [
-  "cmt#User",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#Document",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  0.19999999999999996
- ],
- [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  0.0
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
   "conference#Review",
   0.8
  ],
@@ -2115,39 +1855,34 @@
   0.8
  ],
  [
-  "cmt#Person",
-  "conference#Reviewer",
+  "cmt#ProgramCommitteeChair",
+  "conference#Person",
   0.6
  ],
  [
-  "cmt#Document",
-  "conference#Review",
+  "cmt#Chairman",
+  "conference#Person",
   0.8
  ],
  [
   "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  0.0
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  0.19999999999999996
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
+  "conference#Review",
+  0.6
  ],
  [
   "cmt#Person",
-  "conference#Active_conference_participant",
+  "conference#Review_preference",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Written_contribution",
   0.6
  ],
  [
-  "cmt#AssociatedChair",
-  "conference#Reviewer",
-  0.6
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
  ],
  [
   "cmt#ProgramCommittee",
@@ -2155,9 +1890,54 @@
   0.8
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Paper",
+  "cmt#Reviewer",
+  "conference#Passive_conference_participant",
   0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Late_paid_applicant",
+  0.0
  ],
  [
   "cmt#ProgramCommittee",
@@ -2165,104 +1945,9 @@
   0.6
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
+  "cmt#Reviewer",
+  "conference#Conference_contributor",
   0.6
- ],
- [
-  "cmt#User",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Person",
-  "conference#Conference_participant",
-  0.8
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Early_paid_applicant",
-  0.0
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  0.4
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  0.8
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
  ],
  [
   "cmt#AssociatedChair",
@@ -2270,98 +1955,8 @@
   0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Conference_www",
-  0.19999999999999996
- ],
- [
-  "cmt#Reviewer",
-  "conference#Invited_speaker",
-  0.4
- ],
- [
-  "cmt#Reviewer",
+  "cmt#ProgramCommitteeMember",
   "conference#Person",
-  0.6
- ],
- [
-  "cmt#Paper",
-  "conference#Invited_talk",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  0.6
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Reviewer",
-  0.6
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Registeered_applicant",
-  0.4
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  0.8
- ],
- [
-  "cmt#Review",
-  "conference#Extended_abstract",
-  0.19999999999999996
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
-  0.8
- ],
- [
-  "cmt#Person",
-  "conference#Passive_conference_participant",
-  0.6
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Thing",
-  "conference#Conference",
-  0.8
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewer",
-  0.4
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  0.8
- ],
- [
-  "cmt#Reviewer",
-  "conference#Registeered_applicant",
-  0.4
- ],
- [
-  "cmt#Document",
-  "conference#Paper",
   0.8
  ],
  [
@@ -2370,8 +1965,38 @@
   0.8
  ],
  [
+  "cmt#Review",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Chair",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Reviewed_contribution",
+  0.0
+ ],
+ [
   "cmt#Meta-Reviewer",
   "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
   0.8
  ],
  [
@@ -2380,12 +2005,27 @@
   0.6
  ],
  [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  0.4
+  "cmt#Review",
+  "conference#Abstract",
+  0.0
  ],
  [
-  "cmt#AuthorNotReviewer",
+  "cmt#Person",
+  "conference#Conference_applicant",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Organizer",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
   "conference#Person",
   0.4
  ],
@@ -2395,13 +2035,38 @@
   0.8
  ],
  [
+  "cmt#Meta-Review",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
   "cmt#Thing",
   "conference#Conference",
   0.8
  ],
  [
-  "cmt#Paper",
-  "conference#Regular_contribution",
+  "cmt#Person",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Organizer",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_announcement",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
   0.8
  ],
  [
@@ -2410,9 +2075,49 @@
   0.0
  ],
  [
-  "cmt#AssociatedChair",
-  "conference#Person",
+  "cmt#Meta-Reviewer",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#ConferenceMember",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Registeered_applicant",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Rejected_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
   0.6
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
  ],
  [
   "cmt#Conference",
@@ -2420,9 +2125,94 @@
   0.8
  ],
  [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
   "cmt#Reviewer",
-  "conference#Active_conference_participant",
+  "conference#Review_preference",
+  0.0
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Track-workshop_chair",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "conference#Track-workshop_chair",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Abstract",
+  0.0
+ ],
+ [
+  "cmt#Person",
+  "conference#Registeered_applicant",
+  0.6
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "conference#Person",
   0.4
+ ],
+ [
+  "cmt#Author",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#AssociatedChair",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Co-author",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
  ],
  [
   "cmt#PaperAbstract",
@@ -2440,24 +2230,119 @@
   0.0
  ],
  [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
   "cmt#ProgramCommitteeChair",
   "conference#Reviewer",
   0.4
  ],
  [
-  "cmt#Paper",
-  "conference#Written_contribution",
-  0.6
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_participation",
-  0.6
+  "cmt#Reviewer",
+  "conference#Organizer",
+  0.4
  ],
  [
   "cmt#Person",
-  "conference#Reviewer",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Conference_document",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Abstract",
+  0.4
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
   0.8
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "conference#Review",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Regular_author",
+  0.4
  ],
  [
   "cmt#Thing",
@@ -2465,14 +2350,19 @@
   0.8
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  0.8
+  "cmt#Review",
+  "conference#Presentation",
+  0.4
  ],
  [
-  "cmt#ProgramCommitteeMember",
-  "conference#Person",
-  0.8
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
  ],
  [
   "cmt#Paper",
@@ -2480,23 +2370,133 @@
   0.6
  ],
  [
-  "cmt#Conference",
-  "conference#Conference_volume",
+  "cmt#PaperFullVersion",
+  "conference#Paper",
   0.8
  ],
  [
-  "cmt#Document",
+  "cmt#Person",
+  "conference#Review_preference",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Regular_author",
+  0.4
+ ],
+ [
+  "cmt#Paper",
   "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#ConferenceChair",
+  "conference#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
   0.8
  ],
  [
   "cmt#Reviewer",
-  "conference#Conference_contributor",
+  "conference#Committee_member",
   0.6
  ],
  [
-  "cmt#Thing",
-  "conference#Conference",
+  "cmt#Review",
+  "conference#Submitted_contribution",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
   0.8
+ ],
+ [
+  "cmt#Author",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Organizing_committee",
+  0.6
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "cmt#PaperAbstract",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#Person",
+  "conference#Invited_speaker",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "conference#Extended_abstract",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Early_paid_applicant",
+  0.0
+ ],
+ [
+  "cmt#Paper",
+  "conference#Reviewed_contribution",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "conference#Review_preference",
+  0.19999999999999996
  ]
 ]

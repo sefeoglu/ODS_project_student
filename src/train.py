@@ -117,7 +117,6 @@ def train(tracks, saveAlignmentsToJson = False, alignmentsPath = 'alignments.jso
                         #   "thresholds": [0.45, 0.5, 0.55]},
         tensorboard_writer=writer
     )
-    print("----------------------------", alignmentsPath)
     trainer.train(config, tracks, saveAlignmentsToJson = saveAlignmentsToJson, alignmentsPath = alignmentsPath, extra_tracks=extra_tracks, epochs=75, test_size=test_size, consider_train_set=consider_train_set, \
                   save_model=False, save_path=f"./store/{'_'.join(tracks)}/", lr=1e-5)
 
