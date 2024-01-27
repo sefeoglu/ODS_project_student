@@ -1,4 +1,4 @@
-# Define the prompt templates
+# Definition of the prompt templates
 ## prompt 0:
 Full explanation of the task with comprehensive explanation with context, mentioning the concepts twice.
 e.g.:
