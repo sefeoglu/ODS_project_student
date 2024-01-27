@@ -86,6 +86,19 @@ def prompt0(triples, context, promptCounter):
 
 def prompt1(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    prompt = 'Classify if two concepts refer to the same real word entity.\n'
+    prompt += f'This is the context for the first concept "{node1}":\n'
+    prompt += f'{cont1}\n\n' if (cont1 != None) else ''
+    prompt += f'This is the context for the second concept "{node2}":\n'
+    prompt += f'{cont2}\n' if (cont2 != None) else ''
+    prompt += f'Do these concepts "{node1}" and "{node2}" refer to the same real word entity? yes or no:'
+    #workaround
+    if (onto1 == onto2):
+        return ''
+    return prompt
+
+def prompt2(triples, context, promptCounter):
+    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = 'Classify if the following two concepts are the same.\n'
     prompt += f'###First concept {node1}:\n'
     prompt += f'{cont1}\n' if (cont1 != None) else ''
@@ -97,23 +110,10 @@ def prompt1(triples, context, promptCounter):
         return ''
     return prompt
 
-def prompt2(triples, context, promptCounter):
+def prompt3(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = f'Is {node1} and {node2} the same?\n'
     prompt += f'The answer which can be yes or no is:'
-    #workaround
-    if (onto1 == onto2):
-        return ''
-    return prompt
-
-def prompt3(triples, context, promptCounter):
-    key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
-    prompt = 'Classify if two concepts refer to the same real word entity.\n'
-    prompt += f'This is the context for the first concept "{node1}":\n'
-    prompt += f'{cont1}\n\n' if (cont1 != None) else ''
-    prompt += f'This is the context for the second concept "{node2}":\n'
-    prompt += f'{cont2}\n' if (cont2 != None) else ''
-    prompt += f'Do these concepts "{node1}" and "{node2}" refer to the same real word entity? yes or no:'
     #workaround
     if (onto1 == onto2):
         return ''
