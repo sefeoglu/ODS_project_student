@@ -27,6 +27,7 @@ def main():
     }
     #define different walk configs
     if (configODS.get('exportCrossProductAsAlignments') == True):
+        #for now just copied from train.py will adjust later
         metrics_config={"results_files_path": "./result_alignments",
             "write_rdf": False,
             "write_tsv": False,
@@ -37,7 +38,7 @@ def main():
         ontos = t.ontologies
         onto1 = ontos[0]
         onto2 = ontos[1]
-        crossProduct = [[class1, class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
+        crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
         json_data = json.dumps(crossProduct, indent=1)
         with open(configODS.get('alignmentPath'), 'w') as json_file:
             json_file.write(json_data)
