@@ -20,7 +20,8 @@ def reformatConfigODS(configODSPath):
 def resetConfigODS(configODSPath):
     configODS = {'reformatThisFile' : False,
                  'resetThisFile' : False,
-                 'exportAlignmentsToJson' : True,
+                 'exportCrossProductAsAlignments': True,
+                 'exportAlignmentsToJson' : False,
                  'exportRandomWalkTriples' : True,
                  'exportRandomTreeTriples' : True,
                  'exportWalkPromptsToJson': True,
