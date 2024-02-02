@@ -1,20 +1,9 @@
-import json
-
-
-def importConfigODS(configODSPath):
-    with open(configODSPath, 'r') as json_file:
-        data = json.load(json_file)
-    return data
-
-def exportConfigODS(configODS, configODSPath):
-    data = json.dumps(configODS, indent='\t')
-    with open(configODSPath, 'w') as json_file:
-        json_file.write(data)
+import utils
 
 def reformatConfigODS(configODSPath):
-    configODS = importConfigODS(configODSPath)
+    configODS = utils.importFromJson(configODSPath)
     configODS.update({'reformatThisFile' : False})
-    exportConfigODS(configODS, configODSPath)
+    utils.saveToJson(configODS, configODSPath)
     print(f'reformatig {configODSPath} done.')
 
 def resetConfigODS(configODSPath):
@@ -34,14 +23,14 @@ def resetConfigODS(configODSPath):
                  'verbalizedTreeTriplesPath' : '../results/result_triples_verbalized/triples_randomTree_verbalized_out.json',
                  'promptsPath' : '../results/result_prompts/',
                  }
-    exportConfigODS(configODS, configODSPath)
+    utils.saveToJson(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
 
 def getConfigODS(configODSPath = './configODS.json'):
-    configODS = importConfigODS(configODSPath)
+    configODS = utils.importFromJson(configODSPath)
     if configODS.get('reformatThisFile') == True:
         reformatConfigODS(configODSPath)
     if configODS.get('resetThisFile') == True:
         resetConfigODS(configODSPath)
-        configODS = importConfigODS(configODSPath)
+        configODS = utils.importFromJson(configODSPath)
     return configODS

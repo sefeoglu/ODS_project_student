@@ -318,6 +318,7 @@ class RandomWalk():
                         triples[name] = [triple]
                     else:
                         triples[name].append((L[i-1], item, L[i+1]))
+            #ToDo: use utils json save function; will be done when adapting random tree algo. according to issue #24 and #17
             import json
             json_data = json.dumps(triples, indent=1)
             with open(walk_config.triplesPath, 'w') as json_file:

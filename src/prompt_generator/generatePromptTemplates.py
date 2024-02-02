@@ -1,23 +1,19 @@
-import json
-"""
 import sys
 sys.path.append('..')
-import configODSImport
-"""
+from src import utils
+
 
 problemDefinition = 'In this task, we are given two concepts along with their definitions from two ontologies.'
 objective = 'Our objective is to provide ontology mapping for the provided ontologies based on their semantic similarities.'
 #importing data1
 def importTriples(json_file_path):
-    with open(json_file_path, 'r') as file:
-        data = json.load(file)
+    data = utils.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing triples from '{json_file_path}'")
     return data
 
 def importContext(json_file_path = './triples_randomWalk_verbalized_out/RandomWalk_verbalized_out.json'):
-    with open(json_file_path, 'r') as file:
-        data = json.load(file)
+    data = utils.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing context from '{json_file_path}'")
     return data
@@ -130,9 +126,7 @@ def extract(triples, context, promptCounter):
     return key1, key2, cont1, cont2, onto1, onto2, node1, node2
 
 def savePromptToJson(promptList, json_path):
-    data = json.dumps(promptList, indent='\t')
-    with open(json_path, 'w') as json_file:
-        json_file.write(data)
+    utils.saveToJson(promptList, json_path)
 
 
 #p = getPrompt("../../results/result_alignments/conference/alignments.json", "../../results/result_triples/triples_randomTree_verbalized_out.json")

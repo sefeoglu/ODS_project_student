@@ -1,4 +1,4 @@
-import json
+import utils
 import configODSImport
 from prompt_generator import generatePromptTemplates
 from track import Track
@@ -11,8 +11,7 @@ def main():
     from train import train
     from batch_loaders.random_walk import RandomWalkConfig, WalkStrategy
     #get configFile from original project
-    with open("config.json", 'r') as f:
-        config = json.load(f)
+    config = utils.importFromJson('config.json')
     #configure loader
     loader_config = {
         "iir":0.8, 
@@ -42,15 +41,13 @@ def main():
             onto2 = ontos.get(ontoName2)
             if onto1 and onto2:
                 crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
-                json_data = json.dumps(crossProduct, indent=1)
                 path = configODS.get('alignmentPath') + name + '/' + ontoName1 + '-' + ontoName2 + '.json'
-                with open(path, 'w') as json_file:
-                    json_file.write(json_data)
-                print(f"exported crossProduct to '{path}'")
+                utils.saveToJson(crossProduct, path, messageText=f'exported crossProduct ({ontoName1} X {ontoName2}) to ')
     if (configODS.get('exportAlignmentsToJson') == True):
+        path = configODS.get('alignmentPath') + "conference" + '/alignments' + '.json'
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = False, strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
-        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = True, alignmentsPath = configODS.get('alignmentPath'), test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
-        print(f"exported alignments to '{configODS.get('alignmentPath')}'")
+        train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = True, alignmentsPath = path, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
+        print(f"exported alignments to '{path}'")
     if configODS.get('exportRandomWalkTriples') == True:
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = True, triplesPath = configODS.get('walkTriplesPath'), strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
         train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = False, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
@@ -62,12 +59,13 @@ def main():
     promptVersion = configODS.get('promptsFoExportToJson')
     if promptVersion:
         for i in promptVersion:
+            path = configODS.get('alignmentPath') + "conference/alignments.json"
             if configODS.get('exportWalkPromptsToJson'):
-                promptList = generatePromptTemplates.getPrompt(configODS.get('alignmentPath'), configODS.get('verbalizedWalkTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                promptList = generatePromptTemplates.getPrompt(path, configODS.get('verbalizedWalkTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                 generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}.json")
                 print(f"exported 'walkPromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
             if configODS.get('exportTreePromptsToJson'):
-                promptList = generatePromptTemplates.getPrompt(configODS.get('alignmentPath'), configODS.get('verbalizedTreeTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                promptList = generatePromptTemplates.getPrompt(path, configODS.get('verbalizedTreeTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                 generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}.json")
                 print(f"exported 'treePromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
         
