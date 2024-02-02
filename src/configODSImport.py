@@ -1,11 +1,32 @@
 import utils
 
+"""
+reformats the json configODS file nicely, saves it to configODSPath
+the configODS file is usually named "configODS.json"
+
+Parameters:
+configODSPath (str): the path to the configODS file
+
+Returns: 
+None
+"""
 def reformatConfigODS(configODSPath):
     configODS = utils.importFromJson(configODSPath)
     configODS.update({'reformatThisFile' : False})
     utils.saveToJson(configODS, configODSPath)
     print(f'reformatig {configODSPath} done.')
 
+
+"""
+resets the json configODS file to a working standard, saves it to configODSPath
+the configODS file is usually named "configODS.json"
+
+Parameters:
+configODSPath (str): the path to the configODS file
+
+Returns: 
+None
+"""
 def resetConfigODS(configODSPath):
     configODS = {'reformatThisFile' : False,
                  'resetThisFile' : False,
@@ -26,11 +47,24 @@ def resetConfigODS(configODSPath):
     utils.saveToJson(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
 
+
+"""
+loads the json configODS file and maintains it when needed
+
+Parameters:
+configODSPath (str): the path to the configODS file
+
+Returns: 
+the configODS files data
+"""
 def getConfigODS(configODSPath = './configODS.json'):
+    #load configODS
     configODS = utils.importFromJson(configODSPath)
+    #Maintenance
     if configODS.get('reformatThisFile') == True:
         reformatConfigODS(configODSPath)
     if configODS.get('resetThisFile') == True:
         resetConfigODS(configODSPath)
+        #reload because of resetting
         configODS = utils.importFromJson(configODSPath)
     return configODS

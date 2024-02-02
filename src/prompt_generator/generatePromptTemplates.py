@@ -2,22 +2,38 @@ import sys
 sys.path.append('..')
 from src import utils
 
+"""
+imports alignments from json_file_path
 
-problemDefinition = 'In this task, we are given two concepts along with their definitions from two ontologies.'
-objective = 'Our objective is to provide ontology mapping for the provided ontologies based on their semantic similarities.'
-#importing data1
-def importTriples(json_file_path):
+Parameters:
+json_file_path (str): the path to the alignment file
+
+Returns: 
+alignments
+"""
+def importAlignments(json_file_path):
     data = utils.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing triples from '{json_file_path}'")
     return data
 
+
+"""
+imports context from json_file_path
+
+Parameters:
+json_file_path (str): the path to the context file
+
+Returns: 
+context
+"""
 def importContext(json_file_path = './triples_randomWalk_verbalized_out/RandomWalk_verbalized_out.json'):
     data = utils.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing context from '{json_file_path}'")
     return data
 
+#provides context in a dict
 def formatContext(data):
     context = {}
     for i in data:
@@ -25,18 +41,25 @@ def formatContext(data):
         context.update({key : i.get(key)})
     return context
 
-def groupTriples():
-    data = importTriples()
-    tuples = []
-    for triple in data:
-        onto, node1 = triple[0].split('#')
-        onto, node2 = triple[1].split('#')
-        tuples.append((node1, node2))
-    return tuples
+"""
+calls the generate prompt function for required prompt version
 
-#promptCounter is the index of the desired prompt, if promptCounter < 0 all prompts are returned as a list
+Parameters:
+alignmentPath (str): the path to the alignment file
+contextPath (str): the path to the context file
+promptVersion (int): version of prompt to be generated
+promptCounter (int): 
+                    < 0     => generate all prompts as list
+                    >= 0    => generate prompt with index promptCounter
+skipIfNoContext (bool): 
+                    True    => skip alignment if their is not enough context
+                    False   => generate anyways
+
+Returns: 
+prompt (str) or list of prompts ([str])
+"""
 def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1, skipIfNoContext = True):
-    triples = importTriples(alignmentPath)
+    triples = importAlignments(alignmentPath)
     context = formatContext(importContext(contextPath))
     #choose correct function for promptVersion
     if promptVersion == 0:
@@ -47,6 +70,7 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
         generatePrompt = lambda triples, context, promptCounter : prompt2(triples, context, promptCounter)
     elif promptVersion == 3:
         generatePrompt = lambda triples, context, promptCounter : prompt3(triples, context, promptCounter)
+    
     #skipIfNoContext
     if (skipIfNoContext):
         tmpTriples = []
@@ -69,8 +93,11 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
         
     return prompt
 
+#function for prompt version 0
 def prompt0(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
+    problemDefinition = 'In this task, we are given two concepts along with their definitions from two ontologies.'
+    objective = 'Our objective is to provide ontology mapping for the provided ontologies based on their semantic similarities.'
     prompt = problemDefinition + '\n' + objective + '\n'    
     prompt += f'{key1}: {cont1}\n' if (cont1 != None) else ''
     prompt += f'{key2}: {cont2}\n' if (cont2 != None) else ''
@@ -80,6 +107,7 @@ def prompt0(triples, context, promptCounter):
         return ''
     return prompt
 
+#function for prompt version 1
 def prompt1(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = 'Classify if two concepts refer to the same real word entity.\n'
@@ -93,6 +121,7 @@ def prompt1(triples, context, promptCounter):
         return ''
     return prompt
 
+#function for prompt version 2
 def prompt2(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = 'Classify if the following two concepts are the same.\n'
@@ -106,6 +135,7 @@ def prompt2(triples, context, promptCounter):
         return ''
     return prompt
 
+#function for prompt version 3
 def prompt3(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
     prompt = f'Is {node1} and {node2} the same?\n'
@@ -125,6 +155,7 @@ def extract(triples, context, promptCounter):
     cont2 = context.get(key2)
     return key1, key2, cont1, cont2, onto1, onto2, node1, node2
 
+#saves prompts in a list to a json file
 def savePromptToJson(promptList, json_path):
     utils.saveToJson(promptList, json_path)
 
