@@ -27,7 +27,7 @@ def resetConfigODS(configODSPath):
                  'exportWalkPromptsToJson': True,
                  'exportTreePromptsToJson': True,
                  'promptsFoExportToJson': [0, 1, 2, 3],
-                 'alignmentPath' : '../results/result_alignments/conference/alignments.json',
+                 'alignmentPath' : '../results/result_alignments/',
                  "walkTriplesPath": "../results/result_triples/triples_randomWalk.json",
                  "treeTriplesPath": "../results/result_triples/triples_randomTree.json",
                  'verbalizedWalkTriplesPath' : '../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json',

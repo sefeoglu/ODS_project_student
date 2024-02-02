@@ -34,15 +34,19 @@ def main():
             "write_ranking": False,
             "hits":[1, 3, 5, 10], 
             "debug_files_path": "./debug"}
-        t = Track("conference", config, metrics_config=metrics_config)
-        ontos = t.ontologies
-        onto1 = ontos[0]
-        onto2 = ontos[1]
-        crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
-        json_data = json.dumps(crossProduct, indent=1)
-        with open(configODS.get('alignmentPath'), 'w') as json_file:
-            json_file.write(json_data)
-        print(f"exported crossProduct to '{configODS.get('alignmentPath')}'")
+        name = "conference"
+        t = Track(name, config, metrics_config=metrics_config)
+        ontos = {onto.get_name() : onto for onto in t.ontologies}
+        for ontoName1, ontoName2 in t.toBeMatchedOntologies:
+            onto1 = ontos.get(ontoName1)
+            onto2 = ontos.get(ontoName2)
+            if onto1 and onto2:
+                crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
+                json_data = json.dumps(crossProduct, indent=1)
+                path = configODS.get('alignmentPath') + name + '/' + ontoName1 + '-' + ontoName2 + '.json'
+                with open(path, 'w') as json_file:
+                    json_file.write(json_data)
+                print(f"exported crossProduct to '{path}'")
     if (configODS.get('exportAlignmentsToJson') == True):
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = False, strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
         train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = True, alignmentsPath = configODS.get('alignmentPath'), test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)

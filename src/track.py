@@ -71,6 +71,13 @@ class Track():
         alignments_folder = track_config["alignments_folder"]
         alignments_filenames = self._load_folder_or_list(track_config, "alignments", alignments_folder)
         
+        self.toBeMatchedOntologies = []
+        for fileName in alignments_filenames:
+            onto1, onto2 = fileName.split('-')
+            onto1 = onto1.split('.')[0]
+            onto2 = onto2.split('.')[0]
+            self.toBeMatchedOntologies.append((onto1, onto2))
+
         if "ontologies_in_alignment" in track_config:
             ontologies_in_alignment = track_config["ontologies_in_alignment"]
             self.alignment_per_dataset: List[AlignmentDataset] = [AlignmentDataset(os.path.join(alignments_folder, path),
