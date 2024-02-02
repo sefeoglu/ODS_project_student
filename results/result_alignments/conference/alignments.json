@@ -1,8557 +1,2502 @@
 [
  [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_participant",
-  "no score"
+  "confOf#Person",
+  "iasted#Sponsor",
+  0.8
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Active_conference_participant",
-  "no score"
+  "iasted#Person",
+  "cocus#User",
+  0.8
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Passive_conference_participant",
-  "no score"
+  "confOf#Person",
+  "cocus#Abstract",
+  0.19999999999999996
  ],
  [
-  "cmt#Meta-Reviewer",
+  "iasted#Coctail_reception",
+  "cocus#Registration",
+  0.6
+ ],
+ [
   "conference#Person",
-  "no score"
+  "iasted#IASTED_member",
+  0.6
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Review_expertise",
-  "no score"
+  "cmt#Administrator",
+  "cocus#Person",
+  0.8
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Submitted_contribution",
-  "no score"
+  "cmt#ConferenceChair",
+  "iasted#Author",
+  0.6
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
+  "confOf#Poster",
   "conference#Accepted_contribution",
-  "no score"
+  0.4
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Program_committee",
-  "no score"
+  "cmt#Meta-Review",
+  "iasted#Document",
+  0.6
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Organizing_committee",
-  "no score"
+  "confOf#Person",
+  "cocus#Paper",
+  0.4
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Steering_committee",
-  "no score"
+  "iasted#Form",
+  "cocus#Review",
+  0.6
  ],
  [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Meta-Reviewer",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
+  "confOf#Company",
   "conference#Organization",
-  "no score"
+  0.8
  ],
  [
-  "cmt#Reviewer",
-  "conference#Regular_contribution",
-  "no score"
+  "iasted#Taxi",
+  "cocus#Document",
+  0.4
  ],
  [
-  "cmt#Reviewer",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Reviewer",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Decision",
   "conference#Person",
-  "no score"
+  "cocus#User",
+  0.8
  ],
  [
-  "cmt#Decision",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Decision",
   "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Decision",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Person",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Document",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Preference",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ProgramCommittee",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Bid",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Conference",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ConferenceChair",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ConferenceMember",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#AssociatedChair",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeMember",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#AuthorNotReviewer",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#SubjectArea",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ExternalReviewer",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Chairman",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#ProgramCommitteeChair",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Acceptance",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Rejection",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Organization",
-  "no score"
+  "iasted#Activity_before_conference",
+  0.4
  ],
  [
   "cmt#Review",
   "conference#Regular_contribution",
-  "no score"
+  0.4
+ ],
+ [
+  "conference#Workshop",
+  "iasted#Tutorial",
+  0.6
+ ],
+ [
+  "conference#Presentation",
+  "iasted#Social_program",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "confOf#Conference",
+  0.8
+ ],
+ [
+  "iasted#Person",
+  "cocus#Paper",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "iasted#Document",
+  0.6
+ ],
+ [
+  "iasted#Review",
+  "cocus#Committee",
+  0.0
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Review",
+  0.0
  ],
  [
   "cmt#Review",
-  "conference#Poster",
-  "no score"
+  "iasted#Transparency",
+  0.6
+ ],
+ [
+  "conference#Track",
+  "iasted#Tutorial",
+  0.6
+ ],
+ [
+  "conference#Reviewer",
+  "iasted#Student_lecturer",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Author",
+  "iasted#Student_non_speaker",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Workshop",
+  "conference#Tutorial",
+  0.6
+ ],
+ [
+  "conference#Person",
+  "cocus#Committe_Role",
+  0.4
+ ],
+ [
+  "conference#Workshop",
+  "cocus#Event",
+  0.8
+ ],
+ [
+  "conference#Contribution_co-author",
+  "iasted#Reviewer",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Organization",
+  "conference#Committee_member",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "confOf#Short_paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Review",
+  0.4
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Student",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Presentation",
+  0.4
+ ],
+ [
+  "confOf#Event",
+  "cocus#Reviewer_Role",
+  0.4
+ ],
+ [
+  "cmt#Chairman",
+  "cocus#Author",
+  0.4
+ ],
+ [
+  "cmt#Document",
+  "iasted#Brief_introduction_for_Session_chair",
+  0.8
+ ],
+ [
+  "confOf#University",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "conference#Person",
+  "iasted#Worker_lecturer",
+  0.0
+ ],
+ [
+  "confOf#Person",
+  "iasted#Delegate",
+  0.8
+ ],
+ [
+  "conference#Abstract",
+  "iasted#Review",
+  0.0
+ ],
+ [
+  "confOf#Workshop",
+  "cocus#Event",
+  0.8
+ ],
+ [
+  "iasted#Author",
+  "cocus#User",
+  0.8
  ],
  [
   "cmt#Review",
-  "conference#Written_contribution",
-  "no score"
+  "cocus#Administrator",
+  0.19999999999999996
  ],
  [
-  "cmt#Review",
-  "conference#Conference_applicant",
-  "no score"
+  "cmt#Person",
+  "conference#Thing",
+  0.4
  ],
  [
-  "cmt#Review",
+  "iasted#Delegate",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "iasted#Audiovisual_equipment",
+  "cocus#Review",
+  0.4
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#User",
+  0.0
+ ],
+ [
+  "cmt#User",
+  "iasted#Author",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "cocus#User",
+  0.8
+ ],
+ [
+  "confOf#Administrative_event",
+  "cocus#Workshop",
+  0.4
+ ],
+ [
+  "cmt#ExternalReviewer",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "conference#Contribution_1th-author",
+  "iasted#Reviewer",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Banquet",
+  "cocus#Workshop",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Author",
+  "iasted#Worker_lecturer",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "cocus#Paper",
+  0.8
+ ],
+ [
+  "iasted#Review",
+  "cocus#Author",
+  0.0
+ ],
+ [
+  "conference#Person",
+  "cocus#Administrator",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "iasted#One_day_presenter",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "confOf#Author",
+  0.6
+ ],
+ [
+  "confOf#Chair_PC",
+  "iasted#Person",
+  0.8
+ ],
+ [
+  "confOf#Poster",
+  "iasted#Person",
+  0.4
+ ],
+ [
+  "iasted#Card",
+  "cocus#Submission",
+  0.4
+ ],
+ [
+  "cmt#Paper",
   "conference#Camera_ready_contribution",
-  "no score"
+  0.0
  ],
  [
-  "cmt#Review",
-  "conference#Accepted_contribution",
-  "no score"
+  "confOf#Author",
+  "cocus#Committee",
+  0.6
  ],
  [
-  "cmt#Review",
-  "conference#Program_committee",
-  "no score"
+  "conference#Track",
+  "cocus#Workshop",
+  0.6
  ],
  [
-  "cmt#Review",
-  "conference#Organizing_committee",
-  "no score"
+  "confOf#Reviewing_results_event",
+  "cocus#Workshop",
+  0.19999999999999996
  ],
  [
-  "cmt#Review",
-  "conference#Steering_committee",
-  "no score"
+  "cmt#Thing",
+  "cocus#Conference",
+  0.8
  ],
  [
-  "cmt#Review",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Review",
   "conference#Conference_part",
-  "no score"
+  "iasted#Tutorial",
+  0.8
+ ],
+ [
+  "iasted#Activity",
+  "cocus#Misc",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Steering_committee",
+  0.6
+ ],
+ [
+  "conference#Conference_volume",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "cmt#ConferenceMember",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "iasted#Tutorial_speaker",
+  0.19999999999999996
+ ],
+ [
+  "conference#Committee",
+  "cocus#User",
+  0.8
+ ],
+ [
+  "confOf#Organization",
+  "conference#Reviewer",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Co-author",
+  "cocus#Author",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "conference#Conference_document",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Document",
+  "cocus#Approval_Email",
+  0.6
+ ],
+ [
+  "confOf#Paper",
+  "conference#Review",
+  0.19999999999999996
+ ],
+ [
+  "conference#Presentation",
+  "iasted#Modelling",
+  0.0
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Email",
+  0.4
+ ],
+ [
+  "confOf#Person",
+  "iasted#Speaker",
+  0.6
+ ],
+ [
+  "cmt#Thing",
+  "confOf#Conference",
+  0.8
+ ],
+ [
+  "confOf#Working_event",
+  "cocus#Workshop",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Meta-Review",
+  "cocus#Review",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "cocus#Document",
+  0.4
+ ],
+ [
+  "conference#Contribution_1th-author",
+  "iasted#Person",
+  0.4
+ ],
+ [
+  "confOf#Author",
+  "cocus#User",
+  0.8
+ ],
+ [
+  "confOf#Regular",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Committee_member",
+  0.6
+ ],
+ [
+  "confOf#Short_paper",
+  "conference#Person",
+  0.4
+ ],
+ [
+  "conference#Presentation",
+  "iasted#Conference_activity",
+  0.8
+ ],
+ [
+  "confOf#Working_event",
+  "conference#Tutorial",
+  0.8
+ ],
+ [
+  "confOf#Person",
+  "cocus#Author",
+  0.8
+ ],
+ [
+  "iasted#One_day_presenter",
+  "cocus#Author",
+  0.4
+ ],
+ [
+  "confOf#Scholar",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "iasted#One_day_presenter",
+  0.6
+ ],
+ [
+  "iasted#Record_of_attendance",
+  "cocus#Review",
+  0.6
+ ],
+ [
+  "conference#Person",
+  "cocus#Abstract",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Person",
+  "cocus#Document",
+  0.6
+ ],
+ [
+  "conference#Accepted_contribution",
+  "cocus#Paper",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Modelling",
+  "cocus#Registration",
+  0.0
+ ],
+ [
+  "confOf#Person",
+  "conference#Paper",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "conference#Review_expertise",
+  0.19999999999999996
+ ],
+ [
+  "conference#Paper",
+  "cocus#Rejection_Email",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Conference_announcement",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Registration_of_participants_event",
+  "cocus#Event",
+  0.6
+ ],
+ [
+  "conference#Reviewer",
+  "iasted#Listener",
+  0.4
+ ],
+ [
+  "confOf#Tutorial",
+  "conference#Workshop",
+  0.6
+ ],
+ [
+  "confOf#Person",
+  "conference#Thing",
+  0.4
+ ],
+ [
+  "conference#Person",
+  "iasted#Conference_Hiker",
+  0.6
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Group_Email",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Thing",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "confOf#Person",
+  "iasted#Worker_non_speaker",
+  0.4
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Organizer",
+  0.4
+ ],
+ [
+  "conference#Reviewed_contribution",
+  "iasted#Presentation",
+  0.19999999999999996
+ ],
+ [
+  "conference#Organizing_committee",
+  "cocus#Committee",
+  0.8
+ ],
+ [
+  "confOf#Social_event",
+  "cocus#Workshop",
+  0.4
+ ],
+ [
+  "iasted#Review",
+  "cocus#Template",
+  0.6
+ ],
+ [
+  "confOf#Paper",
+  "cocus#Invited_Paper",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "cocus#Paper",
+  0.0
+ ],
+ [
+  "iasted#Coctail_reception",
+  "cocus#Registration",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Author",
+  0.0
+ ],
+ [
+  "cmt#ExternalReviewer",
+  "cocus#Author",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "confOf#Conference",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "cocus#Person",
+  0.6
+ ],
+ [
+  "cmt#Person",
+  "confOf#Paper",
+  0.4
+ ],
+ [
+  "confOf#Paper",
+  "cocus#Role",
+  0.4
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "confOf#Author",
+  0.4
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Contribution",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Short_Paper",
+  0.8
+ ],
+ [
+  "conference#Paper",
+  "cocus#Document",
+  0.8
+ ],
+ [
+  "cmt#Document",
+  "iasted#Registration_form",
+  0.6
+ ],
+ [
+  "confOf#Tutorial",
+  "conference#Conference_part",
+  0.8
+ ],
+ [
+  "conference#Workshop",
+  "cocus#Detail",
+  0.4
+ ],
+ [
+  "confOf#City",
+  "iasted#Trip_city",
+  0.8
+ ],
+ [
+  "iasted#Submission",
+  "cocus#Template",
+  0.6
+ ],
+ [
+  "conference#Tutorial",
+  "iasted#Lecture",
+  0.8
+ ],
+ [
+  "cmt#Document",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "confOf#Paper",
+  0.6
+ ],
+ [
+  "iasted#Final_manuscript",
+  "cocus#Submission",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "iasted#Person",
+  "cocus#Review",
+  0.4
+ ],
+ [
+  "conference#Information_for_participants",
+  "iasted#Presentation",
+  0.4
+ ],
+ [
+  "conference#Person",
+  "cocus#Thing",
+  0.8
+ ],
+ [
+  "conference#Person",
+  "cocus#Conference",
+  0.4
+ ],
+ [
+  "confOf#Registration_of_participants_event",
+  "cocus#Event",
+  0.6
+ ],
+ [
+  "confOf#Working_event",
+  "conference#Tutorial",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "confOf#Science_Worker",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Workshop",
+  "conference#Conference_part",
+  0.8
+ ],
+ [
+  "iasted#Review",
+  "cocus#Committee",
+  0.0
+ ],
+ [
+  "cmt#Author",
+  "iasted#Sponsor",
+  0.19999999999999996
+ ],
+ [
+  "conference#Review",
+  "iasted#Document",
+  0.8
+ ],
+ [
+  "confOf#Student",
+  "cocus#Paper",
+  0.0
+ ],
+ [
+  "cmt#Review",
+  "iasted#Initial_manuscipt",
+  0.4
+ ],
+ [
+  "iasted#Document",
+  "cocus#Head_Role",
+  0.4
+ ],
+ [
+  "confOf#Scholar",
+  "iasted#Author",
+  0.6
+ ],
+ [
+  "conference#Person",
+  "iasted#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Camera_ready_contribution",
+  0.0
+ ],
+ [
+  "cmt#ExternalReviewer",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Notification_Email",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Tutorial",
+  "iasted#Dinner_banquet",
+  0.19999999999999996
+ ],
+ [
+  "conference#Committee",
+  "cocus#Symposium",
+  0.0
+ ],
+ [
+  "conference#Conference_volume",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "iasted#Payment_document",
+  "cocus#Document",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "cocus#Invited_Paper",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Paper",
+  "cocus#Author",
+  0.19999999999999996
+ ],
+ [
+  "cmt#User",
+  "confOf#Administrator",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "cocus#Thing",
+  0.6
+ ],
+ [
+  "conference#Written_contribution",
+  "iasted#Presentation",
+  0.6
+ ],
+ [
+  "cmt#PaperAbstract",
+  "iasted#Review",
+  0.4
+ ],
+ [
+  "confOf#Poster",
+  "conference#Written_contribution",
+  0.8
+ ],
+ [
+  "cmt#ConferenceChair",
+  "confOf#Author",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "iasted#Student_lecturer",
+  0.6
+ ],
+ [
+  "iasted#Document",
+  "cocus#Symposium",
+  0.4
+ ],
+ [
+  "cmt#Document",
+  "cocus#Full_Paper",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "iasted#Non_speaker",
+  0.4
+ ],
+ [
+  "conference#Review",
+  "iasted#Card",
+  0.4
+ ],
+ [
+  "iasted#Audiovisual_equipment",
+  "cocus#Document",
+  0.6
+ ],
+ [
+  "confOf#Company",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Early_paid_applicant",
+  0.0
+ ],
+ [
+  "confOf#Submission_event",
+  "cocus#Workshop",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Person",
+  "confOf#Volunteer",
+  0.8
+ ],
+ [
+  "conference#Paper",
+  "cocus#Abstract",
+  0.4
+ ],
+ [
+  "cmt#User",
+  "cocus#Role",
+  0.4
+ ],
+ [
+  "cmt#User",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "confOf#Workshop",
+  "conference#Track",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "cocus#Document",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperAbstract",
+  "cocus#Paper",
+  0.8
+ ],
+ [
+  "confOf#Organization",
+  "conference#Active_conference_participant",
+  0.0
+ ],
+ [
+  "conference#Chair",
+  "cocus#Person",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "iasted#Review",
+  0.6
+ ],
+ [
+  "confOf#Paper",
+  "cocus#Conference",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Author",
+  "confOf#Administrator",
+  0.6
+ ],
+ [
+  "confOf#University",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommitteeMember",
+  "iasted#Reviewer",
+  0.6
+ ],
+ [
+  "cmt#Conference",
+  "cocus#Person",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Reviewer_Role",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Administrative_event",
+  "cocus#Conference",
+  0.4
+ ],
+ [
+  "conference#Conference_part",
+  "iasted#Tutorial",
+  0.8
+ ],
+ [
+  "iasted#Review",
+  "cocus#Detail",
+  0.4
+ ],
+ [
+  "iasted#LCD_projector",
+  "cocus#Submission",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Workshop",
+  "conference#Conference_part",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "iasted#IASTED_non_member",
+  0.4
+ ],
+ [
+  "conference#Paper",
+  "iasted#Review",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Track-workshop_chair",
+  0.6
  ],
  [
   "cmt#Review",
   "conference#Presentation",
-  "no score"
+  0.4
  ],
  [
-  "cmt#Review",
-  "conference#Chair",
-  "no score"
+  "confOf#Event",
+  "cocus#Administrator",
+  0.4
  ],
  [
-  "cmt#Review",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Review",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Paper",
   "conference#Person",
-  "no score"
+  "cocus#Administrator",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Thing",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "iasted#Submission",
+  0.8
+ ],
+ [
+  "confOf#Company",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "confOf#Student",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "confOf#Author",
+  "cocus#Committee",
+  0.6
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "iasted#Document",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Committee",
+  0.4
+ ],
+ [
+  "confOf#Company",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "confOf#Person",
+  "iasted#Worker_lecturer",
+  0.0
+ ],
+ [
+  "confOf#Camera_Ready_event",
+  "cocus#Event",
+  0.6
+ ],
+ [
+  "iasted#Item",
+  "cocus#Review",
+  0.6
+ ],
+ [
+  "cmt#User",
+  "cocus#Abstract",
+  0.0
+ ],
+ [
+  "conference#Paper",
+  "cocus#Admin_Role",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Meta-Review",
+  "cocus#Review",
+  0.8
  ],
  [
   "cmt#Paper",
-  "conference#Review_expertise",
-  "no score"
+  "conference#Camera_ready_contribution",
+  0.0
  ],
  [
-  "cmt#Paper",
-  "conference#Submitted_contribution",
-  "no score"
+  "cmt#Person",
+  "conference#Invited_speaker",
+  0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Reviewer",
-  "no score"
+  "conference#Conference",
+  "cocus#Symposium",
+  0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Regular_author",
-  "no score"
+  "conference#Presentation",
+  "iasted#Modelling",
+  0.0
  ],
  [
-  "cmt#Paper",
-  "conference#Conference_contributor",
-  "no score"
+  "cmt#PaperAbstract",
+  "cocus#Review",
+  0.4
  ],
  [
-  "cmt#Paper",
-  "conference#Contribution_1th-author",
-  "no score"
+  "cmt#Person",
+  "cocus#Committee",
+  0.6
  ],
  [
-  "cmt#Paper",
+  "cmt#Reviewer",
   "conference#Contribution_co-author",
-  "no score"
+  0.19999999999999996
  ],
  [
-  "cmt#Paper",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Paper",
   "conference#Abstract",
-  "no score"
+  "cocus#Paper",
+  0.8
+ ],
+ [
+  "conference#Track",
+  "iasted#Tutorial",
+  0.6
+ ],
+ [
+  "conference#Review",
+  "iasted#Car",
+  0.19999999999999996
+ ],
+ [
+  "conference#Paper",
+  "cocus#Notification_Email",
+  0.4
+ ],
+ [
+  "iasted#Author",
+  "cocus#Thing",
+  0.4
+ ],
+ [
+  "confOf#Workshop",
+  "iasted#Tutorial",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "confOf#Regular",
+  0.0
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Thing",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "conference#Conference_document",
+  "iasted#Presentation",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "confOf#Contribution",
+  0.4
+ ],
+ [
+  "confOf#Administrative_event",
+  "iasted#Tutorial",
+  0.4
+ ],
+ [
+  "cmt#Author",
+  "iasted#Plenary_lecture_speaker",
+  0.8
+ ],
+ [
+  "confOf#Member",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "iasted#Author_information_form",
+  "cocus#Submission",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "confOf#Paper",
+  0.8
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Approval_Email",
+  0.0
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Thing",
+  0.6
+ ],
+ [
+  "confOf#Working_event",
+  "iasted#Tutorial",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "confOf#Administrator",
+  0.6
+ ],
+ [
+  "conference#Co-chair",
+  "iasted#Person",
+  0.6
+ ],
+ [
+  "confOf#Student",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "cocus#Review",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "confOf#Poster",
+  0.4
+ ],
+ [
+  "confOf#Submission_event",
+  "conference#Tutorial",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Review",
+  "confOf#Paper",
+  0.6
+ ],
+ [
+  "conference#Person",
+  "iasted#Technical_commitee",
+  0.6
+ ],
+ [
+  "conference#Tutorial",
+  "iasted#Technic_activity",
+  0.4
+ ],
+ [
+  "cmt#Author",
+  "confOf#Poster",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Author",
+  "cocus#Committee",
+  0.6
+ ],
+ [
+  "conference#Conference",
+  "cocus#Symposium",
+  0.6
+ ],
+ [
+  "confOf#Regular",
+  "cocus#Author",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "iasted#Review",
+  0.6
+ ],
+ [
+  "confOf#Reviewing_event",
+  "cocus#Workshop",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Accepting_manuscript",
+  "cocus#Activity",
+  0.6
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#Admin_Role",
+  0.0
+ ],
+ [
+  "cmt#Paper",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "confOf#Short_paper",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "iasted#Submission",
+  "cocus#Short_Paper",
+  0.4
+ ],
+ [
+  "conference#Presentation",
+  "iasted#Simulating",
+  0.0
+ ],
+ [
+  "cmt#Person",
+  "cocus#Detail",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "iasted#Document",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "cocus#Notification_Email",
+  0.0
+ ],
+ [
+  "cmt#Person",
+  "conference#Early_paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Meta-Review",
+  "confOf#Paper",
+  0.4
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "conference#Paper",
+  0.8
+ ],
+ [
+  "conference#Invited_talk",
+  "cocus#Paper",
+  0.4
+ ],
+ [
+  "confOf#Contribution",
+  "iasted#Person",
+  0.6
+ ],
+ [
+  "conference#Steering_committee",
+  "cocus#Committee",
+  0.8
+ ],
+ [
+  "confOf#Thing",
+  "iasted#Person",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "iasted#Conference_Hiker",
+  0.6
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Member",
+  0.4
+ ],
+ [
+  "confOf#Administrator",
+  "conference#Paper",
+  0.19999999999999996
+ ],
+ [
+  "confOf#University",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "confOf#Person",
+  0.4
+ ],
+ [
+  "iasted#Cd_proceening",
+  "cocus#Document",
+  0.4
  ],
  [
   "cmt#Paper",
   "conference#Extended_abstract",
-  "no score"
+  0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Important_dates",
-  "no score"
+  "cmt#Conference",
+  "cocus#Event",
+  0.8
  ],
  [
-  "cmt#Paper",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Paper",
+  "cmt#ProgramCommittee",
   "conference#Steering_committee",
-  "no score"
+  0.6
  ],
  [
-  "cmt#Paper",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Paper",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Author",
+  "cmt#AssociatedChair",
   "conference#Person",
-  "no score"
+  0.6
+ ],
+ [
+  "iasted#Activity",
+  "cocus#Assistance",
+  0.4
  ],
  [
   "cmt#Author",
-  "conference#Review_expertise",
-  "no score"
+  "confOf#Person",
+  0.8
  ],
  [
-  "cmt#Author",
-  "conference#Submitted_contribution",
-  "no score"
+  "cmt#AssociatedChair",
+  "confOf#Author",
+  0.6
  ],
  [
-  "cmt#Author",
-  "conference#Reviewer",
-  "no score"
+  "confOf#Working_event",
+  "iasted#Tutorial",
+  0.8
  ],
  [
-  "cmt#Author",
-  "conference#Regular_author",
-  "no score"
+  "confOf#Regular",
+  "cocus#Short_Paper",
+  0.0
  ],
  [
-  "cmt#Author",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Author",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#User",
   "conference#Person",
-  "no score"
+  "cocus#Notification_Email",
+  0.19999999999999996
  ],
  [
-  "cmt#User",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#User",
+  "confOf#Assistant",
   "conference#Paper",
-  "no score"
+  0.19999999999999996
  ],
  [
-  "cmt#User",
-  "conference#Invited_talk",
-  "no score"
+  "conference#Abstract",
+  "cocus#Document",
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Conference_part",
-  "no score"
+  "cmt#Person",
+  "cocus#Thing",
+  0.8
  ],
  [
-  "cmt#User",
+  "confOf#Paper",
+  "cocus#Detail",
+  0.4
+ ],
+ [
   "conference#Presentation",
-  "no score"
+  "iasted#Accepting_manuscript",
+  0.19999999999999996
  ],
  [
-  "cmt#User",
-  "conference#Chair",
-  "no score"
+  "cmt#Review",
+  "conference#Paper",
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Track",
-  "no score"
+  "cmt#ProgramCommitteeMember",
+  "conference#Reviewer",
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Workshop",
-  "no score"
+  "iasted#Bank_transfer",
+  "cocus#Document",
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Tutorial",
-  "no score"
+  "cmt#Person",
+  "conference#Review_expertise",
+  0.19999999999999996
  ],
  [
-  "cmt#User",
-  "conference#Rejected_contribution",
-  "no score"
+  "cmt#Co-author",
+  "confOf#Author",
+  0.8
  ],
  [
-  "cmt#User",
-  "conference#Reviewed_contribution",
-  "no score"
+  "confOf#Poster",
+  "iasted#Person",
+  0.4
  ],
  [
-  "cmt#User",
-  "conference#Review",
-  "no score"
+  "confOf#Contribution",
+  "iasted#Author",
+  0.4
  ],
  [
-  "cmt#User",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#User",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#User",
+  "cmt#Person",
   "conference#Registeered_applicant",
-  "no score"
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Track-workshop_chair",
-  "no score"
+  "cmt#Meta-Review",
+  "cocus#Document",
+  0.6
  ],
  [
-  "cmt#User",
-  "conference#Conference_www",
-  "no score"
+  "cmt#Conference",
+  "cocus#Event",
+  0.8
  ],
  [
-  "cmt#User",
-  "conference#Conference_fees",
-  "no score"
+  "conference#Conference_volume",
+  "cocus#Conference",
+  0.8
  ],
  [
-  "cmt#User",
-  "conference#Review_preference",
-  "no score"
+  "confOf#Social_event",
+  "conference#Tutorial",
+  0.4
  ],
  [
-  "cmt#Co-author",
+  "confOf#Administrator",
+  "cocus#Workshop",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Organization",
   "conference#Conference_participant",
-  "no score"
+  0.19999999999999996
+ ],
+ [
+  "conference#Committee",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "iasted#Author",
+  "cocus#Committee",
+  0.6
+ ],
+ [
+  "confOf#Working_event",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "confOf#Poster",
+  "conference#Paper",
+  0.6
+ ],
+ [
+  "conference#Person",
+  "iasted#Plenary_lecture_speaker",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Review",
+  "cocus#Author",
+  0.0
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Thing",
+  0.6
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "confOf#Administrator",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Tutorial",
+  "conference#Conference_part",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Short_paper",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Person",
+  "cocus#Author",
+  0.8
+ ],
+ [
+  "iasted#Viza",
+  "cocus#Document",
+  0.8
+ ],
+ [
+  "confOf#Person",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "conference#Conference_volume",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "confOf#Workshop",
+  "conference#Track",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "cocus#Admin_Role",
+  0.0
+ ],
+ [
+  "iasted#Conference_activity",
+  "cocus#Registration",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "confOf#Short_paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Thing",
+  "confOf#Conference",
+  0.8
+ ],
+ [
+  "confOf#Author",
+  "cocus#Document",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Document",
+  "iasted#Computer",
+  0.4
+ ],
+ [
+  "cmt#Thing",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "confOf#Paper",
+  "conference#Regular_contribution",
+  0.8
+ ],
+ [
+  "confOf#Organization",
+  "conference#Thing",
+  0.6
+ ],
+ [
+  "confOf#Social_event",
+  "conference#Tutorial",
+  0.4
+ ],
+ [
+  "iasted#Document",
+  "cocus#Workshop",
+  0.4
+ ],
+ [
+  "conference#Steering_committee",
+  "cocus#Committee",
+  0.8
+ ],
+ [
+  "conference#Review",
+  "cocus#Committee",
+  0.0
+ ],
+ [
+  "confOf#Assistant",
+  "iasted#Author",
+  0.6
+ ],
+ [
+  "iasted#Review",
+  "cocus#Committee",
+  0.0
+ ],
+ [
+  "iasted#Delegate",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "cmt#ConferenceMember",
+  "confOf#Author",
+  0.8
+ ],
+ [
+  "cmt#ProgramCommitteeChair",
+  "cocus#User",
+  0.4
+ ],
+ [
+  "confOf#Conference",
+  "cocus#Committe_Role",
+  0.19999999999999996
+ ],
+ [
+  "conference#Conference_volume",
+  "cocus#Conference",
+  0.8
+ ],
+ [
+  "confOf#Workshop",
+  "cocus#Conference",
+  0.6
+ ],
+ [
+  "iasted#Submission",
+  "cocus#Symposium",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Review",
+  "conference#Abstract",
+  0.0
+ ],
+ [
+  "conference#Conference",
+  "cocus#Workshop",
+  0.6
+ ],
+ [
+  "confOf#Camera_Ready_event",
+  "cocus#Workshop",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Administrative_event",
+  "conference#Tutorial",
+  0.4
+ ],
+ [
+  "cmt#AuthorNotReviewer",
+  "cocus#User",
+  0.6
+ ],
+ [
+  "confOf#Tutorial",
+  "iasted#Introduction",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "confOf#Poster",
+  0.4
+ ],
+ [
+  "confOf#Company",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "iasted#Document",
+  "cocus#Paper",
+  0.8
+ ],
+ [
+  "confOf#Organization",
+  "conference#Track-workshop_chair",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ProgramCommittee",
+  "conference#Committee",
+  0.8
+ ],
+ [
+  "confOf#Member_PC",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "cmt#Person",
+  "confOf#Short_paper",
+  0.4
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#Submission",
+  0.4
+ ],
+ [
+  "confOf#Conference",
+  "conference#Workshop",
+  0.6
+ ],
+ [
+  "confOf#City",
+  "iasted#Place",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Symposium",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Author",
+  "iasted#Reviewer",
+  0.6
+ ],
+ [
+  "conference#Organizer",
+  "cocus#Person",
+  0.6
+ ],
+ [
+  "confOf#Social_event",
+  "cocus#Workshop",
+  0.4
+ ],
+ [
+  "confOf#Workshop",
+  "cocus#Role",
+  0.4
+ ],
+ [
+  "confOf#Author",
+  "cocus#Administrator",
+  0.4
  ],
  [
   "cmt#Co-author",
-  "conference#Active_conference_participant",
-  "no score"
+  "iasted#Author",
+  0.8
  ],
  [
-  "cmt#Co-author",
-  "conference#Passive_conference_participant",
-  "no score"
+  "confOf#Author",
+  "iasted#Lecturer",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "conference#Conference",
+  0.8
+ ],
+ [
+  "cmt#Paper",
+  "iasted#Document",
+  0.8
+ ],
+ [
+  "confOf#Student",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "iasted#Author",
+  "cocus#Committee",
+  0.6
+ ],
+ [
+  "conference#Invited_talk",
+  "cocus#Paper",
+  0.4
+ ],
+ [
+  "confOf#Person",
+  "conference#Early_paid_applicant",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ConferenceChair",
+  "iasted#Person",
+  0.6
+ ],
+ [
+  "cmt#ConferenceChair",
+  "cocus#User",
+  0.4
+ ],
+ [
+  "confOf#Poster",
+  "conference#Conference_document",
+  0.6
+ ],
+ [
+  "iasted#Document",
+  "cocus#Review",
+  0.8
+ ],
+ [
+  "conference#Organizing_committee",
+  "cocus#Committee",
+  0.8
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Person",
+  0.8
+ ],
+ [
+  "conference#Committee_member",
+  "iasted#Person",
+  0.8
+ ],
+ [
+  "iasted#Registration",
+  "cocus#Activity",
+  0.8
+ ],
+ [
+  "cmt#PaperFullVersion",
+  "cocus#Paper",
+  0.8
+ ],
+ [
+  "cmt#Chairman",
+  "cocus#User",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Registeered_applicant",
+  0.4
+ ],
+ [
+  "confOf#Paper",
+  "cocus#Committee",
+  0.0
+ ],
+ [
+  "conference#Presentation",
+  "iasted#PowerPoint_presentation",
+  0.8
+ ],
+ [
+  "cmt#Conference",
+  "confOf#Working_event",
+  0.8
+ ],
+ [
+  "cmt#Thing",
+  "confOf#Conference",
+  0.8
+ ],
+ [
+  "confOf#Person",
+  "cocus#Approval_Email",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ConferenceChair",
+  "iasted#Author",
+  0.6
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Thing",
+  0.6
+ ],
+ [
+  "confOf#Person",
+  "cocus#Short_Paper",
+  0.4
+ ],
+ [
+  "cmt#Conference",
+  "cocus#Event",
+  0.8
+ ],
+ [
+  "cmt#AssociatedChair",
+  "confOf#Administrator",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Abstract",
+  0.8
+ ],
+ [
+  "iasted#Worker_non_speaker",
+  "cocus#Person",
+  0.4
+ ],
+ [
+  "confOf#City",
+  "iasted#Place",
+  0.6
+ ],
+ [
+  "confOf#Science_Worker",
+  "cocus#Administrator",
+  0.6
+ ],
+ [
+  "cmt#Author",
+  "iasted#Sponsor",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Administrator",
+  "cocus#Paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#PaperAbstract",
+  "cocus#Review",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "conference#Reviewed_contribution",
+  0.0
+ ],
+ [
+  "confOf#Conference",
+  "cocus#Head_Role",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Document",
+  "cocus#Abstract",
+  0.6
+ ],
+ [
+  "cmt#ConferenceChair",
+  "cocus#Administrator",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Tutorial",
+  "iasted#Research",
+  0.0
+ ],
+ [
+  "cmt#Author",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "cmt#Administrator",
+  "cocus#User",
+  0.6
+ ],
+ [
+  "conference#Paper",
+  "cocus#Author",
+  0.0
+ ],
+ [
+  "cmt#Person",
+  "cocus#Administrator",
+  0.6
+ ],
+ [
+  "cmt#Reviewer",
+  "confOf#Administrator",
+  0.6
+ ],
+ [
+  "confOf#Person",
+  "iasted#Author",
+  0.8
+ ],
+ [
+  "confOf#Contribution",
+  "iasted#Author",
+  0.4
+ ],
+ [
+  "iasted#Person",
+  "cocus#Full_Paper",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Poster",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Author_book_proceedings_included",
+  "cocus#Author",
+  0.8
+ ],
+ [
+  "conference#Person",
+  "iasted#IASTED_non_member",
+  0.6
+ ],
+ [
+  "confOf#Science_Worker",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "confOf#City",
+  "iasted#Trip_city",
+  0.8
+ ],
+ [
+  "confOf#Person",
+  "cocus#Short_Paper",
+  0.4
+ ],
+ [
+  "iasted#Review",
+  "cocus#Symposium",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Person",
+  "conference#Poster",
+  0.4
+ ],
+ [
+  "confOf#Conference",
+  "cocus#Event",
+  0.8
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#Person",
+  0.4
+ ],
+ [
+  "confOf#Author",
+  "conference#Person",
+  0.8
+ ],
+ [
+  "cmt#Author",
+  "iasted#Speaker",
+  0.8
+ ],
+ [
+  "cmt#User",
+  "confOf#Administrator",
+  0.8
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "confOf#Author",
+  0.4
+ ],
+ [
+  "cmt#Review",
+  "iasted#Publication",
+  0.4
+ ],
+ [
+  "confOf#Event",
+  "cocus#Invited_Paper",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Contribution",
+  "cocus#Administrator",
+  0.4
+ ],
+ [
+  "cmt#Chairman",
+  "conference#Reviewer",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "conference#Review",
+  0.6
+ ],
+ [
+  "cmt#Document",
+  "cocus#Corresponding_Author",
+  0.0
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Group_Email",
+  0.4
+ ],
+ [
+  "conference#Presentation",
+  "iasted#Introduction_of_speaker",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "iasted#Document",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "confOf#Paper",
+  0.6
+ ],
+ [
+  "cmt#User",
+  "cocus#Administrator",
+  0.6
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Role",
+  0.19999999999999996
+ ],
+ [
+  "cmt#Paper",
+  "confOf#Contribution",
+  0.8
+ ],
+ [
+  "iasted#Activity",
+  "cocus#Misc",
+  0.4
+ ],
+ [
+  "confOf#Working_event",
+  "conference#Tutorial",
+  0.8
+ ],
+ [
+  "conference#Invited_speaker",
+  "iasted#Person",
+  0.6
+ ],
+ [
+  "cmt#Meta-Reviewer",
+  "conference#Reviewer",
+  0.8
+ ],
+ [
+  "iasted#Activity",
+  "cocus#Help_Request",
+  0.6
+ ],
+ [
+  "cmt#ConferenceChair",
+  "cocus#Author",
+  0.6
+ ],
+ [
+  "cmt#Review",
+  "cocus#User",
+  0.19999999999999996
+ ],
+ [
+  "cmt#ConferenceChair",
+  "conference#Person",
+  0.6
+ ],
+ [
+  "cmt#Conference",
+  "conference#Conference_volume",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "confOf#Paper",
+  0.6
+ ],
+ [
+  "confOf#Contribution",
+  "cocus#Short_Paper",
+  0.8
+ ],
+ [
+  "conference#Organization",
+  "iasted#Reviewer",
+  0.19999999999999996
+ ],
+ [
+  "conference#Review",
+  "cocus#Author",
+  0.0
+ ],
+ [
+  "confOf#Company",
+  "conference#Organization",
+  0.8
+ ],
+ [
+  "iasted#Activity_after_conference",
+  "cocus#Activity",
+  0.8
+ ],
+ [
+  "conference#Poster",
+  "cocus#Paper",
+  0.4
+ ],
+ [
+  "cmt#Person",
+  "cocus#Detail",
+  0.6
+ ],
+ [
+  "confOf#Conference",
+  "cocus#Full_Paper",
+  0.0
+ ],
+ [
+  "cmt#Reviewer",
+  "conference#Committee_member",
+  0.6
+ ],
+ [
+  "cmt#Paper",
+  "confOf#Regular",
+  0.0
+ ],
+ [
+  "cmt#Meta-Review",
+  "cocus#Document",
+  0.6
+ ],
+ [
+  "conference#Abstract",
+  "cocus#Review",
+  0.4
+ ],
+ [
+  "cmt#Author",
+  "iasted#Speaker",
+  0.8
+ ],
+ [
+  "cmt#Reviewer",
+  "iasted#Speaker",
+  0.8
+ ],
+ [
+  "confOf#Science_Worker",
+  "cocus#Author",
+  0.6
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#Author",
+  0.19999999999999996
+ ],
+ [
+  "confOf#Short_paper",
+  "cocus#Email",
+  0.4
+ ],
+ [
+  "cmt#Paper",
+  "cocus#Person",
+  0.4
  ],
  [
   "cmt#Co-author",
   "conference#Person",
-  "no score"
+  0.4
  ],
  [
-  "cmt#Co-author",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Co-author",
   "conference#Paid_applicant",
-  "no score"
+  "iasted#Reviewer",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Speaker_lecture",
+  "cocus#Activity",
+  0.19999999999999996
+ ],
+ [
+  "iasted#Submission",
+  "cocus#Email",
+  0.6
+ ],
+ [
+  "cmt#Administrator",
+  "confOf#Person",
+  0.8
+ ],
+ [
+  "conference#Reviewer",
+  "cocus#Person",
+  0.8
+ ],
+ [
+  "cmt#Review",
+  "confOf#Paper",
+  0.6
+ ],
+ [
+  "conference#Tutorial",
+  "iasted#Refusing_manuscript",
+  0.0
  ],
  [
   "cmt#Co-author",
-  "conference#Early_paid_applicant",
-  "no score"
+  "confOf#Author",
+  0.8
  ],
  [
-  "cmt#Co-author",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Co-author",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Co-author",
+  "cmt#Reviewer",
   "conference#Review_preference",
-  "no score"
+  0.0
  ],
  [
-  "cmt#PaperAbstract",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
+  "confOf#Author",
   "conference#Person",
-  "no score"
+  0.8
  ],
  [
-  "cmt#PaperAbstract",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
+  "confOf#Person",
   "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#PaperAbstract",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#PaperFullVersion",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Administrator",
-  "conference#Review_preference",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_participant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Active_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Passive_conference_participant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Person",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review_expertise",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Submitted_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Reviewer",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Regular_author",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_contributor",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Contribution_1th-author",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Contribution_co-author",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Co-chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Committee",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Committee_member",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Abstract",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Extended_abstract",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Important_dates",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Invited_speaker",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_proceedings",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Information_for_participants",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_document",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Organization",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Regular_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Poster",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Written_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Camera_ready_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Accepted_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Program_committee",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Organizing_committee",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Steering_committee",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_volume",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Call_for_paper",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_announcement",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paper",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Invited_talk",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_part",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Presentation",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Track",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Workshop",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Tutorial",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Rejected_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Reviewed_contribution",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Topic",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Late_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Early_paid_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Organizer",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Call_for_participation",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Publisher",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Registeered_applicant",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Track-workshop_chair",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_www",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Conference_fees",
-  "no score"
- ],
- [
-  "cmt#Meta-Review",
-  "conference#Review_preference",
-  "no score"
+  0.4
  ]
 ]

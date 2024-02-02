@@ -1,22 +1,32 @@
-import json
+import utils
 
+"""
+reformats the json configODS file nicely, saves it to configODSPath
+the configODS file is usually named "configODS.json"
 
-def importConfigODS(configODSPath):
-    with open(configODSPath, 'r') as json_file:
-        data = json.load(json_file)
-    return data
+Parameters:
+configODSPath (str): the path to the configODS file
 
-def exportConfigODS(configODS, configODSPath):
-    data = json.dumps(configODS, indent='\t')
-    with open(configODSPath, 'w') as json_file:
-        json_file.write(data)
-
+Returns: 
+None
+"""
 def reformatConfigODS(configODSPath):
-    configODS = importConfigODS(configODSPath)
+    configODS = utils.importFromJson(configODSPath)
     configODS.update({'reformatThisFile' : False})
-    exportConfigODS(configODS, configODSPath)
+    utils.saveToJson(configODS, configODSPath)
     print(f'reformatig {configODSPath} done.')
 
+
+"""
+resets the json configODS file to a working standard, saves it to configODSPath
+the configODS file is usually named "configODS.json"
+
+Parameters:
+configODSPath (str): the path to the configODS file
+
+Returns: 
+None
+"""
 def resetConfigODS(configODSPath):
     configODS = {'reformatThisFile' : False,
                  'resetThisFile' : False,
@@ -27,21 +37,34 @@ def resetConfigODS(configODSPath):
                  'exportWalkPromptsToJson': True,
                  'exportTreePromptsToJson': True,
                  'promptsFoExportToJson': [0, 1, 2, 3],
-                 'alignmentPath' : '../results/result_alignments/conference/alignments.json',
+                 'alignmentPath' : '../results/result_alignments/',
                  "walkTriplesPath": "../results/result_triples/triples_randomWalk.json",
                  "treeTriplesPath": "../results/result_triples/triples_randomTree.json",
                  'verbalizedWalkTriplesPath' : '../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json',
                  'verbalizedTreeTriplesPath' : '../results/result_triples_verbalized/triples_randomTree_verbalized_out.json',
                  'promptsPath' : '../results/result_prompts/',
                  }
-    exportConfigODS(configODS, configODSPath)
+    utils.saveToJson(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
 
+
+"""
+loads the json configODS file and maintains it when needed
+
+Parameters:
+configODSPath (str): the path to the configODS file
+
+Returns: 
+the configODS files data
+"""
 def getConfigODS(configODSPath = './configODS.json'):
-    configODS = importConfigODS(configODSPath)
+    #load configODS
+    configODS = utils.importFromJson(configODSPath)
+    #Maintenance
     if configODS.get('reformatThisFile') == True:
         reformatConfigODS(configODSPath)
     if configODS.get('resetThisFile') == True:
         resetConfigODS(configODSPath)
-        configODS = importConfigODS(configODSPath)
+        #reload because of resetting
+        configODS = utils.importFromJson(configODSPath)
     return configODS
