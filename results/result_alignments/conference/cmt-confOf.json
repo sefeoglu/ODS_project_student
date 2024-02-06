@@ -1,0 +1,5512 @@
+[
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Person",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Document",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Preference",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Bid",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#SubjectArea",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Acceptance",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Rejection",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Review",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#User",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Author",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Trip",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Banquet",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Reception",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Social_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Contribution",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#City",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Organization",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Person",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Topic",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Country",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Company",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#University",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Scholar",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Administrator",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Poster",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Paper",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Short_paper",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Reviewing_results_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Administrative_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Reviewing_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Registration_of_participants_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Submission_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Camera_Ready_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Workshop",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Conference",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Tutorial",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Working_event",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Member",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Participant",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Member_PC",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Chair_PC",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Student",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Science_Worker",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Assistant",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Volunteer",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Regular",
+		"no score"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Author",
+		"no score"
+	]
+]
