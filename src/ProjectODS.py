@@ -2,7 +2,7 @@ import utils
 import configODSImport
 from prompt_generator import generatePromptTemplates
 from track import Track
-from src.batch_loaders.random_walk import RandomWalk, RandomWalkConfig, WalkStrategy
+from src.batch_loaders.random_walk import *
 
 """
 runs functions according to the tasks in configODS
@@ -77,6 +77,27 @@ def main():
                     triples.update(RandomWalk(onto, class1, infer_walk_WALK).triples)
                 path = configODS.get('triplesPath') + "conference/triples_randomWalk_" + onto.get_name() + '.json'
                 utils.saveToJson(triples, path, f'exported random walk triples of {onto.get_name()} to')
+    #run randomTree Algorithm
+    if configODS.get('runRandomTreeAlgorithm'):
+        randomTreeConfig = configODS.get('randomTreeConfig')
+        if ontos and randomTreeConfig:
+            for ontoName in ontos.keys():
+                onto = ontos.get(ontoName)
+                triples = {}
+                for class1 in onto.get_classes():
+                    tree = doRandomTree(onto, class1, randomTreeConfig)
+                    if tree != None:
+                        triplesOfClass1 = []
+                        for classA in tree.keys():
+                            for relation, classB in tree.get(classA):
+                                classA = classA.replace('_', ' ')
+                                relation = relation.replace('_', ' ')
+                                classB = classB.replace('_', ' ')
+                                triplesOfClass1.append([classA, relation, classB])
+                        triples[onto.get_name() + '#' + class1] = triplesOfClass1
+                        print(tree)
+                path = configODS.get('triplesPath') + "conference/triples_randomTree_" + onto.get_name() + '.json'
+                utils.saveToJson(triples, path, f'exported random tree triples of {onto.get_name()} to')
                     
 
     

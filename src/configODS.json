@@ -4,7 +4,14 @@
 	"exportCrossProductAsAlignments": true,
 	"exportAlignmentsToJson": false,
 	"runRandomWalkAlgorithm": true,
-	"runRandomTreeAlgorithm": false,
+	"runRandomTreeAlgorithm": true,
+	"randomTreeConfig": {
+		"breadth": 3,
+		"path_depth": 4,
+		"parent_prob": 40,
+		"child_prob": 40,
+		"object_prob": 20
+	},
 	"exportRandomTreeTriples": false,
 	"exportRandomWalkTriples": false,
 	"exportWalkPromptsToJson": false,
