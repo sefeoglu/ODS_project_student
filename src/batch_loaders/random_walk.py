@@ -6,7 +6,6 @@ from globals import Globals
 from enum import Enum
 import logging
 
-triples = {}#for saving triples to json
 
 
 logger = logging.getLogger("onto")
@@ -85,7 +84,7 @@ class WalkStrategy(Enum):
     LINEAGE_PATH = 4
     
 class RandomWalkConfig():
-     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', saveTriplesToJson = False, triplesPath = '../results/result_triples/triples_randomWalk.json', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
+     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
         
         if n_branches is None:
             n_branches = random.randint(0,3)
@@ -93,8 +92,6 @@ class RandomWalkConfig():
         self.n_branches = n_branches
         self.max_path_length = max_path_length
         self.walk_type = walk_type
-        self.saveTriplesToJson = saveTriplesToJson
-        self.triplesPath = triplesPath
         self.strategy = strategy
         self.use_synonyms = use_synonyms
 
@@ -107,7 +104,7 @@ class RandomWalk():
         walk_config.walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
         """
 
-
+        triples = {}
 
         if walk_config is None:
             walk_config = RandomWalkConfig()
@@ -118,7 +115,6 @@ class RandomWalk():
                 len(onto.get_childs(first_node)) + 
                 len(onto.get_object_properties(first_node))) == 0:
                 first_node = random.choice(list(set(onto.classes) - {"Thing"}))
-
         if walk_config.n_branches == 0:
             walk_ids = [first_node]
             self.branches_index = [0]
@@ -300,29 +296,22 @@ class RandomWalk():
         self.walk = walk
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
-        #code to save triples to json
-        if walk_config.saveTriplesToJson:
-            verbalize = True
-            textChildOf = 'is child of'
-            textParentOf = 'is parent of'
-            import re
-            L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
-            rel = None
-            for i, item in enumerate(L):
-                if (item == '<' or item == '>'):
-                    if verbalize:
-                        item = textParentOf if item == '>' else textChildOf
-                    name = f"{onto.onto_name}#{first_node}"
-                    triple = (L[i-1], item, L[i+1])
-                    if (triples.get(name) == None):
-                        triples[name] = [triple]
-                    else:
-                        triples[name].append((L[i-1], item, L[i+1]))
-            #ToDo: use utils json save function; will be done when adapting random tree algo. according to issue #24 and #17
-            import json
-            json_data = json.dumps(triples, indent=1)
-            with open(walk_config.triplesPath, 'w') as json_file:
-                json_file.write(json_data)
+        #code to save triples
+        textChildOf = 'is child of'
+        textParentOf = 'is parent of'
+        import re
+        L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
+        rel = None
+        for i, item in enumerate(L):
+            if (item == '<' or item == '>'):
+                item = textParentOf if item == '>' else textChildOf
+                name = f"{onto.onto_name}#{first_node}"
+                triple = (L[i-1], item, L[i+1])
+                if (triples.get(name) == None):
+                    triples[name] = [triple]
+                else:
+                    triples[name].append((L[i-1], item, L[i+1]))
+        self.triples = triples
 
 
 
