@@ -49,7 +49,7 @@ alignmentPath (str): the path to the alignment file
 contextPath (str): the path to the context file
 promptVersion (int): version of prompt to be generated
 promptCounter (int): 
-                    < 0     => generate all prompts as list
+                    < 0     => generate all prompts as dict with {key1-key2 : prompt}
                     >= 0    => generate prompt with index promptCounter
 skipIfNoContext (bool): 
                     True    => skip alignment if their is not enough context
@@ -83,11 +83,12 @@ def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1,
 
     #generate one or all prompts
     if (promptCounter < 0 or promptCounter >= len(triples)):
-        prompt = []
+        prompt = {}
         for promptCounter in range(len(triples)):
             p = generatePrompt(triples, context, promptCounter)
             if (len(p) > 0):
-                prompt.append(p)
+                key1, key2, _, _, _, _, _, _ = extract(triples, context, promptCounter)
+                prompt.update({key1 + ';' + key2 : p})
     else:
         prompt = generatePrompt(triples, context, promptCounter)
         
