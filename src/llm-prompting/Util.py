@@ -6,7 +6,7 @@ from colorama import Fore
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from langchain.llms.base import LLM
 
-class Cust(LLM):
+class CustomLLM(LLM):
     endpoint: str
     verbose: bool = False
 
