@@ -170,6 +170,12 @@ class Ontology():
             return []
         else:
             return self.childs_map[node]
+    
+    def get_equivalents(self, node):
+        if node not in self.equivalent_map:
+            return []
+        else:
+            return self.equivalent_map[node]
 
     
     def get_object_properties(self, node):
@@ -199,6 +205,7 @@ class Ontology():
 
             self.childs_map[concept.name] = []
             self.parents_map[concept.name] = []
+            self.equivalent_map[concept.name] = []
             self.object_prop_map[concept.name] = []
             self.data_prop_map[concept.name] = []
 
@@ -230,6 +237,7 @@ class Ontology():
 
         self.childs_map       = { el.name:[]  for el in elements }
         self.parents_map      = { el.name:[]  for el in elements }
+        self.equivalent_map   = { el.name:[]  for el in elements }
         self.object_prop_map  = { el.name:[]  for el in elements }
         self.data_prop_map    = { el.name:[]  for el in elements }
         
@@ -268,8 +276,8 @@ class Ontology():
             concept_name = self.parse_concept(concept)
 
 
-
-            for parent_classes in (self.onto.get_parents_of(concept) + concept.equivalent_to):
+            #add parent / child relations
+            for parent_classes in (self.onto.get_parents_of(concept)):
                 
                 # Not adding these relations
                 if type(parent_classes) is owlready2.class_construct.Not:
@@ -308,7 +316,34 @@ class Ontology():
                         self.parents_map[concept_name].append(parent_name)
 
                         self.childs_map[parent_name].append(concept_name)
-        
+            #add equivalent relations
+            for equivalent_classes in (concept.equivalent_to):
+                # Not adding these relations
+                if type(equivalent_classes) is owlready2.class_construct.Not:
+                    continue
+                # This is the case some object properties is in the class definition
+                if "property" in equivalent_classes.__dict__:
+                    property_parsed = self.parse_concept(equivalent_classes.property, add_to_dicts=False)
+                    for subject in self.get_subjects(equivalent_classes.value):
+                        c_parsed = self.parse_concept(subject)
+                        if c_parsed == "[UNK]":
+                            continue
+                        if (self.onto_config.subclass_of_properties == "all") or (property_parsed in self.onto_config.subclass_of_properties):
+                            if c_parsed in self.childs_map:
+                                self.equivalent_map[concept_name].append(c_parsed)
+                                self.equivalent_map[c_parsed].append(concept_name)
+                        else:
+                            self.object_prop_map[concept_name].append((property_parsed, c_parsed))
+                
+                # Usual Subclass relation
+                else:
+                    for parent_class in self.get_subjects(equivalent_classes):
+                        parent_name = self.parse_concept(parent_class)
+                        if parent_name == "[UNK]":
+                            continue
+                        self.equivalent_map[concept_name].append(parent_name)
+                        self.equivalent_map[parent_name].append(concept_name)
+
         # TODO: Add datatype props
 
     def parse_use_in_alignment_annotation(self):
@@ -377,6 +412,7 @@ class Ontology():
 
         self.id_to_label_dict[">"] = [">"]
         self.id_to_label_dict["<"] = ["<"]
+        self.id_to_label_dict["="] = ["="]
         self.id_to_label_dict[";"] = [";"]
         self.id_to_label_dict[":"] = [":"]
         self.id_to_label_dict["Thing"] = ["Thing"]
@@ -609,5 +645,20 @@ class Ontology():
             iteration_nodes = next_iteration_nodes
 
         return ancestors
+    
+    #can be used to identify classes which are in parent-child !!AND!! child-parent relation
+    #adds these to the equivalent_map and removes parent-child and child-parent relation
+    def correctEquivalentClasses(self):
+        self.equivalent_map = {}
+        for class1 in self.get_classes():
+            for parent in self.get_parents(class1):
+                for parent2 in self.get_parents(parent):
+                    if (parent2 == class1):
+                        self.parents_map[class1].remove(parent)
+                        self.parents_map[parent].remove(class1)
+                        self.childs_map[class1].remove(parent)
+                        self.childs_map[parent].remove(class1)
+                        self.equivalent_map[class1] = parent
+                        self.equivalent_map[parent] = class1
 
 

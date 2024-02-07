@@ -5,14 +5,104 @@ from math import ceil
 from globals import Globals
 from enum import Enum
 import logging
+from batch_loaders.ontology_parsing.ontology import Ontology
 
-triples = {}#for saving triples to json
 
 
 logger = logging.getLogger("onto")
 
+def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
+    #importing configs
+    breadth = randomTreeConfig.get('breadth')
+    path_depth = randomTreeConfig.get('path_depth')
+    parent_prob = randomTreeConfig.get('parent_prob')
+    child_prob = randomTreeConfig.get('child_prob')
+    equivalent_prob = randomTreeConfig.get('equivalent_prob')
+    object_prob = randomTreeConfig.get('object_prob')
+    #check configs for existence
+    if not breadth: breadth = random.randint(2,6)
+    if not path_depth: path_depth = random.randint(2,6)
+    if not parent_prob: parent_prob = 25
+    if not child_prob: child_prob = 25
+    if not equivalent_prob: equivalent_prob = 25
+    if not object_prob: object_prob = 25
+    if not first_node:
+        return None
+    #initialize
+    tree = {}        #Dict format: {node1 : {(relation, node2), (relation, node3), ...}}
+    Stack = [(first_node, 0)]       #Stack format: [(node1, depthOfNodeInTree), ...]
+    while (len(Stack) != 0):
+        
+        current_node, depth_Node = Stack.pop(0)
+        if current_node != "Thing" and not tree.get(current_node):
+            """
+            Makes a Tree in the ontology with node types in probabilities
+            start algorithm
+            """ 
+            possible_parent_next_nodes       = onto.get_parents(current_node)
+            possible_child_next_nodes        = onto.get_childs(current_node)
+            possible_equivalent_next_nodes   = onto.get_equivalents(current_node)
+            possible_object_prop_next_nodes  = onto.get_object_properties(current_node)
 
-def sample_walk(onto, first_node=None, path_length=None, exclude_nodes=None, parent_prob = 40, child_prob=40, object_prob=20):
+            true_parent_prob      = parent_prob if len(possible_parent_next_nodes) > 0 else 0
+            true_child_prob       = child_prob if len(possible_child_next_nodes) > 0 else 0
+            true_equivalent_prob  = equivalent_prob if len(possible_equivalent_next_nodes) > 0 else 0
+            true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
+            
+            if (true_parent_prob + true_child_prob + true_equivalent_prob + true_object_prop_prob) == 0:
+                return None
+            counterParent = 0
+            counterChild = 0
+            counterEquivalent = 0
+            counterObject_prop = 0
+            for i in range(breadth):
+                choice = random.choices(["parent", "child", "equivalent", "object_prop"], weights=(true_parent_prob, true_child_prob, true_equivalent_prob, true_object_prop_prob))[0]
+                if (choice == "parent"):
+                    counterParent += 1
+                elif (choice == "child"):
+                    counterChild += 1
+                elif (choice == "equivalent"):
+                    counterEquivalent += 1
+                elif (choice == "object_prop"):
+                    counterObject_prop += 1
+            counterParent = min(counterParent, len(possible_parent_next_nodes))
+            counterChild = min(counterChild, len(possible_child_next_nodes))
+            counterEquivalent = min(counterEquivalent, len(possible_equivalent_next_nodes))
+            counterObject_prop = min(counterObject_prop, len(possible_object_prop_next_nodes))
+            
+            #initialize set for current_node, if not already visited
+            if not tree.get(current_node):
+                tree[current_node] = set()
+
+            #add parent types to walk and perhaps to stack:
+            ParentSample = random.sample(possible_parent_next_nodes, counterParent)
+            for nextNode in ParentSample:
+                tree[current_node].add(('is parent of', nextNode))
+            if (depth_Node < path_depth):
+                Stack += [(parent, depth_Node+1) for parent in ParentSample if not tree.get(parent)]
+            
+            #add child types to walk and perhaps to stack:
+            ChildSample = random.sample(possible_child_next_nodes, counterChild)
+            for nextNode in ChildSample:
+                tree[current_node].add(('is child of', nextNode))
+            if (depth_Node < path_depth):
+                Stack += [(child, depth_Node+1) for child in ChildSample if not tree.get(child)]
+
+            #add equivalent types to walk but not to stack:
+            EquivalentSample = random.sample(possible_equivalent_next_nodes, counterEquivalent)
+            for nextNode in EquivalentSample:
+                tree[current_node].add(('is equivalent to', nextNode))
+
+            #add object types to walk and perhaps to stack:
+            IDs = random.sample(possible_object_prop_next_nodes, counterObject_prop)
+            for relation, nextNode in IDs:
+                tree[current_node].add((relation, nextNode))
+            secondItem = lambda x : x[1]
+            if (depth_Node < path_depth):
+                Stack += [(ID[1], depth_Node+1) for ID in IDs if not tree.get(ID)]
+    return tree
+
+def doRandomWalk(onto, first_node=None, path_length=None, exclude_nodes=None, parent_prob = 40, child_prob=40, equivalent_prob=20, object_prob=20):
     """
     Makes a walk in the ontology with paths types in probabilities
     """
@@ -24,6 +114,7 @@ def sample_walk(onto, first_node=None, path_length=None, exclude_nodes=None, par
         first_node = random.choice(list(set(onto.classes) - {"Thing"}))
         while (len(onto.get_parents(first_node)) + 
                len(onto.get_childs(first_node)) + 
+               len(onto.get_equivalents(first_node)) + 
                len(onto.get_object_properties(first_node))) == 0:
             first_node = random.choice(list(set(onto.classes) - {"Thing"}))
 
@@ -37,17 +128,19 @@ def sample_walk(onto, first_node=None, path_length=None, exclude_nodes=None, par
         
         possible_parent_next_nodes       = list(set(onto.get_parents(current_node)) - visited_nodes)
         possible_child_next_nodes        = list(set(onto.get_childs(current_node)) - visited_nodes)
+        possible_equivalent_next_nodes   = list(set(onto.get_equivalents(current_node)) - visited_nodes)
         possible_object_prop_next_nodes  = list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(current_node)))
 
         true_parent_prob      = parent_prob if len(possible_parent_next_nodes) > 0 else 0
         true_child_prob       = child_prob if len(possible_child_next_nodes) > 0 else 0
+        true_equivalent_prob  = equivalent_prob if len(possible_equivalent_next_nodes) > 0 else 0
         true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
         
-        if (true_parent_prob + true_child_prob + true_object_prop_prob) == 0:
+        if (true_parent_prob + true_child_prob + true_equivalent_prob + true_object_prop_prob) == 0:
             break
 
-        selected_type = random.choices(["parent", "child", "object_prop"], 
-                                       weights=(true_parent_prob, true_child_prob, true_object_prop_prob))[0]
+        selected_type = random.choices(["parent", "child", "equivalent", "object_prop"], 
+                                       weights=(true_parent_prob, true_child_prob, true_equivalent_prob, true_object_prop_prob))[0]
 
         if selected_type == "parent":
             relation = "<"
@@ -57,11 +150,14 @@ def sample_walk(onto, first_node=None, path_length=None, exclude_nodes=None, par
             relation = ">"
             next_node = random.choice(possible_child_next_nodes)
 
+        elif selected_type == "equivalent":
+            relation = "="
+            next_node = random.choice(possible_equivalent_next_nodes)
+
         else:
             id   = random.choice(possible_object_prop_next_nodes)
             relation = id[0]
             next_node = id[1]
-
         walk_ids += [relation, next_node]
 
         walk += onto.get_id_label(relation) + onto.get_id_label(next_node)
@@ -85,7 +181,7 @@ class WalkStrategy(Enum):
     LINEAGE_PATH = 4
     
 class RandomWalkConfig():
-     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', saveTriplesToJson = False, triplesPath = '../results/result_triples/triples_randomWalk.json', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
+     def __init__(self, n_branches=None, max_path_length=None, walk_type = 'randomWalk', strategy: WalkStrategy = WalkStrategy.ANY, use_synonyms=False):
         
         if n_branches is None:
             n_branches = random.randint(0,3)
@@ -93,8 +189,6 @@ class RandomWalkConfig():
         self.n_branches = n_branches
         self.max_path_length = max_path_length
         self.walk_type = walk_type
-        self.saveTriplesToJson = saveTriplesToJson
-        self.triplesPath = triplesPath
         self.strategy = strategy
         self.use_synonyms = use_synonyms
 
@@ -104,10 +198,9 @@ class RandomWalk():
     def __init__(self, onto, first_node=None, walk_config: RandomWalkConfig=None):
         """
         walk_config.walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
-        walk_config.walk_type = 'randomTree': Makes a tree in the ontology with node types in probabilities
         """
 
-
+        triples = {}
 
         if walk_config is None:
             walk_config = RandomWalkConfig()
@@ -118,7 +211,6 @@ class RandomWalk():
                 len(onto.get_childs(first_node)) + 
                 len(onto.get_object_properties(first_node))) == 0:
                 first_node = random.choice(list(set(onto.classes) - {"Thing"}))
-
         if walk_config.n_branches == 0:
             walk_ids = [first_node]
             self.branches_index = [0]
@@ -134,25 +226,30 @@ class RandomWalk():
             
             # Check if adding a branch is possible
             
-            unvisited_parent  = len(list(set(onto.get_parents(first_node)) - visited_nodes))
-            unvisited_child   = len(list(set(onto.get_childs(first_node)) - visited_nodes))
-            unvisited_object  = len(list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(first_node))))
+            unvisited_parent        = len(list(set(onto.get_parents(first_node)) - visited_nodes))
+            unvisited_child         = len(list(set(onto.get_childs(first_node)) - visited_nodes))
+            unvisited_equivalent    = len(list(set(onto.get_equivalents(first_node)) - visited_nodes))
+            unvisited_object        = len(list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(first_node))))
 
 
-            if (walk_config.strategy == WalkStrategy.ANY) and ((unvisited_parent + unvisited_child + unvisited_object) > 0):
+            if (walk_config.strategy == WalkStrategy.ANY) and ((unvisited_parent + unvisited_child + unvisited_equivalent + unvisited_object) > 0):
                 parent_prob = 40
                 child_prob = 40
+                equivalent_prob = 20
                 object_prop_prob = 20
-            elif (walk_config.strategy == WalkStrategy.ONTOLOGICAL_RELATIONS) and ((unvisited_parent + unvisited_child) > 0):
+            elif (walk_config.strategy == WalkStrategy.ONTOLOGICAL_RELATIONS) and ((unvisited_parent + unvisited_child + unvisited_equivalent) > 0):
                 object_prop_prob = 0
                 parent_prob = 50
+                equivalent_prob = 20
                 child_prob = 50
-            elif (walk_config.strategy == WalkStrategy.LINEAGE_PATH) and ((unvisited_parent + unvisited_child) > 0):
+            elif (walk_config.strategy == WalkStrategy.LINEAGE_PATH) and ((unvisited_parent) > 0):
                 object_prop_prob = 0
                 parent_prob = 100
+                equivalent_prob = 0
                 child_prob = 0
             elif (walk_config.strategy == WalkStrategy.LINEAGE_PATH_PLUS_CHILDS) and ((unvisited_parent + unvisited_child) > 0):
                 object_prop_prob = 0
+                equivalent_prob = 0
                 if unvisited_parent > 0:
                     parent_prob = 100
                     child_prob = 0
@@ -175,104 +272,13 @@ class RandomWalk():
             if (walk_config.walk_type == 'randomWalk'):
                 walk_ids.extend(["[SEP]"])
                 self.branches_index.append(len(walk_ids))
-                _, sub_walk_ids = sample_walk(onto=onto,  first_node=first_node, exclude_nodes=visited_nodes, path_length=walk_config.max_path_length, 
-                                parent_prob=parent_prob, child_prob=child_prob, object_prob=object_prop_prob)
+                _, sub_walk_ids = doRandomWalk(onto=onto,  first_node=first_node, exclude_nodes=visited_nodes, path_length=walk_config.max_path_length, 
+                                               parent_prob=parent_prob, child_prob=child_prob, equivalent_prob=equivalent_prob, object_prob=object_prop_prob)
 
                 visited_nodes.update(set(sub_walk_ids))
                 walk_ids.extend(sub_walk_ids)
             elif (walk_config.walk_type == 'randomTree'):
-                Stack = [(first_node, 0)]       #(node, depthOfNodeInTree)
-                while (len(Stack) != 0):
-                    current_node, depth_Node = Stack.pop(0)
-
-                    if current_node != "Thing":
-                        """
-                        Makes a Tree in the ontology with node types in probabilities
-                        """
-                        breadth = walk_config.n_branches
-                        path_length = walk_config.max_path_length
-                        #print(f"breadth: {breadth}, path_length: {path_length}")
-                        object_prob=object_prop_prob
-                        
-                        if not path_length:
-                            path_length = random.randint(2,6)
-                            path_length = 5#ToDo
-
-                        if not first_node:
-                            first_node = random.choice(list(set(onto.classes) - {"Thing"}))
-                            while (len(onto.get_parents(first_node)) + 
-                                   len(onto.get_childs(first_node)) + 
-                                   len(onto.get_object_properties(first_node))) == 0:
-                                first_node = random.choice(list(set(onto.classes) - {"Thing"}))
-
-                        #walk = copy.deepcopy(onto.get_id_label(first_node))
-                        #walk_ids = [first_node]
-
-                        """
-                        start algorithm
-                        """
-
-                        #visitedNodes = exclude_nodes if exclude_nodes else set(walk_ids)
-                            
-                        possible_parent_next_nodes       = list(set(onto.get_parents(current_node)) - visited_nodes)
-                        possible_child_next_nodes        = list(set(onto.get_childs(current_node)) - visited_nodes)
-                        possible_object_prop_next_nodes  = list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(current_node)))
-
-                        true_parent_prob      = parent_prob if len(possible_parent_next_nodes) > 0 else 0
-                        true_child_prob       = child_prob if len(possible_child_next_nodes) > 0 else 0
-                        true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
-                        
-                        if (true_parent_prob + true_child_prob + true_object_prop_prob) == 0:
-                            break
-                        counterParent = 0
-                        counterChild = 0
-                        counterObject_prop = 0
-                        for i in range(breadth):
-                            choice = random.choices(["parent", "child", "object_prop"], 
-                                                       weights=(true_parent_prob, true_child_prob, true_object_prop_prob))[0]
-                            if (choice == "parent"):
-                                counterParent += 1
-                            elif (choice == "child"):
-                                counterChild += 1
-                            elif (choice == "object_prop"):
-                                counterObject_prop += 1
-                        counterParent = min(counterParent, len(possible_parent_next_nodes))
-                        counterChild = min(counterChild, len(possible_child_next_nodes))
-                        counterObject_prop = min(counterObject_prop, len(possible_object_prop_next_nodes))
-                            
-                    #add parent types to walk and perhaps to stack:
-                        ParentSample = random.sample(possible_parent_next_nodes, counterParent)
-                        for nextNode in ParentSample:
-                            walk_ids += ["[SEP]", current_node, ">", nextNode]
-                        if (depth_Node < path_length):
-                            #Stack += (ParentSample, depth_Node+1)
-                            Stack += [(parent, depth_Node+1) for parent in ParentSample]
-                        
-                    #add child types to walk and perhaps to stack:
-                        ChildSample = random.sample(possible_child_next_nodes, counterChild)
-                        for nextNode in ChildSample:
-                            walk_ids += ["[SEP]", current_node, ">", nextNode]
-                        if (depth_Node < path_length):
-                            #Stack += (ChildSample, depth_Node+1)
-                            Stack += [(child, depth_Node+1) for child in ChildSample]
-
-                    #add object types to walk and perhaps to stack:
-                        IDs = random.sample(possible_object_prop_next_nodes, counterObject_prop)
-                        for relation, nextNode in IDs:
-                            walk_ids += ["[SEP]", current_node, relation, nextNode]
-                        secondItem = lambda x : x[1]
-                        if (depth_Node < path_length):
-                            Stack += [(ID[1], depth_Node+1) for ID in IDs]
-
-                        #walk += onto.get_id_label(relation) + onto.get_id_label(next_node)
-
-
-                        visited_nodes.update(set(walk_ids))
-
-                        """
-                        if relation != ":":
-                            current_node = next_node
-                        """
+                print('################### use Ontology.doRandomWalk() ###################')
                     
                     
             else:
@@ -300,29 +306,23 @@ class RandomWalk():
         self.walk = walk
         self.walk_ids = walk_ids
         self.sentence = " ".join(self.walk)
-        #code to save triples to json
-        if walk_config.saveTriplesToJson:
-            verbalize = True
-            textChildOf = 'is child of'
-            textParentOf = 'is parent of'
-            import re
-            L = re.split('\s(?=>)|\s(?=<)|(?<=<)\s|(?<=>)\s|\[SEP\] ', self.sentence)[1:]
-            rel = None
-            for i, item in enumerate(L):
-                if (item == '<' or item == '>'):
-                    if verbalize:
-                        item = textParentOf if item == '>' else textChildOf
-                    name = f"{onto.onto_name}#{first_node}"
-                    triple = (L[i-1], item, L[i+1])
-                    if (triples.get(name) == None):
-                        triples[name] = [triple]
-                    else:
-                        triples[name].append((L[i-1], item, L[i+1]))
-            #ToDo: use utils json save function; will be done when adapting random tree algo. according to issue #24 and #17
-            import json
-            json_data = json.dumps(triples, indent=1)
-            with open(walk_config.triplesPath, 'w') as json_file:
-                json_file.write(json_data)
+        #code to save triples
+        textChildOf = 'is child of'
+        textParentOf = 'is parent of'
+        textEquivalentTo = 'is equivalent to'
+        import re
+        L = re.split('\s(?=>)|\s(?=<)|\s(?=\=)|(?<=<)\s|(?<=>)\s|(?<=\=)\s|\[SEP\] ', self.sentence)[1:]
+        rel = None
+        for i, item in enumerate(L):
+            if (item == '<' or item == '>'or item == '='):
+                item = textParentOf if item == '>' else textChildOf if item == '<' else textEquivalentTo
+                name = f"{onto.onto_name}#{first_node}"
+                triple = (L[i-1], item, L[i+1])
+                if (triples.get(name) == None):
+                    triples[name] = [triple]
+                else:
+                    triples[name].append((L[i-1], item, L[i+1]))
+        self.triples = triples
 
 
 
