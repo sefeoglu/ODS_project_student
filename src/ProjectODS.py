@@ -95,7 +95,6 @@ def main():
                                 classB = classB.replace('_', ' ')
                                 triplesOfClass1.append([classA, relation, classB])
                         triples[onto.get_name() + '#' + class1] = triplesOfClass1
-                        print(tree)
                 path = configODS.get('triplesPath') + "conference/triples_randomTree_" + onto.get_name() + '.json'
                 utils.saveToJson(triples, path, f'exported random tree triples of {onto.get_name()} to')
                     
