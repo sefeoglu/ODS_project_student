@@ -18,7 +18,8 @@
 	"verbalizeAvailableTriples": false,
 	"exportWalkPromptsToJson": false,
 	"exportTreePromptsToJson": false,
-	"generateMaximumBipartiteMatching": true,
+	"runPromptsOnLLM": true,
+	"generateMaximumBipartiteMatching": false,
 	"promptsFoExportToJson": [
 		0,
 		1,

@@ -40,6 +40,7 @@ def resetConfigODS(configODSPath):
                  'verbalizeAvailableTriples' : True,
                  'exportWalkPromptsToJson': True,
                  'exportTreePromptsToJson': True,
+                 'runPromptsOnLLM' : True,
 	             'generateMaximumBipartiteMatching': True,
                  'promptsFoExportToJson': [0, 1, 2, 3],
                  'alignmentPath' : '../results/result_alignments/conference/',

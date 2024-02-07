@@ -145,6 +145,23 @@ def main():
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
+    if configODS.get('runPromptsOnLLM'):
+        for dir_path in os.listdir(configODS.get('promptsPath')):
+            #print(f"processing '{file_path}'")
+            for file_path in os.listdir(configODS.get('promptsPath') + dir_path):
+                if file_path.endswith('.json'):
+                    promptsPath = configODS.get('promptsPath') + dir_path + '/' + file_path
+                    llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path
+                    if not os.path.exists(llmMatchedFilePath):
+                        os.mkdir(llmMatchedFilePath + '/')
+                    llmMatchedFilePath += '/llm_' + file_path
+                    promptDict = utils.importFromJson(promptsPath)
+                    promptResult = {}
+                    for promptKey in promptDict:
+                        prompt = promptDict.get(promptKey)
+                        yesOrNo = 'yes'#ToDo: run prompt here
+                        promptResult[promptKey] = yesOrNo
+                    utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
         for dir_path in os.listdir(configODS.get('llmMatchedPath')):
             #print(f"processing '{file_path}'")
