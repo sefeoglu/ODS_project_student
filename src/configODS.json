@@ -1,10 +1,10 @@
 {
 	"reformatThisFile": false,
 	"resetThisFile": false,
-	"exportCrossProductAsAlignments": true,
+	"exportCrossProductAsAlignments": false,
 	"exportAlignmentsToJson": false,
-	"runRandomWalkAlgorithm": true,
-	"runRandomTreeAlgorithm": true,
+	"runRandomWalkAlgorithm": false,
+	"runRandomTreeAlgorithm": false,
 	"randomTreeConfig": {
 		"breadth": 2,
 		"path_depth": 3,
@@ -15,6 +15,7 @@
 	},
 	"exportRandomTreeTriples": false,
 	"exportRandomWalkTriples": false,
+	"verbalizeAvailableTriples": true,
 	"exportWalkPromptsToJson": false,
 	"exportTreePromptsToJson": false,
 	"promptsFoExportToJson": [
@@ -24,7 +25,8 @@
 		3
 	],
 	"alignmentPath": "../results/result_alignments/conference/",
-	"triplesPath": "../results/result_triples/",
+	"triplesPath": "../results/result_triples/conference/",
+	"triplesVerbalizedPath": "../results/result_triples_verbalized/conference/",
 	"verbalizedWalkTriplesPath": "../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json",
 	"verbalizedTreeTriplesPath": "../results/result_triples_verbalized/triples_randomTree_verbalized_out.json",
 	"promptsPath": "../results/result_prompts/"

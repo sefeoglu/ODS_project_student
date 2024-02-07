@@ -9,9 +9,9 @@ else:
     DEVICE = 'cpu'
     print('CUDA NOT AVAILABLE')
 
-DATA_DIR = 'graph2text/data/webnlg'
-OUTPUT_DIR = 'graph2text/outputs/test_model'
-CHECKPOINT = 'graph2text/outputs/t5-base_13881/val_avg_bleu=68.1000-step_count=5.ckpt'
+DATA_DIR = './verbalizer/Prompt_generator2/graph2text/data/webnlg'
+OUTPUT_DIR = './verbalizer/Prompt_generator2/graph2text/outputs/test_model'
+CHECKPOINT = './verbalizer/Prompt_generator2/graph2text/outputs/t5-base_13881/val_avg_bleu=68.1000-step_count=5.ckpt'
 MAX_LENGTH = 384
 SEED = 42
 
