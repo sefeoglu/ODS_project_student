@@ -7,28 +7,33 @@
 		],
 		[
 			"Social event",
-			"is child of",
-			"Reception"
+			"is parent of",
+			"Event"
 		],
 		[
 			"Social event",
-			"location",
+			"has title",
 			"Thing"
 		],
 		[
-			"Social event",
+			"Event",
 			"is child of",
-			"Banquet"
+			"Working event"
 		],
 		[
-			"Banquet",
-			"is parent of",
+			"Event",
+			"is child of",
 			"Social event"
 		],
 		[
-			"Reception",
-			"is parent of",
-			"Social event"
+			"Working event",
+			"is child of",
+			"Tutorial"
+		],
+		[
+			"Working event",
+			"is child of",
+			"Conference"
 		]
 	],
 	"confOf#Banquet": [
@@ -39,70 +44,40 @@
 		],
 		[
 			"Social event",
-			"location",
-			"Thing"
-		],
-		[
-			"Social event",
-			"defaultChoice",
-			"Thing"
-		],
-		[
-			"Social event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Event",
 			"is child of",
+			"Banquet"
+		],
+		[
+			"Social event",
+			"is child of",
+			"Reception"
+		],
+		[
+			"Reception",
+			"is parent of",
+			"Social event"
+		]
+	],
+	"confOf#Reception": [
+		[
+			"Reception",
+			"is parent of",
 			"Social event"
 		],
 		[
-			"Event",
-			"is child of",
-			"Working event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Administrative event"
-		],
-		[
-			"Working event",
+			"Social event",
 			"is parent of",
 			"Event"
 		],
-		[
-			"Administrative event",
-			"is child of",
-			"Submission event"
-		],
-		[
-			"Administrative event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Submission event",
-			"is parent of",
-			"Administrative event"
-		]
-	],
-	"confOf#Social_event": [
 		[
 			"Social event",
 			"has title",
 			"Thing"
 		],
 		[
-			"Social event",
-			"defaultChoice",
-			"Thing"
-		],
-		[
-			"Social event",
-			"is parent of",
-			"Event"
+			"Event",
+			"is child of",
+			"Administrative event"
 		],
 		[
 			"Event",
@@ -110,71 +85,26 @@
 			"Social event"
 		],
 		[
-			"Event",
-			"is child of",
-			"Administrative event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Working event"
+			"Administrative event",
+			"is parent of",
+			"Event"
 		],
 		[
 			"Administrative event",
 			"parallel with",
 			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Reviewing results event"
-		],
-		[
-			"Working event",
-			"hasAdministrativeEvent",
-			"Administrative event"
-		],
-		[
-			"Working event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Working event",
-			"is child of",
-			"Tutorial"
-		],
-		[
-			"Reviewing results event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Tutorial",
-			"is parent of",
-			"Working event"
 		]
 	],
 	"confOf#Event": [
 		[
 			"Event",
 			"is child of",
-			"Social event"
-		],
-		[
-			"Event",
-			"is child of",
 			"Administrative event"
 		],
 		[
 			"Event",
 			"is child of",
-			"Working event"
+			"Social event"
 		],
 		[
 			"Administrative event",
@@ -183,83 +113,18 @@
 		],
 		[
 			"Administrative event",
-			"is child of",
-			"Submission event"
-		],
-		[
-			"Administrative event",
 			"is parent of",
 			"Event"
 		],
 		[
-			"Working event",
-			"is child of",
-			"Conference"
-		],
-		[
-			"Working event",
-			"is child of",
-			"Workshop"
-		],
-		[
-			"Working event",
-			"is child of",
-			"Tutorial"
-		],
-		[
 			"Social event",
-			"is child of",
-			"Reception"
-		],
-		[
-			"Social event",
-			"is child of",
-			"Banquet"
-		],
-		[
-			"Social event",
-			"is child of",
-			"Trip"
+			"is parent of",
+			"Event"
 		],
 		[
 			"Camera Ready event",
 			"is parent of",
 			"Administrative event"
-		],
-		[
-			"Submission event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Tutorial",
-			"is parent of",
-			"Working event"
-		],
-		[
-			"Workshop",
-			"is parent of",
-			"Working event"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Working event"
-		],
-		[
-			"Trip",
-			"is parent of",
-			"Social event"
-		],
-		[
-			"Banquet",
-			"is parent of",
-			"Social event"
-		],
-		[
-			"Reception",
-			"is parent of",
-			"Social event"
 		]
 	],
 	"confOf#Contribution": [
@@ -270,35 +135,35 @@
 		],
 		[
 			"Contribution",
-			"abstract",
-			"Thing"
+			"is child of",
+			"Short paper"
+		],
+		[
+			"Short paper",
+			"is parent of",
+			"Contribution"
 		]
 	],
-	"confOf#Person": [
+	"confOf#Company": [
 		[
-			"Person",
+			"Company",
 			"is parent of",
-			"Thing"
+			"Organization"
 		],
 		[
-			"Person",
+			"Organization",
 			"is child of",
-			"Science Worker"
+			"University"
 		],
 		[
-			"Person",
+			"Organization",
 			"is child of",
-			"Volunteer"
+			"Company"
 		],
 		[
-			"Volunteer",
+			"University",
 			"is parent of",
-			"Person"
-		],
-		[
-			"Science Worker",
-			"is parent of",
-			"Person"
+			"Organization"
 		]
 	],
 	"confOf#University": [
@@ -310,17 +175,71 @@
 		[
 			"Organization",
 			"is child of",
-			"Company"
+			"University"
 		],
 		[
 			"Organization",
 			"is child of",
-			"University"
+			"Company"
 		],
 		[
 			"Company",
 			"is parent of",
 			"Organization"
+		]
+	],
+	"confOf#Scholar": [
+		[
+			"Scholar",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Author"
+		],
+		[
+			"Author",
+			"writes",
+			"Contribution"
+		],
+		[
+			"Author",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Contribution",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Contribution",
+			"contactEmail",
+			"Thing"
+		]
+	],
+	"confOf#Administrator": [
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"hasFirstName",
+			"Thing"
 		]
 	],
 	"confOf#Poster": [
@@ -333,21 +252,11 @@
 			"Contribution",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Contribution",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Contribution"
 		]
 	],
-	"confOf#Paper": [
+	"confOf#Short_paper": [
 		[
-			"Paper",
+			"Short paper",
 			"is parent of",
 			"Contribution"
 		],
@@ -362,44 +271,7 @@
 			"Poster"
 		],
 		[
-			"Contribution",
-			"is child of",
-			"Paper"
-		],
-		[
 			"Poster",
-			"is parent of",
-			"Contribution"
-		]
-	],
-	"confOf#Short_paper": [
-		[
-			"Short paper",
-			"is parent of",
-			"Contribution"
-		],
-		[
-			"Contribution",
-			"is child of",
-			"Short paper"
-		],
-		[
-			"Contribution",
-			"is child of",
-			"Poster"
-		],
-		[
-			"Contribution",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Poster",
-			"is parent of",
-			"Contribution"
-		],
-		[
-			"Paper",
 			"is parent of",
 			"Contribution"
 		]
@@ -416,9 +288,9 @@
 			"Event"
 		],
 		[
-			"Event",
+			"Administrative event",
 			"is child of",
-			"Social event"
+			"Reviewing event"
 		],
 		[
 			"Event",
@@ -428,12 +300,22 @@
 		[
 			"Event",
 			"is child of",
+			"Social event"
+		],
+		[
+			"Reviewing event",
+			"is parent of",
 			"Administrative event"
 		],
 		[
-			"Social event",
-			"has title",
-			"Thing"
+			"Working event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Working event",
+			"is child of",
+			"Tutorial"
 		],
 		[
 			"Social event",
@@ -441,14 +323,31 @@
 			"Event"
 		],
 		[
-			"Working event",
+			"Social event",
+			"location",
+			"Thing"
+		]
+	],
+	"confOf#Administrative_event": [
+		[
+			"Administrative event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
 			"is child of",
-			"Conference"
+			"Administrative event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Working event"
 		],
 		[
 			"Working event",
-			"is child of",
-			"Workshop"
+			"is parent of",
+			"Event"
 		],
 		[
 			"Working event",
@@ -459,173 +358,12 @@
 			"Tutorial",
 			"is parent of",
 			"Working event"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Working event"
-		],
-		[
-			"Workshop",
-			"is parent of",
-			"Working event"
 		]
 	],
 	"confOf#Reviewing_event": [
 		[
 			"Reviewing event",
 			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"parallel with",
-			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Registration of participants event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Reviewing results event"
-		],
-		[
-			"Reviewing results event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Registration of participants event",
-			"is parent of",
-			"Administrative event"
-		]
-	],
-	"confOf#Registration_of_participants_event": [
-		[
-			"Registration of participants event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"parallel with",
-			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Registration of participants event"
-		],
-		[
-			"Administrative event",
-			"follows",
-			"Administrative event"
-		]
-	],
-	"confOf#Submission_event": [
-		[
-			"Submission event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Registration of participants event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Submission event"
-		],
-		[
-			"Administrative event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Social event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Administrative event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Working event"
-		],
-		[
-			"Registration of participants event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Social event",
-			"location",
-			"Thing"
-		],
-		[
-			"Social event",
-			"has title",
-			"Thing"
-		],
-		[
-			"Social event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Working event",
-			"is child of",
-			"Conference"
-		],
-		[
-			"Working event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Working event"
-		]
-	],
-	"confOf#Workshop": [
-		[
-			"Workshop",
-			"is parent of",
-			"Working event"
-		],
-		[
-			"Working event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Working event",
-			"is child of",
-			"Workshop"
-		],
-		[
-			"Event",
-			"is child of",
-			"Social event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Working event"
-		],
-		[
-			"Event",
-			"is child of",
 			"Administrative event"
 		],
 		[
@@ -639,9 +377,19 @@
 			"Event"
 		],
 		[
-			"Social event",
-			"has title",
-			"Thing"
+			"Event",
+			"is child of",
+			"Administrative event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social event"
+		],
+		[
+			"Camera Ready event",
+			"is parent of",
+			"Administrative event"
 		],
 		[
 			"Social event",
@@ -650,23 +398,69 @@
 		],
 		[
 			"Social event",
-			"is child of",
-			"Trip"
+			"defaultChoice",
+			"Thing"
+		]
+	],
+	"confOf#Registration_of_participants_event": [
+		[
+			"Registration of participants event",
+			"is parent of",
+			"Administrative event"
 		],
+		[
+			"Administrative event",
+			"follows",
+			"Administrative event"
+		],
+		[
+			"Administrative event",
+			"is child of",
+			"Reviewing event"
+		],
+		[
+			"Reviewing event",
+			"is parent of",
+			"Administrative event"
+		]
+	],
+	"confOf#Submission_event": [
+		[
+			"Submission event",
+			"is parent of",
+			"Administrative event"
+		],
+		[
+			"Administrative event",
+			"parallel with",
+			"Administrative event"
+		],
+		[
+			"Administrative event",
+			"is child of",
+			"Submission event"
+		]
+	],
+	"confOf#Camera_Ready_event": [
 		[
 			"Camera Ready event",
 			"is parent of",
 			"Administrative event"
 		],
 		[
-			"Trip",
-			"is parent of",
-			"Social event"
+			"Administrative event",
+			"is child of",
+			"Camera Ready event"
 		],
 		[
-			"Reception",
+			"Administrative event",
+			"is child of",
+			"Submission event"
+		],
+		[
+			"Submission event",
 			"is parent of",
-			"Social event"
+			"Administrative event"
 		]
 	],
 	"confOf#Conference": [
@@ -677,8 +471,45 @@
 		],
 		[
 			"Working event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
 			"is child of",
-			"Conference"
+			"Administrative event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social event"
+		],
+		[
+			"Social event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social event",
+			"is child of",
+			"Trip"
+		],
+		[
+			"Administrative event",
+			"is child of",
+			"Registration of participants event"
+		],
+		[
+			"Administrative event",
+			"is child of",
+			"Reviewing event"
+		]
+	],
+	"confOf#Tutorial": [
+		[
+			"Tutorial",
+			"is parent of",
+			"Working event"
 		],
 		[
 			"Working event",
@@ -693,17 +524,12 @@
 		[
 			"Event",
 			"is child of",
-			"Social event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Administrative event"
-		],
-		[
-			"Event",
-			"is child of",
 			"Working event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social event"
 		],
 		[
 			"Workshop",
@@ -711,99 +537,61 @@
 			"Working event"
 		],
 		[
-			"Administrative event",
+			"Social event",
 			"is child of",
-			"Registration of participants event"
-		],
-		[
-			"Administrative event",
-			"is parent of",
-			"Event"
+			"Trip"
 		],
 		[
 			"Social event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Registration of participants event",
-			"is parent of",
-			"Administrative event"
+			"defaultChoice",
+			"Thing"
 		]
 	],
 	"confOf#Working_event": [
 		[
 			"Working event",
-			"defaultChoice",
-			"Thing"
+			"is child of",
+			"Conference"
 		],
 		[
 			"Working event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Conference",
 			"is parent of",
-			"Event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Social event"
-		],
-		[
-			"Event",
-			"is child of",
-			"Administrative event"
-		],
-		[
-			"Event",
-			"is child of",
 			"Working event"
 		],
 		[
-			"Administrative event",
-			"is child of",
-			"Reviewing event"
-		],
-		[
-			"Administrative event",
+			"Workshop",
 			"is parent of",
-			"Event"
-		],
-		[
-			"Administrative event",
-			"is child of",
-			"Reviewing results event"
-		],
-		[
-			"Social event",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Social event",
-			"is child of",
-			"Reception"
-		],
-		[
-			"Reviewing results event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Reviewing event",
-			"is parent of",
-			"Administrative event"
-		],
-		[
-			"Reception",
-			"is parent of",
-			"Social event"
+			"Working event"
 		]
 	],
-	"confOf#Participant": [
+	"confOf#Member": [
+		[
+			"Member",
+			"is parent of",
+			"Participant"
+		],
 		[
 			"Participant",
 			"is child of",
 			"Regular"
 		],
+		[
+			"Participant",
+			"is child of",
+			"Member"
+		],
+		[
+			"Regular",
+			"is parent of",
+			"Participant"
+		]
+	],
+	"confOf#Participant": [
 		[
 			"Participant",
 			"is child of",
@@ -815,24 +603,19 @@
 			"Member"
 		],
 		[
-			"Member",
-			"is parent of",
-			"Participant"
-		],
-		[
 			"Student",
 			"is parent of",
 			"Participant"
 		],
 		[
-			"Regular",
+			"Member",
 			"is parent of",
 			"Participant"
 		]
 	],
-	"confOf#Chair_PC": [
+	"confOf#Member_PC": [
 		[
-			"Chair PC",
+			"Member PC",
 			"is parent of",
 			"Person"
 		],
@@ -844,42 +627,34 @@
 		[
 			"Person",
 			"is child of",
-			"Science Worker"
+			"Author"
+		],
+		[
+			"Author",
+			"is parent of",
+			"Person"
+		]
+	],
+	"confOf#Chair_PC": [
+		[
+			"Chair PC",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"hasEmail",
+			"Thing"
 		],
 		[
 			"Person",
 			"is child of",
-			"Participant"
+			"Administrator"
 		],
 		[
-			"Science Worker",
+			"Administrator",
 			"is parent of",
 			"Person"
-		],
-		[
-			"Participant",
-			"is child of",
-			"Regular"
-		],
-		[
-			"Participant",
-			"is child of",
-			"Student"
-		],
-		[
-			"Participant",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Student",
-			"is parent of",
-			"Participant"
-		],
-		[
-			"Regular",
-			"is parent of",
-			"Participant"
 		]
 	],
 	"confOf#Student": [
@@ -895,13 +670,13 @@
 		],
 		[
 			"Participant",
-			"is parent of",
-			"Person"
+			"is child of",
+			"Member"
 		],
 		[
-			"Person",
+			"Member",
 			"is parent of",
-			"Thing"
+			"Participant"
 		]
 	],
 	"confOf#Science_Worker": [
@@ -918,7 +693,12 @@
 		[
 			"Person",
 			"is child of",
-			"Science Worker"
+			"Assistant"
+		],
+		[
+			"Assistant",
+			"is parent of",
+			"Person"
 		]
 	],
 	"confOf#Volunteer": [
@@ -931,36 +711,6 @@
 			"Person",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Administrator"
-		],
-		[
-			"Person",
-			"is child of",
-			"Participant"
-		],
-		[
-			"Participant",
-			"is child of",
-			"Student"
-		],
-		[
-			"Participant",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Student",
-			"is parent of",
-			"Participant"
 		]
 	],
 	"confOf#Regular": [
@@ -971,28 +721,23 @@
 		],
 		[
 			"Participant",
-			"is child of",
-			"Member"
-		],
-		[
-			"Participant",
 			"is parent of",
 			"Person"
 		],
 		[
-			"Person",
+			"Participant",
 			"is child of",
-			"Member PC"
+			"Member"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
 		],
 		[
 			"Person",
 			"is child of",
-			"Author"
-		],
-		[
-			"Person",
-			"is child of",
-			"Administrator"
+			"Science Worker"
 		],
 		[
 			"Member",
@@ -1000,17 +745,7 @@
 			"Participant"
 		],
 		[
-			"Member PC",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Author",
+			"Science Worker",
 			"is parent of",
 			"Person"
 		]
@@ -1033,18 +768,23 @@
 		],
 		[
 			"Contribution",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Contribution",
+			"is child of",
+			"Short paper"
+		],
+		[
+			"Paper",
 			"is parent of",
-			"Thing"
+			"Contribution"
 		],
 		[
-			"Contribution",
-			"hasTitle",
-			"Thing"
-		],
-		[
-			"Contribution",
-			"contactEmail",
-			"Thing"
+			"Short paper",
+			"is parent of",
+			"Contribution"
 		]
 	]
 }

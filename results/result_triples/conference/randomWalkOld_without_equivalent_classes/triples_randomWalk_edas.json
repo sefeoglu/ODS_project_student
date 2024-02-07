@@ -13,7 +13,7 @@
 		[
 			"paper",
 			"is parent of",
-			"rejected paper"
+			"accepted paper"
 		]
 	],
 	"edas#Review": [
@@ -43,13 +43,8 @@
 	"edas#Paper": [
 		[
 			"paper",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
 			"is parent of",
-			"review "
+			"published paper "
 		],
 		[
 			"paper",
@@ -59,22 +54,22 @@
 		[
 			"paper",
 			"is parent of",
-			"published paper "
+			"rejected paper "
+		],
+		[
+			"paper",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"programme "
 		],
 		[
 			"paper",
 			"is parent of",
-			"active paper"
-		],
-		[
-			"active paper",
-			"is parent of",
-			"rated papers "
-		],
-		[
-			"paper",
-			"is parent of",
-			"rejected paper"
+			"accepted paper"
 		]
 	],
 	"edas#MealMenu": [
@@ -86,15 +81,10 @@
 		[
 			"document",
 			"is parent of",
-			"programme"
+			"review"
 		]
 	],
 	"edas#Document": [
-		[
-			"document",
-			"is parent of",
-			"slide set "
-		],
 		[
 			"document",
 			"is parent of",
@@ -103,7 +93,7 @@
 		[
 			"document",
 			"is parent of",
-			"meal menu "
+			"programme "
 		],
 		[
 			"document",
@@ -113,52 +103,47 @@
 		[
 			"paper",
 			"is parent of",
-			"accepted paper "
+			"pending paper "
 		],
 		[
 			"document",
 			"is parent of",
-			"programme"
+			"slide set "
+		],
+		[
+			"document",
+			"is parent of",
+			"meal menu"
 		]
 	],
 	"edas#Topic": [
 		[
 			"topic",
 			"is parent of",
-			"multimedia topic "
+			"microelectronics topic "
 		],
 		[
 			"topic",
 			"is parent of",
-			"computer architecture topic "
+			"performance topic "
 		],
 		[
 			"topic",
 			"is parent of",
-			"radio communications topic "
+			"parallel and distributed computing topic "
 		],
 		[
 			"topic",
 			"is parent of",
-			"mobile computing topic "
+			"communications topic "
 		],
 		[
 			"topic",
 			"is parent of",
-			"communications topic"
+			"overline transmission topic"
 		]
 	],
 	"edas#ConferenceEvent": [
-		[
-			"conference event",
-			"is parent of",
-			"non academic event"
-		],
-		[
-			"non academic event",
-			"is parent of",
-			"social event "
-		],
 		[
 			"conference event",
 			"is parent of",
@@ -172,7 +157,22 @@
 		[
 			"talk event",
 			"is parent of",
-			"welcome talk"
+			"closing talk "
+		],
+		[
+			"conference event",
+			"is parent of",
+			"non academic event"
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"social event"
+		],
+		[
+			"social event",
+			"is parent of",
+			"excursion"
 		]
 	],
 	"edas#Call": [
@@ -196,6 +196,11 @@
 		[
 			"review rating",
 			"is parent of",
+			"week reject rating "
+		],
+		[
+			"review rating",
+			"is parent of",
 			"reject rating "
 		],
 		[
@@ -206,20 +211,10 @@
 		[
 			"review rating",
 			"is parent of",
-			"week reject rating "
-		],
-		[
-			"review rating",
-			"is equivalent to",
 			"accept rating"
 		]
 	],
 	"edas#Organization": [
-		[
-			"organization",
-			"is parent of",
-			"industry organization "
-		],
 		[
 			"organization",
 			"is parent of",
@@ -228,41 +223,36 @@
 		[
 			"organization",
 			"is parent of",
-			"government organization "
+			"ngo "
 		],
 		[
 			"organization",
 			"is parent of",
-			"ngo"
+			"industry organization "
+		],
+		[
+			"organization",
+			"is parent of",
+			"government organization"
 		]
 	],
 	"edas#Conference": [
 		[
 			"conference",
 			"is child of",
-			"Thing "
-		],
-		[
-			"conference",
-			"is equivalent to",
-			"two level conference "
-		],
-		[
-			"conference",
-			"is equivalent to",
-			"single level conference"
+			"Thing"
 		]
 	],
 	"edas#PersonalHistory": [
 		[
 			"personal history",
 			"is parent of",
-			"personal publication history "
+			"personal review history "
 		],
 		[
 			"personal history",
 			"is parent of",
-			"personal review history"
+			"personal publication history"
 		]
 	],
 	"edas#Sponsorship": [
@@ -287,23 +277,13 @@
 	"edas#Person": [
 		[
 			"person",
-			"is equivalent to",
-			"reviewer "
-		],
-		[
-			"person",
-			"is equivalent to",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"presenter "
-		],
-		[
-			"person",
 			"is parent of",
 			"attended "
+		],
+		[
+			"person",
+			"is parent of",
+			"session chair "
 		],
 		[
 			"person",
@@ -320,7 +300,7 @@
 		[
 			"place",
 			"is parent of",
-			"dining place "
+			"conference venue place "
 		],
 		[
 			"place",
@@ -330,12 +310,12 @@
 		[
 			"place",
 			"is parent of",
-			"accommodation place "
+			"dining place "
 		],
 		[
 			"place",
 			"is parent of",
-			"conference venue place"
+			"accommodation place"
 		]
 	],
 	"edas#WeekRejectRating": [
@@ -347,7 +327,7 @@
 		[
 			"review rating",
 			"is parent of",
-			"accept rating"
+			"reject rating"
 		]
 	],
 	"edas#AcceptRating": [
@@ -358,8 +338,8 @@
 		],
 		[
 			"review rating",
-			"is equivalent to",
-			"reject rating"
+			"is parent of",
+			"accept if room rating"
 		]
 	],
 	"edas#AccpetIfRoomRating": [
@@ -370,8 +350,8 @@
 		],
 		[
 			"review rating",
-			"is equivalent to",
-			"reject rating"
+			"is parent of",
+			"week reject rating"
 		]
 	],
 	"edas#RejectRating": [
@@ -383,12 +363,81 @@
 		[
 			"review rating",
 			"is parent of",
-			"accept if room rating"
+			"accept rating"
 		]
 	],
 	"edas#MealEvent": [
 		[
 			"meal event",
+			"is parent of",
+			"conference dinner "
+		],
+		[
+			"meal event",
+			"is child of",
+			"non academic event"
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"social event"
+		]
+	],
+	"edas#NonAcademicEvent": [
+		[
+			"non academic event",
+			"is parent of",
+			"break event"
+		],
+		[
+			"break event",
+			"is parent of",
+			"free time break "
+		],
+		[
+			"non academic event",
+			"is child of",
+			"conference event"
+		],
+		[
+			"conference event",
+			"is parent of",
+			"academic event"
+		],
+		[
+			"academic event",
+			"is parent of",
+			"workshop "
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"meal event"
+		],
+		[
+			"meal event",
+			"is parent of",
+			"conference dinner "
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"social event"
+		],
+		[
+			"social event",
+			"is parent of",
+			"reception"
+		]
+	],
+	"edas#BreakEvent": [
+		[
+			"break event",
+			"is parent of",
+			"meal break "
+		],
+		[
+			"break event",
 			"is child of",
 			"non academic event"
 		],
@@ -403,83 +452,14 @@
 			"excursion "
 		],
 		[
-			"meal event",
-			"is parent of",
-			"conference dinner"
-		]
-	],
-	"edas#NonAcademicEvent": [
-		[
-			"non academic event",
-			"is parent of",
-			"break event"
-		],
-		[
-			"break event",
-			"is equivalent to",
-			"meal break "
-		],
-		[
-			"non academic event",
-			"is child of",
-			"conference event"
-		],
-		[
-			"conference event",
-			"is parent of",
-			"academic event "
-		],
-		[
-			"non academic event",
-			"is parent of",
-			"social event"
-		],
-		[
-			"social event",
-			"is parent of",
-			"reception "
-		],
-		[
-			"non academic event",
-			"is parent of",
-			"meal event"
-		],
-		[
-			"meal event",
-			"is parent of",
-			"conference dinner"
-		]
-	],
-	"edas#BreakEvent": [
-		[
 			"break event",
 			"is parent of",
-			"free time break "
-		],
-		[
-			"break event",
-			"is equivalent to",
 			"coffee break "
 		],
 		[
 			"break event",
-			"is equivalent to",
-			"meal break "
-		],
-		[
-			"break event",
-			"is child of",
-			"non academic event"
-		],
-		[
-			"non academic event",
 			"is parent of",
-			"meal event"
-		],
-		[
-			"meal event",
-			"is parent of",
-			"conference dinner"
+			"free time break"
 		]
 	],
 	"edas#ParallelAndDistributedComputingTopic": [
@@ -491,7 +471,7 @@
 		[
 			"topic",
 			"is parent of",
-			"communications topic"
+			"computer architecture topic"
 		]
 	],
 	"edas#WirelessCommunicationsTopic": [
@@ -503,7 +483,7 @@
 		[
 			"topic",
 			"is parent of",
-			"cad topic"
+			"communications topic"
 		]
 	],
 	"edas#OperatingTopicsystems": [
@@ -515,14 +495,19 @@
 		[
 			"topic",
 			"is parent of",
-			"overline transmission topic"
+			"cryptography topic"
 		]
 	],
 	"edas#ComputerNetworksTopic": [
 		[
 			"computer networks topic",
 			"is parent of",
-			"computer networks security topic "
+			"computer networks enterprise topic "
+		],
+		[
+			"computer networks topic",
+			"is parent of",
+			"computer networks management topic "
 		],
 		[
 			"computer networks topic",
@@ -532,22 +517,17 @@
 		[
 			"topic",
 			"is parent of",
-			"antennas topic "
+			"satellite and space communications topic "
 		],
 		[
 			"computer networks topic",
 			"is parent of",
-			"computer networks enterprise topic "
+			"computer networks measurements topic "
 		],
 		[
 			"computer networks topic",
 			"is parent of",
-			"computer networks sensor topic "
-		],
-		[
-			"computer networks topic",
-			"is parent of",
-			"computer networks management topic"
+			"computer networks optical topic"
 		]
 	],
 	"edas#SatelliteAndSpaceCommunicationsTopic": [
@@ -559,7 +539,7 @@
 		[
 			"topic",
 			"is parent of",
-			"operating topicsystems"
+			"test only topic"
 		]
 	],
 	"edas#CADTopic": [
@@ -571,7 +551,7 @@
 		[
 			"topic",
 			"is parent of",
-			"multimedia topic"
+			"microelectronics topic"
 		]
 	],
 	"edas#MultimediaTopic": [
@@ -583,7 +563,7 @@
 		[
 			"topic",
 			"is parent of",
-			"test only topic"
+			"operating topicsystems"
 		]
 	],
 	"edas#CommunicationsTopic": [
@@ -595,7 +575,7 @@
 		[
 			"topic",
 			"is parent of",
-			"performance topic"
+			"satellite and space communications topic"
 		]
 	],
 	"edas#PowerlineTransmissionTopic": [
@@ -607,7 +587,7 @@
 		[
 			"topic",
 			"is parent of",
-			"parallel and distributed computing topic"
+			"medicine topic"
 		]
 	],
 	"edas#AntennasTopic": [
@@ -619,7 +599,7 @@
 		[
 			"topic",
 			"is parent of",
-			"computer architecture topic"
+			"wireless communications topic"
 		]
 	],
 	"edas#PerformanceTopic": [
@@ -631,7 +611,7 @@
 		[
 			"topic",
 			"is parent of",
-			"signal processing topic"
+			"mobile computing topic"
 		]
 	],
 	"edas#SignalProcessingTopic": [
@@ -643,7 +623,7 @@
 		[
 			"topic",
 			"is parent of",
-			"multimedia topic"
+			"communication theory topic"
 		]
 	],
 	"edas#MicroelectronicsTopic": [
@@ -655,7 +635,7 @@
 		[
 			"topic",
 			"is parent of",
-			"security topic"
+			"radio communications topic"
 		]
 	],
 	"edas#TestOnlyTopic": [
@@ -667,7 +647,7 @@
 		[
 			"topic",
 			"is parent of",
-			"multimedia topic"
+			"radio communications topic"
 		]
 	],
 	"edas#RadioCommunicationsTopic": [
@@ -679,7 +659,7 @@
 		[
 			"topic",
 			"is parent of",
-			"communication theory topic"
+			"security topic"
 		]
 	],
 	"edas#ComputerArchitectureTopic": [
@@ -691,7 +671,7 @@
 		[
 			"topic",
 			"is parent of",
-			"operating topicsystems"
+			"communication theory topic"
 		]
 	],
 	"edas#MedicineTopic": [
@@ -703,7 +683,7 @@
 		[
 			"topic",
 			"is parent of",
-			"microelectronics topic"
+			"satellite and space communications topic"
 		]
 	],
 	"edas#SecurityTopic": [
@@ -715,7 +695,7 @@
 		[
 			"topic",
 			"is parent of",
-			"communication theory topic"
+			"operating topicsystems"
 		]
 	],
 	"edas#MobileComputingTopic": [
@@ -727,7 +707,7 @@
 		[
 			"topic",
 			"is parent of",
-			"test only topic"
+			"wireless communications topic"
 		]
 	],
 	"edas#CryptographyTopic": [
@@ -739,7 +719,7 @@
 		[
 			"topic",
 			"is parent of",
-			"mobile computing topic"
+			"performance topic"
 		]
 	],
 	"edas#CommunicationTheoryTopic": [
@@ -770,17 +750,7 @@
 		[
 			"author",
 			"is parent of",
-			"presenter "
-		],
-		[
-			"author",
-			"is equivalent to",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"session chair"
+			"presenter"
 		]
 	],
 	"edas#DiningPlace": [
@@ -800,16 +770,6 @@
 			"presenter",
 			"is child of",
 			"author"
-		],
-		[
-			"author",
-			"is equivalent to",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"tpc member"
 		]
 	],
 	"edas#AcademiaOrganization": [
@@ -821,7 +781,7 @@
 		[
 			"organization",
 			"is parent of",
-			"ngo"
+			"industry organization"
 		]
 	],
 	"edas#IndustryOrganization": [
@@ -833,7 +793,7 @@
 		[
 			"organization",
 			"is parent of",
-			"ngo"
+			"government organization"
 		]
 	],
 	"edas#NGO": [
@@ -845,7 +805,7 @@
 		[
 			"organization",
 			"is parent of",
-			"academia organization"
+			"industry organization"
 		]
 	],
 	"edas#GovernmentOrganization": [
@@ -857,7 +817,7 @@
 		[
 			"organization",
 			"is parent of",
-			"industry organization"
+			"ngo"
 		]
 	],
 	"edas#ComputerNetworksEnterpriseTopic": [
@@ -868,8 +828,13 @@
 		],
 		[
 			"computer networks topic",
+			"is child of",
+			"topic"
+		],
+		[
+			"topic",
 			"is parent of",
-			"computer networks optical topic"
+			"mobile computing topic"
 		]
 	],
 	"edas#ComputerNetworksSwitchingTopic": [
@@ -880,8 +845,13 @@
 		],
 		[
 			"computer networks topic",
+			"is child of",
+			"topic"
+		],
+		[
+			"topic",
 			"is parent of",
-			"computer networks optical topic"
+			"microelectronics topic"
 		]
 	],
 	"edas#ComputerNetworksSensorTopic": [
@@ -893,7 +863,7 @@
 		[
 			"computer networks topic",
 			"is parent of",
-			"computer networks enterprise topic"
+			"computer networks management topic"
 		]
 	],
 	"edas#ComputerNetworksSecurityTopic": [
@@ -904,8 +874,13 @@
 		],
 		[
 			"computer networks topic",
+			"is child of",
+			"topic"
+		],
+		[
+			"topic",
 			"is parent of",
-			"computer networks sensor topic"
+			"wireless communications topic"
 		]
 	],
 	"edas#ComputerNetworksOpticalTopic": [
@@ -922,7 +897,7 @@
 		[
 			"topic",
 			"is parent of",
-			"mobile computing topic"
+			"parallel and distributed computing topic"
 		]
 	],
 	"edas#ComputerNetworksMeasurementsTopic": [
@@ -939,7 +914,7 @@
 		[
 			"topic",
 			"is parent of",
-			"medicine topic"
+			"overline transmission topic"
 		]
 	],
 	"edas#ComputerNetworksManagementTopic": [
@@ -951,7 +926,7 @@
 		[
 			"computer networks topic",
 			"is parent of",
-			"computer networks switching topic"
+			"computer networks measurements topic"
 		]
 	],
 	"edas#ComputerNetworksAapplicationsTopic": [
@@ -964,11 +939,6 @@
 			"computer networks topic",
 			"is child of",
 			"topic"
-		],
-		[
-			"topic",
-			"is parent of",
-			"cryptography topic"
 		]
 	],
 	"edas#ActivePaper": [
@@ -984,8 +954,13 @@
 		],
 		[
 			"paper",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
 			"is parent of",
-			"rejected paper"
+			"programme"
 		]
 	],
 	"edas#PendingPaper": [
@@ -996,8 +971,13 @@
 		],
 		[
 			"paper",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
 			"is parent of",
-			"rejected paper"
+			"slide set"
 		]
 	],
 	"edas#WithdrawnPaper": [
@@ -1014,7 +994,7 @@
 		[
 			"document",
 			"is parent of",
-			"programme"
+			"meal menu"
 		]
 	],
 	"edas#RejectedPaper": [
@@ -1027,6 +1007,11 @@
 			"paper",
 			"is child of",
 			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"programme"
 		]
 	],
 	"edas#AcceptedPaper": [
@@ -1037,13 +1022,13 @@
 		],
 		[
 			"paper",
-			"is child of",
-			"document"
+			"is parent of",
+			"active paper"
 		],
 		[
-			"document",
+			"active paper",
 			"is parent of",
-			"slide set"
+			"rated papers"
 		]
 	],
 	"edas#PublishedPaper": [
@@ -1060,7 +1045,7 @@
 		[
 			"document",
 			"is parent of",
-			"meal menu"
+			"review"
 		]
 	],
 	"edas#Attendee": [
@@ -1072,25 +1057,25 @@
 		[
 			"person",
 			"is parent of",
-			"session chair"
+			"conference chair"
 		]
 	],
 	"edas#CoffeeBreak": [
 		[
 			"coffee break",
-			"is equivalent to",
+			"is child of",
 			"break event"
 		],
 		[
 			"break event",
-			"is child of",
-			"non academic event"
+			"is parent of",
+			"meal break"
 		]
 	],
 	"edas#FreeTimeBreak": [
 		[
 			"free time break",
-			"is equivalent to",
+			"is child of",
 			"break event"
 		],
 		[
@@ -1102,35 +1087,13 @@
 	"edas#MealBreak": [
 		[
 			"meal break",
-			"is equivalent to",
+			"is child of",
 			"break event"
 		],
 		[
 			"break event",
-			"is child of",
-			"non academic event"
-		],
-		[
-			"non academic event",
 			"is parent of",
-			"meal event"
-		],
-		[
-			"meal event",
-			"is parent of",
-			"conference dinner"
-		]
-	],
-	"edas#Reviewer": [
-		[
-			"reviewer",
-			"is equivalent to",
-			"person"
-		],
-		[
-			"person",
-			"is equivalent to",
-			"author"
+			"coffee break"
 		]
 	],
 	"edas#ClosingTalk": [
@@ -1141,13 +1104,8 @@
 		],
 		[
 			"talk event",
-			"is child of",
-			"academic event"
-		],
-		[
-			"academic event",
-			"is child of",
-			"conference event"
+			"is parent of",
+			"welcome talk"
 		]
 	],
 	"edas#WelcomeTalk": [
@@ -1158,8 +1116,8 @@
 		],
 		[
 			"talk event",
-			"is parent of",
-			"closing talk"
+			"is child of",
+			"academic event"
 		]
 	],
 	"edas#TalkEvent": [
@@ -1176,7 +1134,17 @@
 		[
 			"conference event",
 			"is parent of",
-			"non academic event "
+			"non academic event"
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"social event"
+		],
+		[
+			"social event",
+			"is parent of",
+			"excursion "
 		],
 		[
 			"talk event",
@@ -1198,7 +1166,7 @@
 		[
 			"person",
 			"is parent of",
-			"tpc member"
+			"attended"
 		]
 	],
 	"edas#TPCMember": [
@@ -1213,18 +1181,6 @@
 			"conference chair"
 		]
 	],
-	"edas#TwoLevelConference": [
-		[
-			"two level conference",
-			"is equivalent to",
-			"conference"
-		],
-		[
-			"conference",
-			"is child of",
-			"Thing"
-		]
-	],
 	"edas#CallForPapers": [
 		[
 			"call for papers",
@@ -1234,7 +1190,7 @@
 		[
 			"call",
 			"is parent of",
-			"call for reviews"
+			"call for manuscripts"
 		]
 	],
 	"edas#TextualReviewQuestion": [
@@ -1269,13 +1225,8 @@
 		],
 		[
 			"academic event",
-			"is child of",
-			"conference event"
-		],
-		[
-			"conference event",
 			"is parent of",
-			"non academic event"
+			"workshop"
 		]
 	],
 	"edas#PaperPresentation": [
@@ -1286,8 +1237,18 @@
 		],
 		[
 			"academic event",
+			"is child of",
+			"conference event"
+		],
+		[
+			"conference event",
 			"is parent of",
-			"organizational meeting"
+			"non academic event"
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"meal event"
 		]
 	],
 	"edas#Workshop": [
@@ -1298,11 +1259,46 @@
 		],
 		[
 			"academic event",
+			"is child of",
+			"conference event"
+		],
+		[
+			"conference event",
 			"is parent of",
-			"organizational meeting"
+			"non academic event"
 		]
 	],
 	"edas#AcademicEvent": [
+		[
+			"academic event",
+			"is child of",
+			"conference event"
+		],
+		[
+			"conference event",
+			"is parent of",
+			"non academic event"
+		],
+		[
+			"non academic event",
+			"is parent of",
+			"break event"
+		],
+		[
+			"break event",
+			"is parent of",
+			"coffee break "
+		],
+		[
+			"academic event",
+			"is parent of",
+			"organizational meeting "
+		],
+		[
+			"academic event",
+			"is parent of",
+			"paper presentation "
+		],
 		[
 			"academic event",
 			"is parent of",
@@ -1316,27 +1312,7 @@
 		[
 			"talk event",
 			"is parent of",
-			"closing talk "
-		],
-		[
-			"academic event",
-			"is child of",
-			"conference event"
-		],
-		[
-			"conference event",
-			"is parent of",
-			"non academic event "
-		],
-		[
-			"academic event",
-			"is parent of",
-			"paper presentation "
-		],
-		[
-			"academic event",
-			"is parent of",
-			"organizational meeting"
+			"closing talk"
 		]
 	],
 	"edas#PersonalPublicationHistory": [
@@ -1359,11 +1335,16 @@
 		],
 		[
 			"social event",
-			"is parent of",
-			"reception"
+			"is child of",
+			"non academic event"
 		]
 	],
 	"edas#SocialEvent": [
+		[
+			"social event",
+			"is parent of",
+			"excursion "
+		],
 		[
 			"social event",
 			"is child of",
@@ -1371,23 +1352,18 @@
 		],
 		[
 			"non academic event",
-			"is child of",
-			"conference event"
+			"is parent of",
+			"meal event"
 		],
 		[
-			"conference event",
+			"meal event",
 			"is parent of",
-			"academic event "
-		],
-		[
-			"social event",
-			"is parent of",
-			"reception "
+			"conference dinner "
 		],
 		[
 			"social event",
 			"is parent of",
-			"excursion"
+			"reception"
 		]
 	],
 	"edas#CallForReviews": [
@@ -1435,7 +1411,7 @@
 		[
 			"call",
 			"is parent of",
-			"call for reviews"
+			"call for papers"
 		]
 	],
 	"edas#Reception": [
@@ -1448,18 +1424,6 @@
 			"social event",
 			"is parent of",
 			"excursion"
-		]
-	],
-	"edas#SingleLevelConference": [
-		[
-			"single level conference",
-			"is equivalent to",
-			"conference"
-		],
-		[
-			"conference",
-			"is child of",
-			"Thing"
 		]
 	],
 	"edas#MeetingRoomPlace": [
@@ -1496,6 +1460,11 @@
 			"active paper",
 			"is child of",
 			"paper"
+		],
+		[
+			"paper",
+			"is parent of",
+			"rejected paper"
 		]
 	],
 	"edas#TravelGrant": [

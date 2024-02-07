@@ -8,17 +8,12 @@
 		[
 			"Place",
 			"is child of",
-			"Conference hall"
-		],
-		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
 			"Main office"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
 		],
 		[
 			"Main office",
@@ -40,17 +35,7 @@
 		[
 			"Place",
 			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
 			"Conference hall"
-		],
-		[
-			"Hotel",
-			"is parent of",
-			"Place"
 		],
 		[
 			"Conference hall",
@@ -71,8 +56,8 @@
 		],
 		[
 			"Document",
-			"presentationed by",
-			"Speaker"
+			"is child of",
+			"Review"
 		],
 		[
 			"Document",
@@ -80,9 +65,9 @@
 			"Paper"
 		],
 		[
-			"Document",
-			"is child of",
-			"Abstract"
+			"Review",
+			"is parent of",
+			"Document"
 		],
 		[
 			"Paper",
@@ -95,64 +80,9 @@
 			"Document"
 		],
 		[
-			"Speaker",
-			"presentation",
-			"Document"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Author"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Invited Speaker"
-		],
-		[
 			"Deadline Paper Submission",
 			"is parent of",
 			"Deadline"
-		],
-		[
-			"Invited Speaker",
-			"is parent of",
-			"Speaker"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper student"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Author of paper student",
-			"award",
-			"Best Student Paper Award"
-		],
-		[
-			"Author of paper student",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author of paper",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author of paper",
-			"award",
-			"Best Applications Paper Award"
 		]
 	],
 	"sigkdd#Document": [
@@ -163,26 +93,11 @@
 		],
 		[
 			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
 			"submit until",
 			"Deadline"
 		],
 		[
 			"Paper",
-			"submit until",
-			"Deadline Paper Submission"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Review",
 			"is parent of",
 			"Document"
 		],
@@ -190,11 +105,6 @@
 			"Deadline",
 			"is child of",
 			"Deadline Paper Submission"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
 		],
 		[
 			"Deadline",
@@ -202,19 +112,14 @@
 			"Deadline Author notification"
 		],
 		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
 			"Deadline Author notification",
 			"is parent of",
 			"Deadline"
 		],
 		[
-			"ACM SIGKDD",
+			"Deadline Paper Submission",
 			"is parent of",
-			"Thing"
+			"Deadline"
 		]
 	],
 	"sigkdd#Deadline_Abstract_Submission": [
@@ -225,8 +130,8 @@
 		],
 		[
 			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
+			"is child of",
+			"Deadline Paper Submission"
 		],
 		[
 			"Deadline",
@@ -239,13 +144,8 @@
 			"Deadline"
 		],
 		[
-			"ACM SIGKDD",
+			"Deadline Paper Submission",
 			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"design",
 			"Deadline"
 		]
 	],
@@ -258,17 +158,12 @@
 		[
 			"Award",
 			"is child of",
-			"Best Research Paper Award"
-		],
-		[
-			"Award",
-			"is child of",
 			"Best Student Paper Award"
 		],
 		[
 			"Award",
-			"awarded by",
-			"Organizator"
+			"is child of",
+			"Best Research Paper Award"
 		],
 		[
 			"Best Research Paper Award",
@@ -279,16 +174,23 @@
 			"Best Student Paper Award",
 			"is parent of",
 			"Award"
+		]
+	],
+	"sigkdd#Award": [
+		[
+			"Award",
+			"is child of",
+			"Best Applications Paper Award"
 		],
 		[
-			"Organizator",
-			"is child of",
-			"General Chair"
+			"Award",
+			"awarded by",
+			"Organizator"
 		],
 		[
-			"Organizator",
-			"is child of",
-			"Organizing Committee member"
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
 		],
 		[
 			"Organizator",
@@ -303,74 +205,17 @@
 		[
 			"Person",
 			"is child of",
-			"Listener"
+			"Speaker"
 		],
 		[
-			"Person",
-			"can stay in",
-			"Place"
+			"Speaker",
+			"presentation",
+			"Document"
 		],
 		[
-			"Organizing Committee member",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"General Chair",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Listener",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Place",
+			"Speaker",
 			"is child of",
-			"Conference hall"
-		],
-		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
-			"Main office"
-		]
-	],
-	"sigkdd#Award": [
-		[
-			"Award",
-			"is child of",
-			"Best Research Paper Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Applications Paper Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Student Paper Award"
-		],
-		[
-			"Best Research Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Best Student Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Best Applications Paper Award",
-			"is parent of",
-			"Award"
+			"Author"
 		]
 	],
 	"sigkdd#Deadline_Paper_Submission": [
@@ -381,8 +226,52 @@
 		],
 		[
 			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Author notification"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Deadline": [
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"Deadline",
 			"is child of",
 			"Deadline Paper Submission"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Deadline_Author_notification": [
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
 		],
 		[
 			"Deadline",
@@ -392,10 +281,10 @@
 		[
 			"Deadline",
 			"is child of",
-			"Deadline Abstract Submission"
+			"Deadline Paper Submission"
 		],
 		[
-			"Deadline Abstract Submission",
+			"Deadline Paper Submission",
 			"is parent of",
 			"Deadline"
 		],
@@ -410,70 +299,6 @@
 			"Deadline"
 		]
 	],
-	"sigkdd#Deadline": [
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"hold",
-			"Conference"
-		],
-		[
-			"Conference",
-			"holded by",
-			"ACM SIGKDD"
-		]
-	],
-	"sigkdd#Deadline_Author_notification": [
-		[
-			"Deadline Author notification",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Paper Submission"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		]
-	],
 	"sigkdd#Webmaster": [
 		[
 			"Webmaster",
@@ -483,67 +308,10 @@
 		[
 			"Organizator",
 			"is child of",
-			"General Chair"
-		],
-		[
-			"Organizator",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"can stay in",
-			"Hotel"
-		],
-		[
-			"Person",
-			"is child of",
-			"Organizator"
-		],
-		[
-			"General Chair",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Hotel",
-			"is parent of",
-			"Place"
-		],
-		[
-			"Place",
-			"is child of",
-			"Conference hall"
-		],
-		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
-			"Main office"
-		]
-	],
-	"sigkdd#Organizator": [
-		[
-			"Organizator",
-			"is child of",
 			"Program Chair"
 		],
 		[
 			"Organizator",
-			"is child of",
-			"Program Committee member"
-		],
-		[
-			"Organizator",
 			"is parent of",
 			"Person"
 		],
@@ -554,8 +322,8 @@
 		],
 		[
 			"Person",
-			"can stay in",
-			"Place"
+			"pay",
+			"Registration fee"
 		],
 		[
 			"Program Chair",
@@ -563,39 +331,61 @@
 			"Organizator"
 		],
 		[
-			"Program Committee member",
+			"Registration fee",
+			"is parent of",
+			"Fee"
+		]
+	],
+	"sigkdd#Organizator": [
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Person",
+			"is child of",
+			"Listener"
+		],
+		[
+			"Organizing Committee member",
 			"is parent of",
 			"Organizator"
 		],
 		[
-			"Place",
-			"is child of",
-			"Main office"
-		],
-		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
-			"Conference hall"
-		],
-		[
-			"Hotel",
+			"Listener",
 			"is parent of",
-			"Place"
+			"Person"
 		],
 		[
-			"Conference hall",
-			"is parent of",
-			"Place"
+			"Speaker",
+			"presentation",
+			"Document"
 		],
 		[
-			"Main office",
+			"Speaker",
 			"is parent of",
-			"Place"
+			"Person"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
 		]
 	],
 	"sigkdd#Author_of_paper_student": [
@@ -612,17 +402,12 @@
 		[
 			"Author",
 			"is child of",
-			"Author of paper student"
-		],
-		[
-			"Author",
-			"notification until",
-			"Deadline Author notification"
+			"Author of paper"
 		],
 		[
 			"Author",
 			"is child of",
-			"Author of paper"
+			"Author of paper student"
 		],
 		[
 			"Best Student Paper Award",
@@ -637,16 +422,6 @@
 		[
 			"Author of paper",
 			"award",
-			"Best Applications Paper Award"
-		],
-		[
-			"Deadline Author notification",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Award",
-			"is child of",
 			"Best Research Paper Award"
 		],
 		[
@@ -656,28 +431,8 @@
 		],
 		[
 			"Award",
-			"awarded by",
-			"Organizator"
-		],
-		[
-			"Best Applications Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Deadline",
 			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
+			"Best Student Paper Award"
 		],
 		[
 			"Best Research Paper Award",
@@ -685,34 +440,9 @@
 			"Award"
 		],
 		[
-			"Organizator",
-			"is child of",
-			"Organizing Committee member"
-		],
-		[
-			"Organizator",
+			"Best Applications Paper Award",
 			"is parent of",
-			"Person"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Organizing Committee member",
-			"is parent of",
-			"Organizator"
+			"Award"
 		]
 	],
 	"sigkdd#Best_Student_Paper_Award": [
@@ -724,129 +454,34 @@
 		[
 			"Award",
 			"is child of",
-			"Best Student Paper Award"
+			"Best Applications Paper Award"
 		],
 		[
 			"Award",
-			"awarded by",
-			"Organizator"
-		],
-		[
-			"Organizator",
 			"is child of",
-			"General Chair"
+			"Best Research Paper Award"
 		],
 		[
-			"Organizator",
-			"is child of",
-			"Program Committee member"
-		],
-		[
-			"Organizator",
+			"Best Research Paper Award",
 			"is parent of",
-			"Person"
+			"Award"
 		],
 		[
-			"Person",
+			"Best Applications Paper Award",
 			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Listener"
-		],
-		[
-			"Person",
-			"is child of",
-			"Organizator"
-		],
-		[
-			"Program Committee member",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"General Chair",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Listener",
-			"is parent of",
-			"Person"
+			"Award"
 		]
 	],
 	"sigkdd#Author": [
 		[
 			"Author",
-			"submit",
-			"Paper"
-		],
-		[
-			"Author",
-			"notification until",
-			"Deadline Author notification"
-		],
-		[
-			"Paper",
-			"submit until",
-			"Deadline Paper Submission"
-		],
-		[
-			"Paper",
 			"is parent of",
-			"Document"
-		],
-		[
-			"Deadline Author notification",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Document",
-			"presentationed by",
 			"Speaker"
 		],
 		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"submit until",
-			"Deadline"
-		],
-		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Document"
-		],
-		[
 			"Speaker",
-			"presentation",
-			"Document"
+			"is parent of",
+			"Person"
 		],
 		[
 			"Speaker",
@@ -854,51 +489,66 @@
 			"Author"
 		],
 		[
-			"Speaker",
-			"is child of",
-			"Invited Speaker"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"ACM SIGKDD",
+			"Person",
 			"is parent of",
 			"Thing"
 		],
 		[
-			"ACM SIGKDD",
-			"hold",
-			"Conference"
+			"Person",
+			"pay",
+			"Registration fee"
 		],
 		[
-			"Invited Speaker",
+			"Registration fee",
 			"is parent of",
-			"Speaker"
+			"Fee"
 		],
 		[
-			"Conference",
-			"holded by",
-			"ACM SIGKDD"
+			"Registration fee",
+			"is child of",
+			"Registration Student"
 		]
 	],
 	"sigkdd#ACM_SIGKDD": [
 		[
 			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
+			"hold",
+			"Conference"
 		],
 		[
 			"ACM SIGKDD",
-			"hold",
-			"Conference"
+			"search",
+			"Sponzor"
 		],
 		[
 			"Conference",
 			"holded by",
 			"ACM SIGKDD"
+		],
+		[
+			"Sponzor",
+			"searched by",
+			"ACM SIGKDD"
+		],
+		[
+			"Sponzor",
+			"pay",
+			"Sponzor fee"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
 		]
 	],
 	"sigkdd#Conference": [
@@ -914,11 +564,9 @@
 		],
 		[
 			"ACM SIGKDD",
-			"hold",
-			"Conference"
-		]
-	],
-	"sigkdd#Sponzor": [
+			"search",
+			"Sponzor"
+		],
 		[
 			"Sponzor",
 			"pay",
@@ -927,15 +575,32 @@
 		[
 			"Sponzor",
 			"is child of",
-			"Exhibitor"
+			"Best Student Paper Supporter"
+		],
+		[
+			"Best Student Paper Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		]
+	],
+	"sigkdd#Sponzor": [
+		[
+			"Sponzor",
+			"is child of",
+			"Gold Supporter"
 		],
 		[
 			"Sponzor",
-			"searched by",
-			"ACM SIGKDD"
+			"pay",
+			"Sponzor fee"
 		],
 		[
-			"Exhibitor",
+			"Gold Supporter",
 			"is parent of",
 			"Sponzor"
 		],
@@ -945,21 +610,6 @@
 			"Fee"
 		],
 		[
-			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"search",
-			"Sponzor"
-		],
-		[
-			"ACM SIGKDD",
-			"hold",
-			"Conference"
-		],
-		[
 			"Fee",
 			"is child of",
 			"Registration fee"
@@ -970,49 +620,14 @@
 			"Sponzor fee"
 		],
 		[
-			"Conference",
-			"holded by",
-			"ACM SIGKDD"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGMOD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration Non-Member"
-		],
-		[
 			"Registration fee",
 			"payed by",
 			"Person"
 		],
 		[
-			"Registration Non-Member",
+			"Registration fee",
 			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGMOD Member",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Speaker"
-		],
-		[
-			"Person",
-			"is child of",
-			"Organizator"
+			"Fee"
 		]
 	],
 	"sigkdd#Exhibitor": [
@@ -1024,25 +639,20 @@
 		[
 			"Sponzor",
 			"is child of",
+			"Gold Supporter"
+		],
+		[
+			"Sponzor",
+			"is child of",
 			"Best Student Paper Supporter"
 		],
 		[
-			"Sponzor",
-			"is child of",
-			"Exhibitor"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Bronze Supporter"
-		],
-		[
-			"Bronze Supporter",
+			"Best Student Paper Supporter",
 			"is parent of",
 			"Sponzor"
 		],
 		[
-			"Best Student Paper Supporter",
+			"Gold Supporter",
 			"is parent of",
 			"Sponzor"
 		]
@@ -1080,8 +690,8 @@
 		],
 		[
 			"Person",
-			"can stay in",
-			"Place"
+			"is child of",
+			"Listener"
 		],
 		[
 			"Sponzor fee",
@@ -1089,151 +699,31 @@
 			"Fee"
 		],
 		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
-			"Main office"
-		],
-		[
-			"Place",
-			"is child of",
-			"Conference hall"
-		],
-		[
-			"Conference hall",
+			"Listener",
 			"is parent of",
-			"Place"
-		],
-		[
-			"Main office",
-			"is parent of",
-			"Place"
-		],
-		[
-			"Hotel",
-			"is parent of",
-			"Place"
+			"Person"
 		]
 	],
 	"sigkdd#Registration_fee": [
 		[
 			"Registration fee",
-			"payed by",
-			"Person"
-		],
-		[
-			"Person",
 			"is parent of",
-			"Thing"
+			"Fee"
 		],
 		[
-			"Person",
+			"Fee",
 			"is child of",
-			"Listener"
+			"Registration fee"
 		],
 		[
-			"Person",
+			"Fee",
 			"is child of",
-			"Speaker"
+			"Sponzor fee"
 		],
 		[
-			"Listener",
+			"Sponzor fee",
 			"is parent of",
-			"Person"
-		],
-		[
-			"Speaker",
-			"presentation",
-			"Document"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Author"
-		],
-		[
-			"Speaker",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Author",
-			"is parent of",
-			"Speaker"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper student"
-		],
-		[
-			"Document",
-			"presentationed by",
-			"Speaker"
-		],
-		[
-			"Document",
-			"is child of",
-			"Abstract"
-		],
-		[
-			"Document",
-			"submit until",
-			"Deadline"
-		],
-		[
-			"Author of paper student",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author of paper",
-			"award",
-			"Best Research Paper Award"
-		],
-		[
-			"Author of paper",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author of paper",
-			"award",
-			"Best Applications Paper Award"
-		],
-		[
-			"Abstract",
-			"submit until",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Abstract",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
+			"Fee"
 		]
 	],
 	"sigkdd#Person": [
@@ -1249,23 +739,13 @@
 		],
 		[
 			"Organizator",
-			"is child of",
-			"Program Committee member"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Organizing Committee member"
-		],
-		[
-			"Organizator",
 			"is parent of",
 			"Person"
 		],
 		[
-			"Organizing Committee member",
-			"is parent of",
-			"Organizator"
+			"Organizator",
+			"is child of",
+			"Program Committee member"
 		],
 		[
 			"Program Committee member",
@@ -1282,60 +762,25 @@
 		[
 			"Sponzor",
 			"is child of",
-			"Gold Supporter"
-		],
-		[
-			"Sponzor",
-			"pay",
-			"Sponzor fee"
+			"Platinum Supporter"
 		],
 		[
 			"Sponzor",
 			"is child of",
-			"Exhibitor"
+			"Best Student Paper Supporter"
 		],
 		[
-			"Gold Supporter",
+			"Platinum Supporter",
 			"is parent of",
 			"Sponzor"
 		],
 		[
-			"Exhibitor",
+			"Best Student Paper Supporter",
 			"is parent of",
 			"Sponzor"
-		],
-		[
-			"Sponzor fee",
-			"is parent of",
-			"Fee"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Registration fee"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Sponzor fee"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
-		],
-		[
-			"Registration fee",
-			"is parent of",
-			"Fee"
 		]
 	],
 	"sigkdd#Committee": [
-		[
-			"Committee",
-			"is child of",
-			"Organizing Committee"
-		],
 		[
 			"Committee",
 			"is child of",
@@ -1348,11 +793,6 @@
 		],
 		[
 			"Program Committee",
-			"is parent of",
-			"Committee"
-		],
-		[
-			"Organizing Committee",
 			"is parent of",
 			"Committee"
 		],
@@ -1371,12 +811,7 @@
 		[
 			"Sponzor",
 			"is child of",
-			"Platinum Supporter"
-		],
-		[
-			"Sponzor",
-			"searched by",
-			"ACM SIGKDD"
+			"Gold Supporter"
 		],
 		[
 			"Sponzor",
@@ -1384,34 +819,14 @@
 			"Sponzor fee"
 		],
 		[
-			"ACM SIGKDD",
+			"Gold Supporter",
 			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"design",
-			"Deadline"
+			"Sponzor"
 		],
 		[
 			"Sponzor fee",
 			"is parent of",
 			"Fee"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Paper Submission"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
 		],
 		[
 			"Fee",
@@ -1422,36 +837,6 @@
 			"Fee",
 			"is child of",
 			"Sponzor fee"
-		],
-		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline Author notification",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Registration fee",
-			"payed by",
-			"Person"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration Student"
 		]
 	],
 	"sigkdd#Conference_hall": [
@@ -1463,22 +848,12 @@
 		[
 			"Place",
 			"is child of",
-			"Conference hall"
-		],
-		[
-			"Place",
-			"is child of",
 			"Hotel"
 		],
 		[
 			"Place",
 			"is child of",
-			"Main office"
-		],
-		[
-			"Main office",
-			"is parent of",
-			"Place"
+			"Conference hall"
 		],
 		[
 			"Hotel",
@@ -1500,17 +875,7 @@
 		[
 			"Committee",
 			"is child of",
-			"Program Committee"
-		],
-		[
-			"Committee",
-			"is child of",
 			"Best Paper Awards Committee"
-		],
-		[
-			"Program Committee",
-			"is parent of",
-			"Committee"
 		],
 		[
 			"Organizing Committee",
@@ -1523,11 +888,6 @@
 			"Program Chair",
 			"is parent of",
 			"Organizator"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Program Chair"
 		],
 		[
 			"Organizator",
@@ -1545,39 +905,9 @@
 			"Registration fee"
 		],
 		[
-			"Person",
-			"is child of",
-			"Organizator"
-		],
-		[
 			"Registration fee",
-			"is child of",
-			"Registration SIGMOD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration Non-Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
-		],
-		[
-			"Registration Non-Member",
 			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGKDD Member",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGMOD Member",
-			"is parent of",
-			"Registration fee"
+			"Fee"
 		]
 	],
 	"sigkdd#Main_office": [
@@ -1589,17 +919,12 @@
 		[
 			"Place",
 			"is child of",
-			"Conference hall"
-		],
-		[
-			"Place",
-			"is child of",
 			"Hotel"
 		],
 		[
 			"Place",
 			"is child of",
-			"Main office"
+			"Conference hall"
 		],
 		[
 			"Hotel",
@@ -1620,13 +945,13 @@
 		],
 		[
 			"Registration fee",
-			"payed by",
-			"Person"
+			"is parent of",
+			"Fee"
 		],
 		[
 			"Registration fee",
-			"is parent of",
-			"Fee"
+			"is child of",
+			"Registration Non-Member"
 		],
 		[
 			"Fee",
@@ -1639,24 +964,9 @@
 			"Sponzor fee"
 		],
 		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Listener"
-		],
-		[
 			"Sponzor fee",
 			"is parent of",
 			"Fee"
-		],
-		[
-			"Listener",
-			"is parent of",
-			"Person"
 		]
 	],
 	"sigkdd#Fee": [
@@ -1671,37 +981,22 @@
 			"Sponzor fee"
 		],
 		[
-			"Registration fee",
-			"is child of",
-			"Registration Non-Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration Student"
-		],
-		[
 			"Sponzor fee",
 			"is parent of",
 			"Fee"
 		],
 		[
-			"Registration SIGKDD Member",
+			"Registration fee",
 			"is parent of",
-			"Registration fee"
+			"Fee"
 		],
 		[
-			"Registration Non-Member",
-			"is parent of",
-			"Registration fee"
+			"Registration fee",
+			"is child of",
+			"Registration SIGMOD Member"
 		],
 		[
-			"Registration Student",
+			"Registration SIGMOD Member",
 			"is parent of",
 			"Registration fee"
 		]
@@ -1715,17 +1010,12 @@
 		[
 			"Document",
 			"is child of",
-			"Paper"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
 			"Abstract"
+		],
+		[
+			"Document",
+			"presentationed by",
+			"Speaker"
 		],
 		[
 			"Abstract",
@@ -1733,9 +1023,19 @@
 			"Document"
 		],
 		[
-			"Paper",
-			"is parent of",
+			"Speaker",
+			"presentation",
 			"Document"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Speaker"
 		]
 	],
 	"sigkdd#Sponzor_fee": [
@@ -1756,33 +1056,18 @@
 		],
 		[
 			"Registration fee",
-			"payed by",
-			"Person"
-		],
-		[
-			"Registration fee",
 			"is parent of",
 			"Fee"
 		],
 		[
-			"Person",
-			"is parent of",
-			"Thing"
+			"Registration fee",
+			"is child of",
+			"Registration Non-Member"
 		],
 		[
-			"Person",
-			"pay",
+			"Registration Non-Member",
+			"is parent of",
 			"Registration fee"
-		],
-		[
-			"Person",
-			"can stay in",
-			"Hotel"
-		],
-		[
-			"Hotel",
-			"is parent of",
-			"Place"
 		]
 	],
 	"sigkdd#Registration_SIGKDD_Member": [
@@ -1793,18 +1078,13 @@
 		],
 		[
 			"Registration fee",
-			"payed by",
-			"Person"
-		],
-		[
-			"Registration fee",
 			"is parent of",
 			"Fee"
 		],
 		[
 			"Registration fee",
 			"is child of",
-			"Registration Student"
+			"Registration SIGKDD Member"
 		],
 		[
 			"Fee",
@@ -1817,69 +1097,9 @@
 			"Sponzor fee"
 		],
 		[
-			"Registration Student",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Listener"
-		],
-		[
-			"Person",
-			"is child of",
-			"Speaker"
-		],
-		[
 			"Sponzor fee",
 			"is parent of",
 			"Fee"
-		],
-		[
-			"Listener",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Speaker",
-			"presentation",
-			"Document"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Invited Speaker"
-		],
-		[
-			"Speaker",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Invited Speaker",
-			"is parent of",
-			"Speaker"
-		],
-		[
-			"Document",
-			"presentationed by",
-			"Speaker"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"submit until",
-			"Deadline"
 		]
 	],
 	"sigkdd#Program_Committee": [
@@ -1891,22 +1111,12 @@
 		[
 			"Committee",
 			"is child of",
-			"Organizing Committee"
-		],
-		[
-			"Committee",
-			"is child of",
 			"Program Committee"
 		],
 		[
 			"Committee",
 			"is child of",
-			"Best Paper Awards Committee"
-		],
-		[
-			"Best Paper Awards Committee",
-			"is parent of",
-			"Committee"
+			"Organizing Committee"
 		],
 		[
 			"Organizing Committee",
@@ -1922,85 +1132,13 @@
 		],
 		[
 			"Organizator",
-			"is child of",
-			"Program Committee member"
-		],
-		[
-			"Organizator",
 			"is parent of",
 			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
 		],
 		[
 			"Person",
 			"pay",
 			"Registration fee"
-		],
-		[
-			"Person",
-			"is child of",
-			"Organizator"
-		],
-		[
-			"Program Committee member",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGMOD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
-		],
-		[
-			"Registration fee",
-			"is parent of",
-			"Fee"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Registration fee"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Sponzor fee"
-		],
-		[
-			"Registration SIGKDD Member",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGMOD Member",
-			"is parent of",
-			"Registration fee"
-		]
-	],
-	"sigkdd#Speaker": [
-		[
-			"Speaker",
-			"is child of",
-			"Author"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Invited Speaker"
-		],
-		[
-			"Speaker",
-			"is parent of",
-			"Person"
 		],
 		[
 			"Person",
@@ -2008,148 +1146,9 @@
 			"Listener"
 		],
 		[
-			"Person",
-			"can stay in",
-			"Place"
-		],
-		[
-			"Person",
-			"can stay in",
-			"Hotel"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper student"
-		],
-		[
-			"Author",
-			"is child of",
-			"Author of paper"
-		],
-		[
-			"Invited Speaker",
-			"is parent of",
-			"Speaker"
-		],
-		[
 			"Listener",
 			"is parent of",
 			"Person"
-		],
-		[
-			"Hotel",
-			"is parent of",
-			"Place"
-		],
-		[
-			"Place",
-			"is child of",
-			"Main office"
-		],
-		[
-			"Place",
-			"is child of",
-			"Hotel"
-		],
-		[
-			"Place",
-			"is child of",
-			"Conference hall"
-		],
-		[
-			"Author of paper student",
-			"award",
-			"Best Student Paper Award"
-		],
-		[
-			"Author of paper student",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author of paper",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Conference hall",
-			"is parent of",
-			"Place"
-		],
-		[
-			"Main office",
-			"is parent of",
-			"Place"
-		],
-		[
-			"Best Student Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Research Paper Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Applications Paper Award"
-		],
-		[
-			"Award",
-			"awarded by",
-			"Organizator"
-		]
-	],
-	"sigkdd#Gold_Supporter": [
-		[
-			"Gold Supporter",
-			"is parent of",
-			"Sponzor"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Platinum Supporter"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Best Student Paper Supporter"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Silver Supporter"
-		],
-		[
-			"Best Student Paper Supporter",
-			"is parent of",
-			"Sponzor"
-		],
-		[
-			"Silver Supporter",
-			"is parent of",
-			"Sponzor"
-		],
-		[
-			"Platinum Supporter",
-			"is parent of",
-			"Sponzor"
-		]
-	],
-	"sigkdd#Registration_Student": [
-		[
-			"Registration Student",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGKDD Member"
 		],
 		[
 			"Registration fee",
@@ -2159,134 +1158,10 @@
 		[
 			"Registration fee",
 			"is child of",
-			"Registration Student"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Registration fee"
-		],
-		[
-			"Fee",
-			"is child of",
-			"Sponzor fee"
-		],
-		[
-			"Registration SIGKDD Member",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Sponzor fee",
-			"is parent of",
-			"Fee"
-		]
-	],
-	"sigkdd#Organizing_Committee": [
-		[
-			"Organizing Committee",
-			"is parent of",
-			"Committee"
-		],
-		[
-			"Committee",
-			"is child of",
-			"Organizing Committee"
-		],
-		[
-			"Committee",
-			"is child of",
-			"Program Committee"
-		],
-		[
-			"Committee",
-			"is child of",
-			"Best Paper Awards Committee"
-		],
-		[
-			"Best Paper Awards Committee",
-			"is parent of",
-			"Committee"
-		],
-		[
-			"Program Committee",
-			"is parent of",
-			"Committee"
-		]
-	],
-	"sigkdd#Listener": [
-		[
-			"Listener",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"pay",
-			"Registration fee"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGMOD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
 			"Registration SIGKDD Member"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration Student"
-		],
-		[
-			"Registration Student",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGMOD Member",
-			"is parent of",
-			"Registration fee"
-		],
-		[
-			"Registration SIGKDD Member",
-			"is parent of",
-			"Registration fee"
 		]
 	],
-	"sigkdd#Program_Committee_member": [
-		[
-			"Program Committee member",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Program Committee member"
-		],
-		[
-			"Organizator",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Speaker"
-		],
+	"sigkdd#Speaker": [
 		[
 			"Speaker",
 			"presentation",
@@ -2298,85 +1173,6 @@
 			"Person"
 		],
 		[
-			"Document",
-			"presentationed by",
-			"Speaker"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Document",
-			"submit until",
-			"Deadline"
-		]
-	],
-	"sigkdd#Invited_Speaker": [
-		[
-			"Invited Speaker",
-			"is parent of",
-			"Speaker"
-		],
-		[
-			"Speaker",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Listener"
-		],
-		[
-			"Person",
-			"is child of",
-			"Speaker"
-		],
-		[
-			"Listener",
-			"is parent of",
-			"Person"
-		]
-	],
-	"sigkdd#Best_Research_Paper_Award": [
-		[
-			"Best Research Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Applications Paper Award"
-		],
-		[
-			"Award",
-			"awarded by",
-			"Organizator"
-		],
-		[
-			"Best Applications Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Webmaster"
-		],
-		[
-			"Organizator",
-			"is parent of",
-			"Person"
-		],
-		[
 			"Person",
 			"is parent of",
 			"Thing"
@@ -2384,22 +1180,32 @@
 		[
 			"Person",
 			"can stay in",
+			"Hotel"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Hotel",
+			"is parent of",
 			"Place"
 		],
 		[
-			"Person",
-			"is child of",
-			"Organizator"
-		],
-		[
-			"Webmaster",
+			"Review",
 			"is parent of",
-			"Organizator"
+			"Document"
 		],
 		[
-			"Place",
-			"is child of",
-			"Main office"
+			"Abstract",
+			"is parent of",
+			"Document"
 		],
 		[
 			"Place",
@@ -2409,12 +1215,12 @@
 		[
 			"Place",
 			"is child of",
-			"Conference hall"
+			"Main office"
 		]
 	],
-	"sigkdd#Best_Student_Paper_Supporter": [
+	"sigkdd#Gold_Supporter": [
 		[
-			"Best Student Paper Supporter",
+			"Gold Supporter",
 			"is parent of",
 			"Sponzor"
 		],
@@ -2427,16 +1233,6 @@
 			"Sponzor",
 			"is child of",
 			"Exhibitor"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Silver Supporter"
-		],
-		[
-			"Silver Supporter",
-			"is parent of",
-			"Sponzor"
 		],
 		[
 			"Exhibitor",
@@ -2457,6 +1253,67 @@
 			"Fee",
 			"is child of",
 			"Sponzor fee"
+		]
+	],
+	"sigkdd#Registration_Student": [
+		[
+			"Registration Student",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"payed by",
+			"Person"
+		],
+		[
+			"Registration fee",
+			"is child of",
+			"Registration Student"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Organizing_Committee": [
+		[
+			"Organizing Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Program Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Organizing Committee"
+		],
+		[
+			"Program Committee",
+			"is parent of",
+			"Committee"
+		]
+	],
+	"sigkdd#Listener": [
+		[
+			"Listener",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"pay",
+			"Registration fee"
+		],
+		[
+			"Person",
+			"is child of",
+			"Listener"
 		],
 		[
 			"Registration fee",
@@ -2467,140 +1324,6 @@
 			"Registration fee",
 			"is child of",
 			"Registration Student"
-		]
-	],
-	"sigkdd#Paper": [
-		[
-			"Paper",
-			"submit until",
-			"Deadline Paper Submission"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Abstract"
-		],
-		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Abstract",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Deadline",
-			"designed by",
-			"ACM SIGKDD"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"search",
-			"Sponzor"
-		],
-		[
-			"ACM SIGKDD",
-			"hold",
-			"Conference"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Gold Supporter"
-		],
-		[
-			"Sponzor",
-			"searched by",
-			"ACM SIGKDD"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Exhibitor"
-		],
-		[
-			"Conference",
-			"holded by",
-			"ACM SIGKDD"
-		]
-	],
-	"sigkdd#Silver_Supporter": [
-		[
-			"Silver Supporter",
-			"is parent of",
-			"Sponzor"
-		],
-		[
-			"Sponzor",
-			"pay",
-			"Sponzor fee"
-		],
-		[
-			"Sponzor",
-			"is child of",
-			"Best Student Paper Supporter"
-		],
-		[
-			"Sponzor",
-			"searched by",
-			"ACM SIGKDD"
-		],
-		[
-			"Best Student Paper Supporter",
-			"is parent of",
-			"Sponzor"
-		],
-		[
-			"Sponzor fee",
-			"is parent of",
-			"Fee"
-		],
-		[
-			"ACM SIGKDD",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"ACM SIGKDD",
-			"hold",
-			"Conference"
 		],
 		[
 			"Fee",
@@ -2613,24 +1336,171 @@
 			"Sponzor fee"
 		],
 		[
-			"Conference",
-			"holded by",
+			"Registration Student",
+			"is parent of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Program_Committee_member": [
+		[
+			"Program Committee member",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Webmaster"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Program Committee member"
+		],
+		[
+			"Webmaster",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Invited_Speaker": [
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Speaker",
+			"presentation",
+			"Document"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		]
+	],
+	"sigkdd#Best_Research_Paper_Award": [
+		[
+			"Best Research Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Applications Paper Award"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Research Paper Award"
+		],
+		[
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
+		]
+	],
+	"sigkdd#Best_Student_Paper_Supporter": [
+		[
+			"Best Student Paper Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Bronze Supporter"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Best Student Paper Supporter"
+		],
+		[
+			"Bronze Supporter",
+			"is parent of",
+			"Sponzor"
+		]
+	],
+	"sigkdd#Paper": [
+		[
+			"Paper",
+			"submit until",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Author notification"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline Abstract Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Silver_Supporter": [
+		[
+			"Silver Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Platinum Supporter"
+		],
+		[
+			"Sponzor",
+			"searched by",
 			"ACM SIGKDD"
 		],
 		[
-			"Registration fee",
-			"payed by",
-			"Person"
-		],
-		[
-			"Registration fee",
-			"is child of",
-			"Registration SIGMOD Member"
-		],
-		[
-			"Registration fee",
+			"Platinum Supporter",
 			"is parent of",
-			"Fee"
+			"Sponzor"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
 		]
 	],
 	"sigkdd#Organizing_Committee_member": [
@@ -2648,28 +1518,38 @@
 			"Person",
 			"is parent of",
 			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Listener"
+		],
+		[
+			"Listener",
+			"is parent of",
+			"Person"
 		]
 	],
 	"sigkdd#Author_of_paper": [
-		[
-			"Author of paper",
-			"award",
-			"Best Research Paper Award"
-		],
 		[
 			"Author of paper",
 			"is parent of",
 			"Author"
 		],
 		[
-			"Author",
-			"is parent of",
-			"Speaker"
+			"Author of paper",
+			"award",
+			"Best Research Paper Award"
 		],
 		[
 			"Author",
-			"notification until",
-			"Deadline Author notification"
+			"is child of",
+			"Author of paper"
+		],
+		[
+			"Author",
+			"obtain",
+			"Award"
 		],
 		[
 			"Best Research Paper Award",
@@ -2677,74 +1557,14 @@
 			"Award"
 		],
 		[
-			"Speaker",
-			"is child of",
-			"Author"
-		],
-		[
-			"Speaker",
-			"is child of",
-			"Invited Speaker"
-		],
-		[
-			"Deadline Author notification",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Applications Paper Award"
-		],
-		[
-			"Award",
-			"is child of",
-			"Best Student Paper Award"
-		],
-		[
 			"Award",
 			"awarded by",
 			"Organizator"
 		],
 		[
-			"Invited Speaker",
-			"is parent of",
-			"Speaker"
-		],
-		[
-			"Deadline",
+			"Award",
 			"is child of",
-			"Deadline Paper Submission"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Author notification"
-		],
-		[
-			"Deadline",
-			"is child of",
-			"Deadline Abstract Submission"
-		],
-		[
-			"Best Applications Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Best Student Paper Award",
-			"is parent of",
-			"Award"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Webmaster"
-		],
-		[
-			"Organizator",
-			"is child of",
-			"Program Committee member"
+			"Best Research Paper Award"
 		],
 		[
 			"Organizator",
@@ -2752,39 +1572,9 @@
 			"Person"
 		],
 		[
-			"Deadline Abstract Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Deadline Paper Submission",
-			"is parent of",
-			"Deadline"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"can stay in",
-			"Place"
-		],
-		[
-			"Person",
+			"Organizator",
 			"is child of",
-			"Speaker"
-		],
-		[
-			"Program Committee member",
-			"is parent of",
-			"Organizator"
-		],
-		[
-			"Webmaster",
-			"is parent of",
-			"Organizator"
+			"Program Committee member"
 		]
 	]
 }

@@ -34,7 +34,7 @@ def resetConfigODS(configODSPath):
                  'exportAlignmentsToJson' : False,
                  'runRandomWalkAlgorithm' : True,
                  'runRandomTreeAlgorithm' : True,
-                 'randomTreeConfig' : {'breadth' : 3, 'path_depth' : 4, 'parent_prob' : 40, 'child_prob' : 40, 'object_prob' : 20},
+                 'randomTreeConfig' : {'breadth' : 2, 'path_depth' : 3, 'parent_prob' : 28, 'child_prob' : 28, 'equivalent_prob' : 28, 'object_prob' : 16},
                  'exportRandomWalkTriples' : True,
                  'exportRandomTreeTriples' : True,
                  'exportWalkPromptsToJson': True,
