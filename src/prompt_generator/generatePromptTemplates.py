@@ -46,7 +46,7 @@ calls the generate prompt function for required prompt version
 
 Parameters:
 alignmentPath (str): the path to the alignment file
-contextPath (str): the path to the context file
+contextPaths (str) or ([str]): the path to the context file or a list of paths to context files
 promptVersion (int): version of prompt to be generated
 promptCounter (int): 
                     < 0     => generate all prompts as dict with {key1-key2 : prompt}
@@ -58,9 +58,14 @@ skipIfNoContext (bool):
 Returns: 
 prompt (str) or list of prompts ([str])
 """
-def getPrompt(alignmentPath, contextPath, promptVersion = 0, promptCounter = -1, skipIfNoContext = True):
+def getPrompt(alignmentPath, contextPaths, promptVersion = 0, promptCounter = -1, skipIfNoContext = True):
     triples = importAlignments(alignmentPath)
-    context = formatContext(importContext(contextPath))
+    context = {}
+    if type(contextPaths) == type([]):
+        for contextPath in contextPaths:
+            context.update(formatContext(importContext(contextPath)))
+    else: 
+        context = formatContext(importContext(contextPaths))
     #choose correct function for promptVersion
     if promptVersion == 0:
         generatePrompt = lambda triples, context, promptCounter : prompt0(triples, context, promptCounter)

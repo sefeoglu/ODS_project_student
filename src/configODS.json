@@ -15,9 +15,9 @@
 	},
 	"exportRandomTreeTriples": false,
 	"exportRandomWalkTriples": false,
-	"verbalizeAvailableTriples": true,
-	"exportWalkPromptsToJson": false,
-	"exportTreePromptsToJson": false,
+	"verbalizeAvailableTriples": false,
+	"exportWalkPromptsToJson": true,
+	"exportTreePromptsToJson": true,
 	"promptsFoExportToJson": [
 		0,
 		1,
