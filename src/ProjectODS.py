@@ -7,6 +7,7 @@ from batch_loaders.random_walk import *
 import sys
 sys.path.append('./verbalizer/Prompt_generator2/')
 from verbalizer.Prompt_generator2 import generatePrompt
+from maximum_bipartite_matching import generateMaximumBipartiteMatching
 
 """
 runs functions according to the tasks in configODS
@@ -144,5 +145,44 @@ def main():
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
+    if configODS.get('generateMaximumBipartiteMatching'):
+        for dir_path in os.listdir(configODS.get('llmMatchedPath')):
+            #print(f"processing '{file_path}'")
+            for file_path in os.listdir(configODS.get('llmMatchedPath') + dir_path):
+                if file_path.endswith('.json'):
+                    llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
+                    bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
+                    if not os.path.exists(bipartiteMatchingPath):
+                        os.mkdir(bipartiteMatchingPath + '/')
+                    bipartiteMatchingPath += '/bipartite_' + file_path
+                    verticesL = set()
+                    verticesR = set()
+                    edges = {}
+                    llmMatchedClasses = utils.load_json(llmMatchedFilePath)
+                    for key in llmMatchedClasses.keys():
+                        if llmMatchedClasses.get(key):
+                            onto1HASHclass1, onto2HASHclass2 = key.split(';')
+                            onto1, class1 = onto1HASHclass1.split('#')
+                            onto2, class2 = onto2HASHclass2.split('#')
+                            verticesL.add(class1)
+                            verticesR.add(class2)
+                            if not edges.get(class1):
+                                edges[class1] = []
+                            edges[class1].append(class2)
+                    matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                    utils.saveToJson(matching, bipartiteMatchingPath)
+
+
 
 main()
+
+#for preparing fake llmMatched file
+# configODS = configODSImport.getConfigODS()
+# path = configODS.get('llmMatchedPath')
+# path += 'cmt-conference.json'
+# print(path)
+# data = utils.importFromJson(path)
+# r = {}
+# for key in data.keys():
+#     r[key] = True if random.randint(0, 1) == 1 else False
+# utils.saveToJson(r, path)
