@@ -5,7 +5,7 @@
 	"exportAlignmentsToJson": false,
 	"exportRandomWalkTriples": false,
 	"exportRandomTreeTriples": false,
-	"exportWalkPromptsToJson": false,
+	"exportWalkPromptsToJson": true,
 	"exportTreePromptsToJson": true,
 	"promptsFoExportToJson": [
 		0,

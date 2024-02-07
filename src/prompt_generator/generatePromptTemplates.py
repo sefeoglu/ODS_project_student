@@ -156,9 +156,6 @@ def extract(triples, context, promptCounter):
     cont2 = context.get(key2)
     return key1, key2, cont1, cont2, onto1, onto2, node1, node2
 
-#saves prompts in a list to a json file
-def savePromptToJson(promptList, json_path):
-    utils.saveToJson(promptList, json_path)
 
 
 #p = getPrompt("../../results/result_alignments/conference/alignments.json", "../../results/result_triples/triples_randomTree_verbalized_out.json")

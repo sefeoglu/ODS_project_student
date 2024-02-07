@@ -87,19 +87,16 @@ def main():
             for file_path in os.listdir(configODS.get('alignmentPath')):
                 print(f"processing '{file_path}'")
                 if file_path.endswith('.json'):
-                    
-                    path = configODS.get('alignmentPath') + file_path
+                    alignmentFilePath = configODS.get('alignmentPath') + file_path
                     if configODS.get('exportWalkPromptsToJson'):
                         if not os.path.exists(configODS.get('promptsPath') + f"walkPromptVersion{i}/"):
                             os.mkdir(configODS.get('promptsPath') + f"walkPromptVersion{i}/")
-                        promptList = generatePromptTemplates.getPrompt(path, configODS.get('verbalizedWalkTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
-                        generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+file_path)
-                        print(f"exported 'walkPromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
+                        promptList = generatePromptTemplates.getPrompt(alignmentFilePath, configODS.get('verbalizedWalkTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                        utils.saveToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+ file_path, f"exported 'walkPromptVersion{i}' with alignments '{alignmentFilePath} and context '{configODS.get('verbalizedWalkTriplesPath')}' to")
                     if configODS.get('exportTreePromptsToJson'):
                         if not os.path.exists(configODS.get('promptsPath') + f"treePromptVersion{i}/"):
                             os.mkdir(configODS.get('promptsPath') + f"treePromptVersion{i}/")
-                        promptList = generatePromptTemplates.getPrompt(path, configODS.get('verbalizedTreeTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
-                        generatePromptTemplates.savePromptToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/"+file_path)
-                        print(f"exported 'treePromptVersion{i}.json' with alignments '{configODS.get('alignmentPath')} and context '{configODS.get('verbalizedWalkTriplesPath')}' to '{configODS.get('promptsPath')}'")
+                        promptList = generatePromptTemplates.getPrompt(alignmentFilePath, configODS.get('verbalizedTreeTriplesPath'), promptVersion = i, promptCounter = -1, skipIfNoContext = True)
+                        utils.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/"+ file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{configODS.get('verbalizedTreeTriplesPath')}' to")
                 
 main()
