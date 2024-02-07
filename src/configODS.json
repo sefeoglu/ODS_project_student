@@ -19,7 +19,7 @@
 	"exportWalkPromptsToJson": false,
 	"exportTreePromptsToJson": false,
 	"runPromptsOnLLM": true,
-	"generateMaximumBipartiteMatching": false,
+	"generateMaximumBipartiteMatching": true,
 	"promptsFoExportToJson": [
 		0,
 		1,
