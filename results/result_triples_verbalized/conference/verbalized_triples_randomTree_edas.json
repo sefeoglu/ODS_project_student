@@ -1,0 +1,302 @@
+[
+    {
+        "edas#SlideSet": "The SlideSet is the parent of the Document which is a part of the Conference. The Conference is equivalent to TwoLevelConference and is the parent of the Document which is a part of the Conference. The Document is also the parent of the Document which is a part of the Conference."
+    },
+    {
+        "edas#Review": "Reviewer is the parent of the Attendee who is the child of the Attendee. The document relates to the Conference Session and the Document has a related document."
+    },
+    {
+        "edas#Programme": "Review is the parent of Document which is a child of the Programme and the Document."
+    },
+    {
+        "edas#Paper": "SessionChair is the parent of Paper which is reviewed by the SessionChair. The document is related to the ConferenceSession and is parented by a person who is the equivalent of a Reviewer."
+    },
+    {
+        "edas#MealMenu": "MealMenu is a document that is parented by the attendee of the ConferenceEvent which is held at the same location as the AcademicEvent. The Attendee is the equivalent of a Reviewer and is the parent of the document which is related to the person attending the ConferenceEvent."
+    },
+    {
+        "edas#Document": "Review and MealMenu are both children of the same document."
+    },
+    {
+        "edas#Topic": "The SatelliteAndSpaceCommunicationsTopic is the parent of the Conference which is equivalent to the SingleLevelConference and the TwoLevelConference."
+    },
+    {
+        "edas#ConferenceEvent": "ConferenceEvent is the parent of TalkEvent and ConferenceEvent. Both ConferenceEvent and AcademicEvent are children of ConferenceEvent."
+    },
+    {
+        "edas#Call": "CallForPapers and CallForManuscripts are both children of CallForManuscripts."
+    },
+    {
+        "edas#ReviewRating": "ReviewRating is equivalent to AcceptRating and is a child of WeekRejectRating."
+    },
+    {
+        "edas#Organization": "TravelGrant is a sponsor of the NGO isProviderOf."
+    },
+    {
+        "edas#Conference": "Conference is the parent of Thing."
+    },
+    {
+        "edas#PersonalHistory": "PersonalHistory is a child of PersonalPublicationHistory and PersonalReviewHistory."
+    },
+    {
+        "edas#Sponsorship": "TravelGrant is the parent of the Sponsorship which is provided by the organization isProviderOf."
+    },
+    {
+        "edas#ReviewQuestion": "ReviewQuestion is a child of TextualReviewQuestion and NumericalReviewQuestion."
+    },
+    {
+        "edas#Person": "The ConferenceEvent is the parent of the PaperPresentation and the Review document. It is also the child of MealMenu and ConferenceEvent has a related document. It is also the child of ConferenceEvent which is the parent of the ConferenceEvent."
+    },
+    {
+        "edas#ConferenceSession": "The ConferenceSession hasRelatedDocument which is related to the Conference. The Document is related to the Conference which is parented by PaperPresentation and AcceptedPaper."
+    },
+    {
+        "edas#Place": "The ConferenceEvent is the child of the AcademicEvent. It has a related document called the CallForReviews. The Call is initiated by the SessionChair and the Attendee is a person who is equivalent to the Author."
+    },
+    {
+        "edas#WeekRejectRating": "ReviewRating is the parent of ReviewRating which is the equivalent of AccpetIfRoomRating. It is also the child of RejectRating which is the parent of ReviewRating."
+    },
+    {
+        "edas#AcceptRating": "ReviewRating is the parent of AcceptRating which is equivalent to RejectRating and WeekRejectRating."
+    },
+    {
+        "edas#AccpetIfRoomRating": "AccpetIfRoomRating is the parent of ReviewRating which is equivalent to AcceptRating and RejectRating."
+    },
+    {
+        "edas#RejectRating": "RejectRating is the parent of ReviewRating and is the child of RejectRating."
+    },
+    {
+        "edas#MealEvent": "MealMenu is a food found in the event. It is also the parent of ConferenceEvent and SocialEvent. The event is also the parent of the ActivePaper and ConferenceEvent. MealMenu is also a food found in the event."
+    },
+    {
+        "edas#NonAcademicEvent": "The NonAcademicEvent is the parent of the ConferenceEvent which is located at the AccommodationPlace. The ConferenceEvent is also the parent of the ConferenceEvent."
+    },
+    {
+        "edas#BreakEvent": "BreakEvent is the parent of both ConferenceDinner and SocialEvent. BreakEvent is also the child of CoffeeBreak which is an alternative to BreakEvent. MealEvent is also the child of ConferenceDinner and Reception."
+    },
+    {
+        "edas#ParallelAndDistributedComputingTopic": "The conference hasCountry as a Thing and is the equivalent of TwoLevelConference. It is the parent of the Conference's isTopicOf and is the parent of ParallelAndDistributedComputingTopic."
+    },
+    {
+        "edas#WirelessCommunicationsTopic": "WirelessCommunicationsTopic is parented to CommunicationTheoryTopic and PerformanceTopic."
+    },
+    {
+        "edas#OperatingTopicsystems": "The operating system is the parent of the topic isTopicOf which is the paper that is reviewed by the reviewer. The paper is also the parent of MealMenu and is a part of the Conference Session. The Conference is equivalent to TwoLevelConference and registration is due on the day."
+    },
+    {
+        "edas#ComputerNetworksTopic": "The ComputerNetworksTopic is the parent of the ComputerArchitectureTopic which is the child of CADTopic."
+    },
+    {
+        "edas#SatelliteAndSpaceCommunicationsTopic": "The SatelliteAndSpaceCommunicationsTopic is parented to the RadioCommunicationsTopic. The Conference is equivalent to a SingleLevelConference and has members. The ConferenceChair and the TPCMember are both children of the Conference."
+    },
+    {
+        "edas#CADTopic": "CADTopic is the parent of CADTopic which is a child of SecurityTopic and Document. The document relates to a person and is a child of SlideSet."
+    },
+    {
+        "edas#MultimediaTopic": "CADTopic is the parent of CADTopic and OperatingTopicsystems. It is also the parent of MultimediaTopic."
+    },
+    {
+        "edas#CommunicationsTopic": "AntennasTopic is a child of WirelessCommunicationsTopic and CommunicationsTopic."
+    },
+    {
+        "edas#PowerlineTransmissionTopic": "PowerlineTransmissionTopic is parented to CommunicationTheoryTopic and OperatingTopicsystems."
+    },
+    {
+        "edas#AntennasTopic": "AntennasTopic is the parent of Paper which is the parent of TestOnlyTopic. Paper is the parent of Document which is related to the Conference Session. Paper is also the parent of Document which is related to the Conference Session."
+    },
+    {
+        "edas#PerformanceTopic": "PerformanceTopic is the parent of Paper which is the child of OperatingTopicsystems. AcceptedPaper and AcceptedPaper are both children of Paper."
+    },
+    {
+        "edas#SignalProcessingTopic": "The SignalProcessingTopic is the parent of the MultimediaTopic, which is also the parent of the Document, which is a child of the SlideSet and relates to a person."
+    },
+    {
+        "edas#MicroelectronicsTopic": "MicroelectronicsTopic is the parent of MicroelectronicsTopic and is the child of Conference which is equivalent to TwoLevelConference."
+    },
+    {
+        "edas#TestOnlyTopic": "TestOnlyTopic is the parent of the Conference which is equivalent to a SingleLevelConference. It is also the parent of the CommunicationTheoryTopic which is the parent of the Conference."
+    },
+    {
+        "edas#RadioCommunicationsTopic": "The RadioCommunicationsTopic is the parent of the Paper which is a part of the conference. It is also the parent of the PendingPaper which is part of the SlideSet. The Paper is also the parent of the ParallelAndDistributedComputingTopic which is a part of the conference."
+    },
+    {
+        "edas#ComputerArchitectureTopic": "AntennasTopic is a child of TestOnlyTopic and ComputerArchitectureTopic."
+    },
+    {
+        "edas#MedicineTopic": "The MedicineTopic is the parent of the Paper which is a part of the Conference. It is also the parent of the Document which is a part of the ConferenceSession. The Paper is also the parent of the Review document which is also part of the Conference."
+    },
+    {
+        "edas#SecurityTopic": "The SecurityTopic is the parent of the AntennasTopic and the CommunicationTheoryTopic."
+    },
+    {
+        "edas#MobileComputingTopic": "The MobileComputingTopic is the parent of the MultimediaTopic and the SatelliteAndSpaceCommunicationsTopic."
+    },
+    {
+        "edas#CryptographyTopic": "The CryptographyTopic is the parent of the Conference which has the name Thing. It is also the parent of OperatingTopicsystems which is the parent of the Conference."
+    },
+    {
+        "edas#CommunicationTheoryTopic": "The CommunicationTheoryTopic is parented by the CryptographyTopic and the MedicineTopic."
+    },
+    {
+        "edas#ConferenceChair": "The ConferenceChair is the parent of TPCMember who initiates the Call for Manuscripts. They are the child of the CallForReviews and the Paper which is the child of the CallForReviews. The Paper is the child of the CallForReviews and the ConferenceChair is the child of the CallForManuscripts."
+    },
+    {
+        "edas#Author": "SessionChair is the parent of both the presenter and the attendee of the ConferenceEvent. The CallForManuscripts and CallForReviews are both called by the SessionChair. The CallForReviews and the ConferenceEvent are also called by the SessionChair."
+    },
+    {
+        "edas#DiningPlace": "AccommodationPlace is the parent of DiningPlace which is the child of DiningPlace."
+    },
+    {
+        "edas#Presenter": "The Author of AcceptedPaper is the parent of the Presenter and the SlideSet. Paper is the parent of Document which is part of the SlideSet and related to an event. Paper is the parent of AcceptedPaper and related to an event."
+    },
+    {
+        "edas#AcademiaOrganization": "The AcademiaOrganization is parented by the TravelGrant organization which is the parent of the Sponsorship. The organization is the parent of the IndustryOrganization which is the parent of the Sponsorship which is provided by TravelGrant."
+    },
+    {
+        "edas#IndustryOrganization": "The parent organization of IndustryOrganization is the GovernmentOrganization which is the parent organization of TravelGrant which is the parent organization of Sponsorship."
+    },
+    {
+        "edas#NGO": "The parent organization of AcademiaOrganization is TravelGrant which is the parent organization of the organization. AcademiaOrganization is the parent organization of TravelGrant which is the parent organization of Sponsorship."
+    },
+    {
+        "edas#GovernmentOrganization": "GovernmentOrganization is parented by the Organization which is the child of IndustryOrganization. The Organization is the Provider of Sponsorship which is provided by the Organization."
+    },
+    {
+        "edas#ComputerNetworksEnterpriseTopic": "The ComputerNetworksEnterpriseTopic is the parent of the ComputerNetworksTopic which is also the parent of the Paper which is the child of PublishedPaper and AcceptedPaper. OperatingTopicsystems is the parent of the Paper."
+    },
+    {
+        "edas#ComputerNetworksSwitchingTopic": "The ComputerNetworksSwitchingTopic is the parent of the ComputerNetworksMeasurementsTopic which is the topic of the Conference. The Conference is the parent of the SatelliteAndSpaceCommunicationsTopic and the Thing."
+    },
+    {
+        "edas#ComputerNetworksSensorTopic": "ComputerNetworksSecurityTopic is the parent of ComputerNetworksSensorTopic."
+    },
+    {
+        "edas#ComputerNetworksSecurityTopic": "The ComputerNetworksSecurityTopic is the parent of the ComputerNetworksManagementTopic which is also the parent of the CryptographyTopic which is also the parent of the Document."
+    },
+    {
+        "edas#ComputerNetworksOpticalTopic": "The ComputerNetworksOpticalTopic is the parent of the ComputerNetworksSensorTopic which is also the parent of the MobileComputingTopic. The Conference is equivalent to a SingleLevelConference and has a member."
+    },
+    {
+        "edas#ComputerNetworksMeasurementsTopic": "The ComputerNetworksMeasurementsTopic is the parent of the ComputerNetworksEnterpriseTopic. It is also the parent of the Paper which is a child of the PendingPaper and the TestOnlyTopic."
+    },
+    {
+        "edas#ComputerNetworksManagementTopic": "The ComputerNetworksManagementTopic is the parent of the ComputerNetworksManagementTopic. It is also the parent of the RadioCommunicationsTopic which is the topic of the Conference. The Conference is equivalent to TwoLevelConference."
+    },
+    {
+        "edas#ComputerNetworksAapplicationsTopic": "ComputerNetworksAapplicationsTopic is the parent of ComputerNetworksSwitchingTopic and ComputerNetworksSensorTopic."
+    },
+    {
+        "edas#ActivePaper": "RatedPaper is the parent of Paper which is part of the MultimediaTopic. It is also the parent of the Paper which is part of the MultimediaTopic. It has a ReviewRating which is equivalent to RejectRating and AccpetIfRoomRating."
+    },
+    {
+        "edas#PendingPaper": "AcceptedPaper is the parent of both Paper and AcademicEvent. Paper is the parent of both ConferenceSession and MealMenu."
+    },
+    {
+        "edas#WithdrawnPaper": "Paper is the parent of AcceptedPaper which is also the parent of SlideSet. Paper is also the parent of Document which is related to the Conference. The Conference is equivalent to TwoLevelConference and is the parent of AcceptedPaper which is also the parent of AcceptedPaper."
+    },
+    {
+        "edas#RejectedPaper": "WithdrawnPaper is a child of MealMenu and MealMenu. It is also the parent of MealMenu."
+    },
+    {
+        "edas#AcceptedPaper": "Paper is the parent of AcademicEvent and PaperPresentation. MealMenu is a food that is served at the Conference Session. PowerlineTransmission and TestOnly are both topics in PaperPresentation. TalkEvent and MealMenu are also topics in PaperPresentation."
+    },
+    {
+        "edas#PublishedPaper": "MealMenu is a document that is part of the ConferenceEvent programme. It is also part of the Document which is parented by Paper which has the topic of CommunicationTheoryTopic."
+    },
+    {
+        "edas#Attendee": "The Attendee is the parent of the person who is the author of the document which is related to the AcademicEvent. The AcademicEvent is a child of OrganizationalMeeting and TalkEvent."
+    },
+    {
+        "edas#CoffeeBreak": "BreakEvent is the parent of CoffeeBreak which is the equivalent of MealBreak and FreeTimeBreak."
+    },
+    {
+        "edas#FreeTimeBreak": "BreakEvent is the parent of BreakEvent and CoffeeBreak. CoffeeBreak is also the parent of BreakEvent."
+    },
+    {
+        "edas#MealBreak": "MealBreak is equivalent to BreakEvent."
+    },
+    {
+        "edas#Reviewer": "Reviewer is the equivalent of a person who is a reviewer. Paper is the parent of Document which is part of a conference. It is also part of a conference which has the name Thing. Paper is the topic of the conference."
+    },
+    {
+        "edas#ClosingTalk": "ClosingTalk is the parent of TalkEvent and ConferenceEvent. PaperPresentation is related to PaperPresentation and ConferenceEvent is the parent of ConferenceEvent."
+    },
+    {
+        "edas#WelcomeTalk": "WelcomeTalk is the parent of TalkEvent and ConferenceEvent. PaperPresentation is a part of ConferenceEvent and PaperPresentation is a part of ConferenceEvent."
+    },
+    {
+        "edas#TalkEvent": "CallForManuscripts and CallForPapers are both children of CallForManuscripts. Both CallForManuscripts and TalkEvent are parented by AcademicEvent and PaperPresentation."
+    },
+    {
+        "edas#SessionChair": "The ConferenceChair is the parent of the attendee and is the parent of Thing. The Conference is equivalent to a SingleLevelConference and the PaperPresentation is related to the Conference. The PaperPresentation is also related to the Conference. The CallForPapers is the parent of the Conference and is the initiator of the Call."
+    },
+    {
+        "edas#TPCMember": "TPCMember is the parent of the attendee at the ConferenceEvent. Paper is the child of AcademicEvent and TalkEvent. It is also the child of SlideSet and RejectedPaper."
+    },
+    {
+        "edas#TwoLevelConference": "TwoLevelConference is equivalent to Conference."
+    },
+    {
+        "edas#CallForPapers": "CallForPapers is the parent of both CallForReviews and CallForManuscripts."
+    },
+    {
+        "edas#TextualReviewQuestion": "ReviewQuestion is a child of TextualReviewQuestion and NumericalReviewQuestion."
+    },
+    {
+        "edas#NumericalReviewQuestion": "ReviewQuestion is the parent of NumericalReviewQuestion and TextualReviewQuestion."
+    },
+    {
+        "edas#OrganizationalMeeting": "OrganizationalMeeting is parent of AcademicEvent which is the child of PaperPresentation and Workshop."
+    },
+    {
+        "edas#PaperPresentation": "PaperPresentation and ConferenceEvent are parented by AcademicEvent. ConferenceEvent has an Attendee and a Reviewer is an Author."
+    },
+    {
+        "edas#Workshop": "The Workshop is parented by the AcademicEvent and the ConferenceEvent. The ConferenceChair and the Author are both children of the MeetingRoomPlace."
+    },
+    {
+        "edas#AcademicEvent": "AcademicEvent is the parent of ConferenceEvent and Workshop. It is also the parent of NonAcademicEvent and ConferenceEvent."
+    },
+    {
+        "edas#PersonalPublicationHistory": "PersonalHistory is the parent of PersonalPublicationHistory and PersonalReviewHistory."
+    },
+    {
+        "edas#Excursion": "Excursion is parented by SocialEvent and ConferenceEvent. ConferenceEvent is a child of NonAcademicEvent."
+    },
+    {
+        "edas#SocialEvent": "SocialEvent is the parent of ConferenceEvent and ConferenceDinner. ConferenceEvent is the parent of ConferenceDinner and ConferenceEvent is the parent of MealEvent. MealMenu is a MealMenu which is a MealMenu."
+    },
+    {
+        "edas#CallForReviews": "CallForReviews and CallForManuscripts are both children of Call."
+    },
+    {
+        "edas#PersonalReviewHistory": "The PersonalReviewHistory is the parent of the PersonalPublicationHistory which is the child of the Reviewer. The paper is the child of MealMenu and is the parent of PendingPaper which is the child of MealMenu. The paper is also the child of PendingPaper which is the child of MealMenu."
+    },
+    {
+        "edas#ConferenceVenuePlace": "ConferenceVenuePlace is parented by both MeetingRoomPlace and DiningPlace."
+    },
+    {
+        "edas#CallForManuscripts": "CallForPapers and CallForManuscripts are both children of CallForManuscripts."
+    },
+    {
+        "edas#Reception": "SocialEvent is the parent of Reception and Excursion."
+    },
+    {
+        "edas#SingleLevelConference": "SingleLevelConference is equivalent to Conference."
+    },
+    {
+        "edas#MeetingRoomPlace": "MeetingRoomPlace is parented by both DiningPlace and AccommodationPlace."
+    },
+    {
+        "edas#AccommodationPlace": "ConferenceVenuePlace is the parent of ConferenceEvent which is a non-academic event. BreakEvent is a non-academic event which is a non-academic event."
+    },
+    {
+        "edas#RatedPapers": "RatedPapers is the parent of ActivePaper and is the child of RatedPapers. ReviewRating is equivalent to RejectRating and ReviewRating is equivalent to RejectRating."
+    },
+    {
+        "edas#TravelGrant": "TravelGrant is the parent of Sponsorship which is a child of TravelGrant."
+    },
+    {
+        "edas#ConferenceDinner": "MealEvent is the parent of ConferenceDinner and Document relating to Conference. MealMenu is also the parent of MealEvent."
+    }
+]
