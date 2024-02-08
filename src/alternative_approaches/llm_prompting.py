@@ -29,8 +29,8 @@ class LLM():
     def get_prediction(self, prompt, length=30):
         """Get the response to the prompt.
         """
-        
-        inputs = self.tokenizer(prompt, add_special_tokens=True, max_length=526,return_tensors="pt").input_ids.to("cuda")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        inputs = self.tokenizer(prompt, add_special_tokens=True, max_length=526,return_tensors="pt").input_ids.to(device)
         
         outputs = self.model.generate(inputs, max_new_tokens=length,do_sample=True,top_k=50,top_p=0.9)
         
