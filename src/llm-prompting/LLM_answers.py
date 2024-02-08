@@ -1,4 +1,4 @@
-from Util2 import CustomLLM
+from Util import CustomLLM
 import json
 
 def load_alignments(file_path):
@@ -45,7 +45,7 @@ def save_results_to_json(results, output_file_path):
 llm = CustomLLM(endpoint="https://461a-34-31-158-201.ngrok-free.app", verbose=False)
 
 #  Load alignments and all lines
-alignments_path = 'cmt-conference_alig.json'  # Make sure to update this path
+alignments_path = 'cmt-conference_alig.json'  #  update this path
 input_file_path = 'cmt-conference.json'  # Update this path accordingly
 all_lines = load_all_lines(input_file_path)
 alignments = load_alignments(alignments_path)
