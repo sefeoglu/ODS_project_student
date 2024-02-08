@@ -177,7 +177,7 @@ def main():
                     edges = {}
                     llmMatchedClasses = utils.load_json(llmMatchedFilePath)
                     for key in llmMatchedClasses.keys():
-                        if llmMatchedClasses.get(key) == 'yes':
+                        if llmMatchedClasses.get(key):
                             onto1HASHclass1, onto2HASHclass2 = key.split(';')
                             onto1, class1 = onto1HASHclass1.split('#')
                             onto2, class2 = onto2HASHclass2.split('#')
