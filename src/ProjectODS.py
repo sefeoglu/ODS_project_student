@@ -175,17 +175,15 @@ def main():
                     verticesL = set()
                     verticesR = set()
                     edges = {}
-                    llmMatchedClasses = utils.load_json(llmMatchedFilePath)
+                    llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
                     for key in llmMatchedClasses.keys():
                         if llmMatchedClasses.get(key):
                             onto1HASHclass1, onto2HASHclass2 = key.split(';')
-                            onto1, class1 = onto1HASHclass1.split('#')
-                            onto2, class2 = onto2HASHclass2.split('#')
-                            verticesL.add(class1)
-                            verticesR.add(class2)
-                            if not edges.get(class1):
-                                edges[class1] = []
-                            edges[class1].append(class2)
+                            verticesL.add(onto1HASHclass1)
+                            verticesR.add(onto2HASHclass2)
+                            if not edges.get(onto1HASHclass1):
+                                edges[onto1HASHclass1] = []
+                            edges[onto1HASHclass1].append(onto2HASHclass2)
                     matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
                     utils.saveToJson(matching, bipartiteMatchingPath)
 
