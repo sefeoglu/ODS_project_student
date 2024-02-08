@@ -1,4 +1,4 @@
-from Util import CustomLLM
+from Util2 import CustomLLM
 import json
 
 def load_alignments(file_path):
@@ -22,14 +22,19 @@ def categorize_response(response):
         return "unclear"
 
 def process_lines(all_lines, alignments):
-    results = []
+    results = {}
     for index, line_content in enumerate(all_lines, start=1):
-        result = llm(line_content)
-        categorized_result = categorize_response(result)
-        if categorized_result == "yes" and (index - 1) < len(alignments):
-            corresponding_alignment = alignments[index - 1]
-            results.append(corresponding_alignment)
-        # Optionally handle "no" and "unclear" results differently here
+        if (index - 1) < len(alignments):
+            result = llm(line_content)
+            categorized_result = categorize_response(result)
+            # Construct the key from the alignment pair
+            key = f"{alignments[index - 1][0]};{alignments[index - 1][1]}"
+            if categorized_result == "yes":
+                results[key] = True
+            else:
+                # If you want  to include non-matching pairs as false, uncomment the next line
+                # results[key] = False
+                pass
     return results
 
 def save_results_to_json(results, output_file_path):
@@ -37,11 +42,11 @@ def save_results_to_json(results, output_file_path):
         json.dump(results, file, indent=4)
 
 # Initialize the CustomLLM
-llm = CustomLLM(endpoint="https://86e2-34-90-201-189.ngrok-free.app", verbose=False)
+llm = CustomLLM(endpoint="https://461a-34-31-158-201.ngrok-free.app", verbose=False)
 
-# Load alignments and all lines
-alignments_path = 'alignments.json'  # Make sure to update this path
-input_file_path = 'treePromptVersion0.json'  # Update this path accordingly
+#  Load alignments and all lines
+alignments_path = 'cmt-conference_alig.json'  # Make sure to update this path
+input_file_path = 'cmt-conference.json'  # Update this path accordingly
 all_lines = load_all_lines(input_file_path)
 alignments = load_alignments(alignments_path)
 
