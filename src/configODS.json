@@ -21,6 +21,7 @@
 	"exportTreePromptsToJson": false,
 	"runPromptsOnLLM": false,
 	"generateMaximumBipartiteMatching": true,
+	"exportFinalMatchingsToRDF": true,
 	"promptsFoExportToJson": [
 		0,
 		1,
@@ -32,6 +33,7 @@
 	"triplesPath": "../results/result_triples/conference/",
 	"llmMatchedPath": "../results/result_llm_matched/conference/",
 	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
+	"rdfPath": "../results/result_RDF/conference/",
 	"triplesVerbalizedPath": "../results/result_triples_verbalized/conference/",
 	"verbalizedWalkTriplesPath": "../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json",
 	"verbalizedTreeTriplesPath": "../results/result_triples_verbalized/triples_randomTree_verbalized_out.json",

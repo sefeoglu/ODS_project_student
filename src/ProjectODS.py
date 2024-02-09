@@ -8,6 +8,7 @@ import sys
 sys.path.append('./verbalizer/Prompt_generator2/')
 from verbalizer.Prompt_generator2 import generatePrompt
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
+from AlignmentFormat import serialize_mapping_to_file
 
 """
 runs functions according to the tasks in configODS
@@ -192,7 +193,7 @@ def main():
                     bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
                     if not os.path.exists(bipartiteMatchingPath):
                         os.mkdir(bipartiteMatchingPath + '/')
-                    bipartiteMatchingPath += '/bipartite_' + file_path
+                    bipartiteMatchingPath += '/' + file_path
                     llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
                     verticesL = set()
                     verticesR = set()
@@ -213,9 +214,21 @@ def main():
                                 edges[onto1HASHclass1] = []
                             if not alreadyMatched.get(onto1HASHclass1):
                                 edges[onto1HASHclass1].append(onto2HASHclass2)
-                            else: print(onto1HASHclass1 + 'already matched')
                     matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
                     utils.saveToJson(matching, bipartiteMatchingPath)
+    if configODS.get('exportFinalMatchingsToRDF'):
+        for dir_path in os.listdir(configODS.get('bipartiteMatchingPath')):
+            for file_path in os.listdir(configODS.get('bipartiteMatchingPath') + dir_path):
+                if file_path.endswith('.json'):
+                    bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path + '/' + file_path
+                    rdfPath = configODS.get('rdfPath') + dir_path
+                    if not os.path.exists(rdfPath):
+                        os.mkdir(rdfPath + '/')
+                    rdfPath += '/' + file_path.replace('.json', '') + '.rdf'
+                    bipartiteMatchedClasses = utils.importFromJson(bipartiteMatchingPath)
+                    t = [('http://' + key1, 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
+                    serialize_mapping_to_file(rdfPath, t)
+                    print('exported ' + rdfPath)
 
 def cleanAndLowerString(string):
     import re
