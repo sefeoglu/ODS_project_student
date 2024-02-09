@@ -9,7 +9,6 @@ sys.path.append('./verbalizer/Prompt_generator2/')
 from verbalizer.Prompt_generator2 import generatePrompt
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
 from AlignmentFormat import serialize_mapping_to_file
-from alternative_approaches.llm_prompting import LLM
 
 """
 runs functions according to the tasks in configODS
@@ -168,7 +167,6 @@ def main():
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
-    llm = LLM()
     if configODS.get('runPromptsOnLLM'):
         for dir_path in os.listdir(configODS.get('promptsPath')):
             #print(f"processing '{file_path}'")
@@ -183,9 +181,8 @@ def main():
                     promptResult = {}
                     for promptKey in promptDict:
                         prompt = promptDict.get(promptKey)
-                        yesOrNo = llm.predict(prompt)
-                        if yesOrNo == 'yes':
-                            promptResult[promptKey] = yesOrNo
+                        yesOrNo = 'yes'#ToDo: run prompt here
+                        promptResult[promptKey] = yesOrNo
                     utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
         for dir_path in os.listdir(configODS.get('llmMatchedPath')):
