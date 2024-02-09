@@ -13,3 +13,5 @@ GitPython
 rouge_score
 sacrebleu
 pytorch_lightning
+accelerate
+sentencepiece
