@@ -9,3 +9,7 @@ tensorboard>=2.14.0
 matplotlib>=3.7.4
 gensim>=4.3.2
 pandas>=2.0.3
+GitPython
+rouge_score
+sacrebleu
+pytorch_lightning
