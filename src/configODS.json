@@ -2,6 +2,7 @@
 	"reformatThisFile": false,
 	"resetThisFile": false,
 	"exportCrossProductAsAlignments": false,
+	"matchExactMatches": false,
 	"exportAlignmentsToJson": false,
 	"runRandomWalkAlgorithm": false,
 	"runRandomTreeAlgorithm": false,
@@ -18,7 +19,7 @@
 	"verbalizeAvailableTriples": false,
 	"exportWalkPromptsToJson": false,
 	"exportTreePromptsToJson": false,
-	"runPromptsOnLLM": true,
+	"runPromptsOnLLM": false,
 	"generateMaximumBipartiteMatching": true,
 	"promptsFoExportToJson": [
 		0,
@@ -27,6 +28,7 @@
 		3
 	],
 	"alignmentPath": "../results/result_alignments/conference/",
+	"exactMatchPath": "../results/result_exactMatches/conference/",
 	"triplesPath": "../results/result_triples/conference/",
 	"llmMatchedPath": "../results/result_llm_matched/conference/",
 	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",

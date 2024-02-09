@@ -70,7 +70,28 @@ def main():
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', saveTriplesToJson = False, strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
         train(["conference"], pretrained=config["General"]["model"], saveAlignmentsToJson = True, alignmentsPath = path, test_size=1.0, consider_train_set=False, loader_config=loader_config, train_walks=infer_walk_WALK, inference_walks=infer_walk_WALK)
         print(f"exported alignments to '{path}'")
-    
+    #match exact matches
+    if configODS.get('matchExactMatches'):
+        for file_path in os.listdir(configODS.get('alignmentPath')):
+            if file_path.endswith('.json'):
+                alignmentFilePath = configODS.get('alignmentPath') + file_path
+                triples = utils.importFromJson(alignmentFilePath)
+                exactMatches = []
+                for key1, key2, _ in triples:
+                    onto1, class1 = key1.split('#')
+                    onto2, class2 = key2.split('#')
+                    class1Clean = cleanAndLowerString(class1)
+                    class2Clean = cleanAndLowerString(class2)
+                    if (class1Clean == class2Clean):
+                        alreadyIn = False
+                        for classA, classB, _ in exactMatches:
+                            if classA == class1 or classB == class2:
+                                alreadyIn = True
+                        if not alreadyIn: exactMatches.append([onto1 + '#' + class1, onto2 + '#' + class2, 1])
+                #print(exactMatches)
+                utils.saveToJson(exactMatches, configODS.get('exactMatchPath') + file_path, messageText='exported exact matches to')
+
+
     #run randomWalk Algorithm
     if configODS.get('runRandomWalkAlgorithm'):
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
@@ -172,10 +193,17 @@ def main():
                     if not os.path.exists(bipartiteMatchingPath):
                         os.mkdir(bipartiteMatchingPath + '/')
                     bipartiteMatchingPath += '/bipartite_' + file_path
+                    llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
                     verticesL = set()
                     verticesR = set()
                     edges = {}
-                    llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
+                    alreadyMatched = {}
+                    exactMatches = utils.importFromJson(configODS.get('exactMatchPath') + file_path)
+                    for key1, key2, _ in exactMatches:
+                        alreadyMatched[key1] = key2
+                        edges[key1] = [key2]
+                        verticesL.add(key1)
+                        verticesR.add(key2)
                     for key in llmMatchedClasses.keys():
                         if llmMatchedClasses.get(key):
                             onto1HASHclass1, onto2HASHclass2 = key.split(';')
@@ -183,10 +211,18 @@ def main():
                             verticesR.add(onto2HASHclass2)
                             if not edges.get(onto1HASHclass1):
                                 edges[onto1HASHclass1] = []
-                            edges[onto1HASHclass1].append(onto2HASHclass2)
+                            if not alreadyMatched.get(onto1HASHclass1):
+                                edges[onto1HASHclass1].append(onto2HASHclass2)
+                            else: print(onto1HASHclass1 + 'already matched')
                     matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
                     utils.saveToJson(matching, bipartiteMatchingPath)
 
+def cleanAndLowerString(string):
+    import re
+    string = re.sub(r'\s+', ' ', string)  # Replace multiple whitespace characters with a single space
+    string = re.sub(r'[;.:_\-#]', '', string)  # Remove specified special characters
+    string = string.lower()
+    return string
 
 
 main()
