@@ -1,0 +1,30 @@
+[
+	[
+		"confOf#Person",
+		"sigkdd#Person"
+	],
+	[
+		"confOf#Submission_event",
+		"sigkdd#Deadline_Paper_Submission"
+	],
+	[
+		"confOf#Administrator",
+		"sigkdd#Committee"
+	],
+	[
+		"confOf#Author",
+		"sigkdd#Author"
+	],
+	[
+		"confOf#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"confOf#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"confOf#Event",
+		"sigkdd#Deadline"
+	]
+]

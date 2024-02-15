@@ -1,0 +1,19 @@
+{
+	"cmt#Reviewer;iasted#Reviewer": "yes",
+	"cmt#Person;iasted#One_day_presenter": "yes",
+	"cmt#Person;iasted#Session_chair": "yes",
+	"cmt#Person;iasted#Lecturer": "yes",
+	"cmt#Person;iasted#Hotel_presenter": "yes",
+	"cmt#Document;iasted#Mailing_list": "yes",
+	"cmt#Document;iasted#Document": "yes",
+	"cmt#Document;iasted#Record_of_attendance": "yes",
+	"cmt#Document;iasted#Transparency": "yes",
+	"cmt#Conference;iasted#Dinner_banquet": "yes",
+	"cmt#Conference;iasted#Introduction_of_speaker": "yes",
+	"cmt#ConferenceChair;iasted#Session_chair": "yes",
+	"cmt#AuthorNotReviewer;iasted#Author": "yes",
+	"cmt#ExternalReviewer;iasted#Reviewer": "yes",
+	"cmt#Chairman;iasted#Session_chair": "yes",
+	"cmt#Review;iasted#Review": "yes",
+	"cmt#Meta-Review;iasted#Document": "yes"
+}

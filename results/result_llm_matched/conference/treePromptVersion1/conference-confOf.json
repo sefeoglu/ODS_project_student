@@ -1,0 +1,18 @@
+{
+	"conference#Conference_participant;confOf#Conference": "yes",
+	"conference#Submitted_contribution;confOf#Contribution": "yes",
+	"conference#Submitted_contribution;confOf#Submission_event": "yes",
+	"conference#Contribution_co-author;confOf#Contribution": "yes",
+	"conference#Regular_contribution;confOf#Contribution": "yes",
+	"conference#Poster;confOf#Conference": "yes",
+	"conference#Camera_ready_contribution;confOf#Event": "yes",
+	"conference#Camera_ready_contribution;confOf#Camera_Ready_event": "yes",
+	"conference#Accepted_contribution;confOf#Contribution": "yes",
+	"conference#Accepted_contribution;confOf#Conference": "yes",
+	"conference#Call_for_paper;confOf#Conference": "yes",
+	"conference#Paper;confOf#Conference": "yes",
+	"conference#Chair;confOf#Chair_PC": "yes",
+	"conference#Reviewed_contribution;confOf#Reviewing_results_event": "yes",
+	"conference#Paid_applicant;confOf#Conference": "yes",
+	"conference#Conference_www;confOf#Conference": "yes"
+}

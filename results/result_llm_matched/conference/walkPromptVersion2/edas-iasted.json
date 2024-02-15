@@ -1,0 +1,7 @@
+{
+	"edas#Document;iasted#Record_of_attendance": "yes",
+	"edas#ConferenceEvent;iasted#Technic_activity": "yes",
+	"edas#ConferenceEvent;iasted#Welcome_address": "yes",
+	"edas#MealEvent;iasted#Dinner_banquet": "yes",
+	"edas#WelcomeTalk;iasted#Welcome_address": "yes"
+}

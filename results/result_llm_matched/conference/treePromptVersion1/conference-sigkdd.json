@@ -1,0 +1,20 @@
+{
+	"conference#Conference_participant;sigkdd#Invited_Speaker": "yes",
+	"conference#Person;sigkdd#Invited_Speaker": "yes",
+	"conference#Person;sigkdd#Author_of_paper": "yes",
+	"conference#Conference_contribution;sigkdd#Deadline_Abstract_Submission": "yes",
+	"conference#Committee;sigkdd#Committee": "yes",
+	"conference#Committee_member;sigkdd#Organizator": "yes",
+	"conference#Committee_member;sigkdd#Program_Committee_member": "yes",
+	"conference#Extended_abstract;sigkdd#Abstract": "yes",
+	"conference#Invited_speaker;sigkdd#Invited_Speaker": "yes",
+	"conference#Conference_proceedings;sigkdd#Conference": "yes",
+	"conference#Organizing_committee;sigkdd#Organizing_Committee": "yes",
+	"conference#Conference_announcement;sigkdd#Conference": "yes",
+	"conference#Invited_talk;sigkdd#Conference": "yes",
+	"conference#Presentation;sigkdd#Invited_Speaker": "yes",
+	"conference#Chair;sigkdd#Committee": "yes",
+	"conference#Organizer;sigkdd#Committee": "yes",
+	"conference#Organizer;sigkdd#Program_Committee_member": "yes",
+	"conference#Registeered_applicant;sigkdd#Conference": "yes"
+}

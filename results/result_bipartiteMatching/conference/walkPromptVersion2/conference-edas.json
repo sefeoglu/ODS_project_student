@@ -1,0 +1,34 @@
+[
+	[
+		"conference#Conference",
+		"edas#Conference"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Paper",
+		"edas#Paper"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	]
+]

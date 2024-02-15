@@ -1,0 +1,11 @@
+{
+	"confOf#Trip;edas#Excursion": "yes",
+	"confOf#Reception;edas#Reception": "yes",
+	"confOf#Event;edas#ConferenceDinner": "yes",
+	"confOf#Registration_of_participants_event;edas#SingleLevelConference": "yes",
+	"confOf#Conference;edas#ConferenceEvent": "yes",
+	"confOf#Conference;edas#ConferenceSession": "yes",
+	"confOf#Conference;edas#WelcomeTalk": "yes",
+	"confOf#Conference;edas#TwoLevelConference": "yes",
+	"confOf#Conference;edas#SingleLevelConference": "yes"
+}

@@ -1,0 +1,22 @@
+[
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#Person",
+		"confOf#Person"
+	]
+]

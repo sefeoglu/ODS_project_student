@@ -1,0 +1,26 @@
+[
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#Conference",
+		"iasted#Conference_airport"
+	]
+]

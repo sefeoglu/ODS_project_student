@@ -1,34 +1,10 @@
 [
 	[
-		"cmt#Decision",
-		"conference#Conference_participant"
-	],
-	[
 		"cmt#Document",
-		"conference#Active_conference_participant"
+		"conference#Written_contribution"
 	],
 	[
-		"cmt#User",
-		"conference#Regular_author"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#AssociatedChair",
-		"conference#Submitted_contribution"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#ConferenceMember",
-		"conference#Review_expertise"
-	],
-	[
-		"cmt#Review",
+		"cmt#Bid",
 		"conference#Review"
 	],
 	[
@@ -36,75 +12,39 @@
 		"conference#Reviewer"
 	],
 	[
-		"cmt#Administrator",
-		"conference#Passive_conference_participant"
+		"cmt#ProgramCommitteeChair",
+		"conference#Chair"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"conference#Conference_contributor"
+		"cmt#Rejection",
+		"conference#Rejected_contribution"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"conference#Person"
 	],
 	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"conference#Committee_member"
-	],
-	[
-		"cmt#Acceptance",
-		"conference#Contribution_1th-author"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Conference_contribution"
-	],
-	[
-		"cmt#Bid",
-		"conference#Abstract"
+		"cmt#User",
+		"conference#Program_committee"
 	],
 	[
 		"cmt#ExternalReviewer",
-		"conference#Important_dates"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Co-chair"
-	],
-	[
-		"cmt#Author",
-		"conference#Committee"
+		"conference#Conference_participant"
 	],
 	[
 		"cmt#Chairman",
-		"conference#Extended_abstract"
+		"conference#Committee"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"conference#Conference_applicant"
-	],
-	[
-		"cmt#Rejection",
-		"conference#Conference_proceedings"
+		"cmt#PaperAbstract",
+		"conference#Abstract"
 	],
 	[
 		"cmt#Conference",
 		"conference#Conference"
-	],
-	[
-		"cmt#Meta-Review",
-		"conference#Contribution_co-author"
-	],
-	[
-		"cmt#Co-author",
-		"conference#Invited_speaker"
-	],
-	[
-		"cmt#PaperAbstract",
-		"conference#Call_for_paper"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"conference#Information_for_participants"
 	]
 ]

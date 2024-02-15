@@ -1,0 +1,9 @@
+{
+	"conference#Poster;ekaw#Camera_Ready_Paper": "yes",
+	"conference#Poster;ekaw#Poster_Paper": "yes",
+	"conference#Poster;ekaw#Conference": "yes",
+	"conference#Camera_ready_contribution;ekaw#Accepted_Paper": "yes",
+	"conference#Accepted_contribution;ekaw#Accepted_Paper": "yes",
+	"conference#Tutorial;ekaw#Regular_Session": "yes",
+	"conference#Tutorial;ekaw#Conference": "yes"
+}

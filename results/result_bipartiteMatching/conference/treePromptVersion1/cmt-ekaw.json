@@ -1,0 +1,34 @@
+[
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#Person"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"ekaw#Conference"
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"cmt#Chairman",
+		"ekaw#PC_Chair"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
+	]
+]

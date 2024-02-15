@@ -1,0 +1,26 @@
+[
+	[
+		"confOf#Submission_event",
+		"sigkdd#Abstract"
+	],
+	[
+		"confOf#Tutorial",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"confOf#Author",
+		"sigkdd#Author"
+	],
+	[
+		"confOf#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"confOf#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"confOf#Person",
+		"sigkdd#Person"
+	]
+]

@@ -1,0 +1,26 @@
+[
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Track",
+		"iasted#Coctail_reception"
+	],
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	]
+]

@@ -1,0 +1,30 @@
+[
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Meta-Review",
+		"ekaw#Track"
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"cmt#Chairman",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Conference"
+	]
+]

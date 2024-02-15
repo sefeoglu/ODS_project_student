@@ -1,0 +1,26 @@
+[
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Chair_PC"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
+	]
+]

@@ -1,0 +1,30 @@
+[
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Session_chair"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#Conference",
+		"iasted#Dinner_banquet"
+	]
+]
