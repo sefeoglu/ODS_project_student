@@ -8,23 +8,15 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Person"/>
-      <entity2 rdf:resource="http://ekaw#Person"/>
+      <entity1 rdf:resource="http://confOf#Student"/>
+      <entity2 rdf:resource="http://ekaw#Student"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Tutorial"/>
-      <entity2 rdf:resource="http://ekaw#Tutorial"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://confOf#Administrator"/>
+      <entity1 rdf:resource="http://confOf#Banquet"/>
       <entity2 rdf:resource="http://ekaw#Track"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -40,16 +32,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Student"/>
-      <entity2 rdf:resource="http://ekaw#Student"/>
+      <entity1 rdf:resource="http://confOf#University"/>
+      <entity2 rdf:resource="http://ekaw#University"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Banquet"/>
-      <entity2 rdf:resource="http://ekaw#Event"/>
+      <entity1 rdf:resource="http://confOf#Person"/>
+      <entity2 rdf:resource="http://ekaw#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,8 +64,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#University"/>
-      <entity2 rdf:resource="http://ekaw#University"/>
+      <entity1 rdf:resource="http://confOf#Event"/>
+      <entity2 rdf:resource="http://ekaw#Event"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -82,6 +74,14 @@
     <Cell>
       <entity1 rdf:resource="http://confOf#Social_event"/>
       <entity2 rdf:resource="http://ekaw#Social_Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Tutorial"/>
+      <entity2 rdf:resource="http://ekaw#Tutorial"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

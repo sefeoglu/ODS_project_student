@@ -1,55 +1,55 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Building"
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
+		"cmt#Paper",
 		"iasted#Presenter_house"
 	],
 	[
-		"cmt#Administrator",
-		"iasted#Delegate"
-	],
-	[
-		"cmt#Co-author",
-		"iasted#Presenter_state"
-	],
-	[
 		"cmt#Meta-Review",
-		"iasted#Form"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"cmt#Decision",
-		"iasted#Transport_vehicle"
-	],
-	[
-		"cmt#Document",
-		"iasted#Document"
+		"iasted#Delegate"
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Dinner_banquet"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"iasted#Car"
+		"cmt#Rejection",
+		"iasted#Presenter_city"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
+		"cmt#Acceptance",
+		"iasted#Presenter_state"
+	],
+	[
+		"cmt#PaperAbstract",
+		"iasted#Mailing_list"
+	],
+	[
+		"cmt#AssociatedChair",
+		"iasted#Deadline_hotel_reservation"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Activity"
 	],
 	[
 		"cmt#ConferenceChair",
-		"iasted#Social_program"
+		"iasted#Form"
 	],
 	[
-		"cmt#Review",
-		"iasted#Review"
+		"cmt#ProgramCommitteeChair",
+		"iasted#Building"
+	],
+	[
+		"cmt#Administrator",
+		"iasted#Renting"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"iasted#Car"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -60,43 +60,43 @@
 		"iasted#Hotel_registration_form"
 	],
 	[
-		"cmt#PaperAbstract",
-		"iasted#Mailing_list"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"iasted#Submissions_deadline"
-	],
-	[
 		"cmt#Conference",
 		"iasted#Activity_before_conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Activity"
-	],
-	[
-		"cmt#Acceptance",
-		"iasted#Presentation"
-	],
-	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Decision",
+		"iasted#Transport_vehicle"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
 		"cmt#Chairman",
 		"iasted#PowerPoint_presentation"
 	],
 	[
-		"cmt#Rejection",
-		"iasted#Presenter_city"
+		"cmt#Meta-Reviewer",
+		"iasted#Deadline"
 	],
 	[
-		"cmt#Paper",
-		"iasted#Simulating"
+		"cmt#Co-author",
+		"iasted#One_day_presenter"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"iasted#Submissions_deadline"
 	]
 ]

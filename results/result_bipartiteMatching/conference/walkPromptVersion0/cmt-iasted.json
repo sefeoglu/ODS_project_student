@@ -1,46 +1,46 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Activity"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"cmt#Administrator",
+		"cmt#Person",
 		"iasted#Person"
-	],
-	[
-		"cmt#Decision",
-		"iasted#Accepting_manuscript"
-	],
-	[
-		"cmt#Paper",
-		"iasted#Document"
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_Hiker"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"iasted#Review"
+		"cmt#Rejection",
+		"iasted#Refusing_manuscript"
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_activity"
 	],
 	[
+		"cmt#ProgramCommitteeChair",
+		"iasted#Activity"
+	],
+	[
 		"cmt#Conference",
 		"iasted#Dinner_banquet"
+	],
+	[
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Rejection",
-		"iasted#Refusing_manuscript"
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Decision",
+		"iasted#Accepting_manuscript"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
 	]
 ]

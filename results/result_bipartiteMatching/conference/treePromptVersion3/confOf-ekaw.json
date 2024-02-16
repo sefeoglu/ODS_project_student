@@ -1,23 +1,35 @@
 [
 	[
-		"confOf#Event",
-		"ekaw#Event"
-	],
-	[
-		"confOf#Administrator",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"confOf#Poster",
+		"confOf#Member_PC",
 		"ekaw#Camera_Ready_Paper"
 	],
 	[
-		"confOf#Person",
-		"ekaw#Person"
+		"confOf#University",
+		"ekaw#University"
 	],
 	[
-		"confOf#Regular",
+		"confOf#Registration_of_participants_event",
+		"ekaw#Regular_Session"
+	],
+	[
+		"confOf#Participant",
+		"ekaw#Accepted_Paper"
+	],
+	[
+		"confOf#Company",
 		"ekaw#Positive_Review"
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"ekaw#Conference_Session"
+	],
+	[
+		"confOf#Reviewing_results_event",
+		"ekaw#Document"
+	],
+	[
+		"confOf#Event",
+		"ekaw#Event"
 	],
 	[
 		"confOf#Tutorial",
@@ -28,12 +40,44 @@
 		"ekaw#Poster_Session"
 	],
 	[
-		"confOf#Science_Worker",
-		"ekaw#Conference_Session"
+		"confOf#Poster",
+		"ekaw#Workshop_Paper"
 	],
 	[
-		"confOf#Author",
-		"ekaw#Conference_Paper"
+		"confOf#Student",
+		"ekaw#Student"
+	],
+	[
+		"confOf#Member",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"confOf#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"confOf#Social_event",
+		"ekaw#Social_Event"
+	],
+	[
+		"confOf#Banquet",
+		"ekaw#Industrial_Session"
+	],
+	[
+		"confOf#Scholar",
+		"ekaw#Industrial_Paper"
+	],
+	[
+		"confOf#Science_Worker",
+		"ekaw#Tutorial_Abstract"
+	],
+	[
+		"confOf#Regular",
+		"ekaw#Session"
+	],
+	[
+		"confOf#Person",
+		"ekaw#Person"
 	],
 	[
 		"confOf#Workshop",
@@ -41,94 +85,50 @@
 	],
 	[
 		"confOf#Working_event",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"confOf#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"confOf#Volunteer",
-		"ekaw#Session"
+		"ekaw#Demo_Session"
 	],
 	[
 		"confOf#Contribution",
 		"ekaw#Evaluated_Paper"
 	],
 	[
-		"confOf#Scholar",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"confOf#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"confOf#Short_paper",
-		"ekaw#Abstract"
+		"ekaw#Conference_Paper"
 	],
 	[
-		"confOf#Student",
-		"ekaw#Student"
+		"confOf#Author",
+		"ekaw#Paper_Author"
 	],
 	[
-		"confOf#Administrative_event",
+		"confOf#Submission_event",
 		"ekaw#Conference_Trip"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"ekaw#Regular_Session"
-	],
-	[
-		"confOf#Trip",
-		"ekaw#Industrial_Paper"
-	],
-	[
-		"confOf#Reviewing_event",
-		"ekaw#Industrial_Session"
-	],
-	[
-		"confOf#Social_event",
-		"ekaw#Social_Event"
-	],
-	[
-		"confOf#Member_PC",
-		"ekaw#Conference_Participant"
-	],
-	[
-		"confOf#Participant",
-		"ekaw#Tutorial_Abstract"
-	],
-	[
-		"confOf#Company",
-		"ekaw#Organisation"
-	],
-	[
-		"confOf#University",
-		"ekaw#University"
-	],
-	[
-		"confOf#Member",
-		"ekaw#Demo_Session"
 	],
 	[
 		"confOf#Reception",
 		"ekaw#Negative_Review"
 	],
 	[
-		"confOf#Camera_Ready_event",
-		"ekaw#Organising_Agency"
+		"confOf#Administrative_event",
+		"ekaw#Conference_Participant"
 	],
 	[
-		"confOf#Submission_event",
-		"ekaw#Document"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"ekaw#Proceedings_Publisher"
-	],
-	[
-		"confOf#Banquet",
+		"confOf#Administrator",
 		"ekaw#Submitted_Paper"
+	],
+	[
+		"confOf#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"confOf#Reviewing_event",
+		"ekaw#Abstract"
+	],
+	[
+		"confOf#Volunteer",
+		"ekaw#Organisation"
+	],
+	[
+		"confOf#Trip",
+		"ekaw#Neutral_Review"
 	]
 ]

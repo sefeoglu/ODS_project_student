@@ -1,34 +1,34 @@
 [
 	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
 		"cmt#ConferenceMember",
 		"conference#Submitted_contribution"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Presentation"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
 	],
 	[
 		"cmt#Review",
 		"conference#Review"
 	],
 	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Chairman",
+		"conference#Presentation"
+	],
+	[
 		"cmt#Conference",
 		"conference#Conference"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	]
 ]

@@ -1,19 +1,7 @@
 [
 	[
-		"cmt#Document",
-		"sigkdd#Document"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"cmt#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"cmt#Author",
-		"sigkdd#Author"
+		"cmt#Review",
+		"sigkdd#Review"
 	],
 	[
 		"cmt#ProgramCommittee",
@@ -24,11 +12,23 @@
 		"sigkdd#Person"
 	],
 	[
-		"cmt#Review",
-		"sigkdd#Review"
+		"cmt#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Program_Committee_member"
 	],
 	[
 		"cmt#Conference",
 		"sigkdd#Conference"
+	],
+	[
+		"cmt#Document",
+		"sigkdd#Document"
+	],
+	[
+		"cmt#Author",
+		"sigkdd#Author"
 	]
 ]

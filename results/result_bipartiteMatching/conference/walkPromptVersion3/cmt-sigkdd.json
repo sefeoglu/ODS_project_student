@@ -1,59 +1,55 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Organizator"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"cmt#Administrator",
-		"sigkdd#Place"
-	],
-	[
-		"cmt#Co-author",
-		"sigkdd#Hotel"
-	],
-	[
-		"cmt#Document",
-		"sigkdd#Document"
-	],
-	[
-		"cmt#AssociatedChair",
-		"sigkdd#Award"
-	],
-	[
-		"cmt#Decision",
-		"sigkdd#Abstract"
+		"cmt#Person",
+		"sigkdd#Person"
 	],
 	[
 		"cmt#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"cmt#ConferenceMember",
-		"sigkdd#Deadline"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"sigkdd#Program_Committee"
-	],
-	[
-		"cmt#ExternalReviewer",
+		"cmt#Meta-Review",
 		"sigkdd#Deadline_Abstract_Submission"
 	],
 	[
-		"cmt#Person",
-		"sigkdd#Person"
+		"cmt#ConferenceMember",
+		"sigkdd#Award"
 	],
 	[
-		"cmt#Author",
-		"sigkdd#Author"
+		"cmt#Rejection",
+		"sigkdd#Abstract"
 	],
 	[
-		"cmt#Review",
-		"sigkdd#Review"
+		"cmt#Acceptance",
+		"sigkdd#Bronze_Supporter"
+	],
+	[
+		"cmt#PaperAbstract",
+		"sigkdd#Organizator"
+	],
+	[
+		"cmt#AssociatedChair",
+		"sigkdd#Hotel"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"sigkdd#Sponzor"
+	],
+	[
+		"cmt#ConferenceChair",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"sigkdd#Main_office"
+	],
+	[
+		"cmt#Administrator",
+		"sigkdd#Place"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -64,43 +60,47 @@
 		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
-		"cmt#PaperAbstract",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"sigkdd#Best_Paper_Awards_Committee"
-	],
-	[
 		"cmt#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"sigkdd#Sponzor"
+		"cmt#Document",
+		"sigkdd#Document"
 	],
 	[
-		"cmt#Acceptance",
-		"sigkdd#Bronze_Supporter"
+		"cmt#Author",
+		"sigkdd#Author"
 	],
 	[
 		"cmt#Reviewer",
-		"sigkdd#Best_Applications_Paper_Award"
+		"sigkdd#Deadline_Author_notification"
+	],
+	[
+		"cmt#Decision",
+		"sigkdd#Webmaster"
+	],
+	[
+		"cmt#Review",
+		"sigkdd#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"sigkdd#Program_Committee"
 	],
 	[
 		"cmt#Chairman",
 		"sigkdd#Committee"
 	],
 	[
-		"cmt#Rejection",
-		"sigkdd#Fee"
+		"cmt#Meta-Reviewer",
+		"sigkdd#Registration_SIGMOD_Member"
 	],
 	[
-		"cmt#Meta-Review",
-		"sigkdd#Speaker"
+		"cmt#Co-author",
+		"sigkdd#Best_Student_Paper_Award"
 	],
 	[
-		"cmt#ConferenceChair",
-		"sigkdd#Exhibitor"
+		"cmt#PaperFullVersion",
+		"sigkdd#Best_Paper_Awards_Committee"
 	]
 ]

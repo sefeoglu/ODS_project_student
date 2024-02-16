@@ -1,59 +1,11 @@
 [
 	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
 		"iasted#Submissions_deadline",
 		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
-		"iasted#Memeber_registration_fee",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"iasted#Sponzorship",
-		"sigkdd#Gold_Supporter"
-	],
-	[
 		"iasted#Deadline_for_notification_of_acceptance",
 		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"iasted#Non_speaker",
-		"sigkdd#Listener"
-	],
-	[
-		"iasted#Place",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Invitation_letter",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Sponsor",
-		"sigkdd#Sponzor"
-	],
-	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Author",
-		"sigkdd#Author"
-	],
-	[
-		"iasted#Camera_ready_manuscript_deadline",
-		"sigkdd#Deadline"
 	],
 	[
 		"iasted#Student_registration_fee",
@@ -64,11 +16,59 @@
 		"sigkdd#Review"
 	],
 	[
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Sponzorship",
+		"sigkdd#Gold_Supporter"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
 		"iasted#Conference_hall",
 		"sigkdd#Conference_hall"
 	],
 	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#Sponsor",
+		"sigkdd#Sponzor"
+	],
+	[
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
+	],
+	[
+		"iasted#Memeber_registration_fee",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
 	]
 ]

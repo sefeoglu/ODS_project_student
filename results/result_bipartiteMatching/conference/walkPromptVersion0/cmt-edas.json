@@ -1,58 +1,58 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"edas#ConferenceEvent"
-	],
-	[
-		"cmt#Meta-Reviewer",
+		"cmt#Person",
 		"edas#Person"
-	],
-	[
-		"cmt#Review",
-		"edas#Review"
-	],
-	[
-		"cmt#AssociatedChair",
-		"edas#Conference"
 	],
 	[
 		"cmt#Paper",
 		"edas#Paper"
 	],
 	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
-	],
-	[
-		"cmt#Document",
-		"edas#Document"
-	],
-	[
-		"cmt#User",
-		"edas#ComputerNetworksEnterpriseTopic"
-	],
-	[
-		"cmt#PaperAbstract",
-		"edas#PublishedPaper"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#Author"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
+		"cmt#Meta-Review",
+		"edas#ReviewRating"
 	],
 	[
 		"cmt#Rejection",
 		"edas#PendingPaper"
 	],
 	[
-		"cmt#Meta-Review",
-		"edas#ReviewRating"
+		"cmt#Acceptance",
+		"edas#AccpetIfRoomRating"
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#PublishedPaper"
+	],
+	[
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"edas#ConferenceEvent"
+	],
+	[
+		"cmt#User",
+		"edas#ComputerNetworksEnterpriseTopic"
+	],
+	[
+		"cmt#Conference",
+		"edas#Conference"
+	],
+	[
+		"cmt#Document",
+		"edas#Document"
+	],
+	[
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"cmt#Review",
+		"edas#Review"
 	]
 ]

@@ -1,43 +1,43 @@
 [
 	[
-		"edas#TPCMember",
-		"sigkdd#Program_Committee_member"
+		"edas#Document",
+		"sigkdd#Document"
 	],
 	[
-		"edas#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"edas#PaperPresentation",
+		"edas#Paper",
 		"sigkdd#Paper"
-	],
-	[
-		"edas#Place",
-		"sigkdd#Place"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
 	],
 	[
-		"edas#Reviewer",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"edas#Document",
-		"sigkdd#Document"
-	],
-	[
-		"edas#Review",
-		"sigkdd#Review"
-	],
-	[
 		"edas#TravelGrant",
 		"sigkdd#Sponzor"
 	],
 	[
-		"edas#MeetingRoomPlace",
+		"edas#TPCMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"edas#ConferenceVenuePlace",
 		"sigkdd#Conference_hall"
+	],
+	[
+		"edas#Reviewer",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"edas#Review",
+		"sigkdd#Review"
 	],
 	[
 		"edas#Person",

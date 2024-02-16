@@ -1,222 +1,222 @@
 [
 	[
-		"conference#Review",
-		"edas#Review"
-	],
-	[
 		"conference#Conference",
 		"edas#Conference"
-	],
-	[
-		"conference#Conference_document",
-		"edas#Programme"
-	],
-	[
-		"conference#Accepted_contribution",
-		"edas#SlideSet"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Paper",
-		"edas#Paper"
-	],
-	[
-		"conference#Co-chair",
-		"edas#ReviewRating"
-	],
-	[
-		"conference#Chair",
-		"edas#Document"
-	],
-	[
-		"conference#Person",
-		"edas#Person"
-	],
-	[
-		"conference#Written_contribution",
-		"edas#PersonalHistory"
-	],
-	[
-		"conference#Program_committee",
-		"edas#OperatingTopicsystems"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Regular_contribution",
-		"edas#MealMenu"
-	],
-	[
-		"conference#Organization",
-		"edas#Organization"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#Sponsorship"
-	],
-	[
-		"conference#Extended_abstract",
-		"edas#Call"
-	],
-	[
-		"conference#Committee",
-		"edas#Place"
-	],
-	[
-		"conference#Presentation",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"conference#Late_paid_applicant",
-		"edas#Attendee"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#RejectRating"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#BreakEvent"
-	],
-	[
-		"conference#Information_for_participants",
-		"edas#ReviewQuestion"
-	],
-	[
-		"conference#Registeered_applicant",
-		"edas#CADTopic"
-	],
-	[
-		"conference#Invited_talk",
-		"edas#WirelessCommunicationsTopic"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#WeekRejectRating"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#CommunicationsTopic"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"edas#PerformanceTopic"
-	],
-	[
-		"conference#Conference_volume",
-		"edas#Author"
-	],
-	[
-		"conference#Early_paid_applicant",
-		"edas#TPCMember"
-	],
-	[
-		"conference#Poster",
-		"edas#RadioCommunicationsTopic"
-	],
-	[
-		"conference#Review_expertise",
-		"edas#AcceptRating"
-	],
-	[
-		"conference#Committee_member",
-		"edas#ComputerNetworksTopic"
-	],
-	[
-		"conference#Reviewer",
-		"edas#Reviewer"
 	],
 	[
 		"conference#Workshop",
 		"edas#Workshop"
 	],
 	[
-		"conference#Steering_committee",
-		"edas#TestOnlyTopic"
-	],
-	[
-		"conference#Track",
-		"edas#PowerlineTransmissionTopic"
-	],
-	[
-		"conference#Submitted_contribution",
-		"edas#SatelliteAndSpaceCommunicationsTopic"
-	],
-	[
-		"conference#Invited_speaker",
-		"edas#MultimediaTopic"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"edas#SecurityTopic"
-	],
-	[
-		"conference#Organizing_committee",
-		"edas#NGO"
-	],
-	[
-		"conference#Tutorial",
-		"edas#MealEvent"
-	],
-	[
 		"conference#Paid_applicant",
-		"edas#NonAcademicEvent"
-	],
-	[
-		"conference#Conference_part",
-		"edas#ParallelAndDistributedComputingTopic"
-	],
-	[
-		"conference#Organizer",
-		"edas#DiningPlace"
+		"edas#Document"
 	],
 	[
 		"conference#Conference_www",
-		"edas#MicroelectronicsTopic"
+		"edas#SlideSet"
 	],
 	[
-		"conference#Review_preference",
-		"edas#AcceptedPaper"
+		"conference#Reviewer",
+		"edas#Reviewer"
 	],
 	[
-		"conference#Abstract",
-		"edas#SignalProcessingTopic"
+		"conference#Tutorial",
+		"edas#MealMenu"
 	],
 	[
-		"conference#Contribution_co-author",
-		"edas#AntennasTopic"
+		"conference#Call_for_participation",
+		"edas#AccpetIfRoomRating"
+	],
+	[
+		"conference#Conference_document",
+		"edas#Programme"
+	],
+	[
+		"conference#Presentation",
+		"edas#Call"
+	],
+	[
+		"conference#Camera_ready_contribution",
+		"edas#ReviewRating"
 	],
 	[
 		"conference#Conference_applicant",
-		"edas#ComputerArchitectureTopic"
+		"edas#MealEvent"
 	],
 	[
-		"conference#Conference_contributor",
-		"edas#GovernmentOrganization"
+		"conference#Invited_speaker",
+		"edas#PersonalHistory"
 	],
 	[
-		"conference#Rejected_contribution",
-		"edas#WithdrawnPaper"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"edas#MedicineTopic"
+		"conference#Paper",
+		"edas#Paper"
 	],
 	[
 		"conference#Contribution_1th-author",
 		"edas#ConferenceChair"
 	],
 	[
-		"conference#Camera_ready_contribution",
+		"conference#Conference_volume",
+		"edas#Sponsorship"
+	],
+	[
+		"conference#Organizer",
+		"edas#ConferenceEvent"
+	],
+	[
+		"conference#Review_preference",
+		"edas#Place"
+	],
+	[
+		"conference#Active_conference_participant",
+		"edas#BreakEvent"
+	],
+	[
+		"conference#Committee_member",
+		"edas#RejectRating"
+	],
+	[
+		"conference#Conference_part",
+		"edas#ParallelAndDistributedComputingTopic"
+	],
+	[
+		"conference#Rejected_contribution",
+		"edas#TestOnlyTopic"
+	],
+	[
+		"conference#Written_contribution",
+		"edas#WeekRejectRating"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#WirelessCommunicationsTopic"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"edas#PerformanceTopic"
+	],
+	[
+		"conference#Accepted_contribution",
+		"edas#ReviewQuestion"
+	],
+	[
+		"conference#Contribution_co-author",
+		"edas#AntennasTopic"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Conference_announcement",
+		"edas#CommunicationsTopic"
+	],
+	[
+		"conference#Late_paid_applicant",
+		"edas#Attendee"
+	],
+	[
+		"conference#Poster",
+		"edas#CADTopic"
+	],
+	[
+		"conference#Program_committee",
+		"edas#OperatingTopicsystems"
+	],
+	[
+		"conference#Abstract",
+		"edas#AcceptRating"
+	],
+	[
+		"conference#Information_for_participants",
+		"edas#MultimediaTopic"
+	],
+	[
+		"conference#Track-workshop_chair",
+		"edas#ComputerArchitectureTopic"
+	],
+	[
+		"conference#Review_expertise",
+		"edas#ComputerNetworksTopic"
+	],
+	[
+		"conference#Committee",
+		"edas#MicroelectronicsTopic"
+	],
+	[
+		"conference#Track",
+		"edas#PowerlineTransmissionTopic"
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#GovernmentOrganization"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Co-chair",
+		"edas#RadioCommunicationsTopic"
+	],
+	[
+		"conference#Chair",
+		"edas#SatelliteAndSpaceCommunicationsTopic"
+	],
+	[
+		"conference#Extended_abstract",
+		"edas#AcademiaOrganization"
+	],
+	[
+		"conference#Reviewed_contribution",
+		"edas#MedicineTopic"
+	],
+	[
+		"conference#Regular_contribution",
+		"edas#MobileComputingTopic"
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#NGO"
+	],
+	[
+		"conference#Steering_committee",
 		"edas#PendingPaper"
+	],
+	[
+		"conference#Conference_participant",
+		"edas#Presenter"
 	],
 	[
 		"conference#Regular_author",
 		"edas#ComputerNetworksSecurityTopic"
+	],
+	[
+		"conference#Conference_contribution",
+		"edas#CryptographyTopic"
+	],
+	[
+		"conference#Early_paid_applicant",
+		"edas#TPCMember"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Registeered_applicant",
+		"edas#DiningPlace"
+	],
+	[
+		"conference#Invited_talk",
+		"edas#CommunicationTheoryTopic"
+	],
+	[
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Submitted_contribution",
+		"edas#SignalProcessingTopic"
 	]
 ]

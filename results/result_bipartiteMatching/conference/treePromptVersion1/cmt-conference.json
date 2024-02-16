@@ -1,23 +1,15 @@
 [
 	[
-		"cmt#Decision",
+		"cmt#Rejection",
 		"conference#Rejected_contribution"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
 	],
 	[
 		"cmt#Acceptance",
 		"conference#Reviewed_contribution"
-	],
-	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"conference#Review_expertise"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
 	],
 	[
 		"cmt#ProgramCommittee",
@@ -28,11 +20,19 @@
 		"conference#Person"
 	],
 	[
-		"cmt#Review",
-		"conference#Review"
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"conference#Review_expertise"
 	],
 	[
 		"cmt#Conference",
 		"conference#Conference"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	]
 ]

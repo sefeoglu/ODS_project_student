@@ -4,43 +4,43 @@
 		"edas#Conference"
 	],
 	[
-		"conference#Accepted_contribution",
-		"edas#Document"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Reviewer",
 		"edas#Reviewer"
 	],
 	[
-		"conference#Workshop",
-		"edas#Workshop"
+		"conference#Call_for_participation",
+		"edas#CallForPapers"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Presentation",
+		"edas#Document"
 	],
 	[
-		"conference#Organization",
-		"edas#Organization"
+		"conference#Paper",
+		"edas#Paper"
 	],
 	[
 		"conference#Conference_part",
 		"edas#TwoLevelConference"
 	],
 	[
-		"conference#Paper",
-		"edas#Paper"
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Topic",
+		"edas#Topic"
 	]
 ]

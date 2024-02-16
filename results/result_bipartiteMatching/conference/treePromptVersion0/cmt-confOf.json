@@ -1,6 +1,6 @@
 [
 	[
-		"cmt#Reviewer",
+		"cmt#Rejection",
 		"confOf#Event"
 	],
 	[
@@ -8,28 +8,8 @@
 		"confOf#Chair_PC"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Member"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
-	],
-	[
-		"cmt#Author",
-		"confOf#Author"
-	],
-	[
-		"cmt#User",
-		"confOf#Participant"
-	],
-	[
-		"cmt#ConferenceMember",
-		"confOf#Conference"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"confOf#Reviewing_results_event"
+		"cmt#Review",
+		"confOf#Reviewing_event"
 	],
 	[
 		"cmt#Administrator",
@@ -40,7 +20,27 @@
 		"confOf#Person"
 	],
 	[
-		"cmt#Review",
-		"confOf#Reviewing_event"
+		"cmt#ExternalReviewer",
+		"confOf#Reviewing_results_event"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member"
+	],
+	[
+		"cmt#User",
+		"confOf#Participant"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author"
 	]
 ]

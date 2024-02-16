@@ -1,18 +1,30 @@
 [
 	[
+		"confOf#Event",
+		"edas#PaperPresentation"
+	],
+	[
 		"confOf#Topic",
 		"edas#Topic"
 	],
 	[
-		"confOf#Reviewing_results_event",
+		"confOf#Student",
+		"edas#AcademicEvent"
+	],
+	[
+		"confOf#Organization",
+		"edas#Organization"
+	],
+	[
+		"confOf#Paper",
+		"edas#Paper"
+	],
+	[
+		"confOf#Social_event",
 		"edas#SocialEvent"
 	],
 	[
-		"confOf#Author",
-		"edas#Author"
-	],
-	[
-		"confOf#Chair_PC",
+		"confOf#Person",
 		"edas#Person"
 	],
 	[
@@ -20,39 +32,27 @@
 		"edas#Workshop"
 	],
 	[
-		"confOf#Working_event",
-		"edas#Conference"
-	],
-	[
-		"confOf#Contribution",
-		"edas#Paper"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
-	],
-	[
-		"confOf#Student",
-		"edas#AcademicEvent"
-	],
-	[
-		"confOf#Event",
-		"edas#PaperPresentation"
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Country",
 		"edas#Country"
 	],
 	[
-		"confOf#Trip",
-		"edas#Excursion"
+		"confOf#Reception",
+		"edas#Reception"
+	],
+	[
+		"confOf#Conference",
+		"edas#Conference"
 	],
 	[
 		"confOf#Reviewing_event",
 		"edas#PersonalReviewHistory"
 	],
 	[
-		"confOf#Reception",
-		"edas#Reception"
+		"confOf#Trip",
+		"edas#Excursion"
 	]
 ]

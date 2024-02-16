@@ -1,54 +1,54 @@
 [
 	[
-		"confOf#Person",
-		"iasted#Person"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#Poster",
-		"iasted#Document"
-	],
-	[
-		"confOf#Reviewing_event",
-		"iasted#Review"
-	],
-	[
-		"confOf#Submission_event",
-		"iasted#Submission"
+		"confOf#Reception",
+		"iasted#Social_program"
 	],
 	[
 		"confOf#Conference",
 		"iasted#Presenter_city"
 	],
 	[
+		"confOf#Member",
+		"iasted#IASTED_member"
+	],
+	[
+		"confOf#Registration_of_participants_event",
+		"iasted#Nonmember_registration_fee"
+	],
+	[
+		"confOf#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"confOf#Person",
+		"iasted#Person"
+	],
+	[
+		"confOf#Reviewing_event",
+		"iasted#Review"
+	],
+	[
 		"confOf#Camera_Ready_event",
 		"iasted#Time"
 	],
 	[
-		"confOf#Member",
-		"iasted#IASTED_member"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#Event",
 		"iasted#Dinner_banquet"
 	],
 	[
-		"confOf#Reception",
-		"iasted#Social_program"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Nonmember_registration_fee"
+		"confOf#Submission_event",
+		"iasted#Submission"
+	],
+	[
+		"confOf#Poster",
+		"iasted#Document"
 	]
 ]

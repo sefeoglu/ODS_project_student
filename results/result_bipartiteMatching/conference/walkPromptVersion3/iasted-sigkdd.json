@@ -1,194 +1,194 @@
 [
 	[
+		"iasted#Nonauthor_registration_fee",
+		"sigkdd#Hotel"
+	],
+	[
+		"iasted#Tutorial",
+		"sigkdd#Abstract"
+	],
+	[
 		"iasted#Initial_manuscipt",
 		"sigkdd#Deadline_Abstract_Submission"
 	],
 	[
-		"iasted#Video_presentation",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Publication",
-		"sigkdd#Abstract"
-	],
-	[
-		"iasted#Building",
-		"sigkdd#Hotel"
-	],
-	[
-		"iasted#Taxi",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Car",
-		"sigkdd#Webmaster"
-	],
-	[
-		"iasted#Registration_form",
+		"iasted#Coffee_break",
 		"sigkdd#Award"
 	],
 	[
-		"iasted#One_day_presenter",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"iasted#PowerPoint_presentation",
-		"sigkdd#Listener"
-	],
-	[
-		"iasted#Student_lecturer",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"iasted#Registration",
-		"sigkdd#Sponzor"
-	],
-	[
-		"iasted#Conference_days",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"iasted#Receiving_manuscript",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"iasted#Cd_proceening",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"iasted#Submission",
+		"iasted#Sponzorship",
 		"sigkdd#Deadline_Author_notification"
 	],
 	[
-		"iasted#One_conference_day",
-		"sigkdd#ACM_SIGKDD"
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
 	],
 	[
-		"iasted#Coffee_break",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Trip_day",
-		"sigkdd#Sponzor_fee"
-	],
-	[
-		"iasted#Session_chair",
-		"sigkdd#Author"
-	],
-	[
-		"iasted#Research",
-		"sigkdd#Platinum_Supporter"
-	],
-	[
-		"iasted#Presenter_city",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Author_attendee_cd_registration_fee",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"iasted#Payment_document",
-		"sigkdd#Organizator"
-	],
-	[
-		"iasted#Time",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Full_day_tour",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Registation_deadline",
-		"sigkdd#Registration_SIGKDD_Member"
-	],
-	[
-		"iasted#Modelling",
-		"sigkdd#Conference_hall"
+		"iasted#Hotel_fee",
+		"sigkdd#Sponzor"
 	],
 	[
 		"iasted#Lecture",
-		"sigkdd#Review"
+		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
-		"iasted#Hotel_room",
+		"iasted#LCD_projector",
+		"sigkdd#Exhibitor"
+	],
+	[
+		"iasted#Fee_for_extra_trip",
+		"sigkdd#Sponzor_fee"
+	],
+	[
+		"iasted#One_conference_day",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"iasted#Submission",
+		"sigkdd#Best_Student_Paper_Award"
+	],
+	[
+		"iasted#Introduction_of_speaker",
+		"sigkdd#Bronze_Supporter"
+	],
+	[
+		"iasted#Receiving_manuscript",
+		"sigkdd#Webmaster"
+	],
+	[
+		"iasted#Registation_deadline",
+		"sigkdd#Deadline_Paper_Submission"
+	],
+	[
+		"iasted#Presenter_city",
+		"sigkdd#Organizator"
+	],
+	[
+		"iasted#Session_chair",
+		"sigkdd#General_Chair"
+	],
+	[
+		"iasted#Registration",
+		"sigkdd#Gold_Supporter"
+	],
+	[
+		"iasted#City",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"iasted#Conference_building",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Presenter_state",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"iasted#Plenary_lecture",
+		"sigkdd#Registration_Student"
+	],
+	[
+		"iasted#Memeber_registration_fee",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
+	],
+	[
+		"iasted#Conference_city",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"iasted#Reviewer",
+		"sigkdd#Best_Paper_Awards_Committee"
+	],
+	[
+		"iasted#Author_cd_proceedings_included",
+		"sigkdd#Program_Committee"
+	],
+	[
+		"iasted#Publication",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"iasted#Building",
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"iasted#Author_attendee_cd_registration_fee",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"iasted#Form",
+		"sigkdd#Platinum_Supporter"
+	],
+	[
+		"iasted#Renting",
 		"sigkdd#Paper"
+	],
+	[
+		"iasted#Hotel_presenter",
+		"sigkdd#Committee"
+	],
+	[
+		"iasted#Non_speaker",
+		"sigkdd#Best_Student_Paper_Supporter"
+	],
+	[
+		"iasted#Sponsor_city",
+		"sigkdd#Silver_Supporter"
+	],
+	[
+		"iasted#Listener",
+		"sigkdd#Listener"
 	],
 	[
 		"iasted#Worker_non_speaker",
 		"sigkdd#Organizing_Committee_member"
 	],
 	[
-		"iasted#Coctail_reception",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"iasted#Bank_transfer",
-		"sigkdd#Committee"
-	],
-	[
-		"iasted#Student_non_speaker",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_state",
-		"sigkdd#Silver_Supporter"
-	],
-	[
-		"iasted#Session_room",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"iasted#Van",
-		"sigkdd#Bronze_Supporter"
-	],
-	[
-		"iasted#Nonauthor_registration_fee",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"iasted#State",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Viza",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"iasted#Tip",
-		"sigkdd#General_Chair"
-	],
-	[
-		"iasted#Introduction_of_speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"iasted#Welcome_address",
-		"sigkdd#Gold_Supporter"
-	],
-	[
-		"iasted#Activity",
+		"iasted#Research",
 		"sigkdd#Organizing_Committee"
 	],
 	[
-		"iasted#Money",
-		"sigkdd#Best_Paper_Awards_Committee"
+		"iasted#Fee",
+		"sigkdd#Fee"
 	],
 	[
 		"iasted#Presenter_university",
 		"sigkdd#Best_Research_Paper_Award"
 	],
 	[
-		"iasted#IASTED_member",
-		"sigkdd#Program_Committee"
+		"iasted#Review",
+		"sigkdd#Review"
 	],
 	[
-		"iasted#Introduction",
-		"sigkdd#Author_of_paper"
+		"iasted#Main_office",
+		"sigkdd#Main_office"
 	],
 	[
-		"iasted#Technical_commitee",
-		"sigkdd#Best_Student_Paper_Supporter"
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
 	]
 ]

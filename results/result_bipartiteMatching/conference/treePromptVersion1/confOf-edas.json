@@ -1,54 +1,54 @@
 [
 	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Topic",
-		"edas#Topic"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
 		"confOf#Organization",
 		"edas#Organization"
 	],
 	[
-		"confOf#Country",
-		"edas#Country"
-	],
-	[
 		"confOf#Conference",
 		"edas#Conference"
 	],
 	[
-		"confOf#Author",
-		"edas#Author"
+		"confOf#Registration_of_participants_event",
+		"edas#SingleLevelConference"
 	],
 	[
-		"confOf#Trip",
-		"edas#Excursion"
+		"confOf#Person",
+		"edas#Person"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
+		"confOf#Country",
+		"edas#Country"
 	],
 	[
 		"confOf#Paper",
 		"edas#Paper"
 	],
 	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Event",
 		"edas#ConferenceDinner"
 	],
 	[
-		"confOf#Reception",
-		"edas#Reception"
+		"confOf#Social_event",
+		"edas#SocialEvent"
 	],
 	[
-		"confOf#Registration_of_participants_event",
-		"edas#SingleLevelConference"
+		"confOf#Trip",
+		"edas#Excursion"
+	],
+	[
+		"confOf#Topic",
+		"edas#Topic"
 	]
 ]

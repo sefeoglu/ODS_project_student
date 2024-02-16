@@ -1,17 +1,5 @@
 [
 	[
-		"cmt#Document",
-		"ekaw#Document"
-	],
-	[
-		"cmt#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"cmt#Person",
-		"ekaw#Person"
-	],
-	[
 		"cmt#Rejection",
 		"ekaw#Rejected_Paper"
 	],
@@ -20,7 +8,19 @@
 		"ekaw#Review"
 	],
 	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
 		"cmt#Conference",
 		"ekaw#Conference"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
 	]
 ]

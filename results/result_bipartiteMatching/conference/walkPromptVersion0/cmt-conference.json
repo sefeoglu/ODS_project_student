@@ -1,10 +1,30 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
+		"cmt#Person",
 		"conference#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#ConferenceChair",
+		"conference#Chair"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"conference#Conference_contribution"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#Document",
+		"conference#Regular_contribution"
+	],
+	[
+		"cmt#Reviewer",
 		"conference#Reviewer"
 	],
 	[
@@ -12,39 +32,19 @@
 		"conference#Accepted_contribution"
 	],
 	[
-		"cmt#Paper",
-		"conference#Paper"
+		"cmt#Review",
+		"conference#Review"
 	],
 	[
 		"cmt#ProgramCommittee",
 		"conference#Program_committee"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"conference#Conference_contribution"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Chair"
-	],
-	[
-		"cmt#Review",
-		"conference#Review"
-	],
-	[
-		"cmt#Document",
-		"conference#Regular_contribution"
+		"cmt#Chairman",
+		"conference#Committee"
 	],
 	[
 		"cmt#PaperFullVersion",
 		"conference#Abstract"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Committee"
 	]
 ]

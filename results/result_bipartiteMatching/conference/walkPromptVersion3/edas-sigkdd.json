@@ -1,198 +1,198 @@
 [
 	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"sigkdd#Document"
+		"edas#CallForManuscripts",
+		"sigkdd#Deadline"
 	],
 	[
-		"edas#Reception",
-		"sigkdd#Deadline_Paper_Submission"
+		"edas#Author",
+		"sigkdd#Author"
+	],
+	[
+		"edas#SatelliteAndSpaceCommunicationsTopic",
+		"sigkdd#Listener"
+	],
+	[
+		"edas#ComputerNetworksOpticalTopic",
+		"sigkdd#Webmaster"
+	],
+	[
+		"edas#MealMenu",
+		"sigkdd#Abstract"
+	],
+	[
+		"edas#MedicineTopic",
+		"sigkdd#Award"
+	],
+	[
+		"edas#SocialEvent",
+		"sigkdd#Deadline_Abstract_Submission"
+	],
+	[
+		"edas#SessionChair",
+		"sigkdd#Organizator"
+	],
+	[
+		"edas#AccommodationPlace",
+		"sigkdd#Committee"
+	],
+	[
+		"edas#ComputerNetworksMeasurementsTopic",
+		"sigkdd#Bronze_Supporter"
+	],
+	[
+		"edas#OrganizationalMeeting",
+		"sigkdd#ACM_SIGKDD"
 	],
 	[
 		"edas#TwoLevelConference",
 		"sigkdd#Hotel"
 	],
 	[
-		"edas#AcademiaOrganization",
-		"sigkdd#Place"
-	],
-	[
-		"edas#GovernmentOrganization",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"edas#AcademicEvent",
-		"sigkdd#Abstract"
-	],
-	[
-		"edas#Sponsorship",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"edas#PersonalReviewHistory",
-		"sigkdd#Webmaster"
-	],
-	[
-		"edas#ComputerArchitectureTopic",
-		"sigkdd#Award"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"sigkdd#Deadline"
-	],
-	[
-		"edas#Attendee",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"edas#AcceptRating",
-		"sigkdd#Organizator"
-	],
-	[
-		"edas#BreakEvent",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"edas#SlideSet",
-		"sigkdd#Sponzor"
-	],
-	[
-		"edas#Programme",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"edas#Call",
-		"sigkdd#Author"
-	],
-	[
-		"edas#RejectRating",
-		"sigkdd#Person"
-	],
-	[
-		"edas#AntennasTopic",
+		"edas#PersonalHistory",
 		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
-		"edas#SignalProcessingTopic",
-		"sigkdd#Bronze_Supporter"
+		"edas#OperatingTopicsystems",
+		"sigkdd#Exhibitor"
+	],
+	[
+		"edas#MultimediaTopic",
+		"sigkdd#Deadline_Author_notification"
+	],
+	[
+		"edas#Presenter",
+		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
 		"edas#RejectedPaper",
 		"sigkdd#Platinum_Supporter"
 	],
 	[
-		"edas#CallForReviews",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"edas#CallForPapers",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"edas#ConferenceChair",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"edas#ConferenceEvent",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"edas#MultimediaTopic",
-		"sigkdd#General_Chair"
-	],
-	[
-		"edas#MedicineTopic",
-		"sigkdd#Committee"
-	],
-	[
-		"edas#PendingPaper",
+		"edas#ClosingTalk",
 		"sigkdd#Fee"
 	],
 	[
-		"edas#Topic",
-		"sigkdd#Main_office"
+		"edas#PersonalReviewHistory",
+		"sigkdd#Gold_Supporter"
 	],
 	[
-		"edas#SocialEvent",
-		"sigkdd#Review"
+		"edas#ActivePaper",
+		"sigkdd#Registration_fee"
 	],
 	[
-		"edas#AccommodationPlace",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"edas#ComputerNetworksSensorTopic",
-		"sigkdd#Speaker"
-	],
-	[
-		"edas#PersonalHistory",
-		"sigkdd#Listener"
-	],
-	[
-		"edas#ClosingTalk",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"edas#ConferenceVenuePlace",
-		"sigkdd#Silver_Supporter"
-	],
-	[
-		"edas#FreeTimeBreak",
-		"sigkdd#Program_Committee"
-	],
-	[
-		"edas#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"sigkdd#Sponzor_fee"
+		"edas#PendingPaper",
+		"sigkdd#Conference_hall"
 	],
 	[
 		"edas#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"edas#TalkEvent",
-		"sigkdd#Best_Paper_Awards_Committee"
+		"edas#MealEvent",
+		"sigkdd#Sponzor"
 	],
 	[
-		"edas#NonAcademicEvent",
+		"edas#ReviewQuestion",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"edas#RatedPapers",
+		"sigkdd#Best_Student_Paper_Award"
+	],
+	[
+		"edas#TravelGrant",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"edas#ComputerNetworksSensorTopic",
+		"sigkdd#Speaker"
+	],
+	[
+		"edas#ComputerNetworksTopic",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"edas#SecurityTopic",
+		"sigkdd#Sponzor_fee"
+	],
+	[
+		"edas#WeekRejectRating",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"edas#WirelessCommunicationsTopic",
 		"sigkdd#Registration_Non-Member"
 	],
 	[
-		"edas#CADTopic",
-		"sigkdd#Gold_Supporter"
+		"edas#AccpetIfRoomRating",
+		"sigkdd#Silver_Supporter"
 	],
 	[
-		"edas#IndustryOrganization",
+		"edas#Reviewer",
+		"sigkdd#Main_office"
+	],
+	[
+		"edas#ComputerArchitectureTopic",
 		"sigkdd#Author_of_paper"
+	],
+	[
+		"edas#DiningPlace",
+		"sigkdd#General_Chair"
+	],
+	[
+		"edas#PaperPresentation",
+		"sigkdd#Best_Research_Paper_Award"
+	],
+	[
+		"edas#ReviewRating",
+		"sigkdd#Registration_Student"
+	],
+	[
+		"edas#PerformanceTopic",
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"edas#Attendee",
+		"sigkdd#Best_Paper_Awards_Committee"
+	],
+	[
+		"edas#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"edas#CoffeeBreak",
 		"sigkdd#Program_Committee_member"
 	],
 	[
-		"edas#TravelGrant",
-		"sigkdd#Registration_fee"
+		"edas#SingleLevelConference",
+		"sigkdd#Program_Committee"
 	],
 	[
-		"edas#TPCMember",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"edas#CommunicationsTopic",
-		"sigkdd#Registration_SIGKDD_Member"
-	],
-	[
-		"edas#Presenter",
+		"edas#Organization",
 		"sigkdd#Best_Student_Paper_Supporter"
 	],
 	[
-		"edas#PublishedPaper",
-		"sigkdd#Best_Research_Paper_Award"
+		"edas#Workshop",
+		"sigkdd#Organizing_Committee_member"
 	],
 	[
-		"edas#WirelessCommunicationsTopic",
+		"edas#Review",
+		"sigkdd#Review"
+	],
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Person",
+		"sigkdd#Person"
+	],
+	[
+		"edas#Document",
+		"sigkdd#Document"
+	],
+	[
+		"edas#AcademicEvent",
 		"sigkdd#Organizing_Committee"
 	]
 ]

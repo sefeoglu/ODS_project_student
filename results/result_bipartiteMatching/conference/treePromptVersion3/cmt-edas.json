@@ -1,110 +1,110 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"edas#MealEvent"
-	],
-	[
-		"cmt#Review",
-		"edas#Review"
-	],
-	[
-		"cmt#Administrator",
-		"edas#SlideSet"
-	],
-	[
-		"cmt#Co-author",
-		"edas#ConferenceSession"
-	],
-	[
-		"cmt#Document",
-		"edas#Document"
-	],
-	[
-		"cmt#AssociatedChair",
-		"edas#Call"
-	],
-	[
-		"cmt#Decision",
-		"edas#Programme"
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Paper",
 		"edas#Paper"
 	],
 	[
+		"cmt#Meta-Review",
+		"edas#SlideSet"
+	],
+	[
 		"cmt#ConferenceMember",
 		"edas#MealMenu"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"edas#ReviewRating"
+		"cmt#Rejection",
+		"edas#PersonalHistory"
 	],
 	[
-		"cmt#ExternalReviewer",
+		"cmt#Acceptance",
+		"edas#ReviewQuestion"
+	],
+	[
+		"cmt#PaperAbstract",
 		"edas#Organization"
 	],
 	[
-		"cmt#Person",
-		"edas#Person"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
+		"cmt#AssociatedChair",
+		"edas#Call"
 	],
 	[
 		"cmt#Bid",
 		"edas#Topic"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
+		"cmt#AuthorNotReviewer",
+		"edas#Programme"
+	],
+	[
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"edas#MealEvent"
+	],
+	[
+		"cmt#Administrator",
 		"edas#ConferenceEvent"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"edas#ReviewRating"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"edas#SatelliteAndSpaceCommunicationsTopic"
+	],
+	[
+		"cmt#User",
+		"edas#Sponsorship"
 	],
 	[
 		"cmt#Conference",
 		"edas#Conference"
 	],
 	[
-		"cmt#PaperAbstract",
-		"edas#AcceptRating"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"edas#ReviewQuestion"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#Place"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#WeekRejectRating"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
+		"cmt#Document",
+		"edas#Document"
 	],
 	[
 		"cmt#Author",
 		"edas#Author"
 	],
 	[
-		"cmt#Chairman",
-		"edas#PersonalHistory"
+		"cmt#Reviewer",
+		"edas#Reviewer"
 	],
 	[
-		"cmt#Rejection",
-		"edas#AntennasTopic"
+		"cmt#Decision",
+		"edas#CADTopic"
+	],
+	[
+		"cmt#Review",
+		"edas#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"edas#ConferenceSession"
+	],
+	[
+		"cmt#Chairman",
+		"edas#AcceptRating"
 	],
 	[
 		"cmt#Meta-Reviewer",
 		"edas#BreakEvent"
 	],
 	[
-		"cmt#Meta-Review",
-		"edas#AccpetIfRoomRating"
+		"cmt#Co-author",
+		"edas#ParallelAndDistributedComputingTopic"
 	],
 	[
-		"cmt#User",
-		"edas#Sponsorship"
+		"cmt#PaperFullVersion",
+		"edas#WeekRejectRating"
 	]
 ]

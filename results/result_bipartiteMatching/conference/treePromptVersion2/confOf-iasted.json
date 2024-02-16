@@ -1,18 +1,22 @@
 [
 	[
-		"confOf#Submission_event",
-		"iasted#Fee"
-	],
-	[
-		"confOf#Administrator",
-		"iasted#Lecturer"
-	],
-	[
-		"confOf#Poster",
+		"confOf#Member_PC",
 		"iasted#Submission"
 	],
 	[
+		"confOf#Registration_of_participants_event",
+		"iasted#Lecturer"
+	],
+	[
+		"confOf#Participant",
+		"iasted#Trip_day"
+	],
+	[
 		"confOf#Reviewing_results_event",
+		"iasted#Fee"
+	],
+	[
+		"confOf#Event",
 		"iasted#Fee_for_extra_trip"
 	],
 	[
@@ -20,23 +24,19 @@
 		"iasted#Tutorial"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#Volunteer",
+		"confOf#Scholar",
 		"iasted#Worker_non_speaker"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
 	],
 	[
 		"confOf#Person",
 		"iasted#Person"
 	],
 	[
-		"confOf#Banquet",
-		"iasted#Trip_day"
+		"confOf#Author",
+		"iasted#Author"
+	],
+	[
+		"confOf#City",
+		"iasted#City"
 	]
 ]

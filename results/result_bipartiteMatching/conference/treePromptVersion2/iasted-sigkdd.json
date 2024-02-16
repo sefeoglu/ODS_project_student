@@ -1,15 +1,19 @@
 [
 	[
-		"iasted#Video_presentation",
+		"iasted#Nonauthor_registration_fee",
 		"sigkdd#Abstract"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
 	],
 	[
 		"iasted#Coffee_break",
 		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
 	],
 	[
 		"iasted#Author",
@@ -20,14 +24,6 @@
 		"sigkdd#Listener"
 	],
 	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Conference_hotel",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
 		"iasted#Fee",
 		"sigkdd#Fee"
 	],
@@ -36,31 +32,35 @@
 		"sigkdd#Review"
 	],
 	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"iasted#Place",
-		"sigkdd#Place"
+		"iasted#Main_office",
+		"sigkdd#Main_office"
 	],
 	[
 		"iasted#Deadline",
 		"sigkdd#Deadline"
 	],
 	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
+		"iasted#Video_cassette_player",
+		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
 		"iasted#Tax",
 		"sigkdd#Webmaster"
 	],
 	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
 	]
 ]

@@ -1,27 +1,11 @@
 [
 	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"conference#Conference_participant",
-		"iasted#Person"
+		"conference#Workshop",
+		"iasted#Conference_activity"
 	],
 	[
 		"conference#Reviewed_contribution",
 		"iasted#Accepting_manuscript"
-	],
-	[
-		"conference#Conference_contribution",
-		"iasted#Conference_activity"
-	],
-	[
-		"conference#Presentation",
-		"iasted#Presentation"
-	],
-	[
-		"conference#Publisher",
-		"iasted#Author"
 	],
 	[
 		"conference#Conference_part",
@@ -30,6 +14,22 @@
 	[
 		"conference#Reviewer",
 		"iasted#Reviewer"
+	],
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Publisher",
+		"iasted#Author"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
 	],
 	[
 		"conference#Review",

@@ -4,99 +4,99 @@
 		"confOf#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"confOf#Banquet"
-	],
-	[
-		"cmt#Administrator",
-		"confOf#Administrator"
-	],
-	[
-		"cmt#Co-author",
-		"confOf#Company"
+		"cmt#Paper",
+		"confOf#Paper"
 	],
 	[
 		"cmt#Meta-Review",
-		"confOf#Social_event"
-	],
-	[
-		"cmt#AssociatedChair",
-		"confOf#Trip"
-	],
-	[
-		"cmt#Decision",
-		"confOf#Reviewing_event"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
+		"confOf#Banquet"
 	],
 	[
 		"cmt#ConferenceMember",
 		"confOf#Organization"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"confOf#Scholar"
+		"cmt#Rejection",
+		"confOf#Short_paper"
 	],
 	[
-		"cmt#ConferenceChair",
-		"confOf#Contribution"
-	],
-	[
-		"cmt#Review",
-		"confOf#Reception"
-	],
-	[
-		"cmt#Document",
-		"confOf#Submission_event"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Workshop"
-	],
-	[
-		"cmt#User",
-		"confOf#University"
+		"cmt#Acceptance",
+		"confOf#Reviewing_event"
 	],
 	[
 		"cmt#PaperAbstract",
 		"confOf#Event"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"confOf#Administrative_event"
+		"cmt#AssociatedChair",
+		"confOf#Trip"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"confOf#Social_event"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Contribution"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Poster"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Company"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Scholar"
+	],
+	[
+		"cmt#User",
+		"confOf#University"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"cmt#Acceptance",
-		"confOf#Short_paper"
-	],
-	[
-		"cmt#Reviewer",
-		"confOf#Poster"
+		"cmt#Document",
+		"confOf#Submission_event"
 	],
 	[
 		"cmt#Author",
 		"confOf#Author"
 	],
 	[
+		"cmt#Reviewer",
+		"confOf#Camera_Ready_event"
+	],
+	[
+		"cmt#Decision",
+		"confOf#Workshop"
+	],
+	[
+		"cmt#Review",
+		"confOf#Reception"
+	],
+	[
 		"cmt#Chairman",
 		"confOf#Tutorial"
 	],
 	[
-		"cmt#Rejection",
-		"confOf#Camera_Ready_event"
+		"cmt#Meta-Reviewer",
+		"confOf#Reviewing_results_event"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Member"
+		"cmt#Co-author",
+		"confOf#Working_event"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Administrative_event"
 	]
 ]

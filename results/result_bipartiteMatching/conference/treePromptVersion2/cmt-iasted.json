@@ -1,43 +1,43 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Submission"
-	],
-	[
-		"cmt#Administrator",
-		"iasted#Lecturer"
-	],
-	[
-		"cmt#Co-author",
-		"iasted#Fee_for_extra_trip"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"iasted#Fee"
-	],
-	[
 		"cmt#Person",
 		"iasted#Person"
 	],
 	[
-		"cmt#Review",
-		"iasted#Review"
+		"cmt#Paper",
+		"iasted#Submission"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
+		"cmt#ConferenceMember",
+		"iasted#Fee_for_extra_trip"
+	],
+	[
+		"cmt#Rejection",
+		"iasted#Lecturer"
+	],
+	[
+		"cmt#Bid",
+		"iasted#Fee"
 	],
 	[
 		"cmt#Conference",
 		"iasted#Accepting_manuscript"
 	],
 	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
 	],
 	[
 		"cmt#Chairman",

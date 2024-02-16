@@ -1,71 +1,63 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Scholar"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"confOf#Reviewing_event"
-	],
-	[
-		"cmt#Administrator",
-		"confOf#Administrator"
-	],
-	[
-		"cmt#Co-author",
-		"confOf#Event"
-	],
-	[
-		"cmt#Meta-Review",
-		"confOf#Company"
-	],
-	[
-		"cmt#AssociatedChair",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"cmt#Rejection",
-		"confOf#Trip"
+		"cmt#Person",
+		"confOf#Person"
 	],
 	[
 		"cmt#Paper",
 		"confOf#Paper"
 	],
 	[
+		"cmt#Meta-Review",
+		"confOf#Company"
+	],
+	[
 		"cmt#ConferenceMember",
 		"confOf#Banquet"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"confOf#University"
+		"cmt#Rejection",
+		"confOf#Trip"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"confOf#Poster"
-	],
-	[
-		"cmt#Person",
-		"confOf#Person"
-	],
-	[
-		"cmt#ConferenceChair",
+		"cmt#Acceptance",
 		"confOf#Reception"
 	],
 	[
-		"cmt#Review",
-		"confOf#Tutorial"
+		"cmt#PaperAbstract",
+		"confOf#Event"
 	],
 	[
-		"cmt#Document",
-		"confOf#Registration_of_participants_event"
+		"cmt#AssociatedChair",
+		"confOf#Scholar"
 	],
 	[
 		"cmt#Bid",
 		"confOf#Contribution"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
+		"cmt#AuthorNotReviewer",
+		"confOf#Regular"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Poster"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Camera_Ready_event"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#ExternalReviewer",
 		"confOf#Short_paper"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#University"
 	],
 	[
 		"cmt#User",
@@ -76,35 +68,43 @@
 		"confOf#Conference"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"confOf#Submission_event"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"confOf#Regular"
-	],
-	[
-		"cmt#Acceptance",
-		"confOf#Camera_Ready_event"
-	],
-	[
-		"cmt#Reviewer",
-		"confOf#Student"
+		"cmt#Document",
+		"confOf#Reviewing_event"
 	],
 	[
 		"cmt#Author",
 		"confOf#Author"
 	],
 	[
-		"cmt#Chairman",
-		"confOf#Participant"
-	],
-	[
-		"cmt#PaperAbstract",
-		"confOf#Working_event"
+		"cmt#Reviewer",
+		"confOf#Tutorial"
 	],
 	[
 		"cmt#Decision",
+		"confOf#Reviewing_results_event"
+	],
+	[
+		"cmt#Review",
+		"confOf#Working_event"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"confOf#Science_Worker"
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Submission_event"
+	],
+	[
+		"cmt#Meta-Reviewer",
 		"confOf#Member"
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Participant"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"confOf#Member_PC"
 	]
 ]

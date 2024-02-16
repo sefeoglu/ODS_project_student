@@ -1,98 +1,98 @@
 [
 	[
-		"edas#GovernmentOrganization",
-		"ekaw#Organisation"
-	],
-	[
-		"edas#CoffeeBreak",
-		"ekaw#Conference_Session"
-	],
-	[
-		"edas#WelcomeTalk",
-		"ekaw#Event"
-	],
-	[
-		"edas#Place",
-		"ekaw#Positive_Review"
-	],
-	[
-		"edas#TwoLevelConference",
-		"ekaw#Scientific_Event"
-	],
-	[
-		"edas#TextualReviewQuestion",
-		"ekaw#Review"
+		"edas#Document",
+		"ekaw#Document"
 	],
 	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
 	],
 	[
+		"edas#CallForManuscripts",
+		"ekaw#Event"
+	],
+	[
+		"edas#IndustryOrganization",
+		"ekaw#Organisation"
+	],
+	[
 		"edas#SessionChair",
 		"ekaw#Session_Chair"
-	],
-	[
-		"edas#TPCMember",
-		"ekaw#Person"
-	],
-	[
-		"edas#Presenter",
-		"ekaw#Presenter"
-	],
-	[
-		"edas#AcademicEvent",
-		"ekaw#Workshop_Session"
-	],
-	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"ekaw#Invited_Speaker"
-	],
-	[
-		"edas#RatedPapers",
-		"ekaw#Proceedings"
-	],
-	[
-		"edas#MealEvent",
-		"ekaw#Conference"
-	],
-	[
-		"edas#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"ekaw#Session"
-	],
-	[
-		"edas#PaperPresentation",
-		"ekaw#Poster_Session"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
 	],
 	[
 		"edas#AcceptedPaper",
 		"ekaw#Accepted_Paper"
 	],
 	[
-		"edas#CallForPapers",
-		"ekaw#Conference_Paper"
+		"edas#AcademicEvent",
+		"ekaw#Workshop_Session"
+	],
+	[
+		"edas#BreakEvent",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"edas#OrganizationalMeeting",
+		"ekaw#Invited_Speaker"
+	],
+	[
+		"edas#Organization",
+		"ekaw#Proceedings_Publisher"
+	],
+	[
+		"edas#RatedPapers",
+		"ekaw#Proceedings"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
+	],
+	[
+		"edas#PaperPresentation",
+		"ekaw#Poster_Session"
+	],
+	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
+		"edas#Review",
+		"ekaw#Review"
+	],
+	[
+		"edas#Presenter",
+		"ekaw#Presenter"
+	],
+	[
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"ekaw#Session"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#ActivePaper",
 		"ekaw#Abstract"
 	],
 	[
-		"edas#Organization",
-		"ekaw#Proceedings_Publisher"
+		"edas#Place",
+		"ekaw#Positive_Review"
+	],
+	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#CallForPapers",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"edas#Person",
+		"ekaw#Person"
 	]
 ]

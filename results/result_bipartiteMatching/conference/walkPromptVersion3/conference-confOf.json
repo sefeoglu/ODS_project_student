@@ -1,146 +1,146 @@
 [
 	[
-		"conference#Reviewed_contribution",
-		"confOf#Banquet"
-	],
-	[
 		"conference#Conference",
 		"confOf#Conference"
 	],
 	[
-		"conference#Conference_document",
-		"confOf#Event"
+		"conference#Workshop",
+		"confOf#Workshop"
 	],
 	[
-		"conference#Accepted_contribution",
+		"conference#Paid_applicant",
+		"confOf#Banquet"
+	],
+	[
+		"conference#Conference_www",
 		"confOf#Reception"
 	],
 	[
-		"conference#Rejected_contribution",
-		"confOf#Trip"
+		"conference#Tutorial",
+		"confOf#Tutorial"
 	],
 	[
-		"conference#Regular_author",
+		"conference#Reviewer",
 		"confOf#Company"
 	],
 	[
-		"conference#Co-chair",
+		"conference#Call_for_participation",
+		"confOf#Event"
+	],
+	[
+		"conference#Conference_document",
 		"confOf#Contribution"
 	],
 	[
-		"conference#Chair",
-		"confOf#Social_event"
+		"conference#Presentation",
+		"confOf#Trip"
 	],
 	[
-		"conference#Topic",
-		"confOf#Topic"
+		"conference#Camera_ready_contribution",
+		"confOf#Camera_Ready_event"
+	],
+	[
+		"conference#Conference_applicant",
+		"confOf#Short_paper"
+	],
+	[
+		"conference#Invited_speaker",
+		"confOf#Administrative_event"
+	],
+	[
+		"conference#Paper",
+		"confOf#Paper"
 	],
 	[
 		"conference#Contribution_1th-author",
 		"confOf#Chair_PC"
 	],
 	[
-		"conference#Written_contribution",
-		"confOf#Organization"
-	],
-	[
-		"conference#Program_committee",
-		"confOf#Poster"
-	],
-	[
-		"conference#Conference_participant",
-		"confOf#Registration_of_participants_event"
-	],
-	[
-		"conference#Regular_contribution",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"confOf#Paper"
-	],
-	[
-		"conference#Conference_contribution",
-		"confOf#University"
-	],
-	[
-		"conference#Extended_abstract",
-		"confOf#Person"
-	],
-	[
-		"conference#Committee",
-		"confOf#Administrator"
-	],
-	[
-		"conference#Presentation",
-		"confOf#Short_paper"
-	],
-	[
-		"conference#Call_for_participation",
+		"conference#Conference_volume",
 		"confOf#Scholar"
 	],
 	[
-		"conference#Active_conference_participant",
-		"confOf#Submission_event"
+		"conference#Organizer",
+		"confOf#University"
 	],
 	[
-		"conference#Information_for_participants",
-		"confOf#Tutorial"
-	],
-	[
-		"conference#Registeered_applicant",
-		"confOf#Assistant"
-	],
-	[
-		"conference#Invited_talk",
-		"confOf#Camera_Ready_event"
-	],
-	[
-		"conference#Call_for_paper",
-		"confOf#Author"
-	],
-	[
-		"conference#Conference_announcement",
-		"confOf#Reviewing_event"
-	],
-	[
-		"conference#Review",
-		"confOf#Workshop"
-	],
-	[
-		"conference#Track-workshop_chair",
+		"conference#Review_preference",
 		"confOf#Working_event"
 	],
 	[
-		"conference#Conference_volume",
-		"confOf#Member"
-	],
-	[
-		"conference#Early_paid_applicant",
-		"confOf#Participant"
-	],
-	[
-		"conference#Review_expertise",
-		"confOf#Member_PC"
+		"conference#Active_conference_participant",
+		"confOf#Administrator"
 	],
 	[
 		"conference#Committee_member",
 		"confOf#Volunteer"
 	],
 	[
-		"conference#Reviewer",
-		"confOf#Student"
+		"conference#Conference_part",
+		"confOf#Submission_event"
 	],
 	[
-		"conference#Track",
-		"confOf#Administrative_event"
-	],
-	[
-		"conference#Submitted_contribution",
+		"conference#Rejected_contribution",
 		"confOf#Regular"
 	],
 	[
-		"conference#Invited_speaker",
+		"conference#Written_contribution",
+		"confOf#Reviewing_event"
+	],
+	[
+		"conference#Call_for_paper",
+		"confOf#Author"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"confOf#Member"
+	],
+	[
+		"conference#Accepted_contribution",
 		"confOf#Science_Worker"
+	],
+	[
+		"conference#Contribution_co-author",
+		"confOf#Participant"
+	],
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
+	],
+	[
+		"conference#Program_committee",
+		"confOf#Member_PC"
+	],
+	[
+		"conference#Abstract",
+		"confOf#Student"
+	],
+	[
+		"conference#Information_for_participants",
+		"confOf#Social_event"
+	],
+	[
+		"conference#Track-workshop_chair",
+		"confOf#Reviewing_results_event"
+	],
+	[
+		"conference#Co-chair",
+		"confOf#Assistant"
+	],
+	[
+		"conference#Chair",
+		"confOf#Registration_of_participants_event"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
 	]
 ]

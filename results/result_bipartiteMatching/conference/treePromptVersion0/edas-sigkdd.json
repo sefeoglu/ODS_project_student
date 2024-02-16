@@ -1,23 +1,15 @@
 [
 	[
-		"edas#Place",
-		"sigkdd#Place"
-	],
-	[
-		"edas#MedicineTopic",
-		"sigkdd#Conference"
+		"edas#Document",
+		"sigkdd#Document"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
 	],
 	[
-		"edas#OperatingTopicsystems",
-		"sigkdd#Paper"
-	],
-	[
-		"edas#SessionChair",
-		"sigkdd#Person"
+		"edas#Review",
+		"sigkdd#Review"
 	],
 	[
 		"edas#Presenter",
@@ -28,11 +20,19 @@
 		"sigkdd#Sponzor"
 	],
 	[
-		"edas#PersonalReviewHistory",
-		"sigkdd#Review"
+		"edas#Paper",
+		"sigkdd#Paper"
 	],
 	[
-		"edas#WithdrawnPaper",
-		"sigkdd#Document"
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"edas#Person",
+		"sigkdd#Person"
 	]
 ]

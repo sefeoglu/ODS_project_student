@@ -1,35 +1,35 @@
 [
 	[
-		"edas#Conference",
-		"sigkdd#Conference"
+		"edas#Document",
+		"sigkdd#Document"
 	],
 	[
-		"edas#ComputerNetworksEnterpriseTopic",
+		"edas#Paper",
 		"sigkdd#Paper"
-	],
-	[
-		"edas#Presenter",
-		"sigkdd#Speaker"
-	],
-	[
-		"edas#Place",
-		"sigkdd#Place"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"sigkdd#Abstract"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
 	],
 	[
-		"edas#Document",
-		"sigkdd#Document"
+		"edas#WithdrawnPaper",
+		"sigkdd#Abstract"
+	],
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"edas#Review",
 		"sigkdd#Review"
+	],
+	[
+		"edas#Presenter",
+		"sigkdd#Speaker"
 	],
 	[
 		"edas#Person",

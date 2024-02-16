@@ -4,20 +4,16 @@
 		"edas#Conference"
 	],
 	[
-		"conference#Organization",
-		"edas#Organization"
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Reviewer",
 		"edas#Reviewer"
 	],
 	[
-		"conference#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
 		"conference#Review",
@@ -28,7 +24,11 @@
 		"edas#Paper"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
 	]
 ]

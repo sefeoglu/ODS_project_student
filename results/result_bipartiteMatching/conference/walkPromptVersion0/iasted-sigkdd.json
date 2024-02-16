@@ -1,90 +1,90 @@
 [
 	[
-		"iasted#Hotel_presenter",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"iasted#Worker_non_speaker",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Initial_manuscipt",
-		"sigkdd#Paper"
-	],
-	[
-		"iasted#Building",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Student_non_speaker",
-		"sigkdd#Listener"
-	],
-	[
-		"iasted#Conference_hotel",
-		"sigkdd#Hotel"
-	],
-	[
-		"iasted#IASTED_non_member",
-		"sigkdd#Sponzor"
-	],
-	[
-		"iasted#Author_cd_proceedings_included",
-		"sigkdd#Author"
-	],
-	[
-		"iasted#Brief_introduction_for_Session_chair",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Activity_before_conference",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"iasted#PowerPoint_presentation",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Fee_for_extra_trip",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Nonauthor_registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Author_attendee_book_registration_fee",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"iasted#Technical_commitee",
-		"sigkdd#Organizator"
-	],
-	[
-		"iasted#Deadline_hotel_reservation",
-		"sigkdd#Deadline"
-	],
-	[
 		"iasted#Review",
 		"sigkdd#Review"
 	],
 	[
-		"iasted#Time",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
+		"iasted#Publication",
+		"sigkdd#Paper"
 	],
 	[
 		"iasted#Main_office",
 		"sigkdd#Main_office"
 	],
 	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Hotel_presenter",
+		"sigkdd#Exhibitor"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#PowerPoint_presentation",
+		"sigkdd#Best_Applications_Paper_Award"
+	],
+	[
+		"iasted#Fee_for_extra_trip",
+		"sigkdd#Hotel"
+	],
+	[
+		"iasted#Sponsor",
+		"sigkdd#Sponzor"
+	],
+	[
+		"iasted#Author_attendee_book_registration_fee",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"iasted#Activity_before_conference",
+		"sigkdd#Deadline_Abstract_Submission"
+	],
+	[
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Time",
+		"sigkdd#Deadline_Paper_Submission"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
+	],
+	[
 		"iasted#Author_book_proceedings_included",
 		"sigkdd#Author_of_paper"
+	],
+	[
+		"iasted#Technical_commitee",
+		"sigkdd#Organizator"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
 	]
 ]

@@ -1,95 +1,95 @@
 [
 	[
-		"iasted#Initial_manuscipt",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Video_presentation",
+		"iasted#Coffee_break",
 		"sigkdd#Conference"
 	],
 	[
-		"iasted#Building",
-		"sigkdd#Hotel"
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
 	],
 	[
-		"iasted#Registration_form",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Registration",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"iasted#Conference_days",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"iasted#Receiving_manuscript",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Session_chair",
-		"sigkdd#Person"
+		"iasted#Document",
+		"sigkdd#Document"
 	],
 	[
 		"iasted#Author",
 		"sigkdd#Author"
 	],
 	[
-		"iasted#Presenter_city",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Author_attendee_cd_registration_fee",
-		"sigkdd#Registration_fee"
+		"iasted#Building",
+		"sigkdd#Hotel"
 	],
 	[
 		"iasted#Listener",
 		"sigkdd#Listener"
 	],
 	[
-		"iasted#Coctail_reception",
-		"sigkdd#Main_office"
+		"iasted#Final_manuscript",
+		"sigkdd#Paper"
 	],
 	[
-		"iasted#Student_non_speaker",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"iasted#Technical_commitee",
-		"sigkdd#Committee"
-	],
-	[
-		"iasted#Review",
-		"sigkdd#Review"
-	],
-	[
-		"iasted#Money",
-		"sigkdd#Award"
-	],
-	[
-		"iasted#Author_book_proceedings_included",
-		"sigkdd#Speaker"
+		"iasted#Fee",
+		"sigkdd#Fee"
 	],
 	[
 		"iasted#Plenary_lecture_speaker",
 		"sigkdd#Author_of_paper"
 	],
 	[
-		"iasted#Presentation",
-		"sigkdd#Invited_Speaker"
+		"iasted#Review",
+		"sigkdd#Review"
 	],
 	[
-		"iasted#Final_manuscript",
-		"sigkdd#Paper"
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Student_non_speaker",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"iasted#Presentation",
+		"sigkdd#Invited_Speaker"
 	],
 	[
 		"iasted#Session",
 		"sigkdd#Program_Chair"
 	],
 	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Technical_commitee",
+		"sigkdd#Committee"
+	],
+	[
 		"iasted#Mailing_list",
 		"sigkdd#Sponzor"
+	],
+	[
+		"iasted#Money",
+		"sigkdd#Award"
+	],
+	[
+		"iasted#Conference_days",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
 	],
 	[
 		"iasted#Sponsor",

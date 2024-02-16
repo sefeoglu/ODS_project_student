@@ -1,38 +1,38 @@
 [
 	[
-		"cmt#Document",
-		"iasted#Document"
-	],
-	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Review",
+		"iasted#Review"
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"iasted#Session_chair"
 	],
 	[
-		"cmt#Paper",
-		"iasted#Initial_manuscipt"
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
-		"cmt#Author",
-		"iasted#Author"
+		"cmt#Paper",
+		"iasted#Initial_manuscipt"
 	],
 	[
 		"cmt#Chairman",
 		"iasted#Plenary_lecture"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
-	],
-	[
-		"cmt#Review",
-		"iasted#Review"
-	],
-	[
 		"cmt#Conference",
 		"iasted#Presenter_city"
+	],
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
 	]
 ]

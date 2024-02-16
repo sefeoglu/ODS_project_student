@@ -1,50 +1,50 @@
 [
 	[
-		"cmt#Document",
-		"conference#Written_contribution"
+		"cmt#Rejection",
+		"conference#Rejected_contribution"
 	],
 	[
-		"cmt#Bid",
+		"cmt#Review",
 		"conference#Review"
-	],
-	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"conference#Chair"
 	],
 	[
-		"cmt#Rejection",
-		"conference#Rejected_contribution"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"conference#Person"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
-		"cmt#User",
+		"cmt#ProgramCommittee",
 		"conference#Program_committee"
+	],
+	[
+		"cmt#Person",
+		"conference#Person"
 	],
 	[
 		"cmt#ExternalReviewer",
 		"conference#Conference_participant"
 	],
 	[
-		"cmt#Chairman",
-		"conference#Committee"
-	],
-	[
 		"cmt#PaperAbstract",
 		"conference#Abstract"
 	],
 	[
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Chairman",
+		"conference#Committee"
+	],
+	[
 		"cmt#Conference",
 		"conference#Conference"
+	],
+	[
+		"cmt#Document",
+		"conference#Written_contribution"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	]
 ]

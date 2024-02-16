@@ -1,9 +1,5 @@
 [
 	[
-		"confOf#Person",
-		"iasted#Person"
-	],
-	[
 		"confOf#City",
 		"iasted#City"
 	],
@@ -14,5 +10,9 @@
 	[
 		"confOf#Author",
 		"iasted#Author"
+	],
+	[
+		"confOf#Person",
+		"iasted#Person"
 	]
 ]

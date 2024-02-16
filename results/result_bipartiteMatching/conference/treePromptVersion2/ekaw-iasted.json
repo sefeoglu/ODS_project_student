@@ -1,54 +1,54 @@
 [
 	[
-		"ekaw#Tutorial",
-		"iasted#Tutorial"
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
 	],
 	[
-		"ekaw#Contributed_Talk",
+		"ekaw#Workshop_Paper",
+		"iasted#Lecturer"
+	],
+	[
+		"ekaw#Academic_Institution",
 		"iasted#Submission"
-	],
-	[
-		"ekaw#Rejected_Paper",
-		"iasted#Fee"
 	],
 	[
 		"ekaw#Early-Registered_Participant",
 		"iasted#Worker_non_speaker"
 	],
 	[
-		"ekaw#Poster_Session",
+		"ekaw#Poster_Paper",
 		"iasted#Fee_for_extra_trip"
 	],
 	[
-		"ekaw#University",
-		"iasted#Lecturer"
+		"ekaw#Industrial_Session",
+		"iasted#Fee"
 	],
 	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
+		"ekaw#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
-		"ekaw#Document",
-		"iasted#Document"
-	],
-	[
-		"ekaw#Positive_Review",
-		"iasted#Trip_day"
+		"ekaw#Presenter",
+		"iasted#Video_cassette_player"
 	],
 	[
 		"ekaw#Review",
 		"iasted#Review"
 	],
 	[
+		"ekaw#Positive_Review",
+		"iasted#Trip_day"
+	],
+	[
 		"ekaw#Session",
 		"iasted#Session"
 	],
 	[
-		"ekaw#Person",
-		"iasted#Person"
+		"ekaw#Document",
+		"iasted#Document"
 	],
 	[
-		"ekaw#Presenter",
-		"iasted#Video_cassette_player"
+		"ekaw#Person",
+		"iasted#Person"
 	]
 ]

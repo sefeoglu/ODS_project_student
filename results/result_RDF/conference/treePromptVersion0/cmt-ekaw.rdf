@@ -8,7 +8,7 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ProgramCommitteeChair"/>
+      <entity1 rdf:resource="http://cmt#Person"/>
       <entity2 rdf:resource="http://ekaw#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -16,24 +16,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Meta-Reviewer"/>
-      <entity2 rdf:resource="http://ekaw#Conference_Session"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Co-author"/>
+      <entity1 rdf:resource="http://cmt#Paper"/>
       <entity2 rdf:resource="http://ekaw#Paper"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Decision"/>
-      <entity2 rdf:resource="http://ekaw#Event"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -48,24 +32,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ProgramCommittee"/>
-      <entity2 rdf:resource="http://ekaw#Organisation"/>
+      <entity1 rdf:resource="http://cmt#PaperAbstract"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Proceedings"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ConferenceChair"/>
+      <entity1 rdf:resource="http://cmt#ExternalReviewer"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Conference"/>
       <entity2 rdf:resource="http://ekaw#Conference"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Review"/>
-      <entity2 rdf:resource="http://ekaw#Review"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -80,8 +64,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#PaperAbstract"/>
-      <entity2 rdf:resource="http://ekaw#Conference_Proceedings"/>
+      <entity1 rdf:resource="http://cmt#Decision"/>
+      <entity2 rdf:resource="http://ekaw#Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Review"/>
+      <entity2 rdf:resource="http://ekaw#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#ProgramCommittee"/>
+      <entity2 rdf:resource="http://ekaw#Organisation"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

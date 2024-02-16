@@ -8,22 +8,6 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Organizing_committee"/>
-      <entity2 rdf:resource="http://sigkdd#Organizing_Committee"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Paper"/>
-      <entity2 rdf:resource="http://sigkdd#Paper"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://conference#Conference"/>
       <entity2 rdf:resource="http://sigkdd#Conference"/>
       <relation>=</relation>
@@ -32,15 +16,15 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Committee"/>
-      <entity2 rdf:resource="http://sigkdd#Committee"/>
+      <entity1 rdf:resource="http://conference#Organizing_committee"/>
+      <entity2 rdf:resource="http://sigkdd#Organizing_Committee"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Steering_committee"/>
+      <entity1 rdf:resource="http://conference#Program_committee"/>
       <entity2 rdf:resource="http://sigkdd#Program_Committee"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -50,6 +34,22 @@
     <Cell>
       <entity1 rdf:resource="http://conference#Abstract"/>
       <entity2 rdf:resource="http://sigkdd#Abstract"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://conference#Committee"/>
+      <entity2 rdf:resource="http://sigkdd#Committee"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,8 +72,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <entity1 rdf:resource="http://conference#Paper"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

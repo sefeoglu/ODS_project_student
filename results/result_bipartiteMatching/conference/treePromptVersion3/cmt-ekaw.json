@@ -1,59 +1,59 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#Event"
-	],
-	[
 		"cmt#Person",
 		"ekaw#Person"
-	],
-	[
-		"cmt#Administrator",
-		"ekaw#Conference_Participant"
-	],
-	[
-		"cmt#Co-author",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"cmt#AssociatedChair",
-		"ekaw#Positive_Review"
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Paper"
 	],
 	[
+		"cmt#Meta-Review",
+		"ekaw#Rejected_Paper"
+	],
+	[
 		"cmt#ConferenceMember",
 		"ekaw#Accepted_Paper"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"ekaw#Industrial_Paper"
+		"cmt#Rejection",
+		"ekaw#Event"
 	],
 	[
-		"cmt#ExternalReviewer",
+		"cmt#Acceptance",
 		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"cmt#PaperAbstract",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"cmt#AssociatedChair",
+		"ekaw#Positive_Review"
+	],
+	[
+		"cmt#Bid",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"ekaw#Industrial_Session"
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Session"
 	],
 	[
-		"cmt#Review",
-		"ekaw#Review"
+		"cmt#ProgramCommitteeChair",
+		"ekaw#Conference_Trip"
 	],
 	[
-		"cmt#Document",
-		"ekaw#Document"
+		"cmt#Administrator",
+		"ekaw#Conference_Participant"
 	],
 	[
-		"cmt#Bid",
-		"ekaw#Workshop_Paper"
+		"cmt#ExternalReviewer",
+		"ekaw#Evaluated_Paper"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -61,50 +61,50 @@
 	],
 	[
 		"cmt#User",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Poster_Session"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Paper_Author"
+		"ekaw#Research_Topic"
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"ekaw#Industrial_Session"
-	],
-	[
-		"cmt#Acceptance",
-		"ekaw#Tutorial_Abstract"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Session"
+		"cmt#Document",
+		"ekaw#Document"
 	],
 	[
 		"cmt#Author",
 		"ekaw#Regular_Session"
 	],
 	[
-		"cmt#Chairman",
-		"ekaw#Abstract"
-	],
-	[
-		"cmt#Rejection",
-		"ekaw#Assigned_Paper"
+		"cmt#Reviewer",
+		"ekaw#Industrial_Paper"
 	],
 	[
 		"cmt#Decision",
 		"ekaw#Demo_Session"
 	],
 	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"ekaw#Session"
+	],
+	[
+		"cmt#Chairman",
+		"ekaw#Abstract"
+	],
+	[
 		"cmt#Meta-Reviewer",
 		"ekaw#Submitted_Paper"
+	],
+	[
+		"cmt#Co-author",
+		"ekaw#Paper_Author"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"ekaw#Regular_Paper"
 	]
 ]

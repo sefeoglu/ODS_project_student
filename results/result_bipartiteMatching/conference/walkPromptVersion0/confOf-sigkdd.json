@@ -1,15 +1,11 @@
 [
 	[
-		"confOf#Person",
-		"sigkdd#Person"
+		"confOf#Student",
+		"sigkdd#Registration_Student"
 	],
 	[
-		"confOf#Poster",
-		"sigkdd#Document"
-	],
-	[
-		"confOf#Author",
-		"sigkdd#Author"
+		"confOf#Member_PC",
+		"sigkdd#Committee"
 	],
 	[
 		"confOf#Organization",
@@ -20,31 +16,35 @@
 		"sigkdd#Conference"
 	],
 	[
-		"confOf#Short_paper",
-		"sigkdd#Paper"
+		"confOf#Member",
+		"sigkdd#Organizator"
+	],
+	[
+		"confOf#Person",
+		"sigkdd#Person"
 	],
 	[
 		"confOf#Reviewing_event",
 		"sigkdd#Review"
 	],
 	[
-		"confOf#Member_PC",
-		"sigkdd#Committee"
+		"confOf#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"confOf#Author",
+		"sigkdd#Author"
+	],
+	[
+		"confOf#Event",
+		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
 		"confOf#Chair_PC",
 		"sigkdd#Program_Committee"
 	],
 	[
-		"confOf#Student",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"confOf#Member",
-		"sigkdd#Organizator"
-	],
-	[
-		"confOf#Event",
-		"sigkdd#Best_Applications_Paper_Award"
+		"confOf#Poster",
+		"sigkdd#Document"
 	]
 ]

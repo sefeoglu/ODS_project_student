@@ -1,51 +1,55 @@
 [
 	[
-		"cmt#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"ekaw#Positive_Review"
-	],
-	[
 		"cmt#Person",
 		"ekaw#Person"
 	],
 	[
-		"cmt#Co-author",
-		"ekaw#Accepted_Paper"
+		"cmt#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Event"
 	],
 	[
+		"cmt#ConferenceMember",
+		"ekaw#Evaluated_Paper"
+	],
+	[
+		"cmt#Rejection",
+		"ekaw#Accepted_Paper"
+	],
+	[
+		"cmt#Acceptance",
+		"ekaw#Positive_Review"
+	],
+	[
+		"cmt#PaperAbstract",
+		"ekaw#Conference_Paper"
+	],
+	[
 		"cmt#AssociatedChair",
 		"ekaw#Conference_Session"
 	],
 	[
-		"cmt#Decision",
-		"ekaw#Evaluated_Paper"
+		"cmt#AuthorNotReviewer",
+		"ekaw#Rejected_Paper"
 	],
 	[
-		"cmt#ConferenceMember",
+		"cmt#ConferenceChair",
 		"ekaw#Industrial_Session"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#Neutral_Review"
+	],
+	[
+		"cmt#Administrator",
+		"ekaw#Demo_Session"
 	],
 	[
 		"cmt#ExternalReviewer",
 		"ekaw#Industrial_Paper"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#Abstract"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Review"
-	],
-	[
-		"cmt#Document",
-		"ekaw#Document"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -56,47 +60,43 @@
 		"ekaw#Workshop_Paper"
 	],
 	[
-		"cmt#PaperAbstract",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
 		"cmt#Conference",
 		"ekaw#Conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"cmt#Acceptance",
-		"ekaw#Demo_Session"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Conference_Trip"
+		"cmt#Document",
+		"ekaw#Document"
 	],
 	[
 		"cmt#Author",
 		"ekaw#Paper_Author"
 	],
 	[
+		"cmt#Reviewer",
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"cmt#Decision",
+		"ekaw#Regular_Session"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
 		"cmt#Chairman",
+		"ekaw#Abstract"
+	],
+	[
+		"cmt#Meta-Reviewer",
 		"ekaw#Conference_Participant"
 	],
 	[
-		"cmt#Rejection",
+		"cmt#Co-author",
 		"ekaw#Session"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#Neutral_Review"
-	],
-	[
-		"cmt#Administrator",
-		"ekaw#Submitted_Paper"
+		"cmt#PaperFullVersion",
+		"ekaw#Conference_Trip"
 	]
 ]

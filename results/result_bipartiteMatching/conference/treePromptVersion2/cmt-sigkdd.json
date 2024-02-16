@@ -1,27 +1,19 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Abstract"
+		"cmt#Person",
+		"sigkdd#Person"
 	],
 	[
 		"cmt#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"sigkdd#Program_Committee"
+		"cmt#Meta-Review",
+		"sigkdd#Abstract"
 	],
 	[
-		"cmt#Person",
-		"sigkdd#Person"
-	],
-	[
-		"cmt#Review",
-		"sigkdd#Review"
-	],
-	[
-		"cmt#Document",
-		"sigkdd#Document"
+		"cmt#AuthorNotReviewer",
+		"sigkdd#Registration_Non-Member"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -32,11 +24,19 @@
 		"sigkdd#Conference"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"sigkdd#Registration_Non-Member"
+		"cmt#Document",
+		"sigkdd#Document"
 	],
 	[
 		"cmt#Author",
 		"sigkdd#Author"
+	],
+	[
+		"cmt#Review",
+		"sigkdd#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"sigkdd#Program_Committee"
 	]
 ]

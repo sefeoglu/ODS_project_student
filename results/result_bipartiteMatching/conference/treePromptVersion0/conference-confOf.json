@@ -1,78 +1,78 @@
 [
 	[
-		"conference#Reviewed_contribution",
-		"confOf#Contribution"
-	],
-	[
-		"conference#Important_dates",
+		"conference#Conference",
 		"confOf#Conference"
-	],
-	[
-		"conference#Written_contribution",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"conference#Chair",
-		"confOf#Chair_PC"
-	],
-	[
-		"conference#Topic",
-		"confOf#Topic"
-	],
-	[
-		"conference#Contribution_1th-author",
-		"confOf#Author"
-	],
-	[
-		"conference#Conference_participant",
-		"confOf#Registration_of_participants_event"
-	],
-	[
-		"conference#Committee",
-		"confOf#Event"
-	],
-	[
-		"conference#Conference_contribution",
-		"confOf#Poster"
-	],
-	[
-		"conference#Review",
-		"confOf#Reviewing_event"
 	],
 	[
 		"conference#Workshop",
 		"confOf#Workshop"
 	],
 	[
-		"conference#Submitted_contribution",
-		"confOf#Camera_Ready_event"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
-	],
-	[
 		"conference#Tutorial",
 		"confOf#Tutorial"
 	],
 	[
-		"conference#Organization",
-		"confOf#Organization"
+		"conference#Reviewer",
+		"confOf#Reviewing_results_event"
 	],
 	[
-		"conference#Organizer",
-		"confOf#Member"
+		"conference#Call_for_participation",
+		"confOf#Event"
 	],
 	[
 		"conference#Paper",
 		"confOf#Paper"
 	],
 	[
+		"conference#Contribution_1th-author",
+		"confOf#Author"
+	],
+	[
+		"conference#Organizer",
+		"confOf#Member"
+	],
+	[
+		"conference#Review_preference",
+		"confOf#Reviewing_event"
+	],
+	[
+		"conference#Active_conference_participant",
+		"confOf#Contribution"
+	],
+	[
 		"conference#Rejected_contribution",
 		"confOf#Submission_event"
 	],
 	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
+	],
+	[
+		"conference#Information_for_participants",
+		"confOf#Registration_of_participants_event"
+	],
+	[
+		"conference#Chair",
+		"confOf#Chair_PC"
+	],
+	[
 		"conference#Regular_contribution",
 		"confOf#Regular"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
+	],
+	[
+		"conference#Submitted_contribution",
+		"confOf#Camera_Ready_event"
 	]
 ]

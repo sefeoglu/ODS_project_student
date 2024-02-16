@@ -1,118 +1,118 @@
 [
 	[
-		"conference#Invited_talk",
-		"edas#ConferenceEvent"
-	],
-	[
 		"conference#Conference",
 		"edas#Conference"
-	],
-	[
-		"conference#Conference_document",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Accepted_contribution",
-		"edas#ReviewRating"
-	],
-	[
-		"conference#Rejected_contribution",
-		"edas#RejectRating"
-	],
-	[
-		"conference#Regular_author",
-		"edas#Person"
-	],
-	[
-		"conference#Chair",
-		"edas#SingleLevelConference"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Written_contribution",
-		"edas#RadioCommunicationsTopic"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#PaperPresentation"
-	],
-	[
-		"conference#Regular_contribution",
-		"edas#Paper"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#CommunicationsTopic"
-	],
-	[
-		"conference#Extended_abstract",
-		"edas#ComputerNetworksManagementTopic"
-	],
-	[
-		"conference#Committee",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Presentation",
-		"edas#TalkEvent"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#Document"
-	],
-	[
-		"conference#Publisher",
-		"edas#TwoLevelConference"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#Attendee"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#Author"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#Call"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
-	],
-	[
-		"conference#Poster",
-		"edas#ConferenceSession"
-	],
-	[
-		"conference#Review_expertise",
-		"edas#ReviewQuestion"
-	],
-	[
-		"conference#Reviewer",
-		"edas#Reviewer"
 	],
 	[
 		"conference#Workshop",
 		"edas#Workshop"
 	],
 	[
+		"conference#Paid_applicant",
+		"edas#ConferenceEvent"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
 		"conference#Tutorial",
-		"edas#CryptographyTopic"
+		"edas#Document"
+	],
+	[
+		"conference#Information_for_participants",
+		"edas#AcademicEvent"
+	],
+	[
+		"conference#Conference_document",
+		"edas#CallForPapers"
+	],
+	[
+		"conference#Publisher",
+		"edas#TwoLevelConference"
+	],
+	[
+		"conference#Conference_contribution",
+		"edas#CommunicationsTopic"
+	],
+	[
+		"conference#Camera_ready_contribution",
+		"edas#AcceptedPaper"
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#ConferenceSession"
+	],
+	[
+		"conference#Paper",
+		"edas#Paper"
+	],
+	[
+		"conference#Active_conference_participant",
+		"edas#Attendee"
+	],
+	[
+		"conference#Rejected_contribution",
+		"edas#RejectRating"
+	],
+	[
+		"conference#Written_contribution",
+		"edas#RadioCommunicationsTopic"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#Author"
+	],
+	[
+		"conference#Accepted_contribution",
+		"edas#ReviewRating"
 	],
 	[
 		"conference#Organization",
 		"edas#Organization"
 	],
 	[
+		"conference#Conference_announcement",
+		"edas#Call"
+	],
+	[
+		"conference#Review_expertise",
+		"edas#ReviewQuestion"
+	],
+	[
+		"conference#Committee",
+		"edas#SingleLevelConference"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Extended_abstract",
+		"edas#ComputerNetworksManagementTopic"
+	],
+	[
 		"conference#Reviewed_contribution",
 		"edas#AcceptRating"
+	],
+	[
+		"conference#Conference_participant",
+		"edas#PaperPresentation"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#CallForManuscripts"
+	],
+	[
+		"conference#Presentation",
+		"edas#TalkEvent"
 	]
 ]

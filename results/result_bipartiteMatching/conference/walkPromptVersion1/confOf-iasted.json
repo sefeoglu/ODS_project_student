@@ -1,39 +1,39 @@
 [
 	[
-		"confOf#Person",
-		"iasted#Person"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Banquet",
+		"iasted#Social_program"
 	],
 	[
 		"confOf#Conference",
 		"iasted#Introduction_of_speaker"
 	],
 	[
-		"confOf#Banquet",
-		"iasted#Social_program"
+		"confOf#Working_event",
+		"iasted#Conference_activity"
+	],
+	[
+		"confOf#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"confOf#Person",
+		"iasted#Person"
 	],
 	[
 		"confOf#Reviewing_results_event",
 		"iasted#Camera_ready_manuscript_deadline"
 	],
 	[
-		"confOf#Working_event",
-		"iasted#Conference_activity"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#Event",
 		"iasted#Submissions_deadline"
+	],
+	[
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Registration_of_participants_event",

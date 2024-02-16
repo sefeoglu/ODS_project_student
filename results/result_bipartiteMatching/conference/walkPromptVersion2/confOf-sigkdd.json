@@ -1,18 +1,18 @@
 [
 	[
-		"confOf#Person",
-		"sigkdd#Person"
-	],
-	[
 		"confOf#Paper",
 		"sigkdd#Paper"
+	],
+	[
+		"confOf#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"confOf#Author",
 		"sigkdd#Author"
 	],
 	[
-		"confOf#Conference",
-		"sigkdd#Conference"
+		"confOf#Person",
+		"sigkdd#Person"
 	]
 ]

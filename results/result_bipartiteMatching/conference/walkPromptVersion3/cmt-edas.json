@@ -1,51 +1,55 @@
 [
 	[
+		"cmt#Person",
+		"edas#Person"
+	],
+	[
 		"cmt#Paper",
 		"edas#Paper"
-	],
-	[
-		"cmt#Review",
-		"edas#Review"
-	],
-	[
-		"cmt#Administrator",
-		"edas#Topic"
-	],
-	[
-		"cmt#Co-author",
-		"edas#Call"
 	],
 	[
 		"cmt#Meta-Review",
 		"edas#ReviewRating"
 	],
 	[
+		"cmt#ConferenceMember",
+		"edas#PersonalHistory"
+	],
+	[
+		"cmt#Rejection",
+		"edas#MultimediaTopic"
+	],
+	[
+		"cmt#Acceptance",
+		"edas#ConferenceEvent"
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#Topic"
+	],
+	[
 		"cmt#AssociatedChair",
 		"edas#SlideSet"
 	],
 	[
-		"cmt#Decision",
-		"edas#Programme"
-	],
-	[
-		"cmt#Conference",
-		"edas#Conference"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#Sponsorship"
-	],
-	[
-		"cmt#Person",
-		"edas#Person"
+		"cmt#AuthorNotReviewer",
+		"edas#Place"
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceChair"
 	],
 	[
-		"cmt#Document",
-		"edas#Document"
+		"cmt#ProgramCommitteeChair",
+		"edas#Call"
+	],
+	[
+		"cmt#Administrator",
+		"edas#AcceptRating"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"edas#Programme"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -56,47 +60,43 @@
 		"edas#ParallelAndDistributedComputingTopic"
 	],
 	[
-		"cmt#PaperAbstract",
-		"edas#ConferenceEvent"
+		"cmt#Conference",
+		"edas#Conference"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"edas#BreakEvent"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#PersonalHistory"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#Organization"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
+		"cmt#Document",
+		"edas#Document"
 	],
 	[
 		"cmt#Author",
 		"edas#Author"
 	],
 	[
+		"cmt#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"cmt#Decision",
+		"edas#WeekRejectRating"
+	],
+	[
+		"cmt#Review",
+		"edas#Review"
+	],
+	[
 		"cmt#Chairman",
-		"edas#RejectRating"
-	],
-	[
-		"cmt#Rejection",
-		"edas#MultimediaTopic"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"edas#WirelessCommunicationsTopic"
+		"edas#Organization"
 	],
 	[
 		"cmt#Meta-Reviewer",
-		"edas#Place"
+		"edas#WirelessCommunicationsTopic"
 	],
 	[
-		"cmt#ConferenceMember",
-		"edas#ComputerNetworksTopic"
+		"cmt#Co-author",
+		"edas#BreakEvent"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"edas#MicroelectronicsTopic"
 	]
 ]

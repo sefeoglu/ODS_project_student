@@ -8,15 +8,15 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ProgramCommitteeChair"/>
-      <entity2 rdf:resource="http://iasted#Building"/>
+      <entity1 rdf:resource="http://cmt#Person"/>
+      <entity2 rdf:resource="http://iasted#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Meta-Reviewer"/>
+      <entity1 rdf:resource="http://cmt#Paper"/>
       <entity2 rdf:resource="http://iasted#Presenter_house"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -24,48 +24,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Administrator"/>
-      <entity2 rdf:resource="http://iasted#Delegate"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Co-author"/>
-      <entity2 rdf:resource="http://iasted#Presenter_state"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://cmt#Meta-Review"/>
-      <entity2 rdf:resource="http://iasted#Form"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#AssociatedChair"/>
-      <entity2 rdf:resource="http://iasted#Deadline_hotel_reservation"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Decision"/>
-      <entity2 rdf:resource="http://iasted#Transport_vehicle"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Document"/>
-      <entity2 rdf:resource="http://iasted#Document"/>
+      <entity2 rdf:resource="http://iasted#Delegate"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -80,16 +40,40 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ExternalReviewer"/>
-      <entity2 rdf:resource="http://iasted#Car"/>
+      <entity1 rdf:resource="http://cmt#Rejection"/>
+      <entity2 rdf:resource="http://iasted#Presenter_city"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Person"/>
-      <entity2 rdf:resource="http://iasted#Person"/>
+      <entity1 rdf:resource="http://cmt#Acceptance"/>
+      <entity2 rdf:resource="http://iasted#Presenter_state"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#PaperAbstract"/>
+      <entity2 rdf:resource="http://iasted#Mailing_list"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#AssociatedChair"/>
+      <entity2 rdf:resource="http://iasted#Deadline_hotel_reservation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#AuthorNotReviewer"/>
+      <entity2 rdf:resource="http://iasted#Activity"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -97,15 +81,31 @@
   <map>
     <Cell>
       <entity1 rdf:resource="http://cmt#ConferenceChair"/>
-      <entity2 rdf:resource="http://iasted#Social_program"/>
+      <entity2 rdf:resource="http://iasted#Form"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Review"/>
-      <entity2 rdf:resource="http://iasted#Review"/>
+      <entity1 rdf:resource="http://cmt#ProgramCommitteeChair"/>
+      <entity2 rdf:resource="http://iasted#Building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Administrator"/>
+      <entity2 rdf:resource="http://iasted#Renting"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#ExternalReviewer"/>
+      <entity2 rdf:resource="http://iasted#Car"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -128,22 +128,6 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#PaperAbstract"/>
-      <entity2 rdf:resource="http://iasted#Mailing_list"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#PaperFullVersion"/>
-      <entity2 rdf:resource="http://iasted#Submissions_deadline"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://cmt#Conference"/>
       <entity2 rdf:resource="http://iasted#Activity_before_conference"/>
       <relation>=</relation>
@@ -152,24 +136,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#AuthorNotReviewer"/>
-      <entity2 rdf:resource="http://iasted#Activity"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Acceptance"/>
-      <entity2 rdf:resource="http://iasted#Presentation"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Reviewer"/>
-      <entity2 rdf:resource="http://iasted#Reviewer"/>
+      <entity1 rdf:resource="http://cmt#Document"/>
+      <entity2 rdf:resource="http://iasted#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -184,6 +152,30 @@
   </map>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://cmt#Reviewer"/>
+      <entity2 rdf:resource="http://iasted#Reviewer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Decision"/>
+      <entity2 rdf:resource="http://iasted#Transport_vehicle"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Review"/>
+      <entity2 rdf:resource="http://iasted#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://cmt#Chairman"/>
       <entity2 rdf:resource="http://iasted#PowerPoint_presentation"/>
       <relation>=</relation>
@@ -192,16 +184,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Rejection"/>
-      <entity2 rdf:resource="http://iasted#Presenter_city"/>
+      <entity1 rdf:resource="http://cmt#Meta-Reviewer"/>
+      <entity2 rdf:resource="http://iasted#Deadline"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Paper"/>
-      <entity2 rdf:resource="http://iasted#Simulating"/>
+      <entity1 rdf:resource="http://cmt#Co-author"/>
+      <entity2 rdf:resource="http://iasted#One_day_presenter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#PaperFullVersion"/>
+      <entity2 rdf:resource="http://iasted#Submissions_deadline"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

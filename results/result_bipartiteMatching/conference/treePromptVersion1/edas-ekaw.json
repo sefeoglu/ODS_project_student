@@ -1,71 +1,19 @@
 [
 	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"ekaw#Conference"
-	],
-	[
-		"edas#TwoLevelConference",
-		"ekaw#Paper"
-	],
-	[
-		"edas#Author",
-		"ekaw#Invited_Speaker"
+		"edas#Document",
+		"ekaw#Document"
 	],
 	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
 	],
 	[
+		"edas#Author",
+		"ekaw#Invited_Speaker"
+	],
+	[
 		"edas#SessionChair",
 		"ekaw#Session_Chair"
-	],
-	[
-		"edas#Presenter",
-		"ekaw#Presenter"
-	],
-	[
-		"edas#AcademicEvent",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#ComputerNetworksSwitchingTopic",
-		"ekaw#Conference_Session"
-	],
-	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
-		"edas#Person",
-		"ekaw#Person"
-	],
-	[
-		"edas#MealEvent",
-		"ekaw#Event"
-	],
-	[
-		"edas#Review",
-		"ekaw#Review"
-	],
-	[
-		"edas#TalkEvent",
-		"ekaw#Invited_Talk"
-	],
-	[
-		"edas#PaperPresentation",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"edas#AntennasTopic",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"edas#ConferenceDinner",
-		"ekaw#Late-Registered_Participant"
 	],
 	[
 		"edas#AcceptedPaper",
@@ -76,11 +24,63 @@
 		"ekaw#Possible_Reviewer"
 	],
 	[
-		"edas#ConferenceChair",
-		"ekaw#Workshop_Chair"
+		"edas#MealBreak",
+		"ekaw#Event"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
+	],
+	[
+		"edas#PaperPresentation",
+		"ekaw#Evaluated_Paper"
+	],
+	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
+		"edas#Review",
+		"ekaw#Review"
+	],
+	[
+		"edas#Presenter",
+		"ekaw#Presenter"
+	],
+	[
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#AntennasTopic",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"edas#TalkEvent",
+		"ekaw#Invited_Talk"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#ConferenceEvent",
 		"ekaw#Conference_Banquet"
+	],
+	[
+		"edas#ConferenceChair",
+		"ekaw#Workshop_Chair"
+	],
+	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#Person",
+		"ekaw#Person"
+	],
+	[
+		"edas#ConferenceDinner",
+		"ekaw#Late-Registered_Participant"
 	]
 ]

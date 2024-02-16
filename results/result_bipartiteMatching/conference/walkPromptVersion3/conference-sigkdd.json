@@ -1,195 +1,195 @@
 [
 	[
-		"conference#Reviewed_contribution",
-		"sigkdd#Document"
-	],
-	[
 		"conference#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"conference#Conference_document",
-		"sigkdd#Place"
+		"conference#Early_paid_applicant",
+		"sigkdd#Document"
 	],
 	[
-		"conference#Accepted_contribution",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"conference#Rejected_contribution",
+		"conference#Conference_www",
 		"sigkdd#Deadline"
 	],
 	[
-		"conference#Regular_author",
-		"sigkdd#Organizator"
-	],
-	[
-		"conference#Co-chair",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"conference#Chair",
-		"sigkdd#Award"
-	],
-	[
-		"conference#Contribution_1th-author",
+		"conference#Reviewer",
 		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
-		"conference#Program_committee",
-		"sigkdd#Program_Committee"
-	],
-	[
-		"conference#Written_contribution",
+		"conference#Tutorial",
 		"sigkdd#Hotel"
 	],
 	[
-		"conference#Conference_participant",
-		"sigkdd#Registration_fee"
+		"conference#Call_for_participation",
+		"sigkdd#Place"
 	],
 	[
-		"conference#Regular_contribution",
-		"sigkdd#Author"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"conference#Conference_contribution",
-		"sigkdd#Abstract"
-	],
-	[
-		"conference#Extended_abstract",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"conference#Committee",
-		"sigkdd#Committee"
+		"conference#Conference_document",
+		"sigkdd#Deadline_Abstract_Submission"
 	],
 	[
 		"conference#Presentation",
 		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
-		"conference#Late_paid_applicant",
-		"sigkdd#Sponzor"
+		"conference#Camera_ready_contribution",
+		"sigkdd#Award"
 	],
 	[
-		"conference#Call_for_participation",
-		"sigkdd#Bronze_Supporter"
-	],
-	[
-		"conference#Active_conference_participant",
-		"sigkdd#Webmaster"
-	],
-	[
-		"conference#Information_for_participants",
-		"sigkdd#Person"
-	],
-	[
-		"conference#Registeered_applicant",
-		"sigkdd#Platinum_Supporter"
-	],
-	[
-		"conference#Invited_talk",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"conference#Call_for_paper",
-		"sigkdd#Best_Paper_Awards_Committee"
-	],
-	[
-		"conference#Conference_announcement",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"conference#Review",
-		"sigkdd#Review"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"sigkdd#Fee"
-	],
-	[
-		"conference#Conference_volume",
-		"sigkdd#Sponzor_fee"
-	],
-	[
-		"conference#Early_paid_applicant",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"conference#Poster",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"conference#Review_expertise",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"conference#Committee_member",
-		"sigkdd#Gold_Supporter"
-	],
-	[
-		"conference#Reviewer",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"conference#Conference_www",
-		"sigkdd#Registration_SIGKDD_Member"
-	],
-	[
-		"conference#Organizing_committee",
-		"sigkdd#Organizing_Committee"
-	],
-	[
-		"conference#Track",
-		"sigkdd#Main_office"
-	],
-	[
-		"conference#Submitted_contribution",
-		"sigkdd#Conference_hall"
+		"conference#Conference_applicant",
+		"sigkdd#Deadline_Author_notification"
 	],
 	[
 		"conference#Invited_speaker",
 		"sigkdd#Invited_Speaker"
 	],
 	[
-		"conference#Passive_conference_participant",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"conference#Tutorial",
-		"sigkdd#Best_Research_Paper_Award"
-	],
-	[
-		"conference#Organization",
-		"sigkdd#General_Chair"
-	],
-	[
-		"conference#Paid_applicant",
+		"conference#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"conference#Conference_part",
-		"sigkdd#Program_Committee_member"
+		"conference#Contribution_1th-author",
+		"sigkdd#Webmaster"
+	],
+	[
+		"conference#Conference_volume",
+		"sigkdd#Exhibitor"
 	],
 	[
 		"conference#Organizer",
-		"sigkdd#Silver_Supporter"
+		"sigkdd#Organizator"
 	],
 	[
 		"conference#Review_preference",
+		"sigkdd#Bronze_Supporter"
+	],
+	[
+		"conference#Active_conference_participant",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"conference#Committee_member",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"conference#Conference_part",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"conference#Rejected_contribution",
+		"sigkdd#Sponzor_fee"
+	],
+	[
+		"conference#Written_contribution",
+		"sigkdd#Author"
+	],
+	[
+		"conference#Call_for_paper",
+		"sigkdd#Best_Paper_Awards_Committee"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"sigkdd#Sponzor"
+	],
+	[
+		"conference#Accepted_contribution",
+		"sigkdd#Best_Student_Paper_Award"
+	],
+	[
+		"conference#Contribution_co-author",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"conference#Organization",
+		"sigkdd#Main_office"
+	],
+	[
+		"conference#Conference_announcement",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"conference#Late_paid_applicant",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"conference#Poster",
+		"sigkdd#Platinum_Supporter"
+	],
+	[
+		"conference#Program_committee",
+		"sigkdd#Program_Committee"
+	],
+	[
+		"conference#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"conference#Information_for_participants",
 		"sigkdd#Listener"
 	],
 	[
-		"conference#Conference_applicant",
+		"conference#Track-workshop_chair",
+		"sigkdd#Fee"
+	],
+	[
+		"conference#Review_expertise",
+		"sigkdd#Silver_Supporter"
+	],
+	[
+		"conference#Committee",
+		"sigkdd#Committee"
+	],
+	[
+		"conference#Track",
+		"sigkdd#Registration_Student"
+	],
+	[
+		"conference#Conference_contributor",
 		"sigkdd#Speaker"
 	],
 	[
+		"conference#Review",
+		"sigkdd#Review"
+	],
+	[
+		"conference#Co-chair",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"conference#Chair",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"conference#Extended_abstract",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"conference#Reviewed_contribution",
+		"sigkdd#Best_Research_Paper_Award"
+	],
+	[
+		"conference#Organizing_committee",
+		"sigkdd#Organizing_Committee"
+	],
+	[
+		"conference#Regular_contribution",
+		"sigkdd#Gold_Supporter"
+	],
+	[
 		"conference#Steering_committee",
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"conference#Regular_author",
+		"sigkdd#General_Chair"
+	],
+	[
+		"conference#Conference_contribution",
 		"sigkdd#Best_Student_Paper_Supporter"
+	],
+	[
+		"conference#Person",
+		"sigkdd#Person"
 	],
 	[
 		"conference#Workshop",

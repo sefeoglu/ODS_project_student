@@ -1,22 +1,78 @@
 [
 	[
-		"conference#Paper",
-		"edas#Paper"
-	],
-	[
 		"conference#Conference",
 		"edas#Conference"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"conference#Tutorial",
+		"edas#ConferenceEvent"
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#Document"
 	],
 	[
 		"conference#Conference_document",
 		"edas#Call"
 	],
 	[
-		"conference#Program_committee",
-		"edas#ConferenceEvent"
+		"conference#Presentation",
+		"edas#MultimediaTopic"
+	],
+	[
+		"conference#Camera_ready_contribution",
+		"edas#AcceptRating"
+	],
+	[
+		"conference#Paper",
+		"edas#Paper"
+	],
+	[
+		"conference#Conference_part",
+		"edas#AcademicEvent"
 	],
 	[
 		"conference#Rejected_contribution",
+		"edas#AccpetIfRoomRating"
+	],
+	[
+		"conference#Written_contribution",
+		"edas#PublishedPaper"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
+	],
+	[
+		"conference#Accepted_contribution",
+		"edas#ComputerArchitectureTopic"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Conference_announcement",
+		"edas#ComputerNetworksAapplicationsTopic"
+	],
+	[
+		"conference#Poster",
+		"edas#AcceptedPaper"
+	],
+	[
+		"conference#Committee",
+		"edas#TwoLevelConference"
+	],
+	[
+		"conference#Review",
 		"edas#Review"
 	],
 	[
@@ -24,7 +80,15 @@
 		"edas#ConferenceChair"
 	],
 	[
-		"conference#Co-chair",
+		"conference#Reviewed_contribution",
+		"edas#ReviewRating"
+	],
+	[
+		"conference#Regular_contribution",
+		"edas#ComputerNetworksSecurityTopic"
+	],
+	[
+		"conference#Person",
 		"edas#Person"
 	],
 	[
@@ -32,71 +96,7 @@
 		"edas#Topic"
 	],
 	[
-		"conference#Written_contribution",
-		"edas#PublishedPaper"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#TwoLevelConference"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#Document"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"edas#AcceptRating"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"conference#Presentation",
-		"edas#MultimediaTopic"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#ComputerNetworksAapplicationsTopic"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"edas#Workshop"
-	],
-	[
-		"conference#Poster",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"conference#Steering_committee",
-		"edas#Organization"
-	],
-	[
 		"conference#Submitted_contribution",
 		"edas#PendingPaper"
-	],
-	[
-		"conference#Tutorial",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Accepted_contribution",
-		"edas#ComputerArchitectureTopic"
-	],
-	[
-		"conference#Regular_contribution",
-		"edas#ComputerNetworksSecurityTopic"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"edas#ReviewRating"
 	]
 ]

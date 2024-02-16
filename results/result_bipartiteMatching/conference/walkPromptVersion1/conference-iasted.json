@@ -1,23 +1,11 @@
 [
 	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"conference#Review_expertise",
-		"iasted#Review"
-	],
-	[
-		"conference#Regular_contribution",
-		"iasted#Conference_activity"
-	],
-	[
 		"conference#Conference",
 		"iasted#Social_program"
 	],
 	[
-		"conference#Presentation",
-		"iasted#Presentation"
+		"conference#Regular_contribution",
+		"iasted#Conference_activity"
 	],
 	[
 		"conference#Conference_part",
@@ -28,15 +16,27 @@
 		"iasted#Reviewer"
 	],
 	[
-		"conference#Call_for_participation",
-		"iasted#Document"
-	],
-	[
-		"conference#Invited_speaker",
-		"iasted#Speaker"
+		"conference#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"conference#Person",
 		"iasted#Person"
+	],
+	[
+		"conference#Call_for_participation",
+		"iasted#Document"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Invited_speaker",
+		"iasted#Speaker"
 	]
 ]

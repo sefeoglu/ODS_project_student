@@ -1,15 +1,19 @@
 [
 	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"conference#Presentation",
-		"iasted#Presentation"
+		"conference#Person",
+		"iasted#Person"
 	],
 	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Presentation",
+		"iasted#Presentation"
 	],
 	[
 		"conference#Track",
@@ -18,9 +22,5 @@
 	[
 		"conference#Review",
 		"iasted#Review"
-	],
-	[
-		"conference#Person",
-		"iasted#Person"
 	]
 ]

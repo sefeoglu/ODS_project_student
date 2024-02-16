@@ -1,33 +1,5 @@
 [
 	[
-		"cmt#Document",
-		"edas#Document"
-	],
-	[
-		"cmt#Bid",
-		"edas#Review"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"edas#Person"
-	],
-	[
-		"cmt#Paper",
-		"edas#Paper"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"edas#AcademicEvent"
-	],
-	[
-		"cmt#Author",
-		"edas#Author"
-	],
-	[
 		"cmt#ConferenceMember",
 		"edas#Presenter"
 	],
@@ -36,15 +8,43 @@
 		"edas#ConferenceChair"
 	],
 	[
-		"cmt#Conference",
-		"edas#Conference"
+		"cmt#Review",
+		"edas#Review"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"edas#CommunicationsTopic"
+		"cmt#Person",
+		"edas#Person"
+	],
+	[
+		"cmt#Paper",
+		"edas#Paper"
 	],
 	[
 		"cmt#Chairman",
 		"edas#SessionChair"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"edas#AcademicEvent"
+	],
+	[
+		"cmt#Conference",
+		"edas#Conference"
+	],
+	[
+		"cmt#Document",
+		"edas#Document"
+	],
+	[
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"edas#CommunicationsTopic"
 	]
 ]

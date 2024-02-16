@@ -1,90 +1,82 @@
 [
 	[
-		"confOf#Submission_event",
-		"sigkdd#Hotel"
-	],
-	[
-		"confOf#Administrator",
-		"sigkdd#Deadline"
-	],
-	[
-		"confOf#Poster",
-		"sigkdd#Award"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"confOf#Assistant",
-		"sigkdd#Abstract"
-	],
-	[
-		"confOf#Regular",
-		"sigkdd#Document"
-	],
-	[
-		"confOf#Tutorial",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"confOf#Author",
-		"sigkdd#Author"
-	],
-	[
-		"confOf#Chair_PC",
+		"confOf#Member_PC",
 		"sigkdd#Place"
 	],
 	[
-		"confOf#Science_Worker",
-		"sigkdd#Deadline_Author_notification"
+		"confOf#University",
+		"sigkdd#Deadline_Abstract_Submission"
 	],
 	[
-		"confOf#Workshop",
-		"sigkdd#ACM_SIGKDD"
+		"confOf#Registration_of_participants_event",
+		"sigkdd#Document"
 	],
 	[
-		"confOf#Working_event",
-		"sigkdd#Organizator"
+		"confOf#Participant",
+		"sigkdd#Abstract"
+	],
+	[
+		"confOf#Company",
+		"sigkdd#Award"
 	],
 	[
 		"confOf#Camera_Ready_event",
 		"sigkdd#Registration_fee"
 	],
 	[
-		"confOf#Volunteer",
-		"sigkdd#Author_of_paper_student"
+		"confOf#Reviewing_results_event",
+		"sigkdd#Deadline"
 	],
 	[
-		"confOf#Contribution",
-		"sigkdd#Webmaster"
+		"confOf#Event",
+		"sigkdd#Hotel"
 	],
 	[
-		"confOf#Organization",
+		"confOf#Tutorial",
+		"sigkdd#Deadline_Paper_Submission"
+	],
+	[
+		"confOf#Chair_PC",
 		"sigkdd#Exhibitor"
 	],
 	[
-		"confOf#Scholar",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"confOf#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"confOf#Short_paper",
-		"sigkdd#Sponzor"
+		"confOf#Poster",
+		"sigkdd#Webmaster"
 	],
 	[
 		"confOf#Student",
 		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
+		"confOf#Organization",
+		"sigkdd#Deadline_Author_notification"
+	],
+	[
+		"confOf#Member",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
 		"confOf#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"confOf#Administrative_event",
+		"confOf#Social_event",
+		"sigkdd#Organizator"
+	],
+	[
+		"confOf#Banquet",
+		"sigkdd#Sponzor"
+	],
+	[
+		"confOf#Scholar",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"confOf#Science_Worker",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"confOf#Regular",
 		"sigkdd#Bronze_Supporter"
 	],
 	[
@@ -92,51 +84,59 @@
 		"sigkdd#Person"
 	],
 	[
-		"confOf#Registration_of_participants_event",
-		"sigkdd#Review"
-	],
-	[
-		"confOf#Trip",
-		"sigkdd#Platinum_Supporter"
-	],
-	[
-		"confOf#Reviewing_event",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"confOf#Banquet",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"confOf#Member_PC",
-		"sigkdd#Best_Paper_Awards_Committee"
-	],
-	[
-		"confOf#Participant",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"confOf#Company",
-		"sigkdd#Committee"
-	],
-	[
-		"confOf#University",
+		"confOf#Workshop",
 		"sigkdd#Main_office"
 	],
 	[
-		"confOf#Member",
-		"sigkdd#Fee"
+		"confOf#Working_event",
+		"sigkdd#Best_Student_Paper_Award"
 	],
 	[
-		"confOf#Social_event",
-		"sigkdd#Listener"
+		"confOf#Contribution",
+		"sigkdd#Platinum_Supporter"
+	],
+	[
+		"confOf#Short_paper",
+		"sigkdd#Review"
+	],
+	[
+		"confOf#Author",
+		"sigkdd#Author"
+	],
+	[
+		"confOf#Submission_event",
+		"sigkdd#Committee"
 	],
 	[
 		"confOf#Reception",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"confOf#Administrative_event",
+		"sigkdd#Fee"
+	],
+	[
+		"confOf#Administrator",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"confOf#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"confOf#Reviewing_event",
+		"sigkdd#Program_Committee"
+	],
+	[
+		"confOf#Volunteer",
 		"sigkdd#Registration_Non-Member"
 	],
 	[
-		"confOf#Event",
-		"sigkdd#Registration_SIGKDD_Member"
+		"confOf#Assistant",
+		"sigkdd#Registration_Student"
+	],
+	[
+		"confOf#Trip",
+		"sigkdd#Sponzor_fee"
 	]
 ]

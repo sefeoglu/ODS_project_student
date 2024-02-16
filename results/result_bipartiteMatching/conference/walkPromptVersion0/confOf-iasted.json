@@ -1,55 +1,55 @@
 [
 	[
-		"confOf#Person",
-		"iasted#Person"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Banquet",
+		"iasted#Social_program"
 	],
 	[
 		"confOf#Scholar",
 		"iasted#Speaker"
 	],
 	[
-		"confOf#Trip",
+		"confOf#Reviewing_event",
 		"iasted#Activity"
 	],
 	[
-		"confOf#Submission_event",
-		"iasted#Deadline"
+		"confOf#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
-		"confOf#Banquet",
-		"iasted#Social_program"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"confOf#Working_event",
-		"iasted#Audiovisual_equipment"
+		"confOf#Person",
+		"iasted#Person"
 	],
 	[
 		"confOf#Camera_Ready_event",
 		"iasted#Submissions_deadline"
 	],
 	[
-		"confOf#Social_event",
-		"iasted#Coffee_break"
+		"confOf#Working_event",
+		"iasted#Audiovisual_equipment"
+	],
+	[
+		"confOf#Reviewing_results_event",
+		"iasted#Camera_ready_manuscript_deadline"
+	],
+	[
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#Event",
 		"iasted#Activity_before_conference"
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Coffee_break"
+	],
+	[
+		"confOf#City",
+		"iasted#City"
+	],
+	[
+		"confOf#Submission_event",
+		"iasted#Deadline"
 	],
 	[
 		"confOf#Conference",

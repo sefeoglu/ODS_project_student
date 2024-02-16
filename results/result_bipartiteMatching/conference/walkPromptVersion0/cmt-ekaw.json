@@ -1,19 +1,7 @@
 [
 	[
-		"cmt#ConferenceChair",
-		"ekaw#Event"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"ekaw#Review"
-	],
-	[
-		"cmt#Meta-Review",
-		"ekaw#Document"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"ekaw#Scientific_Event"
+		"cmt#Person",
+		"ekaw#Person"
 	],
 	[
 		"cmt#Paper",
@@ -24,36 +12,48 @@
 		"ekaw#Conference_Session"
 	],
 	[
-		"cmt#Person",
-		"ekaw#Person"
-	],
-	[
-		"cmt#User",
-		"ekaw#Conference_Participant"
+		"cmt#Rejection",
+		"ekaw#Rejected_Paper"
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Abstract"
 	],
 	[
+		"cmt#ExternalReviewer",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Event"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair"
+	],
+	[
+		"cmt#User",
+		"ekaw#Conference_Participant"
+	],
+	[
 		"cmt#Conference",
 		"ekaw#Conference"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
 	],
 	[
 		"cmt#Author",
 		"ekaw#Multi-author_Volume"
 	],
 	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
 		"cmt#Chairman",
-		"ekaw#PC_Chair"
-	],
-	[
-		"cmt#Rejection",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#PC_Member"
+		"ekaw#Workshop_Chair"
 	],
 	[
 		"cmt#AssociatedChair",

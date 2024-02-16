@@ -1,63 +1,47 @@
 [
 	[
-		"conference#Reviewed_contribution",
-		"iasted#Accepting_manuscript"
-	],
-	[
-		"conference#Important_dates",
-		"iasted#Deadline"
-	],
-	[
 		"conference#Conference",
 		"iasted#Deadline_hotel_reservation"
 	],
 	[
-		"conference#Accepted_contribution",
-		"iasted#Document"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
-		"conference#Rejected_contribution",
-		"iasted#Refusing_manuscript"
-	],
-	[
-		"conference#Chair",
-		"iasted#Session_chair"
-	],
-	[
-		"conference#Topic",
-		"iasted#Activity"
-	],
-	[
-		"conference#Contribution_1th-author",
-		"iasted#Person"
-	],
-	[
-		"conference#Written_contribution",
-		"iasted#Conference_days"
-	],
-	[
-		"conference#Conference_participant",
-		"iasted#Delegate"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"iasted#Submission"
-	],
-	[
-		"conference#Conference_contribution",
-		"iasted#Author"
-	],
-	[
-		"conference#Committee",
-		"iasted#Technic_activity"
+		"conference#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"conference#Presentation",
 		"iasted#Presentation"
 	],
 	[
-		"conference#Invited_talk",
-		"iasted#Presenter_city"
+		"conference#Camera_ready_contribution",
+		"iasted#Submission"
+	],
+	[
+		"conference#Review_preference",
+		"iasted#Document"
+	],
+	[
+		"conference#Contribution_1th-author",
+		"iasted#Author"
+	],
+	[
+		"conference#Conference_volume",
+		"iasted#Money"
+	],
+	[
+		"conference#Conference_participant",
+		"iasted#Delegate"
+	],
+	[
+		"conference#Rejected_contribution",
+		"iasted#Refusing_manuscript"
+	],
+	[
+		"conference#Written_contribution",
+		"iasted#Conference_days"
 	],
 	[
 		"conference#Conference_proceedings",
@@ -68,24 +52,40 @@
 		"iasted#Conference_activity"
 	],
 	[
+		"conference#Important_dates",
+		"iasted#Deadline"
+	],
+	[
+		"conference#Committee",
+		"iasted#Technic_activity"
+	],
+	[
 		"conference#Review",
 		"iasted#Review"
 	],
 	[
-		"conference#Conference_volume",
-		"iasted#Money"
+		"conference#Chair",
+		"iasted#Session_chair"
 	],
 	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Reviewed_contribution",
+		"iasted#Accepting_manuscript"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Invited_talk",
+		"iasted#Presenter_city"
+	],
+	[
+		"conference#Topic",
+		"iasted#Activity"
 	],
 	[
 		"conference#Submitted_contribution",
 		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
 	],
 	[
 		"conference#Paper",

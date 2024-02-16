@@ -1,42 +1,42 @@
 [
 	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Topic",
-		"edas#Topic"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
 		"confOf#Organization",
 		"edas#Organization"
 	],
 	[
-		"confOf#Country",
-		"edas#Country"
-	],
-	[
 		"confOf#Conference",
 		"edas#Conference"
 	],
 	[
-		"confOf#Author",
-		"edas#Author"
+		"confOf#Person",
+		"edas#Person"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
+		"confOf#Country",
+		"edas#Country"
 	],
 	[
 		"confOf#Paper",
 		"edas#Paper"
 	],
 	[
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Author",
+		"edas#Author"
+	],
+	[
 		"confOf#Social_event",
 		"edas#SocialEvent"
 	],
 	[
-		"confOf#Reception",
-		"edas#Reception"
+		"confOf#Topic",
+		"edas#Topic"
 	]
 ]

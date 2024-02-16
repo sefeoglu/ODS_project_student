@@ -4,60 +4,56 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"iasted#Research"
-	],
-	[
-		"cmt#Administrator",
+		"cmt#Paper",
 		"iasted#Presenter_house"
-	],
-	[
-		"cmt#Co-author",
-		"iasted#Deadline"
 	],
 	[
 		"cmt#Meta-Review",
 		"iasted#Building"
 	],
 	[
-		"cmt#AssociatedChair",
+		"cmt#ConferenceMember",
 		"iasted#Delegate"
 	],
 	[
-		"cmt#Decision",
-		"iasted#Hotel_registration_form"
-	],
-	[
-		"cmt#Paper",
-		"iasted#Presenter_state"
-	],
-	[
-		"cmt#ConferenceMember",
+		"cmt#Rejection",
 		"iasted#One_day_presenter"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"iasted#Mailing_list"
+		"cmt#Acceptance",
+		"iasted#Presenter_city"
 	],
 	[
-		"cmt#ExternalReviewer",
+		"cmt#PaperAbstract",
 		"iasted#Form"
 	],
 	[
-		"cmt#ConferenceChair",
-		"iasted#Car"
-	],
-	[
-		"cmt#Review",
-		"iasted#Review"
-	],
-	[
-		"cmt#Document",
-		"iasted#Document"
+		"cmt#AssociatedChair",
+		"iasted#Activity_before_conference"
 	],
 	[
 		"cmt#Bid",
-		"iasted#Presenter_city"
+		"iasted#Mailing_list"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Deadline_hotel_reservation"
+	],
+	[
+		"cmt#ConferenceChair",
+		"iasted#Presenter_state"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"iasted#Technical_commitee"
+	],
+	[
+		"cmt#Administrator",
+		"iasted#Research"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"iasted#Car"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
@@ -65,46 +61,50 @@
 	],
 	[
 		"cmt#User",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"cmt#PaperAbstract",
-		"iasted#Submissions_deadline"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"iasted#Dinner_banquet"
+		"iasted#Hotel_registration_form"
 	],
 	[
 		"cmt#Conference",
 		"iasted#Social_program"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"cmt#Acceptance",
-		"iasted#Conference_restaurant"
-	],
-	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Decision",
+		"iasted#Deadline"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"iasted#Dinner_banquet"
+	],
+	[
 		"cmt#Chairman",
 		"iasted#Presentation"
 	],
 	[
-		"cmt#Rejection",
-		"iasted#Departure"
+		"cmt#Meta-Reviewer",
+		"iasted#Place"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Technical_commitee"
+		"cmt#Co-author",
+		"iasted#Conference_activity"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"iasted#PowerPoint_presentation"
 	]
 ]

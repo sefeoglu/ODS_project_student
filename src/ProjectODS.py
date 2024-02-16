@@ -201,7 +201,8 @@ def main():
                     alreadyMatched = {}
                     exactMatches = utils.importFromJson(configODS.get('exactMatchPath') + file_path)
                     for key1, key2, _ in exactMatches:
-                        alreadyMatched[key1] = key2
+                        alreadyMatched[key1] = key2     #prevent key1 from getting matched to anything else in ontology2
+                        alreadyMatched[key2] = key1     #prevent key2 from getting matched from anything else in ontology1
                         edges[key1] = [key2]
                         verticesL.add(key1)
                         verticesR.add(key2)
@@ -212,7 +213,7 @@ def main():
                             verticesR.add(onto2HASHclass2)
                             if not edges.get(onto1HASHclass1):
                                 edges[onto1HASHclass1] = []
-                            if not alreadyMatched.get(onto1HASHclass1):
+                            if not alreadyMatched.get(onto1HASHclass1) and not alreadyMatched.get(onto2HASHclass2):
                                 edges[onto1HASHclass1].append(onto2HASHclass2)
                     matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
                     utils.saveToJson(matching, bipartiteMatchingPath)

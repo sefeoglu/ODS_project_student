@@ -1,50 +1,50 @@
 [
 	[
-		"conference#Organizing_committee",
-		"sigkdd#Organizing_Committee"
-	],
-	[
-		"conference#Conference_participant",
-		"sigkdd#Person"
-	],
-	[
-		"conference#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"conference#Conference",
 		"sigkdd#Conference"
-	],
-	[
-		"conference#Review_expertise",
-		"sigkdd#Review"
-	],
-	[
-		"conference#Conference_document",
-		"sigkdd#Document"
-	],
-	[
-		"conference#Organization",
-		"sigkdd#Organizator"
-	],
-	[
-		"conference#Committee",
-		"sigkdd#Committee"
 	],
 	[
 		"conference#Committee_member",
 		"sigkdd#Program_Committee_member"
 	],
 	[
+		"conference#Organizing_committee",
+		"sigkdd#Organizing_Committee"
+	],
+	[
+		"conference#Program_committee",
+		"sigkdd#Program_Committee"
+	],
+	[
 		"conference#Abstract",
 		"sigkdd#Abstract"
 	],
 	[
-		"conference#Steering_committee",
-		"sigkdd#Program_Committee"
+		"conference#Information_for_participants",
+		"sigkdd#Document"
+	],
+	[
+		"conference#Person",
+		"sigkdd#Person"
+	],
+	[
+		"conference#Committee",
+		"sigkdd#Committee"
+	],
+	[
+		"conference#Review",
+		"sigkdd#Review"
 	],
 	[
 		"conference#Invited_speaker",
 		"sigkdd#Invited_Speaker"
+	],
+	[
+		"conference#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"conference#Organization",
+		"sigkdd#Organizator"
 	]
 ]

@@ -1,39 +1,15 @@
 [
 	[
-		"cmt#Document",
-		"ekaw#Document"
+		"cmt#ConferenceMember",
+		"ekaw#Conference_Participant"
 	],
 	[
-		"cmt#Decision",
-		"ekaw#Neutral_Review"
-	],
-	[
-		"cmt#Meta-Review",
+		"cmt#Review",
 		"ekaw#Review"
 	],
 	[
-		"cmt#Reviewer",
-		"ekaw#Possible_Reviewer"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#Conference"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"ekaw#PC_Member"
-	],
-	[
-		"cmt#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"cmt#ConferenceMember",
-		"ekaw#Conference_Participant"
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair"
 	],
 	[
 		"cmt#Person",
@@ -44,11 +20,35 @@
 		"ekaw#Abstract"
 	],
 	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
 		"cmt#AssociatedChair",
 		"ekaw#Session_Chair"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#PC_Chair"
+		"cmt#ProgramCommitteeMember",
+		"ekaw#PC_Member"
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Reviewer",
+		"ekaw#Possible_Reviewer"
+	],
+	[
+		"cmt#Decision",
+		"ekaw#Neutral_Review"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"ekaw#Workshop_Paper"
 	]
 ]

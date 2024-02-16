@@ -1,23 +1,19 @@
 [
 	[
-		"cmt#Reviewer",
-		"confOf#Event"
-	],
-	[
 		"cmt#ConferenceMember",
 		"confOf#Member"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Person"
+		"cmt#Rejection",
+		"confOf#Event"
 	],
 	[
-		"cmt#Paper",
-		"confOf#Paper"
+		"cmt#ProgramCommitteeChair",
+		"confOf#Chair_PC"
 	],
 	[
-		"cmt#Author",
-		"confOf#Author"
+		"cmt#Acceptance",
+		"confOf#Reviewing_event"
 	],
 	[
 		"cmt#Administrator",
@@ -28,15 +24,19 @@
 		"confOf#Reviewing_results_event"
 	],
 	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
-		"cmt#Acceptance",
-		"confOf#Reviewing_event"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Chair_PC"
+		"cmt#Author",
+		"confOf#Author"
 	]
 ]

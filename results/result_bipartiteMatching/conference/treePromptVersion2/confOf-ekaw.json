@@ -1,14 +1,10 @@
 [
 	[
-		"confOf#Person",
-		"ekaw#Person"
+		"confOf#Student",
+		"ekaw#Student"
 	],
 	[
-		"confOf#Tutorial",
-		"ekaw#Tutorial"
-	],
-	[
-		"confOf#Administrator",
+		"confOf#Banquet",
 		"ekaw#Track"
 	],
 	[
@@ -16,12 +12,12 @@
 		"ekaw#Conference"
 	],
 	[
-		"confOf#Student",
-		"ekaw#Student"
+		"confOf#University",
+		"ekaw#University"
 	],
 	[
-		"confOf#Banquet",
-		"ekaw#Event"
+		"confOf#Person",
+		"ekaw#Person"
 	],
 	[
 		"confOf#Workshop",
@@ -32,11 +28,15 @@
 		"ekaw#Paper"
 	],
 	[
-		"confOf#University",
-		"ekaw#University"
+		"confOf#Event",
+		"ekaw#Event"
 	],
 	[
 		"confOf#Social_event",
 		"ekaw#Social_Event"
+	],
+	[
+		"confOf#Tutorial",
+		"ekaw#Tutorial"
 	]
 ]

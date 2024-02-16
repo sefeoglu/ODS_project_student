@@ -1,38 +1,38 @@
 [
 	[
-		"confOf#Person",
-		"iasted#Person"
+		"confOf#Conference",
+		"iasted#PowerPoint_presentation"
 	],
 	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#University",
+		"iasted#Presenter_university"
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Person",
+		"iasted#Person"
 	],
 	[
-		"confOf#Submission_event",
+		"confOf#Camera_Ready_event",
 		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"confOf#Trip",
-		"iasted#Full_day_tour"
-	],
-	[
-		"confOf#Conference",
-		"iasted#PowerPoint_presentation"
 	],
 	[
 		"confOf#Working_event",
 		"iasted#Conference_activity"
 	],
 	[
-		"confOf#University",
-		"iasted#Presenter_university"
+		"confOf#Author",
+		"iasted#Author"
+	],
+	[
+		"confOf#Trip",
+		"iasted#Full_day_tour"
+	],
+	[
+		"confOf#City",
+		"iasted#City"
 	]
 ]

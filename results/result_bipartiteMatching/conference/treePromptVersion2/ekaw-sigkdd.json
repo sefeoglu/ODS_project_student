@@ -1,15 +1,19 @@
 [
 	[
-		"ekaw#Tutorial",
-		"sigkdd#Abstract"
-	],
-	[
-		"ekaw#Document",
-		"sigkdd#Document"
-	],
-	[
 		"ekaw#Invited_Speaker",
 		"sigkdd#Invited_Speaker"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
 	],
 	[
 		"ekaw#Review",
@@ -20,15 +24,11 @@
 		"sigkdd#Registration_Non-Member"
 	],
 	[
+		"ekaw#Document",
+		"sigkdd#Document"
+	],
+	[
 		"ekaw#Person",
 		"sigkdd#Person"
-	],
-	[
-		"ekaw#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
 	]
 ]

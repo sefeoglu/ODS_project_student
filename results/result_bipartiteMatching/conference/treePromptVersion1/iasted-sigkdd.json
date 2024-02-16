@@ -1,66 +1,66 @@
 [
 	[
-		"iasted#Plenary_lecture",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Submissions_deadline",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Brief_introduction_for_Session_chair",
+		"iasted#Technic_activity",
 		"sigkdd#Conference"
-	],
-	[
-		"iasted#Place",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Registration",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_days",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"iasted#Submission",
-		"sigkdd#Abstract"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Plenary_lecture_speaker",
-		"sigkdd#Author"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Listener",
-		"sigkdd#Listener"
 	],
 	[
 		"iasted#Review",
 		"sigkdd#Review"
 	],
 	[
-		"iasted#Money",
-		"sigkdd#Registration_SIGMOD_Member"
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
 	],
 	[
 		"iasted#Conference_hall",
 		"sigkdd#Conference_hall"
 	],
 	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#Submission",
+		"sigkdd#Abstract"
+	],
+	[
+		"iasted#Money",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"iasted#Conference_days",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
 	]
 ]

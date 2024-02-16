@@ -1,31 +1,11 @@
 [
 	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
-	],
-	[
-		"edas#Place",
-		"iasted#Place"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Hotel_registration_form"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Author",
 		"iasted#Author"
-	],
-	[
-		"edas#Topic",
-		"iasted#Item"
-	],
-	[
-		"edas#TextualReviewQuestion",
-		"iasted#Document"
-	],
-	[
-		"edas#PersonalPublicationHistory",
-		"iasted#Publication"
 	],
 	[
 		"edas#SocialEvent",
@@ -36,84 +16,108 @@
 		"iasted#Money"
 	],
 	[
-		"edas#GovernmentOrganization",
-		"iasted#Person"
-	],
-	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
-	],
-	[
-		"edas#ReviewQuestion",
-		"iasted#Review"
-	],
-	[
-		"edas#CommunicationsTopic",
-		"iasted#Introduction_of_speaker"
 	],
 	[
 		"edas#AccommodationPlace",
 		"iasted#Hotel_fee"
 	],
 	[
-		"edas#Attendee",
-		"iasted#Record_of_attendance"
+		"edas#BreakEvent",
+		"iasted#Social_program"
 	],
 	[
-		"edas#ClosingTalk",
-		"iasted#Presentation"
-	],
-	[
-		"edas#MobileComputingTopic",
-		"iasted#Computer"
+		"edas#CommunicationsTopic",
+		"iasted#Introduction_of_speaker"
 	],
 	[
 		"edas#PaperPresentation",
 		"iasted#PowerPoint_presentation"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_restaurant"
-	],
-	[
-		"edas#BreakEvent",
-		"iasted#Social_program"
-	],
-	[
-		"edas#Programme",
-		"iasted#Conference_activity"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_days"
-	],
-	[
-		"edas#CallForPapers",
-		"iasted#Activity"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Conference_state"
-	],
-	[
-		"edas#RejectedPaper",
-		"iasted#Refusing_manuscript"
+		"edas#TwoLevelConference",
+		"iasted#Hotel_registration_form"
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
+		"edas#PersonalPublicationHistory",
+		"iasted#Publication"
+	],
+	[
+		"edas#ConferenceDinner",
+		"iasted#Conference_activity"
+	],
+	[
+		"edas#ClosingTalk",
+		"iasted#Presentation"
+	],
+	[
+		"edas#Review",
+		"iasted#Review"
+	],
+	[
+		"edas#RejectedPaper",
+		"iasted#Refusing_manuscript"
+	],
+	[
+		"edas#AntennasTopic",
+		"iasted#Computer"
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"iasted#Conference_hall"
+	],
+	[
+		"edas#Topic",
+		"iasted#Item"
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Conference_state"
+	],
+	[
+		"edas#Attendee",
+		"iasted#Record_of_attendance"
+	],
+	[
 		"edas#ConferenceEvent",
 		"iasted#Time"
 	],
 	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
+	],
+	[
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_restaurant"
+	],
+	[
 		"edas#Excursion",
 		"iasted#Departure"
+	],
+	[
+		"edas#ConferenceChair",
+		"iasted#Activity"
+	],
+	[
+		"edas#Place",
+		"iasted#Place"
+	],
+	[
+		"edas#SingleLevelConference",
+		"iasted#Conference_days"
+	],
+	[
+		"edas#Conference",
+		"iasted#Conference_city"
+	],
+	[
+		"edas#Person",
+		"iasted#Person"
 	],
 	[
 		"edas#TravelGrant",
@@ -122,9 +126,5 @@
 	[
 		"edas#OrganizationalMeeting",
 		"iasted#Fee"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_city"
 	]
 ]

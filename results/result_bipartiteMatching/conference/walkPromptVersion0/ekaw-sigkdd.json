@@ -1,47 +1,27 @@
 [
 	[
-		"ekaw#Rejected_Paper",
-		"sigkdd#Document"
-	],
-	[
-		"ekaw#Early-Registered_Participant",
-		"sigkdd#Person"
-	],
-	[
-		"ekaw#Evaluated_Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"ekaw#Web_Site",
-		"sigkdd#Review"
-	],
-	[
-		"ekaw#Organising_Agency",
-		"sigkdd#Committee"
-	],
-	[
-		"ekaw#Submitted_Paper",
-		"sigkdd#Deadline"
-	],
-	[
-		"ekaw#Proceedings",
-		"sigkdd#Abstract"
-	],
-	[
 		"ekaw#Invited_Speaker",
 		"sigkdd#Invited_Speaker"
 	],
 	[
-		"ekaw#Student",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"ekaw#Demo_Chair",
+		"ekaw#Early-Registered_Participant",
 		"sigkdd#Author_of_paper"
 	],
 	[
-		"ekaw#PC_Member",
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Possible_Reviewer",
+		"sigkdd#Committee"
+	],
+	[
+		"ekaw#PC_Chair",
 		"sigkdd#Program_Chair"
+	],
+	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"ekaw#Organisation",
@@ -52,10 +32,6 @@
 		"sigkdd#Program_Committee"
 	],
 	[
-		"ekaw#Multi-author_Volume",
-		"sigkdd#Author"
-	],
-	[
 		"ekaw#Presenter",
 		"sigkdd#Speaker"
 	],
@@ -64,11 +40,35 @@
 		"sigkdd#Best_Student_Paper_Award"
 	],
 	[
-		"ekaw#Conference",
-		"sigkdd#Conference"
+		"ekaw#Submitted_Paper",
+		"sigkdd#Deadline"
 	],
 	[
-		"ekaw#SC_Member",
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"ekaw#Review",
+		"sigkdd#Review"
+	],
+	[
+		"ekaw#PC_Member",
 		"sigkdd#Program_Committee_member"
+	],
+	[
+		"ekaw#Multi-author_Volume",
+		"sigkdd#Author"
+	],
+	[
+		"ekaw#Student",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"ekaw#Document",
+		"sigkdd#Document"
+	],
+	[
+		"ekaw#Person",
+		"sigkdd#Person"
 	]
 ]

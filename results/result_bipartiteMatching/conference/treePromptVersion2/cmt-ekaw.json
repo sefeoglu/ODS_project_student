@@ -1,11 +1,15 @@
 [
 	[
-		"cmt#Document",
-		"ekaw#Document"
+		"cmt#Rejection",
+		"ekaw#Track"
 	],
 	[
-		"cmt#Meta-Review",
-		"ekaw#Track"
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
+		"cmt#Person",
+		"ekaw#Person"
 	],
 	[
 		"cmt#Paper",
@@ -16,15 +20,11 @@
 		"ekaw#Scientific_Event"
 	],
 	[
-		"cmt#Person",
-		"ekaw#Person"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Review"
-	],
-	[
 		"cmt#Conference",
 		"ekaw#Conference"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
 	]
 ]

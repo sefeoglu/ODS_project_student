@@ -1,15 +1,11 @@
 [
 	[
-		"conference#Tutorial",
-		"edas#MeetingRoomPlace"
-	],
-	[
 		"conference#Conference",
 		"edas#Conference"
 	],
 	[
-		"conference#Organization",
-		"edas#Organization"
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Paid_applicant",
@@ -20,12 +16,12 @@
 		"edas#Reviewer"
 	],
 	[
-		"conference#Workshop",
-		"edas#Workshop"
+		"conference#Tutorial",
+		"edas#MeetingRoomPlace"
 	],
 	[
-		"conference#Topic",
-		"edas#Topic"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
 		"conference#Review",
@@ -36,7 +32,11 @@
 		"edas#Paper"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
 	]
 ]

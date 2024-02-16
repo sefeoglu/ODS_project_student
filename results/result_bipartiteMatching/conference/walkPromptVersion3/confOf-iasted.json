@@ -1,39 +1,83 @@
 [
 	[
-		"confOf#Submission_event",
-		"iasted#Presenter_city"
+		"confOf#Member_PC",
+		"iasted#Form"
 	],
 	[
-		"confOf#Administrator",
+		"confOf#University",
+		"iasted#Building"
+	],
+	[
+		"confOf#Registration_of_participants_event",
+		"iasted#One_day_presenter"
+	],
+	[
+		"confOf#Participant",
 		"iasted#Presenter_state"
 	],
 	[
-		"confOf#Poster",
+		"confOf#Company",
+		"iasted#Dinner_banquet"
+	],
+	[
+		"confOf#Camera_Ready_event",
 		"iasted#Delegate"
 	],
 	[
 		"confOf#Reviewing_results_event",
-		"iasted#Activity"
+		"iasted#Presenter_city"
 	],
 	[
-		"confOf#Assistant",
+		"confOf#Event",
 		"iasted#Presenter_house"
-	],
-	[
-		"confOf#Regular",
-		"iasted#Hotel_registration_form"
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Chair_PC",
+		"iasted#Hotel_registration_form"
 	],
 	[
-		"confOf#Chair_PC",
-		"iasted#Building"
+		"confOf#Poster",
+		"iasted#Renting"
+	],
+	[
+		"confOf#Student",
+		"iasted#Mailing_list"
+	],
+	[
+		"confOf#Organization",
+		"iasted#Activity_before_conference"
+	],
+	[
+		"confOf#Member",
+		"iasted#Document"
+	],
+	[
+		"confOf#Paper",
+		"iasted#Social_program"
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Activity"
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Deadline_hotel_reservation"
+	],
+	[
+		"confOf#Scholar",
+		"iasted#PowerPoint_presentation"
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Presentation"
+	],
+	[
+		"confOf#Regular",
+		"iasted#Car"
 	],
 	[
 		"confOf#Person",
@@ -41,98 +85,26 @@
 	],
 	[
 		"confOf#Workshop",
-		"iasted#Mailing_list"
-	],
-	[
-		"confOf#Working_event",
-		"iasted#Form"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"confOf#Volunteer",
-		"iasted#Presentation"
-	],
-	[
-		"confOf#Contribution",
-		"iasted#One_day_presenter"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
-		"confOf#Organization",
-		"iasted#Activity_before_conference"
-	],
-	[
-		"confOf#Scholar",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"confOf#Short_paper",
-		"iasted#Social_program"
-	],
-	[
-		"confOf#Conference",
-		"iasted#Document"
-	],
-	[
-		"confOf#Student",
-		"iasted#Simulating"
-	],
-	[
-		"confOf#Paper",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"confOf#Administrative_event",
-		"iasted#Research"
-	],
-	[
-		"confOf#Event",
 		"iasted#Conference_restaurant"
 	],
 	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Conference_city"
-	],
-	[
-		"confOf#Trip",
-		"iasted#Deadline"
-	],
-	[
-		"confOf#Reviewing_event",
-		"iasted#Trip_day"
-	],
-	[
-		"confOf#Banquet",
+		"confOf#Working_event",
 		"iasted#Conference_state"
 	],
 	[
-		"confOf#Member_PC",
-		"iasted#Conference_activity"
+		"confOf#Contribution",
+		"iasted#Conference_city"
 	],
 	[
-		"confOf#Participant",
-		"iasted#Car"
+		"confOf#Short_paper",
+		"iasted#Deadline"
 	],
 	[
-		"confOf#Company",
-		"iasted#Technic_activity"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
-		"confOf#University",
-		"iasted#Lecturer"
-	],
-	[
-		"confOf#Member",
-		"iasted#Renting"
-	],
-	[
-		"confOf#Social_event",
+		"confOf#Submission_event",
 		"iasted#Place"
 	],
 	[
@@ -140,7 +112,35 @@
 		"iasted#Transport_vehicle"
 	],
 	[
-		"confOf#Science_Worker",
+		"confOf#Administrative_event",
+		"iasted#Research"
+	],
+	[
+		"confOf#Administrator",
+		"iasted#Time"
+	],
+	[
+		"confOf#Conference",
+		"iasted#Technic_activity"
+	],
+	[
+		"confOf#Reviewing_event",
+		"iasted#Trip_day"
+	],
+	[
+		"confOf#Volunteer",
 		"iasted#Technical_commitee"
+	],
+	[
+		"confOf#Assistant",
+		"iasted#Simulating"
+	],
+	[
+		"confOf#Trip",
+		"iasted#Conference_activity"
+	],
+	[
+		"confOf#City",
+		"iasted#City"
 	]
 ]

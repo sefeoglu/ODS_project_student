@@ -1,62 +1,90 @@
 [
 	[
-		"ekaw#Tutorial",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"ekaw#Conference_Trip",
-		"sigkdd#Best_Applications_Paper_Award"
+		"ekaw#Invited_Speaker",
+		"sigkdd#Invited_Speaker"
 	],
 	[
 		"ekaw#Proceedings_Publisher",
-		"sigkdd#ACM_SIGKDD"
+		"sigkdd#Best_Applications_Paper_Award"
 	],
 	[
-		"ekaw#Contributed_Talk",
-		"sigkdd#Abstract"
-	],
-	[
-		"ekaw#Rejected_Paper",
-		"sigkdd#Hotel"
-	],
-	[
-		"ekaw#Early-Registered_Participant",
-		"sigkdd#Deadline"
-	],
-	[
-		"ekaw#Poster_Session",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"ekaw#Research_Institute",
-		"sigkdd#Organizator"
-	],
-	[
-		"ekaw#Conference_Session",
-		"sigkdd#Document"
-	],
-	[
-		"ekaw#University",
-		"sigkdd#Place"
-	],
-	[
-		"ekaw#Evaluated_Paper",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"ekaw#Demo_Session",
-		"sigkdd#Conference"
-	],
-	[
-		"ekaw#Conference_Paper",
+		"ekaw#Workshop_Paper",
 		"sigkdd#Deadline_Author_notification"
 	],
 	[
-		"ekaw#Assigned_Paper",
-		"sigkdd#Sponzor"
+		"ekaw#Academic_Institution",
+		"sigkdd#Award"
 	],
 	[
-		"ekaw#Workshop_Session",
+		"ekaw#Flyer",
+		"sigkdd#Deadline_Abstract_Submission"
+	],
+	[
+		"ekaw#Poster_Paper",
+		"sigkdd#Place"
+	],
+	[
+		"ekaw#Regular_Paper",
+		"sigkdd#Organizator"
+	],
+	[
+		"ekaw#Poster_Session",
+		"sigkdd#Hotel"
+	],
+	[
+		"ekaw#Session_Chair",
+		"sigkdd#Deadline"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Industrial_Session",
+		"sigkdd#Exhibitor"
+	],
+	[
+		"ekaw#Early-Registered_Participant",
+		"sigkdd#Best_Student_Paper_Award"
+	],
+	[
+		"ekaw#Possible_Reviewer",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"ekaw#Accepted_Paper",
+		"sigkdd#Deadline_Paper_Submission"
+	],
+	[
+		"ekaw#PC_Chair",
+		"sigkdd#Bronze_Supporter"
+	],
+	[
+		"ekaw#Programme_Brochure",
+		"sigkdd#Author"
+	],
+	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Track",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"ekaw#OC_Chair",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"ekaw#University",
+		"sigkdd#Registration_SIGMOD_Member"
+	],
+	[
+		"ekaw#Camera_Ready_Paper",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"ekaw#Tutorial",
 		"sigkdd#Webmaster"
 	],
 	[
@@ -64,135 +92,107 @@
 		"sigkdd#Main_office"
 	],
 	[
-		"ekaw#Regular_Paper",
-		"sigkdd#Registration_fee"
+		"ekaw#Rejected_Paper",
+		"sigkdd#Registration_Non-Member"
 	],
 	[
-		"ekaw#Workshop_Paper",
-		"sigkdd#Person"
+		"ekaw#Conference_Session",
+		"sigkdd#Best_Paper_Awards_Committee"
 	],
 	[
-		"ekaw#Web_Site",
-		"sigkdd#Best_Student_Paper_Award"
+		"ekaw#Organisation",
+		"sigkdd#Sponzor"
 	],
 	[
-		"ekaw#Track",
-		"sigkdd#Award"
+		"ekaw#Tutorial_Chair",
+		"sigkdd#Program_Committee"
 	],
 	[
-		"ekaw#SC_Member",
-		"sigkdd#Registration_SIGMOD_Member"
+		"ekaw#Workshop_Chair",
+		"sigkdd#Speaker"
 	],
 	[
-		"ekaw#Conference_Participant",
-		"sigkdd#Bronze_Supporter"
+		"ekaw#Demo_Paper",
+		"sigkdd#Program_Committee_member"
 	],
 	[
-		"ekaw#Individual_Presentation",
+		"ekaw#Conference_Proceedings",
 		"sigkdd#Committee"
 	],
 	[
-		"ekaw#Session_Chair",
+		"ekaw#Research_Institute",
+		"sigkdd#Fee"
+	],
+	[
+		"ekaw#Conference_Banquet",
+		"sigkdd#Platinum_Supporter"
+	],
+	[
+		"ekaw#Late-Registered_Participant",
+		"sigkdd#Registration_Student"
+	],
+	[
+		"ekaw#Presenter",
+		"sigkdd#Organizing_Committee"
+	],
+	[
+		"ekaw#Conference_Participant",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"ekaw#Assigned_Paper",
+		"sigkdd#Silver_Supporter"
+	],
+	[
+		"ekaw#Invited_Talk_Abstract",
+		"sigkdd#Gold_Supporter"
+	],
+	[
+		"ekaw#Event",
+		"sigkdd#Listener"
+	],
+	[
+		"ekaw#Tutorial_Abstract",
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"ekaw#Demo_Session",
 		"sigkdd#Sponzor_fee"
 	],
 	[
 		"ekaw#Submitted_Paper",
-		"sigkdd#Review"
-	],
-	[
-		"ekaw#Demo_Paper",
-		"sigkdd#Author"
-	],
-	[
-		"ekaw#Proceedings",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"ekaw#Accepted_Paper",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"ekaw#Late-Registered_Participant",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"ekaw#Academic_Institution",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"ekaw#Positive_Review",
-		"sigkdd#General_Chair"
-	],
-	[
-		"ekaw#Invited_Speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"ekaw#Location",
-		"sigkdd#Fee"
-	],
-	[
-		"ekaw#OC_Member",
-		"sigkdd#Platinum_Supporter"
-	],
-	[
-		"ekaw#Demo_Chair",
-		"sigkdd#Best_Paper_Awards_Committee"
-	],
-	[
-		"ekaw#Student",
-		"sigkdd#Registration_SIGKDD_Member"
-	],
-	[
-		"ekaw#Neutral_Review",
-		"sigkdd#Speaker"
-	],
-	[
-		"ekaw#Agency_Staff_Member",
-		"sigkdd#Organizing_Committee"
-	],
-	[
-		"ekaw#PC_Member",
-		"sigkdd#Gold_Supporter"
-	],
-	[
-		"ekaw#Social_Event",
-		"sigkdd#Best_Research_Paper_Award"
-	],
-	[
-		"ekaw#Industrial_Session",
-		"sigkdd#Program_Committee"
-	],
-	[
-		"ekaw#Camera_Ready_Paper",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"ekaw#Tutorial_Chair",
 		"sigkdd#Best_Student_Paper_Supporter"
-	],
-	[
-		"ekaw#Session",
-		"sigkdd#Paper"
-	],
-	[
-		"ekaw#Organisation",
-		"sigkdd#Silver_Supporter"
-	],
-	[
-		"ekaw#Conference_Banquet",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"ekaw#Flyer",
-		"sigkdd#Listener"
 	],
 	[
 		"ekaw#Paper_Author",
 		"sigkdd#Organizing_Committee_member"
 	],
 	[
-		"ekaw#Multi-author_Volume",
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"ekaw#Review",
+		"sigkdd#Review"
+	],
+	[
+		"ekaw#PC_Member",
+		"sigkdd#General_Chair"
+	],
+	[
+		"ekaw#Invited_Talk",
+		"sigkdd#Best_Research_Paper_Award"
+	],
+	[
+		"ekaw#Session",
 		"sigkdd#Author_of_paper"
+	],
+	[
+		"ekaw#Document",
+		"sigkdd#Document"
+	],
+	[
+		"ekaw#Person",
+		"sigkdd#Person"
 	]
 ]

@@ -1,122 +1,122 @@
 [
 	[
-		"conference#Reviewed_contribution",
-		"ekaw#Accepted_Paper"
-	],
-	[
 		"conference#Conference",
 		"ekaw#Conference"
-	],
-	[
-		"conference#Call_for_paper",
-		"ekaw#Document"
-	],
-	[
-		"conference#Accepted_contribution",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"conference#Rejected_contribution",
-		"ekaw#Proceedings"
-	],
-	[
-		"conference#Regular_author",
-		"ekaw#Person"
-	],
-	[
-		"conference#Chair",
-		"ekaw#OC_Chair"
-	],
-	[
-		"conference#Written_contribution",
-		"ekaw#Paper"
-	],
-	[
-		"conference#Program_committee",
-		"ekaw#Event"
-	],
-	[
-		"conference#Conference_participant",
-		"ekaw#Conference_Participant"
-	],
-	[
-		"conference#Regular_contribution",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"conference#Conference_contribution",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"conference#Committee",
-		"ekaw#Organisation"
-	],
-	[
-		"conference#Call_for_participation",
-		"ekaw#Conference_Session"
-	],
-	[
-		"conference#Active_conference_participant",
-		"ekaw#Presenter"
-	],
-	[
-		"conference#Information_for_participants",
-		"ekaw#Abstract"
-	],
-	[
-		"conference#Conference_proceedings",
-		"ekaw#Conference_Proceedings"
-	],
-	[
-		"conference#Invited_talk",
-		"ekaw#Invited_Talk"
-	],
-	[
-		"conference#Review",
-		"ekaw#Review"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"ekaw#Workshop_Chair"
-	],
-	[
-		"conference#Poster",
-		"ekaw#Submitted_Paper"
 	],
 	[
 		"conference#Workshop",
 		"ekaw#Workshop"
 	],
 	[
-		"conference#Track",
-		"ekaw#Track"
-	],
-	[
-		"conference#Invited_speaker",
-		"ekaw#Invited_Speaker"
+		"conference#Conference_www",
+		"ekaw#Web_Site"
 	],
 	[
 		"conference#Tutorial",
 		"ekaw#Tutorial"
 	],
 	[
+		"conference#Call_for_participation",
+		"ekaw#Event"
+	],
+	[
+		"conference#Conference_volume",
+		"ekaw#Document"
+	],
+	[
+		"conference#Conference_part",
+		"ekaw#Conference_Session"
+	],
+	[
+		"conference#Camera_ready_contribution",
+		"ekaw#Accepted_Paper"
+	],
+	[
+		"conference#Invited_speaker",
+		"ekaw#Invited_Speaker"
+	],
+	[
+		"conference#Paper",
+		"ekaw#Paper"
+	],
+	[
 		"conference#Organizer",
 		"ekaw#Session"
 	],
 	[
-		"conference#Conference_www",
-		"ekaw#Web_Site"
+		"conference#Active_conference_participant",
+		"ekaw#Presenter"
 	],
 	[
-		"conference#Presentation",
-		"ekaw#Invited_Talk_Abstract"
+		"conference#Committee_member",
+		"ekaw#Workshop_Chair"
+	],
+	[
+		"conference#Rejected_contribution",
+		"ekaw#Proceedings"
+	],
+	[
+		"conference#Written_contribution",
+		"ekaw#Evaluated_Paper"
+	],
+	[
+		"conference#Conference_proceedings",
+		"ekaw#Conference_Proceedings"
+	],
+	[
+		"conference#Poster",
+		"ekaw#Submitted_Paper"
+	],
+	[
+		"conference#Abstract",
+		"ekaw#Abstract"
+	],
+	[
+		"conference#Committee",
+		"ekaw#Organisation"
+	],
+	[
+		"conference#Track",
+		"ekaw#Track"
+	],
+	[
+		"conference#Review",
+		"ekaw#Review"
+	],
+	[
+		"conference#Chair",
+		"ekaw#OC_Chair"
+	],
+	[
+		"conference#Reviewed_contribution",
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"conference#Regular_contribution",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"conference#Conference_participant",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"conference#Conference_contribution",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"conference#Person",
+		"ekaw#Person"
+	],
+	[
+		"conference#Invited_talk",
+		"ekaw#Invited_Talk"
 	],
 	[
 		"conference#Conference_document",
 		"ekaw#Scientific_Event"
+	],
+	[
+		"conference#Presentation",
+		"ekaw#Invited_Talk_Abstract"
 	]
 ]
