@@ -9,6 +9,8 @@ sys.path.append('./verbalizer/Prompt_generator2/')
 from verbalizer.Prompt_generator2 import generatePrompt
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
 from AlignmentFormat import serialize_mapping_to_file
+from alternative_approaches.llm_prompting import LLM
+from tqdm import tqdm
 
 """
 runs functions according to the tasks in configODS
@@ -168,6 +170,7 @@ def main():
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
     if configODS.get('runPromptsOnLLM'):
+        llm = LLM()
         for dir_path in os.listdir(configODS.get('promptsPath')):
             #print(f"processing '{file_path}'")
             for file_path in os.listdir(configODS.get('promptsPath') + dir_path):
@@ -176,12 +179,12 @@ def main():
                     llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path
                     if not os.path.exists(llmMatchedFilePath):
                         os.mkdir(llmMatchedFilePath + '/')
-                    llmMatchedFilePath += '/llm_' + file_path
+                    llmMatchedFilePath += '/' + file_path
                     promptDict = utils.importFromJson(promptsPath)
                     promptResult = {}
-                    for promptKey in promptDict:
+                    for promptKey in tqdm(promptDict, desc=f'running prompts for {file_path.replace(".json", "")}'):
                         prompt = promptDict.get(promptKey)
-                        yesOrNo = 'yes'#ToDo: run prompt here
+                        yesOrNo = llm.get_prediction(prompt)
                         promptResult[promptKey] = yesOrNo
                     utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
@@ -207,7 +210,7 @@ def main():
                         verticesL.add(key1)
                         verticesR.add(key2)
                     for key in llmMatchedClasses.keys():
-                        if llmMatchedClasses.get(key):
+                        if llmMatchedClasses.get(key) == 'yes':
                             onto1HASHclass1, onto2HASHclass2 = key.split(';')
                             verticesL.add(onto1HASHclass1)
                             verticesR.add(onto2HASHclass2)
