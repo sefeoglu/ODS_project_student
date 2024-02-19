@@ -9,21 +9,49 @@ sys.path.append('./verbalizer/Prompt_generator2/')
 from verbalizer.Prompt_generator2 import generatePrompt
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
 from AlignmentFormat import serialize_mapping_to_file
+from batch_loaders.ontology_parsing import preprocessing
 from alternative_approaches.llm_prompting import LLM
 from tqdm import tqdm
+from sentence_transformers import SentenceTransformer, util
+from numpy import dot
+from numpy.linalg import norm
 
-"""
-runs functions according to the tasks in configODS
-prepares configs, metrics for original project by FrancisGosselin
 
-Parameters:
-None
 
-Returns: 
-None
-"""
+def candidate_concept_sim(concept1, concept2):
+    """computes similarity score between concept1 and concept2
+
+    Args:
+        concept1 (str): concept 1 name to be matched
+        concept2 (str): concept 2 name to be matched
+
+    Returns:
+        float: similarity score between concept1 and concept2
+    """
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    preprocessor = preprocessing.PreprocessingPipeline()
+
+    cleaned_concept1 = " ".join( preprocessor.process(concept1))
+    cleaned_concept2 = " ".join(preprocessor.process(concept2))
+
+    concept1_embedding = model.encode(cleaned_concept1)
+    concept2_embedding = model.encode(cleaned_concept2)
+    cos_sim =  util.cos_sim(concept1_embedding, concept2_embedding)
+    print(f"cosine similarity between {concept1} and {concept2} is {cos_sim.item()}")
+    return cos_sim.item()
 
 def main():
+    """
+    runs functions according to the tasks in configODS
+    prepares configs, metrics for original project by FrancisGosselin
+
+    Parameters:
+    None
+
+    Returns: 
+    None
+    """
     configODS = configODSImport.getConfigODS()
 
     #to stuff like in original project
@@ -63,7 +91,7 @@ def main():
             onto1 = ontos.get(ontoName1)
             onto2 = ontos.get(ontoName2)
             if onto1 and onto2:
-                crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()]
+                crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, 'no score'] for class1 in onto1.get_classes() for class2 in onto2.get_classes()  if candidate_concept_sim(class1, class2) > 0.5]
                 path = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
                 utils.saveToJson(crossProduct, path, messageText=f'exported crossProduct ({ontoName1} X {ontoName2}) to ')
 
@@ -83,9 +111,8 @@ def main():
                 for key1, key2, _ in triples:
                     onto1, class1 = key1.split('#')
                     onto2, class2 = key2.split('#')
-                    class1Clean = cleanAndLowerString(class1)
-                    class2Clean = cleanAndLowerString(class2)
-                    if (class1Clean == class2Clean):
+                    sim_core = candidate_concept_sim(class1, class2)
+                    if (sim_core==1.0):
                         alreadyIn = False
                         for classA, classB, _ in exactMatches:
                             if classA == class1 or classB == class2:
@@ -145,7 +172,7 @@ def main():
     #promptVersions: list of integers indicating which prompt versions to use
     promptVersion = configODS.get('promptsFoExportToJson')
     if promptVersion:
-        #print(f"promptVersions: {promptVersion}")
+        print(f"promptVersions: {promptVersion}")
         for i in promptVersion:
             for file_path in os.listdir(configODS.get('alignmentPath')):
                 #print(f"processing '{file_path}'")
@@ -163,12 +190,14 @@ def main():
                         contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                         utils.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/"+ file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
+    
     if configODS.get('verbalizeAvailableTriples'):
         for file_path in os.listdir(configODS.get('triplesPath')):
             if file_path.endswith('.json'):
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
+
     if configODS.get('runPromptsOnLLM'):
         llm = LLM()
         for dir_path in os.listdir(configODS.get('promptsPath')):
@@ -234,12 +263,12 @@ def main():
                     serialize_mapping_to_file(rdfPath, t)
                     print('exported ' + rdfPath)
 
-def cleanAndLowerString(string):
-    import re
-    string = re.sub(r'\s+', ' ', string)  # Replace multiple whitespace characters with a single space
-    string = re.sub(r'[;.:_\-#]', '', string)  # Remove specified special characters
-    string = string.lower()
-    return string
+# def cleanAndLowerString(string):
+#     import re
+#     string = re.sub(r'\s+', ' ', string)  # Replace multiple whitespace characters with a single space
+#     string = re.sub(r'[;.:_\-#]', '', string)  # Remove specified special characters
+#     string = string.lower()
+#     return string
 
 
 main()
