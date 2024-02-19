@@ -1,7 +1,5 @@
-# ODS project class' project
-A new ontology matching evaluation project.
-
-# SORBET
+# Ontology Matching
+Graph Search Algorothm Based Prompt Generation for Ontology Matching
 
 ## Requirements
 use Python version >=3.10
