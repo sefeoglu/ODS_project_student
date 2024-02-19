@@ -177,8 +177,8 @@ class PreprocessingPipeline():
 
         # processed_labels = self.remove_stopwords(processed_labels)
 
-        if self.autocorrect:
-            processed_labels = self.spell_check(processed_labels)
+        # if self.autocorrect:
+        #     processed_labels = self.spell_check(processed_labels)
 
         return processed_labels
 
