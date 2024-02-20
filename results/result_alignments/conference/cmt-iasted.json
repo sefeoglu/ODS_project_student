@@ -1,377 +1,637 @@
 [
 	[
-		"cmt#Meta-Reviewer",
-		"iasted#Reviewer",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"iasted#Review",
-		"no score"
-	],
-	[
 		"cmt#Reviewer",
 		"iasted#Reviewer",
-		"no score"
+		1.0
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Review",
-		"no score"
+		0.8096712231636047
+	],
+	[
+		"cmt#Decision",
+		"iasted#Time",
+		0.4297146499156952
+	],
+	[
+		"cmt#Decision",
+		"iasted#Item",
+		0.4266909956932068
+	],
+	[
+		"cmt#Decision",
+		"iasted#Reviewer",
+		0.4384925067424774
+	],
+	[
+		"cmt#Decision",
+		"iasted#Review",
+		0.44648411870002747
 	],
 	[
 		"cmt#Person",
 		"iasted#Person",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Person",
 		"iasted#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Person",
+		"iasted#Speaker",
+		0.40011924505233765
+	],
+	[
+		"cmt#Document",
+		"iasted#Form",
+		0.4297798275947571
 	],
 	[
 		"cmt#Document",
 		"iasted#Document",
-		"no score"
+		1.0
 	],
 	[
 		"cmt#Document",
-		"iasted#Final_manuscript",
-		"no score"
+		"iasted#Submission",
+		0.4143352508544922
 	],
 	[
 		"cmt#Document",
 		"iasted#Publication",
-		"no score"
+		0.5414043664932251
 	],
 	[
 		"cmt#Document",
 		"iasted#Payment_document",
-		"no score"
+		0.500626802444458
 	],
 	[
 		"cmt#Document",
-		"iasted#Receiving_manuscript",
-		"no score"
+		"iasted#Main_office",
+		0.4089980125427246
+	],
+	[
+		"cmt#ProgramCommittee",
+		"iasted#Submission",
+		0.4007260203361511
+	],
+	[
+		"cmt#ProgramCommittee",
+		"iasted#Student_lecturer",
+		0.4100062847137451
+	],
+	[
+		"cmt#Bid",
+		"iasted#Item",
+		0.42604684829711914
+	],
+	[
+		"cmt#Bid",
+		"iasted#Submission",
+		0.4000222682952881
+	],
+	[
+		"cmt#Bid",
+		"iasted#Fee",
+		0.445683091878891
+	],
+	[
+		"cmt#Bid",
+		"iasted#Currency",
+		0.4464476704597473
 	],
 	[
 		"cmt#Conference",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.424344003200531
+	],
+	[
+		"cmt#Conference",
+		"iasted#Presentation",
+		0.4557724893093109
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6445682048797607
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_city",
-		"no score"
+		0.8181537985801697
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_state",
-		"no score"
+		0.7214091420173645
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_activity",
-		"no score"
+		0.695114016532898
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_days",
-		"no score"
+		0.7756714820861816
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.7464775443077087
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_airport",
-		"no score"
+		0.6579046845436096
+	],
+	[
+		"cmt#Conference",
+		"iasted#City",
+		0.40900442004203796
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6673057079315186
+	],
+	[
+		"cmt#Conference",
+		"iasted#Sponsor_city",
+		0.4128880500793457
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"cmt#Conference",
-		"iasted#One_conference_day",
-		"no score"
+		0.7057666182518005
 	],
 	[
 		"cmt#Conference",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6982145309448242
+	],
+	[
+		"cmt#ConferenceChair",
+		"iasted#Presenter_city",
+		0.4426465630531311
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6410814523696899
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_city",
-		"no score"
+		0.6792600154876709
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_state",
-		"no score"
+		0.5457803010940552
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_activity",
-		"no score"
+		0.6465981006622314
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		0.488037109375
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Session_chair",
-		"no score"
+		0.5571478009223938
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_days",
-		"no score"
+		0.5229099988937378
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_building",
-		"no score"
+		0.6459373235702515
 	],
 	[
 		"cmt#ConferenceChair",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Conference_airport",
+		0.5571432709693909
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_hotel",
-		"no score"
+		0.5441799163818359
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"cmt#ConferenceChair",
-		"iasted#One_conference_day",
-		"no score"
+		0.5503149032592773
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6683017611503601
 	],
 	[
 		"cmt#ConferenceMember",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_state",
+		0.40307116508483887
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Delegate",
+		0.4423222541809082
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Presenter_city",
+		0.43487975001335144
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6782203912734985
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_city",
-		"no score"
+		0.7102288007736206
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_state",
-		"no score"
+		0.6536675691604614
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_activity",
-		"no score"
+		0.6310862302780151
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Invitation_letter",
+		0.40090662240982056
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_days",
-		"no score"
+		0.6156564950942993
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_building",
-		"no score"
+		0.6675165295600891
 	],
 	[
 		"cmt#ConferenceMember",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Conference_airport",
+		0.6184477806091309
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6271218061447144
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_hall",
-		"no score"
+		0.6276471614837646
 	],
 	[
 		"cmt#ConferenceMember",
-		"iasted#One_conference_day",
-		"no score"
+		"iasted#Nonmember_registration_fee",
+		0.44223546981811523
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#IASTED_non_member",
+		0.4771827161312103
 	],
 	[
 		"cmt#ConferenceMember",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.7862063646316528
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#IASTED_member",
+		0.442791610956192
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Presenter_university",
+		0.42171311378479004
 	],
 	[
 		"cmt#AssociatedChair",
 		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		0.5797258615493774
 	],
 	[
 		"cmt#AssociatedChair",
 		"iasted#Session_chair",
-		"no score"
+		0.4649896025657654
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#Delegate",
+		0.40352869033813477
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#Nonmember_registration_fee",
+		0.45160186290740967
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#IASTED_non_member",
+		0.46007174253463745
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#IASTED_member",
+		0.4402410089969635
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#Student_registration_fee",
+		0.43114209175109863
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Author_cd_proceedings_included",
+		0.5130856037139893
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"iasted#Author",
-		"no score"
+		0.5061945915222168
 	],
 	[
 		"cmt#AuthorNotReviewer",
-		"iasted#Reviewer",
-		"no score"
+		"iasted#Author_attendee_book_registration_fee",
+		0.5927590727806091
 	],
 	[
 		"cmt#AuthorNotReviewer",
-		"iasted#Review",
-		"no score"
+		"iasted#Author_information_form",
+		0.47853755950927734
 	],
 	[
-		"cmt#ExternalReviewer",
-		"iasted#Reviewer",
-		"no score"
+		"cmt#AuthorNotReviewer",
+		"iasted#Nonauthor_registration_fee",
+		0.4068176746368408
 	],
 	[
-		"cmt#ExternalReviewer",
-		"iasted#Review",
-		"no score"
+		"cmt#AuthorNotReviewer",
+		"iasted#Author_book_proceedings_included",
+		0.5657000541687012
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Author_attendee_cd_registration_fee",
+		0.6005861759185791
 	],
 	[
 		"cmt#Chairman",
-		"iasted#Session_chair",
-		"no score"
+		"iasted#Presenter_house",
+		0.4048382043838501
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Delegate",
+		0.4482205808162689
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Author",
+		0.43170300126075745
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Sponsor",
+		0.41763192415237427
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Conference_Hiker",
+		0.41773146390914917
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Sponsor_company_house",
+		0.4034084677696228
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		0.5267508029937744
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"iasted#Session_chair",
-		"no score"
+		0.5088857412338257
 	],
 	[
 		"cmt#Acceptance",
-		"iasted#Deadline_for_notification_of_acceptance",
-		"no score"
+		"iasted#Submission",
+		0.4228256642818451
 	],
 	[
 		"cmt#Review",
 		"iasted#Reviewer",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"cmt#Review",
 		"iasted#Review",
-		"no score"
+		1.000000238418579
+	],
+	[
+		"cmt#Paper",
+		"iasted#Form",
+		0.4397408962249756
 	],
 	[
 		"cmt#Paper",
 		"iasted#Document",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"cmt#Paper",
+		"iasted#Activity",
+		0.4085239768028259
+	],
+	[
+		"cmt#Paper",
+		"iasted#Presentation",
+		0.4003778398036957
+	],
+	[
+		"cmt#Paper",
+		"iasted#Transparency",
+		0.40693533420562744
+	],
+	[
+		"cmt#Paper",
+		"iasted#Card",
+		0.44289466738700867
+	],
+	[
+		"cmt#Paper",
+		"iasted#Money",
+		0.4548240602016449
+	],
+	[
+		"cmt#Paper",
+		"iasted#Submission",
+		0.4081323444843292
 	],
 	[
 		"cmt#Paper",
 		"iasted#Publication",
-		"no score"
+		0.556241512298584
+	],
+	[
+		"cmt#Paper",
+		"iasted#Computer",
+		0.4445510506629944
 	],
 	[
 		"cmt#Author",
 		"iasted#Person",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Author",
+		"iasted#Author_cd_proceedings_included",
+		0.48235952854156494
 	],
 	[
 		"cmt#Author",
 		"iasted#Author",
-		"no score"
+		0.9999999403953552
+	],
+	[
+		"cmt#Author",
+		"iasted#Introduction",
+		0.43188267946243286
 	],
 	[
 		"cmt#Author",
 		"iasted#Author_information_form",
-		"no score"
+		0.4213448464870453
 	],
 	[
 		"cmt#Author",
 		"iasted#Publication",
-		"no score"
+		0.5501728057861328
+	],
+	[
+		"cmt#Author",
+		"iasted#Author_book_proceedings_included",
+		0.5095466375350952
 	],
 	[
 		"cmt#User",
 		"iasted#Person",
-		"no score"
+		0.5441259145736694
+	],
+	[
+		"cmt#User",
+		"iasted#Author",
+		0.46602723002433777
+	],
+	[
+		"cmt#User",
+		"iasted#Item",
+		0.4597695469856262
+	],
+	[
+		"cmt#User",
+		"iasted#Computer",
+		0.42262059450149536
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Person",
+		0.41941604018211365
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_cd_proceedings_included",
+		0.5012317895889282
 	],
 	[
 		"cmt#Co-author",
 		"iasted#Author",
-		"no score"
+		0.6060911417007446
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_information_form",
+		0.44340163469314575
+	],
+	[
+		"cmt#Co-author",
+		"iasted#IASTED_non_member",
+		0.41460171341896057
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Publication",
+		0.414072185754776
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Conference_Hiker",
+		0.46713557839393616
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_book_proceedings_included",
+		0.4268532395362854
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_attendee_cd_registration_fee",
+		0.4711313247680664
+	],
+	[
+		"cmt#PaperAbstract",
+		"iasted#Document",
+		0.4391368627548218
+	],
+	[
+		"cmt#PaperAbstract",
+		"iasted#Publication",
+		0.413519948720932
 	],
 	[
 		"cmt#PaperFullVersion",
 		"iasted#Document",
-		"no score"
+		0.46634313464164734
 	],
 	[
 		"cmt#PaperFullVersion",
-		"iasted#Final_manuscript",
-		"no score"
+		"iasted#Publication",
+		0.4056679308414459
+	],
+	[
+		"cmt#Administrator",
+		"iasted#Delegate",
+		0.49305260181427
 	],
 	[
 		"cmt#Administrator",
 		"iasted#Computer",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"iasted#Reviewer",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"iasted#Review",
-		"no score"
+		0.500530481338501
 	]
 ]

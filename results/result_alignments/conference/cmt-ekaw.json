@@ -1,607 +1,692 @@
 [
 	[
 		"cmt#Meta-Reviewer",
-		"ekaw#Positive_Review",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
 		"ekaw#Negative_Review",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"ekaw#Review",
-		"no score"
+		0.46030867099761963
 	],
 	[
 		"cmt#Meta-Reviewer",
 		"ekaw#Neutral_Review",
-		"no score"
+		0.5038871169090271
 	],
 	[
 		"cmt#Meta-Reviewer",
 		"ekaw#Possible_Reviewer",
-		"no score"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Positive_Review",
-		"no score"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Negative_Review",
-		"no score"
+		0.6520036458969116
 	],
 	[
 		"cmt#Reviewer",
 		"ekaw#Review",
-		"no score"
+		0.8096712231636047
 	],
 	[
-		"cmt#Reviewer",
-		"ekaw#Neutral_Review",
-		"no score"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Possible_Reviewer",
-		"no score"
+		"cmt#Decision",
+		"ekaw#Review",
+		0.44648411870002747
 	],
 	[
 		"cmt#Person",
 		"ekaw#Person",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#Person",
+		"ekaw#Paper_Author",
+		0.41066277027130127
+	],
+	[
+		"cmt#Person",
+		"ekaw#Student",
+		0.4629851281642914
+	],
+	[
+		"cmt#Person",
+		"ekaw#Presenter",
+		0.409059077501297
+	],
+	[
+		"cmt#Document",
+		"ekaw#Accepted_Paper",
+		0.4161520004272461
+	],
+	[
+		"cmt#Document",
+		"ekaw#Rejected_Paper",
+		0.4132704734802246
+	],
+	[
+		"cmt#Document",
+		"ekaw#Evaluated_Paper",
+		0.40011870861053467
+	],
+	[
+		"cmt#Document",
+		"ekaw#Workshop_Paper",
+		0.4467802345752716
 	],
 	[
 		"cmt#Document",
 		"ekaw#Paper",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"cmt#Document",
 		"ekaw#Conference_Paper",
-		"no score"
+		0.46772804856300354
 	],
 	[
 		"cmt#Document",
 		"ekaw#Document",
-		"no score"
+		1.0
+	],
+	[
+		"cmt#Document",
+		"ekaw#Paper_Author",
+		0.4245966672897339
 	],
 	[
 		"cmt#Document",
 		"ekaw#Submitted_Paper",
-		"no score"
+		0.5024235248565674
 	],
 	[
 		"cmt#Document",
 		"ekaw#Proceedings_Publisher",
-		"no score"
+		0.41885441541671753
+	],
+	[
+		"cmt#Document",
+		"ekaw#Poster_Paper",
+		0.48814085125923157
+	],
+	[
+		"cmt#Document",
+		"ekaw#Regular_Paper",
+		0.4240138530731201
 	],
 	[
 		"cmt#Document",
 		"ekaw#Demo_Paper",
-		"no score"
+		0.4506146013736725
 	],
 	[
 		"cmt#Document",
 		"ekaw#Proceedings",
-		"no score"
+		0.5442898273468018
+	],
+	[
+		"cmt#ProgramCommittee",
+		"ekaw#Contributed_Talk",
+		0.43228986859321594
+	],
+	[
+		"cmt#ProgramCommittee",
+		"ekaw#Programme_Brochure",
+		0.5038714408874512
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Event",
-		"no score"
+		0.5104796886444092
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Paper",
-		"no score"
+		0.7258506417274475
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Session",
-		"no score"
+		0.760166585445404
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Trip",
-		"no score"
+		0.6428230404853821
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Participant",
-		"no score"
+		0.7481421232223511
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Invited_Talk",
+		0.4500773847103119
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Workshop",
+		0.43847036361694336
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Contributed_Talk",
+		0.41944262385368347
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Proceedings",
+		0.4518742859363556
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Banquet",
-		"no score"
+		0.6039999723434448
 	],
 	[
 		"cmt#Conference",
 		"ekaw#Conference_Proceedings",
-		"no score"
+		0.7667665481567383
+	],
+	[
+		"cmt#Conference",
+		"ekaw#University",
+		0.4240848422050476
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Paper",
-		"no score"
+		0.6292120814323425
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Session",
-		"no score"
+		0.5967180728912354
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Trip",
-		"no score"
+		0.5606110692024231
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Participant",
-		"no score"
+		0.6644115447998047
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Proceedings_Publisher",
+		0.42285779118537903
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Workshop",
+		0.45384693145751953
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Demo_Chair",
-		"no score"
+		0.5784326791763306
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Tutorial_Chair",
+		0.48871421813964844
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#PC_Chair",
-		"no score"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#OC_Chair",
-		"no score"
+		0.6165502071380615
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Banquet",
-		"no score"
+		0.47013407945632935
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Workshop_Chair",
-		"no score"
+		0.6951730251312256
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Conference_Proceedings",
-		"no score"
+		0.6805143356323242
 	],
 	[
 		"cmt#ConferenceChair",
 		"ekaw#Session_Chair",
-		"no score"
+		0.5571478009223938
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Paper",
-		"no score"
+		0.6474442481994629
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Session",
-		"no score"
+		0.7133584022521973
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Paper_Author",
+		0.42658987641334534
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Trip",
-		"no score"
+		0.5445432662963867
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Participant",
-		"no score"
+		0.7813140749931335
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Invited_Talk_Abstract",
+		0.46293139457702637
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Agency_Staff_Member",
+		0.48156335949897766
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Invited_Talk",
+		0.49186354875564575
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Workshop",
+		0.41587916016578674
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Contributed_Talk",
+		0.43213576078414917
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference",
-		"no score"
+		0.739916205406189
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#PC_Member",
-		"no score"
-	],
-	[
-		"cmt#ConferenceMember",
-		"ekaw#OC_Member",
-		"no score"
+		0.5806881785392761
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Banquet",
-		"no score"
+		0.5595282912254333
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Proceedings",
-		"no score"
+		0.7131891250610352
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Invited_Speaker",
-		"no score"
+		0.4686518609523773
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Presenter",
+		0.4577879309654236
 	],
 	[
 		"cmt#ConferenceMember",
 		"ekaw#SC_Member",
-		"no score"
+		0.545950174331665
 	],
 	[
 		"cmt#AssociatedChair",
 		"ekaw#Demo_Chair",
-		"no score"
+		0.5235289335250854
 	],
 	[
 		"cmt#AssociatedChair",
 		"ekaw#Tutorial_Chair",
-		"no score"
+		0.5112078785896301
 	],
 	[
 		"cmt#AssociatedChair",
 		"ekaw#PC_Chair",
-		"no score"
-	],
-	[
-		"cmt#AssociatedChair",
-		"ekaw#OC_Chair",
-		"no score"
+		0.6076308488845825
 	],
 	[
 		"cmt#AssociatedChair",
 		"ekaw#Workshop_Chair",
-		"no score"
+		0.5665309429168701
 	],
 	[
 		"cmt#AssociatedChair",
 		"ekaw#Session_Chair",
-		"no score"
+		0.4649896025657654
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"ekaw#Agency_Staff_Member",
-		"no score"
+		0.4221976399421692
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"ekaw#PC_Member",
+		0.41080257296562195
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"ekaw#SC_Member",
-		"no score"
+		0.4575621783733368
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"ekaw#Paper_Author",
-		"no score"
+		0.43109962344169617
 	],
 	[
 		"cmt#AuthorNotReviewer",
-		"ekaw#Review",
-		"no score"
+		"ekaw#Negative_Review",
+		0.4098328649997711
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"ekaw#Neutral_Review",
+		0.4651033282279968
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"ekaw#Possible_Reviewer",
-		"no score"
+		0.6011077761650085
+	],
+	[
+		"cmt#SubjectArea",
+		"ekaw#Poster_Session",
+		0.4166378676891327
 	],
 	[
 		"cmt#ExternalReviewer",
-		"ekaw#Review",
-		"no score"
+		"ekaw#Negative_Review",
+		0.4012139141559601
+	],
+	[
+		"cmt#ExternalReviewer",
+		"ekaw#Neutral_Review",
+		0.48786693811416626
 	],
 	[
 		"cmt#ExternalReviewer",
 		"ekaw#Possible_Reviewer",
-		"no score"
+		0.6987444758415222
 	],
 	[
 		"cmt#Chairman",
-		"ekaw#Session_Chair",
-		"no score"
+		"ekaw#Organisation",
+		0.46881547570228577
 	],
 	[
-		"cmt#ProgramCommitteeChair",
+		"cmt#Chairman",
 		"ekaw#Agency_Staff_Member",
-		"no score"
+		0.4537888765335083
+	],
+	[
+		"cmt#Chairman",
+		"ekaw#Presenter",
+		0.4110957384109497
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"ekaw#Demo_Chair",
-		"no score"
+		0.4849361479282379
 	],
 	[
 		"cmt#ProgramCommitteeChair",
-		"ekaw#OC_Chair",
-		"no score"
+		"ekaw#Tutorial_Chair",
+		0.5367384552955627
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair",
+		0.44425147771835327
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"ekaw#Workshop_Chair",
-		"no score"
+		0.5206584930419922
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"ekaw#Session_Chair",
-		"no score"
+		0.5088857412338257
 	],
 	[
 		"cmt#Acceptance",
 		"ekaw#Accepted_Paper",
-		"no score"
+		0.5283911824226379
 	],
 	[
 		"cmt#Rejection",
 		"ekaw#Rejected_Paper",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Positive_Review",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Negative_Review",
-		"no score"
+		0.5209381580352783
 	],
 	[
 		"cmt#Review",
 		"ekaw#Review",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Neutral_Review",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Possible_Reviewer",
-		"no score"
+		1.000000238418579
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Accepted_Paper",
-		"no score"
+		0.4090678095817566
 	],
 	[
 		"cmt#Paper",
-		"ekaw#Camera_Ready_Paper",
-		"no score"
+		"ekaw#Rejected_Paper",
+		0.4215221405029297
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Workshop_Paper",
-		"no score"
+		0.41839420795440674
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Industrial_Paper",
-		"no score"
+		0.4741528630256653
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Conference_Paper",
-		"no score"
+		0.47877803444862366
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Poster_Session",
+		0.40633031725883484
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Document",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Paper_Author",
-		"no score"
+		0.6146597862243652
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Submitted_Paper",
-		"no score"
-	],
-	[
-		"cmt#Paper",
-		"ekaw#Assigned_Paper",
-		"no score"
+		0.5035399198532104
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Poster_Paper",
-		"no score"
+		0.6122497916221619
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Regular_Paper",
-		"no score"
+		0.4769546091556549
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Demo_Paper",
-		"no score"
+		0.4360290765762329
 	],
 	[
 		"cmt#Author",
 		"ekaw#Person",
-		"no score"
+		0.5049825310707092
 	],
 	[
 		"cmt#Author",
 		"ekaw#Paper_Author",
-		"no score"
+		0.5719591379165649
+	],
+	[
+		"cmt#Author",
+		"ekaw#Research_Institute",
+		0.4025307595729828
 	],
 	[
 		"cmt#User",
 		"ekaw#Person",
-		"no score"
+		0.5441259145736694
+	],
+	[
+		"cmt#User",
+		"ekaw#Location",
+		0.44534268975257874
+	],
+	[
+		"cmt#User",
+		"ekaw#Web_Site",
+		0.43410587310791016
+	],
+	[
+		"cmt#User",
+		"ekaw#Student",
+		0.4236912131309509
+	],
+	[
+		"cmt#Co-author",
+		"ekaw#Person",
+		0.41941604018211365
 	],
 	[
 		"cmt#Co-author",
 		"ekaw#Paper_Author",
-		"no score"
+		0.5670467615127563
 	],
 	[
-		"cmt#PaperAbstract",
-		"ekaw#Workshop_Paper",
-		"no score"
+		"cmt#Co-author",
+		"ekaw#Conference_Participant",
+		0.41576117277145386
+	],
+	[
+		"cmt#Co-author",
+		"ekaw#Agency_Staff_Member",
+		0.44599178433418274
+	],
+	[
+		"cmt#Co-author",
+		"ekaw#Contributed_Talk",
+		0.45414185523986816
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Industrial_Paper",
-		"no score"
+		0.4364158511161804
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Paper",
-		"no score"
+		0.7563047409057617
 	],
 	[
 		"cmt#PaperAbstract",
-		"ekaw#Conference_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Abstract",
-		"no score"
+		"ekaw#Document",
+		0.4391368627548218
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Paper_Author",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Tutorial_Abstract",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Assigned_Paper",
-		"no score"
+		0.6126469373703003
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Poster_Paper",
-		"no score"
+		0.4599763751029968
 	],
 	[
 		"cmt#PaperAbstract",
 		"ekaw#Regular_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Demo_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Invited_Talk_Abstract",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Accepted_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Camera_Ready_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Industrial_Paper",
-		"no score"
+		0.4281039237976074
 	],
 	[
 		"cmt#PaperFullVersion",
 		"ekaw#Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Conference_Paper",
-		"no score"
+		0.6639873385429382
 	],
 	[
 		"cmt#PaperFullVersion",
 		"ekaw#Document",
-		"no score"
+		0.46634313464164734
 	],
 	[
 		"cmt#PaperFullVersion",
 		"ekaw#Paper_Author",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Submitted_Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Assigned_Paper",
-		"no score"
+		0.5678296089172363
 	],
 	[
 		"cmt#PaperFullVersion",
 		"ekaw#Poster_Paper",
-		"no score"
+		0.42652517557144165
 	],
 	[
 		"cmt#PaperFullVersion",
 		"ekaw#Regular_Paper",
-		"no score"
+		0.4675388038158417
 	],
 	[
-		"cmt#PaperFullVersion",
-		"ekaw#Demo_Paper",
-		"no score"
+		"cmt#Administrator",
+		"ekaw#Paper_Author",
+		0.43005815148353577
+	],
+	[
+		"cmt#Administrator",
+		"ekaw#Organisation",
+		0.478243350982666
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Positive_Review",
-		"no score"
+		0.4146496653556824
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Negative_Review",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"ekaw#Review",
-		"no score"
+		0.5040448307991028
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Neutral_Review",
-		"no score"
+		0.5207467675209045
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Possible_Reviewer",
-		"no score"
+		0.5898513197898865
 	]
 ]

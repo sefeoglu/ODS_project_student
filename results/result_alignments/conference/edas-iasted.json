@@ -1,1097 +1,1757 @@
 [
 	[
+		"edas#SlideSet",
+		"iasted#PowerPoint_presentation",
+		0.46903330087661743
+	],
+	[
+		"edas#SlideSet",
+		"iasted#Presentation",
+		0.5400026440620422
+	],
+	[
 		"edas#Review",
 		"iasted#Reviewer",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"edas#Review",
 		"iasted#Review",
-		"no score"
+		1.000000238418579
+	],
+	[
+		"edas#Programme",
+		"iasted#Presenter_house",
+		0.41812241077423096
+	],
+	[
+		"edas#Programme",
+		"iasted#Presenter_state",
+		0.416978657245636
+	],
+	[
+		"edas#Programme",
+		"iasted#Presenter_city",
+		0.47177940607070923
+	],
+	[
+		"edas#Programme",
+		"iasted#Social_program",
+		0.5060603022575378
+	],
+	[
+		"edas#Programme",
+		"iasted#Activity",
+		0.41197651624679565
+	],
+	[
+		"edas#Programme",
+		"iasted#Presentation",
+		0.4474250078201294
+	],
+	[
+		"edas#Programme",
+		"iasted#Item",
+		0.4113258123397827
+	],
+	[
+		"edas#Programme",
+		"iasted#Lecture",
+		0.42191824316978455
+	],
+	[
+		"edas#Programme",
+		"iasted#Computer",
+		0.4743502140045166
+	],
+	[
+		"edas#Programme",
+		"iasted#Main_office",
+		0.41137436032295227
+	],
+	[
+		"edas#Paper",
+		"iasted#Form",
+		0.4397408962249756
 	],
 	[
 		"edas#Paper",
 		"iasted#Document",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"edas#Paper",
+		"iasted#Activity",
+		0.4085239768028259
+	],
+	[
+		"edas#Paper",
+		"iasted#Presentation",
+		0.4003778398036957
+	],
+	[
+		"edas#Paper",
+		"iasted#Transparency",
+		0.40693533420562744
+	],
+	[
+		"edas#Paper",
+		"iasted#Card",
+		0.44289466738700867
+	],
+	[
+		"edas#Paper",
+		"iasted#Money",
+		0.4548240602016449
+	],
+	[
+		"edas#Paper",
+		"iasted#Submission",
+		0.4081323444843292
 	],
 	[
 		"edas#Paper",
 		"iasted#Publication",
-		"no score"
+		0.556241512298584
+	],
+	[
+		"edas#Paper",
+		"iasted#Computer",
+		0.4445510506629944
 	],
 	[
 		"edas#MealMenu",
 		"iasted#Dinner_banquet",
-		"no score"
+		0.43545395135879517
 	],
 	[
 		"edas#MealMenu",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.4029199182987213
+	],
+	[
+		"edas#MealMenu",
+		"iasted#Hotel_presenter",
+		0.421248197555542
+	],
+	[
+		"edas#MealMenu",
+		"iasted#Sponsor_company_house",
+		0.42770513892173767
+	],
+	[
+		"edas#Document",
+		"iasted#Form",
+		0.4297798275947571
 	],
 	[
 		"edas#Document",
 		"iasted#Document",
-		"no score"
+		1.0
 	],
 	[
 		"edas#Document",
-		"iasted#Final_manuscript",
-		"no score"
+		"iasted#Submission",
+		0.4143352508544922
 	],
 	[
 		"edas#Document",
 		"iasted#Publication",
-		"no score"
+		0.5414043664932251
 	],
 	[
 		"edas#Document",
 		"iasted#Payment_document",
-		"no score"
+		0.500626802444458
 	],
 	[
 		"edas#Document",
-		"iasted#Receiving_manuscript",
-		"no score"
+		"iasted#Main_office",
+		0.4089980125427246
+	],
+	[
+		"edas#Topic",
+		"iasted#Activity",
+		0.40163230895996094
+	],
+	[
+		"edas#Topic",
+		"iasted#Research",
+		0.4835381507873535
+	],
+	[
+		"edas#Topic",
+		"iasted#Place",
+		0.421501487493515
 	],
 	[
 		"edas#Topic",
 		"iasted#Introduction",
-		"no score"
+		0.5352280735969543
 	],
 	[
 		"edas#ConferenceEvent",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.4666074812412262
+	],
+	[
+		"edas#ConferenceEvent",
+		"iasted#Presentation",
+		0.4081681966781616
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6305645704269409
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_city",
-		"no score"
+		0.7191407680511475
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_state",
-		"no score"
+		0.6244145631790161
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_activity",
-		"no score"
+		0.6708987355232239
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_days",
-		"no score"
+		0.60604327917099
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.623470664024353
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_airport",
-		"no score"
+		0.5973098278045654
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6485433578491211
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#One_conference_day",
-		"no score"
+		0.6073799133300781
 	],
 	[
 		"edas#ConferenceEvent",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6601786613464355
+	],
+	[
+		"edas#ConferenceEvent",
+		"iasted#Presenter_university",
+		0.40818679332733154
 	],
 	[
 		"edas#ReviewRating",
 		"iasted#Reviewer",
-		"no score"
+		0.6789980530738831
 	],
 	[
 		"edas#ReviewRating",
 		"iasted#Review",
-		"no score"
+		0.736164927482605
+	],
+	[
+		"edas#Organization",
+		"iasted#Building",
+		0.4039410948753357
+	],
+	[
+		"edas#Organization",
+		"iasted#Activity",
+		0.40605419874191284
+	],
+	[
+		"edas#Organization",
+		"iasted#Conference_building",
+		0.469378262758255
 	],
 	[
 		"edas#ReviewForm",
 		"iasted#Form",
-		"no score"
+		0.5780172944068909
+	],
+	[
+		"edas#ReviewForm",
+		"iasted#Registration_form",
+		0.46629396080970764
+	],
+	[
+		"edas#ReviewForm",
+		"iasted#Submission",
+		0.4395190477371216
+	],
+	[
+		"edas#ReviewForm",
+		"iasted#Author_information_form",
+		0.4715532064437866
 	],
 	[
 		"edas#ReviewForm",
 		"iasted#Reviewer",
-		"no score"
+		0.5597963929176331
 	],
 	[
 		"edas#ReviewForm",
 		"iasted#Review",
-		"no score"
+		0.7013048529624939
 	],
 	[
 		"edas#Conference",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.424344003200531
+	],
+	[
+		"edas#Conference",
+		"iasted#Presentation",
+		0.4557724893093109
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6445682048797607
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_city",
-		"no score"
+		0.8181537985801697
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_state",
-		"no score"
+		0.7214091420173645
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_activity",
-		"no score"
+		0.695114016532898
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_days",
-		"no score"
+		0.7756714820861816
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"edas#Conference",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.7464775443077087
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_airport",
-		"no score"
+		0.6579046845436096
+	],
+	[
+		"edas#Conference",
+		"iasted#City",
+		0.40900442004203796
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6673057079315186
+	],
+	[
+		"edas#Conference",
+		"iasted#Sponsor_city",
+		0.4128880500793457
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"edas#Conference",
-		"iasted#One_conference_day",
-		"no score"
+		0.7057666182518005
 	],
 	[
 		"edas#Conference",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6982145309448242
+	],
+	[
+		"edas#Sponsorship",
+		"iasted#Money",
+		0.4317951202392578
 	],
 	[
 		"edas#Sponsorship",
 		"iasted#Sponsor_city",
-		"no score"
+		0.711803674697876
 	],
 	[
 		"edas#Sponsorship",
 		"iasted#Sponsor",
-		"no score"
+		0.9281555414199829
 	],
 	[
 		"edas#Sponsorship",
 		"iasted#Sponsor_state",
-		"no score"
+		0.706559419631958
 	],
 	[
 		"edas#Sponsorship",
 		"iasted#Sponsor_company_house",
-		"no score"
+		0.6647077798843384
+	],
+	[
+		"edas#Sponsorship",
+		"iasted#Sponzorship",
+		0.4264344573020935
 	],
 	[
 		"edas#ReviewQuestion",
 		"iasted#Reviewer",
-		"no score"
+		0.6374455094337463
 	],
 	[
 		"edas#ReviewQuestion",
 		"iasted#Review",
-		"no score"
+		0.7393282651901245
 	],
 	[
 		"edas#Person",
 		"iasted#Person",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"edas#Person",
 		"iasted#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"edas#Person",
+		"iasted#Speaker",
+		0.40011924505233765
+	],
+	[
+		"edas#Country",
+		"iasted#Car",
+		0.45237454771995544
 	],
 	[
 		"edas#Country",
 		"iasted#Place",
-		"no score"
+		0.5393940210342407
 	],
 	[
 		"edas#Country",
 		"iasted#City",
-		"no score"
+		0.535563588142395
 	],
 	[
 		"edas#Country",
 		"iasted#State",
-		"no score"
+		0.5756391286849976
+	],
+	[
+		"edas#Country",
+		"iasted#Time_zone",
+		0.410128116607666
+	],
+	[
+		"edas#Country",
+		"iasted#Computer",
+		0.45706719160079956
+	],
+	[
+		"edas#Country",
+		"iasted#Currency",
+		0.4184110462665558
 	],
 	[
 		"edas#ConferenceSession",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.45282676815986633
+	],
+	[
+		"edas#ConferenceSession",
+		"iasted#Presentation",
+		0.42065006494522095
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6545090079307556
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_city",
-		"no score"
+		0.7610183358192444
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_state",
-		"no score"
+		0.7374368906021118
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_activity",
-		"no score"
+		0.6824817657470703
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Session_room",
-		"no score"
-	],
-	[
-		"edas#ConferenceSession",
-		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
-	],
-	[
-		"edas#ConferenceSession",
-		"iasted#Session_chair",
-		"no score"
+		0.4007425010204315
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_days",
-		"no score"
+		0.6619366407394409
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"edas#ConferenceSession",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.6779370307922363
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_airport",
-		"no score"
+		0.6185518503189087
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6131254434585571
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"edas#ConferenceSession",
-		"iasted#Session",
-		"no score"
+		0.6282399892807007
 	],
 	[
 		"edas#ConferenceSession",
 		"iasted#One_conference_day",
-		"no score"
+		0.43526583909988403
+	],
+	[
+		"edas#ConferenceSession",
+		"iasted#Conference_Hiker",
+		0.6716134548187256
+	],
+	[
+		"edas#ConferenceSession",
+		"iasted#Presenter_university",
+		0.4260445833206177
+	],
+	[
+		"edas#ConferenceSession",
+		"iasted#Speaker_lecture",
+		0.4365726709365845
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Form",
+		0.45209255814552307
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Invitation_letter",
+		0.4015773832798004
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Registration_form",
+		0.4822693169116974
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Registration",
+		0.4104496240615845
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Registration_fee",
+		0.40003502368927
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Submission",
+		0.40691375732421875
+	],
+	[
+		"edas#ContactInformation",
+		"iasted#Author_information_form",
+		0.4634995758533478
+	],
+	[
+		"edas#Place",
+		"iasted#Building",
+		0.43388158082962036
+	],
+	[
+		"edas#Place",
+		"iasted#Car",
+		0.43683096766471863
+	],
+	[
+		"edas#Place",
+		"iasted#Renting",
+		0.4478822350502014
+	],
+	[
+		"edas#Place",
+		"iasted#Activity",
+		0.4243791699409485
 	],
 	[
 		"edas#Place",
 		"iasted#Place",
-		"no score"
+		1.0
 	],
 	[
 		"edas#Place",
 		"iasted#City",
-		"no score"
+		0.5579470992088318
+	],
+	[
+		"edas#Place",
+		"iasted#Hotel_room",
+		0.5101348757743835
+	],
+	[
+		"edas#Place",
+		"iasted#Hotel_presenter",
+		0.4468511939048767
+	],
+	[
+		"edas#Place",
+		"iasted#State",
+		0.42409101128578186
+	],
+	[
+		"edas#Place",
+		"iasted#Taxi",
+		0.4182409942150116
+	],
+	[
+		"edas#Place",
+		"iasted#Computer",
+		0.41723066568374634
+	],
+	[
+		"edas#WeekRejectRating",
+		"iasted#One_day_presenter",
+		0.4267615079879761
+	],
+	[
+		"edas#WeekRejectRating",
+		"iasted#One_conference_day",
+		0.43987786769866943
+	],
+	[
+		"edas#AcceptRating",
+		"iasted#Submission",
+		0.44951653480529785
+	],
+	[
+		"edas#AcceptRating",
+		"iasted#Reviewer",
+		0.41908711194992065
+	],
+	[
+		"edas#AcceptRating",
+		"iasted#Review",
+		0.42368435859680176
+	],
+	[
+		"edas#RejectRating",
+		"iasted#Refusing_manuscript",
+		0.4254247546195984
+	],
+	[
+		"edas#RejectRating",
+		"iasted#Submission",
+		0.4285687804222107
+	],
+	[
+		"edas#RejectRating",
+		"iasted#Reviewer",
+		0.43604379892349243
+	],
+	[
+		"edas#RejectRating",
+		"iasted#Review",
+		0.41828757524490356
 	],
 	[
 		"edas#MealEvent",
 		"iasted#Dinner_banquet",
-		"no score"
+		0.5386312007904053
 	],
 	[
-		"edas#MealEvent",
-		"iasted#Conference_restaurant",
-		"no score"
+		"edas#ComputerNetworksTopic",
+		"iasted#Computer",
+		0.47311103343963623
+	],
+	[
+		"edas#CADTopic",
+		"iasted#Cd_proceening",
+		0.42416274547576904
+	],
+	[
+		"edas#MultimediaTopic",
+		"iasted#Presenter_city",
+		0.41318005323410034
+	],
+	[
+		"edas#MultimediaTopic",
+		"iasted#Video_cassette_player",
+		0.4191436171531677
+	],
+	[
+		"edas#MultimediaTopic",
+		"iasted#Audiovisual_equipment",
+		0.5647760629653931
 	],
 	[
 		"edas#MultimediaTopic",
 		"iasted#Video_presentation",
-		"no score"
+		0.5956430435180664
+	],
+	[
+		"edas#MultimediaTopic",
+		"iasted#Conference_hotel",
+		0.4172202944755554
+	],
+	[
+		"edas#MultimediaTopic",
+		"iasted#Computer",
+		0.4050041437149048
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Presenter_city",
+		0.4224291443824768
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Conference_restaurant",
+		0.4298146367073059
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Conference_city",
+		0.4454663097858429
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Conference_activity",
+		0.43311870098114014
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Speaker",
+		0.4206390678882599
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Conference_Hiker",
+		0.4017030596733093
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Presenter_university",
+		0.4219214916229248
+	],
+	[
+		"edas#CommunicationsTopic",
+		"iasted#Speaker_lecture",
+		0.4090145528316498
+	],
+	[
+		"edas#PerformanceTopic",
+		"iasted#Computer",
+		0.40921851992607117
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Presenter_city",
+		0.4087138772010803
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Conference_restaurant",
+		0.4076818823814392
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Conference_city",
+		0.40343958139419556
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Conference_activity",
+		0.4712243676185608
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Listener",
+		0.4592394530773163
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"iasted#Audiovisual_equipment",
+		0.40002191066741943
+	],
+	[
+		"edas#ComputerArchitectureTopic",
+		"iasted#Computer",
+		0.5024623870849609
+	],
+	[
+		"edas#CommunicationTheoryTopic",
+		"iasted#Conference_activity",
+		0.45868316292762756
+	],
+	[
+		"edas#CommunicationTheoryTopic",
+		"iasted#Listener",
+		0.4446542263031006
+	],
+	[
+		"edas#ConferenceChair",
+		"iasted#Presenter_city",
+		0.4426465630531311
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6410814523696899
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_city",
-		"no score"
+		0.6792600154876709
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_state",
-		"no score"
+		0.5457803010940552
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_activity",
-		"no score"
+		0.6465981006622314
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		0.488037109375
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Session_chair",
-		"no score"
+		0.5571478009223938
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_days",
-		"no score"
+		0.5229099988937378
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_building",
-		"no score"
+		0.6459373235702515
 	],
 	[
 		"edas#ConferenceChair",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Conference_airport",
+		0.5571432709693909
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_hotel",
-		"no score"
+		0.5441799163818359
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"edas#ConferenceChair",
-		"iasted#One_conference_day",
-		"no score"
+		0.5503149032592773
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6683017611503601
 	],
 	[
 		"edas#Author",
 		"iasted#Person",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"edas#Author",
+		"iasted#Author_cd_proceedings_included",
+		0.48235952854156494
 	],
 	[
 		"edas#Author",
 		"iasted#Author",
-		"no score"
+		0.9999999403953552
+	],
+	[
+		"edas#Author",
+		"iasted#Introduction",
+		0.43188267946243286
 	],
 	[
 		"edas#Author",
 		"iasted#Author_information_form",
-		"no score"
+		0.4213448464870453
 	],
 	[
 		"edas#Author",
 		"iasted#Publication",
-		"no score"
+		0.5501728057861328
+	],
+	[
+		"edas#Author",
+		"iasted#Author_book_proceedings_included",
+		0.5095466375350952
 	],
 	[
 		"edas#DiningPlace",
 		"iasted#Dinner_banquet",
-		"no score"
+		0.49320802092552185
 	],
 	[
 		"edas#DiningPlace",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.4353224039077759
 	],
 	[
 		"edas#DiningPlace",
 		"iasted#Place",
-		"no score"
+		0.5555366277694702
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Session_room",
+		0.4209707975387573
 	],
 	[
 		"edas#DiningPlace",
 		"iasted#Hotel_room",
-		"no score"
+		0.5503583550453186
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Hotel_presenter",
+		0.5069884061813354
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Hotel_fee",
+		0.45580530166625977
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Sponsor_company_house",
+		0.42507094144821167
 	],
 	[
 		"edas#Presenter",
 		"iasted#Presenter_house",
-		"no score"
+		0.8443427085876465
 	],
 	[
 		"edas#Presenter",
 		"iasted#Presenter_state",
-		"no score"
+		0.6770398020744324
 	],
 	[
 		"edas#Presenter",
 		"iasted#Presenter_city",
-		"no score"
+		0.836010754108429
 	],
 	[
 		"edas#Presenter",
-		"iasted#One_day_presenter",
-		"no score"
+		"iasted#Person",
+		0.409059077501297
 	],
 	[
 		"edas#Presenter",
 		"iasted#Presentation",
-		"no score"
+		0.5863654017448425
+	],
+	[
+		"edas#Presenter",
+		"iasted#Conference_restaurant",
+		0.4245624244213104
+	],
+	[
+		"edas#Presenter",
+		"iasted#Conference_activity",
+		0.4247099757194519
 	],
 	[
 		"edas#Presenter",
 		"iasted#Lecturer",
-		"no score"
+		0.5192421674728394
 	],
 	[
 		"edas#Presenter",
-		"iasted#Hotel_presenter",
-		"no score"
+		"iasted#Speaker",
+		0.4375274181365967
+	],
+	[
+		"edas#Presenter",
+		"iasted#Sponsor",
+		0.44328564405441284
+	],
+	[
+		"edas#Presenter",
+		"iasted#Lecture",
+		0.47698646783828735
+	],
+	[
+		"edas#Presenter",
+		"iasted#Conference_Hiker",
+		0.43717074394226074
 	],
 	[
 		"edas#Presenter",
 		"iasted#Presenter_university",
-		"no score"
+		0.8255261182785034
 	],
 	[
-		"edas#ActivePaper",
+		"edas#AcademiaOrganization",
+		"iasted#Technic_activity",
+		0.4581535756587982
+	],
+	[
+		"edas#AcademiaOrganization",
+		"iasted#Conference_building",
+		0.4290998578071594
+	],
+	[
+		"edas#AcademiaOrganization",
+		"iasted#Lecturer",
+		0.41095033288002014
+	],
+	[
+		"edas#GovernmentOrganization",
+		"iasted#Delegate",
+		0.4440609812736511
+	],
+	[
+		"edas#ComputerNetworksEnterpriseTopic",
+		"iasted#Technical_commitee",
+		0.4287700057029724
+	],
+	[
+		"edas#ComputerNetworksEnterpriseTopic",
+		"iasted#Computer",
+		0.4266645312309265
+	],
+	[
+		"edas#ComputerNetworksOpticalTopic",
+		"iasted#Computer",
+		0.43508899211883545
+	],
+	[
+		"edas#ComputerNetworksMeasurementsTopic",
+		"iasted#Computer",
+		0.424002468585968
+	],
+	[
+		"edas#ComputerNetworksAapplicationsTopic",
+		"iasted#Computer",
+		0.400215744972229
+	],
+	[
+		"edas#PendingPaper",
 		"iasted#Document",
-		"no score"
+		0.46664875745773315
 	],
 	[
 		"edas#WithdrawnPaper",
-		"iasted#Refusing_manuscript",
-		"no score"
+		"iasted#Document",
+		0.4174030125141144
 	],
 	[
 		"edas#RejectedPaper",
-		"iasted#Refusing_manuscript",
-		"no score"
+		"iasted#Document",
+		0.4132704734802246
+	],
+	[
+		"edas#RejectedPaper",
+		"iasted#Submission",
+		0.40876147150993347
 	],
 	[
 		"edas#AcceptedPaper",
-		"iasted#Final_manuscript",
-		"no score"
+		"iasted#Document",
+		0.4161520004272461
 	],
 	[
 		"edas#AcceptedPaper",
-		"iasted#Accepting_manuscript",
-		"no score"
+		"iasted#Invitation_letter",
+		0.419418066740036
+	],
+	[
+		"edas#AcceptedPaper",
+		"iasted#Submission",
+		0.40728652477264404
+	],
+	[
+		"edas#PublishedPaper",
+		"iasted#Document",
+		0.5784186124801636
 	],
 	[
 		"edas#PublishedPaper",
 		"iasted#Author",
-		"no score"
-	],
-	[
-		"edas#PublishedPaper",
-		"iasted#Final_manuscript",
-		"no score"
+		0.42307013273239136
 	],
 	[
 		"edas#PublishedPaper",
 		"iasted#Publication",
-		"no score"
+		0.7073055505752563
+	],
+	[
+		"edas#Attendee",
+		"iasted#Conference_restaurant",
+		0.4753766655921936
+	],
+	[
+		"edas#Attendee",
+		"iasted#Conference_state",
+		0.41324448585510254
+	],
+	[
+		"edas#Attendee",
+		"iasted#Conference_activity",
+		0.4237614870071411
+	],
+	[
+		"edas#Attendee",
+		"iasted#Invitation_letter",
+		0.4469286799430847
+	],
+	[
+		"edas#Attendee",
+		"iasted#Lecture",
+		0.4278271496295929
+	],
+	[
+		"edas#Attendee",
+		"iasted#IASTED_non_member",
+		0.43585148453712463
+	],
+	[
+		"edas#Attendee",
+		"iasted#Conference_Hiker",
+		0.4316609799861908
+	],
+	[
+		"edas#Attendee",
+		"iasted#IASTED_member",
+		0.4016173481941223
+	],
+	[
+		"edas#Attendee",
+		"iasted#Student_non_speaker",
+		0.40551888942718506
+	],
+	[
+		"edas#Attendee",
+		"iasted#Student_registration_fee",
+		0.4389938414096832
 	],
 	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"edas#FreeTimeBreak",
 		"iasted#Time",
-		"no score"
+		0.4068463146686554
 	],
 	[
 		"edas#MealBreak",
 		"iasted#Dinner_banquet",
-		"no score"
+		0.4961621165275574
+	],
+	[
+		"edas#MealBreak",
+		"iasted#Coffee_break",
+		0.5425472259521484
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer",
-		"no score"
+		1.0
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Review",
-		"no score"
+		0.8096712231636047
+	],
+	[
+		"edas#WelcomeTalk",
+		"iasted#Speaker",
+		0.4028143882751465
+	],
+	[
+		"edas#WelcomeTalk",
+		"iasted#Welcome_address",
+		0.5194993019104004
 	],
 	[
 		"edas#TalkEvent",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.40045568346977234
 	],
 	[
 		"edas#TalkEvent",
-		"iasted#Conference_activity",
-		"no score"
+		"iasted#Conference_restaurant",
+		0.4339545667171478
 	],
 	[
 		"edas#TalkEvent",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Listener",
+		0.5372490286827087
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Speaker",
+		0.5364409685134888
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Conference_hotel",
+		0.4061580300331116
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Introduction_of_speaker",
+		0.4290691912174225
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Non_speaker",
+		0.46985915303230286
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Worker_non_speaker",
+		0.4034819006919861
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Conference_Hiker",
+		0.43320488929748535
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Speaker_lecture",
+		0.4959591329097748
 	],
 	[
 		"edas#SessionChair",
 		"iasted#Session_room",
-		"no score"
+		0.6572480797767639
 	],
 	[
 		"edas#SessionChair",
 		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		0.4969818592071533
 	],
 	[
 		"edas#SessionChair",
 		"iasted#Session_chair",
-		"no score"
+		1.0
 	],
 	[
 		"edas#SessionChair",
 		"iasted#Session",
-		"no score"
+		0.7708723545074463
 	],
 	[
-		"edas#TwoLevelConference",
-		"iasted#Activity_before_conference",
-		"no score"
+		"edas#TPCMember",
+		"iasted#Registration_fee",
+		0.4135114550590515
 	],
 	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_restaurant",
-		"no score"
+		"edas#TPCMember",
+		"iasted#Nonmember_registration_fee",
+		0.4962737560272217
 	],
 	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_city",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_state",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_activity",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_days",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_building",
-		"no score"
+		"edas#TPCMember",
+		"iasted#IASTED_non_member",
+		0.4302794337272644
 	],
 	[
 		"edas#TwoLevelConference",
 		"iasted#Activity_after_conference",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_airport",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_hotel",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#One_conference_day",
-		"no score"
-	],
-	[
-		"edas#TextualReviewQuestion",
-		"iasted#Reviewer",
-		"no score"
-	],
-	[
-		"edas#TextualReviewQuestion",
-		"iasted#Review",
-		"no score"
+		0.4611809551715851
 	],
 	[
 		"edas#OrganizationalMeeting",
-		"iasted#Conference_activity",
-		"no score"
+		"iasted#Technic_activity",
+		0.41228967905044556
 	],
 	[
 		"edas#OrganizationalMeeting",
 		"iasted#Conference_building",
-		"no score"
+		0.44157761335372925
 	],
 	[
 		"edas#OrganizationalMeeting",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Worker_lecturer",
+		0.40964585542678833
 	],
 	[
-		"edas#OrganizationalMeeting",
-		"iasted#Conference_hall",
-		"no score"
+		"edas#PaperPresentation",
+		"iasted#Document",
+		0.5113616585731506
 	],
 	[
 		"edas#PaperPresentation",
 		"iasted#PowerPoint_presentation",
-		"no score"
+		0.4979933798313141
 	],
 	[
 		"edas#PaperPresentation",
 		"iasted#Presentation",
-		"no score"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#Video_presentation",
-		"no score"
+		0.49187231063842773
 	],
 	[
 		"edas#Workshop",
 		"iasted#Building",
-		"no score"
+		0.5308206081390381
+	],
+	[
+		"edas#Workshop",
+		"iasted#Presenter_city",
+		0.4460654854774475
+	],
+	[
+		"edas#Workshop",
+		"iasted#Social_program",
+		0.41242319345474243
+	],
+	[
+		"edas#Workshop",
+		"iasted#Activity",
+		0.4258154034614563
 	],
 	[
 		"edas#Workshop",
 		"iasted#Presentation",
-		"no score"
+		0.5260779857635498
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_restaurant",
+		0.42836910486221313
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_city",
+		0.4577377736568451
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_activity",
+		0.422492653131485
+	],
+	[
+		"edas#Workshop",
+		"iasted#Session_room",
+		0.44131848216056824
 	],
 	[
 		"edas#Workshop",
 		"iasted#Conference_building",
-		"no score"
+		0.5179473161697388
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_airport",
+		0.41280457377433777
+	],
+	[
+		"edas#Workshop",
+		"iasted#Lecturer",
+		0.42244020104408264
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_hall",
+		0.4359537959098816
+	],
+	[
+		"edas#Workshop",
+		"iasted#Lecture",
+		0.43834006786346436
+	],
+	[
+		"edas#Workshop",
+		"iasted#Tutorial_speaker",
+		0.4289259910583496
+	],
+	[
+		"edas#Workshop",
+		"iasted#Conference_Hiker",
+		0.40083515644073486
 	],
 	[
 		"edas#AcademicEvent",
-		"iasted#Conference_activity",
-		"no score"
+		"iasted#Technic_activity",
+		0.4593794047832489
 	],
 	[
 		"edas#AcademicEvent",
-		"iasted#Presenter_university",
-		"no score"
+		"iasted#Technical_commitee",
+		0.4364072382450104
 	],
 	[
-		"edas#PersonalPublicationHistory",
-		"iasted#Publication",
-		"no score"
+		"edas#AcademicEvent",
+		"iasted#Lecturer",
+		0.4116783142089844
+	],
+	[
+		"edas#AcademicEvent",
+		"iasted#Student_lecturer",
+		0.5426850914955139
+	],
+	[
+		"edas#AcademicEvent",
+		"iasted#Student_non_speaker",
+		0.46217814087867737
+	],
+	[
+		"edas#AcademicEvent",
+		"iasted#Student_registration_fee",
+		0.4213467836380005
 	],
 	[
 		"edas#Excursion",
 		"iasted#Trip_day",
-		"no score"
+		0.4683727025985718
 	],
 	[
 		"edas#Excursion",
 		"iasted#Departure",
-		"no score"
+		0.5025978088378906
 	],
 	[
 		"edas#Excursion",
-		"iasted#Full_day_tour",
-		"no score"
+		"iasted#Hotel_presenter",
+		0.4089481234550476
 	],
 	[
 		"edas#Excursion",
 		"iasted#Trip_city",
-		"no score"
+		0.45151960849761963
+	],
+	[
+		"edas#Excursion",
+		"iasted#Shuttle_bus",
+		0.4743410050868988
 	],
 	[
 		"edas#SocialEvent",
 		"iasted#Social_program",
-		"no score"
+		0.6595642566680908
+	],
+	[
+		"edas#SocialEvent",
+		"iasted#Activity",
+		0.4084821343421936
+	],
+	[
+		"edas#SocialEvent",
+		"iasted#Technic_activity",
+		0.41291552782058716
+	],
+	[
+		"edas#SocialEvent",
+		"iasted#Listener",
+		0.40492188930511475
 	],
 	[
 		"edas#CallForReviews",
-		"iasted#Reviewer",
-		"no score"
-	],
-	[
-		"edas#CallForReviews",
-		"iasted#Review",
-		"no score"
-	],
-	[
-		"edas#PersonalReviewHistory",
-		"iasted#Reviewer",
-		"no score"
-	],
-	[
-		"edas#PersonalReviewHistory",
-		"iasted#Review",
-		"no score"
+		"iasted#Activity_after_conference",
+		0.41852858662605286
 	],
 	[
 		"edas#ConferenceVenuePlace",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.4099954664707184
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6460081338882446
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_city",
-		"no score"
+		0.7703817486763
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_state",
-		"no score"
+		0.664937436580658
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_activity",
-		"no score"
-	],
-	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Place",
-		"no score"
+		0.685802698135376
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_days",
-		"no score"
+		0.5914249420166016
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.7172947525978088
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_airport",
-		"no score"
+		0.6130988597869873
+	],
+	[
+		"edas#ConferenceVenuePlace",
+		"iasted#Hotel_presenter",
+		0.41202691197395325
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6134753227233887
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_hall",
-		"no score"
+		0.5904024839401245
 	],
 	[
 		"edas#ConferenceVenuePlace",
-		"iasted#One_conference_day",
-		"no score"
-	],
-	[
-		"edas#CallForManuscripts",
-		"iasted#Document",
-		"no score"
+		"iasted#Conference_Hiker",
+		0.6327120661735535
 	],
 	[
 		"edas#CallForManuscripts",
 		"iasted#Refusing_manuscript",
-		"no score"
+		0.4115844964981079
 	],
 	[
 		"edas#CallForManuscripts",
 		"iasted#Final_manuscript",
-		"no score"
+		0.501201331615448
 	],
 	[
 		"edas#CallForManuscripts",
 		"iasted#Accepting_manuscript",
-		"no score"
-	],
-	[
-		"edas#CallForManuscripts",
-		"iasted#Publication",
-		"no score"
+		0.41075044870376587
 	],
 	[
 		"edas#CallForManuscripts",
 		"iasted#Receiving_manuscript",
-		"no score"
+		0.4285336136817932
 	],
 	[
 		"edas#Reception",
 		"iasted#Listener",
-		"no score"
+		0.5361098051071167
 	],
 	[
 		"edas#Reception",
-		"iasted#Coctail_reception",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Activity_before_conference",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_restaurant",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_city",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_state",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_activity",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_days",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_building",
-		"no score"
+		"iasted#Speaker",
+		0.45279568433761597
 	],
 	[
 		"edas#SingleLevelConference",
 		"iasted#Activity_after_conference",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_hotel",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_hall",
-		"no score"
+		0.475026398897171
 	],
 	[
 		"edas#SingleLevelConference",
 		"iasted#One_conference_day",
-		"no score"
+		0.4318472445011139
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"iasted#Hotel_registration_form",
+		0.4090668559074402
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.45249104499816895
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"iasted#Conference_city",
+		0.41772201657295227
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"iasted#Conference_activity",
+		0.42764347791671753
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Place",
-		"no score"
+		0.45156508684158325
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Session_room",
-		"no score"
+		0.6064980626106262
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Hotel_room",
-		"no score"
+		0.6577304601669312
 	],
 	[
 		"edas#MeetingRoomPlace",
-		"iasted#Conference_hotel",
-		"no score"
+		"iasted#Hotel_presenter",
+		0.4681500792503357
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Conference_hall",
-		"no score"
+		0.4181241989135742
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Single_hotel_room",
-		"no score"
+		0.46655023097991943
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Double_hotel_room",
-		"no score"
+		0.4508693814277649
+	],
+	[
+		"edas#AccommodationPlace",
+		"iasted#Hotel_registration_form",
+		0.4716789722442627
+	],
+	[
+		"edas#AccommodationPlace",
+		"iasted#Renting",
+		0.4952555298805237
 	],
 	[
 		"edas#AccommodationPlace",
 		"iasted#Place",
-		"no score"
-	],
-	[
-		"edas#AccommodationPlace",
-		"iasted#Session_room",
-		"no score"
+		0.5349628329277039
 	],
 	[
 		"edas#AccommodationPlace",
 		"iasted#Hotel_room",
-		"no score"
+		0.6578344106674194
 	],
 	[
 		"edas#AccommodationPlace",
 		"iasted#Hotel_presenter",
-		"no score"
+		0.5998098850250244
 	],
 	[
 		"edas#AccommodationPlace",
-		"iasted#Conference_hotel",
-		"no score"
+		"iasted#Hotel_fee",
+		0.5599182844161987
 	],
 	[
 		"edas#AccommodationPlace",
-		"iasted#Single_hotel_room",
-		"no score"
+		"iasted#Sponsor_company_house",
+		0.40428638458251953
 	],
 	[
-		"edas#AccommodationPlace",
-		"iasted#Double_hotel_room",
-		"no score"
+		"edas#RatedPapers",
+		"iasted#Reviewer",
+		0.45811769366264343
 	],
 	[
-		"edas#ConferenceDinner",
-		"iasted#Activity_before_conference",
-		"no score"
+		"edas#RatedPapers",
+		"iasted#Review",
+		0.4441065788269043
 	],
 	[
-		"edas#ConferenceDinner",
-		"iasted#Dinner_banquet",
-		"no score"
+		"edas#TravelGrant",
+		"iasted#Trip_day",
+		0.4501172602176666
+	],
+	[
+		"edas#TravelGrant",
+		"iasted#Trip_city",
+		0.4587680697441101
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.5886854529380798
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_city",
-		"no score"
+		0.661057710647583
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_state",
-		"no score"
+		0.5907186269760132
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_activity",
-		"no score"
+		0.5234329104423523
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_days",
-		"no score"
+		0.5915325880050659
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_building",
-		"no score"
+		0.5684813261032104
 	],
 	[
 		"edas#ConferenceDinner",
-		"iasted#Activity_after_conference",
-		"no score"
+		"iasted#Conference_airport",
+		0.5163671970367432
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_hotel",
-		"no score"
+		0.657319962978363
 	],
 	[
 		"edas#ConferenceDinner",
 		"iasted#Conference_hall",
-		"no score"
+		0.56131911277771
 	],
 	[
 		"edas#ConferenceDinner",
-		"iasted#One_conference_day",
-		"no score"
+		"iasted#Conference_Hiker",
+		0.8218086957931519
+	],
+	[
+		"edas#ConferenceDinner",
+		"iasted#Student_lecturer",
+		0.404513418674469
 	]
 ]

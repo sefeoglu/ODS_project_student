@@ -1,582 +1,622 @@
 [
 	[
 		"cmt#Meta-Reviewer",
-		"edas#Review",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"edas#ReviewRating",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"edas#ReviewQuestion",
-		"no score"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"edas#Reviewer",
-		"no score"
+		"edas#TextualReviewQuestion",
+		0.45025691390037537
 	],
 	[
 		"cmt#Meta-Reviewer",
 		"edas#CallForReviews",
-		"no score"
+		0.589338481426239
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"edas#PersonalReviewHistory",
+		0.420562207698822
 	],
 	[
 		"cmt#Reviewer",
 		"edas#Review",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"cmt#Reviewer",
 		"edas#ReviewRating",
-		"no score"
+		0.6789980530738831
 	],
 	[
 		"cmt#Reviewer",
 		"edas#ReviewForm",
-		"no score"
+		0.5597963929176331
 	],
 	[
 		"cmt#Reviewer",
 		"edas#ReviewQuestion",
-		"no score"
+		0.6374455094337463
+	],
+	[
+		"cmt#Reviewer",
+		"edas#AcceptRating",
+		0.41908711194992065
+	],
+	[
+		"cmt#Reviewer",
+		"edas#RejectRating",
+		0.43604379892349243
 	],
 	[
 		"cmt#Reviewer",
 		"edas#Reviewer",
-		"no score"
+		1.0
 	],
 	[
 		"cmt#Reviewer",
-		"edas#TextualReviewQuestion",
-		"no score"
+		"edas#RatedPapers",
+		0.45811769366264343
 	],
 	[
-		"cmt#Reviewer",
-		"edas#CallForReviews",
-		"no score"
+		"cmt#Decision",
+		"edas#Review",
+		0.44648411870002747
 	],
 	[
-		"cmt#Reviewer",
-		"edas#PersonalReviewHistory",
-		"no score"
+		"cmt#Decision",
+		"edas#Call",
+		0.41845402121543884
+	],
+	[
+		"cmt#Decision",
+		"edas#Reviewer",
+		0.4384925067424774
 	],
 	[
 		"cmt#Person",
 		"edas#Person",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Person",
 		"edas#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Person",
+		"edas#Presenter",
+		0.409059077501297
 	],
 	[
 		"cmt#Document",
 		"edas#Paper",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"cmt#Document",
 		"edas#Document",
-		"no score"
+		1.0
 	],
 	[
 		"cmt#Document",
-		"edas#ActivePaper",
-		"no score"
+		"edas#PendingPaper",
+		0.46664875745773315
 	],
 	[
 		"cmt#Document",
-		"edas#CallForManuscripts",
-		"no score"
+		"edas#WithdrawnPaper",
+		0.4174030125141144
+	],
+	[
+		"cmt#Document",
+		"edas#RejectedPaper",
+		0.4132704734802246
+	],
+	[
+		"cmt#Document",
+		"edas#AcceptedPaper",
+		0.4161520004272461
+	],
+	[
+		"cmt#Document",
+		"edas#PublishedPaper",
+		0.5784186124801636
+	],
+	[
+		"cmt#Document",
+		"edas#PaperPresentation",
+		0.5113616585731506
 	],
 	[
 		"cmt#ProgramCommittee",
 		"edas#Programme",
-		"no score"
+		0.5224448442459106
 	],
 	[
 		"cmt#Conference",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7512850761413574
+	],
+	[
+		"cmt#Conference",
+		"edas#Organization",
+		0.4453245997428894
 	],
 	[
 		"cmt#Conference",
 		"edas#Conference",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#Conference",
+		"edas#Sponsorship",
+		0.4201822876930237
 	],
 	[
 		"cmt#Conference",
 		"edas#ConferenceSession",
-		"no score"
+		0.760166585445404
 	],
 	[
 		"cmt#Conference",
 		"edas#ConferenceChair",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"cmt#Conference",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Attendee",
+		0.46077537536621094
 	],
 	[
 		"cmt#Conference",
-		"edas#OrganizationalMeeting",
-		"no score"
+		"edas#Workshop",
+		0.43847036361694336
 	],
 	[
 		"cmt#Conference",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"cmt#Conference",
-		"edas#SingleLevelConference",
-		"no score"
+		0.7299953699111938
 	],
 	[
 		"cmt#Conference",
 		"edas#ConferenceDinner",
-		"no score"
+		0.7027301788330078
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceEvent",
-		"no score"
+		0.6167533993721008
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#Conference",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceSession",
-		"no score"
+		0.5967180728912354
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceChair",
-		"no score"
+		1.0
+	],
+	[
+		"cmt#ConferenceChair",
+		"edas#ComputerNetworksEnterpriseTopic",
+		0.40267348289489746
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#SessionChair",
-		"no score"
+		0.5571478009223938
 	],
 	[
 		"cmt#ConferenceChair",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Workshop",
+		0.45384693145751953
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#SingleLevelConference",
-		"no score"
+		0.6401263475418091
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceDinner",
-		"no score"
+		0.6015341281890869
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#ConferenceEvent",
-		"no score"
+		0.6915850639343262
+	],
+	[
+		"cmt#ConferenceMember",
+		"edas#Organization",
+		0.41736745834350586
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#Conference",
-		"no score"
+		0.739916205406189
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#ConferenceSession",
-		"no score"
+		0.7133584022521973
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#ConferenceChair",
-		"no score"
+		0.644127368927002
+	],
+	[
+		"cmt#ConferenceMember",
+		"edas#Presenter",
+		0.4577879309654236
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#Attendee",
-		"no score"
+		0.4958934485912323
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#TPCMember",
-		"no score"
+		0.5490120649337769
 	],
 	[
 		"cmt#ConferenceMember",
-		"edas#TwoLevelConference",
-		"no score"
-	],
-	[
-		"cmt#ConferenceMember",
-		"edas#OrganizationalMeeting",
-		"no score"
+		"edas#Workshop",
+		0.41587916016578674
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"cmt#ConferenceMember",
-		"edas#SingleLevelConference",
-		"no score"
+		0.6620919704437256
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#ConferenceDinner",
-		"no score"
+		0.7027994990348816
+	],
+	[
+		"cmt#AssociatedChair",
+		"edas#Organization",
+		0.4007476568222046
 	],
 	[
 		"cmt#AssociatedChair",
 		"edas#ConferenceChair",
-		"no score"
+		0.5898122787475586
 	],
 	[
 		"cmt#AssociatedChair",
 		"edas#SessionChair",
-		"no score"
+		0.4649896025657654
+	],
+	[
+		"cmt#AssociatedChair",
+		"edas#TPCMember",
+		0.4054454565048218
 	],
 	[
 		"cmt#ProgramCommitteeMember",
-		"edas#Programme",
-		"no score"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#Review",
-		"no score"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#ReviewQuestion",
-		"no score"
+		"edas#TPCMember",
+		0.43680718541145325
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"edas#Author",
-		"no score"
+		0.5061945915222168
 	],
 	[
 		"cmt#AuthorNotReviewer",
-		"edas#Reviewer",
-		"no score"
+		"edas#TextualReviewQuestion",
+		0.43008506298065186
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"edas#CallForReviews",
+		0.474354088306427
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"edas#PersonalReviewHistory",
+		0.4586278200149536
 	],
 	[
 		"cmt#SubjectArea",
 		"edas#Topic",
-		"no score"
-	],
-	[
-		"cmt#SubjectArea",
-		"edas#CommunicationsTopic",
-		"no score"
+		0.42782968282699585
 	],
 	[
 		"cmt#ExternalReviewer",
-		"edas#Review",
-		"no score"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#ReviewRating",
-		"no score"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#ReviewForm",
-		"no score"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#ReviewQuestion",
-		"no score"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#Reviewer",
-		"no score"
+		"edas#TextualReviewQuestion",
+		0.43194982409477234
 	],
 	[
 		"cmt#ExternalReviewer",
 		"edas#CallForReviews",
-		"no score"
+		0.5693364143371582
 	],
 	[
 		"cmt#ExternalReviewer",
 		"edas#PersonalReviewHistory",
-		"no score"
+		0.43977734446525574
 	],
 	[
 		"cmt#Chairman",
-		"edas#ConferenceChair",
-		"no score"
+		"edas#Organization",
+		0.43475261330604553
 	],
 	[
 		"cmt#Chairman",
-		"edas#SessionChair",
-		"no score"
+		"edas#Sponsorship",
+		0.4197421669960022
+	],
+	[
+		"cmt#Chairman",
+		"edas#Author",
+		0.43170300126075745
+	],
+	[
+		"cmt#Chairman",
+		"edas#Presenter",
+		0.4110957384109497
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"edas#ConferenceChair",
-		"no score"
+		0.5390274524688721
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"edas#SessionChair",
-		"no score"
+		0.5088857412338257
 	],
 	[
 		"cmt#Acceptance",
 		"edas#AcceptRating",
-		"no score"
+		0.5719088315963745
+	],
+	[
+		"cmt#Acceptance",
+		"edas#RejectRating",
+		0.42574772238731384
 	],
 	[
 		"cmt#Acceptance",
 		"edas#AcceptedPaper",
-		"no score"
-	],
-	[
-		"cmt#Rejection",
-		"edas#WeekRejectRating",
-		"no score"
+		0.5283911824226379
 	],
 	[
 		"cmt#Rejection",
 		"edas#RejectRating",
-		"no score"
+		0.5526889562606812
 	],
 	[
 		"cmt#Rejection",
 		"edas#RejectedPaper",
-		"no score"
+		0.5209381580352783
 	],
 	[
 		"cmt#Review",
 		"edas#Review",
-		"no score"
+		1.000000238418579
 	],
 	[
 		"cmt#Review",
 		"edas#ReviewRating",
-		"no score"
+		0.736164927482605
 	],
 	[
 		"cmt#Review",
 		"edas#ReviewForm",
-		"no score"
+		0.7013048529624939
 	],
 	[
 		"cmt#Review",
 		"edas#ReviewQuestion",
-		"no score"
+		0.7393282651901245
+	],
+	[
+		"cmt#Review",
+		"edas#AcceptRating",
+		0.42368435859680176
+	],
+	[
+		"cmt#Review",
+		"edas#RejectRating",
+		0.41828757524490356
 	],
 	[
 		"cmt#Review",
 		"edas#Reviewer",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"cmt#Review",
-		"edas#TextualReviewQuestion",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"edas#CallForReviews",
-		"no score"
-	],
-	[
-		"cmt#Review",
-		"edas#PersonalReviewHistory",
-		"no score"
+		"edas#RatedPapers",
+		0.4441065788269043
 	],
 	[
 		"cmt#Paper",
 		"edas#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Paper",
 		"edas#Document",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"cmt#Paper",
 		"edas#ActivePaper",
-		"no score"
+		0.4080798327922821
 	],
 	[
 		"cmt#Paper",
 		"edas#PendingPaper",
-		"no score"
+		0.46254587173461914
 	],
 	[
 		"cmt#Paper",
 		"edas#WithdrawnPaper",
-		"no score"
+		0.41637560725212097
+	],
+	[
+		"cmt#Paper",
+		"edas#RejectedPaper",
+		0.4215221405029297
 	],
 	[
 		"cmt#Paper",
 		"edas#AcceptedPaper",
-		"no score"
+		0.4090678095817566
 	],
 	[
 		"cmt#Paper",
 		"edas#PublishedPaper",
-		"no score"
+		0.5903352499008179
 	],
 	[
 		"cmt#Paper",
 		"edas#CallForPapers",
-		"no score"
+		0.413390576839447
 	],
 	[
 		"cmt#Paper",
 		"edas#PaperPresentation",
-		"no score"
+		0.7057254314422607
 	],
 	[
 		"cmt#Paper",
 		"edas#RatedPapers",
-		"no score"
+		0.41376936435699463
 	],
 	[
 		"cmt#Author",
 		"edas#Person",
-		"no score"
+		0.5049825310707092
 	],
 	[
 		"cmt#Author",
 		"edas#Author",
-		"no score"
+		0.9999999403953552
 	],
 	[
 		"cmt#Author",
 		"edas#PublishedPaper",
-		"no score"
+		0.42307013273239136
+	],
+	[
+		"cmt#User",
+		"edas#Programme",
+		0.4021885395050049
 	],
 	[
 		"cmt#User",
 		"edas#Person",
-		"no score"
+		0.5441259145736694
+	],
+	[
+		"cmt#User",
+		"edas#Author",
+		0.46602723002433777
+	],
+	[
+		"cmt#Co-author",
+		"edas#Organization",
+		0.40238213539123535
+	],
+	[
+		"cmt#Co-author",
+		"edas#Person",
+		0.41941604018211365
 	],
 	[
 		"cmt#Co-author",
 		"edas#Author",
-		"no score"
+		0.6060911417007446
+	],
+	[
+		"cmt#Co-author",
+		"edas#ConferenceDinner",
+		0.40430814027786255
 	],
 	[
 		"cmt#PaperAbstract",
 		"edas#Paper",
-		"no score"
+		0.7563047409057617
 	],
 	[
 		"cmt#PaperAbstract",
-		"edas#ActivePaper",
-		"no score"
+		"edas#Document",
+		0.4391368627548218
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#WithdrawnPaper",
+		0.42217350006103516
 	],
 	[
 		"cmt#PaperAbstract",
 		"edas#PublishedPaper",
-		"no score"
+		0.48868414759635925
 	],
 	[
 		"cmt#PaperAbstract",
 		"edas#PaperPresentation",
-		"no score"
+		0.6713494062423706
 	],
 	[
 		"cmt#PaperFullVersion",
 		"edas#Paper",
-		"no score"
+		0.6639873385429382
 	],
 	[
 		"cmt#PaperFullVersion",
 		"edas#Document",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"edas#ActivePaper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"edas#PendingPaper",
-		"no score"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"edas#AcceptedPaper",
-		"no score"
+		0.46634313464164734
 	],
 	[
 		"cmt#PaperFullVersion",
 		"edas#PublishedPaper",
-		"no score"
+		0.47791382670402527
 	],
 	[
 		"cmt#PaperFullVersion",
 		"edas#PaperPresentation",
-		"no score"
+		0.6847589612007141
 	],
 	[
-		"cmt#Meta-Review",
-		"edas#Review",
-		"no score"
+		"cmt#Administrator",
+		"edas#Organization",
+		0.4499455690383911
 	],
 	[
-		"cmt#Meta-Review",
-		"edas#ReviewRating",
-		"no score"
+		"cmt#Administrator",
+		"edas#IndustryOrganization",
+		0.43410491943359375
 	],
 	[
-		"cmt#Meta-Review",
-		"edas#ReviewForm",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"edas#ReviewQuestion",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"edas#Reviewer",
-		"no score"
+		"cmt#Administrator",
+		"edas#GovernmentOrganization",
+		0.49300333857536316
 	],
 	[
 		"cmt#Meta-Review",
 		"edas#TextualReviewQuestion",
-		"no score"
+		0.5048155784606934
 	],
 	[
 		"cmt#Meta-Review",
 		"edas#CallForReviews",
-		"no score"
+		0.6029546856880188
+	],
+	[
+		"cmt#Meta-Review",
+		"edas#PersonalReviewHistory",
+		0.46133196353912354
 	]
 ]

@@ -2,446 +2,981 @@
 	[
 		"edas#Review",
 		"sigkdd#Review",
-		"no score"
+		1.000000238418579
+	],
+	[
+		"edas#Programme",
+		"sigkdd#Committee",
+		0.4050107002258301
+	],
+	[
+		"edas#Programme",
+		"sigkdd#Program_Chair",
+		0.42604172229766846
+	],
+	[
+		"edas#Programme",
+		"sigkdd#Main_office",
+		0.41137436032295227
 	],
 	[
 		"edas#Programme",
 		"sigkdd#Program_Committee",
-		"no score"
-	],
-	[
-		"edas#Programme",
-		"sigkdd#Program_Committee_member",
-		"no score"
+		0.5224448442459106
 	],
 	[
 		"edas#Paper",
 		"sigkdd#Document",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"edas#Paper",
-		"sigkdd#Author_of_paper_student",
-		"no score"
-	],
-	[
-		"edas#Paper",
-		"sigkdd#Best_Student_Paper_Supporter",
-		"no score"
+		"sigkdd#Best_Student_Paper_Award",
+		0.40604346990585327
 	],
 	[
 		"edas#Paper",
 		"sigkdd#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"edas#Paper",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.4309729337692261
 	],
 	[
 		"edas#Document",
 		"sigkdd#Document",
-		"no score"
+		1.0
+	],
+	[
+		"edas#Document",
+		"sigkdd#Author_of_paper_student",
+		0.4293433427810669
+	],
+	[
+		"edas#Document",
+		"sigkdd#Main_office",
+		0.4089980125427246
 	],
 	[
 		"edas#Document",
 		"sigkdd#Paper",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"edas#Document",
+		"sigkdd#Author_of_paper",
+		0.5149131417274475
+	],
+	[
+		"edas#Topic",
+		"sigkdd#Place",
+		0.421501487493515
 	],
 	[
 		"edas#ConferenceEvent",
 		"sigkdd#Conference",
-		"no score"
+		0.7512850761413574
 	],
 	[
 		"edas#ConferenceEvent",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.6073799133300781
 	],
 	[
 		"edas#ReviewRating",
 		"sigkdd#Review",
-		"no score"
+		0.736164927482605
+	],
+	[
+		"edas#Organization",
+		"sigkdd#Abstract",
+		0.45925164222717285
+	],
+	[
+		"edas#Organization",
+		"sigkdd#Conference",
+		0.4453245997428894
 	],
 	[
 		"edas#Organization",
 		"sigkdd#Committee",
-		"no score"
+		0.5160784125328064
 	],
 	[
 		"edas#Organization",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.6475166082382202
 	],
 	[
 		"edas#Organization",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.5523536205291748
 	],
 	[
 		"edas#ReviewForm",
 		"sigkdd#Review",
-		"no score"
+		0.7013048529624939
 	],
 	[
 		"edas#Conference",
 		"sigkdd#Conference",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"edas#Conference",
 		"sigkdd#Committee",
-		"no score"
+		0.505145788192749
 	],
 	[
 		"edas#Conference",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.7057666182518005
+	],
+	[
+		"edas#Sponsorship",
+		"sigkdd#Award",
+		0.48181337118148804
+	],
+	[
+		"edas#Sponsorship",
+		"sigkdd#Conference",
+		0.4201822876930237
 	],
 	[
 		"edas#ReviewQuestion",
 		"sigkdd#Review",
-		"no score"
+		0.7393282651901245
 	],
 	[
 		"edas#Person",
 		"sigkdd#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"edas#Person",
+		"sigkdd#Exhibitor",
+		0.4058074951171875
 	],
 	[
 		"edas#Person",
 		"sigkdd#Person",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"edas#Person",
+		"sigkdd#Speaker",
+		0.40011924505233765
 	],
 	[
 		"edas#Country",
 		"sigkdd#Place",
-		"no score"
+		0.5393940210342407
 	],
 	[
 		"edas#ConferenceSession",
 		"sigkdd#Conference",
-		"no score"
+		0.760166585445404
 	],
 	[
 		"edas#ConferenceSession",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.6282399892807007
+	],
+	[
+		"edas#ConferenceSession",
+		"sigkdd#Organizing_Committee",
+		0.4175880551338196
+	],
+	[
+		"edas#ConferenceSession",
+		"sigkdd#Invited_Speaker",
+		0.4232903718948364
+	],
+	[
+		"edas#ContactInformation",
+		"sigkdd#Registration_fee",
+		0.40003502368927
 	],
 	[
 		"edas#Place",
 		"sigkdd#Hotel",
-		"no score"
+		0.5263348817825317
 	],
 	[
 		"edas#Place",
 		"sigkdd#Place",
-		"no score"
+		1.0
+	],
+	[
+		"edas#AcceptRating",
+		"sigkdd#Review",
+		0.42368435859680176
+	],
+	[
+		"edas#AccpetIfRoomRating",
+		"sigkdd#Organizing_Committee",
+		0.47411057353019714
+	],
+	[
+		"edas#AccpetIfRoomRating",
+		"sigkdd#Organizing_Committee_member",
+		0.4191727936267853
+	],
+	[
+		"edas#RejectRating",
+		"sigkdd#Review",
+		0.41828757524490356
+	],
+	[
+		"edas#ComputerNetworksTopic",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4208407402038574
+	],
+	[
+		"edas#MultimediaTopic",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4984903931617737
+	],
+	[
+		"edas#MultimediaTopic",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.4122524857521057
+	],
+	[
+		"edas#MultimediaTopic",
+		"sigkdd#Best_Research_Paper_Award",
+		0.418310284614563
+	],
+	[
+		"edas#MultimediaTopic",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.4532325267791748
+	],
+	[
+		"edas#CommunicationsTopic",
+		"sigkdd#Speaker",
+		0.4206390678882599
+	],
+	[
+		"edas#RadioCommunicationsTopic",
+		"sigkdd#Listener",
+		0.4592394530773163
+	],
+	[
+		"edas#CommunicationTheoryTopic",
+		"sigkdd#Listener",
+		0.4446542263031006
 	],
 	[
 		"edas#ConferenceChair",
 		"sigkdd#Conference",
-		"no score"
-	],
-	[
-		"edas#ConferenceChair",
-		"sigkdd#Committee",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"edas#ConferenceChair",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.5503149032592773
 	],
 	[
 		"edas#ConferenceChair",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.5693652629852295
 	],
 	[
 		"edas#ConferenceChair",
 		"sigkdd#General_Chair",
-		"no score"
+		0.5438820123672485
 	],
 	[
 		"edas#ConferenceChair",
-		"sigkdd#Program_Committee_member",
-		"no score"
-	],
-	[
-		"edas#ConferenceChair",
-		"sigkdd#Organizing_Committee_member",
-		"no score"
+		"sigkdd#Organizing_Committee",
+		0.45828238129615784
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author_of_paper_student",
-		"no score"
+		0.6253261566162109
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author",
-		"no score"
+		0.9999999403953552
 	],
 	[
 		"edas#Author",
 		"sigkdd#Person",
-		"no score"
+		0.5049825310707092
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.6174074411392212
 	],
 	[
 		"edas#DiningPlace",
 		"sigkdd#Hotel",
-		"no score"
+		0.4829561114311218
 	],
 	[
 		"edas#DiningPlace",
 		"sigkdd#Place",
-		"no score"
+		0.5555366277694702
 	],
 	[
 		"edas#Presenter",
 		"sigkdd#Exhibitor",
-		"no score"
+		0.5058843493461609
+	],
+	[
+		"edas#Presenter",
+		"sigkdd#Person",
+		0.409059077501297
+	],
+	[
+		"edas#Presenter",
+		"sigkdd#Speaker",
+		0.4375274181365967
+	],
+	[
+		"edas#Presenter",
+		"sigkdd#Invited_Speaker",
+		0.4312934875488281
+	],
+	[
+		"edas#IndustryOrganization",
+		"sigkdd#Organizator",
+		0.4053207039833069
+	],
+	[
+		"edas#IndustryOrganization",
+		"sigkdd#Organizing_Committee",
+		0.4964829683303833
 	],
 	[
 		"edas#GovernmentOrganization",
-		"sigkdd#Committee",
-		"no score"
+		"sigkdd#Organizator",
+		0.4070670008659363
 	],
 	[
 		"edas#GovernmentOrganization",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.5251009464263916
+	],
+	[
+		"edas#GovernmentOrganization",
+		"sigkdd#Organizing_Committee_member",
+		0.42501384019851685
+	],
+	[
+		"edas#ComputerNetworksOpticalTopic",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4037132263183594
+	],
+	[
+		"edas#ComputerNetworksAapplicationsTopic",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4250587821006775
 	],
 	[
 		"edas#ActivePaper",
-		"sigkdd#Document",
-		"no score"
+		"sigkdd#Best_Applications_Paper_Award",
+		0.4753439426422119
+	],
+	[
+		"edas#ActivePaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.5325372815132141
+	],
+	[
+		"edas#ActivePaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.4972195625305176
+	],
+	[
+		"edas#ActivePaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.47891950607299805
+	],
+	[
+		"edas#ActivePaper",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.44261276721954346
 	],
 	[
 		"edas#ActivePaper",
 		"sigkdd#Paper",
-		"no score"
+		0.4080798327922821
+	],
+	[
+		"edas#ActivePaper",
+		"sigkdd#Author_of_paper",
+		0.5270823836326599
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Document",
+		0.46664875745773315
 	],
 	[
 		"edas#PendingPaper",
 		"sigkdd#Deadline_Paper_Submission",
-		"no score"
+		0.5086698532104492
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.45641881227493286
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.4845461845397949
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.4149862229824066
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.41123461723327637
 	],
 	[
 		"edas#PendingPaper",
 		"sigkdd#Paper",
-		"no score"
+		0.46254587173461914
+	],
+	[
+		"edas#PendingPaper",
+		"sigkdd#Author_of_paper",
+		0.5205324292182922
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Document",
+		0.4174030125141144
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Best_Applications_Paper_Award",
+		0.41795676946640015
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Author_of_paper_student",
+		0.40744489431381226
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4835910201072693
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.5409265756607056
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.4159460961818695
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.43507444858551025
 	],
 	[
 		"edas#WithdrawnPaper",
 		"sigkdd#Paper",
-		"no score"
+		0.41637560725212097
+	],
+	[
+		"edas#WithdrawnPaper",
+		"sigkdd#Author_of_paper",
+		0.515735387802124
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Document",
+		0.4132704734802246
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Best_Applications_Paper_Award",
+		0.4226393699645996
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Deadline_Paper_Submission",
+		0.440645694732666
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Author_of_paper_student",
+		0.43214714527130127
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.49609196186065674
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.5764638185501099
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.4798663854598999
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.4697696566581726
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Paper",
+		0.4215221405029297
+	],
+	[
+		"edas#RejectedPaper",
+		"sigkdd#Author_of_paper",
+		0.5592899322509766
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Document",
+		0.4161520004272461
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Best_Applications_Paper_Award",
+		0.400539368391037
 	],
 	[
 		"edas#AcceptedPaper",
 		"sigkdd#Deadline_Paper_Submission",
-		"no score"
+		0.43422436714172363
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Author_of_paper_student",
+		0.4006038308143616
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4432414472103119
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.5581629276275635
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.45284152030944824
 	],
 	[
 		"edas#AcceptedPaper",
 		"sigkdd#Paper",
-		"no score"
+		0.4090678095817566
+	],
+	[
+		"edas#AcceptedPaper",
+		"sigkdd#Author_of_paper",
+		0.5347842574119568
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Document",
+		0.5784186124801636
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Best_Applications_Paper_Award",
+		0.4917472004890442
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Deadline_Paper_Submission",
+		0.451506644487381
 	],
 	[
 		"edas#PublishedPaper",
 		"sigkdd#Author_of_paper_student",
-		"no score"
+		0.5698726773262024
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Best_Student_Paper_Award",
+		0.5721921920776367
 	],
 	[
 		"edas#PublishedPaper",
 		"sigkdd#Author",
-		"no score"
+		0.42307013273239136
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.6204678416252136
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Best_Research_Paper_Award",
+		0.5085108280181885
+	],
+	[
+		"edas#PublishedPaper",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.5139631032943726
 	],
 	[
 		"edas#PublishedPaper",
 		"sigkdd#Paper",
-		"no score"
+		0.5903352499008179
 	],
 	[
 		"edas#PublishedPaper",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.7309239506721497
+	],
+	[
+		"edas#Attendee",
+		"sigkdd#Conference",
+		0.46077537536621094
+	],
+	[
+		"edas#Attendee",
+		"sigkdd#Exhibitor",
+		0.42137959599494934
+	],
+	[
+		"edas#Attendee",
+		"sigkdd#Registration_Non-Member",
+		0.414751797914505
+	],
+	[
+		"edas#Attendee",
+		"sigkdd#Invited_Speaker",
+		0.417572021484375
 	],
 	[
 		"edas#Reviewer",
 		"sigkdd#Review",
-		"no score"
+		0.8096712231636047
+	],
+	[
+		"edas#WelcomeTalk",
+		"sigkdd#Speaker",
+		0.4028143882751465
+	],
+	[
+		"edas#TalkEvent",
+		"sigkdd#Speaker",
+		0.5364409685134888
+	],
+	[
+		"edas#TalkEvent",
+		"sigkdd#Listener",
+		0.5372490286827087
 	],
 	[
 		"edas#TalkEvent",
 		"sigkdd#Invited_Speaker",
-		"no score"
+		0.4612747132778168
 	],
 	[
 		"edas#SessionChair",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.5535984039306641
 	],
 	[
 		"edas#SessionChair",
 		"sigkdd#General_Chair",
-		"no score"
+		0.5165648460388184
 	],
 	[
-		"edas#TwoLevelConference",
-		"sigkdd#Conference",
-		"no score"
+		"edas#TPCMember",
+		"sigkdd#Registration_SIGMOD_Member",
+		0.5068828463554382
 	],
 	[
-		"edas#TwoLevelConference",
-		"sigkdd#Conference_hall",
-		"no score"
+		"edas#TPCMember",
+		"sigkdd#Registration_fee",
+		0.4135114550590515
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Registration_Non-Member",
+		0.5600143074989319
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Registration_SIGKDD_Member",
+		0.49831196665763855
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Program_Committee_member",
+		0.43680718541145325
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Organizing_Committee_member",
+		0.4573262333869934
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Best_Applications_Paper_Award",
+		0.5430923104286194
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Author_of_paper_student",
+		0.45333001017570496
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Best_Student_Paper_Award",
+		0.597580075263977
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.5733742713928223
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Best_Research_Paper_Award",
+		0.5233908295631409
+	],
+	[
+		"edas#CallForPapers",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.5119546055793762
 	],
 	[
 		"edas#CallForPapers",
 		"sigkdd#Paper",
-		"no score"
+		0.413390576839447
 	],
 	[
-		"edas#TextualReviewQuestion",
-		"sigkdd#Review",
-		"no score"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"sigkdd#Conference",
-		"no score"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"sigkdd#Conference_hall",
-		"no score"
+		"edas#CallForPapers",
+		"sigkdd#Author_of_paper",
+		0.5658978223800659
 	],
 	[
 		"edas#OrganizationalMeeting",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.6237977743148804
 	],
 	[
 		"edas#OrganizationalMeeting",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.5185220241546631
+	],
+	[
+		"edas#PaperPresentation",
+		"sigkdd#Document",
+		0.5113616585731506
+	],
+	[
+		"edas#PaperPresentation",
+		"sigkdd#Best_Student_Paper_Award",
+		0.42096686363220215
 	],
 	[
 		"edas#PaperPresentation",
 		"sigkdd#Paper",
-		"no score"
+		0.7057254314422607
 	],
 	[
-		"edas#CallForReviews",
-		"sigkdd#Review",
-		"no score"
+		"edas#PaperPresentation",
+		"sigkdd#Author_of_paper",
+		0.4541510343551636
 	],
 	[
-		"edas#PersonalReviewHistory",
-		"sigkdd#Review",
-		"no score"
+		"edas#Workshop",
+		"sigkdd#Conference",
+		0.43847036361694336
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"sigkdd#Place",
-		"no score"
+		"edas#Workshop",
+		"sigkdd#Exhibitor",
+		0.4488599896430969
+	],
+	[
+		"edas#Workshop",
+		"sigkdd#Conference_hall",
+		0.4359537959098816
+	],
+	[
+		"edas#Workshop",
+		"sigkdd#Organizing_Committee",
+		0.4341397285461426
+	],
+	[
+		"edas#AcademicEvent",
+		"sigkdd#Exhibitor",
+		0.4281178116798401
+	],
+	[
+		"edas#Excursion",
+		"sigkdd#Hotel",
+		0.4272781014442444
+	],
+	[
+		"edas#SocialEvent",
+		"sigkdd#Listener",
+		0.40492188930511475
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"sigkdd#Conference",
-		"no score"
+		0.7299953699111938
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.5904024839401245
 	],
 	[
-		"edas#CallForManuscripts",
-		"sigkdd#Document",
-		"no score"
+		"edas#ConferenceVenuePlace",
+		"sigkdd#Organizing_Committee",
+		0.435580313205719
+	],
+	[
+		"edas#Reception",
+		"sigkdd#Speaker",
+		0.45279568433761597
 	],
 	[
 		"edas#Reception",
 		"sigkdd#Listener",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"sigkdd#Conference",
-		"no score"
-	],
-	[
-		"edas#SingleLevelConference",
-		"sigkdd#Conference_hall",
-		"no score"
+		0.5361098051071167
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"sigkdd#Hotel",
-		"no score"
+		0.502496600151062
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"sigkdd#Place",
-		"no score"
+		0.45156508684158325
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.4181241989135742
+	],
+	[
+		"edas#MeetingRoomPlace",
+		"sigkdd#Invited_Speaker",
+		0.40803468227386475
 	],
 	[
 		"edas#AccommodationPlace",
 		"sigkdd#Hotel",
-		"no score"
+		0.6645063757896423
 	],
 	[
 		"edas#AccommodationPlace",
 		"sigkdd#Place",
-		"no score"
+		0.5349628329277039
 	],
 	[
 		"edas#RatedPapers",
 		"sigkdd#Best_Applications_Paper_Award",
-		"no score"
+		0.4439520537853241
 	],
 	[
 		"edas#RatedPapers",
 		"sigkdd#Best_Student_Paper_Award",
-		"no score"
+		0.559026837348938
 	],
 	[
 		"edas#RatedPapers",
 		"sigkdd#Best_Paper_Awards_Committee",
-		"no score"
+		0.614754855632782
+	],
+	[
+		"edas#RatedPapers",
+		"sigkdd#Review",
+		0.4441065788269043
 	],
 	[
 		"edas#RatedPapers",
 		"sigkdd#Best_Research_Paper_Award",
-		"no score"
+		0.4919146001338959
+	],
+	[
+		"edas#RatedPapers",
+		"sigkdd#Best_Student_Paper_Supporter",
+		0.5189192295074463
 	],
 	[
 		"edas#RatedPapers",
 		"sigkdd#Paper",
-		"no score"
+		0.41376936435699463
+	],
+	[
+		"edas#RatedPapers",
+		"sigkdd#Author_of_paper",
+		0.501767635345459
+	],
+	[
+		"edas#TravelGrant",
+		"sigkdd#Hotel",
+		0.4034368097782135
 	],
 	[
 		"edas#ConferenceDinner",
 		"sigkdd#Conference",
-		"no score"
+		0.7027301788330078
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Sponzor",
+		0.4446762800216675
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Bronze_Supporter",
+		0.42837050557136536
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Platinum_Supporter",
+		0.4470081031322479
 	],
 	[
 		"edas#ConferenceDinner",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.56131911277771
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Gold_Supporter",
+		0.43472546339035034
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Invited_Speaker",
+		0.41575533151626587
+	],
+	[
+		"edas#ConferenceDinner",
+		"sigkdd#Silver_Supporter",
+		0.4153863191604614
 	]
 ]

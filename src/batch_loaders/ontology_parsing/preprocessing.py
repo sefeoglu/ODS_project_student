@@ -155,11 +155,17 @@ class PreprocessingPipeline():
 
 
         
+    def cleanAndLowerString(self, string):
+        import re
+        string = re.sub(r'\s+', ' ', string)  # Replace multiple whitespace characters with a single space
+        string = re.sub(r'[;.:_\-#]', '', string)  # Remove specified special characters
+        string = string.lower()
+        return string
 
     def process(self, label):
 
         processed_labels = deepcopy(label)
-
+        processed_labels = self.cleanAndLowerString(processed_labels)
         processed_labels = self.parse_html_characters(processed_labels)
 
         processed_labels = [self.remove_punction(processed_labels)]

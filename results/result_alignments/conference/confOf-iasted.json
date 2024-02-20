@@ -1,372 +1,1007 @@
 [
 	[
 		"confOf#Trip",
+		"iasted#Car",
+		0.40783563256263733
+	],
+	[
+		"confOf#Trip",
 		"iasted#Trip_day",
-		"no score"
+		0.6819129586219788
 	],
 	[
 		"confOf#Trip",
 		"iasted#Departure",
-		"no score"
+		0.571086049079895
 	],
 	[
 		"confOf#Trip",
-		"iasted#Full_day_tour",
-		"no score"
+		"iasted#Taxi",
+		0.4573308825492859
 	],
 	[
 		"confOf#Trip",
 		"iasted#Trip_city",
-		"no score"
+		0.6081358790397644
 	],
 	[
 		"confOf#Banquet",
 		"iasted#Dinner_banquet",
-		"no score"
+		0.40607523918151855
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Presentation",
+		0.45063814520835876
 	],
 	[
 		"confOf#Banquet",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.5145889520645142
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_city",
+		0.48340004682540894
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_activity",
+		0.4118647277355194
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_days",
+		0.4281993806362152
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_building",
+		0.474422425031662
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Speaker",
+		0.4366062879562378
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_hotel",
+		0.4300205707550049
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_hall",
+		0.4738582968711853
+	],
+	[
+		"confOf#Banquet",
+		"iasted#Conference_Hiker",
+		0.4441407322883606
 	],
 	[
 		"confOf#Reception",
 		"iasted#Listener",
-		"no score"
+		0.5361098051071167
 	],
 	[
 		"confOf#Reception",
-		"iasted#Coctail_reception",
-		"no score"
+		"iasted#Speaker",
+		0.45279568433761597
 	],
 	[
 		"confOf#Social_event",
 		"iasted#Social_program",
-		"no score"
+		0.6595642566680908
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Activity",
+		0.4084821343421936
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Technic_activity",
+		0.41291552782058716
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Listener",
+		0.40492188930511475
+	],
+	[
+		"confOf#Event",
+		"iasted#Activity",
+		0.4305201768875122
+	],
+	[
+		"confOf#Event",
+		"iasted#Time",
+		0.41774341464042664
+	],
+	[
+		"confOf#Event",
+		"iasted#Listener",
+		0.45996156334877014
+	],
+	[
+		"confOf#Event",
+		"iasted#Conference_days",
+		0.4152851104736328
+	],
+	[
+		"confOf#Event",
+		"iasted#Item",
+		0.47310468554496765
+	],
+	[
+		"confOf#Event",
+		"iasted#Submission",
+		0.40831756591796875
+	],
+	[
+		"confOf#Event",
+		"iasted#Sponsor",
+		0.421150267124176
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Person",
+		0.4131587743759155
 	],
 	[
 		"confOf#Contribution",
 		"iasted#Author",
-		"no score"
+		0.5073258876800537
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Card",
+		0.41311168670654297
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Item",
+		0.4848860204219818
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Money",
+		0.4218674302101135
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Introduction",
+		0.4117179811000824
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Submission",
+		0.4467960000038147
 	],
 	[
 		"confOf#Contribution",
 		"iasted#Sponsor",
-		"no score"
+		0.5132350921630859
 	],
 	[
 		"confOf#City",
-		"iasted#Presenter_city",
-		"no score"
+		"iasted#Building",
+		0.4345056414604187
+	],
+	[
+		"confOf#City",
+		"iasted#Car",
+		0.40252625942230225
 	],
 	[
 		"confOf#City",
 		"iasted#Conference_city",
-		"no score"
+		0.5229656100273132
 	],
 	[
 		"confOf#City",
 		"iasted#Place",
-		"no score"
+		0.5579470992088318
 	],
 	[
 		"confOf#City",
 		"iasted#City",
-		"no score"
+		1.0
 	],
 	[
 		"confOf#City",
 		"iasted#State",
-		"no score"
+		0.5410630702972412
 	],
 	[
 		"confOf#City",
 		"iasted#Sponsor_city",
-		"no score"
+		0.5945901870727539
+	],
+	[
+		"confOf#City",
+		"iasted#Taxi",
+		0.4306565523147583
 	],
 	[
 		"confOf#City",
 		"iasted#Trip_city",
-		"no score"
+		0.5723973512649536
+	],
+	[
+		"confOf#Organization",
+		"iasted#Building",
+		0.4039410948753357
+	],
+	[
+		"confOf#Organization",
+		"iasted#Activity",
+		0.40605419874191284
+	],
+	[
+		"confOf#Organization",
+		"iasted#Conference_building",
+		0.469378262758255
 	],
 	[
 		"confOf#Person",
 		"iasted#Person",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"confOf#Person",
 		"iasted#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"confOf#Person",
+		"iasted#Speaker",
+		0.40011924505233765
+	],
+	[
+		"confOf#Topic",
+		"iasted#Activity",
+		0.40163230895996094
+	],
+	[
+		"confOf#Topic",
+		"iasted#Research",
+		0.4835381507873535
+	],
+	[
+		"confOf#Topic",
+		"iasted#Place",
+		0.421501487493515
 	],
 	[
 		"confOf#Topic",
 		"iasted#Introduction",
-		"no score"
+		0.5352280735969543
+	],
+	[
+		"confOf#Country",
+		"iasted#Car",
+		0.45237454771995544
 	],
 	[
 		"confOf#Country",
 		"iasted#Place",
-		"no score"
+		0.5393940210342407
 	],
 	[
 		"confOf#Country",
 		"iasted#City",
-		"no score"
+		0.535563588142395
 	],
 	[
 		"confOf#Country",
 		"iasted#State",
-		"no score"
+		0.5756391286849976
 	],
 	[
-		"confOf#University",
-		"iasted#Conference_state",
-		"no score"
+		"confOf#Country",
+		"iasted#Time_zone",
+		0.410128116607666
+	],
+	[
+		"confOf#Country",
+		"iasted#Computer",
+		0.45706719160079956
+	],
+	[
+		"confOf#Country",
+		"iasted#Currency",
+		0.4184110462665558
+	],
+	[
+		"confOf#Company",
+		"iasted#Building",
+		0.4503554701805115
+	],
+	[
+		"confOf#Company",
+		"iasted#Place",
+		0.4145274758338928
+	],
+	[
+		"confOf#Company",
+		"iasted#City",
+		0.44410061836242676
+	],
+	[
+		"confOf#Company",
+		"iasted#Sponsor_city",
+		0.45718812942504883
+	],
+	[
+		"confOf#Company",
+		"iasted#Sponsor",
+		0.4598862826824188
+	],
+	[
+		"confOf#Company",
+		"iasted#Computer",
+		0.44339123368263245
+	],
+	[
+		"confOf#Company",
+		"iasted#Trip_city",
+		0.4187021255493164
 	],
 	[
 		"confOf#University",
 		"iasted#Lecturer",
-		"no score"
+		0.5283393859863281
+	],
+	[
+		"confOf#University",
+		"iasted#City",
+		0.42862266302108765
+	],
+	[
+		"confOf#University",
+		"iasted#State",
+		0.4625895321369171
+	],
+	[
+		"confOf#University",
+		"iasted#Lecture",
+		0.49501320719718933
+	],
+	[
+		"confOf#University",
+		"iasted#Computer",
+		0.41313180327415466
 	],
 	[
 		"confOf#University",
 		"iasted#Student_lecturer",
-		"no score"
+		0.49825337529182434
 	],
 	[
 		"confOf#University",
-		"iasted#Presenter_university",
-		"no score"
+		"iasted#Student_non_speaker",
+		0.42313212156295776
+	],
+	[
+		"confOf#University",
+		"iasted#Student_registration_fee",
+		0.41450056433677673
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Document",
+		0.4199737012386322
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Person",
+		0.421869695186615
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Research",
+		0.47809138894081116
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Technic_activity",
+		0.45760828256607056
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Author",
+		0.4697360098361969
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Publication",
+		0.4843791127204895
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Student_lecturer",
+		0.480735719203949
+	],
+	[
+		"confOf#Scholar",
+		"iasted#Student_non_speaker",
+		0.4010699987411499
+	],
+	[
+		"confOf#Administrator",
+		"iasted#Delegate",
+		0.49305260181427
 	],
 	[
 		"confOf#Administrator",
 		"iasted#Computer",
-		"no score"
+		0.500530481338501
+	],
+	[
+		"confOf#Poster",
+		"iasted#Presentation",
+		0.44484058022499084
+	],
+	[
+		"confOf#Poster",
+		"iasted#Submission",
+		0.4221162497997284
+	],
+	[
+		"confOf#Poster",
+		"iasted#Publication",
+		0.4671207666397095
+	],
+	[
+		"confOf#Paper",
+		"iasted#Form",
+		0.4397408962249756
 	],
 	[
 		"confOf#Paper",
 		"iasted#Document",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"confOf#Paper",
+		"iasted#Activity",
+		0.4085239768028259
+	],
+	[
+		"confOf#Paper",
+		"iasted#Presentation",
+		0.4003778398036957
+	],
+	[
+		"confOf#Paper",
+		"iasted#Transparency",
+		0.40693533420562744
+	],
+	[
+		"confOf#Paper",
+		"iasted#Card",
+		0.44289466738700867
+	],
+	[
+		"confOf#Paper",
+		"iasted#Money",
+		0.4548240602016449
+	],
+	[
+		"confOf#Paper",
+		"iasted#Submission",
+		0.4081323444843292
 	],
 	[
 		"confOf#Paper",
 		"iasted#Publication",
-		"no score"
+		0.556241512298584
+	],
+	[
+		"confOf#Paper",
+		"iasted#Computer",
+		0.4445510506629944
+	],
+	[
+		"confOf#Short_paper",
+		"iasted#Document",
+		0.4445633888244629
+	],
+	[
+		"confOf#Short_paper",
+		"iasted#Introduction",
+		0.4282473027706146
+	],
+	[
+		"confOf#Reviewing_results_event",
+		"iasted#Reviewer",
+		0.43427371978759766
+	],
+	[
+		"confOf#Reviewing_results_event",
+		"iasted#Review",
+		0.5145189762115479
+	],
+	[
+		"confOf#Administrative_event",
+		"iasted#Delegate",
+		0.43430283665657043
+	],
+	[
+		"confOf#Administrative_event",
+		"iasted#Listener",
+		0.41133761405944824
 	],
 	[
 		"confOf#Reviewing_event",
 		"iasted#Reviewer",
-		"no score"
+		0.5250210762023926
 	],
 	[
 		"confOf#Reviewing_event",
 		"iasted#Review",
-		"no score"
+		0.5439094305038452
 	],
 	[
 		"confOf#Registration_of_participants_event",
 		"iasted#Registration_form",
-		"no score"
+		0.5061764717102051
 	],
 	[
 		"confOf#Registration_of_participants_event",
 		"iasted#Registration",
-		"no score"
+		0.5373649597167969
+	],
+	[
+		"confOf#Registration_of_participants_event",
+		"iasted#Registration_fee",
+		0.5052295923233032
+	],
+	[
+		"confOf#Submission_event",
+		"iasted#Form",
+		0.46531617641448975
 	],
 	[
 		"confOf#Submission_event",
 		"iasted#Submissions_deadline",
-		"no score"
+		0.58938068151474
 	],
 	[
 		"confOf#Submission_event",
 		"iasted#Submission",
-		"no score"
+		0.7650885581970215
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"iasted#Video_cassette_player",
+		0.48833325505256653
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"iasted#Video_presentation",
+		0.4287996292114258
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"iasted#Conference_hotel",
+		0.4211759567260742
 	],
 	[
 		"confOf#Camera_Ready_event",
 		"iasted#Camera_ready_manuscript_deadline",
-		"no score"
+		0.7035739421844482
 	],
 	[
 		"confOf#Workshop",
 		"iasted#Building",
-		"no score"
+		0.5308206081390381
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Presenter_city",
+		0.4460654854774475
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Social_program",
+		0.41242319345474243
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Activity",
+		0.4258154034614563
 	],
 	[
 		"confOf#Workshop",
 		"iasted#Presentation",
-		"no score"
+		0.5260779857635498
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_restaurant",
+		0.42836910486221313
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_city",
+		0.4577377736568451
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_activity",
+		0.422492653131485
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Session_room",
+		0.44131848216056824
 	],
 	[
 		"confOf#Workshop",
 		"iasted#Conference_building",
-		"no score"
+		0.5179473161697388
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_airport",
+		0.41280457377433777
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Lecturer",
+		0.42244020104408264
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_hall",
+		0.4359537959098816
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Lecture",
+		0.43834006786346436
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Tutorial_speaker",
+		0.4289259910583496
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Conference_Hiker",
+		0.40083515644073486
 	],
 	[
 		"confOf#Conference",
-		"iasted#Activity_before_conference",
-		"no score"
+		"iasted#Presenter_city",
+		0.424344003200531
+	],
+	[
+		"confOf#Conference",
+		"iasted#Presentation",
+		0.4557724893093109
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_restaurant",
-		"no score"
+		0.6445682048797607
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_city",
-		"no score"
+		0.8181537985801697
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_state",
-		"no score"
+		0.7214091420173645
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_activity",
-		"no score"
+		0.695114016532898
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_days",
-		"no score"
+		0.7756714820861816
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_building",
-		"no score"
-	],
-	[
-		"confOf#Conference",
-		"iasted#Activity_after_conference",
-		"no score"
+		0.7464775443077087
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_airport",
-		"no score"
+		0.6579046845436096
+	],
+	[
+		"confOf#Conference",
+		"iasted#City",
+		0.40900442004203796
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_hotel",
-		"no score"
+		0.6673057079315186
+	],
+	[
+		"confOf#Conference",
+		"iasted#Sponsor_city",
+		0.4128880500793457
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_hall",
-		"no score"
-	],
-	[
-		"confOf#Conference",
-		"iasted#One_conference_day",
-		"no score"
+		0.7057666182518005
 	],
 	[
 		"confOf#Conference",
 		"iasted#Conference_Hiker",
-		"no score"
+		0.6982145309448242
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Introduction",
-		"no score"
+		0.5124770402908325
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Tutorial",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Tutorial_speaker",
-		"no score"
+		0.7726792693138123
+	],
+	[
+		"confOf#Working_event",
+		"iasted#Worker_lecturer",
+		0.4580889642238617
+	],
+	[
+		"confOf#Working_event",
+		"iasted#Worker_non_speaker",
+		0.40852534770965576
+	],
+	[
+		"confOf#Member",
+		"iasted#Person",
+		0.48057568073272705
+	],
+	[
+		"confOf#Member",
+		"iasted#Item",
+		0.4248533844947815
+	],
+	[
+		"confOf#Member",
+		"iasted#Nonmember_registration_fee",
+		0.4412711262702942
+	],
+	[
+		"confOf#Member",
+		"iasted#IASTED_non_member",
+		0.5225797295570374
 	],
 	[
 		"confOf#Member",
 		"iasted#IASTED_member",
-		"no score"
+		0.5024074912071228
+	],
+	[
+		"confOf#Participant",
+		"iasted#Presenter_house",
+		0.4135630130767822
+	],
+	[
+		"confOf#Participant",
+		"iasted#Presenter_city",
+		0.4054320454597473
 	],
 	[
 		"confOf#Participant",
 		"iasted#Activity",
-		"no score"
+		0.52391117811203
 	],
 	[
 		"confOf#Participant",
 		"iasted#Person",
-		"no score"
+		0.6199662685394287
+	],
+	[
+		"confOf#Participant",
+		"iasted#Presentation",
+		0.4760073721408844
+	],
+	[
+		"confOf#Participant",
+		"iasted#Conference_restaurant",
+		0.4097418785095215
+	],
+	[
+		"confOf#Participant",
+		"iasted#Conference_activity",
+		0.4081188440322876
+	],
+	[
+		"confOf#Participant",
+		"iasted#Item",
+		0.40946221351623535
+	],
+	[
+		"confOf#Participant",
+		"iasted#Submission",
+		0.4595608115196228
+	],
+	[
+		"confOf#Participant",
+		"iasted#Sponsor",
+		0.47508323192596436
+	],
+	[
+		"confOf#Participant",
+		"iasted#Student_lecturer",
+		0.44785794615745544
+	],
+	[
+		"confOf#Participant",
+		"iasted#Presenter_university",
+		0.4411921501159668
 	],
 	[
 		"confOf#Member_PC",
-		"iasted#Computer",
-		"no score"
+		"iasted#Conference_restaurant",
+		0.40316006541252136
+	],
+	[
+		"confOf#Member_PC",
+		"iasted#Registration_fee",
+		0.4687788486480713
+	],
+	[
+		"confOf#Member_PC",
+		"iasted#Nonmember_registration_fee",
+		0.46628838777542114
 	],
 	[
 		"confOf#Chair_PC",
-		"iasted#Brief_introduction_for_Session_chair",
-		"no score"
+		"iasted#Conference_restaurant",
+		0.45864591002464294
 	],
 	[
-		"confOf#Chair_PC",
-		"iasted#Session_chair",
-		"no score"
-	],
-	[
-		"confOf#Chair_PC",
-		"iasted#Computer",
-		"no score"
+		"confOf#Student",
+		"iasted#Person",
+		0.4629851281642914
 	],
 	[
 		"confOf#Student",
 		"iasted#Lecturer",
-		"no score"
+		0.5755470991134644
 	],
 	[
 		"confOf#Student",
 		"iasted#Lecture",
-		"no score"
+		0.5706408023834229
+	],
+	[
+		"confOf#Student",
+		"iasted#Computer",
+		0.4379127621650696
 	],
 	[
 		"confOf#Student",
 		"iasted#Student_lecturer",
-		"no score"
+		0.740051805973053
 	],
 	[
 		"confOf#Student",
 		"iasted#Student_non_speaker",
-		"no score"
+		0.6623793840408325
 	],
 	[
 		"confOf#Student",
-		"iasted#Presenter_university",
-		"no score"
+		"iasted#Student_registration_fee",
+		0.5475835800170898
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Technic_activity",
+		0.45873868465423584
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Technical_commitee",
+		0.4055382311344147
 	],
 	[
 		"confOf#Science_Worker",
 		"iasted#Worker_lecturer",
-		"no score"
+		0.5863469839096069
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Lecturer",
+		0.41619059443473816
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Worker_non_speaker",
+		0.5022960305213928
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Student_lecturer",
+		0.5314332842826843
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Student_non_speaker",
+		0.4590224027633667
+	],
+	[
+		"confOf#Assistant",
+		"iasted#Conference_restaurant",
+		0.42894446849823
+	],
+	[
+		"confOf#Assistant",
+		"iasted#IASTED_non_member",
+		0.42456841468811035
+	],
+	[
+		"confOf#Assistant",
+		"iasted#Worker_non_speaker",
+		0.43744224309921265
+	],
+	[
+		"confOf#Volunteer",
+		"iasted#Activity",
+		0.41287070512771606
+	],
+	[
+		"confOf#Regular",
+		"iasted#Item",
+		0.4180643558502197
 	],
 	[
 		"confOf#Author",
 		"iasted#Person",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"confOf#Author",
+		"iasted#Author_cd_proceedings_included",
+		0.48235952854156494
 	],
 	[
 		"confOf#Author",
 		"iasted#Author",
-		"no score"
+		0.9999999403953552
+	],
+	[
+		"confOf#Author",
+		"iasted#Introduction",
+		0.43188267946243286
 	],
 	[
 		"confOf#Author",
 		"iasted#Author_information_form",
-		"no score"
+		0.4213448464870453
 	],
 	[
 		"confOf#Author",
 		"iasted#Publication",
-		"no score"
+		0.5501728057861328
+	],
+	[
+		"confOf#Author",
+		"iasted#Author_book_proceedings_included",
+		0.5095466375350952
 	]
 ]
