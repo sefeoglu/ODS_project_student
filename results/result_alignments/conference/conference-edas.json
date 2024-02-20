@@ -2,1106 +2,1431 @@
 	[
 		"conference#Conference_participant",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7651578187942505
 	],
 	[
 		"conference#Conference_participant",
 		"edas#Conference",
-		"no score"
+		0.7481421232223511
 	],
 	[
 		"conference#Conference_participant",
 		"edas#ConferenceSession",
-		"no score"
+		0.7405226230621338
+	],
+	[
+		"conference#Conference_participant",
+		"edas#MealEvent",
+		0.4267873167991638
+	],
+	[
+		"conference#Conference_participant",
+		"edas#CommunicationsTopic",
+		0.4189000129699707
+	],
+	[
+		"conference#Conference_participant",
+		"edas#CommunicationTheoryTopic",
+		0.4034278392791748
 	],
 	[
 		"conference#Conference_participant",
 		"edas#ConferenceChair",
-		"no score"
+		0.6644115447998047
 	],
 	[
 		"conference#Conference_participant",
 		"edas#Presenter",
-		"no score"
+		0.4060696065425873
+	],
+	[
+		"conference#Conference_participant",
+		"edas#Attendee",
+		0.4083575904369354
 	],
 	[
 		"conference#Conference_participant",
 		"edas#TalkEvent",
-		"no score"
+		0.4378223717212677
 	],
 	[
 		"conference#Conference_participant",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Workshop",
+		0.4111231863498688
 	],
 	[
 		"conference#Conference_participant",
-		"edas#OrganizationalMeeting",
-		"no score"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#AcademicEvent",
-		"no score"
+		"edas#SocialEvent",
+		0.4174357056617737
 	],
 	[
 		"conference#Conference_participant",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#SingleLevelConference",
-		"no score"
+		0.7585331797599792
 	],
 	[
 		"conference#Conference_participant",
 		"edas#ConferenceDinner",
-		"no score"
+		0.7353585958480835
 	],
 	[
 		"conference#Active_conference_participant",
-		"edas#ConferenceEvent",
-		"no score"
+		"edas#CommunicationTheoryTopic",
+		0.4056677222251892
 	],
 	[
 		"conference#Active_conference_participant",
-		"edas#Conference",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#ConferenceSession",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#ConferenceChair",
-		"no score"
+		"edas#ActivePaper",
+		0.46086397767066956
 	],
 	[
 		"conference#Active_conference_participant",
 		"edas#TwoLevelConference",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#OrganizationalMeeting",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#AcademicEvent",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#ConferenceVenuePlace",
-		"no score"
+		0.47833123803138733
 	],
 	[
 		"conference#Active_conference_participant",
 		"edas#SingleLevelConference",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#ConferenceDinner",
-		"no score"
+		0.5193292498588562
 	],
 	[
 		"conference#Passive_conference_participant",
-		"edas#ConferenceEvent",
-		"no score"
+		"edas#CommunicationsTopic",
+		0.4098179340362549
 	],
 	[
 		"conference#Passive_conference_participant",
-		"edas#Conference",
-		"no score"
+		"edas#RadioCommunicationsTopic",
+		0.4076502323150635
 	],
 	[
 		"conference#Passive_conference_participant",
-		"edas#ConferenceSession",
-		"no score"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"edas#ConferenceChair",
-		"no score"
+		"edas#CommunicationTheoryTopic",
+		0.5032272934913635
 	],
 	[
 		"conference#Passive_conference_participant",
 		"edas#TwoLevelConference",
-		"no score"
+		0.4450185298919678
 	],
 	[
 		"conference#Passive_conference_participant",
-		"edas#ConferenceDinner",
-		"no score"
+		"edas#SingleLevelConference",
+		0.4656030833721161
 	],
 	[
 		"conference#Person",
 		"edas#Person",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Person",
 		"edas#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"conference#Person",
+		"edas#Presenter",
+		0.409059077501297
 	],
 	[
 		"conference#Review_expertise",
 		"edas#Review",
-		"no score"
+		0.7331953644752502
 	],
 	[
 		"conference#Review_expertise",
 		"edas#ReviewRating",
-		"no score"
+		0.6944040060043335
 	],
 	[
 		"conference#Review_expertise",
 		"edas#ReviewForm",
-		"no score"
+		0.6533054113388062
 	],
 	[
 		"conference#Review_expertise",
 		"edas#ReviewQuestion",
-		"no score"
+		0.6946966648101807
+	],
+	[
+		"conference#Review_expertise",
+		"edas#AcceptRating",
+		0.46449583768844604
+	],
+	[
+		"conference#Review_expertise",
+		"edas#RejectRating",
+		0.46133846044540405
 	],
 	[
 		"conference#Review_expertise",
 		"edas#Reviewer",
-		"no score"
+		0.6712875366210938
 	],
 	[
 		"conference#Review_expertise",
-		"edas#TextualReviewQuestion",
-		"no score"
-	],
-	[
-		"conference#Review_expertise",
-		"edas#CallForReviews",
-		"no score"
-	],
-	[
-		"conference#Review_expertise",
-		"edas#PersonalReviewHistory",
-		"no score"
+		"edas#RatedPapers",
+		0.42326948046684265
 	],
 	[
 		"conference#Reviewer",
 		"edas#Review",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"conference#Reviewer",
 		"edas#ReviewRating",
-		"no score"
+		0.6789980530738831
 	],
 	[
 		"conference#Reviewer",
 		"edas#ReviewForm",
-		"no score"
+		0.5597963929176331
 	],
 	[
 		"conference#Reviewer",
 		"edas#ReviewQuestion",
-		"no score"
+		0.6374455094337463
+	],
+	[
+		"conference#Reviewer",
+		"edas#AcceptRating",
+		0.41908711194992065
+	],
+	[
+		"conference#Reviewer",
+		"edas#RejectRating",
+		0.43604379892349243
 	],
 	[
 		"conference#Reviewer",
 		"edas#Reviewer",
-		"no score"
+		1.0
 	],
 	[
 		"conference#Reviewer",
-		"edas#TextualReviewQuestion",
-		"no score"
-	],
-	[
-		"conference#Reviewer",
-		"edas#CallForReviews",
-		"no score"
-	],
-	[
-		"conference#Reviewer",
-		"edas#PersonalReviewHistory",
-		"no score"
+		"edas#RatedPapers",
+		0.45811769366264343
 	],
 	[
 		"conference#Regular_author",
 		"edas#Author",
-		"no score"
+		0.4147390127182007
 	],
 	[
 		"conference#Conference_contributor",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7408081889152527
 	],
 	[
 		"conference#Conference_contributor",
 		"edas#Conference",
-		"no score"
+		0.6541378498077393
 	],
 	[
 		"conference#Conference_contributor",
 		"edas#ConferenceSession",
-		"no score"
+		0.6739183664321899
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#ComputerNetworksTopic",
+		0.4288941025733948
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#CommunicationsTopic",
+		0.4292696416378021
 	],
 	[
 		"conference#Conference_contributor",
 		"edas#ConferenceChair",
-		"no score"
+		0.7130434513092041
 	],
 	[
 		"conference#Conference_contributor",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#ComputerNetworksEnterpriseTopic",
+		0.45402300357818604
 	],
 	[
 		"conference#Conference_contributor",
-		"edas#SingleLevelConference",
-		"no score"
+		"edas#ComputerNetworksSensorTopic",
+		0.4022994637489319
 	],
 	[
-		"conference#Contribution_1th-author",
-		"edas#Author",
-		"no score"
+		"conference#Conference_contributor",
+		"edas#ComputerNetworksManagementTopic",
+		0.40698713064193726
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#ComputerNetworksAapplicationsTopic",
+		0.4654102921485901
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#ConferenceVenuePlace",
+		0.708716630935669
+	],
+	[
+		"conference#Conference_contributor",
+		"edas#ConferenceDinner",
+		0.6459416747093201
 	],
 	[
 		"conference#Contribution_co-author",
 		"edas#Author",
-		"no score"
+		0.5343788266181946
+	],
+	[
+		"conference#Contribution_co-author",
+		"edas#TPCMember",
+		0.4405664801597595
 	],
 	[
 		"conference#Conference_contribution",
 		"edas#ConferenceEvent",
-		"no score"
+		0.6229903101921082
 	],
 	[
 		"conference#Conference_contribution",
 		"edas#Conference",
-		"no score"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#Sponsorship",
-		"no score"
+		0.6287206411361694
 	],
 	[
 		"conference#Conference_contribution",
 		"edas#ConferenceSession",
-		"no score"
+		0.5883135199546814
 	],
 	[
 		"conference#Conference_contribution",
 		"edas#ConferenceChair",
-		"no score"
+		0.5600897073745728
 	],
 	[
 		"conference#Conference_contribution",
-		"edas#TwoLevelConference",
-		"no score"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#SingleLevelConference",
-		"no score"
+		"edas#ConferenceVenuePlace",
+		0.6170307397842407
 	],
 	[
 		"conference#Conference_contribution",
 		"edas#ConferenceDinner",
-		"no score"
+		0.5125848650932312
 	],
 	[
 		"conference#Co-chair",
 		"edas#ConferenceChair",
-		"no score"
+		0.6157088279724121
 	],
 	[
 		"conference#Co-chair",
 		"edas#SessionChair",
-		"no score"
+		0.5462603569030762
+	],
+	[
+		"conference#Committee",
+		"edas#Programme",
+		0.4050107002258301
 	],
 	[
 		"conference#Committee",
 		"edas#Organization",
-		"no score"
+		0.5160784125328064
 	],
 	[
 		"conference#Committee",
 		"edas#Conference",
-		"no score"
-	],
-	[
-		"conference#Committee",
-		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Committee",
-		"edas#GovernmentOrganization",
-		"no score"
+		0.505145788192749
 	],
 	[
 		"conference#Committee_member",
-		"edas#ConferenceChair",
-		"no score"
+		"edas#Attendee",
+		0.40969690680503845
 	],
 	[
 		"conference#Committee_member",
-		"edas#SessionChair",
-		"no score"
+		"edas#TPCMember",
+		0.5396515130996704
+	],
+	[
+		"conference#Abstract",
+		"edas#Organization",
+		0.45925164222717285
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#ConferenceSession",
+		0.4232903718948364
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#Presenter",
+		0.4312934875488281
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#Attendee",
+		0.417572021484375
 	],
 	[
 		"conference#Invited_speaker",
 		"edas#TalkEvent",
-		"no score"
+		0.4612747132778168
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#MeetingRoomPlace",
+		0.40803468227386475
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#ConferenceDinner",
+		0.41575533151626587
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7211906313896179
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#Conference",
-		"no score"
+		0.7667665481567383
+	],
+	[
+		"conference#Conference_proceedings",
+		"edas#Sponsorship",
+		0.45892250537872314
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#ConferenceSession",
-		"no score"
+		0.7563909292221069
+	],
+	[
+		"conference#Conference_proceedings",
+		"edas#AccpetIfRoomRating",
+		0.413497656583786
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Conference_proceedings",
-		"edas#TwoLevelConference",
-		"no score"
+		0.6805143356323242
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#OrganizationalMeeting",
-		"no score"
+		0.43475136160850525
+	],
+	[
+		"conference#Conference_proceedings",
+		"edas#Workshop",
+		0.40147337317466736
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference_proceedings",
-		"edas#SingleLevelConference",
-		"no score"
+		0.7743510603904724
 	],
 	[
 		"conference#Conference_proceedings",
 		"edas#ConferenceDinner",
-		"no score"
+		0.6161779165267944
+	],
+	[
+		"conference#Information_for_participants",
+		"edas#CommunicationsTopic",
+		0.4000352621078491
 	],
 	[
 		"conference#Conference_document",
 		"edas#Document",
-		"no score"
+		0.49504294991493225
 	],
 	[
 		"conference#Conference_document",
 		"edas#ConferenceEvent",
-		"no score"
+		0.6955368518829346
 	],
 	[
 		"conference#Conference_document",
 		"edas#Conference",
-		"no score"
+		0.7059780359268188
 	],
 	[
 		"conference#Conference_document",
 		"edas#ConferenceSession",
-		"no score"
+		0.6842424869537354
 	],
 	[
 		"conference#Conference_document",
 		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Conference_document",
-		"edas#TwoLevelConference",
-		"no score"
-	],
-	[
-		"conference#Conference_document",
-		"edas#PaperPresentation",
-		"no score"
+		0.6502856612205505
 	],
 	[
 		"conference#Conference_document",
 		"edas#ConferenceVenuePlace",
-		"no score"
+		0.7203688025474548
 	],
 	[
 		"conference#Conference_document",
-		"edas#SingleLevelConference",
-		"no score"
+		"edas#ConferenceDinner",
+		0.546483039855957
 	],
 	[
 		"conference#Organization",
 		"edas#Organization",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"conference#Organization",
+		"edas#Conference",
+		0.4453245997428894
+	],
+	[
+		"conference#Organization",
+		"edas#AccpetIfRoomRating",
+		0.4490836262702942
 	],
 	[
 		"conference#Organization",
 		"edas#AcademiaOrganization",
-		"no score"
+		0.5057513117790222
 	],
 	[
 		"conference#Organization",
 		"edas#IndustryOrganization",
-		"no score"
+		0.5653476119041443
 	],
 	[
 		"conference#Organization",
 		"edas#NGO",
-		"no score"
+		0.5320026278495789
 	],
 	[
 		"conference#Organization",
 		"edas#GovernmentOrganization",
-		"no score"
+		0.559062123298645
 	],
 	[
 		"conference#Organization",
 		"edas#OrganizationalMeeting",
-		"no score"
+		0.7701348662376404
 	],
 	[
 		"conference#Poster",
 		"edas#Paper",
-		"no score"
+		0.542709231376648
+	],
+	[
+		"conference#Poster",
+		"edas#PublishedPaper",
+		0.4555198848247528
 	],
 	[
 		"conference#Written_contribution",
 		"edas#Author",
-		"no score"
+		0.43872517347335815
 	],
 	[
 		"conference#Conference_applicant",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7494619488716125
 	],
 	[
 		"conference#Conference_applicant",
 		"edas#Conference",
-		"no score"
+		0.7031527757644653
 	],
 	[
 		"conference#Conference_applicant",
 		"edas#ConferenceSession",
-		"no score"
+		0.7059276700019836
 	],
 	[
 		"conference#Conference_applicant",
 		"edas#ConferenceChair",
-		"no score"
+		0.6770034432411194
 	],
 	[
 		"conference#Conference_applicant",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Presenter",
+		0.42311984300613403
+	],
+	[
+		"conference#Conference_applicant",
+		"edas#ComputerNetworksEnterpriseTopic",
+		0.402889609336853
+	],
+	[
+		"conference#Conference_applicant",
+		"edas#ComputerNetworksAapplicationsTopic",
+		0.4054073393344879
+	],
+	[
+		"conference#Conference_applicant",
+		"edas#Attendee",
+		0.43764665722846985
+	],
+	[
+		"conference#Conference_applicant",
+		"edas#TalkEvent",
+		0.41356462240219116
+	],
+	[
+		"conference#Conference_applicant",
+		"edas#Workshop",
+		0.4387987554073334
 	],
 	[
 		"conference#Conference_applicant",
 		"edas#ConferenceVenuePlace",
-		"no score"
+		0.7419188022613525
 	],
 	[
 		"conference#Conference_applicant",
-		"edas#SingleLevelConference",
-		"no score"
+		"edas#ConferenceDinner",
+		0.6249891519546509
 	],
 	[
 		"conference#Accepted_contribution",
 		"edas#AcceptRating",
-		"no score"
+		0.5643917322158813
 	],
 	[
 		"conference#Accepted_contribution",
 		"edas#AcceptedPaper",
-		"no score"
+		0.47620058059692383
 	],
 	[
 		"conference#Program_committee",
 		"edas#Programme",
-		"no score"
+		0.5224448442459106
 	],
 	[
 		"conference#Organizing_committee",
 		"edas#Organization",
-		"no score"
+		0.6475166082382202
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#ConferenceSession",
+		0.4175880551338196
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#AccpetIfRoomRating",
+		0.47411057353019714
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#ConferenceChair",
+		0.45828238129615784
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#IndustryOrganization",
+		0.4964829683303833
 	],
 	[
 		"conference#Organizing_committee",
 		"edas#GovernmentOrganization",
-		"no score"
+		0.5251009464263916
 	],
 	[
 		"conference#Organizing_committee",
 		"edas#OrganizationalMeeting",
-		"no score"
+		0.6237977743148804
 	],
 	[
-		"conference#Steering_committee",
-		"edas#ConferenceChair",
-		"no score"
+		"conference#Organizing_committee",
+		"edas#Workshop",
+		0.4341397285461426
+	],
+	[
+		"conference#Organizing_committee",
+		"edas#ConferenceVenuePlace",
+		0.435580313205719
 	],
 	[
 		"conference#Conference_volume",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7657566666603088
 	],
 	[
 		"conference#Conference_volume",
 		"edas#Conference",
-		"no score"
+		0.7462046146392822
 	],
 	[
 		"conference#Conference_volume",
 		"edas#ConferenceSession",
-		"no score"
+		0.7533307075500488
+	],
+	[
+		"conference#Conference_volume",
+		"edas#CommunicationsTopic",
+		0.4420541524887085
+	],
+	[
+		"conference#Conference_volume",
+		"edas#RadioCommunicationsTopic",
+		0.4213443994522095
 	],
 	[
 		"conference#Conference_volume",
 		"edas#ConferenceChair",
-		"no score"
+		0.6417015790939331
 	],
 	[
 		"conference#Conference_volume",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Presenter",
+		0.41099777817726135
+	],
+	[
+		"conference#Conference_volume",
+		"edas#TalkEvent",
+		0.4326963722705841
+	],
+	[
+		"conference#Conference_volume",
+		"edas#Workshop",
+		0.4081519842147827
+	],
+	[
+		"conference#Conference_volume",
+		"edas#AcademicEvent",
+		0.4159911870956421
 	],
 	[
 		"conference#Conference_volume",
 		"edas#ConferenceVenuePlace",
-		"no score"
+		0.7381673455238342
 	],
 	[
 		"conference#Conference_volume",
-		"edas#SingleLevelConference",
-		"no score"
+		"edas#ConferenceDinner",
+		0.6523963809013367
 	],
 	[
 		"conference#Conference",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7512850761413574
+	],
+	[
+		"conference#Conference",
+		"edas#Organization",
+		0.4453245997428894
 	],
 	[
 		"conference#Conference",
 		"edas#Conference",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"conference#Conference",
+		"edas#Sponsorship",
+		0.4201822876930237
 	],
 	[
 		"conference#Conference",
 		"edas#ConferenceSession",
-		"no score"
+		0.760166585445404
 	],
 	[
 		"conference#Conference",
 		"edas#ConferenceChair",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"conference#Conference",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Attendee",
+		0.46077537536621094
 	],
 	[
 		"conference#Conference",
-		"edas#OrganizationalMeeting",
-		"no score"
+		"edas#Workshop",
+		0.43847036361694336
 	],
 	[
 		"conference#Conference",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference",
-		"edas#SingleLevelConference",
-		"no score"
+		0.7299953699111938
 	],
 	[
 		"conference#Conference",
 		"edas#ConferenceDinner",
-		"no score"
+		0.7027301788330078
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#Paper",
-		"no score"
+		0.40901947021484375
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#Call",
-		"no score"
+		0.5518712997436523
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#ActivePaper",
-		"no score"
+		0.5100247859954834
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#PendingPaper",
-		"no score"
+		0.574604332447052
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#WithdrawnPaper",
+		0.4713771343231201
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#RejectedPaper",
+		0.5427212715148926
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#AcceptedPaper",
-		"no score"
+		0.4738953709602356
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#PublishedPaper",
-		"no score"
+		0.5340670347213745
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#CallForPapers",
-		"no score"
+		0.9740191102027893
 	],
 	[
 		"conference#Call_for_paper",
-		"edas#PaperPresentation",
-		"no score"
+		"edas#CallForReviews",
+		0.6101526618003845
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#CallForManuscripts",
-		"no score"
+		0.5584750175476074
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#RatedPapers",
+		0.4878023862838745
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#ConferenceEvent",
-		"no score"
+		0.71238774061203
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#Conference",
-		"no score"
+		0.7755932807922363
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#ConferenceSession",
-		"no score"
+		0.7873457670211792
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#ConferenceChair",
-		"no score"
+		0.6271945238113403
 	],
 	[
 		"conference#Conference_announcement",
-		"edas#TalkEvent",
-		"no score"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Attendee",
+		0.41606006026268005
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#OrganizationalMeeting",
-		"no score"
+		0.41205063462257385
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#SingleLevelConference",
-		"no score"
+		0.7386549711227417
 	],
 	[
 		"conference#Conference_announcement",
 		"edas#ConferenceDinner",
-		"no score"
+		0.5798265337944031
 	],
 	[
 		"conference#Paper",
 		"edas#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Paper",
 		"edas#Document",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"conference#Paper",
 		"edas#ActivePaper",
-		"no score"
+		0.4080798327922821
 	],
 	[
 		"conference#Paper",
 		"edas#PendingPaper",
-		"no score"
+		0.46254587173461914
 	],
 	[
 		"conference#Paper",
 		"edas#WithdrawnPaper",
-		"no score"
+		0.41637560725212097
+	],
+	[
+		"conference#Paper",
+		"edas#RejectedPaper",
+		0.4215221405029297
 	],
 	[
 		"conference#Paper",
 		"edas#AcceptedPaper",
-		"no score"
+		0.4090678095817566
 	],
 	[
 		"conference#Paper",
 		"edas#PublishedPaper",
-		"no score"
+		0.5903352499008179
 	],
 	[
 		"conference#Paper",
 		"edas#CallForPapers",
-		"no score"
+		0.413390576839447
 	],
 	[
 		"conference#Paper",
 		"edas#PaperPresentation",
-		"no score"
+		0.7057254314422607
 	],
 	[
 		"conference#Paper",
 		"edas#RatedPapers",
-		"no score"
+		0.41376936435699463
+	],
+	[
+		"conference#Invited_talk",
+		"edas#Conference",
+		0.4500773847103119
+	],
+	[
+		"conference#Invited_talk",
+		"edas#ConferenceSession",
+		0.43697792291641235
+	],
+	[
+		"conference#Invited_talk",
+		"edas#AcceptRating",
+		0.4030396342277527
+	],
+	[
+		"conference#Invited_talk",
+		"edas#AcceptedPaper",
+		0.4000539183616638
+	],
+	[
+		"conference#Invited_talk",
+		"edas#Attendee",
+		0.44213345646858215
+	],
+	[
+		"conference#Invited_talk",
+		"edas#ClosingTalk",
+		0.501914918422699
+	],
+	[
+		"conference#Invited_talk",
+		"edas#WelcomeTalk",
+		0.5919960737228394
 	],
 	[
 		"conference#Invited_talk",
 		"edas#TalkEvent",
-		"no score"
+		0.4264567494392395
+	],
+	[
+		"conference#Conference_part",
+		"edas#MealMenu",
+		0.4114622473716736
 	],
 	[
 		"conference#Conference_part",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7641336917877197
 	],
 	[
 		"conference#Conference_part",
 		"edas#Conference",
-		"no score"
+		0.7795438766479492
+	],
+	[
+		"conference#Conference_part",
+		"edas#Sponsorship",
+		0.40428996086120605
 	],
 	[
 		"conference#Conference_part",
 		"edas#ConferenceSession",
-		"no score"
+		0.692062258720398
+	],
+	[
+		"conference#Conference_part",
+		"edas#MealEvent",
+		0.44930920004844666
 	],
 	[
 		"conference#Conference_part",
 		"edas#ConferenceChair",
-		"no score"
+		0.7081719636917114
 	],
 	[
 		"conference#Conference_part",
-		"edas#TwoLevelConference",
-		"no score"
+		"edas#Presenter",
+		0.4108818769454956
+	],
+	[
+		"conference#Conference_part",
+		"edas#Attendee",
+		0.41570496559143066
+	],
+	[
+		"conference#Conference_part",
+		"edas#TalkEvent",
+		0.4121866226196289
+	],
+	[
+		"conference#Conference_part",
+		"edas#Workshop",
+		0.43637529015541077
+	],
+	[
+		"conference#Conference_part",
+		"edas#SocialEvent",
+		0.42167890071868896
 	],
 	[
 		"conference#Conference_part",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference_part",
-		"edas#SingleLevelConference",
-		"no score"
+		0.6802771091461182
 	],
 	[
 		"conference#Conference_part",
 		"edas#ConferenceDinner",
-		"no score"
+		0.704842209815979
+	],
+	[
+		"conference#Presentation",
+		"edas#SlideSet",
+		0.5400026440620422
+	],
+	[
+		"conference#Presentation",
+		"edas#Programme",
+		0.4474250078201294
+	],
+	[
+		"conference#Presentation",
+		"edas#Paper",
+		0.4003778398036957
+	],
+	[
+		"conference#Presentation",
+		"edas#ConferenceEvent",
+		0.4081681966781616
+	],
+	[
+		"conference#Presentation",
+		"edas#Conference",
+		0.4557724893093109
+	],
+	[
+		"conference#Presentation",
+		"edas#ConferenceSession",
+		0.42065006494522095
 	],
 	[
 		"conference#Presentation",
 		"edas#Presenter",
-		"no score"
+		0.5863654017448425
 	],
 	[
 		"conference#Presentation",
 		"edas#PaperPresentation",
-		"no score"
+		0.49187231063842773
 	],
 	[
 		"conference#Presentation",
 		"edas#Workshop",
-		"no score"
+		0.5260779857635498
 	],
 	[
 		"conference#Chair",
+		"edas#Person",
+		0.4306103587150574
+	],
+	[
+		"conference#Workshop",
+		"edas#Programme",
+		0.4496197998523712
+	],
+	[
+		"conference#Workshop",
+		"edas#Conference",
+		0.43847036361694336
+	],
+	[
+		"conference#Workshop",
+		"edas#ConferenceSession",
+		0.4413796067237854
+	],
+	[
+		"conference#Workshop",
+		"edas#CADTopic",
+		0.4128640592098236
+	],
+	[
+		"conference#Workshop",
 		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Chair",
-		"edas#SessionChair",
-		"no score"
+		0.45384693145751953
 	],
 	[
 		"conference#Workshop",
 		"edas#Workshop",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"conference#Workshop",
+		"edas#MeetingRoomPlace",
+		0.40865907073020935
 	],
 	[
 		"conference#Rejected_contribution",
 		"edas#RejectRating",
-		"no score"
+		0.6461716890335083
 	],
 	[
 		"conference#Rejected_contribution",
 		"edas#RejectedPaper",
-		"no score"
+		0.5420190095901489
 	],
 	[
 		"conference#Reviewed_contribution",
 		"edas#Review",
-		"no score"
+		0.5658080577850342
 	],
 	[
 		"conference#Reviewed_contribution",
 		"edas#ReviewRating",
-		"no score"
+		0.6329450607299805
 	],
 	[
 		"conference#Reviewed_contribution",
 		"edas#ReviewForm",
-		"no score"
+		0.47233667969703674
 	],
 	[
 		"conference#Reviewed_contribution",
 		"edas#ReviewQuestion",
-		"no score"
+		0.6233559846878052
+	],
+	[
+		"conference#Reviewed_contribution",
+		"edas#AcceptRating",
+		0.42300355434417725
+	],
+	[
+		"conference#Reviewed_contribution",
+		"edas#RejectRating",
+		0.4423525035381317
 	],
 	[
 		"conference#Reviewed_contribution",
 		"edas#Reviewer",
-		"no score"
+		0.5177836418151855
 	],
 	[
 		"conference#Review",
 		"edas#Review",
-		"no score"
+		1.000000238418579
 	],
 	[
 		"conference#Review",
 		"edas#ReviewRating",
-		"no score"
+		0.736164927482605
 	],
 	[
 		"conference#Review",
 		"edas#ReviewForm",
-		"no score"
+		0.7013048529624939
 	],
 	[
 		"conference#Review",
 		"edas#ReviewQuestion",
-		"no score"
+		0.7393282651901245
+	],
+	[
+		"conference#Review",
+		"edas#AcceptRating",
+		0.42368435859680176
+	],
+	[
+		"conference#Review",
+		"edas#RejectRating",
+		0.41828757524490356
 	],
 	[
 		"conference#Review",
 		"edas#Reviewer",
-		"no score"
+		0.8096712231636047
 	],
 	[
 		"conference#Review",
-		"edas#TextualReviewQuestion",
-		"no score"
-	],
-	[
-		"conference#Review",
-		"edas#CallForReviews",
-		"no score"
-	],
-	[
-		"conference#Review",
-		"edas#PersonalReviewHistory",
-		"no score"
+		"edas#RatedPapers",
+		0.4441065788269043
 	],
 	[
 		"conference#Topic",
 		"edas#Topic",
-		"no score"
+		1.0
 	],
 	[
 		"conference#Topic",
-		"edas#CADTopic",
-		"no score"
+		"edas#ReviewQuestion",
+		0.4023979902267456
 	],
 	[
 		"conference#Topic",
-		"edas#MultimediaTopic",
-		"no score"
+		"edas#Country",
+		0.40212753415107727
 	],
 	[
 		"conference#Topic",
-		"edas#CommunicationsTopic",
-		"no score"
+		"edas#Place",
+		0.421501487493515
 	],
 	[
-		"conference#Topic",
-		"edas#PerformanceTopic",
-		"no score"
-	],
-	[
-		"conference#Topic",
-		"edas#SignalProcessingTopic",
-		"no score"
-	],
-	[
-		"conference#Topic",
-		"edas#MedicineTopic",
-		"no score"
-	],
-	[
-		"conference#Topic",
-		"edas#SecurityTopic",
-		"no score"
-	],
-	[
-		"conference#Topic",
-		"edas#CommunicationTheoryTopic",
-		"no score"
+		"conference#Organizer",
+		"edas#Paper",
+		0.40804323554039
 	],
 	[
 		"conference#Organizer",
 		"edas#Organization",
-		"no score"
+		0.5892888307571411
+	],
+	[
+		"conference#Organizer",
+		"edas#ConferenceChair",
+		0.4060158431529999
+	],
+	[
+		"conference#Organizer",
+		"edas#OrganizationalMeeting",
+		0.41757774353027344
+	],
+	[
+		"conference#Organizer",
+		"edas#Workshop",
+		0.4357834756374359
+	],
+	[
+		"conference#Organizer",
+		"edas#MeetingRoomPlace",
+		0.46587398648262024
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#Call",
+		0.569465696811676
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#ContactInformation",
+		0.480976939201355
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#CallForPapers",
+		0.5138615965843201
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#CallForReviews",
+		0.5961297750473022
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#CallForManuscripts",
+		0.4623684585094452
 	],
 	[
 		"conference#Publisher",
 		"edas#Paper",
-		"no score"
+		0.5043225288391113
+	],
+	[
+		"conference#Publisher",
+		"edas#Document",
+		0.4845515489578247
 	],
 	[
 		"conference#Publisher",
 		"edas#Author",
-		"no score"
+		0.5511735677719116
 	],
 	[
 		"conference#Publisher",
 		"edas#PublishedPaper",
-		"no score"
+		0.6223116517066956
 	],
 	[
 		"conference#Publisher",
-		"edas#PersonalPublicationHistory",
-		"no score"
+		"edas#PaperPresentation",
+		0.4324067533016205
+	],
+	[
+		"conference#Track-workshop_chair",
+		"edas#CADTopic",
+		0.4106294512748718
+	],
+	[
+		"conference#Track-workshop_chair",
+		"edas#MultimediaTopic",
+		0.41032934188842773
 	],
 	[
 		"conference#Track-workshop_chair",
 		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"edas#SessionChair",
-		"no score"
+		0.48151788115501404
 	],
 	[
 		"conference#Conference_www",
 		"edas#ConferenceEvent",
-		"no score"
+		0.6165779829025269
 	],
 	[
 		"conference#Conference_www",
 		"edas#Conference",
-		"no score"
+		0.748045027256012
 	],
 	[
 		"conference#Conference_www",
 		"edas#ConferenceSession",
-		"no score"
+		0.6161002516746521
 	],
 	[
 		"conference#Conference_www",
 		"edas#ConferenceChair",
-		"no score"
-	],
-	[
-		"conference#Conference_www",
-		"edas#TwoLevelConference",
-		"no score"
+		0.5643975138664246
 	],
 	[
 		"conference#Conference_www",
 		"edas#ConferenceVenuePlace",
-		"no score"
-	],
-	[
-		"conference#Conference_www",
-		"edas#SingleLevelConference",
-		"no score"
+		0.627068281173706
 	],
 	[
 		"conference#Conference_www",
 		"edas#ConferenceDinner",
-		"no score"
+		0.6328197121620178
 	],
 	[
 		"conference#Conference_fees",
 		"edas#ConferenceEvent",
-		"no score"
+		0.7104775905609131
+	],
+	[
+		"conference#Conference_fees",
+		"edas#Organization",
+		0.4141238331794739
 	],
 	[
 		"conference#Conference_fees",
 		"edas#Conference",
-		"no score"
+		0.7844164967536926
+	],
+	[
+		"conference#Conference_fees",
+		"edas#Sponsorship",
+		0.410066157579422
+	],
+	[
+		"conference#Conference_fees",
+		"edas#ConferenceSession",
+		0.7396500110626221
+	],
+	[
+		"conference#Conference_fees",
+		"edas#CommunicationsTopic",
+		0.43014276027679443
+	],
+	[
+		"conference#Conference_fees",
+		"edas#ConferenceChair",
+		0.6536719799041748
+	],
+	[
+		"conference#Conference_fees",
+		"edas#Attendee",
+		0.47846174240112305
+	],
+	[
+		"conference#Conference_fees",
+		"edas#TalkEvent",
+		0.40411823987960815
+	],
+	[
+		"conference#Conference_fees",
+		"edas#OrganizationalMeeting",
+		0.41703543066978455
+	],
+	[
+		"conference#Conference_fees",
+		"edas#AcademicEvent",
+		0.4103861451148987
+	],
+	[
+		"conference#Conference_fees",
+		"edas#ConferenceVenuePlace",
+		0.6892399787902832
+	],
+	[
+		"conference#Conference_fees",
+		"edas#ConferenceDinner",
+		0.6940061450004578
 	],
 	[
 		"conference#Review_preference",
 		"edas#Review",
-		"no score"
+		0.6435664296150208
 	],
 	[
 		"conference#Review_preference",
 		"edas#ReviewRating",
-		"no score"
+		0.6259108781814575
 	],
 	[
 		"conference#Review_preference",
 		"edas#ReviewForm",
-		"no score"
+		0.5413213968276978
 	],
 	[
 		"conference#Review_preference",
 		"edas#ReviewQuestion",
-		"no score"
+		0.6604271531105042
 	],
 	[
 		"conference#Review_preference",
 		"edas#Reviewer",
-		"no score"
-	],
-	[
-		"conference#Review_preference",
-		"edas#TextualReviewQuestion",
-		"no score"
-	],
-	[
-		"conference#Review_preference",
-		"edas#CallForReviews",
-		"no score"
-	],
-	[
-		"conference#Review_preference",
-		"edas#PersonalReviewHistory",
-		"no score"
+		0.5704845786094666
 	]
 ]

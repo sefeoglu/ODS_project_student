@@ -2,371 +2,731 @@
 	[
 		"conference#Conference_participant",
 		"confOf#Banquet",
-		"no score"
+		0.4863637387752533
+	],
+	[
+		"conference#Conference_participant",
+		"confOf#Social_event",
+		0.4174357056617737
 	],
 	[
 		"conference#Conference_participant",
 		"confOf#Event",
-		"no score"
+		0.401290625333786
 	],
 	[
 		"conference#Conference_participant",
 		"confOf#Registration_of_participants_event",
-		"no score"
+		0.4021933674812317
+	],
+	[
+		"conference#Conference_participant",
+		"confOf#Submission_event",
+		0.40224435925483704
+	],
+	[
+		"conference#Conference_participant",
+		"confOf#Workshop",
+		0.4111231863498688
 	],
 	[
 		"conference#Conference_participant",
 		"confOf#Conference",
-		"no score"
+		0.7481421232223511
 	],
 	[
 		"conference#Conference_participant",
 		"confOf#Participant",
-		"no score"
+		0.4336908459663391
 	],
 	[
-		"conference#Active_conference_participant",
-		"confOf#Registration_of_participants_event",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"confOf#Conference",
-		"no score"
-	],
-	[
-		"conference#Active_conference_participant",
-		"confOf#Participant",
-		"no score"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"confOf#Conference",
-		"no score"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"confOf#Participant",
-		"no score"
+		"conference#Person",
+		"confOf#Contribution",
+		0.4131587743759155
 	],
 	[
 		"conference#Person",
 		"confOf#Person",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"conference#Person",
+		"confOf#Scholar",
+		0.421869695186615
+	],
+	[
+		"conference#Person",
+		"confOf#Member",
+		0.48057568073272705
 	],
 	[
 		"conference#Person",
 		"confOf#Participant",
-		"no score"
+		0.6199662685394287
+	],
+	[
+		"conference#Person",
+		"confOf#Student",
+		0.4629851281642914
 	],
 	[
 		"conference#Person",
 		"confOf#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"conference#Review_expertise",
+		"confOf#Reviewing_results_event",
+		0.5693622827529907
 	],
 	[
 		"conference#Review_expertise",
 		"confOf#Reviewing_event",
-		"no score"
+		0.6536363959312439
 	],
 	[
 		"conference#Submitted_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.5023512840270996
 	],
 	[
 		"conference#Submitted_contribution",
 		"confOf#Submission_event",
-		"no score"
+		0.5449212789535522
+	],
+	[
+		"conference#Reviewer",
+		"confOf#Reviewing_results_event",
+		0.43427371978759766
 	],
 	[
 		"conference#Reviewer",
 		"confOf#Reviewing_event",
-		"no score"
+		0.5250210762023926
+	],
+	[
+		"conference#Regular_author",
+		"confOf#Administrator",
+		0.40179896354675293
+	],
+	[
+		"conference#Regular_author",
+		"confOf#Member",
+		0.42836129665374756
+	],
+	[
+		"conference#Regular_author",
+		"confOf#Regular",
+		0.5661026239395142
 	],
 	[
 		"conference#Regular_author",
 		"confOf#Author",
-		"no score"
-	],
-	[
-		"conference#Conference_contributor",
-		"confOf#Contribution",
-		"no score"
+		0.4147390127182007
 	],
 	[
 		"conference#Conference_contributor",
 		"confOf#Conference",
-		"no score"
+		0.6541378498077393
+	],
+	[
+		"conference#Conference_contributor",
+		"confOf#Member_PC",
+		0.40237361192703247
 	],
 	[
 		"conference#Contribution_1th-author",
 		"confOf#Contribution",
-		"no score"
+		0.6937261819839478
 	],
 	[
 		"conference#Contribution_1th-author",
-		"confOf#Author",
-		"no score"
+		"confOf#Member",
+		0.41454121470451355
 	],
 	[
 		"conference#Contribution_co-author",
 		"confOf#Contribution",
-		"no score"
+		0.5981324911117554
+	],
+	[
+		"conference#Contribution_co-author",
+		"confOf#Administrator",
+		0.4287922978401184
+	],
+	[
+		"conference#Contribution_co-author",
+		"confOf#Member",
+		0.47872796654701233
 	],
 	[
 		"conference#Contribution_co-author",
 		"confOf#Author",
-		"no score"
+		0.5343788266181946
 	],
 	[
 		"conference#Conference_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.4009437561035156
 	],
 	[
 		"conference#Conference_contribution",
 		"confOf#Conference",
-		"no score"
+		0.6287206411361694
 	],
 	[
-		"conference#Co-chair",
-		"confOf#Chair_PC",
-		"no score"
+		"conference#Committee",
+		"confOf#Contribution",
+		0.4062757194042206
 	],
 	[
 		"conference#Committee",
 		"confOf#Organization",
-		"no score"
+		0.5160784125328064
 	],
 	[
 		"conference#Committee",
 		"confOf#Conference",
-		"no score"
+		0.505145788192749
+	],
+	[
+		"conference#Committee",
+		"confOf#Member",
+		0.47966909408569336
+	],
+	[
+		"conference#Committee",
+		"confOf#Participant",
+		0.41579902172088623
+	],
+	[
+		"conference#Committee",
+		"confOf#Member_PC",
+		0.478412389755249
+	],
+	[
+		"conference#Committee",
+		"confOf#Chair_PC",
+		0.48608195781707764
 	],
 	[
 		"conference#Committee_member",
 		"confOf#Member",
-		"no score"
+		0.6372942924499512
 	],
 	[
 		"conference#Committee_member",
 		"confOf#Participant",
-		"no score"
+		0.4619409739971161
 	],
 	[
 		"conference#Committee_member",
 		"confOf#Member_PC",
-		"no score"
+		0.5638396739959717
+	],
+	[
+		"conference#Committee_member",
+		"confOf#Chair_PC",
+		0.4750298261642456
+	],
+	[
+		"conference#Abstract",
+		"confOf#Organization",
+		0.45925164222717285
+	],
+	[
+		"conference#Important_dates",
+		"confOf#Event",
+		0.46440941095352173
+	],
+	[
+		"conference#Invited_speaker",
+		"confOf#Banquet",
+		0.4824114441871643
+	],
+	[
+		"conference#Invited_speaker",
+		"confOf#Participant",
+		0.4053947329521179
+	],
+	[
+		"conference#Conference_proceedings",
+		"confOf#Workshop",
+		0.40147337317466736
 	],
 	[
 		"conference#Conference_proceedings",
 		"confOf#Conference",
-		"no score"
+		0.7667665481567383
+	],
+	[
+		"conference#Information_for_participants",
+		"confOf#Registration_of_participants_event",
+		0.4027281403541565
 	],
 	[
 		"conference#Conference_document",
 		"confOf#Conference",
-		"no score"
+		0.7059780359268188
 	],
 	[
 		"conference#Organization",
 		"confOf#Organization",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Organization",
 		"confOf#Company",
-		"no score"
+		0.6276664733886719
+	],
+	[
+		"conference#Organization",
+		"confOf#Administrator",
+		0.4499455690383911
+	],
+	[
+		"conference#Organization",
+		"confOf#Conference",
+		0.4453245997428894
+	],
+	[
+		"conference#Organization",
+		"confOf#Member",
+		0.4402104318141937
+	],
+	[
+		"conference#Organization",
+		"confOf#Assistant",
+		0.42761722207069397
 	],
 	[
 		"conference#Regular_contribution",
+		"confOf#Regular",
+		0.411865770816803
+	],
+	[
+		"conference#Poster",
 		"confOf#Contribution",
-		"no score"
+		0.4181879162788391
 	],
 	[
 		"conference#Poster",
 		"confOf#Poster",
-		"no score"
+		1.0
 	],
 	[
 		"conference#Poster",
 		"confOf#Paper",
-		"no score"
+		0.542709231376648
 	],
 	[
 		"conference#Written_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.4075976312160492
 	],
 	[
 		"conference#Written_contribution",
 		"confOf#Author",
-		"no score"
+		0.43872517347335815
+	],
+	[
+		"conference#Conference_applicant",
+		"confOf#Event",
+		0.40977907180786133
+	],
+	[
+		"conference#Conference_applicant",
+		"confOf#Submission_event",
+		0.4022167921066284
+	],
+	[
+		"conference#Conference_applicant",
+		"confOf#Workshop",
+		0.4387987554073334
 	],
 	[
 		"conference#Conference_applicant",
 		"confOf#Conference",
-		"no score"
+		0.7031527757644653
 	],
 	[
 		"conference#Camera_ready_contribution",
 		"confOf#Camera_Ready_event",
-		"no score"
+		0.7483514547348022
 	],
 	[
 		"conference#Accepted_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.4588647186756134
 	],
 	[
 		"conference#Organizing_committee",
 		"confOf#Organization",
-		"no score"
+		0.6475166082382202
+	],
+	[
+		"conference#Organizing_committee",
+		"confOf#Workshop",
+		0.4341397285461426
+	],
+	[
+		"conference#Conference_volume",
+		"confOf#Banquet",
+		0.44008132815361023
+	],
+	[
+		"conference#Conference_volume",
+		"confOf#Event",
+		0.415101021528244
+	],
+	[
+		"conference#Conference_volume",
+		"confOf#Workshop",
+		0.4081519842147827
 	],
 	[
 		"conference#Conference_volume",
 		"confOf#Conference",
-		"no score"
+		0.7462046146392822
 	],
 	[
 		"conference#Conference",
 		"confOf#Banquet",
-		"no score"
+		0.5081297159194946
 	],
 	[
 		"conference#Conference",
 		"confOf#Event",
-		"no score"
+		0.5104796886444092
+	],
+	[
+		"conference#Conference",
+		"confOf#City",
+		0.40900442004203796
+	],
+	[
+		"conference#Conference",
+		"confOf#Organization",
+		0.4453245997428894
+	],
+	[
+		"conference#Conference",
+		"confOf#University",
+		0.4240848422050476
+	],
+	[
+		"conference#Conference",
+		"confOf#Workshop",
+		0.43847036361694336
 	],
 	[
 		"conference#Conference",
 		"confOf#Conference",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Call_for_paper",
 		"confOf#Paper",
-		"no score"
+		0.40901947021484375
 	],
 	[
 		"conference#Call_for_paper",
 		"confOf#Short_paper",
-		"no score"
+		0.4471372663974762
+	],
+	[
+		"conference#Conference_announcement",
+		"confOf#Event",
+		0.4247537851333618
 	],
 	[
 		"conference#Conference_announcement",
 		"confOf#Conference",
-		"no score"
+		0.7755932807922363
 	],
 	[
 		"conference#Paper",
 		"confOf#Poster",
-		"no score"
+		0.542709231376648
 	],
 	[
 		"conference#Paper",
 		"confOf#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Paper",
 		"confOf#Short_paper",
-		"no score"
+		0.46501514315605164
+	],
+	[
+		"conference#Invited_talk",
+		"confOf#Banquet",
+		0.40035533905029297
+	],
+	[
+		"conference#Invited_talk",
+		"confOf#Conference",
+		0.4500773847103119
+	],
+	[
+		"conference#Invited_talk",
+		"confOf#Member",
+		0.41157853603363037
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Banquet",
+		0.49819254875183105
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Social_event",
+		0.42167890071868896
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Event",
+		0.44671499729156494
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Reviewing_event",
+		0.41126006841659546
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Submission_event",
+		0.43117374181747437
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Workshop",
+		0.43637529015541077
 	],
 	[
 		"conference#Conference_part",
 		"confOf#Conference",
-		"no score"
+		0.7795438766479492
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Member_PC",
+		0.447162926197052
+	],
+	[
+		"conference#Presentation",
+		"confOf#Banquet",
+		0.45063814520835876
+	],
+	[
+		"conference#Presentation",
+		"confOf#Poster",
+		0.44484058022499084
+	],
+	[
+		"conference#Presentation",
+		"confOf#Paper",
+		0.4003778398036957
 	],
 	[
 		"conference#Presentation",
 		"confOf#Workshop",
-		"no score"
+		0.5260779857635498
+	],
+	[
+		"conference#Presentation",
+		"confOf#Conference",
+		0.4557724893093109
+	],
+	[
+		"conference#Presentation",
+		"confOf#Participant",
+		0.4760073721408844
+	],
+	[
+		"conference#Chair",
+		"confOf#Person",
+		0.4306103587150574
+	],
+	[
+		"conference#Chair",
+		"confOf#Member",
+		0.4222169518470764
+	],
+	[
+		"conference#Chair",
+		"confOf#Participant",
+		0.47929736971855164
 	],
 	[
 		"conference#Chair",
 		"confOf#Chair_PC",
-		"no score"
+		0.6340043544769287
+	],
+	[
+		"conference#Chair",
+		"confOf#Assistant",
+		0.42857861518859863
+	],
+	[
+		"conference#Workshop",
+		"confOf#Banquet",
+		0.47645512223243713
 	],
 	[
 		"conference#Workshop",
 		"confOf#Workshop",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"conference#Workshop",
+		"confOf#Conference",
+		0.43847036361694336
+	],
+	[
+		"conference#Workshop",
+		"confOf#Participant",
+		0.412845641374588
+	],
+	[
+		"conference#Workshop",
+		"confOf#Science_Worker",
+		0.4070320427417755
 	],
 	[
 		"conference#Tutorial",
 		"confOf#Tutorial",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"conference#Rejected_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.4191049337387085
 	],
 	[
 		"conference#Reviewed_contribution",
 		"confOf#Contribution",
-		"no score"
+		0.44671571254730225
+	],
+	[
+		"conference#Reviewed_contribution",
+		"confOf#Reviewing_results_event",
+		0.46852803230285645
 	],
 	[
 		"conference#Reviewed_contribution",
 		"confOf#Reviewing_event",
-		"no score"
+		0.42864468693733215
+	],
+	[
+		"conference#Review",
+		"confOf#Reviewing_results_event",
+		0.5145189762115479
 	],
 	[
 		"conference#Review",
 		"confOf#Reviewing_event",
-		"no score"
+		0.5439094305038452
+	],
+	[
+		"conference#Topic",
+		"confOf#Event",
+		0.4366520047187805
 	],
 	[
 		"conference#Topic",
 		"confOf#Topic",
-		"no score"
+		1.0
+	],
+	[
+		"conference#Topic",
+		"confOf#Country",
+		0.40212753415107727
+	],
+	[
+		"conference#Topic",
+		"confOf#Short_paper",
+		0.42023736238479614
+	],
+	[
+		"conference#Organizer",
+		"confOf#Event",
+		0.40382373332977295
 	],
 	[
 		"conference#Organizer",
 		"confOf#Organization",
-		"no score"
+		0.5892888307571411
+	],
+	[
+		"conference#Organizer",
+		"confOf#Paper",
+		0.40804323554039
+	],
+	[
+		"conference#Organizer",
+		"confOf#Workshop",
+		0.4357834756374359
 	],
 	[
 		"conference#Call_for_participation",
-		"confOf#Participant",
-		"no score"
+		"confOf#Registration_of_participants_event",
+		0.4160376191139221
 	],
 	[
-		"conference#Call_for_participation",
-		"confOf#Volunteer",
-		"no score"
+		"conference#Publisher",
+		"confOf#Poster",
+		0.4072021543979645
 	],
 	[
 		"conference#Publisher",
 		"confOf#Paper",
-		"no score"
+		0.5043225288391113
 	],
 	[
 		"conference#Publisher",
 		"confOf#Author",
-		"no score"
+		0.5511735677719116
 	],
 	[
-		"conference#Track-workshop_chair",
-		"confOf#Chair_PC",
-		"no score"
+		"conference#Conference_www",
+		"confOf#Event",
+		0.4015589654445648
 	],
 	[
 		"conference#Conference_www",
 		"confOf#Conference",
-		"no score"
+		0.748045027256012
+	],
+	[
+		"conference#Conference_fees",
+		"confOf#Banquet",
+		0.46601003408432007
+	],
+	[
+		"conference#Conference_fees",
+		"confOf#Event",
+		0.4169076383113861
+	],
+	[
+		"conference#Conference_fees",
+		"confOf#Organization",
+		0.4141238331794739
 	],
 	[
 		"conference#Conference_fees",
 		"confOf#Conference",
-		"no score"
+		0.7844164967536926
+	],
+	[
+		"conference#Review_preference",
+		"confOf#Reviewing_results_event",
+		0.5019170045852661
 	],
 	[
 		"conference#Review_preference",
 		"confOf#Reviewing_event",
-		"no score"
+		0.4795883297920227
 	]
 ]

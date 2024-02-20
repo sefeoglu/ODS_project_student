@@ -43,10 +43,5 @@
 		"confOf#Conference",
 		"edas#Conference",
 		1
-	],
-	[
-		"confOf#Author",
-		"edas#Author",
-		1
 	]
 ]

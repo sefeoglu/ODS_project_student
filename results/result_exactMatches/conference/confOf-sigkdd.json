@@ -13,10 +13,5 @@
 		"confOf#Conference",
 		"sigkdd#Conference",
 		1
-	],
-	[
-		"confOf#Author",
-		"sigkdd#Author",
-		1
 	]
 ]

@@ -18,7 +18,7 @@
 	"exportRandomWalkTriples": false,
 	"verbalizeAvailableTriples": false,
 	"exportWalkPromptsToJson": true,
-	"exportTreePromptsToJson": true,
+	"exportTreePromptsToJson": false,
 	"runPromptsOnLLM": false,
 	"generateMaximumBipartiteMatching": false,
 	"exportFinalMatchingsToRDF": false,

@@ -1,367 +1,427 @@
 [
 	[
-		"cmt#Meta-Reviewer",
-		"sigkdd#Review",
-		"no score"
-	],
-	[
 		"cmt#Reviewer",
 		"sigkdd#Review",
-		"no score"
+		0.8096712231636047
+	],
+	[
+		"cmt#Decision",
+		"sigkdd#Award",
+		0.449438214302063
+	],
+	[
+		"cmt#Decision",
+		"sigkdd#Review",
+		0.44648411870002747
 	],
 	[
 		"cmt#Person",
 		"sigkdd#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Person",
+		"sigkdd#Exhibitor",
+		0.4058074951171875
 	],
 	[
 		"cmt#Person",
 		"sigkdd#Person",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#Person",
+		"sigkdd#Speaker",
+		0.40011924505233765
 	],
 	[
 		"cmt#Document",
 		"sigkdd#Document",
-		"no score"
+		1.0
+	],
+	[
+		"cmt#Document",
+		"sigkdd#Author_of_paper_student",
+		0.4293433427810669
+	],
+	[
+		"cmt#Document",
+		"sigkdd#Main_office",
+		0.4089980125427246
 	],
 	[
 		"cmt#Document",
 		"sigkdd#Paper",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"cmt#Document",
+		"sigkdd#Author_of_paper",
+		0.5149131417274475
 	],
 	[
 		"cmt#ProgramCommittee",
-		"sigkdd#Committee",
-		"no score"
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.4408586621284485
 	],
 	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.5912929773330688
 	],
 	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Program_Committee",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.5433423519134521
 	],
 	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Program_Committee_member",
-		"no score"
+		0.8029159307479858
 	],
 	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.4473264813423157
+	],
+	[
+		"cmt#Bid",
+		"sigkdd#Fee",
+		0.445683091878891
 	],
 	[
 		"cmt#Conference",
 		"sigkdd#Conference",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Conference",
 		"sigkdd#Committee",
-		"no score"
+		0.505145788192749
 	],
 	[
 		"cmt#Conference",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.7057666182518005
 	],
 	[
 		"cmt#ConferenceChair",
 		"sigkdd#Conference",
-		"no score"
-	],
-	[
-		"cmt#ConferenceChair",
-		"sigkdd#Committee",
-		"no score"
+		0.6585779786109924
 	],
 	[
 		"cmt#ConferenceChair",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.5503149032592773
 	],
 	[
 		"cmt#ConferenceChair",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.5693652629852295
 	],
 	[
 		"cmt#ConferenceChair",
 		"sigkdd#General_Chair",
-		"no score"
+		0.5438820123672485
 	],
 	[
 		"cmt#ConferenceChair",
-		"sigkdd#Program_Committee_member",
-		"no score"
-	],
-	[
-		"cmt#ConferenceChair",
-		"sigkdd#Organizing_Committee_member",
-		"no score"
+		"sigkdd#Organizing_Committee",
+		0.45828238129615784
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Conference",
-		"no score"
+		0.739916205406189
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#Exhibitor",
+		0.41683244705200195
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#Registration_SIGMOD_Member",
+		0.5202128887176514
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Committee",
-		"no score"
+		0.48394471406936646
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Conference_hall",
-		"no score"
+		0.6276471614837646
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#Registration_Non-Member",
+		0.5939875245094299
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#Registration_SIGKDD_Member",
+		0.48712021112442017
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.41077500581741333
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Program_Committee_member",
-		"no score"
+		0.5291611552238464
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Invited_Speaker",
-		"no score"
+		0.4686518609523773
 	],
 	[
 		"cmt#ConferenceMember",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.5743552446365356
 	],
 	[
 		"cmt#AssociatedChair",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.5787607431411743
 	],
 	[
 		"cmt#AssociatedChair",
 		"sigkdd#General_Chair",
-		"no score"
+		0.612552285194397
 	],
 	[
 		"cmt#ProgramCommitteeMember",
-		"sigkdd#Committee",
-		"no score"
+		"sigkdd#Registration_SIGMOD_Member",
+		0.498675137758255
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.4540155231952667
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Registration_Non-Member",
+		0.5099961757659912
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Registration_SIGKDD_Member",
+		0.468476802110672
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Program_Committee",
-		"no score"
+		0.8029159307479858
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.5096676349639893
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Program_Committee_member",
-		"no score"
+		1.0
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.6929084658622742
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"sigkdd#Author_of_paper_student",
+		0.6304265260696411
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"sigkdd#Author",
-		"no score"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"sigkdd#Review",
-		"no score"
+		0.5061945915222168
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.6044471263885498
 	],
 	[
-		"cmt#ExternalReviewer",
-		"sigkdd#Review",
-		"no score"
+		"cmt#Chairman",
+		"sigkdd#Author",
+		0.43170300126075745
 	],
 	[
 		"cmt#Chairman",
 		"sigkdd#Committee",
-		"no score"
-	],
-	[
-		"cmt#Chairman",
-		"sigkdd#General_Chair",
-		"no score"
-	],
-	[
-		"cmt#Chairman",
-		"sigkdd#Organizing_Committee",
-		"no score"
-	],
-	[
-		"cmt#Chairman",
-		"sigkdd#Program_Committee_member",
-		"no score"
-	],
-	[
-		"cmt#Chairman",
-		"sigkdd#Organizing_Committee_member",
-		"no score"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Committee",
-		"no score"
+		0.5914598703384399
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#Program_Chair",
-		"no score"
+		0.818122386932373
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#Program_Committee",
-		"no score"
+		0.8292259573936462
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#General_Chair",
-		"no score"
+		0.46878498792648315
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#Organizing_Committee",
-		"no score"
+		0.5270991921424866
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#Program_Committee_member",
-		"no score"
+		0.7327160835266113
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"sigkdd#Organizing_Committee_member",
-		"no score"
+		0.46785151958465576
 	],
 	[
 		"cmt#Review",
 		"sigkdd#Review",
-		"no score"
+		1.000000238418579
 	],
 	[
 		"cmt#Paper",
 		"sigkdd#Document",
-		"no score"
+		0.6194128394126892
 	],
 	[
 		"cmt#Paper",
-		"sigkdd#Author_of_paper_student",
-		"no score"
-	],
-	[
-		"cmt#Paper",
-		"sigkdd#Best_Student_Paper_Supporter",
-		"no score"
+		"sigkdd#Best_Student_Paper_Award",
+		0.40604346990585327
 	],
 	[
 		"cmt#Paper",
 		"sigkdd#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Paper",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.4309729337692261
 	],
 	[
 		"cmt#Author",
 		"sigkdd#Author_of_paper_student",
-		"no score"
+		0.6253261566162109
 	],
 	[
 		"cmt#Author",
 		"sigkdd#Author",
-		"no score"
+		0.9999999403953552
 	],
 	[
 		"cmt#Author",
 		"sigkdd#Person",
-		"no score"
+		0.5049825310707092
 	],
 	[
 		"cmt#Author",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.6174074411392212
+	],
+	[
+		"cmt#User",
+		"sigkdd#Author",
+		0.46602723002433777
 	],
 	[
 		"cmt#User",
 		"sigkdd#Person",
-		"no score"
+		0.5441259145736694
+	],
+	[
+		"cmt#User",
+		"sigkdd#Registration_Non-Member",
+		0.45807504653930664
 	],
 	[
 		"cmt#Co-author",
 		"sigkdd#Author_of_paper_student",
-		"no score"
+		0.5070223808288574
 	],
 	[
 		"cmt#Co-author",
 		"sigkdd#Author",
-		"no score"
+		0.6060911417007446
+	],
+	[
+		"cmt#Co-author",
+		"sigkdd#Person",
+		0.41941604018211365
+	],
+	[
+		"cmt#Co-author",
+		"sigkdd#Registration_Non-Member",
+		0.4667838215827942
 	],
 	[
 		"cmt#Co-author",
 		"sigkdd#Author_of_paper",
-		"no score"
+		0.48355793952941895
 	],
 	[
 		"cmt#PaperAbstract",
-		"sigkdd#Abstract",
-		"no score"
+		"sigkdd#Document",
+		0.4391368627548218
 	],
 	[
 		"cmt#PaperAbstract",
-		"sigkdd#Deadline_Abstract_Submission",
-		"no score"
+		"sigkdd#Best_Student_Paper_Award",
+		0.41230684518814087
 	],
 	[
 		"cmt#PaperAbstract",
 		"sigkdd#Paper",
-		"no score"
+		0.7563047409057617
+	],
+	[
+		"cmt#PaperAbstract",
+		"sigkdd#Author_of_paper",
+		0.40891313552856445
 	],
 	[
 		"cmt#PaperFullVersion",
 		"sigkdd#Document",
-		"no score"
+		0.46634313464164734
+	],
+	[
+		"cmt#PaperFullVersion",
+		"sigkdd#Best_Student_Paper_Award",
+		0.4761667549610138
+	],
+	[
+		"cmt#PaperFullVersion",
+		"sigkdd#Best_Paper_Awards_Committee",
+		0.4713827669620514
 	],
 	[
 		"cmt#PaperFullVersion",
 		"sigkdd#Paper",
-		"no score"
+		0.6639873385429382
 	],
 	[
-		"cmt#Meta-Review",
-		"sigkdd#Review",
-		"no score"
+		"cmt#PaperFullVersion",
+		"sigkdd#Author_of_paper",
+		0.4192485809326172
 	]
 ]

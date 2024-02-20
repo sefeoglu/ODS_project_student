@@ -1,187 +1,377 @@
 [
 	[
 		"cmt#Reviewer",
+		"confOf#Reviewing_results_event",
+		0.43427371978759766
+	],
+	[
+		"cmt#Reviewer",
 		"confOf#Reviewing_event",
-		"no score"
+		0.5250210762023926
+	],
+	[
+		"cmt#Person",
+		"confOf#Contribution",
+		0.4131587743759155
 	],
 	[
 		"cmt#Person",
 		"confOf#Person",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#Person",
+		"confOf#Scholar",
+		0.421869695186615
+	],
+	[
+		"cmt#Person",
+		"confOf#Member",
+		0.48057568073272705
 	],
 	[
 		"cmt#Person",
 		"confOf#Participant",
-		"no score"
+		0.6199662685394287
+	],
+	[
+		"cmt#Person",
+		"confOf#Student",
+		0.4629851281642914
 	],
 	[
 		"cmt#Person",
 		"confOf#Author",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Document",
+		"confOf#Scholar",
+		0.4199737012386322
 	],
 	[
 		"cmt#Document",
 		"confOf#Paper",
-		"no score"
+		0.6194128394126892
+	],
+	[
+		"cmt#Document",
+		"confOf#Short_paper",
+		0.4445633888244629
+	],
+	[
+		"cmt#Preference",
+		"confOf#Regular",
+		0.4469814896583557
 	],
 	[
 		"cmt#Conference",
 		"confOf#Banquet",
-		"no score"
+		0.5081297159194946
 	],
 	[
 		"cmt#Conference",
 		"confOf#Event",
-		"no score"
+		0.5104796886444092
+	],
+	[
+		"cmt#Conference",
+		"confOf#City",
+		0.40900442004203796
+	],
+	[
+		"cmt#Conference",
+		"confOf#Organization",
+		0.4453245997428894
+	],
+	[
+		"cmt#Conference",
+		"confOf#University",
+		0.4240848422050476
+	],
+	[
+		"cmt#Conference",
+		"confOf#Workshop",
+		0.43847036361694336
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference",
-		"no score"
+		1.0000001192092896
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Banquet",
+		0.47106117010116577
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Workshop",
+		0.45384693145751953
 	],
 	[
 		"cmt#ConferenceChair",
 		"confOf#Conference",
-		"no score"
+		0.6585779786109924
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Member_PC",
+		0.48617762327194214
 	],
 	[
 		"cmt#ConferenceChair",
 		"confOf#Chair_PC",
-		"no score"
+		0.4532274305820465
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Banquet",
+		0.43437325954437256
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Organization",
+		0.41736745834350586
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Administrator",
+		0.43278563022613525
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Workshop",
+		0.41587916016578674
 	],
 	[
 		"cmt#ConferenceMember",
 		"confOf#Conference",
-		"no score"
+		0.739916205406189
 	],
 	[
 		"cmt#ConferenceMember",
 		"confOf#Member",
-		"no score"
+		0.6290524005889893
 	],
 	[
 		"cmt#ConferenceMember",
 		"confOf#Participant",
-		"no score"
+		0.4678688049316406
 	],
 	[
 		"cmt#ConferenceMember",
 		"confOf#Member_PC",
-		"no score"
+		0.5235835313796997
 	],
 	[
 		"cmt#AssociatedChair",
-		"confOf#Chair_PC",
-		"no score"
+		"confOf#Organization",
+		0.4007476568222046
+	],
+	[
+		"cmt#AssociatedChair",
+		"confOf#Member_PC",
+		0.4399564862251282
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"confOf#Member",
-		"no score"
+		0.4620029628276825
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member_PC",
+		0.407407283782959
 	],
 	[
 		"cmt#AuthorNotReviewer",
 		"confOf#Author",
-		"no score"
+		0.5061945915222168
 	],
 	[
 		"cmt#SubjectArea",
 		"confOf#Topic",
-		"no score"
+		0.42782968282699585
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Organization",
+		0.43475261330604553
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Company",
+		0.49805015325546265
 	],
 	[
 		"cmt#Chairman",
 		"confOf#Administrator",
-		"no score"
+		0.5251864194869995
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Administrative_event",
+		0.40001818537712097
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Member",
+		0.49350497126579285
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Participant",
+		0.4018721580505371
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Member_PC",
+		0.4276714324951172
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Chair_PC",
+		0.5077536702156067
+	],
+	[
+		"cmt#Chairman",
+		"confOf#Author",
+		0.43170300126075745
+	],
+	[
+		"cmt#Review",
+		"confOf#Reviewing_results_event",
+		0.5145189762115479
 	],
 	[
 		"cmt#Review",
 		"confOf#Reviewing_event",
-		"no score"
+		0.5439094305038452
 	],
 	[
 		"cmt#Paper",
 		"confOf#Poster",
-		"no score"
+		0.542709231376648
 	],
 	[
 		"cmt#Paper",
 		"confOf#Paper",
-		"no score"
+		1.0000001192092896
 	],
 	[
 		"cmt#Paper",
 		"confOf#Short_paper",
-		"no score"
+		0.46501514315605164
 	],
 	[
 		"cmt#Author",
 		"confOf#Contribution",
-		"no score"
+		0.5073258876800537
 	],
 	[
 		"cmt#Author",
 		"confOf#Person",
-		"no score"
+		0.5049825310707092
+	],
+	[
+		"cmt#Author",
+		"confOf#Scholar",
+		0.4697360098361969
 	],
 	[
 		"cmt#Author",
 		"confOf#Author",
-		"no score"
+		0.9999999403953552
+	],
+	[
+		"cmt#User",
+		"confOf#Contribution",
+		0.4833259880542755
 	],
 	[
 		"cmt#User",
 		"confOf#Person",
-		"no score"
+		0.5441259145736694
+	],
+	[
+		"cmt#User",
+		"confOf#Administrator",
+		0.4463687539100647
 	],
 	[
 		"cmt#User",
 		"confOf#Member",
-		"no score"
+		0.5958644151687622
+	],
+	[
+		"cmt#User",
+		"confOf#Student",
+		0.4236912131309509
+	],
+	[
+		"cmt#User",
+		"confOf#Author",
+		0.46602723002433777
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Contribution",
+		0.4572224020957947
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Organization",
+		0.40238213539123535
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Person",
+		0.41941604018211365
+	],
+	[
+		"cmt#Co-author",
+		"confOf#Member",
+		0.47079184651374817
 	],
 	[
 		"cmt#Co-author",
 		"confOf#Author",
-		"no score"
+		0.6060911417007446
 	],
 	[
 		"cmt#PaperAbstract",
 		"confOf#Paper",
-		"no score"
-	],
-	[
-		"cmt#PaperAbstract",
-		"confOf#Short_paper",
-		"no score"
+		0.7563047409057617
 	],
 	[
 		"cmt#PaperFullVersion",
 		"confOf#Paper",
-		"no score"
+		0.6639873385429382
 	],
 	[
-		"cmt#PaperFullVersion",
-		"confOf#Short_paper",
-		"no score"
+		"cmt#Administrator",
+		"confOf#Organization",
+		0.4499455690383911
 	],
 	[
 		"cmt#Administrator",
 		"confOf#Administrator",
-		"no score"
+		0.9999998807907104
 	],
 	[
 		"cmt#Administrator",
 		"confOf#Administrative_event",
-		"no score"
+		0.6009652018547058
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Member",
+		0.461176335811615
 	],
 	[
 		"cmt#Administrator",
 		"confOf#Assistant",
-		"no score"
-	],
-	[
-		"cmt#Meta-Review",
-		"confOf#Reviewing_event",
-		"no score"
+		0.5383666753768921
 	]
 ]

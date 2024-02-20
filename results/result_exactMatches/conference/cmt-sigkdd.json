@@ -33,10 +33,5 @@
 		"cmt#Paper",
 		"sigkdd#Paper",
 		1
-	],
-	[
-		"cmt#Author",
-		"sigkdd#Author",
-		1
 	]
 ]
