@@ -2,8 +2,8 @@
 	"reformatThisFile": false,
 	"resetThisFile": false,
 	"importOntologies": true,
-	"exportCrossProductAsAlignments": false,
-	"matchExactMatches": false,
+	"computeSimilaritiesExportAsAlignments": false,
+	"matchExactMatches": true,
 	"runRandomWalkAlgorithm": false,
 	"runRandomTreeAlgorithm": false,
 	"randomTreeConfig": {
@@ -20,7 +20,7 @@
 	"runPromptsOnLLM": false,
 	"generateMaximumBipartiteMatching": true,
 	"neighborhoodRange" : 2,
-	"exportFinalMatchingsToRDF": false,
+	"exportFinalMatchingsToRDF": true,
 	"promptsFoExportToJson": [
 		0,
 		1,

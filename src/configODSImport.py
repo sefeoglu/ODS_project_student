@@ -31,7 +31,7 @@ def resetConfigODS(configODSPath):
     configODS = {'reformatThisFile' : False,
                  'resetThisFile' : False,
                  'importOntologies' : True,
-                 'exportCrossProductAsAlignments': True,
+                 'computeSimilaritiesExportAsAlignments': True,
                  'matchExactMatches': True,
                  'runRandomWalkAlgorithm' : True,
                  'runRandomTreeAlgorithm' : True,

@@ -87,20 +87,20 @@ def main():
 
 
     #pre align all possible classes by cross products as candidates
-    if (configODS.get('exportCrossProductAsAlignments') == True):
+    if (configODS.get('computeSimilaritiesExportAsAlignments') == True):
         #get which ontology maps to which one
         for ontoName1, ontoName2 in t.toBeMatchedOntologies:
             onto1 = ontos.get(ontoName1)
             onto2 = ontos.get(ontoName2)
             if onto1 and onto2:
-                crossProduct = []
+                preAlignments = []
                 for class1 in tqdm(onto1.get_classes(), desc = f'computing similarities for {ontoName1} X {ontoName2}'):
                     for class2 in onto2.get_classes():
                         similarity = candidate_concept_sim(class1, class2)
                         if similarity > 0.4:
-                            crossProduct.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
+                            preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
-                utils.saveToJson(crossProduct, path, messageText=f'exported crossProduct ({ontoName1} X {ontoName2}) to ')
+                utils.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
 
     #match exact matches
     if configODS.get('matchExactMatches'):
