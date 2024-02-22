@@ -36,9 +36,12 @@ def importContext(json_file_path = './triples_randomWalk_verbalized_out/RandomWa
 #provides context in a dict
 def formatContext(data):
     context = {}
-    for i in data:
-        key = list(i.keys())[0]
-        context.update({key : i.get(key)})
+    if type(data) == type([]):#for old format
+        for i in data:
+            key = list(i.keys())[0]
+            context.update({key : i.get(key)})
+    else:
+        context = data
     return context
 
 """

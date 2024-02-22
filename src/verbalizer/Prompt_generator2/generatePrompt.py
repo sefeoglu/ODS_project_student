@@ -19,7 +19,7 @@ def verbaliseFile(FILENAME, outputFile):
     global verb_module
     if not verb_module:
         verb_module = VerbModule()
-    results = []
+    results = {}
     with open(FILENAME, "r") as f:
         data = json.loads(f.read())
     i = 0
@@ -30,7 +30,7 @@ def verbaliseFile(FILENAME, outputFile):
         #compute verbalization
         triples = value
         verbalised_text = verbalise(triples, verb_module)
-        results.append({key: verbalised_text})
+        results.update({key: verbalised_text})
     json_object = json.dumps(results, indent=4)
     with open(outputFile, "w") as outfile:
         outfile.write(json_object)

@@ -39,6 +39,7 @@ class VerbModule():
             inputs_encoding = self.tokenizer.prepare_seq2seq_batch(
                 inputs, truncation=True, max_length=MAX_LENGTH, return_tensors='pt'
             )
+            inputs_encoding.to(DEVICE)
             
             self.g2t_module.model.eval()
             with torch.no_grad():
