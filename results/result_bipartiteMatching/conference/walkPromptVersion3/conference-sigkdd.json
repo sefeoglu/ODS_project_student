@@ -1,198 +1,90 @@
 [
 	[
-		"conference#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"conference#Early_paid_applicant",
-		"sigkdd#Document"
-	],
-	[
-		"conference#Conference_www",
-		"sigkdd#Deadline"
-	],
-	[
-		"conference#Reviewer",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"conference#Tutorial",
-		"sigkdd#Hotel"
-	],
-	[
-		"conference#Call_for_participation",
-		"sigkdd#Place"
-	],
-	[
-		"conference#Conference_document",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"conference#Presentation",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"sigkdd#Award"
-	],
-	[
-		"conference#Conference_applicant",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"conference#Invited_speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"conference#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"conference#Contribution_1th-author",
-		"sigkdd#Webmaster"
-	],
-	[
-		"conference#Conference_volume",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"conference#Organizer",
-		"sigkdd#Organizator"
-	],
-	[
-		"conference#Review_preference",
-		"sigkdd#Bronze_Supporter"
-	],
-	[
-		"conference#Active_conference_participant",
-		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"conference#Committee_member",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"conference#Conference_part",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"conference#Rejected_contribution",
-		"sigkdd#Sponzor_fee"
-	],
-	[
-		"conference#Written_contribution",
-		"sigkdd#Author"
-	],
-	[
-		"conference#Call_for_paper",
-		"sigkdd#Best_Paper_Awards_Committee"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"sigkdd#Sponzor"
-	],
-	[
-		"conference#Accepted_contribution",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"conference#Contribution_co-author",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"conference#Organization",
-		"sigkdd#Main_office"
-	],
-	[
-		"conference#Conference_announcement",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"conference#Late_paid_applicant",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"conference#Poster",
-		"sigkdd#Platinum_Supporter"
+		"conference#Organizing_committee",
+		"sigkdd#Organizing_Committee"
 	],
 	[
 		"conference#Program_committee",
 		"sigkdd#Program_Committee"
 	],
 	[
-		"conference#Abstract",
-		"sigkdd#Abstract"
+		"conference#Person",
+		"sigkdd#Person"
 	],
 	[
-		"conference#Information_for_participants",
-		"sigkdd#Listener"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"sigkdd#Fee"
-	],
-	[
-		"conference#Review_expertise",
-		"sigkdd#Silver_Supporter"
+		"conference#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"conference#Committee",
 		"sigkdd#Committee"
 	],
 	[
-		"conference#Track",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"conference#Conference_contributor",
-		"sigkdd#Speaker"
+		"conference#Abstract",
+		"sigkdd#Abstract"
 	],
 	[
 		"conference#Review",
 		"sigkdd#Review"
 	],
 	[
-		"conference#Co-chair",
-		"sigkdd#Program_Committee_member"
+		"conference#Invited_speaker",
+		"sigkdd#Invited_Speaker"
 	],
 	[
-		"conference#Chair",
-		"sigkdd#Program_Chair"
+		"conference#Conference",
+		"sigkdd#Conference"
 	],
 	[
-		"conference#Extended_abstract",
-		"sigkdd#Author_of_paper"
+		"conference#Conference_contributor",
+		"sigkdd#Speaker"
 	],
 	[
-		"conference#Reviewed_contribution",
-		"sigkdd#Best_Research_Paper_Award"
+		"conference#Track-workshop_chair",
+		"sigkdd#Organizator"
 	],
 	[
-		"conference#Organizing_committee",
-		"sigkdd#Organizing_Committee"
-	],
-	[
-		"conference#Regular_contribution",
-		"sigkdd#Gold_Supporter"
-	],
-	[
-		"conference#Steering_committee",
-		"sigkdd#Registration_SIGKDD_Member"
+		"conference#Conference_applicant",
+		"sigkdd#Listener"
 	],
 	[
 		"conference#Regular_author",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"conference#Written_contribution",
+		"sigkdd#Document"
+	],
+	[
+		"conference#Contribution_co-author",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"conference#Chair",
 		"sigkdd#General_Chair"
 	],
 	[
-		"conference#Conference_contribution",
-		"sigkdd#Best_Student_Paper_Supporter"
+		"conference#Organizer",
+		"sigkdd#Webmaster"
 	],
 	[
-		"conference#Person",
-		"sigkdd#Person"
-	],
-	[
-		"conference#Workshop",
+		"conference#Committee_member",
 		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"conference#Registeered_applicant",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"conference#Reviewer",
+		"sigkdd#Author"
+	],
+	[
+		"conference#Contribution_1th-author",
+		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"conference#Active_conference_participant",
+		"sigkdd#Program_Chair"
 	]
 ]

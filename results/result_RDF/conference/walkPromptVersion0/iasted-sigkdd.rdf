@@ -8,56 +8,16 @@
   <type>??</type>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://iasted#Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://iasted#Review"/>
       <entity2 rdf:resource="http://sigkdd#Review"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Publication"/>
-      <entity2 rdf:resource="http://sigkdd#Paper"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Main_office"/>
-      <entity2 rdf:resource="http://sigkdd#Main_office"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Deadline"/>
-      <entity2 rdf:resource="http://sigkdd#Deadline"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Speaker"/>
-      <entity2 rdf:resource="http://sigkdd#Speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Hotel_presenter"/>
-      <entity2 rdf:resource="http://sigkdd#Exhibitor"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Registration_fee"/>
-      <entity2 rdf:resource="http://sigkdd#Registration_fee"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,54 +32,6 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Listener"/>
-      <entity2 rdf:resource="http://sigkdd#Listener"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#PowerPoint_presentation"/>
-      <entity2 rdf:resource="http://sigkdd#Best_Applications_Paper_Award"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Fee_for_extra_trip"/>
-      <entity2 rdf:resource="http://sigkdd#Hotel"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Sponsor"/>
-      <entity2 rdf:resource="http://sigkdd#Sponzor"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Author_attendee_book_registration_fee"/>
-      <entity2 rdf:resource="http://sigkdd#Registration_Non-Member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Activity_before_conference"/>
-      <entity2 rdf:resource="http://sigkdd#Deadline_Abstract_Submission"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://iasted#Fee"/>
       <entity2 rdf:resource="http://sigkdd#Fee"/>
       <relation>=</relation>
@@ -128,24 +40,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Time"/>
-      <entity2 rdf:resource="http://sigkdd#Deadline_Paper_Submission"/>
+      <entity1 rdf:resource="http://iasted#Main_office"/>
+      <entity2 rdf:resource="http://sigkdd#Main_office"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <entity1 rdf:resource="http://iasted#Speaker"/>
+      <entity2 rdf:resource="http://sigkdd#Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -160,8 +64,72 @@
   </map>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://iasted#Deadline"/>
+      <entity2 rdf:resource="http://sigkdd#Deadline"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Listener"/>
+      <entity2 rdf:resource="http://sigkdd#Listener"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Registration_fee"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Author"/>
+      <entity2 rdf:resource="http://sigkdd#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Invitation_letter"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Author_attendee_book_registration_fee"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_Non-Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://iasted#Author_book_proceedings_included"/>
       <entity2 rdf:resource="http://sigkdd#Author_of_paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Time"/>
+      <entity2 rdf:resource="http://sigkdd#Deadline_Paper_Submission"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -176,8 +144,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Author"/>
-      <entity2 rdf:resource="http://sigkdd#Author"/>
+      <entity1 rdf:resource="http://iasted#Conference_hotel"/>
+      <entity2 rdf:resource="http://sigkdd#Hotel"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

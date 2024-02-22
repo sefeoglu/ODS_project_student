@@ -1,46 +1,34 @@
 [
 	[
-		"cmt#Rejection",
-		"confOf#Event"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Chair_PC"
-	],
-	[
-		"cmt#Review",
-		"confOf#Reviewing_event"
-	],
-	[
-		"cmt#Administrator",
-		"confOf#Administrator"
+		"cmt#Author",
+		"confOf#Author"
 	],
 	[
 		"cmt#Person",
 		"confOf#Person"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"confOf#Reviewing_results_event"
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
 	],
 	[
 		"cmt#Paper",
 		"confOf#Paper"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Member"
-	],
-	[
 		"cmt#User",
 		"confOf#Participant"
 	],
 	[
-		"cmt#Conference",
-		"confOf#Conference"
+		"cmt#Meta-Reviewer",
+		"confOf#Member"
 	],
 	[
-		"cmt#Author",
-		"confOf#Author"
+		"cmt#ProgramCommitteeChair",
+		"confOf#Chair_PC"
 	]
 ]

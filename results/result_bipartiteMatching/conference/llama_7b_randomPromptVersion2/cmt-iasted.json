@@ -1,0 +1,34 @@
+[
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_cd_proceedings_included"
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Sponsor"
+	],
+	[
+		"cmt#Paper",
+		"iasted#Submission"
+	]
+]

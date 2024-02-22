@@ -1,46 +1,30 @@
 [
 	[
-		"conference#Workshop",
-		"iasted#Conference_activity"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"iasted#Accepting_manuscript"
-	],
-	[
-		"conference#Conference_part",
-		"iasted#Conference_days"
-	],
-	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
 		"conference#Person",
 		"iasted#Person"
 	],
 	[
-		"conference#Publisher",
-		"iasted#Author"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Presentation",
 		"iasted#Presentation"
 	],
 	[
-		"conference#Review",
-		"iasted#Review"
+		"conference#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
-		"conference#Invited_speaker",
-		"iasted#Introduction_of_speaker"
+		"conference#Conference_contribution",
+		"iasted#Conference_activity"
 	],
 	[
 		"conference#Conference",
-		"iasted#Session"
+		"iasted#Conference_days"
 	]
 ]

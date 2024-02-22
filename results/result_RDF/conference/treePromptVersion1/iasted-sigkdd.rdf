@@ -8,8 +8,8 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Technic_activity"/>
-      <entity2 rdf:resource="http://sigkdd#Conference"/>
+      <entity1 rdf:resource="http://iasted#Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -24,16 +24,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Main_office"/>
-      <entity2 rdf:resource="http://sigkdd#Main_office"/>
+      <entity1 rdf:resource="http://iasted#Conference_hall"/>
+      <entity2 rdf:resource="http://sigkdd#Conference_hall"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Deadline"/>
-      <entity2 rdf:resource="http://sigkdd#Deadline"/>
+      <entity1 rdf:resource="http://iasted#Fee"/>
+      <entity2 rdf:resource="http://sigkdd#Fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Main_office"/>
+      <entity2 rdf:resource="http://sigkdd#Main_office"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -48,16 +56,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Registration_fee"/>
-      <entity2 rdf:resource="http://sigkdd#Registration_fee"/>
+      <entity1 rdf:resource="http://iasted#Place"/>
+      <entity2 rdf:resource="http://sigkdd#Place"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://iasted#Conference_hall"/>
-      <entity2 rdf:resource="http://sigkdd#Conference_hall"/>
+      <entity1 rdf:resource="http://iasted#Deadline"/>
+      <entity2 rdf:resource="http://sigkdd#Deadline"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -66,6 +82,22 @@
     <Cell>
       <entity1 rdf:resource="http://iasted#Listener"/>
       <entity2 rdf:resource="http://sigkdd#Listener"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Registration_fee"/>
+      <entity2 rdf:resource="http://sigkdd#Registration_fee"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://iasted#Author"/>
+      <entity2 rdf:resource="http://sigkdd#Author"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -82,54 +114,6 @@
     <Cell>
       <entity1 rdf:resource="http://iasted#Money"/>
       <entity2 rdf:resource="http://sigkdd#Registration_SIGMOD_Member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Conference_days"/>
-      <entity2 rdf:resource="http://sigkdd#ACM_SIGKDD"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Fee"/>
-      <entity2 rdf:resource="http://sigkdd#Fee"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Place"/>
-      <entity2 rdf:resource="http://sigkdd#Place"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://iasted#Author"/>
-      <entity2 rdf:resource="http://sigkdd#Author"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

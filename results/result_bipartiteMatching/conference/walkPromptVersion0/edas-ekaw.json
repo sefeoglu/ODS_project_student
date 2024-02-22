@@ -1,19 +1,27 @@
 [
 	[
-		"edas#Document",
-		"ekaw#Document"
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
 	],
 	[
-		"edas#CallForManuscripts",
-		"ekaw#Event"
+		"edas#Review",
+		"ekaw#Review"
 	],
 	[
-		"edas#IndustryOrganization",
-		"ekaw#Organisation"
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#Document",
+		"ekaw#Document"
 	],
 	[
 		"edas#SessionChair",
@@ -24,75 +32,47 @@
 		"ekaw#Accepted_Paper"
 	],
 	[
-		"edas#AcademicEvent",
-		"ekaw#Workshop_Session"
-	],
-	[
-		"edas#BreakEvent",
-		"ekaw#Scientific_Event"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"ekaw#Invited_Speaker"
-	],
-	[
-		"edas#Organization",
-		"ekaw#Proceedings_Publisher"
-	],
-	[
-		"edas#RatedPapers",
-		"ekaw#Proceedings"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#PaperPresentation",
-		"ekaw#Poster_Session"
-	],
-	[
-		"edas#ConferenceSession",
-		"ekaw#Conference_Session"
-	],
-	[
-		"edas#Review",
-		"ekaw#Review"
-	],
-	[
 		"edas#Presenter",
 		"ekaw#Presenter"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"ekaw#Session"
-	],
-	[
-		"edas#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"edas#ActivePaper",
-		"ekaw#Abstract"
-	],
-	[
-		"edas#Place",
-		"ekaw#Positive_Review"
 	],
 	[
 		"edas#Conference",
 		"ekaw#Conference"
 	],
 	[
-		"edas#CallForPapers",
-		"ekaw#Conference_Paper"
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#Person",
 		"ekaw#Person"
+	],
+	[
+		"edas#Excursion",
+		"ekaw#Event"
+	],
+	[
+		"edas#TwoLevelConference",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"edas#TalkEvent",
+		"ekaw#Session"
+	],
+	[
+		"edas#ActivePaper",
+		"ekaw#Abstract"
+	],
+	[
+		"edas#AcademicEvent",
+		"ekaw#Workshop_Session"
+	],
+	[
+		"edas#PaperPresentation",
+		"ekaw#Poster_Session"
+	],
+	[
+		"edas#Organization",
+		"ekaw#Organisation"
 	]
 ]

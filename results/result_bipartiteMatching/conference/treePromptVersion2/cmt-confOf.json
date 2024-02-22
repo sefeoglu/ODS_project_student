@@ -1,11 +1,19 @@
 [
 	[
-		"cmt#Administrator",
-		"confOf#Administrator"
+		"cmt#Author",
+		"confOf#Author"
 	],
 	[
 		"cmt#Person",
 		"confOf#Person"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
 	],
 	[
 		"cmt#Paper",
@@ -14,13 +22,5 @@
 	[
 		"cmt#Chairman",
 		"confOf#Science_Worker"
-	],
-	[
-		"cmt#Conference",
-		"confOf#Conference"
-	],
-	[
-		"cmt#Author",
-		"confOf#Author"
 	]
 ]

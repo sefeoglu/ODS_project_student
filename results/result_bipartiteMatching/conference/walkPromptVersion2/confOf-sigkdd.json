@@ -1,11 +1,11 @@
 [
 	[
-		"confOf#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"confOf#Conference",
 		"sigkdd#Conference"
+	],
+	[
+		"confOf#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"confOf#Author",

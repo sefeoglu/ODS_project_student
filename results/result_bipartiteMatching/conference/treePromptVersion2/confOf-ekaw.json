@@ -1,15 +1,7 @@
 [
 	[
-		"confOf#Student",
-		"ekaw#Student"
-	],
-	[
-		"confOf#Banquet",
-		"ekaw#Track"
-	],
-	[
-		"confOf#Conference",
-		"ekaw#Conference"
+		"confOf#Event",
+		"ekaw#Event"
 	],
 	[
 		"confOf#University",
@@ -24,19 +16,27 @@
 		"ekaw#Workshop"
 	],
 	[
-		"confOf#Paper",
-		"ekaw#Paper"
+		"confOf#Tutorial",
+		"ekaw#Tutorial"
 	],
 	[
-		"confOf#Event",
-		"ekaw#Event"
+		"confOf#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"confOf#Social_event",
 		"ekaw#Social_Event"
 	],
 	[
-		"confOf#Tutorial",
-		"ekaw#Tutorial"
+		"confOf#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"confOf#Student",
+		"ekaw#Student"
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"ekaw#Track"
 	]
 ]

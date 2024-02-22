@@ -1,7 +1,11 @@
 [
 	[
-		"cmt#Rejection",
-		"conference#Rejected_contribution"
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	],
 	[
 		"cmt#Review",
@@ -12,23 +16,15 @@
 		"conference#Program_committee"
 	],
 	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
 		"cmt#Conference",
 		"conference#Conference"
 	],
 	[
-		"cmt#Document",
-		"conference#Call_for_paper"
+		"cmt#Person",
+		"conference#Person"
 	],
 	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
+		"cmt#Document",
+		"conference#Call_for_paper"
 	]
 ]

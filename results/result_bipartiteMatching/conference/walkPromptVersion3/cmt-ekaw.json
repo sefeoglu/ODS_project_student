@@ -1,102 +1,90 @@
 [
 	[
-		"cmt#Person",
-		"ekaw#Person"
-	],
-	[
-		"cmt#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"ekaw#Event"
-	],
-	[
-		"cmt#ConferenceMember",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"cmt#Rejection",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"cmt#Acceptance",
-		"ekaw#Positive_Review"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"cmt#AssociatedChair",
-		"ekaw#Conference_Session"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#Industrial_Session"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#Neutral_Review"
-	],
-	[
-		"cmt#Administrator",
-		"ekaw#Demo_Session"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"ekaw#Industrial_Paper"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"ekaw#Poster_Session"
-	],
-	[
-		"cmt#User",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"cmt#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"cmt#Document",
 		"ekaw#Document"
-	],
-	[
-		"cmt#Author",
-		"ekaw#Paper_Author"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"cmt#Decision",
-		"ekaw#Regular_Session"
 	],
 	[
 		"cmt#Review",
 		"ekaw#Review"
 	],
 	[
-		"cmt#Chairman",
-		"ekaw#Abstract"
+		"cmt#Person",
+		"ekaw#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
+		"cmt#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"cmt#User",
+		"ekaw#Paper_Author"
+	],
+	[
+		"cmt#ConferenceMember",
 		"ekaw#Conference_Participant"
 	],
 	[
-		"cmt#Co-author",
-		"ekaw#Session"
+		"cmt#Chairman",
+		"ekaw#Student"
 	],
 	[
 		"cmt#PaperFullVersion",
-		"ekaw#Conference_Trip"
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"cmt#Meta-Review",
+		"ekaw#Negative_Review"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"ekaw#Possible_Reviewer"
+	],
+	[
+		"cmt#PaperAbstract",
+		"ekaw#Regular_Paper"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"ekaw#Late-Registered_Participant"
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Session_Chair"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"ekaw#PC_Member"
+	],
+	[
+		"cmt#Reviewer",
+		"ekaw#Presenter"
+	],
+	[
+		"cmt#Author",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"cmt#Co-author",
+		"ekaw#Invited_Speaker"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"ekaw#Early-Registered_Participant"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#OC_Member"
+	],
+	[
+		"cmt#AssociatedChair",
+		"ekaw#Demo_Chair"
+	],
+	[
+		"cmt#Administrator",
+		"ekaw#PC_Chair"
 	]
 ]

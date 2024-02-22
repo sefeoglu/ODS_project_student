@@ -1,71 +1,7 @@
 [
 	[
-		"cmt#Person",
-		"sigkdd#Person"
-	],
-	[
 		"cmt#Paper",
 		"sigkdd#Paper"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"sigkdd#Hotel"
-	],
-	[
-		"cmt#ConferenceMember",
-		"sigkdd#Abstract"
-	],
-	[
-		"cmt#Rejection",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"cmt#Acceptance",
-		"sigkdd#Place"
-	],
-	[
-		"cmt#PaperAbstract",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"cmt#AssociatedChair",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"cmt#Bid",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"cmt#ConferenceChair",
-		"sigkdd#Webmaster"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Sponzor"
-	],
-	[
-		"cmt#Administrator",
-		"sigkdd#Bronze_Supporter"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"sigkdd#Committee"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"cmt#User",
-		"sigkdd#Deadline"
-	],
-	[
-		"cmt#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"cmt#Document",
@@ -76,14 +12,6 @@
 		"sigkdd#Author"
 	],
 	[
-		"cmt#Reviewer",
-		"sigkdd#Award"
-	],
-	[
-		"cmt#Decision",
-		"sigkdd#Organizator"
-	],
-	[
 		"cmt#Review",
 		"sigkdd#Review"
 	],
@@ -92,19 +20,59 @@
 		"sigkdd#Program_Committee"
 	],
 	[
-		"cmt#Chairman",
-		"sigkdd#Registration_fee"
+		"cmt#Conference",
+		"sigkdd#Conference"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"sigkdd#ACM_SIGKDD"
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"cmt#Person",
+		"sigkdd#Person"
+	],
+	[
+		"cmt#Chairman",
+		"sigkdd#Speaker"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"sigkdd#Listener"
 	],
 	[
 		"cmt#Co-author",
 		"sigkdd#Author_of_paper_student"
 	],
 	[
-		"cmt#Meta-Review",
-		"sigkdd#Platinum_Supporter"
+		"cmt#User",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"cmt#Administrator",
+		"sigkdd#Webmaster"
+	],
+	[
+		"cmt#Reviewer",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"sigkdd#Abstract"
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"cmt#AssociatedChair",
+		"sigkdd#Organizator"
+	],
+	[
+		"cmt#ConferenceChair",
+		"sigkdd#Program_Chair"
 	]
 ]

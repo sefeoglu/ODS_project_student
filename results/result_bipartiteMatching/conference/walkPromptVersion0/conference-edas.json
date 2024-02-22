@@ -1,79 +1,55 @@
 [
 	[
-		"conference#Conference",
-		"edas#Conference"
-	],
-	[
 		"conference#Workshop",
 		"edas#Workshop"
 	],
 	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"conference#Tutorial",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#Document"
-	],
-	[
-		"conference#Conference_document",
-		"edas#Call"
-	],
-	[
-		"conference#Presentation",
-		"edas#MultimediaTopic"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"edas#AcceptRating"
-	],
-	[
-		"conference#Paper",
-		"edas#Paper"
-	],
-	[
-		"conference#Conference_part",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Rejected_contribution",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"conference#Written_contribution",
-		"edas#PublishedPaper"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Accepted_contribution",
-		"edas#ComputerArchitectureTopic"
+		"conference#Topic",
+		"edas#Topic"
 	],
 	[
 		"conference#Organization",
 		"edas#Organization"
 	],
 	[
-		"conference#Conference_announcement",
-		"edas#ComputerNetworksAapplicationsTopic"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
-		"conference#Poster",
-		"edas#AcceptedPaper"
+		"conference#Paper",
+		"edas#Paper"
 	],
 	[
-		"conference#Committee",
-		"edas#TwoLevelConference"
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
 	],
 	[
 		"conference#Review",
 		"edas#Review"
+	],
+	[
+		"conference#Conference",
+		"edas#Conference"
+	],
+	[
+		"conference#Conference_part",
+		"edas#AcademicEvent"
+	],
+	[
+		"conference#Conference_document",
+		"edas#Call"
+	],
+	[
+		"conference#Regular_contribution",
+		"edas#Document"
+	],
+	[
+		"conference#Written_contribution",
+		"edas#PublishedPaper"
 	],
 	[
 		"conference#Chair",
@@ -81,22 +57,14 @@
 	],
 	[
 		"conference#Reviewed_contribution",
-		"edas#ReviewRating"
-	],
-	[
-		"conference#Regular_contribution",
-		"edas#ComputerNetworksSecurityTopic"
-	],
-	[
-		"conference#Person",
-		"edas#Person"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
+		"edas#AcceptedPaper"
 	],
 	[
 		"conference#Submitted_contribution",
 		"edas#PendingPaper"
+	],
+	[
+		"conference#Tutorial",
+		"edas#ConferenceEvent"
 	]
 ]

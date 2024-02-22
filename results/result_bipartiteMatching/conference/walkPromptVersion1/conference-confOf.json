@@ -1,43 +1,7 @@
 [
 	[
-		"conference#Extended_abstract",
-		"confOf#Contribution"
-	],
-	[
-		"conference#Conference",
-		"confOf#Conference"
-	],
-	[
 		"conference#Workshop",
 		"confOf#Workshop"
-	],
-	[
-		"conference#Conference_part",
-		"confOf#Event"
-	],
-	[
-		"conference#Poster",
-		"confOf#Poster"
-	],
-	[
-		"conference#Rejected_contribution",
-		"confOf#Camera_Ready_event"
-	],
-	[
-		"conference#Tutorial",
-		"confOf#Tutorial"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"confOf#Participant"
-	],
-	[
-		"conference#Paper",
-		"confOf#Paper"
 	],
 	[
 		"conference#Topic",
@@ -46,5 +10,37 @@
 	[
 		"conference#Organization",
 		"confOf#Organization"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Tutorial",
+		"confOf#Tutorial"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
+	],
+	[
+		"conference#Conference",
+		"confOf#Conference"
+	],
+	[
+		"conference#Extended_abstract",
+		"confOf#Contribution"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"confOf#Participant"
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Event"
 	]
 ]

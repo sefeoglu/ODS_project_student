@@ -1,62 +1,42 @@
 [
 	[
-		"edas#Document",
-		"iasted#Document"
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#Author",
 		"iasted#Author"
 	],
 	[
-		"edas#SocialEvent",
-		"iasted#Coctail_reception"
+		"edas#Place",
+		"iasted#Place"
 	],
 	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
 	],
 	[
-		"edas#ComputerNetworksTopic",
-		"iasted#Computer"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#Review",
-		"iasted#Review"
-	],
-	[
-		"edas#Sponsorship",
-		"iasted#Sponzorship"
-	],
-	[
-		"edas#Attendee",
-		"iasted#Author_attendee_book_registration_fee"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Dinner_banquet"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#Place",
-		"iasted#Place"
-	],
-	[
-		"edas#Conference",
-		"iasted#Social_program"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"edas#Person",
 		"iasted#Person"
+	],
+	[
+		"edas#NonAcademicEvent",
+		"iasted#Coctail_reception"
+	],
+	[
+		"edas#ConferenceEvent",
+		"iasted#Conference_activity"
 	]
 ]

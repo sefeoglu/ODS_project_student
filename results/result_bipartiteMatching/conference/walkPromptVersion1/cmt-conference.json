@@ -1,46 +1,38 @@
 [
 	[
-		"cmt#ConferenceMember",
-		"conference#Conference_participant"
-	],
-	[
-		"cmt#Review",
-		"conference#Review"
-	],
-	[
-		"cmt#Acceptance",
-		"conference#Rejected_contribution"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
 		"cmt#Paper",
 		"conference#Paper"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Chair"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Document",
-		"conference#Information_for_participants"
 	],
 	[
 		"cmt#Reviewer",
 		"conference#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"conference#Accepted_contribution"
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
+	],
+	[
+		"cmt#Document",
+		"conference#Regular_contribution"
+	],
+	[
+		"cmt#Chairman",
+		"conference#Chair"
 	]
 ]

@@ -1,118 +1,58 @@
 [
 	[
-		"conference#Conference",
-		"edas#Conference"
-	],
-	[
 		"conference#Workshop",
 		"edas#Workshop"
-	],
-	[
-		"conference#Paid_applicant",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"conference#Tutorial",
-		"edas#Document"
-	],
-	[
-		"conference#Information_for_participants",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Conference_document",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Publisher",
-		"edas#TwoLevelConference"
-	],
-	[
-		"conference#Conference_contribution",
-		"edas#CommunicationsTopic"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Invited_speaker",
-		"edas#ConferenceSession"
-	],
-	[
-		"conference#Paper",
-		"edas#Paper"
-	],
-	[
-		"conference#Active_conference_participant",
-		"edas#Attendee"
-	],
-	[
-		"conference#Rejected_contribution",
-		"edas#RejectRating"
-	],
-	[
-		"conference#Written_contribution",
-		"edas#RadioCommunicationsTopic"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#Author"
-	],
-	[
-		"conference#Accepted_contribution",
-		"edas#ReviewRating"
-	],
-	[
-		"conference#Organization",
-		"edas#Organization"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#Call"
-	],
-	[
-		"conference#Review_expertise",
-		"edas#ReviewQuestion"
-	],
-	[
-		"conference#Committee",
-		"edas#SingleLevelConference"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
-	],
-	[
-		"conference#Extended_abstract",
-		"edas#ComputerNetworksManagementTopic"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"edas#AcceptRating"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#PaperPresentation"
-	],
-	[
-		"conference#Person",
-		"edas#Person"
 	],
 	[
 		"conference#Topic",
 		"edas#Topic"
 	],
 	[
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Paper",
+		"edas#Paper"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Conference",
+		"edas#Conference"
+	],
+	[
+		"conference#Regular_author",
+		"edas#Author"
+	],
+	[
+		"conference#Conference_announcement",
+		"edas#Call"
+	],
+	[
 		"conference#Call_for_participation",
 		"edas#CallForManuscripts"
 	],
 	[
-		"conference#Presentation",
-		"edas#TalkEvent"
+		"conference#Active_conference_participant",
+		"edas#Attendee"
+	],
+	[
+		"conference#Conference_participant",
+		"edas#ConferenceVenuePlace"
 	]
 ]

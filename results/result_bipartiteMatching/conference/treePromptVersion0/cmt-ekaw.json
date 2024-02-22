@@ -1,7 +1,19 @@
 [
 	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
 		"cmt#Person",
 		"ekaw#Person"
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"cmt#Paper",
@@ -10,37 +22,5 @@
 	[
 		"cmt#ConferenceMember",
 		"ekaw#Conference_Participant"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Conference_Proceedings"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"ekaw#Conference_Session"
-	],
-	[
-		"cmt#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"cmt#Document",
-		"ekaw#Document"
-	],
-	[
-		"cmt#Decision",
-		"ekaw#Event"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Review"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"ekaw#Organisation"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Paper_Author"
 	]
 ]

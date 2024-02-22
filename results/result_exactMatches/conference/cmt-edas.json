@@ -33,5 +33,10 @@
 		"cmt#Paper",
 		"edas#Paper",
 		1
+	],
+	[
+		"cmt#Author",
+		"edas#Author",
+		1
 	]
 ]

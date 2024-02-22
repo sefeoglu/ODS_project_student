@@ -1,78 +1,50 @@
 [
 	[
-		"conference#Conference",
-		"confOf#Conference"
-	],
-	[
 		"conference#Workshop",
 		"confOf#Workshop"
-	],
-	[
-		"conference#Tutorial",
-		"confOf#Tutorial"
-	],
-	[
-		"conference#Reviewer",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"conference#Call_for_participation",
-		"confOf#Event"
-	],
-	[
-		"conference#Paper",
-		"confOf#Paper"
-	],
-	[
-		"conference#Contribution_1th-author",
-		"confOf#Author"
-	],
-	[
-		"conference#Organizer",
-		"confOf#Member"
-	],
-	[
-		"conference#Review_preference",
-		"confOf#Reviewing_event"
-	],
-	[
-		"conference#Active_conference_participant",
-		"confOf#Contribution"
-	],
-	[
-		"conference#Rejected_contribution",
-		"confOf#Submission_event"
-	],
-	[
-		"conference#Organization",
-		"confOf#Organization"
-	],
-	[
-		"conference#Poster",
-		"confOf#Poster"
-	],
-	[
-		"conference#Information_for_participants",
-		"confOf#Registration_of_participants_event"
-	],
-	[
-		"conference#Chair",
-		"confOf#Chair_PC"
-	],
-	[
-		"conference#Regular_contribution",
-		"confOf#Regular"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
 	],
 	[
 		"conference#Topic",
 		"confOf#Topic"
 	],
 	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Tutorial",
+		"confOf#Tutorial"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
+	],
+	[
+		"conference#Conference",
+		"confOf#Conference"
+	],
+	[
 		"conference#Submitted_contribution",
-		"confOf#Camera_Ready_event"
+		"confOf#Contribution"
+	],
+	[
+		"conference#Organizer",
+		"confOf#Member"
+	],
+	[
+		"conference#Conference_part",
+		"confOf#Event"
+	],
+	[
+		"conference#Chair",
+		"confOf#Chair_PC"
 	]
 ]

@@ -1,87 +1,11 @@
 [
 	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
 	[
-		"cmt#Meta-Review",
-		"conference#Submitted_contribution"
-	],
-	[
-		"cmt#ConferenceMember",
-		"conference#Conference_participant"
-	],
-	[
-		"cmt#Rejection",
-		"conference#Abstract"
-	],
-	[
-		"cmt#Acceptance",
-		"conference#Contribution_co-author"
-	],
-	[
-		"cmt#PaperAbstract",
-		"conference#Review_expertise"
-	],
-	[
-		"cmt#AssociatedChair",
-		"conference#Active_conference_participant"
-	],
-	[
-		"cmt#Bid",
-		"conference#Regular_author"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"conference#Extended_abstract"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Co-chair"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Committee_member"
-	],
-	[
-		"cmt#Administrator",
-		"conference#Poster"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"conference#Passive_conference_participant"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"conference#Conference_contributor"
-	],
-	[
-		"cmt#User",
-		"conference#Conference_document"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Document",
-		"conference#Contribution_1th-author"
-	],
-	[
-		"cmt#Author",
-		"conference#Committee"
-	],
-	[
 		"cmt#Reviewer",
 		"conference#Reviewer"
-	],
-	[
-		"cmt#Decision",
-		"conference#Important_dates"
 	],
 	[
 		"cmt#Review",
@@ -92,19 +16,79 @@
 		"conference#Program_committee"
 	],
 	[
-		"cmt#Chairman",
-		"conference#Regular_contribution"
+		"cmt#Conference",
+		"conference#Conference"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"conference#Information_for_participants"
+		"cmt#Person",
+		"conference#Person"
 	],
 	[
-		"cmt#Co-author",
-		"conference#Conference_contribution"
+		"cmt#ProgramCommitteeMember",
+		"conference#Conference_contributor"
+	],
+	[
+		"cmt#User",
+		"conference#Committee_member"
+	],
+	[
+		"cmt#Document",
+		"conference#Conference_document"
+	],
+	[
+		"cmt#ConferenceMember",
+		"conference#Conference_applicant"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"conference#Chair"
+	],
+	[
+		"cmt#ConferenceChair",
+		"conference#Co-chair"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"conference#Passive_conference_participant"
 	],
 	[
 		"cmt#PaperFullVersion",
-		"conference#Conference_proceedings"
+		"conference#Conference_contribution"
+	],
+	[
+		"cmt#Author",
+		"conference#Track-workshop_chair"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"conference#Organizer"
+	],
+	[
+		"cmt#Co-author",
+		"conference#Conference_participant"
+	],
+	[
+		"cmt#Meta-Review",
+		"conference#Call_for_participation"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"conference#Regular_author"
+	],
+	[
+		"cmt#Administrator",
+		"conference#Registeered_applicant"
+	],
+	[
+		"cmt#PaperAbstract",
+		"conference#Submitted_contribution"
+	],
+	[
+		"cmt#AssociatedChair",
+		"conference#Active_conference_participant"
+	],
+	[
+		"cmt#Chairman",
+		"conference#Paid_applicant"
 	]
 ]

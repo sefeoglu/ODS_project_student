@@ -1,58 +1,58 @@
 [
 	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Submissions_deadline",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
 		"iasted#Person",
 		"sigkdd#Person"
-	],
-	[
-		"iasted#Student_registration_fee",
-		"sigkdd#Registration_SIGKDD_Member"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
-	],
-	[
-		"iasted#Place",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"iasted#Listener",
-		"sigkdd#Listener"
 	],
 	[
 		"iasted#Review",
 		"sigkdd#Review"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
-	],
-	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
 	],
 	[
 		"iasted#Fee",
 		"sigkdd#Fee"
 	],
 	[
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
+	],
+	[
 		"iasted#Deadline",
 		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
+	],
+	[
+		"iasted#Student_registration_fee",
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"iasted#Submissions_deadline",
+		"sigkdd#Deadline_Paper_Submission"
 	]
 ]

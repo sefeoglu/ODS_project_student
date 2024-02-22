@@ -1,7 +1,11 @@
 [
 	[
-		"cmt#ConferenceMember",
-		"conference#Submitted_contribution"
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	],
 	[
 		"cmt#Review",
@@ -12,23 +16,11 @@
 		"conference#Program_committee"
 	],
 	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Presentation"
-	],
-	[
 		"cmt#Conference",
 		"conference#Conference"
 	],
 	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
+		"cmt#Person",
+		"conference#Person"
 	]
 ]

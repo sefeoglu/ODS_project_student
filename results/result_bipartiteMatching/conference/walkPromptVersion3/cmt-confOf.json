@@ -1,102 +1,74 @@
 [
 	[
+		"cmt#Author",
+		"confOf#Author"
+	],
+	[
 		"cmt#Person",
 		"confOf#Person"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"confOf#Banquet"
-	],
-	[
-		"cmt#ConferenceMember",
-		"confOf#Organization"
-	],
-	[
-		"cmt#Rejection",
-		"confOf#Short_paper"
-	],
-	[
-		"cmt#Acceptance",
-		"confOf#Reviewing_event"
-	],
-	[
-		"cmt#PaperAbstract",
-		"confOf#Event"
-	],
-	[
-		"cmt#AssociatedChair",
-		"confOf#Trip"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"confOf#Social_event"
-	],
-	[
-		"cmt#ConferenceChair",
-		"confOf#Contribution"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Poster"
-	],
-	[
-		"cmt#Administrator",
-		"confOf#Administrator"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"confOf#Company"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Scholar"
-	],
-	[
-		"cmt#User",
-		"confOf#University"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
-		"cmt#Document",
-		"confOf#Submission_event"
+		"cmt#Administrator",
+		"confOf#Administrator"
 	],
 	[
-		"cmt#Author",
-		"confOf#Author"
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#Document",
+		"confOf#Contribution"
+	],
+	[
+		"cmt#User",
+		"confOf#Scholar"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"confOf#Member_PC"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Chair_PC"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Science_Worker"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Volunteer"
 	],
 	[
 		"cmt#Reviewer",
-		"confOf#Camera_Ready_event"
+		"confOf#Regular"
 	],
 	[
-		"cmt#Decision",
-		"confOf#Workshop"
+		"cmt#AuthorNotReviewer",
+		"confOf#Participant"
+	],
+	[
+		"cmt#Meta-Review",
+		"confOf#Short_paper"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Member"
 	],
 	[
 		"cmt#Review",
-		"confOf#Reception"
+		"confOf#Poster"
 	],
 	[
-		"cmt#Chairman",
-		"confOf#Tutorial"
+		"cmt#AssociatedChair",
+		"confOf#Assistant"
 	],
 	[
 		"cmt#Meta-Reviewer",
-		"confOf#Reviewing_results_event"
-	],
-	[
-		"cmt#Co-author",
-		"confOf#Working_event"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"confOf#Administrative_event"
+		"confOf#Student"
 	]
 ]

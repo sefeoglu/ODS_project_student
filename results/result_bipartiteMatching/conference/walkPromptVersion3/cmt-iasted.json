@@ -1,102 +1,90 @@
 [
 	[
-		"cmt#Person",
-		"iasted#Person"
-	],
-	[
-		"cmt#Paper",
-		"iasted#Presenter_house"
-	],
-	[
-		"cmt#Meta-Review",
-		"iasted#Delegate"
-	],
-	[
-		"cmt#ConferenceMember",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"cmt#Rejection",
-		"iasted#Presenter_city"
-	],
-	[
-		"cmt#Acceptance",
-		"iasted#Presenter_state"
-	],
-	[
-		"cmt#PaperAbstract",
-		"iasted#Mailing_list"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Activity"
-	],
-	[
-		"cmt#ConferenceChair",
-		"iasted#Form"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Building"
-	],
-	[
-		"cmt#Administrator",
-		"iasted#Renting"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"iasted#Car"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"iasted#Conference_city"
-	],
-	[
-		"cmt#User",
-		"iasted#Hotel_registration_form"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Activity_before_conference"
-	],
-	[
 		"cmt#Document",
 		"iasted#Document"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"iasted#Transport_vehicle"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#Chairman",
-		"iasted#PowerPoint_presentation"
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"iasted#Deadline"
+		"cmt#AuthorNotReviewer",
+		"iasted#Tutorial_speaker"
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Lecturer"
 	],
 	[
 		"cmt#Co-author",
+		"iasted#Author_book_proceedings_included"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#Sponsor"
+	],
+	[
+		"cmt#Paper",
+		"iasted#Payment_document"
+	],
+	[
+		"cmt#User",
+		"iasted#Delegate"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"iasted#Worker_lecturer"
+	],
+	[
+		"cmt#ConferenceChair",
+		"iasted#Speaker"
+	],
+	[
+		"cmt#ExternalReviewer",
 		"iasted#One_day_presenter"
 	],
 	[
 		"cmt#PaperFullVersion",
-		"iasted#Submissions_deadline"
+		"iasted#Submission"
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Session_chair"
+	],
+	[
+		"cmt#Meta-Review",
+		"iasted#Transparency"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"iasted#Non_speaker"
+	],
+	[
+		"cmt#AssociatedChair",
+		"iasted#Listener"
+	],
+	[
+		"cmt#Administrator",
+		"iasted#IASTED_member"
+	],
+	[
+		"cmt#PaperAbstract",
+		"iasted#Mailing_list"
+	],
+	[
+		"cmt#Conference",
+		"iasted#Conference_city"
 	]
 ]

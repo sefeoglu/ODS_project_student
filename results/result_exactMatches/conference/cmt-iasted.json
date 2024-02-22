@@ -18,5 +18,10 @@
 		"cmt#Review",
 		"iasted#Review",
 		1
+	],
+	[
+		"cmt#Author",
+		"iasted#Author",
+		1
 	]
 ]

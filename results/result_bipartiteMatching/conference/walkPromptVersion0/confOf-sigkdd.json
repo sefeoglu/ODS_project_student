@@ -1,31 +1,7 @@
 [
 	[
-		"confOf#Student",
-		"sigkdd#Registration_Student"
-	],
-	[
-		"confOf#Member_PC",
-		"sigkdd#Committee"
-	],
-	[
-		"confOf#Organization",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
 		"confOf#Conference",
 		"sigkdd#Conference"
-	],
-	[
-		"confOf#Member",
-		"sigkdd#Organizator"
-	],
-	[
-		"confOf#Person",
-		"sigkdd#Person"
-	],
-	[
-		"confOf#Reviewing_event",
-		"sigkdd#Review"
 	],
 	[
 		"confOf#Paper",
@@ -36,15 +12,15 @@
 		"sigkdd#Author"
 	],
 	[
-		"confOf#Event",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"confOf#Chair_PC",
-		"sigkdd#Program_Committee"
+		"confOf#Person",
+		"sigkdd#Person"
 	],
 	[
 		"confOf#Poster",
 		"sigkdd#Document"
+	],
+	[
+		"confOf#Member",
+		"sigkdd#Organizator"
 	]
 ]

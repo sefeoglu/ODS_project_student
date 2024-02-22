@@ -1,0 +1,30 @@
+[
+	[
+		"confOf#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"confOf#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"confOf#Author",
+		"sigkdd#Author"
+	],
+	[
+		"confOf#Person",
+		"sigkdd#Person"
+	],
+	[
+		"confOf#Participant",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"confOf#Member",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"confOf#Member_PC",
+		"sigkdd#Program_Committee_member"
+	]
+]

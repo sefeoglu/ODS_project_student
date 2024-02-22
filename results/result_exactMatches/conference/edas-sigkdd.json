@@ -28,5 +28,10 @@
 		"edas#Place",
 		"sigkdd#Place",
 		1
+	],
+	[
+		"edas#Author",
+		"sigkdd#Author",
+		1
 	]
 ]

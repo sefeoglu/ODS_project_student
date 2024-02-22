@@ -1,7 +1,15 @@
 [
 	[
-		"cmt#ConferenceChair",
-		"iasted#Session_chair"
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
@@ -12,19 +20,7 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Conference",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"cmt#Document",
-		"iasted#Document"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
-	],
-	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Chairman",
+		"iasted#Session_chair"
 	]
 ]

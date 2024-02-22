@@ -1,19 +1,11 @@
 [
 	[
-		"confOf#Reception",
-		"iasted#Social_program"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
-		"confOf#Conference",
-		"iasted#Presenter_city"
-	],
-	[
-		"confOf#Member",
-		"iasted#IASTED_member"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Nonmember_registration_fee"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Tutorial",
@@ -24,31 +16,11 @@
 		"iasted#Person"
 	],
 	[
-		"confOf#Reviewing_event",
-		"iasted#Review"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"iasted#Time"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#Event",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#Member",
+		"iasted#IASTED_member"
 	],
 	[
 		"confOf#Submission_event",
 		"iasted#Submission"
-	],
-	[
-		"confOf#Poster",
-		"iasted#Document"
 	]
 ]

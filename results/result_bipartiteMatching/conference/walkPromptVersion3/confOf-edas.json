@@ -1,150 +1,122 @@
 [
 	[
-		"confOf#Member_PC",
-		"edas#Document"
-	],
-	[
-		"confOf#University",
-		"edas#SlideSet"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"edas#CADTopic"
-	],
-	[
-		"confOf#Participant",
-		"edas#MealMenu"
-	],
-	[
-		"confOf#Company",
-		"edas#Review"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"edas#Programme"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"edas#Place"
-	],
-	[
-		"confOf#Event",
-		"edas#ConferenceEvent"
-	],
-	[
-		"confOf#Tutorial",
-		"edas#Call"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
 		"confOf#Topic",
 		"edas#Topic"
 	],
 	[
-		"confOf#Chair_PC",
-		"edas#ReviewRating"
-	],
-	[
-		"confOf#Poster",
-		"edas#PersonalHistory"
-	],
-	[
-		"confOf#Student",
-		"edas#Sponsorship"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
-	],
-	[
-		"confOf#Member",
-		"edas#MealEvent"
-	],
-	[
-		"confOf#Paper",
-		"edas#Paper"
-	],
-	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
-	],
-	[
-		"confOf#Banquet",
-		"edas#BreakEvent"
-	],
-	[
-		"confOf#Scholar",
-		"edas#CommunicationsTopic"
-	],
-	[
-		"confOf#Science_Worker",
-		"edas#SatelliteAndSpaceCommunicationsTopic"
-	],
-	[
-		"confOf#Regular",
-		"edas#AcceptRating"
-	],
-	[
 		"confOf#Person",
 		"edas#Person"
-	],
-	[
-		"confOf#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"confOf#Working_event",
-		"edas#ReviewQuestion"
-	],
-	[
-		"confOf#Contribution",
-		"edas#ComputerNetworksTopic"
-	],
-	[
-		"confOf#Short_paper",
-		"edas#NonAcademicEvent"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
 	],
 	[
 		"confOf#Country",
 		"edas#Country"
 	],
 	[
-		"confOf#Submission_event",
-		"edas#PerformanceTopic"
+		"confOf#Workshop",
+		"edas#Workshop"
 	],
 	[
-		"confOf#Reception",
-		"edas#Reception"
-	],
-	[
-		"confOf#Administrative_event",
-		"edas#NGO"
-	],
-	[
-		"confOf#Administrator",
-		"edas#AccpetIfRoomRating"
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Conference",
 		"edas#Conference"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#RejectRating"
+		"confOf#Social_event",
+		"edas#SocialEvent"
 	],
 	[
-		"confOf#Volunteer",
-		"edas#OperatingTopicsystems"
+		"confOf#Paper",
+		"edas#Paper"
 	],
 	[
-		"confOf#Assistant",
-		"edas#ParallelAndDistributedComputingTopic"
+		"confOf#Organization",
+		"edas#Organization"
+	],
+	[
+		"confOf#Science_Worker",
+		"edas#SessionChair"
+	],
+	[
+		"confOf#Administrator",
+		"edas#Reviewer"
+	],
+	[
+		"confOf#Company",
+		"edas#NGO"
 	],
 	[
 		"confOf#Trip",
-		"edas#MultimediaTopic"
+		"edas#Excursion"
+	],
+	[
+		"confOf#Event",
+		"edas#NonAcademicEvent"
+	],
+	[
+		"confOf#Assistant",
+		"edas#ConferenceChair"
+	],
+	[
+		"confOf#Contribution",
+		"edas#Document"
+	],
+	[
+		"confOf#University",
+		"edas#IndustryOrganization"
+	],
+	[
+		"confOf#Member_PC",
+		"edas#Attendee"
+	],
+	[
+		"confOf#Working_event",
+		"edas#TwoLevelConference"
+	],
+	[
+		"confOf#Participant",
+		"edas#TPCMember"
+	],
+	[
+		"confOf#Reviewing_results_event",
+		"edas#BreakEvent"
+	],
+	[
+		"confOf#Submission_event",
+		"edas#CoffeeBreak"
+	],
+	[
+		"confOf#Poster",
+		"edas#RatedPapers"
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"edas#FreeTimeBreak"
+	],
+	[
+		"confOf#Banquet",
+		"edas#MealBreak"
+	],
+	[
+		"confOf#Short_paper",
+		"edas#WithdrawnPaper"
+	],
+	[
+		"confOf#Administrative_event",
+		"edas#SingleLevelConference"
+	],
+	[
+		"confOf#Chair_PC",
+		"edas#Presenter"
+	],
+	[
+		"confOf#Reviewing_event",
+		"edas#ConferenceEvent"
 	]
 ]

@@ -1,102 +1,62 @@
 [
 	[
-		"cmt#Person",
-		"edas#Person"
-	],
-	[
 		"cmt#Paper",
 		"edas#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"edas#ReviewRating"
-	],
-	[
-		"cmt#ConferenceMember",
-		"edas#PersonalHistory"
-	],
-	[
-		"cmt#Rejection",
-		"edas#MultimediaTopic"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#ConferenceEvent"
-	],
-	[
-		"cmt#PaperAbstract",
-		"edas#Topic"
-	],
-	[
-		"cmt#AssociatedChair",
-		"edas#SlideSet"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#Place"
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceChair"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"edas#Call"
-	],
-	[
-		"cmt#Administrator",
-		"edas#AcceptRating"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#Programme"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"edas#NonAcademicEvent"
-	],
-	[
-		"cmt#User",
-		"edas#ParallelAndDistributedComputingTopic"
-	],
-	[
-		"cmt#Conference",
-		"edas#Conference"
-	],
-	[
 		"cmt#Document",
 		"edas#Document"
-	],
-	[
-		"cmt#Author",
-		"edas#Author"
 	],
 	[
 		"cmt#Reviewer",
 		"edas#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"edas#WeekRejectRating"
+		"cmt#Author",
+		"edas#Author"
 	],
 	[
 		"cmt#Review",
 		"edas#Review"
 	],
 	[
-		"cmt#Chairman",
-		"edas#Organization"
+		"cmt#Conference",
+		"edas#Conference"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"edas#WirelessCommunicationsTopic"
-	],
-	[
-		"cmt#Co-author",
-		"edas#BreakEvent"
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#PaperFullVersion",
-		"edas#MicroelectronicsTopic"
+		"edas#PendingPaper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"edas#Presenter"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"edas#SessionChair"
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#ActivePaper"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"edas#TPCMember"
+	],
+	[
+		"cmt#AssociatedChair",
+		"edas#Attendee"
+	],
+	[
+		"cmt#Meta-Review",
+		"edas#PublishedPaper"
 	]
 ]

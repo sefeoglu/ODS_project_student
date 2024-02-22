@@ -1,11 +1,11 @@
 [
 	[
-		"confOf#Conference",
-		"iasted#PowerPoint_presentation"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
-		"confOf#University",
-		"iasted#Presenter_university"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Tutorial",
@@ -16,23 +16,7 @@
 		"iasted#Person"
 	],
 	[
-		"confOf#Camera_Ready_event",
-		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"confOf#Working_event",
+		"confOf#Conference",
 		"iasted#Conference_activity"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#Trip",
-		"iasted#Full_day_tour"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
 	]
 ]

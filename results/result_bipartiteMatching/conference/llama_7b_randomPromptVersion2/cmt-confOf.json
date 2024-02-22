@@ -1,0 +1,34 @@
+[
+	[
+		"cmt#Author",
+		"confOf#Author"
+	],
+	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"confOf#Participant"
+	],
+	[
+		"cmt#Document",
+		"confOf#Short_paper"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member"
+	]
+]

@@ -20,6 +20,16 @@
 		1
 	],
 	[
+		"iasted#Author",
+		"sigkdd#Author",
+		1
+	],
+	[
+		"iasted#Listener",
+		"sigkdd#Listener",
+		1
+	],
+	[
 		"iasted#Registration_fee",
 		"sigkdd#Registration_fee",
 		1
@@ -30,6 +40,11 @@
 		1
 	],
 	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall",
+		1
+	],
+	[
 		"iasted#Fee",
 		"sigkdd#Fee",
 		1
@@ -37,6 +52,11 @@
 	[
 		"iasted#Review",
 		"sigkdd#Review",
+		1
+	],
+	[
+		"iasted#Main_office",
+		"sigkdd#Main_office",
 		1
 	]
 ]

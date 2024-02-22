@@ -1,67 +1,7 @@
 [
 	[
-		"cmt#Person",
-		"sigkdd#Person"
-	],
-	[
 		"cmt#Paper",
 		"sigkdd#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"cmt#ConferenceMember",
-		"sigkdd#Award"
-	],
-	[
-		"cmt#Rejection",
-		"sigkdd#Abstract"
-	],
-	[
-		"cmt#Acceptance",
-		"sigkdd#Bronze_Supporter"
-	],
-	[
-		"cmt#PaperAbstract",
-		"sigkdd#Organizator"
-	],
-	[
-		"cmt#AssociatedChair",
-		"sigkdd#Hotel"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"sigkdd#Sponzor"
-	],
-	[
-		"cmt#ConferenceChair",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Main_office"
-	],
-	[
-		"cmt#Administrator",
-		"sigkdd#Place"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"cmt#User",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
-		"cmt#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"cmt#Document",
@@ -72,14 +12,6 @@
 		"sigkdd#Author"
 	],
 	[
-		"cmt#Reviewer",
-		"sigkdd#Deadline_Author_notification"
-	],
-	[
-		"cmt#Decision",
-		"sigkdd#Webmaster"
-	],
-	[
 		"cmt#Review",
 		"sigkdd#Review"
 	],
@@ -88,19 +20,51 @@
 		"sigkdd#Program_Committee"
 	],
 	[
+		"cmt#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"cmt#Person",
+		"sigkdd#Person"
+	],
+	[
+		"cmt#User",
+		"sigkdd#Listener"
+	],
+	[
+		"cmt#ConferenceMember",
+		"sigkdd#Author_of_paper"
+	],
+	[
 		"cmt#Chairman",
-		"sigkdd#Committee"
+		"sigkdd#Organizator"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"sigkdd#Speaker"
+	],
+	[
+		"cmt#ConferenceChair",
+		"sigkdd#General_Chair"
+	],
+	[
+		"cmt#ExternalReviewer",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"cmt#Reviewer",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"sigkdd#ACM_SIGKDD"
 	],
 	[
 		"cmt#Meta-Reviewer",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"cmt#Co-author",
-		"sigkdd#Best_Student_Paper_Award"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"sigkdd#Best_Paper_Awards_Committee"
+		"sigkdd#Program_Chair"
 	]
 ]

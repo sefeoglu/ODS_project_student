@@ -1,90 +1,74 @@
 [
 	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
 		"iasted#Review",
 		"sigkdd#Review"
-	],
-	[
-		"iasted#Publication",
-		"sigkdd#Paper"
-	],
-	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Deadline",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Hotel_presenter",
-		"sigkdd#Exhibitor"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
 	],
 	[
 		"iasted#Conference_hall",
 		"sigkdd#Conference_hall"
 	],
 	[
-		"iasted#Listener",
-		"sigkdd#Listener"
-	],
-	[
-		"iasted#PowerPoint_presentation",
-		"sigkdd#Best_Applications_Paper_Award"
-	],
-	[
-		"iasted#Fee_for_extra_trip",
-		"sigkdd#Hotel"
-	],
-	[
-		"iasted#Sponsor",
-		"sigkdd#Sponzor"
-	],
-	[
-		"iasted#Author_attendee_book_registration_fee",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"iasted#Activity_before_conference",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
 		"iasted#Fee",
 		"sigkdd#Fee"
 	],
 	[
-		"iasted#Time",
-		"sigkdd#Deadline_Paper_Submission"
+		"iasted#Main_office",
+		"sigkdd#Main_office"
 	],
 	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Speaker",
+		"sigkdd#Speaker"
 	],
 	[
 		"iasted#Place",
 		"sigkdd#Place"
 	],
 	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
+	],
+	[
+		"iasted#Invitation_letter",
+		"sigkdd#Paper"
+	],
+	[
+		"iasted#Author_attendee_book_registration_fee",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
 		"iasted#Author_book_proceedings_included",
 		"sigkdd#Author_of_paper"
+	],
+	[
+		"iasted#Time",
+		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
 		"iasted#Technical_commitee",
 		"sigkdd#Organizator"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
+		"iasted#Conference_hotel",
+		"sigkdd#Hotel"
 	]
 ]

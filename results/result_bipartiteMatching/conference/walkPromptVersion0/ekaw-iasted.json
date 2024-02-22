@@ -1,15 +1,47 @@
 [
 	[
-		"ekaw#Invited_Speaker",
-		"iasted#Conference_activity"
+		"ekaw#Document",
+		"iasted#Document"
+	],
+	[
+		"ekaw#Review",
+		"iasted#Review"
 	],
 	[
 		"ekaw#Session_Chair",
 		"iasted#Session_chair"
 	],
 	[
-		"ekaw#Flyer",
-		"iasted#Fee"
+		"ekaw#Session",
+		"iasted#Session"
+	],
+	[
+		"ekaw#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"ekaw#Person",
+		"iasted#Person"
+	],
+	[
+		"ekaw#Event",
+		"iasted#Speaker_lecture"
+	],
+	[
+		"ekaw#Submitted_Paper",
+		"iasted#Submission"
+	],
+	[
+		"ekaw#Conference_Session",
+		"iasted#Conference_activity"
+	],
+	[
+		"ekaw#Invited_Talk",
+		"iasted#Lecture"
+	],
+	[
+		"ekaw#Paper_Author",
+		"iasted#Speaker"
 	],
 	[
 		"ekaw#Paper",
@@ -20,83 +52,11 @@
 		"iasted#Activity"
 	],
 	[
-		"ekaw#Accepted_Paper",
-		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"ekaw#Conference",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"ekaw#University",
-		"iasted#Building"
-	],
-	[
-		"ekaw#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"ekaw#Conference_Session",
-		"iasted#Time"
-	],
-	[
-		"ekaw#Conference_Proceedings",
-		"iasted#Plenary_lecture"
-	],
-	[
-		"ekaw#Conference_Banquet",
-		"iasted#Coctail_reception"
-	],
-	[
-		"ekaw#Presenter",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"ekaw#Conference_Participant",
+		"ekaw#Individual_Presentation",
 		"iasted#Presentation"
 	],
 	[
-		"ekaw#Social_Event",
+		"ekaw#Conference",
 		"iasted#Social_program"
-	],
-	[
-		"ekaw#Submitted_Paper",
-		"iasted#Author"
-	],
-	[
-		"ekaw#Paper_Author",
-		"iasted#Speaker"
-	],
-	[
-		"ekaw#Review",
-		"iasted#Review"
-	],
-	[
-		"ekaw#Proceedings",
-		"iasted#Conference_days"
-	],
-	[
-		"ekaw#Scientific_Event",
-		"iasted#Research"
-	],
-	[
-		"ekaw#Invited_Talk",
-		"iasted#Lecture"
-	],
-	[
-		"ekaw#Session",
-		"iasted#Session"
-	],
-	[
-		"ekaw#Document",
-		"iasted#Document"
-	],
-	[
-		"ekaw#Person",
-		"iasted#Person"
-	],
-	[
-		"ekaw#Event",
-		"iasted#Deadline"
 	]
 ]

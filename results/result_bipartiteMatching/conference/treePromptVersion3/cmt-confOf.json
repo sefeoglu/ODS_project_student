@@ -1,110 +1,66 @@
 [
 	[
+		"cmt#Author",
+		"confOf#Author"
+	],
+	[
 		"cmt#Person",
 		"confOf#Person"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"confOf#Company"
-	],
-	[
-		"cmt#ConferenceMember",
-		"confOf#Banquet"
-	],
-	[
-		"cmt#Rejection",
-		"confOf#Trip"
-	],
-	[
-		"cmt#Acceptance",
-		"confOf#Reception"
-	],
-	[
-		"cmt#PaperAbstract",
-		"confOf#Event"
-	],
-	[
-		"cmt#AssociatedChair",
-		"confOf#Scholar"
-	],
-	[
-		"cmt#Bid",
-		"confOf#Contribution"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"confOf#Regular"
-	],
-	[
-		"cmt#ConferenceChair",
-		"confOf#Poster"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Camera_Ready_event"
-	],
-	[
-		"cmt#Administrator",
-		"confOf#Administrator"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"confOf#Short_paper"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#University"
-	],
-	[
-		"cmt#User",
-		"confOf#Administrative_event"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
-		"cmt#Document",
-		"confOf#Reviewing_event"
+		"cmt#Administrator",
+		"confOf#Administrator"
 	],
 	[
-		"cmt#Author",
-		"confOf#Author"
+		"cmt#Paper",
+		"confOf#Paper"
 	],
 	[
-		"cmt#Reviewer",
-		"confOf#Tutorial"
+		"cmt#User",
+		"confOf#Volunteer"
 	],
 	[
-		"cmt#Decision",
-		"confOf#Reviewing_results_event"
+		"cmt#ExternalReviewer",
+		"confOf#Member_PC"
 	],
 	[
-		"cmt#Review",
-		"confOf#Working_event"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"confOf#Science_Worker"
+		"cmt#ConferenceMember",
+		"confOf#Scholar"
 	],
 	[
 		"cmt#Chairman",
-		"confOf#Submission_event"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"confOf#Member"
-	],
-	[
-		"cmt#Co-author",
 		"confOf#Participant"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"confOf#Member_PC"
+		"cmt#ProgramCommitteeMember",
+		"confOf#Chair_PC"
+	],
+	[
+		"cmt#PaperAbstract",
+		"confOf#Contribution"
+	],
+	[
+		"cmt#Meta-Reviewer",
+		"confOf#Science_Worker"
+	],
+	[
+		"cmt#ConferenceChair",
+		"confOf#Regular"
+	],
+	[
+		"cmt#Reviewer",
+		"confOf#Student"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"confOf#Member"
+	],
+	[
+		"cmt#Review",
+		"confOf#Poster"
 	]
 ]

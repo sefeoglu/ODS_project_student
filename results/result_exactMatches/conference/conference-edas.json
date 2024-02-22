@@ -20,6 +20,11 @@
 		1
 	],
 	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers",
+		1
+	],
+	[
 		"conference#Paper",
 		"edas#Paper",
 		1

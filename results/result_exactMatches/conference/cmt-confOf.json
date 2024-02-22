@@ -13,5 +13,15 @@
 		"cmt#Paper",
 		"confOf#Paper",
 		1
+	],
+	[
+		"cmt#Author",
+		"confOf#Author",
+		1
+	],
+	[
+		"cmt#Administrator",
+		"confOf#Administrator",
+		1
 	]
 ]

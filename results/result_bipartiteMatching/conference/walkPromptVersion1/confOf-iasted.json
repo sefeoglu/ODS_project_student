@@ -1,15 +1,11 @@
 [
 	[
-		"confOf#Banquet",
-		"iasted#Social_program"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
-		"confOf#Conference",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"confOf#Working_event",
-		"iasted#Conference_activity"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Tutorial",
@@ -20,23 +16,15 @@
 		"iasted#Person"
 	],
 	[
-		"confOf#Reviewing_results_event",
-		"iasted#Camera_ready_manuscript_deadline"
+		"confOf#Working_event",
+		"iasted#Conference_activity"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Conference",
+		"iasted#Coctail_reception"
 	],
 	[
 		"confOf#Event",
-		"iasted#Submissions_deadline"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Registration"
+		"iasted#Welcome_address"
 	]
 ]

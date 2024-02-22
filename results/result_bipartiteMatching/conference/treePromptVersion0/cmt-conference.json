@@ -1,19 +1,23 @@
 [
 	[
-		"cmt#Rejection",
-		"conference#Rejected_contribution"
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	],
 	[
 		"cmt#Review",
 		"conference#Review"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Chair"
-	],
-	[
 		"cmt#ProgramCommittee",
 		"conference#Program_committee"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
 	],
 	[
 		"cmt#Person",
@@ -24,27 +28,15 @@
 		"conference#Conference_participant"
 	],
 	[
-		"cmt#PaperAbstract",
-		"conference#Abstract"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Committee"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
+		"cmt#ProgramCommitteeChair",
+		"conference#Chair"
 	],
 	[
 		"cmt#Document",
 		"conference#Written_contribution"
 	],
 	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
+		"cmt#PaperAbstract",
+		"conference#Presentation"
 	]
 ]

@@ -1,31 +1,19 @@
 [
 	[
-		"confOf#Event",
-		"edas#PaperPresentation"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
 		"confOf#Topic",
 		"edas#Topic"
 	],
 	[
-		"confOf#Student",
-		"edas#AcademicEvent"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
-	],
-	[
-		"confOf#Paper",
-		"edas#Paper"
-	],
-	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
-	],
-	[
 		"confOf#Person",
 		"edas#Person"
+	],
+	[
+		"confOf#Country",
+		"edas#Country"
 	],
 	[
 		"confOf#Workshop",
@@ -36,23 +24,31 @@
 		"edas#Author"
 	],
 	[
-		"confOf#Country",
-		"edas#Country"
-	],
-	[
-		"confOf#Reception",
-		"edas#Reception"
-	],
-	[
 		"confOf#Conference",
 		"edas#Conference"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#PersonalReviewHistory"
+		"confOf#Social_event",
+		"edas#SocialEvent"
+	],
+	[
+		"confOf#Paper",
+		"edas#Paper"
+	],
+	[
+		"confOf#Organization",
+		"edas#Organization"
 	],
 	[
 		"confOf#Trip",
 		"edas#Excursion"
+	],
+	[
+		"confOf#Event",
+		"edas#PaperPresentation"
+	],
+	[
+		"confOf#Banquet",
+		"edas#AcademicEvent"
 	]
 ]

@@ -1,27 +1,27 @@
 [
 	[
-		"ekaw#Invited_Speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"ekaw#Abstract",
-		"sigkdd#Abstract"
-	],
-	[
-		"ekaw#Review",
-		"sigkdd#Review"
-	],
-	[
 		"ekaw#Document",
 		"sigkdd#Document"
 	],
 	[
 		"ekaw#Conference",
 		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Review",
+		"sigkdd#Review"
+	],
+	[
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Invited_Speaker",
+		"sigkdd#Invited_Speaker"
 	],
 	[
 		"ekaw#Person",
