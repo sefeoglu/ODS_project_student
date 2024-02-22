@@ -39,8 +39,18 @@ def candidate_concept_sim(concept1, concept2):
     concept1_embedding = model.encode(cleaned_concept1)
     concept2_embedding = model.encode(cleaned_concept2)
     cos_sim = util.cos_sim(concept1_embedding, concept2_embedding)
-    print(f"cosine similarity between {concept1} and {concept2} is {cos_sim.item()}")
+    #print(f"cosine similarity between {concept1} and {concept2} is {cos_sim.item()}")
     return cos_sim.item()
+
+def getNeighbors(nodeName, ontology: Ontology, neighborhoodRange):
+    return [ontology.onto_name + '#' + neighbor for neighbor in getNeighborsName(nodeName, ontology, neighborhoodRange)]
+
+def getNeighborsName(nodeName, ontology: Ontology, neighborhoodRange):
+    Neighbors = ontology.get_parents(nodeName) + ontology.get_childs(nodeName) + ontology.get_equivalents(nodeName)
+    if neighborhoodRange > 1:
+        for neighbor in Neighbors.copy():
+            Neighbors += getNeighborsName(neighbor, ontology, neighborhoodRange - 1)
+    return list(set(Neighbors))
 
 def main():
     """
@@ -83,7 +93,12 @@ def main():
             onto1 = ontos.get(ontoName1)
             onto2 = ontos.get(ontoName2)
             if onto1 and onto2:
-                crossProduct = [[onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, candidate_concept_sim(class1, class2)] for class1 in onto1.get_classes() for class2 in onto2.get_classes()  if candidate_concept_sim(class1, class2) > 0.4]
+                crossProduct = []
+                for class1 in tqdm(onto1.get_classes(), desc = f'computing similarities for {ontoName1} X {ontoName2}'):
+                    for class2 in onto2.get_classes():
+                        similarity = candidate_concept_sim(class1, class2)
+                        if similarity > 0.4:
+                            crossProduct.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
                 utils.saveToJson(crossProduct, path, messageText=f'exported crossProduct ({ontoName1} X {ontoName2}) to ')
 
@@ -98,7 +113,7 @@ def main():
                     onto1, class1 = key1.split('#')
                     onto2, class2 = key2.split('#')
                     sim_core = score
-                    if (sim_core >= 1.0):
+                    if (sim_core >= 0.95):
                         alreadyIn = False
                         for classA, classB, _ in exactMatches:
                             if classA == class1 or classB == class2:
@@ -190,7 +205,6 @@ def main():
                     utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
         for dir_path in os.listdir(configODS.get('llmMatchedPath')):
-            #print(f"processing '{file_path}'")
             for file_path in os.listdir(configODS.get('llmMatchedPath') + dir_path):
                 if file_path.endswith('.json'):
                     llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
@@ -210,16 +224,67 @@ def main():
                         edges[key1] = [key2]
                         verticesL.add(key1)
                         verticesR.add(key2)
-                    for key in llmMatchedClasses.keys():
-                        if llmMatchedClasses.get(key) == 'yes':
-                            onto1HASHclass1, onto2HASHclass2 = key.split(';')
-                            verticesL.add(onto1HASHclass1)
-                            verticesR.add(onto2HASHclass2)
-                            if not edges.get(onto1HASHclass1):
-                                edges[onto1HASHclass1] = []
-                            if not alreadyMatched.get(onto1HASHclass1) and not alreadyMatched.get(onto2HASHclass2):
-                                edges[onto1HASHclass1].append(onto2HASHclass2)
-                    matching = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                    newMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                    ontoName1, node1 = key1.split('#')
+                    ontoName2, node2 = key2.split('#')
+                    onto1 = ontos.get(ontoName1)
+                    onto2 = ontos.get(ontoName2)
+
+                    matching = newMatches
+                    
+                    neighborhoodRange = configODS.get('neighborhoodRange')
+                    i = 0
+                    while len(newMatches) > 0:
+                        i += 1
+                        newNeighborhoodMatches = []
+                        for currentNeighborhoodRange in range(1, 1 + neighborhoodRange):#start by matching near neighborhood and farther extend wider search
+                            verticesL = set()
+                            verticesR = set()
+                            edges = {}
+                            possibleAlignments = []
+                            for key1, key2 in newMatches:
+                                _, node1 = key1.split('#')
+                                _, node2 = key2.split('#')
+                                neighborsOf1 = getNeighbors(node1, onto1, currentNeighborhoodRange)
+                                neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
+                                possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2]
+                            #ask LLM for match or no match
+                            for keyA, keyB in possibleAlignments:
+                                if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                                    if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                                        verticesL.add(keyA)
+                                        verticesR.add(keyB)
+                                        if not edges.get(keyA):
+                                            edges[keyA] = []
+                                        edges[keyA].append(keyB)
+                            newNeighborhoodMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                            matching += newNeighborhoodMatches
+                            for keyX, keyY in newNeighborhoodMatches:
+                                alreadyMatched[keyX] = keyY
+                                alreadyMatched[keyY] = keyX
+                            # if len(newNeighborhoodMatches) > 0:
+                            #     print('matchRound:', i, 'currentNeighborhoodRange:', currentNeighborhoodRange, 'found', len(newNeighborhoodMatches), 'in poolsize:', len(possibleAlignments))
+                        newMatches = newNeighborhoodMatches
+                    #add remaining llmMatched alignments with enough cosimilarity
+                    alignmentFilePath = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
+                    preAlignments = utils.importFromJson(alignmentFilePath)
+                    verticesL = set()
+                    verticesR = set()
+                    edges = {}
+                    for keyA, keyB, similarity in preAlignments:
+                        if similarity > 0.75 and not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                            if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                                verticesL.add(keyA)
+                                verticesR.add(keyB)
+                                if not edges.get(keyA):
+                                    edges[keyA] = []
+                                edges[keyA].append(keyB)
+                    simMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                    matching += simMatches
+                    newMatches += simMatches
+                    for keyX, keyY in simMatches:
+                        alreadyMatched[keyX] = keyY
+                        alreadyMatched[keyY] = keyX
                     utils.saveToJson(matching, bipartiteMatchingPath)
     if configODS.get('exportFinalMatchingsToRDF'):
         for dir_path in os.listdir(configODS.get('bipartiteMatchingPath')):
