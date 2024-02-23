@@ -3,7 +3,7 @@
 	"resetThisFile": false,
 	"importOntologies": true,
 	"computeSimilaritiesExportAsAlignments": false,
-	"matchExactMatches": true,
+	"matchExactMatches": false,
 	"runRandomWalkAlgorithm": false,
 	"runRandomTreeAlgorithm": false,
 	"randomTreeConfig": {

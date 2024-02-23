@@ -17,7 +17,9 @@ from track import Track
 from batch_loaders.random_walk import *
 print('finished imports')
 
-
+cachedLLMPredictions = {}
+llm = None
+configODS = configODSImport.getConfigODS()
 
 def candidate_concept_sim(concept1, concept2):
     """computes similarity score between concept1 and concept2
@@ -52,6 +54,31 @@ def getNeighborsName(nodeName, ontology: Ontology, neighborhoodRange):
             Neighbors += getNeighborsName(neighbor, ontology, neighborhoodRange - 1)
     return list(set(Neighbors))
 
+def getLLMPrediction(key1, key2, llmMatchedFilePath):
+    global cachedLLMPredictions
+    global llm
+    global configODS
+    promptsPath = '/'.join(llmMatchedFilePath.split('/')[-2:])
+    promptsPath = configODS.get('promptsPath') + promptsPath
+    cache = cachedLLMPredictions.get(promptsPath)
+    if not cache: 
+        cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
+        cache = cachedLLMPredictions.get(promptsPath)
+    promptKey = key1 + ';' + key2
+    yesOrNo = cache.get(promptKey)
+    if yesOrNo != None:
+        print('hit')
+        return yesOrNo
+    else:
+        promptDict = utils.importFromJson(promptsPath)
+        prompt = promptDict.get(promptKey)
+        if not prompt: return 'no'
+        if not llm: llm = LLM()
+        yesOrNo = llm.get_prediction(prompt)
+        cache[promptKey] = yesOrNo
+        utils.save_json(cache, llmMatchedFilePath)
+    return yesOrNo
+
 def main():
     """
     runs functions according to the tasks in configODS
@@ -63,7 +90,7 @@ def main():
     Returns: 
     None
     """
-    configODS = configODSImport.getConfigODS()
+    global configODS
 
 
     if (configODS.get('importOntologies') == True):
@@ -205,7 +232,7 @@ def main():
                     utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
         for dir_path in os.listdir(configODS.get('llmMatchedPath')):
-            for file_path in os.listdir(configODS.get('llmMatchedPath') + dir_path):
+            for file_path in tqdm(os.listdir(configODS.get('llmMatchedPath') + dir_path), desc=f'matches {dir_path}'):
                 if file_path.endswith('.json'):
                     llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
                     bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
@@ -249,9 +276,10 @@ def main():
                                 neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
                                 possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2]
                             #ask LLM for match or no match
-                            for keyA, keyB in possibleAlignments:
+                            for keyA, keyB in tqdm(possibleAlignments):
                                 if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
-                                    if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                                    #if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                                    if getLLMPrediction(keyA, keyB, llmMatchedFilePath) == 'yes':
                                         verticesL.add(keyA)
                                         verticesR.add(keyB)
                                         if not edges.get(keyA):
@@ -266,25 +294,25 @@ def main():
                             #     print('matchRound:', i, 'currentNeighborhoodRange:', currentNeighborhoodRange, 'found', len(newNeighborhoodMatches), 'in poolsize:', len(possibleAlignments))
                         newMatches = newNeighborhoodMatches
                     #add remaining llmMatched alignments with enough cosimilarity
-                    alignmentFilePath = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
-                    preAlignments = utils.importFromJson(alignmentFilePath)
-                    verticesL = set()
-                    verticesR = set()
-                    edges = {}
-                    for keyA, keyB, similarity in preAlignments:
-                        if similarity > 0.75 and not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
-                            if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
-                                verticesL.add(keyA)
-                                verticesR.add(keyB)
-                                if not edges.get(keyA):
-                                    edges[keyA] = []
-                                edges[keyA].append(keyB)
-                    simMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
-                    matching += simMatches
-                    newMatches += simMatches
-                    for keyX, keyY in simMatches:
-                        alreadyMatched[keyX] = keyY
-                        alreadyMatched[keyY] = keyX
+                    # alignmentFilePath = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
+                    # preAlignments = utils.importFromJson(alignmentFilePath)
+                    # verticesL = set()
+                    # verticesR = set()
+                    # edges = {}
+                    # for keyA, keyB, similarity in preAlignments:
+                    #     if similarity > 0.75 and not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                    #         if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                    #             verticesL.add(keyA)
+                    #             verticesR.add(keyB)
+                    #             if not edges.get(keyA):
+                    #                 edges[keyA] = []
+                    #             edges[keyA].append(keyB)
+                    # simMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                    # matching += simMatches
+                    # newMatches += simMatches
+                    # for keyX, keyY in simMatches:
+                    #     alreadyMatched[keyX] = keyY
+                    #     alreadyMatched[keyY] = keyX
                     utils.saveToJson(matching, bipartiteMatchingPath)
     if configODS.get('exportFinalMatchingsToRDF'):
         for dir_path in os.listdir(configODS.get('bipartiteMatchingPath')):
