@@ -40,6 +40,7 @@ def resetConfigODS(configODSPath):
                  'exportWalkPromptsToJson': True,
                  'exportTreePromptsToJson': True,
                  'runPromptsOnLLM' : True,
+                 'thresholdForConsideration' : 0.4,
 	             'generateMaximumBipartiteMatching': True,
                  'neighborhoodRange' : 2,
                  'exportFinalMatchingsToRDF': True,

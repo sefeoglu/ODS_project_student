@@ -19,6 +19,8 @@ print('finished imports')
 
 cachedLLMPredictions = {}
 llm = None
+modelSim = None
+preprocessorSim = None
 configODS = configODSImport.getConfigODS()
 
 def candidate_concept_sim(concept1, concept2):
@@ -31,18 +33,28 @@ def candidate_concept_sim(concept1, concept2):
     Returns:
         float: similarity score between concept1 and concept2
     """
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    #>100x faster now
+    global modelSim
+    global preprocessorSim
+    if modelSim == None:
+        modelSim = SentenceTransformer("all-MiniLM-L6-v2")
+    if preprocessorSim == None:
+        preprocessorSim = preprocessing.PreprocessingPipeline()
 
-    preprocessor = preprocessing.PreprocessingPipeline()
+    cleaned_concept1 = " ".join(preprocessorSim.process(concept1))
+    cleaned_concept2 = " ".join(preprocessorSim.process(concept2))
 
-    cleaned_concept1 = " ".join(preprocessor.process(concept1))
-    cleaned_concept2 = " ".join(preprocessor.process(concept2))
-
-    concept1_embedding = model.encode(cleaned_concept1)
-    concept2_embedding = model.encode(cleaned_concept2)
+    concept1_embedding = modelSim.encode(cleaned_concept1)
+    concept2_embedding = modelSim.encode(cleaned_concept2)
     cos_sim = util.cos_sim(concept1_embedding, concept2_embedding)
     #print(f"cosine similarity between {concept1} and {concept2} is {cos_sim.item()}")
     return cos_sim.item()
+
+def testSimScore(triples, key1, key2, threshold):
+    for keyA, keyB, score in triples:
+        if (key1 == keyA and key2 == keyB and (type(score) == type('String') or score >= threshold)):
+            return True
+    return False
 
 def getNeighbors(nodeName, ontology: Ontology, neighborhoodRange):
     return [ontology.onto_name + '#' + neighbor for neighbor in getNeighborsName(nodeName, ontology, neighborhoodRange)]
@@ -67,9 +79,11 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
     promptKey = key1 + ';' + key2
     yesOrNo = cache.get(promptKey)
     if yesOrNo != None:
-        print('hit')
         return yesOrNo
     else:
+        if not os.path.exists(promptsPath): 
+            print('not found:', promptsPath)
+            return 'no'
         promptDict = utils.importFromJson(promptsPath)
         prompt = promptDict.get(promptKey)
         if not prompt: return 'no'
@@ -124,8 +138,8 @@ def main():
                 for class1 in tqdm(onto1.get_classes(), desc = f'computing similarities for {ontoName1} X {ontoName2}'):
                     for class2 in onto2.get_classes():
                         similarity = candidate_concept_sim(class1, class2)
-                        if similarity > 0.4:
-                            preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
+                        #if similarity > 0.2:
+                        preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
                 utils.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
 
@@ -213,7 +227,8 @@ def main():
                 generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
 
     if configODS.get('runPromptsOnLLM'):
-        llm = LLM()
+        global llm
+        if not llm: llm = LLM()
         for dir_path in os.listdir(configODS.get('promptsPath')):
             #print(f"processing '{file_path}'")
             for file_path in os.listdir(configODS.get('promptsPath') + dir_path):
@@ -231,89 +246,93 @@ def main():
                         promptResult[promptKey] = yesOrNo
                     utils.saveToJson(promptResult, llmMatchedFilePath)
     if configODS.get('generateMaximumBipartiteMatching'):
-        for dir_path in os.listdir(configODS.get('llmMatchedPath')):
-            for file_path in tqdm(os.listdir(configODS.get('llmMatchedPath') + dir_path), desc=f'matches {dir_path}'):
-                if file_path.endswith('.json'):
-                    llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
-                    bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
-                    if not os.path.exists(bipartiteMatchingPath):
-                        os.mkdir(bipartiteMatchingPath + '/')
-                    bipartiteMatchingPath += '/' + file_path
-                    llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
-                    verticesL = set()
-                    verticesR = set()
-                    edges = {}
-                    alreadyMatched = {}
-                    exactMatches = utils.importFromJson(configODS.get('exactMatchPath') + file_path)
-                    for key1, key2, _ in exactMatches:
-                        alreadyMatched[key1] = key2     #prevent key1 from getting matched to anything else in ontology2
-                        alreadyMatched[key2] = key1     #prevent key2 from getting matched from anything else in ontology1
-                        edges[key1] = [key2]
-                        verticesL.add(key1)
-                        verticesR.add(key2)
-                    newMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
-                    ontoName1, node1 = key1.split('#')
-                    ontoName2, node2 = key2.split('#')
-                    onto1 = ontos.get(ontoName1)
-                    onto2 = ontos.get(ontoName2)
+        for dir_path in os.listdir(configODS.get('promptsPath')):
+            if os.path.isdir(configODS.get('promptsPath') + '/' + dir_path):
+                for file_path in tqdm(os.listdir(configODS.get('promptsPath') + dir_path), desc=f'matching {dir_path}'):
+                    if file_path.endswith('.json'):
+                        llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
+                        bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
+                        if not os.path.exists(bipartiteMatchingPath):
+                            os.mkdir(bipartiteMatchingPath + '/')
+                        bipartiteMatchingPath += '/' + file_path
+                        llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
 
-                    matching = newMatches
-                    
-                    neighborhoodRange = configODS.get('neighborhoodRange')
-                    i = 0
-                    while len(newMatches) > 0:
-                        i += 1
-                        newNeighborhoodMatches = []
-                        for currentNeighborhoodRange in range(1, 1 + neighborhoodRange):#start by matching near neighborhood and farther extend wider search
-                            verticesL = set()
-                            verticesR = set()
-                            edges = {}
-                            possibleAlignments = []
-                            for key1, key2 in newMatches:
-                                _, node1 = key1.split('#')
-                                _, node2 = key2.split('#')
-                                neighborsOf1 = getNeighbors(node1, onto1, currentNeighborhoodRange)
-                                neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
-                                possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2]
-                            #ask LLM for match or no match
-                            for keyA, keyB in tqdm(possibleAlignments):
-                                if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
-                                    #if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
-                                    if getLLMPrediction(keyA, keyB, llmMatchedFilePath) == 'yes':
-                                        verticesL.add(keyA)
-                                        verticesR.add(keyB)
-                                        if not edges.get(keyA):
-                                            edges[keyA] = []
-                                        edges[keyA].append(keyB)
-                            newNeighborhoodMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
-                            matching += newNeighborhoodMatches
-                            for keyX, keyY in newNeighborhoodMatches:
-                                alreadyMatched[keyX] = keyY
-                                alreadyMatched[keyY] = keyX
-                            # if len(newNeighborhoodMatches) > 0:
-                            #     print('matchRound:', i, 'currentNeighborhoodRange:', currentNeighborhoodRange, 'found', len(newNeighborhoodMatches), 'in poolsize:', len(possibleAlignments))
-                        newMatches = newNeighborhoodMatches
-                    #add remaining llmMatched alignments with enough cosimilarity
-                    # alignmentFilePath = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
-                    # preAlignments = utils.importFromJson(alignmentFilePath)
-                    # verticesL = set()
-                    # verticesR = set()
-                    # edges = {}
-                    # for keyA, keyB, similarity in preAlignments:
-                    #     if similarity > 0.75 and not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
-                    #         if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
-                    #             verticesL.add(keyA)
-                    #             verticesR.add(keyB)
-                    #             if not edges.get(keyA):
-                    #                 edges[keyA] = []
-                    #             edges[keyA].append(keyB)
-                    # simMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
-                    # matching += simMatches
-                    # newMatches += simMatches
-                    # for keyX, keyY in simMatches:
-                    #     alreadyMatched[keyX] = keyY
-                    #     alreadyMatched[keyY] = keyX
-                    utils.saveToJson(matching, bipartiteMatchingPath)
+                        verticesL = set()
+                        verticesR = set()
+                        edges = {}
+                        alreadyMatched = {}
+                        exactMatches = utils.importFromJson(configODS.get('exactMatchPath') + file_path)
+                        for key1, key2, _ in exactMatches:
+                            alreadyMatched[key1] = key2     #prevent key1 from getting matched to anything else in ontology2
+                            alreadyMatched[key2] = key1     #prevent key2 from getting matched from anything else in ontology1
+                            edges[key1] = [key2]
+                            verticesL.add(key1)
+                            verticesR.add(key2)
+                        newMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                        ontoName1, node1 = key1.split('#')
+                        ontoName2, node2 = key2.split('#')
+                        onto1 = ontos.get(ontoName1)
+                        onto2 = ontos.get(ontoName2)
+
+                        matching = newMatches
+                        
+                        neighborhoodRange = configODS.get('neighborhoodRange')
+                        alignmentFilePath = configODS.get('alignmentPath') + file_path
+                        triples = utils.importFromJson(alignmentFilePath)
+                        i = 0
+                        while len(newMatches) > 0:
+                            i += 1
+                            newNeighborhoodMatches = []
+                            for currentNeighborhoodRange in range(1, 1 + neighborhoodRange):#start by matching near neighborhood and farther extend wider search
+                                verticesL = set()
+                                verticesR = set()
+                                edges = {}
+                                possibleAlignments = []
+                                for key1, key2 in newMatches:
+                                    _, node1 = key1.split('#')
+                                    _, node2 = key2.split('#')
+                                    neighborsOf1 = getNeighbors(node1, onto1, currentNeighborhoodRange)
+                                    neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
+                                    possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2 if testSimScore(triples, keyA, keyB, configODS.get('thresholdForConsideration'))]
+                                #ask LLM for match or no match
+                                for keyA, keyB in tqdm(possibleAlignments, desc = f'running prompts for {currentNeighborhoodRange}-hop neighborhoods in {ontoName1}-{ontoName2}'):
+                                    if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                                        #if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                                        if getLLMPrediction(keyA, keyB, llmMatchedFilePath) == 'yes':
+                                            verticesL.add(keyA)
+                                            verticesR.add(keyB)
+                                            if not edges.get(keyA):
+                                                edges[keyA] = []
+                                            edges[keyA].append(keyB)
+                                newNeighborhoodMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                                matching += newNeighborhoodMatches
+                                for keyX, keyY in newNeighborhoodMatches:
+                                    alreadyMatched[keyX] = keyY
+                                    alreadyMatched[keyY] = keyX
+                                # if len(newNeighborhoodMatches) > 0:
+                                #     print('matchRound:', i, 'currentNeighborhoodRange:', currentNeighborhoodRange, 'found', len(newNeighborhoodMatches), 'in poolsize:', len(possibleAlignments))
+                            newMatches = newNeighborhoodMatches
+                        #add remaining llmMatched alignments with enough cosimilarity
+                        # alignmentFilePath = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
+                        # preAlignments = utils.importFromJson(alignmentFilePath)
+                        # verticesL = set()
+                        # verticesR = set()
+                        # edges = {}
+                        # for keyA, keyB, similarity in preAlignments:
+                        #     if similarity > 0.75 and not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                        #         if llmMatchedClasses.get(keyA + ';' + keyB) == 'yes':
+                        #             verticesL.add(keyA)
+                        #             verticesR.add(keyB)
+                        #             if not edges.get(keyA):
+                        #                 edges[keyA] = []
+                        #             edges[keyA].append(keyB)
+                        # simMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
+                        # matching += simMatches
+                        # newMatches += simMatches
+                        # for keyX, keyY in simMatches:
+                        #     alreadyMatched[keyX] = keyY
+                        #     alreadyMatched[keyY] = keyX
+                        utils.saveToJson(matching, bipartiteMatchingPath)
     if configODS.get('exportFinalMatchingsToRDF'):
         for dir_path in os.listdir(configODS.get('bipartiteMatchingPath')):
             for file_path in os.listdir(configODS.get('bipartiteMatchingPath') + dir_path):
