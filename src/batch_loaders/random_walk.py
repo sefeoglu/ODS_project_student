@@ -50,7 +50,7 @@ def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
             true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
             
             if (true_parent_prob + true_child_prob + true_equivalent_prob + true_object_prop_prob) == 0:
-                return None
+                continue
             counterParent = 0
             counterChild = 0
             counterEquivalent = 0
