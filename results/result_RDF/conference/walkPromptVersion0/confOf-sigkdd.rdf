@@ -8,22 +8,6 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Conference"/>
-      <entity2 rdf:resource="http://sigkdd#Conference"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://confOf#Paper"/>
-      <entity2 rdf:resource="http://sigkdd#Paper"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://confOf#Author"/>
       <entity2 rdf:resource="http://sigkdd#Author"/>
       <relation>=</relation>
@@ -40,8 +24,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://confOf#Poster"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <entity1 rdf:resource="http://confOf#Conference"/>
+      <entity2 rdf:resource="http://sigkdd#Conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://confOf#Paper"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -49,7 +41,7 @@
   <map>
     <Cell>
       <entity1 rdf:resource="http://confOf#Member"/>
-      <entity2 rdf:resource="http://sigkdd#Organizator"/>
+      <entity2 rdf:resource="http://sigkdd#Program_Committee_member"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

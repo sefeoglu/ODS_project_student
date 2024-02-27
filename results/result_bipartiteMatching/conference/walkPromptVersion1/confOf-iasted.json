@@ -1,13 +1,5 @@
 [
 	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
@@ -16,15 +8,11 @@
 		"iasted#Person"
 	],
 	[
-		"confOf#Working_event",
-		"iasted#Conference_activity"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
-		"confOf#Conference",
-		"iasted#Coctail_reception"
-	],
-	[
-		"confOf#Event",
-		"iasted#Welcome_address"
+		"confOf#Author",
+		"iasted#Author"
 	]
 ]

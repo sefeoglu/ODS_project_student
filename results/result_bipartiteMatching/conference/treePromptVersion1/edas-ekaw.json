@@ -1,23 +1,31 @@
 [
 	[
+		"edas#SocialEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
+	],
+	[
 		"edas#ConferenceSession",
 		"ekaw#Conference_Session"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#Workshop",
 		"ekaw#Workshop"
 	],
 	[
-		"edas#SocialEvent",
-		"ekaw#Social_Event"
-	],
-	[
-		"edas#Review",
-		"ekaw#Review"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
+		"edas#Person",
+		"ekaw#Person"
 	],
 	[
 		"edas#Document",
@@ -28,10 +36,6 @@
 		"ekaw#Session_Chair"
 	],
 	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
 		"edas#Presenter",
 		"ekaw#Presenter"
 	],
@@ -40,31 +44,19 @@
 		"ekaw#Conference"
 	],
 	[
-		"edas#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"edas#Person",
-		"ekaw#Person"
-	],
-	[
-		"edas#Author",
-		"ekaw#Invited_Speaker"
-	],
-	[
-		"edas#Reviewer",
-		"ekaw#Possible_Reviewer"
+		"edas#Review",
+		"ekaw#Review"
 	],
 	[
 		"edas#ConferenceChair",
 		"ekaw#Workshop_Chair"
 	],
 	[
-		"edas#ConferenceEvent",
-		"ekaw#Conference_Banquet"
-	],
-	[
 		"edas#MealEvent",
 		"ekaw#Event"
+	],
+	[
+		"edas#ConferenceEvent",
+		"ekaw#Conference_Banquet"
 	]
 ]

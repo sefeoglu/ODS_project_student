@@ -1,4 +1,10 @@
 {
-	"cmt#Conference;edas#Conference": "yes",
-	"cmt#ConferenceMember;edas#Reviewer": "yes"
+    "cmt#Conference;edas#Conference": "yes",
+    "cmt#ConferenceMember;edas#Reviewer": "yes",
+    "cmt#PaperFullVersion;edas#PublishedPaper": "no",
+    "cmt#PaperAbstract;edas#PublishedPaper": "no",
+    "cmt#ConferenceMember;edas#Attendee": "no",
+    "cmt#ConferenceMember;edas#TPCMember": "no",
+    "cmt#AssociatedChair;edas#SessionChair": "no",
+    "cmt#ProgramCommitteeChair;edas#SessionChair": "no"
 }

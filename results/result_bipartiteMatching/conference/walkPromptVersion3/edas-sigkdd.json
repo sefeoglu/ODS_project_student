@@ -1,23 +1,11 @@
 [
 	[
-		"edas#Review",
-		"sigkdd#Review"
-	],
-	[
 		"edas#Place",
 		"sigkdd#Place"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
-	],
-	[
-		"edas#Document",
-		"sigkdd#Document"
-	],
-	[
-		"edas#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"edas#Paper",
@@ -28,43 +16,39 @@
 		"sigkdd#Person"
 	],
 	[
-		"edas#Attendee",
-		"sigkdd#Listener"
+		"edas#Document",
+		"sigkdd#Document"
 	],
 	[
-		"edas#MeetingRoomPlace",
-		"sigkdd#Main_office"
+		"edas#Conference",
+		"sigkdd#Conference"
 	],
 	[
-		"edas#SlideSet",
-		"sigkdd#Abstract"
+		"edas#Review",
+		"sigkdd#Review"
 	],
 	[
 		"edas#ConferenceVenuePlace",
-		"sigkdd#Hotel"
-	],
-	[
-		"edas#ConferenceChair",
-		"sigkdd#Speaker"
-	],
-	[
-		"edas#SessionChair",
-		"sigkdd#Organizator"
-	],
-	[
-		"edas#DiningPlace",
 		"sigkdd#Conference_hall"
 	],
 	[
-		"edas#TPCMember",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"edas#Reviewer",
-		"sigkdd#Author_of_paper_student"
+		"edas#DiningPlace",
+		"sigkdd#Hotel"
 	],
 	[
 		"edas#Presenter",
-		"sigkdd#ACM_SIGKDD"
+		"sigkdd#Speaker"
+	],
+	[
+		"edas#ConferenceChair",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"edas#SessionChair",
+		"sigkdd#General_Chair"
 	]
 ]

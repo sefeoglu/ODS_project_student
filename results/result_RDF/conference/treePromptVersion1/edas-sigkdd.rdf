@@ -8,14 +8,6 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Review"/>
-      <entity2 rdf:resource="http://sigkdd#Review"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://edas#Place"/>
       <entity2 rdf:resource="http://sigkdd#Place"/>
       <relation>=</relation>
@@ -26,22 +18,6 @@
     <Cell>
       <entity1 rdf:resource="http://edas#Author"/>
       <entity2 rdf:resource="http://sigkdd#Author"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://edas#Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://edas#Conference"/>
-      <entity2 rdf:resource="http://sigkdd#Conference"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -64,16 +40,32 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Presenter"/>
-      <entity2 rdf:resource="http://sigkdd#Speaker"/>
+      <entity1 rdf:resource="http://edas#Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#WithdrawnPaper"/>
-      <entity2 rdf:resource="http://sigkdd#Abstract"/>
+      <entity1 rdf:resource="http://edas#Conference"/>
+      <entity2 rdf:resource="http://sigkdd#Conference"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Review"/>
+      <entity2 rdf:resource="http://sigkdd#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Presenter"/>
+      <entity2 rdf:resource="http://sigkdd#Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

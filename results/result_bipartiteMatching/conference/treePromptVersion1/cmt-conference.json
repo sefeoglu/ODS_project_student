@@ -1,5 +1,21 @@
 [
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
@@ -8,19 +24,11 @@
 		"conference#Reviewer"
 	],
 	[
-		"cmt#Review",
-		"conference#Review"
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
+		"cmt#Chairman",
+		"conference#Chair"
 	]
 ]

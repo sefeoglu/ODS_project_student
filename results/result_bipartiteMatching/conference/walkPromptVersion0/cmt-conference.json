@@ -1,5 +1,21 @@
 [
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
@@ -8,31 +24,11 @@
 		"conference#Reviewer"
 	],
 	[
-		"cmt#Review",
-		"conference#Review"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#Document",
-		"conference#Regular_contribution"
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
 	],
 	[
 		"cmt#Chairman",
 		"conference#Chair"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"conference#Abstract"
 	]
 ]

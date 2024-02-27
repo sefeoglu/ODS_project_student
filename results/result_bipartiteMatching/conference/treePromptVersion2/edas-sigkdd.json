@@ -1,23 +1,11 @@
 [
 	[
-		"edas#Review",
-		"sigkdd#Review"
-	],
-	[
 		"edas#Place",
 		"sigkdd#Place"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
-	],
-	[
-		"edas#Document",
-		"sigkdd#Document"
-	],
-	[
-		"edas#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"edas#Paper",
@@ -28,7 +16,15 @@
 		"sigkdd#Person"
 	],
 	[
-		"edas#SlideSet",
-		"sigkdd#Abstract"
+		"edas#Document",
+		"sigkdd#Document"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"edas#Review",
+		"sigkdd#Review"
 	]
 ]

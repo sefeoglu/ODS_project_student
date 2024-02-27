@@ -1,15 +1,15 @@
 [
 	[
-		"cmt#Author",
-		"confOf#Author"
-	],
-	[
 		"cmt#Person",
 		"confOf#Person"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author"
 	],
 	[
 		"cmt#Administrator",
@@ -21,14 +21,10 @@
 	],
 	[
 		"cmt#User",
-		"confOf#Participant"
+		"confOf#Student"
 	],
 	[
-		"cmt#Meta-Reviewer",
+		"cmt#ProgramCommitteeMember",
 		"confOf#Member"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Chair_PC"
 	]
 ]

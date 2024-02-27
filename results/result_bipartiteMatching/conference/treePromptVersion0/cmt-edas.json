@@ -1,23 +1,11 @@
 [
 	[
-		"cmt#Paper",
-		"edas#Paper"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Document",
 		"edas#Document"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"cmt#Author",
-		"edas#Author"
 	],
 	[
 		"cmt#Review",
@@ -28,15 +16,23 @@
 		"edas#Conference"
 	],
 	[
-		"cmt#Person",
-		"edas#Person"
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
+	],
+	[
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Paper",
+		"edas#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"cmt#ConferenceMember",
 		"edas#Presenter"
-	],
-	[
-		"cmt#Chairman",
-		"edas#SessionChair"
 	]
 ]

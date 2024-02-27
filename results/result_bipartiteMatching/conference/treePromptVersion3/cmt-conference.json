@@ -1,5 +1,21 @@
 [
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
@@ -8,87 +24,47 @@
 		"conference#Reviewer"
 	],
 	[
-		"cmt#Review",
-		"conference#Review"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Conference",
-		"conference#Conference"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"conference#Conference_contributor"
-	],
-	[
-		"cmt#User",
-		"conference#Committee_member"
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
 	],
 	[
 		"cmt#Document",
 		"conference#Conference_document"
 	],
 	[
-		"cmt#ConferenceMember",
-		"conference#Conference_applicant"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"conference#Chair"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Co-chair"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"conference#Passive_conference_participant"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"conference#Conference_contribution"
-	],
-	[
-		"cmt#Author",
-		"conference#Track-workshop_chair"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"conference#Organizer"
-	],
-	[
-		"cmt#Co-author",
-		"conference#Conference_participant"
-	],
-	[
-		"cmt#Meta-Review",
-		"conference#Call_for_participation"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Regular_author"
-	],
-	[
-		"cmt#Administrator",
-		"conference#Registeered_applicant"
-	],
-	[
-		"cmt#PaperAbstract",
-		"conference#Submitted_contribution"
+		"cmt#ProgramCommitteeMember",
+		"conference#Committee_member"
 	],
 	[
 		"cmt#AssociatedChair",
-		"conference#Active_conference_participant"
+		"conference#Co-chair"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"conference#Track-workshop_chair"
+	],
+	[
+		"cmt#Author",
+		"conference#Regular_author"
 	],
 	[
 		"cmt#Chairman",
-		"conference#Paid_applicant"
+		"conference#Chair"
+	],
+	[
+		"cmt#PaperAbstract",
+		"conference#Extended_abstract"
+	],
+	[
+		"cmt#ConferenceChair",
+		"conference#Conference_applicant"
+	],
+	[
+		"cmt#User",
+		"conference#Contribution_co-author"
+	],
+	[
+		"cmt#Co-author",
+		"conference#Contribution_1th-author"
 	]
 ]

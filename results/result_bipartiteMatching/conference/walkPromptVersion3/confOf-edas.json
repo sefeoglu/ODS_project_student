@@ -1,7 +1,23 @@
 [
 	[
-		"confOf#Reception",
-		"edas#Reception"
+		"confOf#Social_event",
+		"edas#SocialEvent"
+	],
+	[
+		"confOf#Conference",
+		"edas#Conference"
+	],
+	[
+		"confOf#Paper",
+		"edas#Paper"
+	],
+	[
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Topic",
@@ -16,107 +32,71 @@
 		"edas#Country"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
-	],
-	[
-		"confOf#Conference",
-		"edas#Conference"
-	],
-	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
-	],
-	[
-		"confOf#Paper",
-		"edas#Paper"
-	],
-	[
 		"confOf#Organization",
 		"edas#Organization"
 	],
 	[
-		"confOf#Science_Worker",
-		"edas#SessionChair"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
-		"confOf#Administrator",
-		"edas#Reviewer"
-	],
-	[
-		"confOf#Company",
-		"edas#NGO"
-	],
-	[
-		"confOf#Trip",
-		"edas#Excursion"
+		"confOf#Chair_PC",
+		"edas#ConferenceChair"
 	],
 	[
 		"confOf#Event",
 		"edas#NonAcademicEvent"
 	],
 	[
-		"confOf#Assistant",
-		"edas#ConferenceChair"
+		"confOf#Trip",
+		"edas#Excursion"
 	],
 	[
-		"confOf#Contribution",
-		"edas#Document"
+		"confOf#Participant",
+		"edas#Attendee"
 	],
 	[
 		"confOf#University",
+		"edas#AcademiaOrganization"
+	],
+	[
+		"confOf#Company",
 		"edas#IndustryOrganization"
 	],
 	[
 		"confOf#Member_PC",
-		"edas#Attendee"
-	],
-	[
-		"confOf#Working_event",
-		"edas#TwoLevelConference"
-	],
-	[
-		"confOf#Participant",
 		"edas#TPCMember"
 	],
 	[
-		"confOf#Reviewing_results_event",
+		"confOf#Administrative_event",
+		"edas#ConferenceEvent"
+	],
+	[
+		"confOf#Reviewing_event",
+		"edas#MealEvent"
+	],
+	[
+		"confOf#Camera_Ready_event",
 		"edas#BreakEvent"
 	],
 	[
 		"confOf#Submission_event",
-		"edas#CoffeeBreak"
-	],
-	[
-		"confOf#Poster",
-		"edas#RatedPapers"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"edas#FreeTimeBreak"
-	],
-	[
-		"confOf#Banquet",
-		"edas#MealBreak"
+		"edas#AcademicEvent"
 	],
 	[
 		"confOf#Short_paper",
-		"edas#WithdrawnPaper"
+		"edas#PendingPaper"
 	],
 	[
-		"confOf#Administrative_event",
-		"edas#SingleLevelConference"
+		"confOf#Poster",
+		"edas#PublishedPaper"
 	],
 	[
-		"confOf#Chair_PC",
-		"edas#Presenter"
+		"confOf#Working_event",
+		"edas#TalkEvent"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#ConferenceEvent"
+		"confOf#Banquet",
+		"edas#ConferenceDinner"
 	]
 ]

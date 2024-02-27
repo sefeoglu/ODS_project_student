@@ -1,19 +1,7 @@
 [
 	[
-		"conference#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Organization",
-		"edas#Organization"
-	],
-	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
 		"conference#Paper",
@@ -24,47 +12,47 @@
 		"edas#Reviewer"
 	],
 	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Review",
 		"edas#Review"
 	],
 	[
-		"conference#Conference",
-		"edas#Conference"
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
 	],
 	[
-		"conference#Conference_part",
-		"edas#AcademicEvent"
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Conference_participant",
+		"edas#Attendee"
 	],
 	[
 		"conference#Conference_document",
-		"edas#Call"
-	],
-	[
-		"conference#Regular_contribution",
 		"edas#Document"
 	],
 	[
-		"conference#Written_contribution",
-		"edas#PublishedPaper"
+		"conference#Regular_author",
+		"edas#Author"
 	],
 	[
-		"conference#Chair",
-		"edas#ConferenceChair"
+		"conference#Call_for_participation",
+		"edas#Call"
 	],
 	[
-		"conference#Reviewed_contribution",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Submitted_contribution",
-		"edas#PendingPaper"
-	],
-	[
-		"conference#Tutorial",
+		"conference#Conference_part",
 		"edas#ConferenceEvent"
 	]
 ]

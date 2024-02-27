@@ -1,15 +1,15 @@
 [
 	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
 		"cmt#Document",
 		"ekaw#Document"
 	],
 	[
 		"cmt#Review",
 		"ekaw#Review"
-	],
-	[
-		"cmt#Person",
-		"ekaw#Person"
 	],
 	[
 		"cmt#Conference",
@@ -21,26 +21,18 @@
 	],
 	[
 		"cmt#ConferenceMember",
-		"ekaw#Possible_Reviewer"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#PC_Chair"
-	],
-	[
-		"cmt#AssociatedChair",
-		"ekaw#Session_Chair"
+		"ekaw#Conference_Participant"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"ekaw#PC_Member"
 	],
 	[
-		"cmt#PaperAbstract",
-		"ekaw#Abstract"
+		"cmt#AssociatedChair",
+		"ekaw#Session_Chair"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair"
 	]
 ]

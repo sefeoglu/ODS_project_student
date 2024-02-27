@@ -1,78 +1,50 @@
 [
 	[
-		"conference#Workshop",
-		"confOf#Workshop"
-	],
-	[
-		"conference#Topic",
-		"confOf#Topic"
-	],
-	[
-		"conference#Organization",
-		"confOf#Organization"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
-	],
-	[
-		"conference#Paper",
-		"confOf#Paper"
+		"conference#Conference",
+		"confOf#Conference"
 	],
 	[
 		"conference#Tutorial",
 		"confOf#Tutorial"
 	],
 	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Workshop",
+		"confOf#Workshop"
+	],
+	[
 		"conference#Poster",
 		"confOf#Poster"
 	],
 	[
-		"conference#Conference",
-		"confOf#Conference"
+		"conference#Person",
+		"confOf#Person"
 	],
 	[
-		"conference#Conference_contributor",
-		"confOf#Science_Worker"
+		"conference#Topic",
+		"confOf#Topic"
 	],
 	[
-		"conference#Conference_applicant",
-		"confOf#Administrator"
-	],
-	[
-		"conference#Committee_member",
-		"confOf#Chair_PC"
-	],
-	[
-		"conference#Regular_contribution",
+		"conference#Conference_contribution",
 		"confOf#Contribution"
 	],
 	[
+		"conference#Committee_member",
+		"confOf#Member_PC"
+	],
+	[
 		"conference#Conference_participant",
-		"confOf#Scholar"
-	],
-	[
-		"conference#Reviewer",
-		"confOf#Author"
-	],
-	[
-		"conference#Track-workshop_chair",
 		"confOf#Participant"
 	],
 	[
 		"conference#Regular_author",
-		"confOf#Volunteer"
-	],
-	[
-		"conference#Contribution_co-author",
-		"confOf#Member_PC"
-	],
-	[
-		"conference#Conference_document",
-		"confOf#Short_paper"
-	],
-	[
-		"conference#Chair",
 		"confOf#Regular"
 	],
 	[
@@ -80,11 +52,7 @@
 		"confOf#Event"
 	],
 	[
-		"conference#Active_conference_participant",
+		"conference#Contribution_co-author",
 		"confOf#Member"
-	],
-	[
-		"conference#Track",
-		"confOf#Working_event"
 	]
 ]

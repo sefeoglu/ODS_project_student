@@ -1,9 +1,5 @@
 [
 	[
-		"ekaw#Document",
-		"iasted#Document"
-	],
-	[
 		"ekaw#Review",
 		"iasted#Review"
 	],
@@ -12,48 +8,40 @@
 		"iasted#Session_chair"
 	],
 	[
-		"ekaw#Session",
-		"iasted#Session"
-	],
-	[
 		"ekaw#Tutorial",
 		"iasted#Tutorial"
+	],
+	[
+		"ekaw#Document",
+		"iasted#Document"
+	],
+	[
+		"ekaw#Session",
+		"iasted#Session"
 	],
 	[
 		"ekaw#Person",
 		"iasted#Person"
 	],
 	[
-		"ekaw#Conference_Session",
-		"iasted#Lecture"
+		"ekaw#Paper",
+		"iasted#Submission"
 	],
 	[
 		"ekaw#Poster_Session",
 		"iasted#Speaker_lecture"
 	],
 	[
-		"ekaw#Web_Site",
-		"iasted#Item"
+		"ekaw#Proceedings",
+		"iasted#Form"
 	],
 	[
-		"ekaw#Conference_Participant",
-		"iasted#Delegate"
+		"ekaw#Conference",
+		"iasted#Conference_activity"
 	],
 	[
-		"ekaw#Abstract",
-		"iasted#Invitation_letter"
-	],
-	[
-		"ekaw#Paper",
-		"iasted#Submission"
-	],
-	[
-		"ekaw#Flyer",
-		"iasted#Payment_document"
-	],
-	[
-		"ekaw#Programme_Brochure",
-		"iasted#Mailing_list"
+		"ekaw#Agency_Staff_Member",
+		"iasted#IASTED_member"
 	],
 	[
 		"ekaw#Submitted_Paper",
@@ -61,166 +49,34 @@
 	],
 	[
 		"ekaw#Poster_Paper",
-		"iasted#Record_of_attendance"
-	],
-	[
-		"ekaw#OC_Member",
-		"iasted#Speaker"
-	],
-	[
-		"ekaw#Camera_Ready_Paper",
-		"iasted#Transparency"
-	],
-	[
-		"ekaw#Conference_Paper",
-		"iasted#Author_information_form"
-	],
-	[
-		"ekaw#Tutorial_Chair",
-		"iasted#Listener"
-	],
-	[
-		"ekaw#PC_Member",
-		"iasted#Conference_Hiker"
-	],
-	[
-		"ekaw#PC_Chair",
-		"iasted#Technical_commitee"
-	],
-	[
-		"ekaw#Invited_Talk",
-		"iasted#Conference_activity"
-	],
-	[
-		"ekaw#Invited_Speaker",
-		"iasted#Worker_non_speaker"
-	],
-	[
-		"ekaw#Demo_Paper",
-		"iasted#Card"
-	],
-	[
-		"ekaw#Early-Registered_Participant",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"ekaw#SC_Member",
-		"iasted#One_day_presenter"
-	],
-	[
-		"ekaw#Scientific_Event",
-		"iasted#Social_program"
-	],
-	[
-		"ekaw#Paper_Author",
-		"iasted#IASTED_member"
-	],
-	[
-		"ekaw#Workshop_Paper",
-		"iasted#Form"
-	],
-	[
-		"ekaw#Proceedings",
-		"iasted#Final_manuscript"
-	],
-	[
-		"ekaw#Industrial_Paper",
-		"iasted#Initial_manuscipt"
-	],
-	[
-		"ekaw#Positive_Review",
-		"iasted#Bank_transfer"
-	],
-	[
-		"ekaw#Invited_Talk_Abstract",
-		"iasted#Cheque"
-	],
-	[
-		"ekaw#Workshop_Chair",
-		"iasted#Author"
-	],
-	[
-		"ekaw#Late-Registered_Participant",
-		"iasted#Non_speaker"
-	],
-	[
-		"ekaw#Track",
-		"iasted#Plenary_lecture"
-	],
-	[
-		"ekaw#Presenter",
-		"iasted#Student_non_speaker"
-	],
-	[
-		"ekaw#Neutral_Review",
 		"iasted#Publication"
 	],
 	[
-		"ekaw#Demo_Chair",
-		"iasted#Reviewer"
+		"ekaw#Conference_Participant",
+		"iasted#Conference_Hiker"
 	],
 	[
-		"ekaw#Multi-author_Volume",
-		"iasted#Computer"
+		"ekaw#Presenter",
+		"iasted#Speaker"
 	],
 	[
-		"ekaw#Industrial_Session",
-		"iasted#Coffee_break"
+		"ekaw#PC_Member",
+		"iasted#IASTED_non_member"
 	],
 	[
-		"ekaw#Tutorial_Abstract",
-		"iasted#Brief_introduction_for_Session_chair"
-	],
-	[
-		"ekaw#Assigned_Paper",
-		"iasted#Viza"
-	],
-	[
-		"ekaw#Possible_Reviewer",
-		"iasted#Hotel_presenter"
-	],
-	[
-		"ekaw#Demo_Session",
-		"iasted#Technic_activity"
-	],
-	[
-		"ekaw#Workshop_Session",
-		"iasted#Welcome_address"
-	],
-	[
-		"ekaw#Regular_Session",
-		"iasted#Introduction"
-	],
-	[
-		"ekaw#OC_Chair",
-		"iasted#Sponsor"
-	],
-	[
-		"ekaw#Event",
-		"iasted#Dinner_banquet"
+		"ekaw#Workshop",
+		"iasted#Lecture"
 	],
 	[
 		"ekaw#Individual_Presentation",
 		"iasted#Presentation"
 	],
 	[
-		"ekaw#Contributed_Talk",
-		"iasted#Introduction_of_speaker"
+		"ekaw#Invited_Speaker",
+		"iasted#Plenary_lecture_speaker"
 	],
 	[
-		"ekaw#Conference",
-		"iasted#Registration"
-	],
-	[
-		"ekaw#Negative_Review",
-		"iasted#Cd_proceening"
-	],
-	[
-		"ekaw#Workshop",
+		"ekaw#Track",
 		"iasted#Activity"
-	],
-	[
-		"ekaw#Social_Event",
-		"iasted#Coctail_reception"
 	]
 ]

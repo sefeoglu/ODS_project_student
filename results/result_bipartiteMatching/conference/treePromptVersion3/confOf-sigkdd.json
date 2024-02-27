@@ -1,13 +1,5 @@
 [
 	[
-		"confOf#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"confOf#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"confOf#Author",
 		"sigkdd#Author"
 	],
@@ -16,47 +8,23 @@
 		"sigkdd#Person"
 	],
 	[
-		"confOf#Science_Worker",
-		"sigkdd#Listener"
+		"confOf#Conference",
+		"sigkdd#Conference"
 	],
 	[
-		"confOf#Administrator",
-		"sigkdd#Organizator"
-	],
-	[
-		"confOf#Volunteer",
-		"sigkdd#Speaker"
-	],
-	[
-		"confOf#Regular",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"confOf#Contribution",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"confOf#Student",
-		"sigkdd#Program_Committee_member"
+		"confOf#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"confOf#Member_PC",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"confOf#Short_paper",
-		"sigkdd#Review"
-	],
-	[
-		"confOf#Participant",
-		"sigkdd#General_Chair"
-	],
-	[
-		"confOf#Scholar",
-		"sigkdd#Author_of_paper_student"
+		"sigkdd#Organizing_Committee_member"
 	],
 	[
 		"confOf#Member",
-		"sigkdd#Webmaster"
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"confOf#Short_paper",
+		"sigkdd#Document"
 	]
 ]

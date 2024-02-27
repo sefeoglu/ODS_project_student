@@ -1,15 +1,15 @@
 [
 	[
-		"cmt#Author",
-		"confOf#Author"
-	],
-	[
 		"cmt#Person",
 		"confOf#Person"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
+	],
+	[
+		"cmt#Author",
+		"confOf#Author"
 	],
 	[
 		"cmt#Administrator",
@@ -20,55 +20,23 @@
 		"confOf#Paper"
 	],
 	[
-		"cmt#Document",
-		"confOf#Contribution"
-	],
-	[
-		"cmt#User",
-		"confOf#Scholar"
-	],
-	[
-		"cmt#ExternalReviewer",
+		"cmt#ConferenceMember",
 		"confOf#Member_PC"
 	],
 	[
-		"cmt#ConferenceMember",
+		"cmt#Chairman",
 		"confOf#Chair_PC"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"confOf#Science_Worker"
-	],
-	[
-		"cmt#ConferenceChair",
-		"confOf#Volunteer"
-	],
-	[
-		"cmt#Reviewer",
-		"confOf#Regular"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"confOf#Participant"
-	],
-	[
-		"cmt#Meta-Review",
+		"cmt#Document",
 		"confOf#Short_paper"
 	],
 	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Member"
-	],
-	[
-		"cmt#Review",
-		"confOf#Poster"
-	],
-	[
-		"cmt#AssociatedChair",
-		"confOf#Assistant"
-	],
-	[
-		"cmt#Meta-Reviewer",
+		"cmt#User",
 		"confOf#Student"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"confOf#Member"
 	]
 ]

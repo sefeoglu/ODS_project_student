@@ -1,11 +1,7 @@
 [
 	[
-		"conference#Review",
-		"iasted#Review"
-	],
-	[
-		"conference#Person",
-		"iasted#Person"
+		"conference#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"conference#Reviewer",
@@ -16,39 +12,23 @@
 		"iasted#Presentation"
 	],
 	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
-		"conference#Conference_part",
-		"iasted#Lecture"
-	],
-	[
-		"conference#Workshop",
-		"iasted#Activity"
-	],
-	[
-		"conference#Committee_member",
-		"iasted#Speaker"
-	],
-	[
-		"conference#Information_for_participants",
-		"iasted#Document"
+		"conference#Person",
+		"iasted#Person"
 	],
 	[
 		"conference#Conference_participant",
 		"iasted#Conference_Hiker"
 	],
 	[
-		"conference#Track",
+		"conference#Workshop",
 		"iasted#Conference_activity"
 	],
 	[
-		"conference#Call_for_participation",
-		"iasted#Form"
-	],
-	[
-		"conference#Conference",
-		"iasted#Conference_city"
+		"conference#Invited_speaker",
+		"iasted#Speaker"
 	]
 ]

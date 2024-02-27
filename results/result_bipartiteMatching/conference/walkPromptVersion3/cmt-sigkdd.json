@@ -1,70 +1,50 @@
 [
 	[
-		"cmt#Paper",
-		"sigkdd#Paper"
+		"cmt#Person",
+		"sigkdd#Person"
 	],
 	[
 		"cmt#Document",
 		"sigkdd#Document"
 	],
 	[
-		"cmt#Author",
-		"sigkdd#Author"
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Program_Committee_member"
 	],
 	[
 		"cmt#Review",
 		"sigkdd#Review"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"sigkdd#Program_Committee"
-	],
-	[
 		"cmt#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"sigkdd#Program_Committee_member"
+		"cmt#ProgramCommittee",
+		"sigkdd#Program_Committee"
 	],
 	[
-		"cmt#Person",
-		"sigkdd#Person"
+		"cmt#Author",
+		"sigkdd#Author"
 	],
 	[
-		"cmt#User",
-		"sigkdd#Listener"
-	],
-	[
-		"cmt#ConferenceMember",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"cmt#Chairman",
-		"sigkdd#Organizator"
+		"cmt#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"cmt#AuthorNotReviewer",
-		"sigkdd#Speaker"
+		"sigkdd#Author_of_paper"
 	],
 	[
-		"cmt#ConferenceChair",
-		"sigkdd#General_Chair"
-	],
-	[
-		"cmt#ExternalReviewer",
+		"cmt#ConferenceMember",
 		"sigkdd#Invited_Speaker"
 	],
 	[
-		"cmt#Reviewer",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"cmt#Meta-Reviewer",
+		"cmt#ConferenceChair",
 		"sigkdd#Program_Chair"
+	],
+	[
+		"cmt#AssociatedChair",
+		"sigkdd#General_Chair"
 	]
 ]

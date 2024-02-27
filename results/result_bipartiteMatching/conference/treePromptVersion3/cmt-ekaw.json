@@ -1,15 +1,15 @@
 [
 	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
 		"cmt#Document",
 		"ekaw#Document"
 	],
 	[
 		"cmt#Review",
 		"ekaw#Review"
-	],
-	[
-		"cmt#Person",
-		"ekaw#Person"
 	],
 	[
 		"cmt#Conference",
@@ -20,71 +20,51 @@
 		"ekaw#Paper"
 	],
 	[
+		"cmt#ConferenceMember",
+		"ekaw#Conference_Participant"
+	],
+	[
 		"cmt#User",
 		"ekaw#Student"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"ekaw#Regular_Paper"
 	],
 	[
 		"cmt#ExternalReviewer",
 		"ekaw#Possible_Reviewer"
 	],
 	[
-		"cmt#ConferenceMember",
-		"ekaw#Conference_Participant"
-	],
-	[
 		"cmt#Chairman",
 		"ekaw#Agency_Staff_Member"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"ekaw#Workshop_Paper"
+		"cmt#PaperAbstract",
+		"ekaw#Poster_Paper"
 	],
 	[
 		"cmt#Meta-Review",
 		"ekaw#Positive_Review"
 	],
 	[
-		"cmt#PaperAbstract",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"ekaw#Late-Registered_Participant"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#Presenter"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#OC_Member"
-	],
-	[
-		"cmt#Author",
-		"ekaw#Tutorial_Chair"
-	],
-	[
-		"cmt#Co-author",
-		"ekaw#Paper_Author"
-	],
-	[
 		"cmt#ProgramCommitteeMember",
 		"ekaw#SC_Member"
 	],
 	[
+		"cmt#AssociatedChair",
+		"ekaw#Tutorial_Chair"
+	],
+	[
 		"cmt#AuthorNotReviewer",
-		"ekaw#OC_Chair"
+		"ekaw#Paper_Author"
+	],
+	[
+		"cmt#ConferenceChair",
+		"ekaw#Session_Chair"
 	],
 	[
 		"cmt#ProgramCommitteeChair",
 		"ekaw#PC_Chair"
-	],
-	[
-		"cmt#AssociatedChair",
-		"ekaw#Demo_Chair"
-	],
-	[
-		"cmt#Administrator",
-		"ekaw#Session_Chair"
 	]
 ]

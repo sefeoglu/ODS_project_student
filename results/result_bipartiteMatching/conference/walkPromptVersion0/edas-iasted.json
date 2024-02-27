@@ -1,78 +1,50 @@
 [
 	[
-		"edas#Review",
-		"iasted#Review"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#Place",
 		"iasted#Place"
-	],
-	[
-		"edas#SessionChair",
-		"iasted#Session_chair"
-	],
-	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
 		"edas#Person",
 		"iasted#Person"
+	],
+	[
+		"edas#Document",
+		"iasted#Document"
+	],
+	[
+		"edas#SessionChair",
+		"iasted#Session_chair"
+	],
+	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
+	],
+	[
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Conference_hall"
 	],
 	[
-		"edas#BreakEvent",
-		"iasted#Social_program"
+		"edas#Paper",
+		"iasted#Submission"
 	],
 	[
 		"edas#PublishedPaper",
-		"iasted#Item"
-	],
-	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_restaurant"
-	],
-	[
-		"edas#Paper",
 		"iasted#Publication"
 	],
 	[
-		"edas#ConferenceEvent",
-		"iasted#Lecture"
-	],
-	[
-		"edas#SocialEvent",
-		"iasted#Coctail_reception"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Session"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#Presentation"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_city"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_building"
 	]
 ]

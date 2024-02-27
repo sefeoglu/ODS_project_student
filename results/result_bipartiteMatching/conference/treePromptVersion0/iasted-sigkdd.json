@@ -1,66 +1,62 @@
 [
 	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Review",
-		"sigkdd#Review"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Speaker",
-		"sigkdd#Speaker"
-	],
-	[
-		"iasted#Place",
-		"sigkdd#Place"
-	],
-	[
-		"iasted#Deadline",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Author",
+		"sigkdd#Author"
 	],
 	[
 		"iasted#Listener",
 		"sigkdd#Listener"
 	],
 	[
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Place",
+		"sigkdd#Place"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Speaker",
+		"sigkdd#Speaker"
+	],
+	[
+		"iasted#Review",
+		"sigkdd#Review"
+	],
+	[
 		"iasted#Registration_fee",
 		"sigkdd#Registration_fee"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Hotel_room",
+		"sigkdd#Hotel"
 	],
 	[
 		"iasted#Transparency",
 		"sigkdd#Paper"
 	],
 	[
-		"iasted#Plenary_lecture_speaker",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"iasted#Building",
-		"sigkdd#Hotel"
-	],
-	[
-		"iasted#Conference_days",
-		"sigkdd#Conference"
+		"iasted#Session_chair",
+		"sigkdd#Program_Chair"
 	]
 ]

@@ -1,23 +1,11 @@
 [
 	[
-		"cmt#Paper",
-		"edas#Paper"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Document",
 		"edas#Document"
-	],
-	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"cmt#Author",
-		"edas#Author"
 	],
 	[
 		"cmt#Review",
@@ -28,35 +16,39 @@
 		"edas#Conference"
 	],
 	[
-		"cmt#Person",
-		"edas#Person"
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"edas#PendingPaper"
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Paper",
+		"edas#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"cmt#ConferenceMember",
-		"edas#Presenter"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"edas#SessionChair"
-	],
-	[
-		"cmt#PaperAbstract",
-		"edas#ActivePaper"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"edas#TPCMember"
-	],
-	[
-		"cmt#AssociatedChair",
 		"edas#Attendee"
 	],
 	[
-		"cmt#Meta-Review",
+		"cmt#PaperAbstract",
 		"edas#PublishedPaper"
+	],
+	[
+		"cmt#Chairman",
+		"edas#Presenter"
+	],
+	[
+		"cmt#AssociatedChair",
+		"edas#TPCMember"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"edas#SessionChair"
 	]
 ]

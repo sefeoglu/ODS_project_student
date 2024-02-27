@@ -1,35 +1,35 @@
 [
 	[
-		"conference#Workshop",
-		"confOf#Workshop"
-	],
-	[
-		"conference#Topic",
-		"confOf#Topic"
-	],
-	[
-		"conference#Organization",
-		"confOf#Organization"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
-	],
-	[
-		"conference#Paper",
-		"confOf#Paper"
+		"conference#Conference",
+		"confOf#Conference"
 	],
 	[
 		"conference#Tutorial",
 		"confOf#Tutorial"
 	],
 	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Workshop",
+		"confOf#Workshop"
+	],
+	[
 		"conference#Poster",
 		"confOf#Poster"
 	],
 	[
-		"conference#Conference",
-		"confOf#Conference"
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
 	],
 	[
 		"conference#Submitted_contribution",

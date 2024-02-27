@@ -1,174 +1,74 @@
 [
 	[
-		"edas#Review",
-		"iasted#Review"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#Place",
 		"iasted#Place"
-	],
-	[
-		"edas#SessionChair",
-		"iasted#Session_chair"
-	],
-	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
 		"edas#Person",
 		"iasted#Person"
 	],
 	[
-		"edas#Attendee",
-		"iasted#Delegate"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
-		"edas#TPCMember",
-		"iasted#Sponsor"
+		"edas#SessionChair",
+		"iasted#Session_chair"
+	],
+	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
+	],
+	[
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#AccommodationPlace",
 		"iasted#Hotel_room"
 	],
 	[
-		"edas#DiningPlace",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#SlideSet",
-		"iasted#Record_of_attendance"
-	],
-	[
-		"edas#ConferenceVenuePlace",
+		"edas#MeetingRoomPlace",
 		"iasted#Session_room"
 	],
 	[
 		"edas#Presenter",
-		"iasted#Tutorial_speaker"
-	],
-	[
-		"edas#MealMenu",
-		"iasted#Form"
-	],
-	[
-		"edas#Programme",
-		"iasted#Mailing_list"
+		"iasted#Lecturer"
 	],
 	[
 		"edas#Paper",
 		"iasted#Submission"
 	],
 	[
-		"edas#MeetingRoomPlace",
-		"iasted#Building"
+		"edas#ConferenceChair",
+		"iasted#Conference_Hiker"
 	],
 	[
-		"edas#PendingPaper",
-		"iasted#Payment_document"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_airport"
+	],
+	[
+		"edas#TPCMember",
+		"iasted#IASTED_non_member"
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Conference_restaurant"
+	],
+	[
+		"edas#Attendee",
+		"iasted#IASTED_member"
 	],
 	[
 		"edas#PublishedPaper",
-		"iasted#Card"
-	],
-	[
-		"edas#MealBreak",
-		"iasted#Technic_activity"
-	],
-	[
-		"edas#RatedPapers",
-		"iasted#Initial_manuscipt"
-	],
-	[
-		"edas#ActivePaper",
-		"iasted#Item"
-	],
-	[
-		"edas#RejectedPaper",
-		"iasted#Transparency"
-	],
-	[
-		"edas#FreeTimeBreak",
-		"iasted#Social_program"
-	],
-	[
-		"edas#AcceptedPaper",
-		"iasted#Final_manuscript"
-	],
-	[
-		"edas#ConferenceChair",
-		"iasted#Speaker"
-	],
-	[
-		"edas#BreakEvent",
-		"iasted#Introduction"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"iasted#Brief_introduction_for_Session_chair"
-	],
-	[
-		"edas#NonAcademicEvent",
-		"iasted#Presentation"
-	],
-	[
-		"edas#SocialEvent",
-		"iasted#Conference_activity"
-	],
-	[
-		"edas#Excursion",
-		"iasted#Activity"
-	],
-	[
-		"edas#AcademicEvent",
-		"iasted#Welcome_address"
-	],
-	[
-		"edas#MealEvent",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"edas#ConferenceDinner",
-		"iasted#Coctail_reception"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"iasted#Registration"
-	],
-	[
-		"edas#Reception",
-		"iasted#Activity_after_conference"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#Lecture"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Speaker_lecture"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Tutorial"
-	],
-	[
-		"edas#Workshop",
-		"iasted#Plenary_lecture"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_city"
+		"iasted#Publication"
 	]
 ]

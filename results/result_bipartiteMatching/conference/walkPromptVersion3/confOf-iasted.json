@@ -1,13 +1,5 @@
 [
 	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
@@ -16,119 +8,59 @@
 		"iasted#Person"
 	],
 	[
+		"confOf#City",
+		"iasted#City"
+	],
+	[
+		"confOf#Author",
+		"iasted#Author"
+	],
+	[
+		"confOf#Participant",
+		"iasted#Sponsor"
+	],
+	[
 		"confOf#Administrator",
 		"iasted#Delegate"
 	],
 	[
-		"confOf#Assistant",
-		"iasted#Sponsor"
-	],
-	[
-		"confOf#Working_event",
-		"iasted#Lecture"
-	],
-	[
-		"confOf#Science_Worker",
-		"iasted#Worker_lecturer"
-	],
-	[
-		"confOf#Regular",
-		"iasted#Session_chair"
-	],
-	[
-		"confOf#Event",
-		"iasted#Session"
-	],
-	[
-		"confOf#Contribution",
-		"iasted#One_day_presenter"
-	],
-	[
-		"confOf#Workshop",
-		"iasted#Plenary_lecture"
-	],
-	[
-		"confOf#Member_PC",
-		"iasted#Tutorial_speaker"
-	],
-	[
-		"confOf#Member",
-		"iasted#Listener"
-	],
-	[
-		"confOf#Administrative_event",
-		"iasted#Conference_activity"
-	],
-	[
 		"confOf#Conference",
-		"iasted#Speaker_lecture"
-	],
-	[
-		"confOf#Participant",
-		"iasted#Author_book_proceedings_included"
-	],
-	[
-		"confOf#Social_event",
-		"iasted#Coffee_break"
+		"iasted#Conference_activity"
 	],
 	[
 		"confOf#Scholar",
 		"iasted#Student_lecturer"
 	],
 	[
-		"confOf#Volunteer",
-		"iasted#Reviewer"
-	],
-	[
-		"confOf#Chair_PC",
+		"confOf#Member",
 		"iasted#IASTED_member"
 	],
 	[
-		"confOf#Student",
+		"confOf#Science_Worker",
+		"iasted#Technical_commitee"
+	],
+	[
+		"confOf#Assistant",
 		"iasted#IASTED_non_member"
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Social_program"
+	],
+	[
+		"confOf#Event",
+		"iasted#Activity"
 	],
 	[
 		"confOf#Registration_of_participants_event",
 		"iasted#Registration"
 	],
 	[
-		"confOf#Reviewing_results_event",
-		"iasted#Activity"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"iasted#Coctail_reception"
-	],
-	[
-		"confOf#Submission_event",
-		"iasted#Introduction"
-	],
-	[
-		"confOf#Reception",
-		"iasted#Technic_activity"
-	],
-	[
-		"confOf#Trip",
-		"iasted#Social_program"
-	],
-	[
-		"confOf#Reviewing_event",
-		"iasted#Activity_after_conference"
-	],
-	[
 		"confOf#Banquet",
 		"iasted#Presentation"
 	],
 	[
-		"confOf#Paper",
-		"iasted#Speaker"
-	],
-	[
-		"confOf#Poster",
-		"iasted#Author_cd_proceedings_included"
-	],
-	[
-		"confOf#Short_paper",
-		"iasted#Plenary_lecture_speaker"
+		"confOf#Social_event",
+		"iasted#Technic_activity"
 	]
 ]

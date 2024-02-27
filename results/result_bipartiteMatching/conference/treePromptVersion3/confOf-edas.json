@@ -1,7 +1,23 @@
 [
 	[
-		"confOf#Reception",
-		"edas#Reception"
+		"confOf#Social_event",
+		"edas#SocialEvent"
+	],
+	[
+		"confOf#Conference",
+		"edas#Conference"
+	],
+	[
+		"confOf#Paper",
+		"edas#Paper"
+	],
+	[
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Topic",
@@ -16,115 +32,63 @@
 		"edas#Country"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
-	],
-	[
-		"confOf#Conference",
-		"edas#Conference"
-	],
-	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
-	],
-	[
-		"confOf#Paper",
-		"edas#Paper"
-	],
-	[
 		"confOf#Organization",
 		"edas#Organization"
 	],
 	[
-		"confOf#Science_Worker",
-		"edas#Reviewer"
+		"confOf#Reception",
+		"edas#Reception"
 	],
 	[
-		"confOf#Administrator",
+		"confOf#Chair_PC",
 		"edas#ConferenceChair"
 	],
 	[
-		"confOf#Company",
-		"edas#IndustryOrganization"
+		"confOf#Event",
+		"edas#NonAcademicEvent"
 	],
 	[
 		"confOf#Trip",
 		"edas#Excursion"
 	],
 	[
-		"confOf#Contribution",
-		"edas#AcceptedPaper"
+		"confOf#Participant",
+		"edas#Attendee"
 	],
 	[
 		"confOf#University",
-		"edas#NGO"
+		"edas#AcademiaOrganization"
+	],
+	[
+		"confOf#Company",
+		"edas#IndustryOrganization"
 	],
 	[
 		"confOf#Member_PC",
 		"edas#TPCMember"
 	],
 	[
-		"confOf#Banquet",
-		"edas#NonAcademicEvent"
-	],
-	[
 		"confOf#Working_event",
-		"edas#SingleLevelConference"
-	],
-	[
-		"confOf#Participant",
-		"edas#SessionChair"
-	],
-	[
-		"confOf#Scholar",
-		"edas#Attendee"
-	],
-	[
-		"confOf#Event",
 		"edas#ConferenceEvent"
 	],
 	[
-		"confOf#Poster",
-		"edas#WithdrawnPaper"
-	],
-	[
-		"confOf#Tutorial",
-		"edas#PaperPresentation"
-	],
-	[
-		"confOf#Short_paper",
-		"edas#Document"
+		"confOf#Reviewing_event",
+		"edas#MealEvent"
 	],
 	[
 		"confOf#Administrative_event",
 		"edas#BreakEvent"
 	],
 	[
-		"confOf#Volunteer",
-		"edas#Presenter"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"edas#FreeTimeBreak"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"edas#CoffeeBreak"
-	],
-	[
-		"confOf#Reviewing_event",
-		"edas#MealBreak"
-	],
-	[
 		"confOf#Submission_event",
-		"edas#OrganizationalMeeting"
+		"edas#AcademicEvent"
 	],
 	[
-		"confOf#Reviewing_results_event",
-		"edas#TalkEvent"
+		"confOf#Short_paper",
+		"edas#PendingPaper"
+	],
+	[
+		"confOf#Banquet",
+		"edas#ConferenceDinner"
 	]
 ]

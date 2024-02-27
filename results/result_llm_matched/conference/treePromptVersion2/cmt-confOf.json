@@ -1,4 +1,10 @@
 {
-	"cmt#Chairman;confOf#Science_Worker": "yes",
-	"cmt#Author;confOf#Banquet": "yes"
+    "cmt#Chairman;confOf#Science_Worker": "yes",
+    "cmt#Author;confOf#Banquet": "yes",
+    "cmt#ConferenceMember;confOf#Member_PC": "no",
+    "cmt#ConferenceMember;confOf#Participant": "no",
+    "cmt#ConferenceChair;confOf#Chair_PC": "no",
+    "cmt#ConferenceMember;confOf#Member": "no",
+    "cmt#ProgramCommitteeMember;confOf#Member": "no",
+    "cmt#User;confOf#Member": "no"
 }

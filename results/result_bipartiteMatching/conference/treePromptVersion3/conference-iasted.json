@@ -1,11 +1,7 @@
 [
 	[
-		"conference#Review",
-		"iasted#Review"
-	],
-	[
-		"conference#Person",
-		"iasted#Person"
+		"conference#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"conference#Reviewer",
@@ -16,139 +12,35 @@
 		"iasted#Presentation"
 	],
 	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
-		"conference#Conference_contributor",
-		"iasted#Sponsor"
+		"conference#Person",
+		"iasted#Person"
 	],
 	[
 		"conference#Committee_member",
 		"iasted#Delegate"
 	],
 	[
-		"conference#Invited_talk",
-		"iasted#Video_presentation"
-	],
-	[
-		"conference#Conference_announcement",
-		"iasted#Invitation_letter"
-	],
-	[
-		"conference#Organizer",
-		"iasted#Listener"
-	],
-	[
-		"conference#Conference_participant",
-		"iasted#Non_speaker"
-	],
-	[
-		"conference#Information_for_participants",
-		"iasted#Submission"
-	],
-	[
-		"conference#Written_contribution",
+		"conference#Conference_contribution",
 		"iasted#Conference_activity"
 	],
 	[
-		"conference#Track-workshop_chair",
-		"iasted#Session_chair"
-	],
-	[
 		"conference#Conference_document",
-		"iasted#Record_of_attendance"
-	],
-	[
-		"conference#Conference_contribution",
-		"iasted#Document"
-	],
-	[
-		"conference#Regular_author",
-		"iasted#Technical_commitee"
-	],
-	[
-		"conference#Registeered_applicant",
-		"iasted#IASTED_member"
-	],
-	[
-		"conference#Conference_www",
-		"iasted#Mailing_list"
-	],
-	[
-		"conference#Regular_contribution",
-		"iasted#Social_program"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"conference#Call_for_participation",
 		"iasted#Payment_document"
 	],
 	[
-		"conference#Conference_part",
-		"iasted#Session"
-	],
-	[
-		"conference#Chair",
-		"iasted#Conference_Hiker"
+		"conference#Passive_conference_participant",
+		"iasted#Listener"
 	],
 	[
 		"conference#Invited_speaker",
-		"iasted#One_day_presenter"
-	],
-	[
-		"conference#Active_conference_participant",
-		"iasted#Hotel_presenter"
-	],
-	[
-		"conference#Organization",
-		"iasted#Worker_non_speaker"
-	],
-	[
-		"conference#Co-chair",
 		"iasted#Speaker"
 	],
 	[
-		"conference#Poster",
-		"iasted#Lecture"
-	],
-	[
-		"conference#Track",
-		"iasted#Plenary_lecture"
-	],
-	[
-		"conference#Call_for_paper",
-		"iasted#Item"
-	],
-	[
-		"conference#Conference_applicant",
-		"iasted#Author"
-	],
-	[
-		"conference#Submitted_contribution",
-		"iasted#Welcome_address"
-	],
-	[
-		"conference#Paid_applicant",
-		"iasted#Worker_lecturer"
-	],
-	[
-		"conference#Paper",
-		"iasted#Coffee_break"
-	],
-	[
-		"conference#Extended_abstract",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"iasted#Activity_after_conference"
-	],
-	[
-		"conference#Abstract",
-		"iasted#Activity"
+		"conference#Co-chair",
+		"iasted#Session_chair"
 	]
 ]

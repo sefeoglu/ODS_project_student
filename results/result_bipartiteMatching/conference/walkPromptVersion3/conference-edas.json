@@ -1,19 +1,7 @@
 [
 	[
-		"conference#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Organization",
-		"edas#Organization"
-	],
-	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
 		"conference#Paper",
@@ -24,115 +12,67 @@
 		"edas#Reviewer"
 	],
 	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
+		"conference#Organization",
+		"edas#Organization"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Review",
 		"edas#Review"
 	],
 	[
-		"conference#Conference",
-		"edas#Conference"
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
 	],
 	[
-		"conference#Conference_contributor",
-		"edas#SessionChair"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
-		"conference#Conference_volume",
-		"edas#SingleLevelConference"
+		"conference#Topic",
+		"edas#Topic"
 	],
 	[
 		"conference#Conference_applicant",
-		"edas#Author"
+		"edas#Attendee"
 	],
 	[
 		"conference#Committee_member",
 		"edas#TPCMember"
 	],
 	[
-		"conference#Regular_contribution",
-		"edas#WithdrawnPaper"
-	],
-	[
-		"conference#Organizer",
-		"edas#GovernmentOrganization"
-	],
-	[
-		"conference#Conference_participant",
-		"edas#Attendee"
-	],
-	[
-		"conference#Conference_part",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Contribution_co-author",
-		"edas#ConferenceChair"
-	],
-	[
-		"conference#Conference_announcement",
-		"edas#CallForReviews"
-	],
-	[
-		"conference#Extended_abstract",
-		"edas#ActivePaper"
-	],
-	[
-		"conference#Tutorial",
-		"edas#OrganizationalMeeting"
-	],
-	[
-		"conference#Track",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"edas#Presenter"
-	],
-	[
-		"conference#Written_contribution",
+		"conference#Conference_document",
 		"edas#Document"
 	],
 	[
-		"conference#Conference_document",
-		"edas#MealMenu"
+		"conference#Track-workshop_chair",
+		"edas#ConferenceChair"
 	],
 	[
-		"conference#Information_for_participants",
-		"edas#Programme"
+		"conference#Co-chair",
+		"edas#SessionChair"
 	],
 	[
-		"conference#Review_expertise",
-		"edas#IndustryOrganization"
+		"conference#Conference_part",
+		"edas#TalkEvent"
+	],
+	[
+		"conference#Regular_author",
+		"edas#Author"
 	],
 	[
 		"conference#Call_for_participation",
 		"edas#CallForManuscripts"
 	],
 	[
-		"conference#Reviewed_contribution",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Submitted_contribution",
-		"edas#PendingPaper"
-	],
-	[
-		"conference#Chair",
-		"edas#NGO"
-	],
-	[
-		"conference#Presentation",
-		"edas#RejectedPaper"
-	],
-	[
-		"conference#Abstract",
+		"conference#Poster",
 		"edas#PublishedPaper"
 	],
 	[
-		"conference#Conference_www",
-		"edas#Call"
+		"conference#Conference_participant",
+		"edas#Presenter"
 	]
 ]

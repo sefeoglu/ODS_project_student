@@ -8,14 +8,6 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://ekaw#Document"/>
-      <entity2 rdf:resource="http://iasted#Document"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://ekaw#Review"/>
       <entity2 rdf:resource="http://iasted#Review"/>
       <relation>=</relation>
@@ -32,16 +24,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://ekaw#Session"/>
-      <entity2 rdf:resource="http://iasted#Session"/>
+      <entity1 rdf:resource="http://ekaw#Tutorial"/>
+      <entity2 rdf:resource="http://iasted#Tutorial"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://ekaw#Tutorial"/>
-      <entity2 rdf:resource="http://iasted#Tutorial"/>
+      <entity1 rdf:resource="http://ekaw#Document"/>
+      <entity2 rdf:resource="http://iasted#Document"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://ekaw#Session"/>
+      <entity2 rdf:resource="http://iasted#Session"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -56,14 +56,6 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://ekaw#Presenter"/>
-      <entity2 rdf:resource="http://iasted#Speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://ekaw#Workshop_Session"/>
       <entity2 rdf:resource="http://iasted#Conference_activity"/>
       <relation>=</relation>
@@ -72,8 +64,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://ekaw#Student"/>
-      <entity2 rdf:resource="http://iasted#Non_speaker"/>
+      <entity1 rdf:resource="http://ekaw#Presenter"/>
+      <entity2 rdf:resource="http://iasted#Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

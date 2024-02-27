@@ -1,7 +1,27 @@
 [
 	[
+		"confOf#Social_event",
+		"ekaw#Social_Event"
+	],
+	[
+		"confOf#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"confOf#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"confOf#Workshop",
+		"ekaw#Workshop"
+	],
+	[
 		"confOf#Event",
 		"ekaw#Event"
+	],
+	[
+		"confOf#Tutorial",
+		"ekaw#Tutorial"
 	],
 	[
 		"confOf#University",
@@ -12,131 +32,47 @@
 		"ekaw#Person"
 	],
 	[
-		"confOf#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"confOf#Tutorial",
-		"ekaw#Tutorial"
-	],
-	[
-		"confOf#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"confOf#Social_event",
-		"ekaw#Social_Event"
-	],
-	[
-		"confOf#Paper",
-		"ekaw#Paper"
-	],
-	[
 		"confOf#Student",
 		"ekaw#Student"
-	],
-	[
-		"confOf#Science_Worker",
-		"ekaw#Paper_Author"
-	],
-	[
-		"confOf#Administrator",
-		"ekaw#Agency_Staff_Member"
-	],
-	[
-		"confOf#Reception",
-		"ekaw#Conference_Trip"
-	],
-	[
-		"confOf#Assistant",
-		"ekaw#Conference_Participant"
-	],
-	[
-		"confOf#Contribution",
-		"ekaw#Poster_Paper"
-	],
-	[
-		"confOf#Author",
-		"ekaw#Possible_Reviewer"
-	],
-	[
-		"confOf#Banquet",
-		"ekaw#Conference_Banquet"
 	],
 	[
 		"confOf#Working_event",
 		"ekaw#Scientific_Event"
 	],
 	[
-		"confOf#Regular",
-		"ekaw#OC_Member"
+		"confOf#Scholar",
+		"ekaw#Paper_Author"
 	],
 	[
-		"confOf#Company",
-		"ekaw#Academic_Institution"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"ekaw#Track"
-	],
-	[
-		"confOf#Reviewing_event",
-		"ekaw#Session"
-	],
-	[
-		"confOf#Member",
-		"ekaw#Late-Registered_Participant"
-	],
-	[
-		"confOf#Member_PC",
-		"ekaw#Session_Chair"
-	],
-	[
-		"confOf#Poster",
-		"ekaw#Flyer"
-	],
-	[
-		"confOf#Short_paper",
-		"ekaw#Programme_Brochure"
-	],
-	[
-		"confOf#Administrative_event",
-		"ekaw#Demo_Session"
+		"confOf#Trip",
+		"ekaw#Conference_Trip"
 	],
 	[
 		"confOf#Participant",
-		"ekaw#Presenter"
+		"ekaw#Conference_Participant"
 	],
 	[
-		"confOf#Scholar",
+		"confOf#Assistant",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"confOf#Member",
 		"ekaw#PC_Member"
 	],
 	[
-		"confOf#Volunteer",
-		"ekaw#Early-Registered_Participant"
+		"confOf#Short_paper",
+		"ekaw#Regular_Paper"
+	],
+	[
+		"confOf#Poster",
+		"ekaw#Demo_Paper"
+	],
+	[
+		"confOf#Organization",
+		"ekaw#Organisation"
 	],
 	[
 		"confOf#Chair_PC",
 		"ekaw#PC_Chair"
-	],
-	[
-		"confOf#Organization",
-		"ekaw#Research_Institute"
-	],
-	[
-		"confOf#Trip",
-		"ekaw#Individual_Presentation"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"ekaw#Conference_Session"
-	],
-	[
-		"confOf#Submission_event",
-		"ekaw#Workshop_Session"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"ekaw#Industrial_Session"
 	]
 ]

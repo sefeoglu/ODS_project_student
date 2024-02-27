@@ -1,13 +1,5 @@
 [
 	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
-	],
-	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
@@ -16,79 +8,47 @@
 		"iasted#Person"
 	],
 	[
-		"confOf#Science_Worker",
-		"iasted#Delegate"
+		"confOf#City",
+		"iasted#City"
+	],
+	[
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#Administrator",
-		"iasted#Sponsor"
-	],
-	[
-		"confOf#Regular",
-		"iasted#Listener"
-	],
-	[
-		"confOf#Working_event",
-		"iasted#Session"
-	],
-	[
-		"confOf#Member",
-		"iasted#Speaker"
-	],
-	[
-		"confOf#Member_PC",
-		"iasted#Tutorial_speaker"
+		"iasted#Delegate"
 	],
 	[
 		"confOf#Conference",
-		"iasted#Lecture"
-	],
-	[
-		"confOf#Participant",
-		"iasted#Worker_lecturer"
-	],
-	[
-		"confOf#Scholar",
-		"iasted#Author_book_proceedings_included"
-	],
-	[
-		"confOf#Volunteer",
-		"iasted#Reviewer"
-	],
-	[
-		"confOf#Chair_PC",
-		"iasted#Lecturer"
-	],
-	[
-		"confOf#Student",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"confOf#Administrative_event",
 		"iasted#Conference_activity"
 	],
 	[
+		"confOf#Scholar",
+		"iasted#Student_lecturer"
+	],
+	[
+		"confOf#Contribution",
+		"iasted#Sponsor"
+	],
+	[
+		"confOf#Member",
+		"iasted#IASTED_member"
+	],
+	[
+		"confOf#Science_Worker",
+		"iasted#Technical_commitee"
+	],
+	[
 		"confOf#Event",
-		"iasted#Coffee_break"
+		"iasted#Activity"
 	],
 	[
 		"confOf#Registration_of_participants_event",
 		"iasted#Registration"
 	],
 	[
-		"confOf#Reviewing_results_event",
-		"iasted#Coctail_reception"
-	],
-	[
-		"confOf#Reviewing_event",
-		"iasted#Presentation"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"iasted#Social_program"
-	],
-	[
-		"confOf#Submission_event",
-		"iasted#Activity"
+		"confOf#Trip",
+		"iasted#Departure"
 	]
 ]

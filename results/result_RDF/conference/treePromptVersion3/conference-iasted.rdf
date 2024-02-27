@@ -8,16 +8,8 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Review"/>
-      <entity2 rdf:resource="http://iasted#Review"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Person"/>
-      <entity2 rdf:resource="http://iasted#Person"/>
+      <entity1 rdf:resource="http://conference#Tutorial"/>
+      <entity2 rdf:resource="http://iasted#Tutorial"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -40,16 +32,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Tutorial"/>
-      <entity2 rdf:resource="http://iasted#Tutorial"/>
+      <entity1 rdf:resource="http://conference#Review"/>
+      <entity2 rdf:resource="http://iasted#Review"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Conference_contributor"/>
-      <entity2 rdf:resource="http://iasted#Sponsor"/>
+      <entity1 rdf:resource="http://conference#Person"/>
+      <entity2 rdf:resource="http://iasted#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -64,47 +56,7 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Invited_talk"/>
-      <entity2 rdf:resource="http://iasted#Video_presentation"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Conference_announcement"/>
-      <entity2 rdf:resource="http://iasted#Invitation_letter"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Organizer"/>
-      <entity2 rdf:resource="http://iasted#Listener"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Conference_participant"/>
-      <entity2 rdf:resource="http://iasted#Non_speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Information_for_participants"/>
-      <entity2 rdf:resource="http://iasted#Submission"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Written_contribution"/>
+      <entity1 rdf:resource="http://conference#Conference_contribution"/>
       <entity2 rdf:resource="http://iasted#Conference_activity"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -112,71 +64,7 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Track-workshop_chair"/>
-      <entity2 rdf:resource="http://iasted#Session_chair"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://conference#Conference_document"/>
-      <entity2 rdf:resource="http://iasted#Record_of_attendance"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Conference_contribution"/>
-      <entity2 rdf:resource="http://iasted#Document"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Regular_author"/>
-      <entity2 rdf:resource="http://iasted#Technical_commitee"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Registeered_applicant"/>
-      <entity2 rdf:resource="http://iasted#IASTED_member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Conference_www"/>
-      <entity2 rdf:resource="http://iasted#Mailing_list"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Regular_contribution"/>
-      <entity2 rdf:resource="http://iasted#Social_program"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Passive_conference_participant"/>
-      <entity2 rdf:resource="http://iasted#IASTED_non_member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Call_for_participation"/>
       <entity2 rdf:resource="http://iasted#Payment_document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -184,16 +72,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Conference_part"/>
-      <entity2 rdf:resource="http://iasted#Session"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Chair"/>
-      <entity2 rdf:resource="http://iasted#Conference_Hiker"/>
+      <entity1 rdf:resource="http://conference#Passive_conference_participant"/>
+      <entity2 rdf:resource="http://iasted#Listener"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -201,30 +81,6 @@
   <map>
     <Cell>
       <entity1 rdf:resource="http://conference#Invited_speaker"/>
-      <entity2 rdf:resource="http://iasted#One_day_presenter"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Active_conference_participant"/>
-      <entity2 rdf:resource="http://iasted#Hotel_presenter"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Organization"/>
-      <entity2 rdf:resource="http://iasted#Worker_non_speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Co-chair"/>
       <entity2 rdf:resource="http://iasted#Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -232,80 +88,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://conference#Poster"/>
-      <entity2 rdf:resource="http://iasted#Lecture"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Track"/>
-      <entity2 rdf:resource="http://iasted#Plenary_lecture"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Call_for_paper"/>
-      <entity2 rdf:resource="http://iasted#Item"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Conference_applicant"/>
-      <entity2 rdf:resource="http://iasted#Author"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Submitted_contribution"/>
-      <entity2 rdf:resource="http://iasted#Welcome_address"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Paid_applicant"/>
-      <entity2 rdf:resource="http://iasted#Worker_lecturer"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Paper"/>
-      <entity2 rdf:resource="http://iasted#Coffee_break"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Extended_abstract"/>
-      <entity2 rdf:resource="http://iasted#Introduction_of_speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Reviewed_contribution"/>
-      <entity2 rdf:resource="http://iasted#Activity_after_conference"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://conference#Abstract"/>
-      <entity2 rdf:resource="http://iasted#Activity"/>
+      <entity1 rdf:resource="http://conference#Co-chair"/>
+      <entity2 rdf:resource="http://iasted#Session_chair"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

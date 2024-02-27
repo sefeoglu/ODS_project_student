@@ -1,170 +1,74 @@
 [
 	[
-		"edas#Review",
-		"iasted#Review"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#Place",
 		"iasted#Place"
-	],
-	[
-		"edas#SessionChair",
-		"iasted#Session_chair"
-	],
-	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
 		"edas#Person",
 		"iasted#Person"
 	],
 	[
-		"edas#Attendee",
-		"iasted#Sponsor"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
-		"edas#TPCMember",
-		"iasted#Delegate"
+		"edas#SessionChair",
+		"iasted#Session_chair"
 	],
 	[
-		"edas#AccommodationPlace",
-		"iasted#Building"
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
 	],
 	[
-		"edas#MeetingRoomPlace",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#SlideSet",
-		"iasted#Payment_document"
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#ConferenceVenuePlace",
-		"iasted#Hotel_room"
+		"iasted#Conference_hall"
 	],
 	[
 		"edas#DiningPlace",
+		"iasted#Hotel_room"
+	],
+	[
+		"edas#MeetingRoomPlace",
 		"iasted#Session_room"
-	],
-	[
-		"edas#Presenter",
-		"iasted#Speaker"
-	],
-	[
-		"edas#Programme",
-		"iasted#Record_of_attendance"
 	],
 	[
 		"edas#Paper",
 		"iasted#Submission"
 	],
 	[
-		"edas#PendingPaper",
-		"iasted#Mailing_list"
-	],
-	[
-		"edas#MealMenu",
-		"iasted#Publication"
-	],
-	[
-		"edas#PublishedPaper",
-		"iasted#Transparency"
-	],
-	[
-		"edas#MealBreak",
-		"iasted#Lecture"
-	],
-	[
-		"edas#RatedPapers",
+		"edas#Programme",
 		"iasted#Item"
 	],
 	[
-		"edas#ActivePaper",
-		"iasted#Author_information_form"
+		"edas#Presenter",
+		"iasted#Speaker"
 	],
 	[
-		"edas#RejectedPaper",
-		"iasted#Form"
-	],
-	[
-		"edas#FreeTimeBreak",
-		"iasted#Coctail_reception"
-	],
-	[
-		"edas#AcceptedPaper",
-		"iasted#Card"
+		"edas#AccommodationPlace",
+		"iasted#Sponsor_company_house"
 	],
 	[
 		"edas#ConferenceChair",
-		"iasted#Student_lecturer"
+		"iasted#Conference_Hiker"
 	],
 	[
-		"edas#BreakEvent",
-		"iasted#Activity"
+		"edas#PublishedPaper",
+		"iasted#Publication"
 	],
 	[
-		"edas#WithdrawnPaper",
-		"iasted#Viza"
-	],
-	[
-		"edas#NonAcademicEvent",
-		"iasted#Social_program"
-	],
-	[
-		"edas#SocialEvent",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"edas#MealEvent",
-		"iasted#Conference_activity"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Activity_after_conference"
-	],
-	[
-		"edas#Reception",
-		"iasted#Presentation"
-	],
-	[
-		"edas#Excursion",
-		"iasted#Introduction"
-	],
-	[
-		"edas#AcademicEvent",
-		"iasted#Full_day_tour"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#Activity_before_conference"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Modelling"
-	],
-	[
-		"edas#Workshop",
-		"iasted#Accepting_manuscript"
-	],
-	[
-		"edas#ClosingTalk",
-		"iasted#Simulating"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_days"
+		"edas#Attendee",
+		"iasted#IASTED_non_member"
 	]
 ]

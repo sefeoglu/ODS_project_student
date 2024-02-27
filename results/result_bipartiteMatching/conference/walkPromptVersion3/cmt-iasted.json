@@ -1,90 +1,50 @@
 [
 	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
 		"cmt#Document",
 		"iasted#Document"
-	],
-	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Tutorial_speaker"
+		"cmt#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"cmt#ConferenceMember",
-		"iasted#Lecturer"
-	],
-	[
-		"cmt#Co-author",
-		"iasted#Author_book_proceedings_included"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"iasted#Sponsor"
-	],
-	[
-		"cmt#Paper",
-		"iasted#Payment_document"
-	],
-	[
-		"cmt#User",
 		"iasted#Delegate"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"iasted#Worker_lecturer"
+		"cmt#Co-author",
+		"iasted#Author_cd_proceedings_included"
 	],
 	[
-		"cmt#ConferenceChair",
-		"iasted#Speaker"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"iasted#One_day_presenter"
-	],
-	[
-		"cmt#PaperFullVersion",
+		"cmt#Paper",
 		"iasted#Submission"
 	],
 	[
-		"cmt#Chairman",
-		"iasted#Session_chair"
-	],
-	[
-		"cmt#Meta-Review",
-		"iasted#Transparency"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Non_speaker"
+		"cmt#ProgramCommitteeMember",
+		"iasted#IASTED_non_member"
 	],
 	[
 		"cmt#AssociatedChair",
-		"iasted#Listener"
+		"iasted#Session_chair"
 	],
 	[
-		"cmt#Administrator",
-		"iasted#IASTED_member"
+		"cmt#ConferenceChair",
+		"iasted#Conference_Hiker"
 	],
 	[
 		"cmt#PaperAbstract",
-		"iasted#Mailing_list"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Conference_city"
+		"iasted#Publication"
 	]
 ]

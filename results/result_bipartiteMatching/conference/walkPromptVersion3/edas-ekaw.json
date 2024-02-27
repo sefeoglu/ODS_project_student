@@ -1,23 +1,31 @@
 [
 	[
+		"edas#SocialEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
+	],
+	[
 		"edas#ConferenceSession",
 		"ekaw#Conference_Session"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#Workshop",
 		"ekaw#Workshop"
 	],
 	[
-		"edas#SocialEvent",
-		"ekaw#Social_Event"
-	],
-	[
-		"edas#Review",
-		"ekaw#Review"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
+		"edas#Person",
+		"ekaw#Person"
 	],
 	[
 		"edas#Document",
@@ -28,10 +36,6 @@
 		"ekaw#Session_Chair"
 	],
 	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
 		"edas#Presenter",
 		"ekaw#Presenter"
 	],
@@ -40,119 +44,71 @@
 		"ekaw#Conference"
 	],
 	[
-		"edas#Paper",
-		"ekaw#Paper"
+		"edas#Review",
+		"ekaw#Review"
 	],
 	[
-		"edas#Person",
-		"ekaw#Person"
-	],
-	[
-		"edas#Excursion",
-		"ekaw#Event"
-	],
-	[
-		"edas#PendingPaper",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"edas#PublishedPaper",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"edas#Attendee",
-		"ekaw#Student"
-	],
-	[
-		"edas#TPCMember",
+		"edas#ConferenceChair",
 		"ekaw#Conference_Participant"
 	],
 	[
-		"edas#AcademicEvent",
-		"ekaw#Scientific_Event"
+		"edas#TPCMember",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"edas#Excursion",
+		"ekaw#Conference_Trip"
+	],
+	[
+		"edas#PendingPaper",
+		"ekaw#Regular_Paper"
 	],
 	[
 		"edas#Author",
 		"ekaw#Paper_Author"
 	],
 	[
+		"edas#WithdrawnPaper",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"edas#NonAcademicEvent",
+		"ekaw#Event"
+	],
+	[
+		"edas#Attendee",
+		"ekaw#Student"
+	],
+	[
+		"edas#PublishedPaper",
+		"ekaw#Demo_Paper"
+	],
+	[
+		"edas#AcademicEvent",
+		"ekaw#Scientific_Event"
+	],
+	[
 		"edas#ActivePaper",
-		"ekaw#Regular_Paper"
+		"ekaw#Submitted_Paper"
 	],
 	[
-		"edas#Programme",
-		"ekaw#Abstract"
-	],
-	[
-		"edas#MealMenu",
-		"ekaw#Programme_Brochure"
-	],
-	[
-		"edas#Reception",
-		"ekaw#Conference_Trip"
-	],
-	[
-		"edas#SlideSet",
-		"ekaw#Flyer"
-	],
-	[
-		"edas#TalkEvent",
-		"ekaw#Individual_Presentation"
+		"edas#ClosingTalk",
+		"ekaw#Invited_Talk"
 	],
 	[
 		"edas#RatedPapers",
 		"ekaw#Poster_Paper"
 	],
 	[
-		"edas#TwoLevelConference",
-		"ekaw#Session"
+		"edas#WelcomeTalk",
+		"ekaw#Contributed_Talk"
 	],
 	[
-		"edas#ClosingTalk",
-		"ekaw#Workshop_Session"
-	],
-	[
-		"edas#ConferenceEvent",
+		"edas#ConferenceDinner",
 		"ekaw#Conference_Banquet"
 	],
 	[
-		"edas#OrganizationalMeeting",
-		"ekaw#Invited_Talk"
-	],
-	[
 		"edas#PaperPresentation",
-		"ekaw#Demo_Session"
-	],
-	[
-		"edas#ConferenceChair",
-		"ekaw#PC_Chair"
-	],
-	[
-		"edas#NonAcademicEvent",
-		"ekaw#Poster_Session"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"ekaw#Proceedings"
-	],
-	[
-		"edas#Reviewer",
-		"ekaw#OC_Member"
-	],
-	[
-		"edas#SingleLevelConference",
-		"ekaw#Track"
-	],
-	[
-		"edas#WelcomeTalk",
-		"ekaw#Tutorial"
-	],
-	[
-		"edas#MealBreak",
-		"ekaw#Regular_Session"
-	],
-	[
-		"edas#Organization",
-		"ekaw#Organisation"
+		"ekaw#Individual_Presentation"
 	]
 ]

@@ -1,15 +1,15 @@
 [
 	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
 		"cmt#Document",
 		"ekaw#Document"
 	],
 	[
 		"cmt#Review",
 		"ekaw#Review"
-	],
-	[
-		"cmt#Person",
-		"ekaw#Person"
 	],
 	[
 		"cmt#Conference",

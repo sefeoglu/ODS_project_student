@@ -1,26 +1,26 @@
 [
 	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
+		"cmt#Person",
+		"conference#Person"
 	],
 	[
 		"cmt#Review",
 		"conference#Review"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
 		"cmt#Conference",
 		"conference#Conference"
 	],
 	[
-		"cmt#Person",
-		"conference#Person"
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	]
 ]

@@ -1,9 +1,5 @@
 [
 	[
-		"ekaw#Document",
-		"sigkdd#Document"
-	],
-	[
 		"ekaw#Conference",
 		"sigkdd#Conference"
 	],
@@ -12,31 +8,31 @@
 		"sigkdd#Review"
 	],
 	[
-		"ekaw#Abstract",
-		"sigkdd#Abstract"
-	],
-	[
 		"ekaw#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"ekaw#Invited_Speaker",
-		"sigkdd#Invited_Speaker"
+		"ekaw#Document",
+		"sigkdd#Document"
 	],
 	[
 		"ekaw#Person",
 		"sigkdd#Person"
 	],
 	[
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"ekaw#Invited_Speaker",
+		"sigkdd#Invited_Speaker"
+	],
+	[
 		"ekaw#Presenter",
 		"sigkdd#Speaker"
 	],
 	[
-		"ekaw#Student",
-		"sigkdd#Listener"
-	],
-	[
-		"ekaw#OC_Member",
-		"sigkdd#Organizing_Committee_member"
+		"ekaw#Workshop_Chair",
+		"sigkdd#General_Chair"
 	]
 ]

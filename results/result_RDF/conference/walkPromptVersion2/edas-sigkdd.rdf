@@ -8,14 +8,6 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Review"/>
-      <entity2 rdf:resource="http://sigkdd#Review"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://edas#Place"/>
       <entity2 rdf:resource="http://sigkdd#Place"/>
       <relation>=</relation>
@@ -26,6 +18,22 @@
     <Cell>
       <entity1 rdf:resource="http://edas#Author"/>
       <entity2 rdf:resource="http://sigkdd#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Paper"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -48,16 +56,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Paper"/>
-      <entity2 rdf:resource="http://sigkdd#Paper"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://edas#Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <entity1 rdf:resource="http://edas#Review"/>
+      <entity2 rdf:resource="http://sigkdd#Review"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

@@ -8,6 +8,14 @@
   <type>??</type>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://cmt#Person"/>
+      <entity2 rdf:resource="http://ekaw#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://cmt#Document"/>
       <entity2 rdf:resource="http://ekaw#Document"/>
       <relation>=</relation>
@@ -18,14 +26,6 @@
     <Cell>
       <entity1 rdf:resource="http://cmt#Review"/>
       <entity2 rdf:resource="http://ekaw#Review"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Person"/>
-      <entity2 rdf:resource="http://ekaw#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

@@ -1,13 +1,16 @@
 {
-	"confOf#Trip;iasted#Full_day_tour": "yes",
-	"confOf#University;iasted#Presenter_university": "yes",
-	"confOf#Submission_event;iasted#Camera_ready_manuscript_deadline": "yes",
-	"confOf#Camera_Ready_event;iasted#Camera_ready_manuscript_deadline": "yes",
-	"confOf#Conference;iasted#PowerPoint_presentation": "yes",
-	"confOf#Conference;iasted#Conference_activity": "yes",
-	"confOf#Conference;iasted#Registration_fee": "yes",
-	"confOf#Conference;iasted#One_conference_day": "yes",
-	"confOf#Working_event;iasted#Conference_activity": "yes",
-	"confOf#Author;iasted#Author_book_proceedings_included": "yes",
-	"confOf#Author;iasted#Student_lecturer": "yes"
+    "confOf#Trip;iasted#Full_day_tour": "yes",
+    "confOf#University;iasted#Presenter_university": "yes",
+    "confOf#Submission_event;iasted#Camera_ready_manuscript_deadline": "yes",
+    "confOf#Camera_Ready_event;iasted#Camera_ready_manuscript_deadline": "yes",
+    "confOf#Conference;iasted#PowerPoint_presentation": "yes",
+    "confOf#Conference;iasted#Conference_activity": "yes",
+    "confOf#Conference;iasted#Registration_fee": "yes",
+    "confOf#Conference;iasted#One_conference_day": "yes",
+    "confOf#Working_event;iasted#Conference_activity": "yes",
+    "confOf#Author;iasted#Author_book_proceedings_included": "yes",
+    "confOf#Author;iasted#Student_lecturer": "yes",
+    "confOf#Contribution;iasted#Sponsor": "no",
+    "confOf#Member;iasted#IASTED_member": "no",
+    "confOf#Science_Worker;iasted#Worker_lecturer": "no"
 }

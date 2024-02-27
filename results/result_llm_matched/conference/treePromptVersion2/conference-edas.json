@@ -1,4 +1,14 @@
 {
-	"conference#Tutorial;edas#MeetingRoomPlace": "yes",
-	"conference#Paid_applicant;edas#SingleLevelConference": "yes"
+    "conference#Tutorial;edas#MeetingRoomPlace": "yes",
+    "conference#Paid_applicant;edas#SingleLevelConference": "yes",
+    "conference#Conference_applicant;edas#ConferenceChair": "no",
+    "conference#Track-workshop_chair;edas#ConferenceChair": "no",
+    "conference#Conference_participant;edas#ConferenceChair": "no",
+    "conference#Conference_contributor;edas#ConferenceChair": "no",
+    "conference#Conference_document;edas#Document": "no",
+    "conference#Conference_participant;edas#Presenter": "no",
+    "conference#Regular_author;edas#Author": "no",
+    "conference#Co-chair;edas#SessionChair": "no",
+    "conference#Co-chair;edas#ConferenceChair": "no",
+    "conference#Conference_part;edas#ConferenceEvent": "no"
 }

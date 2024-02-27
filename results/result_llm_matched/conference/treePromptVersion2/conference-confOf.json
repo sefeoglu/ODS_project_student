@@ -1,3 +1,13 @@
 {
-	"conference#Tutorial;confOf#Event": "yes"
+    "conference#Tutorial;confOf#Event": "yes",
+    "conference#Committee_member;confOf#Member_PC": "no",
+    "conference#Committee_member;confOf#Participant": "no",
+    "conference#Conference_participant;confOf#Participant": "no",
+    "conference#Submitted_contribution;confOf#Contribution": "no",
+    "conference#Written_contribution;confOf#Contribution": "no",
+    "conference#Conference_contribution;confOf#Contribution": "no",
+    "conference#Committee_member;confOf#Member": "no",
+    "conference#Regular_author;confOf#Author": "no",
+    "conference#Chair;confOf#Chair_PC": "no",
+    "conference#Reviewed_contribution;confOf#Contribution": "no"
 }

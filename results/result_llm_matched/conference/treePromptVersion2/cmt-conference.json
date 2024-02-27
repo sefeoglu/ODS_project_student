@@ -1,4 +1,24 @@
 {
-	"cmt#ConferenceMember;conference#Submitted_contribution": "yes",
-	"cmt#Chairman;conference#Presentation": "yes"
+    "cmt#ConferenceMember;conference#Submitted_contribution": "yes",
+    "cmt#Chairman;conference#Presentation": "yes",
+    "cmt#Document;conference#Conference_document": "no",
+    "cmt#Chairman;conference#Committee_member": "no",
+    "cmt#ProgramCommitteeMember;conference#Committee_member": "no",
+    "cmt#ConferenceMember;conference#Committee_member": "no",
+    "cmt#ConferenceMember;conference#Conference_applicant": "no",
+    "cmt#ConferenceMember;conference#Conference_participant": "no",
+    "cmt#ConferenceMember;conference#Conference_contributor": "no",
+    "cmt#ConferenceChair;conference#Conference_contributor": "no",
+    "cmt#ConferenceChair;conference#Conference_applicant": "no",
+    "cmt#ConferenceChair;conference#Conference_participant": "no",
+    "cmt#ConferenceChair;conference#Track-workshop_chair": "no",
+    "cmt#AssociatedChair;conference#Track-workshop_chair": "no",
+    "cmt#PaperAbstract;conference#Extended_abstract": "no",
+    "cmt#Author;conference#Regular_author": "no",
+    "cmt#ProgramCommitteeChair;conference#Co-chair": "no",
+    "cmt#ProgramCommitteeChair;conference#Track-workshop_chair": "no",
+    "cmt#ConferenceMember;conference#Invited_speaker": "no",
+    "cmt#ConferenceChair;conference#Co-chair": "no",
+    "cmt#AssociatedChair;conference#Co-chair": "no",
+    "cmt#Chairman;conference#Chair": "no"
 }

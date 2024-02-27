@@ -1,106 +1,54 @@
 [
 	[
-		"conference#Workshop",
-		"confOf#Workshop"
-	],
-	[
-		"conference#Topic",
-		"confOf#Topic"
-	],
-	[
-		"conference#Organization",
-		"confOf#Organization"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
-	],
-	[
-		"conference#Paper",
-		"confOf#Paper"
+		"conference#Conference",
+		"confOf#Conference"
 	],
 	[
 		"conference#Tutorial",
 		"confOf#Tutorial"
 	],
 	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Workshop",
+		"confOf#Workshop"
+	],
+	[
 		"conference#Poster",
 		"confOf#Poster"
 	],
 	[
-		"conference#Conference",
-		"confOf#Conference"
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
+	],
+	[
+		"conference#Conference_participant",
+		"confOf#Participant"
 	],
 	[
 		"conference#Written_contribution",
 		"confOf#Contribution"
 	],
 	[
-		"conference#Conference_applicant",
-		"confOf#Volunteer"
-	],
-	[
 		"conference#Committee_member",
-		"confOf#Administrator"
-	],
-	[
-		"conference#Organizer",
-		"confOf#University"
-	],
-	[
-		"conference#Track-workshop_chair",
-		"confOf#Chair_PC"
-	],
-	[
-		"conference#Conference_participant",
 		"confOf#Member_PC"
 	],
 	[
-		"conference#Conference_part",
-		"confOf#Working_event"
-	],
-	[
-		"conference#Reviewer",
-		"confOf#Assistant"
-	],
-	[
 		"conference#Regular_author",
-		"confOf#Student"
-	],
-	[
-		"conference#Conference_contributor",
-		"confOf#Regular"
+		"confOf#Administrator"
 	],
 	[
 		"conference#Chair",
-		"confOf#Scholar"
-	],
-	[
-		"conference#Paid_applicant",
-		"confOf#Participant"
-	],
-	[
-		"conference#Registeered_applicant",
-		"confOf#Author"
-	],
-	[
-		"conference#Invited_talk",
-		"confOf#Short_paper"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"confOf#Science_Worker"
-	],
-	[
-		"conference#Co-chair",
-		"confOf#Company"
-	],
-	[
-		"conference#Track",
-		"confOf#Event"
-	],
-	[
-		"conference#Active_conference_participant",
-		"confOf#Member"
+		"confOf#Chair_PC"
 	]
 ]
