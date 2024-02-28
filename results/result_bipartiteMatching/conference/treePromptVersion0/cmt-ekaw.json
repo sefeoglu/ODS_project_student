@@ -1,15 +1,7 @@
 [
 	[
-		"cmt#Document",
-		"ekaw#Document"
-	],
-	[
 		"cmt#Conference",
 		"ekaw#Conference"
-	],
-	[
-		"cmt#Person",
-		"ekaw#Person"
 	],
 	[
 		"cmt#Paper",
@@ -18,6 +10,14 @@
 	[
 		"cmt#Review",
 		"ekaw#Review"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Person",
+		"ekaw#Person"
 	],
 	[
 		"cmt#ConferenceMember",

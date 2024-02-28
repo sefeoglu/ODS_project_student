@@ -4,20 +4,20 @@
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
-	],
-	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
-	],
-	[
 		"cmt#Review",
 		"iasted#Review"
+	],
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
 		"cmt#Paper",

@@ -4,47 +4,39 @@
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
-	],
-	[
 		"cmt#Author",
 		"iasted#Author"
-	],
-	[
-		"cmt#Person",
-		"iasted#Person"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#ConferenceMember",
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Chairman",
 		"iasted#Delegate"
 	],
 	[
-		"cmt#Co-author",
-		"iasted#Author_book_proceedings_included"
-	],
-	[
 		"cmt#Paper",
-		"iasted#Transparency"
+		"iasted#Submission"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"cmt#PaperAbstract",
-		"iasted#Publication"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Session_chair"
+		"cmt#Co-author",
+		"iasted#Author_cd_proceedings_included"
 	],
 	[
 		"cmt#ConferenceChair",
 		"iasted#Conference_Hiker"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"iasted#Session_chair"
 	]
 ]

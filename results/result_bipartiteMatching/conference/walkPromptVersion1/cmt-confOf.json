@@ -1,22 +1,22 @@
 [
 	[
-		"cmt#Conference",
-		"confOf#Conference"
-	],
-	[
 		"cmt#Author",
 		"confOf#Author"
 	],
 	[
-		"cmt#Person",
-		"confOf#Person"
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
 	],
 	[
 		"cmt#Administrator",
 		"confOf#Administrator"
 	],
 	[
-		"cmt#Paper",
-		"confOf#Paper"
+		"cmt#Person",
+		"confOf#Person"
 	]
 ]

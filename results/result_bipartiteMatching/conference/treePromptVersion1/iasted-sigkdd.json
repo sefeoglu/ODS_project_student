@@ -1,51 +1,51 @@
 [
 	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Deadline",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Person",
+		"sigkdd#Person"
 	],
 	[
 		"iasted#Author",
 		"sigkdd#Author"
 	],
 	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
 		"iasted#Listener",
 		"sigkdd#Listener"
 	],
 	[
-		"iasted#Place",
-		"sigkdd#Place"
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
 	],
 	[
 		"iasted#Review",
 		"sigkdd#Review"
 	],
 	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
 		"iasted#Speaker",
 		"sigkdd#Speaker"
 	],
 	[
-		"iasted#Person",
-		"sigkdd#Person"
+		"iasted#Place",
+		"sigkdd#Place"
 	],
 	[
 		"iasted#Author_book_proceedings_included",

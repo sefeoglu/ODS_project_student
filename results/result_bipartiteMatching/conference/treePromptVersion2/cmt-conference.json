@@ -8,19 +8,19 @@
 		"conference#Conference"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
 	[
 		"cmt#Review",
 		"conference#Review"
+	],
+	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
 	]
 ]

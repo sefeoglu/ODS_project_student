@@ -1,42 +1,42 @@
 [
 	[
-		"conference#Person",
-		"edas#Person"
-	],
-	[
-		"conference#Paper",
-		"edas#Paper"
-	],
-	[
 		"conference#Organization",
 		"edas#Organization"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
-	],
-	[
-		"conference#Conference",
-		"edas#Conference"
-	],
-	[
-		"conference#Topic",
-		"edas#Topic"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
 	],
 	[
 		"conference#Workshop",
 		"edas#Workshop"
 	],
 	[
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
 		"conference#Reviewer",
 		"edas#Reviewer"
 	],
 	[
-		"conference#Track-workshop_chair",
+		"conference#Conference",
+		"edas#Conference"
+	],
+	[
+		"conference#Paper",
+		"edas#Paper"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Person",
+		"edas#Person"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
+	],
+	[
+		"conference#Conference_applicant",
 		"edas#ConferenceChair"
 	],
 	[
@@ -50,37 +50,5 @@
 	[
 		"conference#Conference_document",
 		"edas#Document"
-	],
-	[
-		"conference#Regular_author",
-		"edas#Author"
-	],
-	[
-		"conference#Co-chair",
-		"edas#SessionChair"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#CallForReviews"
-	],
-	[
-		"conference#Presentation",
-		"edas#SlideSet"
-	],
-	[
-		"conference#Poster",
-		"edas#PublishedPaper"
-	],
-	[
-		"conference#Invited_speaker",
-		"edas#Presenter"
-	],
-	[
-		"conference#Conference_part",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Invited_talk",
-		"edas#AcceptedPaper"
 	]
 ]

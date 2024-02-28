@@ -1,38 +1,22 @@
 [
 	[
-		"conference#Person",
-		"iasted#Person"
-	],
-	[
-		"conference#Presentation",
-		"iasted#Presentation"
-	],
-	[
-		"conference#Review",
-		"iasted#Review"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
-		"conference#Invited_speaker",
-		"iasted#Speaker"
+		"conference#Person",
+		"iasted#Person"
 	],
 	[
-		"conference#Conference_participant",
-		"iasted#Conference_Hiker"
-	],
-	[
-		"conference#Conference_part",
-		"iasted#Conference_activity"
-	],
-	[
-		"conference#Workshop",
-		"iasted#Activity"
+		"conference#Presentation",
+		"iasted#Presentation"
 	]
 ]

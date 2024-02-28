@@ -1,63 +1,63 @@
 [
 	[
-		"iasted#Main_office",
-		"sigkdd#Main_office"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Deadline",
-		"sigkdd#Deadline"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Person",
+		"sigkdd#Person"
 	],
 	[
 		"iasted#Author",
 		"sigkdd#Author"
 	],
 	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
 		"iasted#Listener",
 		"sigkdd#Listener"
 	],
 	[
-		"iasted#Place",
-		"sigkdd#Place"
+		"iasted#Fee",
+		"sigkdd#Fee"
+	],
+	[
+		"iasted#Main_office",
+		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Deadline",
+		"sigkdd#Deadline"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
 	],
 	[
 		"iasted#Review",
 		"sigkdd#Review"
 	],
 	[
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
 		"iasted#Speaker",
 		"sigkdd#Speaker"
 	],
 	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Form",
-		"sigkdd#Paper"
-	],
-	[
-		"iasted#Student_registration_fee",
-		"sigkdd#Registration_SIGKDD_Member"
+		"iasted#Place",
+		"sigkdd#Place"
 	],
 	[
 		"iasted#Hotel_room",
 		"sigkdd#Hotel"
+	],
+	[
+		"iasted#Author_book_proceedings_included",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"iasted#Submission",
+		"sigkdd#Paper"
 	],
 	[
 		"iasted#Author_attendee_cd_registration_fee",
@@ -65,38 +65,22 @@
 	],
 	[
 		"iasted#Nonauthor_registration_fee",
-		"sigkdd#Registration_Non-Member"
+		"sigkdd#Registration_SIGKDD_Member"
+	],
+	[
+		"iasted#Deadline_for_notification_of_acceptance",
+		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
 		"iasted#Memeber_registration_fee",
 		"sigkdd#Registration_Student"
 	],
 	[
-		"iasted#Author_book_proceedings_included",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"iasted#Deadline_for_notification_of_acceptance",
-		"sigkdd#Deadline_Author_notification"
+		"iasted#Nonmember_registration_fee",
+		"sigkdd#Registration_Non-Member"
 	],
 	[
 		"iasted#Author_cd_proceedings_included",
 		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"iasted#Session_chair",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"iasted#Sponzorship",
-		"sigkdd#Sponzor_fee"
-	],
-	[
-		"iasted#Plenary_lecture_speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"iasted#Delegate",
-		"sigkdd#Organizing_Committee_member"
 	]
 ]

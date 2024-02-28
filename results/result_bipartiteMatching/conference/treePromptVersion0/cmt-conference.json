@@ -8,14 +8,6 @@
 		"conference#Conference"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"conference#Program_committee"
-	],
-	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
@@ -24,19 +16,15 @@
 		"conference#Review"
 	],
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
 		"cmt#ConferenceMember",
 		"conference#Committee_member"
-	],
-	[
-		"cmt#PaperAbstract",
-		"conference#Extended_abstract"
-	],
-	[
-		"cmt#Chairman",
-		"conference#Chair"
-	],
-	[
-		"cmt#Author",
-		"conference#Regular_author"
 	]
 ]

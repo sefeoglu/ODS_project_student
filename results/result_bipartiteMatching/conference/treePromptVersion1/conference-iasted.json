@@ -1,23 +1,23 @@
 [
 	[
-		"conference#Person",
-		"iasted#Person"
-	],
-	[
-		"conference#Presentation",
-		"iasted#Presentation"
-	],
-	[
-		"conference#Review",
-		"iasted#Review"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
 	],
 	[
 		"conference#Conference_contribution",

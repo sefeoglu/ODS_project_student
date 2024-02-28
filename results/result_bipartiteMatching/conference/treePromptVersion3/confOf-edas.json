@@ -1,102 +1,78 @@
 [
 	[
-		"confOf#Social_event",
-		"edas#SocialEvent"
-	],
-	[
 		"confOf#Country",
 		"edas#Country"
-	],
-	[
-		"confOf#Paper",
-		"edas#Paper"
-	],
-	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
-	],
-	[
-		"confOf#Conference",
-		"edas#Conference"
-	],
-	[
-		"confOf#Topic",
-		"edas#Topic"
-	],
-	[
-		"confOf#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
 	],
 	[
 		"confOf#Reception",
 		"edas#Reception"
 	],
 	[
-		"confOf#Chair_PC",
-		"edas#ConferenceChair"
+		"confOf#Person",
+		"edas#Person"
 	],
 	[
-		"confOf#Event",
-		"edas#NonAcademicEvent"
+		"confOf#Paper",
+		"edas#Paper"
 	],
 	[
-		"confOf#Member_PC",
-		"edas#TPCMember"
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
-		"confOf#Participant",
-		"edas#Attendee"
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Conference",
+		"edas#Conference"
+	],
+	[
+		"confOf#Organization",
+		"edas#Organization"
+	],
+	[
+		"confOf#Topic",
+		"edas#Topic"
+	],
+	[
+		"confOf#Social_event",
+		"edas#SocialEvent"
 	],
 	[
 		"confOf#Company",
 		"edas#IndustryOrganization"
 	],
 	[
-		"confOf#Trip",
-		"edas#Excursion"
+		"confOf#Participant",
+		"edas#Attendee"
+	],
+	[
+		"confOf#Event",
+		"edas#NonAcademicEvent"
+	],
+	[
+		"confOf#Chair_PC",
+		"edas#ConferenceChair"
 	],
 	[
 		"confOf#University",
 		"edas#AcademiaOrganization"
 	],
 	[
-		"confOf#Poster",
-		"edas#PublishedPaper"
+		"confOf#Member_PC",
+		"edas#TPCMember"
 	],
 	[
-		"confOf#Short_paper",
-		"edas#WithdrawnPaper"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"edas#MealEvent"
-	],
-	[
-		"confOf#Reviewing_event",
-		"edas#ConferenceEvent"
-	],
-	[
-		"confOf#Working_event",
-		"edas#BreakEvent"
+		"confOf#Trip",
+		"edas#Excursion"
 	],
 	[
 		"confOf#Administrative_event",
-		"edas#AcademicEvent"
+		"edas#BreakEvent"
 	],
 	[
-		"confOf#Banquet",
-		"edas#ConferenceDinner"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"edas#TalkEvent"
+		"confOf#Working_event",
+		"edas#ConferenceEvent"
 	]
 ]

@@ -1,27 +1,27 @@
 [
 	[
-		"ekaw#Document",
-		"iasted#Document"
+		"ekaw#Person",
+		"iasted#Person"
 	],
 	[
 		"ekaw#Session",
 		"iasted#Session"
 	],
 	[
-		"ekaw#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
 		"ekaw#Review",
 		"iasted#Review"
 	],
 	[
-		"ekaw#Person",
-		"iasted#Person"
-	],
-	[
 		"ekaw#Session_Chair",
 		"iasted#Session_chair"
+	],
+	[
+		"ekaw#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"ekaw#Document",
+		"iasted#Document"
 	],
 	[
 		"ekaw#Conference_Session",
@@ -29,54 +29,6 @@
 	],
 	[
 		"ekaw#Paper",
-		"iasted#Transparency"
-	],
-	[
-		"ekaw#Paper_Author",
-		"iasted#Conference_Hiker"
-	],
-	[
-		"ekaw#Submitted_Paper",
-		"iasted#Form"
-	],
-	[
-		"ekaw#SC_Member",
-		"iasted#IASTED_member"
-	],
-	[
-		"ekaw#Workshop_Session",
-		"iasted#Conference_activity"
-	],
-	[
-		"ekaw#Workshop",
-		"iasted#Lecture"
-	],
-	[
-		"ekaw#Proceedings",
-		"iasted#Publication"
-	],
-	[
-		"ekaw#Presenter",
-		"iasted#Speaker"
-	],
-	[
-		"ekaw#Poster_Session",
-		"iasted#Presentation"
-	],
-	[
-		"ekaw#Event",
-		"iasted#Activity"
-	],
-	[
-		"ekaw#Invited_Speaker",
-		"iasted#Plenary_lecture_speaker"
-	],
-	[
-		"ekaw#Conference_Trip",
-		"iasted#Full_day_tour"
-	],
-	[
-		"ekaw#Social_Event",
-		"iasted#Technic_activity"
+		"iasted#Submission"
 	]
 ]

@@ -1,27 +1,11 @@
 [
 	[
-		"cmt#Document",
-		"sigkdd#Document"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"cmt#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"sigkdd#Program_Committee"
-	],
-	[
 		"cmt#Author",
 		"sigkdd#Author"
 	],
 	[
-		"cmt#Person",
-		"sigkdd#Person"
+		"cmt#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"cmt#Paper",
@@ -32,19 +16,23 @@
 		"sigkdd#Review"
 	],
 	[
+		"cmt#Document",
+		"sigkdd#Document"
+	],
+	[
+		"cmt#Person",
+		"sigkdd#Person"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"sigkdd#Program_Committee"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
 		"cmt#Co-author",
 		"sigkdd#Author_of_paper_student"
-	],
-	[
-		"cmt#ConferenceChair",
-		"sigkdd#Program_Chair"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"cmt#ConferenceMember",
-		"sigkdd#Invited_Speaker"
 	]
 ]

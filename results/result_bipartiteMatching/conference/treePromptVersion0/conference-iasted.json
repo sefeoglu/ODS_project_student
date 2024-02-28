@@ -1,5 +1,17 @@
 [
 	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
 		"conference#Person",
 		"iasted#Person"
 	],
@@ -8,31 +20,11 @@
 		"iasted#Presentation"
 	],
 	[
-		"conference#Review",
-		"iasted#Review"
-	],
-	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"conference#Conference_document",
-		"iasted#Document"
-	],
-	[
 		"conference#Invited_talk",
 		"iasted#Conference_activity"
 	],
 	[
-		"conference#Poster",
-		"iasted#Submission"
-	],
-	[
-		"conference#Conference_participant",
-		"iasted#Conference_Hiker"
+		"conference#Conference_document",
+		"iasted#Document"
 	]
 ]

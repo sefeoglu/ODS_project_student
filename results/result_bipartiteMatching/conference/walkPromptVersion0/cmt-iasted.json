@@ -4,27 +4,19 @@
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
-	],
-	[
 		"cmt#Author",
 		"iasted#Author"
-	],
-	[
-		"cmt#Person",
-		"iasted#Person"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#ConferenceMember",
-		"iasted#Conference_Hiker"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
-		"cmt#Paper",
-		"iasted#Publication"
+		"cmt#Person",
+		"iasted#Person"
 	]
 ]
