@@ -31,5 +31,13 @@
     "confOf#Member;ekaw#Agency_Staff_Member": "no",
     "confOf#Chair_PC;ekaw#Workshop_Chair": "no",
     "confOf#Chair_PC;ekaw#PC_Member": "no",
-    "confOf#Company;ekaw#Organisation": "no"
+    "confOf#Company;ekaw#Organisation": "no",
+    "confOf#Administrator;ekaw#Paper_Author": "no",
+    "confOf#Scholar;ekaw#Paper_Author": "no",
+    "confOf#Administrative_event;ekaw#Scientific_Event": "no",
+    "confOf#Poster;ekaw#Submitted_Paper": "no",
+    "confOf#Poster;ekaw#Demo_Paper": "no",
+    "confOf#Poster;ekaw#Flyer": "no",
+    "confOf#Short_paper;ekaw#Document": "no",
+    "confOf#Reviewing_event;ekaw#Scientific_Event": "no"
 }

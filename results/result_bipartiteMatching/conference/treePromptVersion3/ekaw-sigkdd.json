@@ -1,31 +1,31 @@
 [
 	[
-		"ekaw#Conference",
-		"sigkdd#Conference"
+		"ekaw#Document",
+		"sigkdd#Document"
 	],
 	[
 		"ekaw#Review",
 		"sigkdd#Review"
 	],
 	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"ekaw#Document",
-		"sigkdd#Document"
-	],
-	[
 		"ekaw#Person",
 		"sigkdd#Person"
 	],
 	[
-		"ekaw#Abstract",
-		"sigkdd#Abstract"
-	],
-	[
 		"ekaw#Invited_Speaker",
 		"sigkdd#Invited_Speaker"
+	],
+	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
 	],
 	[
 		"ekaw#Presenter",
@@ -36,19 +36,19 @@
 		"sigkdd#Author"
 	],
 	[
+		"ekaw#Tutorial_Chair",
+		"sigkdd#Program_Chair"
+	],
+	[
 		"ekaw#PC_Chair",
 		"sigkdd#General_Chair"
 	],
 	[
-		"ekaw#Demo_Chair",
-		"sigkdd#Program_Chair"
-	],
-	[
 		"ekaw#PC_Member",
-		"sigkdd#Program_Committee_member"
+		"sigkdd#Organizing_Committee_member"
 	],
 	[
 		"ekaw#SC_Member",
-		"sigkdd#Organizing_Committee_member"
+		"sigkdd#Program_Committee_member"
 	]
 ]

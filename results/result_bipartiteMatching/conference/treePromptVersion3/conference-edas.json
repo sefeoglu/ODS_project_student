@@ -1,74 +1,86 @@
 [
 	[
-		"conference#Conference",
-		"edas#Conference"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
 		"conference#Paper",
 		"edas#Paper"
 	],
 	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
 		"conference#Organization",
 		"edas#Organization"
-	],
-	[
-		"conference#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#CallForPapers"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
 		"conference#Topic",
 		"edas#Topic"
 	],
 	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
+	],
+	[
+		"conference#Track-workshop_chair",
+		"edas#ConferenceChair"
+	],
+	[
 		"conference#Conference_participant",
 		"edas#Attendee"
+	],
+	[
+		"conference#Committee_member",
+		"edas#TPCMember"
 	],
 	[
 		"conference#Conference_document",
 		"edas#Document"
 	],
 	[
-		"conference#Conference_applicant",
-		"edas#ConferenceChair"
-	],
-	[
-		"conference#Invited_talk",
-		"edas#AcceptedPaper"
+		"conference#Regular_author",
+		"edas#Author"
 	],
 	[
 		"conference#Co-chair",
 		"edas#SessionChair"
 	],
 	[
+		"conference#Call_for_participation",
+		"edas#CallForReviews"
+	],
+	[
+		"conference#Presentation",
+		"edas#SlideSet"
+	],
+	[
+		"conference#Poster",
+		"edas#PublishedPaper"
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#Presenter"
+	],
+	[
 		"conference#Conference_part",
 		"edas#ConferenceEvent"
 	],
 	[
-		"conference#Regular_author",
-		"edas#Author"
-	],
-	[
-		"conference#Presentation",
-		"edas#Programme"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#CallForReviews"
+		"conference#Invited_talk",
+		"edas#AcceptedPaper"
 	]
 ]

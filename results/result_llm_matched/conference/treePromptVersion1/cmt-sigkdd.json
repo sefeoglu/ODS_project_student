@@ -21,5 +21,6 @@
     "cmt#ConferenceChair;sigkdd#General_Chair": "no",
     "cmt#ConferenceChair;sigkdd#Program_Chair": "no",
     "cmt#AssociatedChair;sigkdd#General_Chair": "no",
-    "cmt#AssociatedChair;sigkdd#Program_Chair": "yes"
+    "cmt#AssociatedChair;sigkdd#Program_Chair": "yes",
+    "cmt#AuthorNotReviewer;sigkdd#Author_of_paper_student": "no"
 }

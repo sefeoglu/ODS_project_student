@@ -82,5 +82,10 @@
     "edas#SessionChair;sigkdd#General_Chair": "no",
     "edas#SessionChair;sigkdd#Program_Chair": "no",
     "edas#ConferenceChair;sigkdd#General_Chair": "no",
-    "edas#ConferenceChair;sigkdd#Program_Chair": "no"
+    "edas#ConferenceChair;sigkdd#Program_Chair": "no",
+    "edas#Presenter;sigkdd#Speaker": "no",
+    "edas#Attendee;sigkdd#Invited_Speaker": "no",
+    "edas#Presenter;sigkdd#Invited_Speaker": "no",
+    "edas#TPCMember;sigkdd#Organizing_Committee_member": "no",
+    "edas#TPCMember;sigkdd#Program_Committee_member": "no"
 }

@@ -1,15 +1,15 @@
 [
 	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Person",
 		"iasted#Person"
 	],
 	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"confOf#Author",
@@ -20,24 +20,32 @@
 		"iasted#Delegate"
 	],
 	[
+		"confOf#Science_Worker",
+		"iasted#Technical_commitee"
+	],
+	[
+		"confOf#Participant",
+		"iasted#Student_lecturer"
+	],
+	[
 		"confOf#Conference",
 		"iasted#Conference_activity"
 	],
 	[
 		"confOf#Scholar",
-		"iasted#Student_lecturer"
+		"iasted#Student_non_speaker"
+	],
+	[
+		"confOf#Member",
+		"iasted#IASTED_non_member"
 	],
 	[
 		"confOf#Contribution",
 		"iasted#Sponsor"
 	],
 	[
-		"confOf#Member",
-		"iasted#IASTED_member"
-	],
-	[
-		"confOf#Science_Worker",
-		"iasted#Technical_commitee"
+		"confOf#Student",
+		"iasted#Lecturer"
 	],
 	[
 		"confOf#Event",

@@ -1,55 +1,55 @@
 [
 	[
-		"confOf#Social_event",
-		"ekaw#Social_Event"
-	],
-	[
-		"confOf#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"confOf#Paper",
 		"ekaw#Paper"
-	],
-	[
-		"confOf#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"confOf#Event",
-		"ekaw#Event"
-	],
-	[
-		"confOf#Tutorial",
-		"ekaw#Tutorial"
-	],
-	[
-		"confOf#University",
-		"ekaw#University"
 	],
 	[
 		"confOf#Person",
 		"ekaw#Person"
 	],
 	[
+		"confOf#Event",
+		"ekaw#Event"
+	],
+	[
+		"confOf#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"confOf#Tutorial",
+		"ekaw#Tutorial"
+	],
+	[
+		"confOf#Workshop",
+		"ekaw#Workshop"
+	],
+	[
 		"confOf#Student",
 		"ekaw#Student"
+	],
+	[
+		"confOf#Social_event",
+		"ekaw#Social_Event"
+	],
+	[
+		"confOf#University",
+		"ekaw#University"
+	],
+	[
+		"confOf#Trip",
+		"ekaw#Conference_Trip"
 	],
 	[
 		"confOf#Working_event",
 		"ekaw#Scientific_Event"
 	],
 	[
-		"confOf#Participant",
-		"ekaw#Conference_Participant"
-	],
-	[
 		"confOf#Author",
 		"ekaw#Paper_Author"
 	],
 	[
-		"confOf#Trip",
-		"ekaw#Conference_Trip"
+		"confOf#Participant",
+		"ekaw#Conference_Participant"
 	],
 	[
 		"confOf#Poster",

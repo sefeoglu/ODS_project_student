@@ -23,5 +23,21 @@
     "confOf#Member;edas#TPCMember": "no",
     "confOf#Event;edas#AcademicEvent": "no",
     "confOf#Event;edas#TalkEvent": "no",
-    "confOf#Working_event;edas#TalkEvent": "no"
+    "confOf#Working_event;edas#TalkEvent": "no",
+    "confOf#Participant;edas#Attendee": "no",
+    "confOf#Member_PC;edas#ConferenceChair": "no",
+    "confOf#Chair_PC;edas#TPCMember": "no",
+    "confOf#Company;edas#NGO": "no",
+    "confOf#Member;edas#Attendee": "no",
+    "confOf#Student;edas#Attendee": "no",
+    "confOf#Poster;edas#PublishedPaper": "no",
+    "confOf#Short_paper;edas#RatedPapers": "no",
+    "confOf#Short_paper;edas#WithdrawnPaper": "no",
+    "confOf#Short_paper;edas#Document": "no",
+    "confOf#Short_paper;edas#PendingPaper": "no",
+    "confOf#Banquet;edas#ConferenceEvent": "no",
+    "confOf#Administrative_event;edas#MealEvent": "no",
+    "confOf#Administrative_event;edas#BreakEvent": "no",
+    "confOf#Working_event;edas#MealEvent": "no",
+    "confOf#Working_event;edas#NonAcademicEvent": "no"
 }

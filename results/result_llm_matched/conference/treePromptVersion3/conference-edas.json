@@ -1277,5 +1277,13 @@
     "conference#Track-workshop_chair;edas#ConferenceChair": "yes",
     "conference#Conference_participant;edas#ConferenceChair": "no",
     "conference#Conference_contributor;edas#ConferenceChair": "no",
-    "conference#Conference_document;edas#Document": "yes"
+    "conference#Conference_document;edas#Document": "yes",
+    "conference#Committee_member;edas#TPCMember": "yes",
+    "conference#Committee_member;edas#Attendee": "no",
+    "conference#Invited_speaker;edas#Presenter": "yes",
+    "conference#Call_for_participation;edas#CallForManuscripts": "yes",
+    "conference#Call_for_participation;edas#Call": "yes",
+    "conference#Poster;edas#PublishedPaper": "yes",
+    "conference#Presentation;edas#SlideSet": "yes",
+    "conference#Conference_applicant;edas#Presenter": "no"
 }

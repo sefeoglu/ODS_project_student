@@ -1,11 +1,7 @@
 [
 	[
-		"conference#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Person",
+		"iasted#Person"
 	],
 	[
 		"conference#Presentation",
@@ -16,20 +12,36 @@
 		"iasted#Review"
 	],
 	[
-		"conference#Person",
-		"iasted#Person"
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Committee_member",
 		"iasted#Delegate"
 	],
 	[
-		"conference#Invited_talk",
+		"conference#Conference_document",
+		"iasted#Document"
+	],
+	[
+		"conference#Conference_contribution",
 		"iasted#Conference_activity"
 	],
 	[
-		"conference#Conference_document",
-		"iasted#Document"
+		"conference#Written_contribution",
+		"iasted#Publication"
+	],
+	[
+		"conference#Paper",
+		"iasted#Activity"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"iasted#Listener"
 	],
 	[
 		"conference#Regular_author",
@@ -40,16 +52,8 @@
 		"iasted#Lecture"
 	],
 	[
-		"conference#Passive_conference_participant",
-		"iasted#Listener"
-	],
-	[
 		"conference#Conference_contributor",
 		"iasted#Conference_Hiker"
-	],
-	[
-		"conference#Written_contribution",
-		"iasted#Publication"
 	],
 	[
 		"conference#Invited_speaker",
@@ -58,13 +62,5 @@
 	[
 		"conference#Contribution_co-author",
 		"iasted#IASTED_member"
-	],
-	[
-		"conference#Paper",
-		"iasted#Card"
-	],
-	[
-		"conference#Track",
-		"iasted#Activity"
 	]
 ]

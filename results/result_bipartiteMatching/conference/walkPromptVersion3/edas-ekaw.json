@@ -1,55 +1,87 @@
 [
 	[
-		"edas#SocialEvent",
-		"ekaw#Social_Event"
-	],
-	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"edas#ConferenceSession",
-		"ekaw#Conference_Session"
-	],
-	[
-		"edas#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
 		"edas#Person",
 		"ekaw#Person"
-	],
-	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
-		"edas#SessionChair",
-		"ekaw#Session_Chair"
 	],
 	[
 		"edas#Presenter",
 		"ekaw#Presenter"
 	],
 	[
-		"edas#Conference",
-		"ekaw#Conference"
+		"edas#Workshop",
+		"ekaw#Workshop"
+	],
+	[
+		"edas#Document",
+		"ekaw#Document"
+	],
+	[
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
+	],
+	[
+		"edas#SessionChair",
+		"ekaw#Session_Chair"
+	],
+	[
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
 	],
 	[
 		"edas#Review",
 		"ekaw#Review"
 	],
 	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
+		"edas#SocialEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#WithdrawnPaper",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"edas#AcademicEvent",
+		"ekaw#Scientific_Event"
+	],
+	[
 		"edas#ConferenceChair",
 		"ekaw#Conference_Participant"
+	],
+	[
+		"edas#NonAcademicEvent",
+		"ekaw#Event"
+	],
+	[
+		"edas#Author",
+		"ekaw#Paper_Author"
+	],
+	[
+		"edas#Attendee",
+		"ekaw#Student"
+	],
+	[
+		"edas#PublishedPaper",
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"edas#ActivePaper",
+		"ekaw#Poster_Paper"
+	],
+	[
+		"edas#PendingPaper",
+		"ekaw#Workshop_Paper"
 	],
 	[
 		"edas#TPCMember",
@@ -60,55 +92,23 @@
 		"ekaw#Conference_Trip"
 	],
 	[
-		"edas#PendingPaper",
-		"ekaw#Regular_Paper"
+		"edas#ConferenceEvent",
+		"ekaw#Conference_Banquet"
 	],
 	[
-		"edas#Author",
-		"ekaw#Paper_Author"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"edas#NonAcademicEvent",
-		"ekaw#Event"
-	],
-	[
-		"edas#Attendee",
-		"ekaw#Student"
-	],
-	[
-		"edas#PublishedPaper",
-		"ekaw#Demo_Paper"
-	],
-	[
-		"edas#AcademicEvent",
-		"ekaw#Scientific_Event"
-	],
-	[
-		"edas#ActivePaper",
-		"ekaw#Submitted_Paper"
-	],
-	[
-		"edas#ClosingTalk",
+		"edas#TalkEvent",
 		"ekaw#Invited_Talk"
 	],
 	[
 		"edas#RatedPapers",
-		"ekaw#Poster_Paper"
-	],
-	[
-		"edas#WelcomeTalk",
-		"ekaw#Contributed_Talk"
-	],
-	[
-		"edas#ConferenceDinner",
-		"ekaw#Conference_Banquet"
+		"ekaw#Submitted_Paper"
 	],
 	[
 		"edas#PaperPresentation",
 		"ekaw#Individual_Presentation"
+	],
+	[
+		"edas#WelcomeTalk",
+		"ekaw#Contributed_Talk"
 	]
 ]

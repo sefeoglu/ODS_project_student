@@ -1708,5 +1708,22 @@
     "edas#ConferenceChair;ekaw#Demo_Chair": "no",
     "edas#TalkEvent;ekaw#Invited_Talk": "yes",
     "edas#ConferenceDinner;ekaw#Conference_Banquet": "yes",
-    "edas#ConferenceDinner;ekaw#Conference_Trip": "yes"
+    "edas#ConferenceDinner;ekaw#Conference_Trip": "yes",
+    "edas#PendingPaper;ekaw#Regular_Paper": "no",
+    "edas#PendingPaper;ekaw#Poster_Paper": "yes",
+    "edas#PendingPaper;ekaw#Camera_Ready_Paper": "yes",
+    "edas#PendingPaper;ekaw#Workshop_Paper": "no",
+    "edas#WithdrawnPaper;ekaw#Regular_Paper": "no",
+    "edas#WithdrawnPaper;ekaw#Industrial_Paper": "no",
+    "edas#WithdrawnPaper;ekaw#Poster_Paper": "no",
+    "edas#WithdrawnPaper;ekaw#Conference_Paper": "yes",
+    "edas#WithdrawnPaper;ekaw#Camera_Ready_Paper": "no",
+    "edas#RatedPapers;ekaw#Assigned_Paper": "no",
+    "edas#RatedPapers;ekaw#Camera_Ready_Paper": "no",
+    "edas#RatedPapers;ekaw#Workshop_Paper": "no",
+    "edas#ConferenceChair;ekaw#Tutorial_Chair": "yes",
+    "edas#ClosingTalk;ekaw#Contributed_Talk": "no",
+    "edas#ClosingTalk;ekaw#Invited_Talk": "yes",
+    "edas#WelcomeTalk;ekaw#Contributed_Talk": "no",
+    "edas#WelcomeTalk;ekaw#Invited_Talk": "no"
 }

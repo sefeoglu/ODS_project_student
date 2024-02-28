@@ -1,19 +1,11 @@
 [
 	[
-		"edas#Place",
-		"iasted#Place"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#Person",
 		"iasted#Person"
+	],
+	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
 	],
 	[
 		"edas#Document",
@@ -24,19 +16,27 @@
 		"iasted#Session_chair"
 	],
 	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Place",
+		"iasted#Place"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
-		"edas#Presenter",
-		"iasted#Lecturer"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"edas#ConferenceVenuePlace",
 		"iasted#Conference_hall"
+	],
+	[
+		"edas#Presenter",
+		"iasted#Lecturer"
 	]
 ]

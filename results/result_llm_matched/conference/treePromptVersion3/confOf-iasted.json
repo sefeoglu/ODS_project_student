@@ -1025,5 +1025,14 @@
     "confOf#Author;iasted#Author_book_proceedings_included": "yes",
     "confOf#Author;iasted#Sponsor_company_house": "yes",
     "confOf#Author;iasted#Student_registration_fee": "yes",
-    "confOf#Science_Worker;iasted#Worker_lecturer": "no"
+    "confOf#Science_Worker;iasted#Worker_lecturer": "no",
+    "confOf#Participant;iasted#Sponsor": "no",
+    "confOf#Science_Worker;iasted#Lecturer": "yes",
+    "confOf#Science_Worker;iasted#Student_lecturer": "no",
+    "confOf#Participant;iasted#Student_lecturer": "yes",
+    "confOf#Member;iasted#IASTED_non_member": "yes",
+    "confOf#Scholar;iasted#Student_non_speaker": "yes",
+    "confOf#Science_Worker;iasted#Student_non_speaker": "yes",
+    "confOf#Science_Worker;iasted#Worker_non_speaker": "no",
+    "confOf#Banquet;iasted#Presentation": "no"
 }

@@ -429,5 +429,10 @@
     "conference#Written_contribution;confOf#Contribution": "yes",
     "conference#Regular_author;confOf#Author": "yes",
     "conference#Chair;confOf#Chair_PC": "no",
-    "conference#Call_for_paper;confOf#Short_paper": "no"
+    "conference#Call_for_paper;confOf#Short_paper": "no",
+    "conference#Conference_contributor;confOf#Member_PC": "no",
+    "conference#Conference_part;confOf#Event": "yes",
+    "conference#Regular_author;confOf#Administrator": "no",
+    "conference#Chair;confOf#Member": "yes",
+    "conference#Contribution_co-author;confOf#Administrator": "no"
 }

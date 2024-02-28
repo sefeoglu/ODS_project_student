@@ -1648,5 +1648,14 @@
     "conference#Invited_speaker;iasted#Non_speaker": "no",
     "conference#Invited_speaker;iasted#Speaker": "yes",
     "conference#Conference_participant;iasted#Conference_Hiker": "no",
-    "conference#Regular_author;iasted#Author": "no"
+    "conference#Regular_author;iasted#Author": "no",
+    "conference#Invited_talk;iasted#Conference_activity": "yes",
+    "conference#Workshop;iasted#Lecture": "yes",
+    "conference#Regular_author;iasted#IASTED_non_member": "yes",
+    "conference#Conference_applicant;iasted#Conference_Hiker": "yes",
+    "conference#Invited_speaker;iasted#Conference_Hiker": "no",
+    "conference#Poster;iasted#Submission": "no",
+    "conference#Paper;iasted#Activity": "no",
+    "conference#Invited_talk;iasted#Invitation_letter": "no",
+    "conference#Invited_talk;iasted#Item": "no"
 }

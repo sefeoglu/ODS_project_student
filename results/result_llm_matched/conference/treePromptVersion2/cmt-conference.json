@@ -20,5 +20,10 @@
     "cmt#ConferenceMember;conference#Invited_speaker": "no",
     "cmt#ConferenceChair;conference#Co-chair": "no",
     "cmt#AssociatedChair;conference#Co-chair": "no",
-    "cmt#Chairman;conference#Chair": "no"
+    "cmt#Chairman;conference#Chair": "no",
+    "cmt#Administrator;conference#Regular_author": "no",
+    "cmt#ConferenceMember;conference#Regular_author": "no",
+    "cmt#User;conference#Regular_author": "no",
+    "cmt#ConferenceChair;conference#Organizer": "no",
+    "cmt#AssociatedChair;conference#Organizer": "no"
 }

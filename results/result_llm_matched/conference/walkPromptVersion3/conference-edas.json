@@ -1194,5 +1194,6 @@
     "conference#Conference_part;edas#TalkEvent": "yes",
     "conference#Invited_talk;edas#AcceptedPaper": "no",
     "conference#Presentation;edas#SlideSet": "no",
-    "conference#Presentation;edas#Programme": "no"
+    "conference#Presentation;edas#Programme": "no",
+    "conference#Conference_applicant;edas#Presenter": "yes"
 }

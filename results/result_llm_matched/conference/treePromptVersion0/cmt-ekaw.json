@@ -69,5 +69,16 @@
     "cmt#Meta-Reviewer;ekaw#Possible_Reviewer": "no",
     "cmt#AuthorNotReviewer;ekaw#Possible_Reviewer": "no",
     "cmt#AuthorNotReviewer;ekaw#Paper_Author": "no",
-    "cmt#Co-author;ekaw#Paper_Author": "no"
+    "cmt#Co-author;ekaw#Paper_Author": "no",
+    "cmt#ConferenceMember;ekaw#Paper_Author": "no",
+    "cmt#ConferenceMember;ekaw#Agency_Staff_Member": "no",
+    "cmt#Chairman;ekaw#Agency_Staff_Member": "no",
+    "cmt#User;ekaw#Student": "no",
+    "cmt#ProgramCommitteeMember;ekaw#PC_Member": "no",
+    "cmt#Administrator;ekaw#Paper_Author": "no",
+    "cmt#Chairman;ekaw#Presenter": "no",
+    "cmt#ProgramCommitteeChair;ekaw#PC_Chair": "no",
+    "cmt#ProgramCommitteeChair;ekaw#Tutorial_Chair": "no",
+    "cmt#ConferenceChair;ekaw#Tutorial_Chair": "no",
+    "cmt#Co-author;ekaw#Agency_Staff_Member": "no"
 }

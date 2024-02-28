@@ -151,5 +151,7 @@
     "edas#RatedPapers;ekaw#Industrial_Paper": "no",
     "edas#RatedPapers;ekaw#Assigned_Paper": "no",
     "edas#RatedPapers;ekaw#Workshop_Paper": "no",
-    "edas#Attendee;ekaw#Invited_Speaker": "no"
+    "edas#Attendee;ekaw#Invited_Speaker": "no",
+    "edas#ConferenceDinner;ekaw#Conference_Banquet": "no",
+    "edas#ConferenceDinner;ekaw#Conference_Trip": "no"
 }

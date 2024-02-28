@@ -139,5 +139,20 @@
     "conference#Conference_participant;edas#Presenter": "no",
     "conference#Co-chair;edas#SessionChair": "no",
     "conference#Co-chair;edas#ConferenceChair": "no",
-    "conference#Conference_part;edas#ConferenceEvent": "no"
+    "conference#Conference_part;edas#ConferenceEvent": "no",
+    "conference#Conference_participant;edas#Attendee": "yes",
+    "conference#Conference_applicant;edas#Attendee": "no",
+    "conference#Committee_member;edas#TPCMember": "no",
+    "conference#Committee_member;edas#Attendee": "no",
+    "conference#Call_for_participation;edas#CallForReviews": "no",
+    "conference#Call_for_participation;edas#Call": "yes",
+    "conference#Invited_speaker;edas#Presenter": "no",
+    "conference#Organizer;edas#ConferenceChair": "no",
+    "conference#Conference_applicant;edas#Presenter": "no",
+    "conference#Conference_part;edas#TalkEvent": "no",
+    "conference#Poster;edas#PublishedPaper": "no",
+    "conference#Invited_talk;edas#AcceptedPaper": "no",
+    "conference#Presentation;edas#SlideSet": "no",
+    "conference#Presentation;edas#Programme": "no",
+    "conference#Contribution_co-author;edas#TPCMember": "no"
 }

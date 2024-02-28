@@ -57,5 +57,10 @@
     "cmt#User;conference#Regular_author": "no",
     "cmt#AuthorNotReviewer;conference#Regular_author": "no",
     "cmt#Co-author;conference#Committee_member": "no",
-    "cmt#Co-author;conference#Regular_author": "no"
+    "cmt#Co-author;conference#Regular_author": "no",
+    "cmt#ConferenceChair;conference#Conference_participant": "no",
+    "cmt#AssociatedChair;conference#Organization": "no",
+    "cmt#Co-author;conference#Organization": "no",
+    "cmt#Co-author;conference#Conference_participant": "no",
+    "cmt#Chairman;conference#Organization": "no"
 }

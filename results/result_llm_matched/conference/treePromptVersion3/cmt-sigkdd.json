@@ -326,5 +326,6 @@
     "cmt#ProgramCommitteeChair;sigkdd#General_Chair": "no",
     "cmt#ConferenceMember;sigkdd#Organizing_Committee_member": "yes",
     "cmt#ConferenceChair;sigkdd#General_Chair": "no",
-    "cmt#AssociatedChair;sigkdd#General_Chair": "no"
+    "cmt#AssociatedChair;sigkdd#General_Chair": "no",
+    "cmt#AuthorNotReviewer;sigkdd#Author_of_paper_student": "no"
 }

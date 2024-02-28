@@ -1,15 +1,15 @@
 [
 	[
-		"cmt#Person",
-		"confOf#Person"
-	],
-	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
 		"cmt#Author",
 		"confOf#Author"
+	],
+	[
+		"cmt#Person",
+		"confOf#Person"
 	],
 	[
 		"cmt#Administrator",

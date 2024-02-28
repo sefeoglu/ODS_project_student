@@ -2119,5 +2119,6 @@
     "ekaw#Tutorial_Chair;iasted#Tutorial_speaker": "no",
     "ekaw#Contributed_Talk;iasted#Social_program": "no",
     "ekaw#Social_Event;iasted#Technic_activity": "no",
-    "ekaw#Conference_Banquet;iasted#Dinner_banquet": "yes"
+    "ekaw#Conference_Banquet;iasted#Dinner_banquet": "yes",
+    "ekaw#Demo_Session;iasted#Presentation": "yes"
 }

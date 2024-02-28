@@ -1,17 +1,5 @@
 [
 	[
-		"ekaw#Review",
-		"iasted#Review"
-	],
-	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
-	],
-	[
-		"ekaw#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
 		"ekaw#Document",
 		"iasted#Document"
 	],
@@ -20,7 +8,19 @@
 		"iasted#Session"
 	],
 	[
+		"ekaw#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"ekaw#Review",
+		"iasted#Review"
+	],
+	[
 		"ekaw#Person",
 		"iasted#Person"
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
 	]
 ]

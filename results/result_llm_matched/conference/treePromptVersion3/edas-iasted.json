@@ -2672,5 +2672,12 @@
     "edas#PublishedPaper;iasted#Publication": "yes",
     "edas#ConferenceVenuePlace;iasted#Conference_restaurant": "yes",
     "edas#ConferenceVenuePlace;iasted#Conference_airport": "yes",
-    "edas#ConferenceChair;iasted#Conference_Hiker": "yes"
+    "edas#ConferenceChair;iasted#Conference_Hiker": "yes",
+    "edas#Presenter;iasted#Speaker": "yes",
+    "edas#DiningPlace;iasted#Session_room": "no",
+    "edas#Programme;iasted#Item": "no",
+    "edas#Paper;iasted#Transparency": "yes",
+    "edas#DiningPlace;iasted#Sponsor_company_house": "yes",
+    "edas#AcceptedPaper;iasted#Invitation_letter": "no",
+    "edas#Attendee;iasted#IASTED_non_member": "no"
 }

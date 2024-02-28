@@ -62,5 +62,13 @@
     "confOf#Chair_PC;ekaw#PC_Chair": "yes",
     "confOf#Chair_PC;ekaw#Workshop_Chair": "no",
     "confOf#Chair_PC;ekaw#PC_Member": "no",
-    "confOf#Company;ekaw#Organisation": "yes"
+    "confOf#Company;ekaw#Organisation": "yes",
+    "confOf#Administrator;ekaw#Paper_Author": "no",
+    "confOf#Scholar;ekaw#Paper_Author": "no",
+    "confOf#Administrative_event;ekaw#Scientific_Event": "no",
+    "confOf#Poster;ekaw#Submitted_Paper": "no",
+    "confOf#Poster;ekaw#Demo_Paper": "no",
+    "confOf#Poster;ekaw#Flyer": "no",
+    "confOf#Short_paper;ekaw#Document": "yes",
+    "confOf#Reviewing_event;ekaw#Scientific_Event": "no"
 }

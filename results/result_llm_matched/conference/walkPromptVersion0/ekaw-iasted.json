@@ -141,5 +141,9 @@
     "ekaw#Conference_Session;iasted#Presentation": "no",
     "ekaw#Poster_Session;iasted#Presentation": "yes",
     "ekaw#Invited_Speaker;iasted#Non_speaker": "no",
-    "ekaw#Invited_Speaker;iasted#Speaker": "no"
+    "ekaw#Invited_Speaker;iasted#Speaker": "no",
+    "ekaw#Workshop_Session;iasted#Presentation": "no",
+    "ekaw#Invited_Speaker;iasted#Plenary_lecture_speaker": "no",
+    "ekaw#Invited_Speaker;iasted#Conference_Hiker": "no",
+    "ekaw#Tutorial_Chair;iasted#Tutorial_speaker": "no"
 }

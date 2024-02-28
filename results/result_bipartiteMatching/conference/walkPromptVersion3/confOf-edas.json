@@ -4,32 +4,32 @@
 		"edas#SocialEvent"
 	],
 	[
-		"confOf#Conference",
-		"edas#Conference"
+		"confOf#Country",
+		"edas#Country"
 	],
 	[
 		"confOf#Paper",
 		"edas#Paper"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
+		"confOf#Person",
+		"edas#Person"
 	],
 	[
 		"confOf#Author",
 		"edas#Author"
 	],
 	[
+		"confOf#Conference",
+		"edas#Conference"
+	],
+	[
 		"confOf#Topic",
 		"edas#Topic"
 	],
 	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Country",
-		"edas#Country"
+		"confOf#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"confOf#Organization",
@@ -41,39 +41,51 @@
 	],
 	[
 		"confOf#Chair_PC",
-		"edas#ConferenceChair"
+		"edas#TPCMember"
 	],
 	[
 		"confOf#Event",
 		"edas#NonAcademicEvent"
 	],
 	[
-		"confOf#Trip",
-		"edas#Excursion"
+		"confOf#Member_PC",
+		"edas#ConferenceChair"
 	],
 	[
 		"confOf#Participant",
 		"edas#Attendee"
 	],
 	[
+		"confOf#Company",
+		"edas#NGO"
+	],
+	[
+		"confOf#Trip",
+		"edas#Excursion"
+	],
+	[
 		"confOf#University",
 		"edas#AcademiaOrganization"
 	],
 	[
-		"confOf#Company",
-		"edas#IndustryOrganization"
+		"confOf#Poster",
+		"edas#PublishedPaper"
 	],
 	[
-		"confOf#Member_PC",
-		"edas#TPCMember"
+		"confOf#Short_paper",
+		"edas#WithdrawnPaper"
+	],
+	[
+		"confOf#Reviewing_event",
+		"edas#MealEvent"
 	],
 	[
 		"confOf#Administrative_event",
 		"edas#ConferenceEvent"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#MealEvent"
+		"confOf#Working_event",
+		"edas#TalkEvent"
 	],
 	[
 		"confOf#Camera_Ready_event",
@@ -82,18 +94,6 @@
 	[
 		"confOf#Submission_event",
 		"edas#AcademicEvent"
-	],
-	[
-		"confOf#Short_paper",
-		"edas#PendingPaper"
-	],
-	[
-		"confOf#Poster",
-		"edas#PublishedPaper"
-	],
-	[
-		"confOf#Working_event",
-		"edas#TalkEvent"
 	],
 	[
 		"confOf#Banquet",

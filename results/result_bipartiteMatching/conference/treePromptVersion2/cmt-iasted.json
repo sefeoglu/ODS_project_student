@@ -1,23 +1,23 @@
 [
 	[
-		"cmt#Person",
-		"iasted#Person"
+		"cmt#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"cmt#Document",
 		"iasted#Document"
 	],
 	[
-		"cmt#Review",
-		"iasted#Review"
-	],
-	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
 	],
 	[
 		"cmt#Paper",

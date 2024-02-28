@@ -1,15 +1,15 @@
 [
 	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Person",
 		"iasted#Person"
 	],
 	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"confOf#Author",

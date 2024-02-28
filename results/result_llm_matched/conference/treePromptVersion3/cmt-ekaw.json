@@ -534,5 +534,11 @@
     "cmt#ConferenceChair;ekaw#Session_Chair": "yes",
     "cmt#ProgramCommitteeChair;ekaw#Session_Chair": "no",
     "cmt#ProgramCommitteeChair;ekaw#Workshop_Chair": "yes",
-    "cmt#ProgramCommitteeChair;ekaw#Demo_Chair": "yes"
+    "cmt#ProgramCommitteeChair;ekaw#Demo_Chair": "yes",
+    "cmt#ConferenceMember;ekaw#Agency_Staff_Member": "no",
+    "cmt#ConferenceMember;ekaw#Paper_Author": "yes",
+    "cmt#Administrator;ekaw#Paper_Author": "no",
+    "cmt#ConferenceChair;ekaw#Tutorial_Chair": "yes",
+    "cmt#ProgramCommitteeMember;ekaw#PC_Member": "yes",
+    "cmt#ConferenceChair;ekaw#Conference_Participant": "no"
 }

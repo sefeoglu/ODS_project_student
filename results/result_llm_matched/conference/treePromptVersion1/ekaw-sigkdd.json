@@ -36,5 +36,7 @@
     "ekaw#Demo_Chair;sigkdd#General_Chair": "no",
     "ekaw#Demo_Chair;sigkdd#Program_Chair": "no",
     "ekaw#SC_Member;sigkdd#Program_Committee_member": "no",
-    "ekaw#SC_Member;sigkdd#Organizing_Committee_member": "no"
+    "ekaw#SC_Member;sigkdd#Organizing_Committee_member": "no",
+    "ekaw#PC_Member;sigkdd#Organizing_Committee_member": "no",
+    "ekaw#PC_Member;sigkdd#Program_Committee_member": "no"
 }

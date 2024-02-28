@@ -14,5 +14,6 @@
     "confOf#Author;sigkdd#Person": "yes",
     "confOf#Member_PC;sigkdd#Organizing_Committee_member": "no",
     "confOf#Member;sigkdd#Program_Committee_member": "no",
-    "confOf#Member;sigkdd#Organizing_Committee_member": "no"
+    "confOf#Member;sigkdd#Organizing_Committee_member": "no",
+    "confOf#Participant;sigkdd#Invited_Speaker": "no"
 }

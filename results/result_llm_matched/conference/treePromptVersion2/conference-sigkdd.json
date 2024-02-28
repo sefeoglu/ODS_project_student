@@ -50,5 +50,7 @@
     "conference#Co-chair;sigkdd#General_Chair": "no",
     "conference#Co-chair;sigkdd#Program_Chair": "no",
     "conference#Track-workshop_chair;sigkdd#General_Chair": "no",
-    "conference#Track-workshop_chair;sigkdd#Program_Chair": "no"
+    "conference#Track-workshop_chair;sigkdd#Program_Chair": "no",
+    "conference#Passive_conference_participant;sigkdd#Listener": "no",
+    "conference#Organizer;sigkdd#Organizing_Committee_member": "no"
 }

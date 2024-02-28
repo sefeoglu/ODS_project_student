@@ -804,5 +804,11 @@
     "cmt#Meta-Review;iasted#Coctail_reception": "yes",
     "cmt#AssociatedChair;iasted#Session_chair": "yes",
     "cmt#ProgramCommitteeChair;iasted#Session_chair": "no",
-    "cmt#ConferenceMember;iasted#Conference_Hiker": "yes"
+    "cmt#ConferenceMember;iasted#Conference_Hiker": "yes",
+    "cmt#Paper;iasted#Transparency": "no",
+    "cmt#AuthorNotReviewer;iasted#Author_book_proceedings_included": "yes",
+    "cmt#PaperAbstract;iasted#Publication": "yes",
+    "cmt#ConferenceMember;iasted#IASTED_non_member": "no",
+    "cmt#ConferenceMember;iasted#IASTED_member": "yes",
+    "cmt#ProgramCommitteeMember;iasted#IASTED_non_member": "yes"
 }

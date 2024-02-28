@@ -90,5 +90,6 @@
     "conference#Regular_author;confOf#Member": "no",
     "conference#Chair;confOf#Assistant": "no",
     "conference#Chair;confOf#Member": "no",
-    "conference#Chair;confOf#Chair_PC": "no"
+    "conference#Chair;confOf#Chair_PC": "no",
+    "conference#Call_for_paper;confOf#Short_paper": "no"
 }

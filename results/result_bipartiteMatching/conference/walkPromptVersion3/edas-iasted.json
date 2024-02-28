@@ -1,19 +1,11 @@
 [
 	[
-		"edas#Place",
-		"iasted#Place"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#Person",
 		"iasted#Person"
+	],
+	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
 	],
 	[
 		"edas#Document",
@@ -24,51 +16,63 @@
 		"iasted#Session_chair"
 	],
 	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Place",
+		"iasted#Place"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#DiningPlace",
-		"iasted#Hotel_room"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"edas#MeetingRoomPlace",
 		"iasted#Session_room"
 	],
 	[
-		"edas#Paper",
-		"iasted#Submission"
+		"edas#Presenter",
+		"iasted#Speaker"
+	],
+	[
+		"edas#DiningPlace",
+		"iasted#Hotel_room"
 	],
 	[
 		"edas#Programme",
 		"iasted#Item"
 	],
 	[
-		"edas#Presenter",
-		"iasted#Speaker"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_hall"
 	],
 	[
-		"edas#AccommodationPlace",
-		"iasted#Sponsor_company_house"
+		"edas#Paper",
+		"iasted#Transparency"
 	],
 	[
 		"edas#ConferenceChair",
 		"iasted#Conference_Hiker"
 	],
 	[
-		"edas#PublishedPaper",
-		"iasted#Publication"
+		"edas#AcceptedPaper",
+		"iasted#Submission"
 	],
 	[
 		"edas#Attendee",
 		"iasted#IASTED_non_member"
+	],
+	[
+		"edas#PublishedPaper",
+		"iasted#Publication"
+	],
+	[
+		"edas#AccommodationPlace",
+		"iasted#Sponsor_company_house"
 	]
 ]

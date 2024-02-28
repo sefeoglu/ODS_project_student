@@ -227,5 +227,12 @@
     "cmt#Meta-Review;confOf#Student": "yes",
     "cmt#Meta-Review;confOf#Regular": "yes",
     "cmt#ConferenceChair;confOf#Chair_PC": "no",
-    "cmt#ConferenceMember;confOf#Member": "yes"
+    "cmt#ConferenceMember;confOf#Member": "yes",
+    "cmt#Chairman;confOf#Member_PC": "yes",
+    "cmt#Chairman;confOf#Chair_PC": "no",
+    "cmt#User;confOf#Contribution": "no",
+    "cmt#User;confOf#Student": "no",
+    "cmt#Document;confOf#Short_paper": "no",
+    "cmt#Co-author;confOf#Member": "no",
+    "cmt#Chairman;confOf#Member": "no"
 }

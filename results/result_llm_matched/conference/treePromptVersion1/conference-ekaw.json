@@ -79,5 +79,11 @@
     "conference#Conference_contribution;ekaw#Conference_Paper": "no",
     "conference#Written_contribution;ekaw#Contributed_Talk": "no",
     "conference#Conference_contribution;ekaw#Contributed_Talk": "no",
-    "conference#Committee_member;ekaw#SC_Member": "no"
+    "conference#Committee_member;ekaw#SC_Member": "no",
+    "conference#Conference_document;ekaw#Programme_Brochure": "no",
+    "conference#Conference_part;ekaw#Contributed_Talk": "no",
+    "conference#Conference_volume;ekaw#Event": "no",
+    "conference#Conference_applicant;ekaw#Presenter": "no",
+    "conference#Organizer;ekaw#Workshop_Chair": "no",
+    "conference#Conference_part;ekaw#Event": "no"
 }

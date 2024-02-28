@@ -2632,5 +2632,9 @@
     "edas#Attendee;iasted#Conference_Hiker": "yes",
     "edas#TPCMember;iasted#IASTED_non_member": "no",
     "edas#DiningPlace;iasted#Sponsor_company_house": "no",
-    "edas#DiningPlace;iasted#Conference_restaurant": "no"
+    "edas#DiningPlace;iasted#Conference_restaurant": "no",
+    "edas#ConferenceVenuePlace;iasted#Conference_airport": "no",
+    "edas#ConferenceVenuePlace;iasted#Conference_hotel": "no",
+    "edas#MeetingRoomPlace;iasted#Single_hotel_room": "no",
+    "edas#MeetingRoomPlace;iasted#Double_hotel_room": "no"
 }

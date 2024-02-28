@@ -24,5 +24,10 @@
     "cmt#ConferenceMember;edas#Attendee": "no",
     "cmt#ConferenceMember;edas#TPCMember": "no",
     "cmt#AssociatedChair;edas#SessionChair": "no",
-    "cmt#ProgramCommitteeChair;edas#SessionChair": "no"
+    "cmt#ProgramCommitteeChair;edas#SessionChair": "no",
+    "cmt#PaperAbstract;edas#WithdrawnPaper": "no",
+    "cmt#ProgramCommitteeMember;edas#TPCMember": "no",
+    "cmt#ConferenceMember;edas#Presenter": "no",
+    "cmt#AssociatedChair;edas#TPCMember": "no",
+    "cmt#Chairman;edas#Presenter": "no"
 }

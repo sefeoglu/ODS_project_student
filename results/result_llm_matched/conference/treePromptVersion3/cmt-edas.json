@@ -637,5 +637,7 @@
     "cmt#Meta-Review;edas#MeetingRoomPlace": "yes",
     "cmt#PaperFullVersion;edas#PublishedPaper": "no",
     "cmt#AssociatedChair;edas#SessionChair": "no",
-    "cmt#ProgramCommitteeChair;edas#SessionChair": "yes"
+    "cmt#ProgramCommitteeChair;edas#SessionChair": "yes",
+    "cmt#ConferenceMember;edas#Presenter": "no",
+    "cmt#ProgramCommitteeMember;edas#TPCMember": "yes"
 }

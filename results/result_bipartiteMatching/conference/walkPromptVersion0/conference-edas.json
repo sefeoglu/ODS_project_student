@@ -1,39 +1,39 @@
 [
 	[
-		"conference#Conference",
-		"edas#Conference"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
 		"conference#Paper",
 		"edas#Paper"
 	],
 	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
 		"conference#Organization",
 		"edas#Organization"
-	],
-	[
-		"conference#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#CallForPapers"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
 		"conference#Topic",
 		"edas#Topic"
+	],
+	[
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"conference#Conference_participant",
@@ -48,11 +48,11 @@
 		"edas#Author"
 	],
 	[
-		"conference#Call_for_participation",
-		"edas#Call"
-	],
-	[
 		"conference#Conference_part",
 		"edas#ConferenceEvent"
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#Call"
 	]
 ]

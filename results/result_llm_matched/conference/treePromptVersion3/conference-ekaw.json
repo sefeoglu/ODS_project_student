@@ -1174,5 +1174,13 @@
     "conference#Call_for_paper;ekaw#Poster_Paper": "no",
     "conference#Call_for_paper;ekaw#Camera_Ready_Paper": "no",
     "conference#Call_for_paper;ekaw#Demo_Paper": "no",
-    "conference#Call_for_paper;ekaw#Industrial_Paper": "no"
+    "conference#Call_for_paper;ekaw#Industrial_Paper": "no",
+    "conference#Conference_document;ekaw#Programme_Brochure": "no",
+    "conference#Conference_applicant;ekaw#Presenter": "yes",
+    "conference#Conference_part;ekaw#Event": "yes",
+    "conference#Conference_volume;ekaw#Event": "no",
+    "conference#Poster;ekaw#Demo_Paper": "no",
+    "conference#Conference_document;ekaw#Workshop_Paper": "no",
+    "conference#Call_for_paper;ekaw#Workshop_Paper": "no",
+    "conference#Contribution_co-author;ekaw#Agency_Staff_Member": "no"
 }

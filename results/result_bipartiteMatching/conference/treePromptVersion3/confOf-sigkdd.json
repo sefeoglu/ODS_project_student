@@ -1,19 +1,23 @@
 [
 	[
-		"confOf#Author",
-		"sigkdd#Author"
+		"confOf#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"confOf#Person",
 		"sigkdd#Person"
 	],
 	[
-		"confOf#Conference",
-		"sigkdd#Conference"
+		"confOf#Author",
+		"sigkdd#Author"
 	],
 	[
 		"confOf#Paper",
 		"sigkdd#Paper"
+	],
+	[
+		"confOf#Short_paper",
+		"sigkdd#Document"
 	],
 	[
 		"confOf#Member_PC",
@@ -22,9 +26,5 @@
 	[
 		"confOf#Member",
 		"sigkdd#Program_Committee_member"
-	],
-	[
-		"confOf#Short_paper",
-		"sigkdd#Document"
 	]
 ]

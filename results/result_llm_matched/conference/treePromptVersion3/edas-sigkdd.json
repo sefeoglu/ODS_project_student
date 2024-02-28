@@ -967,5 +967,7 @@
     "edas#ConferenceDinner;sigkdd#Speaker": "yes",
     "edas#AccommodationPlace;sigkdd#Hotel": "no",
     "edas#MeetingRoomPlace;sigkdd#Hotel": "yes",
-    "edas#ConferenceChair;sigkdd#Program_Chair": "yes"
+    "edas#ConferenceChair;sigkdd#Program_Chair": "yes",
+    "edas#Attendee;sigkdd#Invited_Speaker": "no",
+    "edas#TPCMember;sigkdd#Organizing_Committee_member": "yes"
 }

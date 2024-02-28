@@ -682,5 +682,6 @@
     "conference#Co-chair;sigkdd#Program_Chair": "no",
     "conference#Track-workshop_chair;sigkdd#General_Chair": "no",
     "conference#Contribution_co-author;sigkdd#Author_of_paper_student": "yes",
-    "conference#Contribution_co-author;sigkdd#Author_of_paper": "yes"
+    "conference#Contribution_co-author;sigkdd#Author_of_paper": "yes",
+    "conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "yes"
 }

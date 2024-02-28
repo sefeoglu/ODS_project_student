@@ -384,5 +384,7 @@
     "confOf#Author;sigkdd#Listener": "yes",
     "confOf#Author;sigkdd#Invited_Speaker": "yes",
     "confOf#Author;sigkdd#Best_Research_Paper_Award": "yes",
-    "confOf#Member_PC;sigkdd#Organizing_Committee_member": "yes"
+    "confOf#Member_PC;sigkdd#Organizing_Committee_member": "yes",
+    "confOf#Participant;sigkdd#Invited_Speaker": "no",
+    "confOf#Member_PC;sigkdd#Program_Committee_member": "no"
 }

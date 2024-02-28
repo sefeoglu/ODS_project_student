@@ -1,15 +1,11 @@
 [
 	[
-		"cmt#Person",
-		"edas#Person"
+		"cmt#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"cmt#Document",
 		"edas#Document"
-	],
-	[
-		"cmt#Review",
-		"edas#Review"
 	],
 	[
 		"cmt#Conference",
@@ -24,11 +20,15 @@
 		"edas#Author"
 	],
 	[
+		"cmt#Person",
+		"edas#Person"
+	],
+	[
 		"cmt#Paper",
 		"edas#Paper"
 	],
 	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
+		"cmt#Review",
+		"edas#Review"
 	]
 ]

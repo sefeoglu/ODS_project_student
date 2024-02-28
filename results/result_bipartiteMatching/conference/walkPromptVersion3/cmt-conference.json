@@ -1,11 +1,7 @@
 [
 	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#Review",
-		"conference#Review"
+		"cmt#Reviewer",
+		"conference#Reviewer"
 	],
 	[
 		"cmt#Conference",
@@ -16,32 +12,24 @@
 		"conference#Program_committee"
 	],
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
 		"cmt#Paper",
 		"conference#Paper"
 	],
 	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
-	],
-	[
-		"cmt#ConferenceMember",
-		"conference#Conference_participant"
+		"cmt#Review",
+		"conference#Review"
 	],
 	[
 		"cmt#ProgramCommitteeMember",
 		"conference#Committee_member"
 	],
 	[
-		"cmt#User",
-		"conference#Regular_author"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Co-chair"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Organizer"
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
 	],
 	[
 		"cmt#Chairman",
@@ -52,11 +40,23 @@
 		"conference#Extended_abstract"
 	],
 	[
+		"cmt#ConferenceChair",
+		"conference#Conference_applicant"
+	],
+	[
 		"cmt#AssociatedChair",
 		"conference#Track-workshop_chair"
 	],
 	[
-		"cmt#Administrator",
+		"cmt#Author",
+		"conference#Regular_author"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"conference#Co-chair"
+	],
+	[
+		"cmt#Co-author",
 		"conference#Contribution_co-author"
 	],
 	[

@@ -35,5 +35,16 @@
     "cmt#AssociatedChair;ekaw#PC_Chair": "no",
     "cmt#AssociatedChair;ekaw#Session_Chair": "no",
     "cmt#AssociatedChair;ekaw#Workshop_Chair": "no",
-    "cmt#AssociatedChair;ekaw#Demo_Chair": "no"
+    "cmt#AssociatedChair;ekaw#Demo_Chair": "no",
+    "cmt#ConferenceMember;ekaw#Paper_Author": "no",
+    "cmt#ConferenceMember;ekaw#Agency_Staff_Member": "no",
+    "cmt#Chairman;ekaw#Agency_Staff_Member": "no",
+    "cmt#User;ekaw#Student": "no",
+    "cmt#ProgramCommitteeMember;ekaw#PC_Member": "no",
+    "cmt#ConferenceMember;ekaw#Presenter": "no",
+    "cmt#Administrator;ekaw#Paper_Author": "no",
+    "cmt#Chairman;ekaw#Presenter": "no",
+    "cmt#ProgramCommitteeChair;ekaw#PC_Chair": "no",
+    "cmt#ProgramCommitteeChair;ekaw#Tutorial_Chair": "no",
+    "cmt#ConferenceChair;ekaw#Tutorial_Chair": "no"
 }
