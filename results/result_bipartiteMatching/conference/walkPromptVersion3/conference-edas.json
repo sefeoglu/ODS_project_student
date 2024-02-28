@@ -1,11 +1,15 @@
 [
 	[
-		"conference#Organization",
-		"edas#Organization"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
-		"conference#Workshop",
-		"edas#Workshop"
+		"conference#Conference",
+		"edas#Conference"
+	],
+	[
+		"conference#Organization",
+		"edas#Organization"
 	],
 	[
 		"conference#Topic",
@@ -16,27 +20,23 @@
 		"edas#Reviewer"
 	],
 	[
-		"conference#Conference",
-		"edas#Conference"
-	],
-	[
 		"conference#Paper",
 		"edas#Paper"
+	],
+	[
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
 		"conference#Review",
 		"edas#Review"
 	],
 	[
-		"conference#Person",
-		"edas#Person"
-	],
-	[
 		"conference#Call_for_paper",
 		"edas#CallForPapers"
 	],
 	[
-		"conference#Conference_applicant",
+		"conference#Conference_participant",
 		"edas#Attendee"
 	],
 	[
@@ -50,5 +50,37 @@
 	[
 		"conference#Conference_document",
 		"edas#Document"
+	],
+	[
+		"conference#Invited_speaker",
+		"edas#Presenter"
+	],
+	[
+		"conference#Co-chair",
+		"edas#SessionChair"
+	],
+	[
+		"conference#Poster",
+		"edas#PublishedPaper"
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#CallForManuscripts"
+	],
+	[
+		"conference#Regular_author",
+		"edas#Author"
+	],
+	[
+		"conference#Conference_part",
+		"edas#TalkEvent"
+	],
+	[
+		"conference#Rejected_contribution",
+		"edas#RejectedPaper"
+	],
+	[
+		"conference#Accepted_contribution",
+		"edas#AcceptedPaper"
 	]
 ]

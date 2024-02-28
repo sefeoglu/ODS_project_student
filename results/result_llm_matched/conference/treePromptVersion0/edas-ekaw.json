@@ -176,5 +176,11 @@
     "edas#RatedPapers;ekaw#Conference_Paper": "no",
     "edas#RatedPapers;ekaw#Demo_Paper": "no",
     "edas#RatedPapers;ekaw#Industrial_Paper": "no",
-    "edas#RatedPapers;ekaw#Assigned_Paper": "no"
+    "edas#RatedPapers;ekaw#Assigned_Paper": "no",
+    "edas#OrganizationalMeeting;ekaw#Workshop_Session": "no",
+    "edas#ClosingTalk;ekaw#Contributed_Talk": "no",
+    "edas#ClosingTalk;ekaw#Invited_Talk": "no",
+    "edas#WelcomeTalk;ekaw#Contributed_Talk": "no",
+    "edas#WelcomeTalk;ekaw#Invited_Talk": "no",
+    "edas#RatedPapers;ekaw#Evaluated_Paper": "yes"
 }

@@ -2120,5 +2120,18 @@
     "ekaw#Contributed_Talk;iasted#Social_program": "no",
     "ekaw#Social_Event;iasted#Technic_activity": "no",
     "ekaw#Conference_Banquet;iasted#Dinner_banquet": "yes",
-    "ekaw#Demo_Session;iasted#Presentation": "yes"
+    "ekaw#Demo_Session;iasted#Presentation": "yes",
+    "ekaw#Paper_Author;iasted#Author": "no",
+    "ekaw#Invited_Speaker;iasted#Student_non_speaker": "no",
+    "ekaw#Web_Site;iasted#Computer": "no",
+    "ekaw#Flyer;iasted#Shuttle_bus": "yes",
+    "ekaw#Camera_Ready_Paper;iasted#Video_cassette_player": "no",
+    "ekaw#Workshop_Session;iasted#Presentation": "no",
+    "ekaw#Accepted_Paper;iasted#Invitation_letter": "no",
+    "ekaw#Accepted_Paper;iasted#Submission": "no",
+    "ekaw#Rejected_Paper;iasted#Submission": "no",
+    "ekaw#Paper_Author;iasted#Author_book_proceedings_included": "yes",
+    "ekaw#Tutorial_Chair;iasted#Student_lecturer": "yes",
+    "ekaw#Student;iasted#Student_lecturer": "yes",
+    "ekaw#Workshop_Chair;iasted#Worker_lecturer": "no"
 }

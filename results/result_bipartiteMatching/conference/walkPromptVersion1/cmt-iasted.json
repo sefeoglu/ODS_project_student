@@ -1,22 +1,26 @@
 [
 	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Review",
-		"iasted#Review"
+		"cmt#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"cmt#Document",
 		"iasted#Document"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#ConferenceChair",
+		"iasted#Session_chair"
 	]
 ]

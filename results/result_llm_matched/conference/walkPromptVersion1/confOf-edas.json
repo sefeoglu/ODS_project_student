@@ -73,5 +73,8 @@
     "confOf#Submission_event;edas#MealEvent": "no",
     "confOf#Submission_event;edas#BreakEvent": "no",
     "confOf#Submission_event;edas#ConferenceEvent": "no",
-    "confOf#Administrative_event;edas#TalkEvent": "no"
+    "confOf#Administrative_event;edas#TalkEvent": "no",
+    "confOf#Camera_Ready_event;edas#TalkEvent": "no",
+    "confOf#Reviewing_event;edas#TalkEvent": "no",
+    "confOf#Submission_event;edas#TalkEvent": "no"
 }

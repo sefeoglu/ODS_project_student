@@ -81,5 +81,6 @@
     "cmt#AuthorNotReviewer;conference#Contribution_co-author": "no",
     "cmt#User;conference#Contribution_co-author": "no",
     "cmt#ProgramCommitteeMember;conference#Contribution_co-author": "no",
-    "cmt#Administrator;conference#Contribution_co-author": "no"
+    "cmt#Administrator;conference#Contribution_co-author": "no",
+    "cmt#Administrator;conference#Organization": "no"
 }

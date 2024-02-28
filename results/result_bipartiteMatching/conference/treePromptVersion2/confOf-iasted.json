@@ -4,15 +4,15 @@
 		"iasted#Tutorial"
 	],
 	[
+		"confOf#City",
+		"iasted#City"
+	],
+	[
 		"confOf#Person",
 		"iasted#Person"
 	],
 	[
 		"confOf#Author",
 		"iasted#Author"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
 	]
 ]

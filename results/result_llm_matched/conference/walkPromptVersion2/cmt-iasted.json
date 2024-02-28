@@ -25,5 +25,8 @@
     "cmt#ConferenceChair;iasted#Conference_Hiker": "no",
     "cmt#ConferenceChair;iasted#Session_chair": "no",
     "cmt#AssociatedChair;iasted#Session_chair": "no",
-    "cmt#Chairman;iasted#Conference_Hiker": "no"
+    "cmt#Chairman;iasted#Conference_Hiker": "no",
+    "cmt#Co-author;iasted#IASTED_non_member": "no",
+    "cmt#Co-author;iasted#Conference_Hiker": "no",
+    "cmt#Paper;iasted#Computer": "no"
 }

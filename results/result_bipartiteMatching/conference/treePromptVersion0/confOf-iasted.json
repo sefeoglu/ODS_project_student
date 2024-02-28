@@ -4,6 +4,10 @@
 		"iasted#Tutorial"
 	],
 	[
+		"confOf#City",
+		"iasted#City"
+	],
+	[
 		"confOf#Person",
 		"iasted#Person"
 	],
@@ -12,7 +16,11 @@
 		"iasted#Author"
 	],
 	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#Member",
+		"iasted#IASTED_member"
+	],
+	[
+		"confOf#Student",
+		"iasted#Student_lecturer"
 	]
 ]

@@ -33,5 +33,6 @@
     "confOf#Member_PC;sigkdd#Organizing_Committee_member": "no",
     "confOf#Member;sigkdd#Program_Committee_member": "yes",
     "confOf#Member;sigkdd#Organizing_Committee_member": "yes",
-    "confOf#Short_paper;sigkdd#Document": "no"
+    "confOf#Short_paper;sigkdd#Document": "no",
+    "confOf#Short_paper;sigkdd#Author_of_paper": "no"
 }

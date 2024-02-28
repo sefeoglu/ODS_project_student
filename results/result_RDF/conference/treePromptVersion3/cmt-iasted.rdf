@@ -8,8 +8,8 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Reviewer"/>
-      <entity2 rdf:resource="http://iasted#Reviewer"/>
+      <entity1 rdf:resource="http://cmt#Person"/>
+      <entity2 rdf:resource="http://iasted#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -24,8 +24,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Review"/>
-      <entity2 rdf:resource="http://iasted#Review"/>
+      <entity1 rdf:resource="http://cmt#Reviewer"/>
+      <entity2 rdf:resource="http://iasted#Reviewer"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -40,8 +40,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Person"/>
-      <entity2 rdf:resource="http://iasted#Person"/>
+      <entity1 rdf:resource="http://cmt#Review"/>
+      <entity2 rdf:resource="http://iasted#Review"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -50,6 +50,22 @@
     <Cell>
       <entity1 rdf:resource="http://cmt#Chairman"/>
       <entity2 rdf:resource="http://iasted#Sponsor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#AuthorNotReviewer"/>
+      <entity2 rdf:resource="http://iasted#Author_book_proceedings_included"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Co-author"/>
+      <entity2 rdf:resource="http://iasted#Author_cd_proceedings_included"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,16 +88,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#AuthorNotReviewer"/>
-      <entity2 rdf:resource="http://iasted#Author_cd_proceedings_included"/>
+      <entity1 rdf:resource="http://cmt#AssociatedChair"/>
+      <entity2 rdf:resource="http://iasted#Session_chair"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Co-author"/>
-      <entity2 rdf:resource="http://iasted#Author_book_proceedings_included"/>
+      <entity1 rdf:resource="http://cmt#PaperFullVersion"/>
+      <entity2 rdf:resource="http://iasted#Publication"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -97,15 +113,7 @@
   <map>
     <Cell>
       <entity1 rdf:resource="http://cmt#ProgramCommitteeMember"/>
-      <entity2 rdf:resource="http://iasted#IASTED_member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#AssociatedChair"/>
-      <entity2 rdf:resource="http://iasted#Session_chair"/>
+      <entity2 rdf:resource="http://iasted#IASTED_non_member"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

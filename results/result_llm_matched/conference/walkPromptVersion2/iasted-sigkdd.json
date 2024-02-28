@@ -53,5 +53,9 @@
     "iasted#Session_chair;sigkdd#General_Chair": "no",
     "iasted#Session_chair;sigkdd#Program_Chair": "no",
     "iasted#City;sigkdd#Hotel": "no",
-    "iasted#Sponzorship;sigkdd#Sponzor_fee": "no"
+    "iasted#Sponzorship;sigkdd#Sponzor_fee": "no",
+    "iasted#Trip_city;sigkdd#Hotel": "no",
+    "iasted#Worker_non_speaker;sigkdd#Invited_Speaker": "no",
+    "iasted#Student_non_speaker;sigkdd#Invited_Speaker": "no",
+    "iasted#Computer;sigkdd#Paper": "no"
 }

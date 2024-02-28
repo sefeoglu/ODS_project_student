@@ -1,31 +1,31 @@
 [
 	[
+		"cmt#Person",
+		"sigkdd#Person"
+	],
+	[
 		"cmt#Author",
 		"sigkdd#Author"
-	],
-	[
-		"cmt#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"cmt#Paper",
-		"sigkdd#Paper"
 	],
 	[
 		"cmt#Review",
 		"sigkdd#Review"
 	],
 	[
-		"cmt#Document",
-		"sigkdd#Document"
-	],
-	[
-		"cmt#Person",
-		"sigkdd#Person"
-	],
-	[
 		"cmt#ProgramCommittee",
 		"sigkdd#Program_Committee"
+	],
+	[
+		"cmt#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"cmt#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"cmt#Document",
+		"sigkdd#Document"
 	],
 	[
 		"cmt#ProgramCommitteeMember",

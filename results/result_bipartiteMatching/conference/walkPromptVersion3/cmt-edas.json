@@ -1,42 +1,50 @@
 [
 	[
-		"cmt#Reviewer",
-		"edas#Reviewer"
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Author",
 		"edas#Author"
 	],
 	[
-		"cmt#Conference",
-		"edas#Conference"
+		"cmt#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"cmt#Paper",
 		"edas#Paper"
 	],
 	[
-		"cmt#Review",
-		"edas#Review"
-	],
-	[
-		"cmt#Document",
-		"edas#Document"
-	],
-	[
-		"cmt#Person",
-		"edas#Person"
+		"cmt#Conference",
+		"edas#Conference"
 	],
 	[
 		"cmt#ConferenceChair",
 		"edas#ConferenceChair"
 	],
 	[
+		"cmt#Document",
+		"edas#Document"
+	],
+	[
+		"cmt#Review",
+		"edas#Review"
+	],
+	[
+		"cmt#ConferenceMember",
+		"edas#TPCMember"
+	],
+	[
 		"cmt#PaperAbstract",
 		"edas#PublishedPaper"
 	],
 	[
-		"cmt#ConferenceMember",
+		"cmt#AssociatedChair",
+		"edas#SessionChair"
+	],
+	[
+		"cmt#Chairman",
 		"edas#Presenter"
 	]
 ]

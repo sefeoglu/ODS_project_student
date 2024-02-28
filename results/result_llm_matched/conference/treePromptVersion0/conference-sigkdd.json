@@ -101,5 +101,6 @@
     "conference#Contribution_co-author;sigkdd#Author_of_paper_student": "no",
     "conference#Contribution_co-author;sigkdd#Author_of_paper": "no",
     "conference#Passive_conference_participant;sigkdd#Listener": "no",
-    "conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "no"
+    "conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "no",
+    "conference#Contribution_co-author;sigkdd#Program_Committee_member": "no"
 }

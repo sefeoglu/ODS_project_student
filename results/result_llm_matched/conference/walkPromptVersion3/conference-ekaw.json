@@ -1042,5 +1042,16 @@
     "conference#Call_for_paper;ekaw#Regular_Paper": "no",
     "conference#Call_for_paper;ekaw#Poster_Paper": "no",
     "conference#Call_for_paper;ekaw#Camera_Ready_Paper": "no",
-    "conference#Poster;ekaw#Flyer": "no"
+    "conference#Poster;ekaw#Flyer": "no",
+    "conference#Conference_announcement;ekaw#Proceedings": "no",
+    "conference#Conference_announcement;ekaw#Invited_Talk_Abstract": "no",
+    "conference#Contribution_co-author;ekaw#SC_Member": "no",
+    "conference#Conference_announcement;ekaw#Workshop_Session": "no",
+    "conference#Poster;ekaw#Poster_Session": "yes",
+    "conference#Call_for_paper;ekaw#Assigned_Paper": "yes",
+    "conference#Rejected_contribution;ekaw#Rejected_Paper": "yes",
+    "conference#Camera_ready_contribution;ekaw#Camera_Ready_Paper": "no",
+    "conference#Early_paid_applicant;ekaw#Late-Registered_Participant": "no",
+    "conference#Late_paid_applicant;ekaw#Late-Registered_Participant": "no",
+    "conference#Late_paid_applicant;ekaw#Early-Registered_Participant": "no"
 }

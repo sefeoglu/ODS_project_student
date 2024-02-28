@@ -48,5 +48,7 @@
     "conference#Invited_talk;edas#AcceptedPaper": "no",
     "conference#Presentation;edas#SlideSet": "no",
     "conference#Presentation;edas#Programme": "no",
-    "conference#Poster;edas#PublishedPaper": "no"
+    "conference#Poster;edas#PublishedPaper": "no",
+    "conference#Contribution_co-author;edas#TPCMember": "no",
+    "conference#Contribution_co-author;edas#Author": "no"
 }

@@ -24,5 +24,18 @@
     "conference#Workshop;iasted#Conference_activity": "no",
     "conference#Workshop;iasted#Social_program": "no",
     "conference#Workshop;iasted#Activity": "no",
-    "conference#Track;iasted#Activity": "no"
+    "conference#Track;iasted#Activity": "no",
+    "conference#Regular_author;iasted#Author": "no",
+    "conference#Contribution_co-author;iasted#Author": "no",
+    "conference#Contribution_co-author;iasted#IASTED_non_member": "no",
+    "conference#Contribution_co-author;iasted#IASTED_member": "no",
+    "conference#Invited_speaker;iasted#Worker_non_speaker": "no",
+    "conference#Invited_speaker;iasted#Student_non_speaker": "no",
+    "conference#Invited_speaker;iasted#Plenary_lecture_speaker": "no",
+    "conference#Paper;iasted#Activity": "no",
+    "conference#Invited_talk;iasted#Item": "no",
+    "conference#Invited_talk;iasted#Invitation_letter": "no",
+    "conference#Written_contribution;iasted#Publication": "no",
+    "conference#Poster;iasted#Submission": "no",
+    "conference#Poster;iasted#Publication": "no"
 }

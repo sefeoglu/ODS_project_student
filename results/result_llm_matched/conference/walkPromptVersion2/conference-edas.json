@@ -20,5 +20,11 @@
     "conference#Co-chair;edas#SessionChair": "no",
     "conference#Co-chair;edas#ConferenceChair": "no",
     "conference#Conference_part;edas#ConferenceEvent": "no",
-    "conference#Conference_part;edas#TalkEvent": "no"
+    "conference#Conference_part;edas#TalkEvent": "no",
+    "conference#Contribution_co-author;edas#Author": "no",
+    "conference#Contribution_co-author;edas#TPCMember": "no",
+    "conference#Invited_talk;edas#AcceptedPaper": "no",
+    "conference#Poster;edas#PublishedPaper": "no",
+    "conference#Presentation;edas#SlideSet": "no",
+    "conference#Presentation;edas#Programme": "no"
 }

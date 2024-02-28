@@ -16,5 +16,7 @@
     "cmt#User;confOf#Contribution": "no",
     "cmt#User;confOf#Student": "no",
     "cmt#ConferenceChair;confOf#Member_PC": "no",
-    "cmt#AssociatedChair;confOf#Member_PC": "no"
+    "cmt#AssociatedChair;confOf#Member_PC": "no",
+    "cmt#Co-author;confOf#Contribution": "no",
+    "cmt#Co-author;confOf#Member": "no"
 }

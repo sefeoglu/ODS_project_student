@@ -130,5 +130,21 @@
     "edas#TPCMember;iasted#IASTED_non_member": "no",
     "edas#MeetingRoomPlace;iasted#Conference_restaurant": "no",
     "edas#MeetingRoomPlace;iasted#Single_hotel_room": "no",
-    "edas#MeetingRoomPlace;iasted#Double_hotel_room": "no"
+    "edas#MeetingRoomPlace;iasted#Double_hotel_room": "no",
+    "edas#Attendee;iasted#Student_non_speaker": "no",
+    "edas#SocialEvent;iasted#Technic_activity": "no",
+    "edas#SocialEvent;iasted#Activity": "no",
+    "edas#SocialEvent;iasted#Social_program": "no",
+    "edas#MealBreak;iasted#Dinner_banquet": "no",
+    "edas#ConferenceEvent;iasted#Presentation": "no",
+    "edas#MealEvent;iasted#Dinner_banquet": "no",
+    "edas#Programme;iasted#Computer": "no",
+    "edas#AcademicEvent;iasted#Technic_activity": "no",
+    "edas#OrganizationalMeeting;iasted#Technic_activity": "no",
+    "edas#TalkEvent;iasted#Introduction_of_speaker": "yes",
+    "edas#Workshop;iasted#Presentation": "no",
+    "edas#Workshop;iasted#Activity": "yes",
+    "edas#Workshop;iasted#Social_program": "no",
+    "edas#Workshop;iasted#Lecture": "no",
+    "edas#WelcomeTalk;iasted#Welcome_address": "no"
 }

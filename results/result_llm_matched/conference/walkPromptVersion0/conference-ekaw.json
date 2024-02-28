@@ -181,5 +181,17 @@
     "conference#Poster;ekaw#Flyer": "no",
     "conference#Poster;ekaw#Poster_Paper": "yes",
     "conference#Conference_www;ekaw#Conference_Paper": "no",
-    "conference#Committee_member;ekaw#SC_Member": "no"
+    "conference#Committee_member;ekaw#SC_Member": "no",
+    "conference#Organization;ekaw#Agency_Staff_Member": "no",
+    "conference#Paid_applicant;ekaw#Agency_Staff_Member": "no",
+    "conference#Contribution_co-author;ekaw#Agency_Staff_Member": "no",
+    "conference#Contribution_co-author;ekaw#Paper_Author": "no",
+    "conference#Contribution_co-author;ekaw#SC_Member": "no",
+    "conference#Conference_part;ekaw#Social_Event": "no",
+    "conference#Conference_announcement;ekaw#Contributed_Talk": "no",
+    "conference#Conference_www;ekaw#Conference_Session": "no",
+    "conference#Conference_announcement;ekaw#Workshop_Session": "no",
+    "conference#Conference_announcement;ekaw#Conference_Session": "no",
+    "conference#Call_for_paper;ekaw#Assigned_Paper": "no",
+    "conference#Rejected_contribution;ekaw#Rejected_Paper": "yes"
 }

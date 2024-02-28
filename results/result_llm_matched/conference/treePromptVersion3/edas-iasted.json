@@ -2679,5 +2679,20 @@
     "edas#Paper;iasted#Transparency": "yes",
     "edas#DiningPlace;iasted#Sponsor_company_house": "yes",
     "edas#AcceptedPaper;iasted#Invitation_letter": "no",
-    "edas#Attendee;iasted#IASTED_non_member": "no"
+    "edas#Attendee;iasted#IASTED_non_member": "no",
+    "edas#SocialEvent;iasted#Technic_activity": "no",
+    "edas#MealEvent;iasted#Dinner_banquet": "yes",
+    "edas#MealBreak;iasted#Dinner_banquet": "no",
+    "edas#ConferenceEvent;iasted#Conference_activity": "yes",
+    "edas#ConferenceEvent;iasted#Presentation": "yes",
+    "edas#Programme;iasted#Computer": "no",
+    "edas#AcademicEvent;iasted#Technic_activity": "no",
+    "edas#TalkEvent;iasted#Introduction_of_speaker": "no",
+    "edas#PaperPresentation;iasted#PowerPoint_presentation": "yes",
+    "edas#OrganizationalMeeting;iasted#Technic_activity": "no",
+    "edas#Workshop;iasted#Lecture": "no",
+    "edas#Workshop;iasted#Social_program": "no",
+    "edas#WelcomeTalk;iasted#Welcome_address": "no",
+    "edas#Workshop;iasted#Conference_activity": "no",
+    "edas#ConferenceDinner;iasted#Conference_activity": "no"
 }

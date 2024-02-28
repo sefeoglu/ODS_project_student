@@ -153,5 +153,12 @@
     "edas#RatedPapers;ekaw#Workshop_Paper": "no",
     "edas#Attendee;ekaw#Invited_Speaker": "no",
     "edas#ConferenceDinner;ekaw#Conference_Banquet": "no",
-    "edas#ConferenceDinner;ekaw#Conference_Trip": "no"
+    "edas#ConferenceDinner;ekaw#Conference_Trip": "no",
+    "edas#OrganizationalMeeting;ekaw#Workshop_Session": "no",
+    "edas#ClosingTalk;ekaw#Contributed_Talk": "no",
+    "edas#ClosingTalk;ekaw#Invited_Talk": "no",
+    "edas#WelcomeTalk;ekaw#Contributed_Talk": "no",
+    "edas#WelcomeTalk;ekaw#Invited_Talk": "no",
+    "edas#RatedPapers;ekaw#Evaluated_Paper": "no",
+    "edas#Reception;ekaw#Poster_Session": "no"
 }

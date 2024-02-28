@@ -1,9 +1,5 @@
 [
 	[
-		"ekaw#Person",
-		"iasted#Person"
-	],
-	[
 		"ekaw#Session",
 		"iasted#Session"
 	],
@@ -12,16 +8,20 @@
 		"iasted#Review"
 	],
 	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
-	],
-	[
 		"ekaw#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
+		"ekaw#Person",
+		"iasted#Person"
+	],
+	[
 		"ekaw#Document",
 		"iasted#Document"
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
 	],
 	[
 		"ekaw#Conference_Session",
@@ -30,5 +30,77 @@
 	[
 		"ekaw#Paper",
 		"iasted#Submission"
+	],
+	[
+		"ekaw#Contributed_Talk",
+		"iasted#Conference_activity"
+	],
+	[
+		"ekaw#SC_Member",
+		"iasted#IASTED_member"
+	],
+	[
+		"ekaw#Conference_Participant",
+		"iasted#Conference_Hiker"
+	],
+	[
+		"ekaw#Poster_Paper",
+		"iasted#Publication"
+	],
+	[
+		"ekaw#PC_Member",
+		"iasted#IASTED_non_member"
+	],
+	[
+		"ekaw#Proceedings",
+		"iasted#Form"
+	],
+	[
+		"ekaw#Presenter",
+		"iasted#Speaker"
+	],
+	[
+		"ekaw#Workshop",
+		"iasted#Lecture"
+	],
+	[
+		"ekaw#Submitted_Paper",
+		"iasted#Registration_form"
+	],
+	[
+		"ekaw#Tutorial_Chair",
+		"iasted#Student_lecturer"
+	],
+	[
+		"ekaw#Track",
+		"iasted#Activity"
+	],
+	[
+		"ekaw#Paper_Author",
+		"iasted#Author_book_proceedings_included"
+	],
+	[
+		"ekaw#Social_Event",
+		"iasted#Social_program"
+	],
+	[
+		"ekaw#Student",
+		"iasted#Student_non_speaker"
+	],
+	[
+		"ekaw#Individual_Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"ekaw#Flyer",
+		"iasted#Shuttle_bus"
+	],
+	[
+		"ekaw#Invited_Speaker",
+		"iasted#Worker_non_speaker"
+	],
+	[
+		"ekaw#Conference_Banquet",
+		"iasted#Dinner_banquet"
 	]
 ]

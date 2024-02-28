@@ -1,27 +1,35 @@
 [
 	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Person",
+		"iasted#Person"
 	],
 	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Review",
-		"iasted#Review"
+		"cmt#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"cmt#Document",
 		"iasted#Document"
 	],
 	[
-		"cmt#Person",
-		"iasted#Person"
+		"cmt#Review",
+		"iasted#Review"
 	],
 	[
 		"cmt#Chairman",
 		"iasted#Sponsor"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Author_book_proceedings_included"
+	],
+	[
+		"cmt#Co-author",
+		"iasted#Author_cd_proceedings_included"
 	],
 	[
 		"cmt#Paper",
@@ -32,12 +40,12 @@
 		"iasted#Delegate"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Author_cd_proceedings_included"
+		"cmt#AssociatedChair",
+		"iasted#Session_chair"
 	],
 	[
-		"cmt#Co-author",
-		"iasted#Author_book_proceedings_included"
+		"cmt#PaperFullVersion",
+		"iasted#Publication"
 	],
 	[
 		"cmt#ConferenceChair",
@@ -45,10 +53,6 @@
 	],
 	[
 		"cmt#ProgramCommitteeMember",
-		"iasted#IASTED_member"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Session_chair"
+		"iasted#IASTED_non_member"
 	]
 ]

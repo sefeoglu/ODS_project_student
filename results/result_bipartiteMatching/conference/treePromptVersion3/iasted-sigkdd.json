@@ -1,15 +1,15 @@
 [
 	[
-		"iasted#Person",
-		"sigkdd#Person"
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
+		"iasted#Review",
+		"sigkdd#Review"
 	],
 	[
-		"iasted#Listener",
-		"sigkdd#Listener"
+		"iasted#Place",
+		"sigkdd#Place"
 	],
 	[
 		"iasted#Fee",
@@ -24,32 +24,40 @@
 		"sigkdd#Deadline"
 	],
 	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Listener",
+		"sigkdd#Listener"
 	],
 	[
-		"iasted#Review",
-		"sigkdd#Review"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
+		"iasted#Author",
+		"sigkdd#Author"
 	],
 	[
 		"iasted#Speaker",
 		"sigkdd#Speaker"
 	],
 	[
-		"iasted#Place",
-		"sigkdd#Place"
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
 	],
 	[
-		"iasted#Transparency",
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
+	],
+	[
+		"iasted#Submission",
 		"sigkdd#Paper"
+	],
+	[
+		"iasted#Session_room",
+		"sigkdd#Hotel"
+	],
+	[
+		"iasted#Author_attendee_cd_registration_fee",
+		"sigkdd#Registration_SIGMOD_Member"
 	],
 	[
 		"iasted#Author_cd_proceedings_included",
@@ -61,26 +69,38 @@
 	],
 	[
 		"iasted#Nonmember_registration_fee",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"iasted#Session_room",
-		"sigkdd#Hotel"
-	],
-	[
-		"iasted#Nonauthor_registration_fee",
 		"sigkdd#Registration_Student"
-	],
-	[
-		"iasted#Author_attendee_cd_registration_fee",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"iasted#Deadline_for_notification_of_acceptance",
-		"sigkdd#Deadline_Paper_Submission"
 	],
 	[
 		"iasted#Author_book_proceedings_included",
 		"sigkdd#Author_of_paper_student"
+	],
+	[
+		"iasted#Deadline_for_notification_of_acceptance",
+		"sigkdd#Deadline_Author_notification"
+	],
+	[
+		"iasted#Nonauthor_registration_fee",
+		"sigkdd#Registration_Non-Member"
+	],
+	[
+		"iasted#Conference_Hiker",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"iasted#Session_chair",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"iasted#IASTED_non_member",
+		"sigkdd#ACM_SIGKDD"
+	],
+	[
+		"iasted#IASTED_member",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"iasted#Sponzorship",
+		"sigkdd#Sponzor_fee"
 	]
 ]

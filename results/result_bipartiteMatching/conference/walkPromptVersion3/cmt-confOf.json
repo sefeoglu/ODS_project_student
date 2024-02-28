@@ -1,23 +1,23 @@
 [
 	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
 		"cmt#Author",
 		"confOf#Author"
-	],
-	[
-		"cmt#Conference",
-		"confOf#Conference"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
 	],
 	[
 		"cmt#Administrator",
 		"confOf#Administrator"
 	],
 	[
-		"cmt#Person",
-		"confOf#Person"
+		"cmt#Paper",
+		"confOf#Paper"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
 	],
 	[
 		"cmt#Chairman",
@@ -28,7 +28,15 @@
 		"confOf#Participant"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
+		"cmt#Co-author",
 		"confOf#Member"
+	],
+	[
+		"cmt#Document",
+		"confOf#Short_paper"
+	],
+	[
+		"cmt#User",
+		"confOf#Contribution"
 	]
 ]

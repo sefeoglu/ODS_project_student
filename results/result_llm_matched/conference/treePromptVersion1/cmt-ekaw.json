@@ -59,5 +59,6 @@
     "cmt#ProgramCommitteeChair;ekaw#PC_Chair": "no",
     "cmt#ProgramCommitteeChair;ekaw#Tutorial_Chair": "no",
     "cmt#ConferenceChair;ekaw#Tutorial_Chair": "no",
-    "cmt#Co-author;ekaw#Agency_Staff_Member": "no"
+    "cmt#Co-author;ekaw#Agency_Staff_Member": "no",
+    "cmt#ProgramCommitteeMember;ekaw#SC_Member": "no"
 }

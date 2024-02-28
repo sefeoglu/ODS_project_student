@@ -1208,5 +1208,7 @@
     "confOf#Trip;iasted#Departure": "no",
     "confOf#Workshop;iasted#Social_program": "yes",
     "confOf#Workshop;iasted#Presentation": "no",
-    "confOf#Workshop;iasted#Activity": "no"
+    "confOf#Workshop;iasted#Activity": "no",
+    "confOf#Student;iasted#Lecturer": "no",
+    "confOf#Camera_Ready_event;iasted#Video_presentation": "no"
 }

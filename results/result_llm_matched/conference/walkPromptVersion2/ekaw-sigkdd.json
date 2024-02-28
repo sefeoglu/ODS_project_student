@@ -14,5 +14,9 @@
     "ekaw#Agency_Staff_Member;sigkdd#Program_Committee_member": "no",
     "ekaw#Agency_Staff_Member;sigkdd#Organizing_Committee_member": "no",
     "ekaw#Demo_Chair;sigkdd#General_Chair": "no",
-    "ekaw#Demo_Chair;sigkdd#Program_Chair": "no"
+    "ekaw#Demo_Chair;sigkdd#Program_Chair": "no",
+    "ekaw#Paper_Author;sigkdd#Author_of_paper_student": "no",
+    "ekaw#Paper_Author;sigkdd#Author_of_paper": "no",
+    "ekaw#SC_Member;sigkdd#Program_Committee_member": "no",
+    "ekaw#SC_Member;sigkdd#Organizing_Committee_member": "no"
 }

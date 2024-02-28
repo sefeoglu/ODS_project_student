@@ -84,5 +84,8 @@
     "conference#Regular_author;confOf#Administrator": "no",
     "conference#Regular_author;confOf#Member": "no",
     "conference#Regular_author;confOf#Regular": "no",
-    "conference#Chair;confOf#Member": "no"
+    "conference#Chair;confOf#Member": "no",
+    "conference#Contribution_1th-author;confOf#Member": "no",
+    "conference#Contribution_co-author;confOf#Member": "no",
+    "conference#Contribution_co-author;confOf#Administrator": "no"
 }

@@ -8,24 +8,16 @@
   <type>??</type>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://cmt#Person"/>
+      <entity2 rdf:resource="http://confOf#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://cmt#Author"/>
       <entity2 rdf:resource="http://confOf#Author"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Conference"/>
-      <entity2 rdf:resource="http://confOf#Conference"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://cmt#Paper"/>
-      <entity2 rdf:resource="http://confOf#Paper"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -40,8 +32,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#Person"/>
-      <entity2 rdf:resource="http://confOf#Person"/>
+      <entity1 rdf:resource="http://cmt#Paper"/>
+      <entity2 rdf:resource="http://confOf#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Conference"/>
+      <entity2 rdf:resource="http://confOf#Conference"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -64,8 +64,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://cmt#ProgramCommitteeMember"/>
+      <entity1 rdf:resource="http://cmt#User"/>
       <entity2 rdf:resource="http://confOf#Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://cmt#Co-author"/>
+      <entity2 rdf:resource="http://confOf#Contribution"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

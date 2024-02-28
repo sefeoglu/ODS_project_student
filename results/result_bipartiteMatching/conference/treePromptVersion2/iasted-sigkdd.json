@@ -1,15 +1,15 @@
 [
 	[
-		"iasted#Person",
-		"sigkdd#Person"
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
+		"iasted#Review",
+		"sigkdd#Review"
 	],
 	[
-		"iasted#Listener",
-		"sigkdd#Listener"
+		"iasted#Place",
+		"sigkdd#Place"
 	],
 	[
 		"iasted#Fee",
@@ -24,27 +24,27 @@
 		"sigkdd#Deadline"
 	],
 	[
-		"iasted#Document",
-		"sigkdd#Document"
+		"iasted#Listener",
+		"sigkdd#Listener"
 	],
 	[
-		"iasted#Review",
-		"sigkdd#Review"
-	],
-	[
-		"iasted#Registration_fee",
-		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
+		"iasted#Author",
+		"sigkdd#Author"
 	],
 	[
 		"iasted#Speaker",
 		"sigkdd#Speaker"
 	],
 	[
-		"iasted#Place",
-		"sigkdd#Place"
+		"iasted#Registration_fee",
+		"sigkdd#Registration_fee"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Document",
+		"sigkdd#Document"
 	]
 ]

@@ -449,5 +449,6 @@
     "cmt#AssociatedChair;conference#Organization": "no",
     "cmt#AuthorNotReviewer;conference#Contribution_1th-author": "no",
     "cmt#Chairman;conference#Contribution_co-author": "yes",
-    "cmt#AuthorNotReviewer;conference#Contribution_co-author": "yes"
+    "cmt#AuthorNotReviewer;conference#Contribution_co-author": "yes",
+    "cmt#Administrator;conference#Organization": "no"
 }

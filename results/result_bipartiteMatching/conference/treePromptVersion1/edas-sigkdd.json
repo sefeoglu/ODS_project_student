@@ -1,34 +1,38 @@
 [
 	[
-		"edas#Author",
-		"sigkdd#Author"
-	],
-	[
-		"edas#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"edas#Person",
-		"sigkdd#Person"
-	],
-	[
-		"edas#Review",
-		"sigkdd#Review"
-	],
-	[
 		"edas#Conference",
 		"sigkdd#Conference"
-	],
-	[
-		"edas#Place",
-		"sigkdd#Place"
 	],
 	[
 		"edas#Document",
 		"sigkdd#Document"
 	],
 	[
+		"edas#Review",
+		"sigkdd#Review"
+	],
+	[
+		"edas#Person",
+		"sigkdd#Person"
+	],
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"edas#Author",
+		"sigkdd#Author"
+	],
+	[
 		"edas#Presenter",
 		"sigkdd#Speaker"
+	],
+	[
+		"edas#TPCMember",
+		"sigkdd#Program_Committee_member"
 	]
 ]

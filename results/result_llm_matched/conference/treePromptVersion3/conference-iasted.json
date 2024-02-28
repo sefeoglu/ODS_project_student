@@ -1657,5 +1657,7 @@
     "conference#Poster;iasted#Submission": "no",
     "conference#Paper;iasted#Activity": "no",
     "conference#Invited_talk;iasted#Invitation_letter": "no",
-    "conference#Invited_talk;iasted#Item": "no"
+    "conference#Invited_talk;iasted#Item": "no",
+    "conference#Submitted_contribution;iasted#Author_information_form": "yes",
+    "conference#Contribution_1th-author;iasted#Author_cd_proceedings_included": "no"
 }

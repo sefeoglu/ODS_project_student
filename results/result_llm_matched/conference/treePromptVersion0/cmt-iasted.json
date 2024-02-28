@@ -51,5 +51,6 @@
     "cmt#PaperFullVersion;iasted#Publication": "no",
     "cmt#Paper;iasted#Card": "no",
     "cmt#Co-author;iasted#IASTED_non_member": "no",
-    "cmt#Co-author;iasted#Conference_Hiker": "no"
+    "cmt#Co-author;iasted#Conference_Hiker": "no",
+    "cmt#Paper;iasted#Computer": "no"
 }

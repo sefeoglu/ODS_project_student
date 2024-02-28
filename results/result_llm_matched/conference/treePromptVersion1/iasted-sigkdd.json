@@ -90,5 +90,9 @@
     "iasted#IASTED_non_member;sigkdd#Organizing_Committee_member": "no",
     "iasted#IASTED_non_member;sigkdd#Program_Committee_member": "no",
     "iasted#IASTED_member;sigkdd#ACM_SIGKDD": "no",
-    "iasted#IASTED_member;sigkdd#Program_Committee_member": "no"
+    "iasted#IASTED_member;sigkdd#Program_Committee_member": "no",
+    "iasted#Trip_city;sigkdd#Hotel": "no",
+    "iasted#Worker_non_speaker;sigkdd#Invited_Speaker": "no",
+    "iasted#Student_non_speaker;sigkdd#Invited_Speaker": "no",
+    "iasted#Computer;sigkdd#Paper": "no"
 }

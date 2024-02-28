@@ -71,5 +71,9 @@
     "ekaw#Demo_Chair;sigkdd#Program_Chair": "no",
     "ekaw#Presenter;sigkdd#Speaker": "no",
     "ekaw#PC_Member;sigkdd#Organizing_Committee_member": "no",
-    "ekaw#PC_Member;sigkdd#Program_Committee_member": "no"
+    "ekaw#PC_Member;sigkdd#Program_Committee_member": "no",
+    "ekaw#Paper_Author;sigkdd#Author_of_paper": "no",
+    "ekaw#Paper_Author;sigkdd#Author_of_paper_student": "no",
+    "ekaw#SC_Member;sigkdd#Organizing_Committee_member": "no",
+    "ekaw#SC_Member;sigkdd#Program_Committee_member": "no"
 }

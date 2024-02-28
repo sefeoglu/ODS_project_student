@@ -2636,5 +2636,18 @@
     "edas#ConferenceVenuePlace;iasted#Conference_airport": "no",
     "edas#ConferenceVenuePlace;iasted#Conference_hotel": "no",
     "edas#MeetingRoomPlace;iasted#Single_hotel_room": "no",
-    "edas#MeetingRoomPlace;iasted#Double_hotel_room": "no"
+    "edas#MeetingRoomPlace;iasted#Double_hotel_room": "no",
+    "edas#SocialEvent;iasted#Technic_activity": "no",
+    "edas#SocialEvent;iasted#Activity": "yes",
+    "edas#SocialEvent;iasted#Social_program": "no",
+    "edas#MealBreak;iasted#Dinner_banquet": "yes",
+    "edas#ConferenceEvent;iasted#Presentation": "no",
+    "edas#AcademicEvent;iasted#Technic_activity": "no",
+    "edas#TalkEvent;iasted#Introduction_of_speaker": "yes",
+    "edas#PaperPresentation;iasted#PowerPoint_presentation": "yes",
+    "edas#PaperPresentation;iasted#Presentation": "no",
+    "edas#OrganizationalMeeting;iasted#Technic_activity": "yes",
+    "edas#Workshop;iasted#Lecture": "no",
+    "edas#Workshop;iasted#Presentation": "no",
+    "edas#Workshop;iasted#Social_program": "no"
 }

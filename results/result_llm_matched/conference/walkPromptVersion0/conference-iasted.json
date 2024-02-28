@@ -93,5 +93,17 @@
     "conference#Workshop;iasted#Conference_activity": "yes",
     "conference#Track;iasted#Activity": "no",
     "conference#Regular_author;iasted#Author": "no",
-    "conference#Workshop;iasted#Social_program": "no"
+    "conference#Workshop;iasted#Social_program": "no",
+    "conference#Contribution_co-author;iasted#Author": "no",
+    "conference#Contribution_co-author;iasted#IASTED_non_member": "no",
+    "conference#Contribution_co-author;iasted#IASTED_member": "no",
+    "conference#Paper;iasted#Activity": "no",
+    "conference#Invited_talk;iasted#Item": "no",
+    "conference#Invited_talk;iasted#Invitation_letter": "no",
+    "conference#Written_contribution;iasted#Publication": "no",
+    "conference#Poster;iasted#Submission": "no",
+    "conference#Poster;iasted#Publication": "no",
+    "conference#Contribution_1th-author;iasted#Author_cd_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_cd_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_book_proceedings_included": "no"
 }

@@ -1636,5 +1636,7 @@
     "edas#ClosingTalk;ekaw#Contributed_Talk": "no",
     "edas#TalkEvent;ekaw#Invited_Talk": "yes",
     "edas#ConferenceDinner;ekaw#Conference_Banquet": "yes",
-    "edas#RatedPapers;ekaw#Regular_Paper": "yes"
+    "edas#RatedPapers;ekaw#Regular_Paper": "yes",
+    "edas#Reception;ekaw#Poster_Session": "yes",
+    "edas#OrganizationalMeeting;ekaw#Industrial_Session": "no"
 }

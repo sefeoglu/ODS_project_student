@@ -234,5 +234,6 @@
     "cmt#ConferenceChair;confOf#Chair_PC": "no",
     "cmt#Document;confOf#Short_paper": "yes",
     "cmt#User;confOf#Student": "yes",
-    "cmt#Co-author;confOf#Member": "yes"
+    "cmt#Co-author;confOf#Member": "yes",
+    "cmt#AssociatedChair;confOf#Member_PC": "yes"
 }

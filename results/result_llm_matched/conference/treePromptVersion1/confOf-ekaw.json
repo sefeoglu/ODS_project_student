@@ -39,5 +39,12 @@
     "confOf#Poster;ekaw#Demo_Paper": "no",
     "confOf#Poster;ekaw#Flyer": "no",
     "confOf#Short_paper;ekaw#Document": "no",
-    "confOf#Reviewing_event;ekaw#Scientific_Event": "no"
+    "confOf#Reviewing_event;ekaw#Scientific_Event": "no",
+    "confOf#Short_paper;ekaw#Evaluated_Paper": "no",
+    "confOf#Participant;ekaw#Invited_Speaker": "no",
+    "confOf#Banquet;ekaw#Workshop_Session": "no",
+    "confOf#Banquet;ekaw#Poster_Session": "no",
+    "confOf#Banquet;ekaw#Invited_Talk": "no",
+    "confOf#Banquet;ekaw#Conference_Session": "no",
+    "confOf#Reception;ekaw#Poster_Session": "no"
 }

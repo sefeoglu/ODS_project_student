@@ -34,5 +34,11 @@
     "conference#Chair;confOf#Assistant": "no",
     "conference#Chair;confOf#Member": "no",
     "conference#Chair;confOf#Chair_PC": "no",
-    "conference#Call_for_paper;confOf#Short_paper": "no"
+    "conference#Call_for_paper;confOf#Short_paper": "no",
+    "conference#Contribution_co-author;confOf#Author": "no",
+    "conference#Contribution_co-author;confOf#Member": "no",
+    "conference#Contribution_co-author;confOf#Administrator": "no",
+    "conference#Contribution_1th-author;confOf#Member": "no",
+    "conference#Presentation;confOf#Participant": "no",
+    "conference#Written_contribution;confOf#Author": "no"
 }

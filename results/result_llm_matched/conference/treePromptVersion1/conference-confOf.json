@@ -31,5 +31,12 @@
     "conference#Invited_speaker;confOf#Participant": "no",
     "conference#Chair;confOf#Participant": "no",
     "conference#Chair;confOf#Member": "no",
-    "conference#Conference_part;confOf#Event": "no"
+    "conference#Conference_part;confOf#Event": "no",
+    "conference#Contribution_1th-author;confOf#Member": "no",
+    "conference#Contribution_co-author;confOf#Member": "no",
+    "conference#Contribution_co-author;confOf#Author": "no",
+    "conference#Contribution_co-author;confOf#Administrator": "no",
+    "conference#Call_for_paper;confOf#Short_paper": "no",
+    "conference#Written_contribution;confOf#Author": "no",
+    "conference#Presentation;confOf#Participant": "no"
 }

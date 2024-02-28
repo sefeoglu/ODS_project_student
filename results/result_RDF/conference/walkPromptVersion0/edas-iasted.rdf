@@ -8,24 +8,8 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Author"/>
-      <entity2 rdf:resource="http://iasted#Author"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://edas#Person"/>
-      <entity2 rdf:resource="http://iasted#Person"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://edas#Reviewer"/>
-      <entity2 rdf:resource="http://iasted#Reviewer"/>
+      <entity1 rdf:resource="http://edas#SessionChair"/>
+      <entity2 rdf:resource="http://iasted#Session_chair"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -40,8 +24,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#SessionChair"/>
-      <entity2 rdf:resource="http://iasted#Session_chair"/>
+      <entity1 rdf:resource="http://edas#Document"/>
+      <entity2 rdf:resource="http://iasted#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -56,6 +40,22 @@
   </map>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://edas#Reviewer"/>
+      <entity2 rdf:resource="http://iasted#Reviewer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Person"/>
+      <entity2 rdf:resource="http://iasted#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://edas#Place"/>
       <entity2 rdf:resource="http://iasted#Place"/>
       <relation>=</relation>
@@ -64,15 +64,15 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#Document"/>
-      <entity2 rdf:resource="http://iasted#Document"/>
+      <entity1 rdf:resource="http://edas#Author"/>
+      <entity2 rdf:resource="http://iasted#Author"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://edas#ConferenceVenuePlace"/>
+      <entity1 rdf:resource="http://edas#MeetingRoomPlace"/>
       <entity2 rdf:resource="http://iasted#Conference_hall"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -82,6 +82,62 @@
     <Cell>
       <entity1 rdf:resource="http://edas#Paper"/>
       <entity2 rdf:resource="http://iasted#Submission"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#PublishedPaper"/>
+      <entity2 rdf:resource="http://iasted#Publication"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#ConferenceVenuePlace"/>
+      <entity2 rdf:resource="http://iasted#Conference_building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#ConferenceEvent"/>
+      <entity2 rdf:resource="http://iasted#Conference_activity"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#TalkEvent"/>
+      <entity2 rdf:resource="http://iasted#Introduction_of_speaker"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#PaperPresentation"/>
+      <entity2 rdf:resource="http://iasted#Presentation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Workshop"/>
+      <entity2 rdf:resource="http://iasted#Activity"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://edas#Excursion"/>
+      <entity2 rdf:resource="http://iasted#Departure"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

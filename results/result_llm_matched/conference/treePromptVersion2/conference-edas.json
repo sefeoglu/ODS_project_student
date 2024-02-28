@@ -22,5 +22,11 @@
     "conference#Invited_speaker;edas#Attendee": "no",
     "conference#Call_for_participation;edas#CallForManuscripts": "no",
     "conference#Call_for_participation;edas#CallForReviews": "no",
-    "conference#Call_for_participation;edas#Call": "no"
+    "conference#Call_for_participation;edas#Call": "no",
+    "conference#Presentation;edas#SlideSet": "no",
+    "conference#Presentation;edas#Programme": "no",
+    "conference#Poster;edas#PublishedPaper": "no",
+    "conference#Invited_talk;edas#AcceptedPaper": "no",
+    "conference#Contribution_co-author;edas#TPCMember": "no",
+    "conference#Contribution_co-author;edas#Author": "no"
 }

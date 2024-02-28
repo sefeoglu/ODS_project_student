@@ -9,5 +9,14 @@
     "conference#Co-chair;sigkdd#General_Chair": "no",
     "conference#Co-chair;sigkdd#Program_Chair": "no",
     "conference#Track-workshop_chair;sigkdd#General_Chair": "no",
-    "conference#Track-workshop_chair;sigkdd#Program_Chair": "no"
+    "conference#Track-workshop_chair;sigkdd#Program_Chair": "no",
+    "conference#Organization;sigkdd#Organizing_Committee_member": "no",
+    "conference#Regular_author;sigkdd#Author_of_paper_student": "no",
+    "conference#Regular_author;sigkdd#Author_of_paper": "no",
+    "conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "no",
+    "conference#Contribution_co-author;sigkdd#Program_Committee_member": "no",
+    "conference#Contribution_co-author;sigkdd#Author": "no",
+    "conference#Contribution_co-author;sigkdd#Author_of_paper_student": "no",
+    "conference#Contribution_co-author;sigkdd#Author_of_paper": "no",
+    "conference#Contribution_co-author;sigkdd#Organizing_Committee_member": "no"
 }

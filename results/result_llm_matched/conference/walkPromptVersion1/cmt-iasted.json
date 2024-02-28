@@ -40,5 +40,8 @@
     "cmt#ProgramCommitteeMember;iasted#IASTED_member": "no",
     "cmt#ConferenceChair;iasted#Conference_Hiker": "no",
     "cmt#AssociatedChair;iasted#Session_chair": "no",
-    "cmt#Chairman;iasted#Conference_Hiker": "no"
+    "cmt#Chairman;iasted#Conference_Hiker": "no",
+    "cmt#Co-author;iasted#Conference_Hiker": "no",
+    "cmt#Co-author;iasted#IASTED_non_member": "no",
+    "cmt#Paper;iasted#Computer": "no"
 }

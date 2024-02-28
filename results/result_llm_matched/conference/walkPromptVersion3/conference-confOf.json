@@ -466,5 +466,9 @@
     "conference#Conference_part;confOf#Event": "no",
     "conference#Contribution_co-author;confOf#Author": "no",
     "conference#Contribution_1th-author;confOf#Member": "no",
-    "conference#Contribution_co-author;confOf#Member": "no"
+    "conference#Contribution_co-author;confOf#Member": "no",
+    "conference#Conference_part;confOf#Social_event": "no",
+    "conference#Call_for_paper;confOf#Short_paper": "no",
+    "conference#Contribution_co-author;confOf#Administrator": "no",
+    "conference#Written_contribution;confOf#Author": "no"
 }

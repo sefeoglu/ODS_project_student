@@ -73,5 +73,7 @@
     "cmt#ConferenceMember;iasted#IASTED_non_member": "no",
     "cmt#ConferenceMember;iasted#IASTED_member": "no",
     "cmt#ProgramCommitteeMember;iasted#IASTED_non_member": "no",
-    "cmt#ProgramCommitteeMember;iasted#IASTED_member": "no"
+    "cmt#ProgramCommitteeMember;iasted#IASTED_member": "no",
+    "cmt#Co-author;iasted#Conference_Hiker": "no",
+    "cmt#Co-author;iasted#IASTED_non_member": "no"
 }

@@ -54,5 +54,13 @@
     "confOf#Participant;iasted#Student_lecturer": "no",
     "confOf#Science_Worker;iasted#Lecturer": "no",
     "confOf#Science_Worker;iasted#Student_lecturer": "no",
-    "confOf#Scholar;iasted#Student_lecturer": "no"
+    "confOf#Scholar;iasted#Student_lecturer": "no",
+    "confOf#Scholar;iasted#Student_non_speaker": "no",
+    "confOf#Student;iasted#Student_non_speaker": "no",
+    "confOf#Science_Worker;iasted#Worker_non_speaker": "no",
+    "confOf#Science_Worker;iasted#Student_non_speaker": "no",
+    "confOf#Conference;iasted#Presentation": "no",
+    "confOf#Event;iasted#Activity": "no",
+    "confOf#Student;iasted#Lecturer": "no",
+    "confOf#Student;iasted#Student_lecturer": "no"
 }

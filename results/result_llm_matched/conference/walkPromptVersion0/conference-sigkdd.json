@@ -74,5 +74,6 @@
     "conference#Contribution_co-author;sigkdd#Author_of_paper_student": "no",
     "conference#Contribution_co-author;sigkdd#Author_of_paper": "no",
     "conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "no",
-    "conference#Organization;sigkdd#Organizing_Committee_member": "no"
+    "conference#Organization;sigkdd#Organizing_Committee_member": "no",
+    "conference#Contribution_co-author;sigkdd#Organizing_Committee_member": "no"
 }

@@ -46,5 +46,20 @@
     "conference#Workshop;iasted#Social_program": "no",
     "conference#Workshop;iasted#Activity": "no",
     "conference#Track;iasted#Activity": "no",
-    "conference#Regular_author;iasted#Author": "no"
+    "conference#Regular_author;iasted#Author": "no",
+    "conference#Paper;iasted#Activity": "no",
+    "conference#Contribution_co-author;iasted#IASTED_member": "no",
+    "conference#Contribution_co-author;iasted#Author": "no",
+    "conference#Contribution_co-author;iasted#IASTED_non_member": "no",
+    "conference#Submitted_contribution;iasted#Author_information_form": "no",
+    "conference#Submitted_contribution;iasted#Submission": "no",
+    "conference#Paper;iasted#Form": "no",
+    "conference#Paper;iasted#Publication": "no",
+    "conference#Paper;iasted#Transparency": "no",
+    "conference#Paper;iasted#Card": "no",
+    "conference#Paper;iasted#Submission": "no",
+    "conference#Paper;iasted#Computer": "no",
+    "conference#Contribution_1th-author;iasted#Author_cd_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_book_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_cd_proceedings_included": "no"
 }

@@ -100,5 +100,11 @@
     "confOf#Chair_PC;ekaw#Workshop_Chair": "no",
     "confOf#Chair_PC;ekaw#PC_Member": "no",
     "confOf#Organization;ekaw#Organisation": "no",
-    "confOf#Company;ekaw#Organisation": "no"
+    "confOf#Company;ekaw#Organisation": "no",
+    "confOf#Banquet;ekaw#Workshop_Session": "no",
+    "confOf#Banquet;ekaw#Poster_Session": "no",
+    "confOf#Banquet;ekaw#Invited_Talk": "no",
+    "confOf#Banquet;ekaw#Conference_Session": "no",
+    "confOf#Reception;ekaw#Poster_Session": "no",
+    "confOf#Organization;ekaw#Organising_Agency": "no"
 }

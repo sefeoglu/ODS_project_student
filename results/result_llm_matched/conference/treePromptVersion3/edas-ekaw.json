@@ -1725,5 +1725,6 @@
     "edas#ClosingTalk;ekaw#Contributed_Talk": "no",
     "edas#ClosingTalk;ekaw#Invited_Talk": "yes",
     "edas#WelcomeTalk;ekaw#Contributed_Talk": "no",
-    "edas#WelcomeTalk;ekaw#Invited_Talk": "no"
+    "edas#WelcomeTalk;ekaw#Invited_Talk": "no",
+    "edas#Reception;ekaw#Poster_Session": "no"
 }

@@ -1,23 +1,23 @@
 [
 	[
-		"cmt#Conference",
-		"ekaw#Conference"
+		"cmt#Person",
+		"ekaw#Person"
 	],
 	[
 		"cmt#Paper",
 		"ekaw#Paper"
 	],
 	[
-		"cmt#Review",
-		"ekaw#Review"
+		"cmt#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"cmt#Document",
 		"ekaw#Document"
 	],
 	[
-		"cmt#Person",
-		"ekaw#Person"
+		"cmt#Review",
+		"ekaw#Review"
 	],
 	[
 		"cmt#ConferenceMember",
@@ -26,5 +26,13 @@
 	[
 		"cmt#AssociatedChair",
 		"ekaw#Session_Chair"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"ekaw#PC_Member"
 	]
 ]

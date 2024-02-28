@@ -234,5 +234,6 @@
     "cmt#User;confOf#Student": "no",
     "cmt#Document;confOf#Short_paper": "no",
     "cmt#Co-author;confOf#Member": "no",
-    "cmt#Chairman;confOf#Member": "no"
+    "cmt#Chairman;confOf#Member": "no",
+    "cmt#Co-author;confOf#Contribution": "yes"
 }

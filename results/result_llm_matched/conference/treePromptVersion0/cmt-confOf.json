@@ -28,5 +28,6 @@
     "cmt#Chairman;confOf#Member": "no",
     "cmt#User;confOf#Contribution": "no",
     "cmt#ConferenceChair;confOf#Member_PC": "no",
-    "cmt#AssociatedChair;confOf#Member_PC": "no"
+    "cmt#AssociatedChair;confOf#Member_PC": "no",
+    "cmt#Co-author;confOf#Contribution": "no"
 }

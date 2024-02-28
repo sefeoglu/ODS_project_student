@@ -1470,5 +1470,15 @@
     "conference#Poster;iasted#Publication": "no",
     "conference#Invited_talk;iasted#Invitation_letter": "no",
     "conference#Invited_talk;iasted#Item": "no",
-    "conference#Paper;iasted#Activity": "yes"
+    "conference#Paper;iasted#Activity": "yes",
+    "conference#Information_for_participants;iasted#Research": "no",
+    "conference#Submitted_contribution;iasted#Author_information_form": "yes",
+    "conference#Submitted_contribution;iasted#Submission": "yes",
+    "conference#Paper;iasted#Form": "no",
+    "conference#Paper;iasted#Transparency": "yes",
+    "conference#Paper;iasted#Submission": "no",
+    "conference#Paper;iasted#Computer": "no",
+    "conference#Contribution_1th-author;iasted#Author_cd_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_book_proceedings_included": "no",
+    "conference#Contribution_co-author;iasted#Author_cd_proceedings_included": "no"
 }

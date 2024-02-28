@@ -4,6 +4,10 @@
 		"iasted#Tutorial"
 	],
 	[
+		"confOf#City",
+		"iasted#City"
+	],
+	[
 		"confOf#Person",
 		"iasted#Person"
 	],
@@ -12,7 +16,11 @@
 		"iasted#Author"
 	],
 	[
-		"confOf#City",
-		"iasted#City"
+		"confOf#Conference",
+		"iasted#Conference_activity"
+	],
+	[
+		"confOf#Social_event",
+		"iasted#Social_program"
 	]
 ]

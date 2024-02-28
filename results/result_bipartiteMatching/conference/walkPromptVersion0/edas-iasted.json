@@ -1,42 +1,70 @@
 [
 	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
-		"edas#Person",
-		"iasted#Person"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
+		"edas#SessionChair",
+		"iasted#Session_chair"
 	],
 	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#SessionChair",
-		"iasted#Session_chair"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
+		"edas#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"edas#Person",
+		"iasted#Person"
+	],
+	[
 		"edas#Place",
 		"iasted#Place"
 	],
 	[
-		"edas#Document",
-		"iasted#Document"
+		"edas#Author",
+		"iasted#Author"
 	],
 	[
-		"edas#ConferenceVenuePlace",
+		"edas#MeetingRoomPlace",
 		"iasted#Conference_hall"
 	],
 	[
 		"edas#Paper",
 		"iasted#Submission"
+	],
+	[
+		"edas#PublishedPaper",
+		"iasted#Publication"
+	],
+	[
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_building"
+	],
+	[
+		"edas#ConferenceEvent",
+		"iasted#Conference_activity"
+	],
+	[
+		"edas#TalkEvent",
+		"iasted#Introduction_of_speaker"
+	],
+	[
+		"edas#PaperPresentation",
+		"iasted#Presentation"
+	],
+	[
+		"edas#Workshop",
+		"iasted#Activity"
+	],
+	[
+		"edas#Excursion",
+		"iasted#Departure"
 	]
 ]
