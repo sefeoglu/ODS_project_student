@@ -54,7 +54,7 @@ def resetConfigODS(configODSPath):
                  'rdfPath': '../results/result_RDF/conference/',
                  'verbalizedWalkTriplesPath' : '../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json',
                  'verbalizedTreeTriplesPath' : '../results/result_triples_verbalized/triples_randomTree_verbalized_out.json',
-                 'promptsPath' : '../results/result_prompts/',
+                 'promptsPath' : '../results/result_prompts/conference/',
                  }
     utils.saveToJson(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
