@@ -259,7 +259,6 @@ def main():
                         if not os.path.exists(bipartiteMatchingPath):
                             os.mkdir(bipartiteMatchingPath + '/')
                         bipartiteMatchingPath += '/' + file_path
-                        llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
 
                         verticesL = set()
                         verticesR = set()
