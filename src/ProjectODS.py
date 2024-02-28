@@ -74,8 +74,12 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
     promptsPath = configODS.get('promptsPath') + promptsPath
     cache = cachedLLMPredictions.get(promptsPath)
     if not cache: 
-        cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
-        cache = cachedLLMPredictions.get(promptsPath)
+        if os.path.exists(llmMatchedFilePath):
+            cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
+            cache = cachedLLMPredictions.get(promptsPath)
+        else:
+            cachedLLMPredictions[promptsPath] = {}
+            cache = cachedLLMPredictions.get(promptsPath)
     promptKey = key1 + ';' + key2
     yesOrNo = cache.get(promptKey)
     if yesOrNo != None:
