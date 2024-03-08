@@ -4,32 +4,32 @@
 		"iasted#Session_chair"
 	],
 	[
-		"edas#CoffeeBreak",
-		"iasted#Coffee_break"
-	],
-	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
 		"edas#Review",
 		"iasted#Review"
+	],
+	[
+		"edas#CoffeeBreak",
+		"iasted#Coffee_break"
 	],
 	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"edas#Person",
-		"iasted#Person"
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
 		"iasted#Place"
 	],
 	[
-		"edas#Author",
-		"iasted#Author"
+		"edas#Person",
+		"iasted#Person"
 	],
 	[
 		"edas#Programme",
@@ -37,70 +37,38 @@
 	],
 	[
 		"edas#DiningPlace",
-		"iasted#Hotel_room"
+		"iasted#Session_room"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_hall"
+		"edas#AccommodationPlace",
+		"iasted#Hotel_room"
 	],
 	[
 		"edas#Presenter",
 		"iasted#Speaker"
 	],
 	[
+		"edas#MeetingRoomPlace",
+		"iasted#Conference_hall"
+	],
+	[
 		"edas#Paper",
 		"iasted#Submission"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"iasted#Session_room"
-	],
-	[
-		"edas#Attendee",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"edas#ConferenceChair",
-		"iasted#Conference_Hiker"
 	],
 	[
 		"edas#PublishedPaper",
 		"iasted#Publication"
 	],
 	[
-		"edas#AccommodationPlace",
-		"iasted#Sponsor_company_house"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_restaurant"
 	],
 	[
-		"edas#MealBreak",
-		"iasted#Dinner_banquet"
+		"edas#ConferenceChair",
+		"iasted#Conference_Hiker"
 	],
 	[
-		"edas#ConferenceEvent",
-		"iasted#Conference_activity"
-	],
-	[
-		"edas#SocialEvent",
-		"iasted#Activity"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"iasted#Technic_activity"
-	],
-	[
-		"edas#Excursion",
-		"iasted#Departure"
-	],
-	[
-		"edas#WelcomeTalk",
-		"iasted#Welcome_address"
+		"edas#Attendee",
+		"iasted#IASTED_non_member"
 	]
 ]

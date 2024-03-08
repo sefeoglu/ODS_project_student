@@ -1,6 +1,8 @@
-import json
 from tqdm import tqdm
 from verbalisation_module import VerbModule
+import sys
+sys.path.append('..')
+from src import utils
 
 verb_module = None
 
@@ -20,8 +22,7 @@ def verbaliseFile(FILENAME, outputFile):
     if not verb_module:
         verb_module = VerbModule()
     results = {}
-    with open(FILENAME, "r") as f:
-        data = json.loads(f.read())
+    data = utils.importFromJson(FILENAME)
     i = 0
     print(f'start generating "{outputFile}"')
     #only for progressbar
@@ -31,9 +32,7 @@ def verbaliseFile(FILENAME, outputFile):
         triples = value
         verbalised_text = verbalise(triples, verb_module)
         results.update({key: verbalised_text})
-    json_object = json.dumps(results, indent=4)
-    with open(outputFile, "w") as outfile:
-        outfile.write(json_object)
+    utils.saveToJson(results, outputFile)
 
 if __name__ == "__main__":
     #for this path run from cd src/verbalizer/Prompt_generator2

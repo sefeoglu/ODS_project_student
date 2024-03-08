@@ -4,6 +4,14 @@
 		"sigkdd#Review"
 	],
 	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
 		"ekaw#Abstract",
 		"sigkdd#Abstract"
 	],
@@ -14,14 +22,6 @@
 	[
 		"ekaw#Document",
 		"sigkdd#Document"
-	],
-	[
-		"ekaw#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
 	],
 	[
 		"ekaw#Invited_Speaker",
@@ -45,10 +45,10 @@
 	],
 	[
 		"ekaw#PC_Member",
-		"sigkdd#Program_Committee_member"
+		"sigkdd#Organizing_Committee_member"
 	],
 	[
 		"ekaw#SC_Member",
-		"sigkdd#Organizing_Committee_member"
+		"sigkdd#Program_Committee_member"
 	]
 ]

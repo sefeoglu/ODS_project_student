@@ -1,7 +1,7 @@
 [
 	[
-		"conference#Person",
-		"iasted#Person"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
 		"conference#Tutorial",
@@ -12,20 +12,24 @@
 		"iasted#Reviewer"
 	],
 	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
 		"conference#Presentation",
 		"iasted#Presentation"
 	],
 	[
-		"conference#Review",
-		"iasted#Review"
-	],
-	[
-		"conference#Invited_talk",
+		"conference#Conference_contribution",
 		"iasted#Conference_activity"
 	],
 	[
 		"conference#Committee_member",
 		"iasted#Delegate"
+	],
+	[
+		"conference#Workshop",
+		"iasted#Lecture"
 	],
 	[
 		"conference#Invited_speaker",
@@ -36,47 +40,27 @@
 		"iasted#Session_chair"
 	],
 	[
-		"conference#Passive_conference_participant",
-		"iasted#Listener"
-	],
-	[
-		"conference#Workshop",
-		"iasted#Lecture"
-	],
-	[
 		"conference#Conference_document",
 		"iasted#Payment_document"
-	],
-	[
-		"conference#Regular_author",
-		"iasted#IASTED_non_member"
 	],
 	[
 		"conference#Conference_applicant",
 		"iasted#Conference_Hiker"
 	],
 	[
-		"conference#Track",
-		"iasted#Activity"
+		"conference#Regular_author",
+		"iasted#IASTED_non_member"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"iasted#Listener"
 	],
 	[
 		"conference#Contribution_co-author",
-		"iasted#Author"
+		"iasted#IASTED_member"
 	],
 	[
-		"conference#Poster",
-		"iasted#Publication"
-	],
-	[
-		"conference#Paper",
-		"iasted#Submission"
-	],
-	[
-		"conference#Information_for_participants",
-		"iasted#Research"
-	],
-	[
-		"conference#Submitted_contribution",
-		"iasted#Author_information_form"
+		"conference#Track",
+		"iasted#Activity"
 	]
 ]

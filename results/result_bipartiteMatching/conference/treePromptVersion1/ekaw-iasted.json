@@ -1,11 +1,15 @@
 [
 	[
-		"ekaw#Session",
-		"iasted#Session"
-	],
-	[
 		"ekaw#Review",
 		"iasted#Review"
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
+	],
+	[
+		"ekaw#Session",
+		"iasted#Session"
 	],
 	[
 		"ekaw#Tutorial",
@@ -20,19 +24,11 @@
 		"iasted#Document"
 	],
 	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
-	],
-	[
-		"ekaw#Workshop_Session",
+		"ekaw#Conference_Session",
 		"iasted#Conference_activity"
 	],
 	[
 		"ekaw#Presenter",
 		"iasted#Speaker"
-	],
-	[
-		"ekaw#Paper_Author",
-		"iasted#Author"
 	]
 ]

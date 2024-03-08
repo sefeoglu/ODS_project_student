@@ -1,15 +1,19 @@
 [
 	[
-		"conference#Person",
-		"edas#Person"
+		"conference#Workshop",
+		"edas#Workshop"
 	],
 	[
-		"conference#Conference",
-		"edas#Conference"
+		"conference#Paper",
+		"edas#Paper"
 	],
 	[
-		"conference#Organization",
-		"edas#Organization"
+		"conference#Review",
+		"edas#Review"
+	],
+	[
+		"conference#Call_for_paper",
+		"edas#CallForPapers"
 	],
 	[
 		"conference#Topic",
@@ -20,20 +24,16 @@
 		"edas#Reviewer"
 	],
 	[
-		"conference#Paper",
-		"edas#Paper"
+		"conference#Organization",
+		"edas#Organization"
 	],
 	[
-		"conference#Workshop",
-		"edas#Workshop"
+		"conference#Person",
+		"edas#Person"
 	],
 	[
-		"conference#Review",
-		"edas#Review"
-	],
-	[
-		"conference#Call_for_paper",
-		"edas#CallForPapers"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
 		"conference#Conference_document",
