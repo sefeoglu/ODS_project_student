@@ -2,7 +2,7 @@ from tqdm import tqdm
 from verbalisation_module import VerbModule
 import sys
 sys.path.append('..')
-from src import utils
+from src import utilsODS
 
 verb_module = None
 
@@ -22,7 +22,7 @@ def verbaliseFile(FILENAME, outputFile):
     if not verb_module:
         verb_module = VerbModule()
     results = {}
-    data = utils.importFromJson(FILENAME)
+    data = utilsODS.importFromJson(FILENAME)
     i = 0
     print(f'start generating "{outputFile}"')
     #only for progressbar
@@ -32,7 +32,7 @@ def verbaliseFile(FILENAME, outputFile):
         triples = value
         verbalised_text = verbalise(triples, verb_module)
         results.update({key: verbalised_text})
-    utils.saveToJson(results, outputFile)
+    utilsODS.saveToJson(results, outputFile)
 
 if __name__ == "__main__":
     #for this path run from cd src/verbalizer/Prompt_generator2

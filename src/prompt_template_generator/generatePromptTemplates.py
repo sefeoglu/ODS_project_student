@@ -1,6 +1,6 @@
 import sys
 sys.path.append('..')
-from src import utils
+from src import utilsODS
 
 """
 imports alignments from json_file_path
@@ -12,7 +12,7 @@ Returns:
 alignments
 """
 def importAlignments(json_file_path):
-    data = utils.importFromJson(json_file_path)
+    data = utilsODS.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing triples from '{json_file_path}'")
     return data
@@ -28,7 +28,7 @@ Returns:
 context
 """
 def importContext(json_file_path = './triples_randomWalk_verbalized_out/RandomWalk_verbalized_out.json'):
-    data = utils.importFromJson(json_file_path)
+    data = utilsODS.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing context from '{json_file_path}'")
     return data

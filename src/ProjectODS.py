@@ -1,10 +1,9 @@
-import utils
+import utilsODS
 import os
 import sys
-sys.path.append('./verbalizer/Prompt_generator2/')
 import configODSImport
-from prompt_generator import generatePromptTemplates
-from verbalizer.Prompt_generator2 import generatePrompt
+from prompt_template_generator import generatePromptTemplates
+sys.path.append('./verbalizer/')
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
 from AlignmentFormat import serialize_mapping_to_file
 from batch_loaders.ontology_parsing import preprocessing
@@ -75,7 +74,7 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
     cache = cachedLLMPredictions.get(promptsPath)
     if not cache: 
         if os.path.exists(llmMatchedFilePath):
-            cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
+            cachedLLMPredictions[promptsPath] = utilsODS.importFromJson(llmMatchedFilePath)
             cache = cachedLLMPredictions.get(promptsPath)
         else:
             cachedLLMPredictions[promptsPath] = {}
@@ -88,13 +87,13 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
         if not os.path.exists(promptsPath): 
             print('not found:', promptsPath)
             return 'no'
-        promptDict = utils.importFromJson(promptsPath)
+        promptDict = utilsODS.importFromJson(promptsPath)
         prompt = promptDict.get(promptKey)
         if not prompt: return 'no'
         if not llm: llm = LLM()
         yesOrNo = llm.get_prediction(prompt)
         cache[promptKey] = yesOrNo
-        utils.saveToJson(cache, llmMatchedFilePath, doPrint=False)
+        utilsODS.saveToJson(cache, llmMatchedFilePath, doPrint=False)
     return yesOrNo
 
 def main():
@@ -114,7 +113,7 @@ def main():
     if (configODS.get('importOntologies') == True):
         #to stuff like in original project
         #get configFile from original project
-        config = utils.importFromJson('config.json')
+        config = utilsODS.importFromJson('config.json')
         #configure metric according to original project
         metrics_config={"results_files_path": "./result_alignments",
             "write_rdf": False,
@@ -144,14 +143,14 @@ def main():
                         similarity = candidate_concept_sim(class1, class2)
                         preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('similarityPath') + ontoName1 + '-' + ontoName2 + '.json'
-                utils.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
+                utilsODS.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
 
     #match exact matches
     if configODS.get('matchExactMatches'):
         for file_path in os.listdir(configODS.get('similarityPath')):
             if file_path.endswith('.json'):
                 alignmentFilePath = configODS.get('similarityPath') + file_path
-                triples = utils.importFromJson(alignmentFilePath)
+                triples = utilsODS.importFromJson(alignmentFilePath)
                 exactMatches = []
                 for key1, key2, score in triples:
                     onto1, class1 = key1.split('#')
@@ -163,7 +162,7 @@ def main():
                             if classA == class1 or classB == class2:
                                 alreadyIn = True
                         if not alreadyIn: exactMatches.append([onto1 + '#' + class1, onto2 + '#' + class2, 1])
-                utils.saveToJson(exactMatches, configODS.get('exactMatchPath') + file_path, messageText='exported exact matches to')
+                utilsODS.saveToJson(exactMatches, configODS.get('exactMatchPath') + file_path, messageText='exported exact matches to')
 
     #run randomWalk Algorithm
     if configODS.get('runRandomWalkAlgorithm'):
@@ -175,7 +174,7 @@ def main():
                 for class1 in onto.get_classes():
                     triples.update(RandomWalk(onto, class1, infer_walk_WALK).triples)
                 path = configODS.get('triplesPath') + "triples_randomWalk_" + onto.get_name() + '.json'
-                utils.saveToJson(triples, path, f'exported random walk triples of {onto.get_name()} to')
+                utilsODS.saveToJson(triples, path, f'exported random walk triples of {onto.get_name()} to')
 
     #run randomTree Algorithm
     if configODS.get('runRandomTreeAlgorithm'):
@@ -196,15 +195,16 @@ def main():
                                 triplesOfClass1.append([classA, relation, classB])
                         triples[onto.get_name() + '#' + class1] = triplesOfClass1
                 path = configODS.get('triplesPath') + "triples_randomTree_" + onto.get_name() + '.json'
-                utils.saveToJson(triples, path, f'exported random tree triples of {onto.get_name()} to')
+                utilsODS.saveToJson(triples, path, f'exported random tree triples of {onto.get_name()} to')
     
     #verbalize available triples
     if configODS.get('verbalizeAvailableTriples'):
+        from verbalizer import tripleVerbalizer
         for file_path in os.listdir(configODS.get('triplesPath')):
             if file_path.endswith('.json'):
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
-                generatePrompt.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
+                tripleVerbalizer.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
     
     #export prompts generated by generatePromptTemplates.py with alignment candidates and context triples extracted by random algorithms
     #promptVersions: list of integers indicating which prompt versions to use
@@ -218,11 +218,11 @@ def main():
                     if configODS.get('generateWalkPrompts'):
                         contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomWalk_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
-                        utils.saveToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+ file_path, f"exported 'walkPromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
+                        utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+ file_path, f"exported 'walkPromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
                     if configODS.get('generateTreePrompts'):
                         contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
-                        utils.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/" + file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
+                        utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/" + file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
 
     if configODS.get('runAllPromptsOnLLM'):
         global llm
@@ -232,13 +232,13 @@ def main():
                 if file_path.endswith('.json'):
                     promptsPath = configODS.get('promptsPath') + dir_path + '/' + file_path
                     llmMatchedFilePath = configODS.get('llmOutcomePath') + dir_path + '/' + file_path
-                    promptDict = utils.importFromJson(promptsPath)
+                    promptDict = utilsODS.importFromJson(promptsPath)
                     promptResult = {}
                     for promptKey in tqdm(promptDict, desc=f'running prompts for {file_path.replace(".json", "")}'):
                         prompt = promptDict.get(promptKey)
                         yesOrNo = llm.get_prediction(prompt)
                         promptResult[promptKey] = yesOrNo
-                    utils.saveToJson(promptResult, llmMatchedFilePath)
+                    utilsODS.saveToJson(promptResult, llmMatchedFilePath)
 
     if configODS.get('runMissingPromptsOnDemandAndMatch'):
         for dir_path in os.listdir(configODS.get('promptsPath')):
@@ -252,7 +252,7 @@ def main():
                         verticesR = set()
                         edges = {}
                         alreadyMatched = {}
-                        exactMatches = utils.importFromJson(configODS.get('exactMatchPath') + file_path)
+                        exactMatches = utilsODS.importFromJson(configODS.get('exactMatchPath') + file_path)
                         for key1, key2, _ in exactMatches:
                             alreadyMatched[key1] = key2     #prevent key1 from getting matched to anything else in ontology2
                             alreadyMatched[key2] = key1     #prevent key2 from getting matched from anything else in ontology1
@@ -269,7 +269,7 @@ def main():
                         
                         neighborhoodRange = configODS.get('neighborhoodRange')
                         alignmentFilePath = configODS.get('similarityPath') + file_path
-                        triples = utils.importFromJson(alignmentFilePath)
+                        triples = utilsODS.importFromJson(alignmentFilePath)
                         i = 0
                         while len(newMatches) > 0:
                             i += 1
@@ -301,7 +301,7 @@ def main():
                                     alreadyMatched[keyX] = keyY
                                     alreadyMatched[keyY] = keyX
                             newMatches = newNeighborhoodMatches
-                        utils.saveToJson(matching, bipartiteMatchingPath)
+                        utilsODS.saveToJson(matching, bipartiteMatchingPath)
 
     if configODS.get('exportFinalMatchingsToRDF'):
         for dir_path in os.listdir(configODS.get('bipartiteMatchingPath')):
@@ -309,9 +309,9 @@ def main():
                 if file_path.endswith('.json'):
                     bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path + '/' + file_path
                     rdfPath = configODS.get('rdfPath') + dir_path + '/' + file_path.replace('.json', '') + '.rdf'
-                    bipartiteMatchedClasses = utils.importFromJson(bipartiteMatchingPath)
+                    bipartiteMatchedClasses = utilsODS.importFromJson(bipartiteMatchingPath)
                     t = [('http://' + key1, 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
-                    utils.saveToJson('placeholder for rdf content', rdfPath, doPrint=False)
+                    utilsODS.saveToJson('placeholder for rdf content', rdfPath, doPrint=False)
                     serialize_mapping_to_file(rdfPath, t)
                     print('exported ' + rdfPath)
 main()

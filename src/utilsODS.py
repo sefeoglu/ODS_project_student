@@ -1,5 +1,5 @@
 import json
-from verbalizer.Prompt_generator2.graph2text.utils import *
+#from verbalizer.graph2text.utils import *
 
 def saveToJson(List, path, messageText = 'saved', doPrint = True):
     data = json.dumps(List, indent='\t')

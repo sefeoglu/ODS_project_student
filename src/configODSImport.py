@@ -1,4 +1,4 @@
-import utils
+import utilsODS
 
 """
 reformats the json configODS file nicely, saves it to configODSPath
@@ -11,9 +11,9 @@ Returns:
 None
 """
 def reformatConfigODS(configODSPath):
-    configODS = utils.importFromJson(configODSPath)
+    configODS = utilsODS.importFromJson(configODSPath)
     configODS.update({'reformatThisFile' : False})
-    utils.saveToJson(configODS, configODSPath)
+    utilsODS.saveToJson(configODS, configODSPath)
     print(f'reformatig {configODSPath} done.')
 
 
@@ -55,7 +55,7 @@ def resetConfigODS(configODSPath):
                  'bipartiteMatchingPath': '../results/result_bipartiteMatching/conference/',
                  'rdfPath': '../results/result_RDF/conference/',
                  }
-    utils.saveToJson(configODS, configODSPath)
+    utilsODS.saveToJson(configODS, configODSPath)
     print(f'resetting {configODSPath} done.')
 
 
@@ -70,12 +70,12 @@ the configODS files data
 """
 def getConfigODS(configODSPath = './configODS.json'):
     #load configODS
-    configODS = utils.importFromJson(configODSPath)
+    configODS = utilsODS.importFromJson(configODSPath)
     #Maintenance
     if configODS.get('reformatThisFile') == True:
         reformatConfigODS(configODSPath)
     if configODS.get('resetThisFile') == True:
         resetConfigODS(configODSPath)
         #reload because of resetting
-        configODS = utils.importFromJson(configODSPath)
+        configODS = utilsODS.importFromJson(configODSPath)
     return configODS
