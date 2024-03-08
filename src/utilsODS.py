@@ -1,4 +1,5 @@
 import json
+import os
 #from verbalizer.graph2text.utils import *
 
 def saveToJson(List, path, messageText = 'saved', doPrint = True):
