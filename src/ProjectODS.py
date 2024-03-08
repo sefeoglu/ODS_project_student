@@ -123,7 +123,7 @@ def main():
             "debug_files_path": "./debug"}
         
         #load ontologies
-        name = "conference"
+        name = configODS.get('track')
         from transformers import AutoTokenizer
         Globals.tokenizer = AutoTokenizer.from_pretrained(config["General"]["model"])
         t = Track(name, config, metrics_config=metrics_config)
@@ -143,7 +143,7 @@ def main():
                         similarity = candidate_concept_sim(class1, class2)
                         preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('similarityPath') + ontoName1 + '-' + ontoName2 + '.json'
-                utilsODS.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
+                utilsODS.saveToJson(preAlignments, path, messageText=f'exported similarities for ({ontoName1} X {ontoName2}) to ')
 
     #match exact matches
     if configODS.get('matchExactMatches'):

@@ -46,6 +46,7 @@ def resetConfigODS(configODSPath):
                  'thresholdForConsideration' : 0.4,
                  'neighborhoodRange' : 2,
                  'exportFinalMatchingsToRDF': True,
+                 'track': 'conference', 
                  'similarityPath' : '../results/result_similarities/conference/',
                  'exactMatchPath': '../results/result_exactMatches/conference/',
                  'triplesPath': '../results/result_triples/conference/',
