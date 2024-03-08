@@ -29,7 +29,7 @@ def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
     if not first_node:
         return None
     #initialize
-    tree = {}        #Dict format: {node1 : {(relation, node2), (relation, node3), ...}}
+    tree = {}                       #Dict format: {node1 : {(relation, node2), (relation, node3), ...}}
     Stack = [(first_node, 0)]       #Stack format: [(node1, depthOfNodeInTree), ...]
     while (len(Stack) != 0):
         

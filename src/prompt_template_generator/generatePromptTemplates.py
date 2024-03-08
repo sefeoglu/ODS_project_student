@@ -163,9 +163,3 @@ def extract(triples, context, promptCounter):
     cont1 = context.get(key1)
     cont2 = context.get(key2)
     return key1, key2, cont1, cont2, onto1, onto2, node1, node2
-
-
-
-#p = getPrompt("../../results/result_alignments/conference/alignments.json", "../../results/result_triples/triples_randomTree_verbalized_out.json")
-#p = getPrompt(4)
-#print('\n\n'.join(p) if (type(p) == type([])) else p)
