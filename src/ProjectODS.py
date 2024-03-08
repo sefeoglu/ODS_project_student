@@ -23,7 +23,8 @@ preprocessorSim = None
 configODS = configODSImport.getConfigODS()
 
 def candidate_concept_sim(concept1, concept2):
-    """computes similarity score between concept1 and concept2
+    """
+    computes similarity score between concept1 and concept2
 
     Args:
         concept1 (str): concept 1 name to be matched
@@ -32,7 +33,6 @@ def candidate_concept_sim(concept1, concept2):
     Returns:
         float: similarity score between concept1 and concept2
     """
-    #>100x faster now
     global modelSim
     global preprocessorSim
     if modelSim == None:
@@ -49,12 +49,17 @@ def candidate_concept_sim(concept1, concept2):
     #print(f"cosine similarity between {concept1} and {concept2} is {cos_sim.item()}")
     return cos_sim.item()
 
-def testSimScore(triples, key1, key2, threshold):
-    for keyA, keyB, score in triples:
-        if (key1 == keyA and key2 == keyB and (type(score) == type('String') or score >= threshold)):
-            return True
-    return False
+"""
+collects all neighbors with a maximal distance of neighborhoodRange to nodeName
 
+Args:
+    nodeName (str): name of the center node in ontology
+    ontology (Ontology): the ontology in which the neighbors are collected
+    neighborhoodRange (int): maximal distance which neighbors can have to center node with name nodeName
+
+Returns:
+    list of keys [ontologyName#neighborName] for nodes in neighborhood
+"""
 def getNeighbors(nodeName, ontology: Ontology, neighborhoodRange):
     return [ontology.onto_name + '#' + neighbor for neighbor in getNeighborsName(nodeName, ontology, neighborhoodRange)]
 
@@ -65,25 +70,41 @@ def getNeighborsName(nodeName, ontology: Ontology, neighborhoodRange):
             Neighbors += getNeighborsName(neighbor, ontology, neighborhoodRange - 1)
     return list(set(Neighbors))
 
-def getLLMPrediction(key1, key2, llmMatchedFilePath):
+"""
+runs prompt on the LLM if not already cached in file
+saves result to cache file
+
+Args:
+    key1 (str): key of the first node
+    key2 (str): key of the second node
+    llmOutcomePath (str): file path to the cached prompt answers
+
+Returns:
+    str: the answer the LLM gave; most of the time it is 'yes' or 'no'
+"""
+def getLLMPrediction(key1, key2, llmOutcomePath):
     global cachedLLMPredictions
     global llm
     global configODS
-    promptsPath = '/'.join(llmMatchedFilePath.split('/')[-2:])
+    promptsPath = '/'.join(llmOutcomePath.split('/')[-2:])
     promptsPath = configODS.get('promptsPath') + promptsPath
+    #test if cache is loaded
     cache = cachedLLMPredictions.get(promptsPath)
     if not cache: 
-        if os.path.exists(llmMatchedFilePath):
-            cachedLLMPredictions[promptsPath] = utilsODS.importFromJson(llmMatchedFilePath)
+        #load and prepare cache variable
+        if os.path.exists(llmOutcomePath):
+            cachedLLMPredictions[promptsPath] = utilsODS.importFromJson(llmOutcomePath)
             cache = cachedLLMPredictions.get(promptsPath)
         else:
             cachedLLMPredictions[promptsPath] = {}
             cache = cachedLLMPredictions.get(promptsPath)
+    #test if already in cache
     promptKey = key1 + ';' + key2
     yesOrNo = cache.get(promptKey)
     if yesOrNo != None:
         return yesOrNo
     else:
+        #not found => run on LLM and save new cache
         if not os.path.exists(promptsPath): 
             print('not found:', promptsPath)
             return 'no'
@@ -93,13 +114,16 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
         if not llm: llm = LLM()
         yesOrNo = llm.get_prediction(prompt)
         cache[promptKey] = yesOrNo
-        utilsODS.saveToJson(cache, llmMatchedFilePath, doPrint=False)
+        utilsODS.saveToJson(cache, llmOutcomePath, doPrint=False)
     return yesOrNo
 
 def main():
     """
     runs functions according to the tasks in configODS
-    prepares configs, metrics for original project by FrancisGosselin
+    usual workflow: 
+                    1. import the file from the last pipeline step
+                    2. do the demanded operations
+                    3. save result to new result file
 
     Parameters:
     None
@@ -109,48 +133,38 @@ def main():
     """
     global configODS
 
-
+    #import the ontologies for later usage
     if (configODS.get('importOntologies') == True):
-        #to stuff like in original project
         #get configFile from original project
         config = utilsODS.importFromJson('config.json')
-        #configure metric according to original project
-        metrics_config={"results_files_path": "./result_alignments",
-            "write_rdf": False,
-            "write_tsv": False,
-            "write_ranking": False,
-            "hits":[1, 3, 5, 10], 
-            "debug_files_path": "./debug"}
-        
         #load ontologies
         name = configODS.get('track')
         from transformers import AutoTokenizer
         Globals.tokenizer = AutoTokenizer.from_pretrained(config["General"]["model"])
-        t = Track(name, config, metrics_config=metrics_config)
-        ontos = {onto.get_name() : onto for onto in t.ontologies}
+        t = Track(name, config, metrics_config=None)
+        ontologies = {onto.get_name() : onto for onto in t.ontologies}
 
-
-    #pre align all possible classes by cross products as candidates
+    #compute similarities
     if (configODS.get('computeSimilarities') == True):
         #get which ontology maps to which one
         for ontoName1, ontoName2 in t.toBeMatchedOntologies:
-            onto1 = ontos.get(ontoName1)
-            onto2 = ontos.get(ontoName2)
+            onto1 = ontologies.get(ontoName1)
+            onto2 = ontologies.get(ontoName2)
             if onto1 and onto2:
-                preAlignments = []
+                similarityTriplesPath = {}
                 for class1 in tqdm(onto1.get_classes(), desc = f'computing similarities for {ontoName1} X {ontoName2}'):
                     for class2 in onto2.get_classes():
                         similarity = candidate_concept_sim(class1, class2)
-                        preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
+                        similarityTriplesPath[onto1.get_name() + '#' + class1 + ';' + onto2.get_name() + '#' + class2] = [onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity]
                 path = configODS.get('similarityPath') + ontoName1 + '-' + ontoName2 + '.json'
-                utilsODS.saveToJson(preAlignments, path, messageText=f'exported similarities for ({ontoName1} X {ontoName2}) to ')
+                utilsODS.saveToJson(similarityTriplesPath, path, messageText=f'exported similarities for ({ontoName1} X {ontoName2}) to ')
 
     #match exact matches
     if configODS.get('matchExactMatches'):
         for file_path in os.listdir(configODS.get('similarityPath')):
             if file_path.endswith('.json'):
                 alignmentFilePath = configODS.get('similarityPath') + file_path
-                triples = utilsODS.importFromJson(alignmentFilePath)
+                triples = list(utilsODS.importFromJson(alignmentFilePath).values())
                 exactMatches = []
                 for key1, key2, score in triples:
                     onto1, class1 = key1.split('#')
@@ -167,9 +181,9 @@ def main():
     #run randomWalk Algorithm
     if configODS.get('runRandomWalkAlgorithm'):
         infer_walk_WALK = RandomWalkConfig(walk_type = 'randomWalk', strategy=WalkStrategy.ONTOLOGICAL_RELATIONS, n_branches=5)
-        if ontos:
-            for ontoName in ontos.keys():
-                onto = ontos.get(ontoName)
+        if ontologies:
+            for ontoName in ontologies.keys():
+                onto = ontologies.get(ontoName)
                 triples = {}
                 for class1 in onto.get_classes():
                     triples.update(RandomWalk(onto, class1, infer_walk_WALK).triples)
@@ -179,9 +193,9 @@ def main():
     #run randomTree Algorithm
     if configODS.get('runRandomTreeAlgorithm'):
         randomTreeConfig = configODS.get('randomTreeConfig')
-        if ontos and randomTreeConfig:
-            for ontoName in ontos.keys():
-                onto = ontos.get(ontoName)
+        if ontologies and randomTreeConfig:
+            for ontoName in ontologies.keys():
+                onto = ontologies.get(ontoName)
                 triples = {}
                 for class1 in onto.get_classes():
                     tree = doRandomTree(onto, class1, randomTreeConfig)
@@ -262,8 +276,8 @@ def main():
                         newMatches = generateMaximumBipartiteMatching.findMaximumBipartiteMatching(list(verticesL), list(verticesR), edges)
                         ontoName1, node1 = key1.split('#')
                         ontoName2, node2 = key2.split('#')
-                        onto1 = ontos.get(ontoName1)
-                        onto2 = ontos.get(ontoName2)
+                        onto1 = ontologies.get(ontoName1)
+                        onto2 = ontologies.get(ontoName2)
 
                         matching = newMatches
                         
@@ -284,7 +298,7 @@ def main():
                                     _, node2 = key2.split('#')
                                     neighborsOf1 = [keyA for keyA in getNeighbors(node1, onto1, currentNeighborhoodRange) if not alreadyMatched.get(keyA)]
                                     neighborsOf2 = [keyB for keyB in getNeighbors(node2, onto2, currentNeighborhoodRange) if not alreadyMatched.get(keyB)]
-                                    possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2 if testSimScore(triples, keyA, keyB, configODS.get('thresholdForConsideration'))]
+                                    possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2 if triples.get(keyA + ';' + keyB) and triples.get(keyA + ';' + keyB)[2] >= configODS.get('thresholdForConsideration')]
                                 #ask LLM for match or no match
                                 for keyA, keyB in tqdm(possibleAlignments, desc = f'running prompts for {currentNeighborhoodRange}-hop neighborhoods in {ontoName1}-{ontoName2}'):
                                     if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):

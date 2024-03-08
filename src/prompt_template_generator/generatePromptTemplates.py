@@ -15,7 +15,7 @@ def importAlignments(json_file_path):
     data = utilsODS.importFromJson(json_file_path)
     if data == None:
         raise Exception(f"problems importing triples from '{json_file_path}'")
-    return data
+    return list(data.values())
 
 
 """

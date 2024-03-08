@@ -25,7 +25,7 @@
 	"generateWalkPrompts": false,
 	"generateTreePrompts": false,
 	"runAllPromptsOnLLM": false,
-	"runMissingPromptsOnDemandAndMatch": false,
+	"runMissingPromptsOnDemandAndMatch": true,
 	"thresholdForConsideration": 0.4,
 	"neighborhoodRange": 2,
 	"exportFinalMatchingsToRDF": false,
