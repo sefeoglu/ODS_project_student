@@ -1,5 +1,5 @@
 # Ontology Matching
-Graph Search Algorothm Based Prompt Generation for Ontology Matching
+A Ontology Matcher utilizing Graph Search Algorithms and Prompt Generation for LLMs.
 
 ## Requirements
 use Python version >=3.10
@@ -7,7 +7,9 @@ use Python version >=3.10
 pip install -r requirements.txt
 ```
 ## Dataset Folder:
-update dataset paths at the ```config.json```
+update dataset paths at ```src/config.json```
+## Configuration:
+adjust the pipeline tasks and algorithm configurations at ```src/configODS.json```
 
 ## How to run
 ```xml
