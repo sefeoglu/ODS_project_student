@@ -1,5 +1,4 @@
-/data/alignments
-*.owl
+/data
 *.png
 .DS_Store
 .huskyrc.json
