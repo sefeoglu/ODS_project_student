@@ -1,3 +1,6 @@
+"""
+modified by author: Julian Sampels
+"""
 import random, copy, os
 from numpy import dtype
 import torch
@@ -10,6 +13,9 @@ from batch_loaders.ontology_parsing.ontology import Ontology
 
 
 logger = logging.getLogger("onto")
+"""
+created by author: Julian Sampels
+"""
 """
 generates a random tree in the ontology onto with root first_node according to the randomTreeConfig
 
@@ -107,6 +113,9 @@ def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
                 Stack += [(ID[1], depth_Node+1) for ID in IDs if not tree.get(ID)]
     return tree
 
+"""
+modified by author: Julian Sampels
+"""
 """
 generates a random walk in the ontology onto with root first_node according to the configurations provided by the other parameters
 
@@ -208,7 +217,9 @@ class RandomWalkConfig():
         self.strategy = strategy
         self.use_synonyms = use_synonyms
 
-
+"""
+modified by author: Julian Sampels
+"""
 class RandomWalk():
     """
     init for class of RandomWalk providing variables like the ontology, the root node and a walk configuration

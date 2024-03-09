@@ -1,4 +1,7 @@
 
+"""
+modified by author: Julian Sampels
+"""
 from batch_loaders.alignment import Alignment, AlignmentDataset
 from batch_loaders.ontology_parsing.ontology import Ontology
 from batch_loaders.ontology_parsing.ontology_config import OntoConfig
@@ -61,6 +64,9 @@ class Track():
         self.ontologies_map = {o.get_name(): o for o in self.ontologies}
 
 
+    """
+    modified by author: Julian Sampels
+    """
     def load_alignments(self, track_config):
         
         if "type" not in track_config:
@@ -70,7 +76,6 @@ class Track():
 
         alignments_folder = track_config["alignments_folder"]
         alignments_filenames = self._load_folder_or_list(track_config, "alignments", alignments_folder)
-        
         self.toBeMatchedOntologies = []
         for fileName in alignments_filenames:
             onto1, onto2 = fileName.split('-')

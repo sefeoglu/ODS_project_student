@@ -1,3 +1,6 @@
+"""
+modified by author: Julian Sampels
+"""
 from cProfile import label
 from concurrent.futures import process
 import itertools
@@ -170,7 +173,9 @@ class Ontology():
             return []
         else:
             return self.childs_map[node]
-    
+    """
+    created by author: Julian Sampels
+    """
     def get_equivalents(self, node):
         if node not in self.equivalent_map:
             return []
@@ -316,6 +321,9 @@ class Ontology():
                         self.parents_map[concept_name].append(parent_name)
 
                         self.childs_map[parent_name].append(concept_name)
+            """
+            created by author: Julian Sampels
+            """
             #add equivalent relations
             for equivalent_classes in (concept.equivalent_to):
                 # Not adding these relations
@@ -645,7 +653,9 @@ class Ontology():
             iteration_nodes = next_iteration_nodes
 
         return ancestors
-    
+    """
+    created by author: Julian Sampels
+    """
     #can be used to identify classes which are in parent-child !!AND!! child-parent relation
     #adds these to the equivalent_map and removes parent-child and child-parent relation
     def correctEquivalentClasses(self):

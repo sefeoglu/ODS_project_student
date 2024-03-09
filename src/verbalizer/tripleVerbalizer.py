@@ -1,3 +1,6 @@
+"""
+modified by author: Julian Sampels
+"""
 from tqdm import tqdm
 from verbalisation_module import VerbModule
 import sys
@@ -15,7 +18,9 @@ def verbalise(tripleList, verbModule):
 
     return verbModule.verbalise(ans)
 
-
+"""
+modified by author: Julian Sampels
+"""
 def verbaliseFile(FILENAME, outputFile):
     #load module only once
     global verb_module

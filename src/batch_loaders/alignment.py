@@ -1,3 +1,6 @@
+"""
+modified by author: Julian Sampels
+"""
 from ctypes import alignment
 from typing import List
 from xml.dom import minidom
@@ -31,6 +34,9 @@ class Alignment:
     def __repr__(self):
         return "({}#{}, {}#{}, {})".format(self.source_onto, self.id1, self.target_onto, self.id2, self.label)
 
+    """
+    created by author: Julian Sampels
+    """
     def to_tuple(self):
         return (self.source_onto + '#' + self.id1, self.target_onto + '#' + self.id2, self.label)
 

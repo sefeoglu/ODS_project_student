@@ -1,9 +1,12 @@
+"""
+created by author: Julian Sampels
+"""
 import json
 import os
 #from verbalizer.graph2text.utils import *
 
 """
-saves data structure to path and makes underlining folder structure if this is missing
+saves data structure as json to path and makes underlining folder structure if this is missing
 
 Parameters:
 Data: the data which should be exported

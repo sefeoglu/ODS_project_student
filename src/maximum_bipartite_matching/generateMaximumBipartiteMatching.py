@@ -1,4 +1,7 @@
 """
+created by author: Julian Sampels
+"""
+"""
 generates a bipartite matching using a approach similar to the Hopcroft–Karp Algorithm
 
 Args:
