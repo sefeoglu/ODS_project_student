@@ -1,23 +1,7 @@
 [
 	[
-		"conference#Conference",
-		"confOf#Conference"
-	],
-	[
 		"conference#Workshop",
 		"confOf#Workshop"
-	],
-	[
-		"conference#Poster",
-		"confOf#Poster"
-	],
-	[
-		"conference#Tutorial",
-		"confOf#Tutorial"
-	],
-	[
-		"conference#Person",
-		"confOf#Person"
 	],
 	[
 		"conference#Paper",
@@ -28,7 +12,23 @@
 		"confOf#Topic"
 	],
 	[
+		"conference#Tutorial",
+		"confOf#Tutorial"
+	],
+	[
 		"conference#Organization",
 		"confOf#Organization"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Conference",
+		"confOf#Conference"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
 	]
 ]

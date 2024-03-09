@@ -1,102 +1,58 @@
 [
 	[
-		"conference#Conference",
-		"edas#Conference"
-	],
-	[
 		"conference#Workshop",
 		"edas#Workshop"
-	],
-	[
-		"conference#Reviewer",
-		"edas#Reviewer"
-	],
-	[
-		"conference#Tutorial",
-		"edas#ConferenceEvent"
-	],
-	[
-		"conference#Call_for_participation",
-		"edas#Document"
-	],
-	[
-		"conference#Conference_document",
-		"edas#Call"
-	],
-	[
-		"conference#Presentation",
-		"edas#MultimediaTopic"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"edas#AcceptRating"
 	],
 	[
 		"conference#Paper",
 		"edas#Paper"
 	],
 	[
-		"conference#Conference_part",
-		"edas#AcademicEvent"
-	],
-	[
-		"conference#Rejected_contribution",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"conference#Written_contribution",
-		"edas#PublishedPaper"
+		"conference#Review",
+		"edas#Review"
 	],
 	[
 		"conference#Call_for_paper",
 		"edas#CallForPapers"
 	],
 	[
-		"conference#Accepted_contribution",
-		"edas#ComputerArchitectureTopic"
+		"conference#Topic",
+		"edas#Topic"
+	],
+	[
+		"conference#Reviewer",
+		"edas#Reviewer"
 	],
 	[
 		"conference#Organization",
 		"edas#Organization"
 	],
 	[
-		"conference#Conference_announcement",
-		"edas#ComputerNetworksAapplicationsTopic"
-	],
-	[
-		"conference#Poster",
-		"edas#AcceptedPaper"
-	],
-	[
-		"conference#Committee",
-		"edas#TwoLevelConference"
-	],
-	[
-		"conference#Review",
-		"edas#Review"
-	],
-	[
-		"conference#Chair",
-		"edas#ConferenceChair"
-	],
-	[
-		"conference#Reviewed_contribution",
-		"edas#ReviewRating"
-	],
-	[
-		"conference#Regular_contribution",
-		"edas#ComputerNetworksSecurityTopic"
-	],
-	[
 		"conference#Person",
 		"edas#Person"
 	],
 	[
-		"conference#Topic",
-		"edas#Topic"
+		"conference#Conference",
+		"edas#Conference"
 	],
 	[
-		"conference#Submitted_contribution",
-		"edas#PendingPaper"
+		"conference#Conference_participant",
+		"edas#Attendee"
+	],
+	[
+		"conference#Conference_document",
+		"edas#Document"
+	],
+	[
+		"conference#Conference_part",
+		"edas#ConferenceEvent"
+	],
+	[
+		"conference#Regular_author",
+		"edas#Author"
+	],
+	[
+		"conference#Call_for_participation",
+		"edas#Call"
 	]
 ]

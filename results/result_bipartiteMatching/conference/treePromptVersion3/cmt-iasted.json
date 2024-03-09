@@ -4,107 +4,55 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Paper",
-		"iasted#Presenter_house"
-	],
-	[
-		"cmt#Meta-Review",
-		"iasted#Building"
-	],
-	[
-		"cmt#ConferenceMember",
-		"iasted#Delegate"
-	],
-	[
-		"cmt#Rejection",
-		"iasted#One_day_presenter"
-	],
-	[
-		"cmt#Acceptance",
-		"iasted#Presenter_city"
-	],
-	[
-		"cmt#PaperAbstract",
-		"iasted#Form"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Activity_before_conference"
-	],
-	[
-		"cmt#Bid",
-		"iasted#Mailing_list"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"cmt#ConferenceChair",
-		"iasted#Presenter_state"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Technical_commitee"
-	],
-	[
-		"cmt#Administrator",
-		"iasted#Research"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"iasted#Car"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"iasted#Activity"
-	],
-	[
-		"cmt#User",
-		"iasted#Hotel_registration_form"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Social_program"
-	],
-	[
 		"cmt#Document",
 		"iasted#Document"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"iasted#Deadline"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"cmt#Chairman",
-		"iasted#Presentation"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"iasted#Place"
+		"cmt#ProgramCommitteeMember",
+		"iasted#Delegate"
 	],
 	[
 		"cmt#Co-author",
-		"iasted#Conference_activity"
+		"iasted#Author_book_proceedings_included"
+	],
+	[
+		"cmt#AuthorNotReviewer",
+		"iasted#Author_cd_proceedings_included"
+	],
+	[
+		"cmt#Chairman",
+		"iasted#Sponsor"
+	],
+	[
+		"cmt#Paper",
+		"iasted#Submission"
+	],
+	[
+		"cmt#AssociatedChair",
+		"iasted#Session_chair"
 	],
 	[
 		"cmt#PaperFullVersion",
-		"iasted#PowerPoint_presentation"
+		"iasted#Publication"
+	],
+	[
+		"cmt#ConferenceChair",
+		"iasted#Conference_Hiker"
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#IASTED_member"
 	]
 ]

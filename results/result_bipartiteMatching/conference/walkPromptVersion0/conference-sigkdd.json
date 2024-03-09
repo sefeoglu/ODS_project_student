@@ -1,13 +1,5 @@
 [
 	[
-		"conference#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"conference#Call_for_participation",
-		"sigkdd#Document"
-	],
-	[
 		"conference#Invited_speaker",
 		"sigkdd#Invited_Speaker"
 	],
@@ -16,28 +8,16 @@
 		"sigkdd#Paper"
 	],
 	[
-		"conference#Contribution_1th-author",
-		"sigkdd#Author"
-	],
-	[
-		"conference#Organizer",
-		"sigkdd#Organizator"
-	],
-	[
-		"conference#Committee_member",
-		"sigkdd#Program_Committee_member"
-	],
-	[
-		"conference#Program_committee",
-		"sigkdd#Program_Committee"
+		"conference#Committee",
+		"sigkdd#Committee"
 	],
 	[
 		"conference#Abstract",
 		"sigkdd#Abstract"
 	],
 	[
-		"conference#Committee",
-		"sigkdd#Committee"
+		"conference#Program_committee",
+		"sigkdd#Program_Committee"
 	],
 	[
 		"conference#Review",
@@ -48,19 +28,23 @@
 		"sigkdd#Organizing_Committee"
 	],
 	[
-		"conference#Regular_contribution",
-		"sigkdd#Deadline_Paper_Submission"
-	],
-	[
 		"conference#Person",
 		"sigkdd#Person"
 	],
 	[
-		"conference#Paid_applicant",
-		"sigkdd#Fee"
+		"conference#Conference",
+		"sigkdd#Conference"
 	],
 	[
-		"conference#Submitted_contribution",
-		"sigkdd#Deadline"
+		"conference#Conference_document",
+		"sigkdd#Document"
+	],
+	[
+		"conference#Regular_author",
+		"sigkdd#Author"
+	],
+	[
+		"conference#Committee_member",
+		"sigkdd#Program_Committee_member"
 	]
 ]

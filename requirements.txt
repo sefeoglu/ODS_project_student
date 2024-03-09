@@ -12,6 +12,8 @@ pandas>=2.0.3
 GitPython
 rouge_score
 sacrebleu
+pyyaml>=5.4
 pytorch_lightning
 accelerate
 sentencepiece
+sentence-transformers

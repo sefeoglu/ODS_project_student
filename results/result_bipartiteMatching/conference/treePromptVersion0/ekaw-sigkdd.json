@@ -1,71 +1,47 @@
 [
 	[
-		"ekaw#Invited_Speaker",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"ekaw#Regular_Paper",
-		"sigkdd#Author"
-	],
-	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
-	],
-	[
-		"ekaw#PC_Chair",
-		"sigkdd#Committee"
+		"ekaw#Review",
+		"sigkdd#Review"
 	],
 	[
 		"ekaw#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"ekaw#Organisation",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"ekaw#Workshop_Chair",
-		"sigkdd#Organizator"
-	],
-	[
-		"ekaw#Research_Institute",
-		"sigkdd#Place"
-	],
-	[
-		"ekaw#Presenter",
-		"sigkdd#Speaker"
-	],
-	[
-		"ekaw#Event",
-		"sigkdd#Deadline_Abstract_Submission"
-	],
-	[
-		"ekaw#Paper_Author",
-		"sigkdd#Author_of_paper"
+		"ekaw#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"ekaw#Abstract",
 		"sigkdd#Abstract"
 	],
 	[
-		"ekaw#Review",
-		"sigkdd#Review"
-	],
-	[
-		"ekaw#PC_Member",
-		"sigkdd#Organizing_Committee_member"
-	],
-	[
-		"ekaw#OC_Member",
-		"sigkdd#Program_Committee"
+		"ekaw#Person",
+		"sigkdd#Person"
 	],
 	[
 		"ekaw#Document",
 		"sigkdd#Document"
 	],
 	[
-		"ekaw#Person",
-		"sigkdd#Person"
+		"ekaw#Invited_Speaker",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"ekaw#Presenter",
+		"sigkdd#Speaker"
+	],
+	[
+		"ekaw#Tutorial_Chair",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"ekaw#PC_Member",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"ekaw#Paper_Author",
+		"sigkdd#Author"
 	],
 	[
 		"ekaw#SC_Member",

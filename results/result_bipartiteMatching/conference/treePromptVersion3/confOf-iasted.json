@@ -1,126 +1,66 @@
 [
 	[
-		"confOf#Member_PC",
-		"iasted#Building"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
-		"confOf#University",
-		"iasted#Delegate"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Presenter_state"
-	],
-	[
-		"confOf#Participant",
-		"iasted#One_day_presenter"
-	],
-	[
-		"confOf#Company",
-		"iasted#Presenter_house"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"iasted#Presenter_city"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"iasted#Mailing_list"
-	],
-	[
-		"confOf#Event",
-		"iasted#Hotel_registration_form"
+		"confOf#City",
+		"iasted#City"
 	],
 	[
 		"confOf#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"confOf#Chair_PC",
-		"iasted#Activity"
-	],
-	[
-		"confOf#Poster",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
-		"confOf#Student",
-		"iasted#Conference_restaurant"
-	],
-	[
-		"confOf#Member",
-		"iasted#Form"
-	],
-	[
-		"confOf#Banquet",
-		"iasted#Document"
-	],
-	[
-		"confOf#Scholar",
-		"iasted#Activity_before_conference"
-	],
-	[
-		"confOf#Science_Worker",
-		"iasted#Conference_state"
-	],
-	[
-		"confOf#Regular",
-		"iasted#Car"
-	],
-	[
 		"confOf#Person",
 		"iasted#Person"
 	],
 	[
-		"confOf#Working_event",
-		"iasted#Social_program"
+		"confOf#Administrator",
+		"iasted#Delegate"
 	],
 	[
 		"confOf#Contribution",
-		"iasted#Renting"
+		"iasted#Sponsor"
 	],
 	[
-		"confOf#Short_paper",
-		"iasted#Presentation"
+		"confOf#Assistant",
+		"iasted#IASTED_non_member"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Participant",
+		"iasted#Student_lecturer"
 	],
 	[
-		"confOf#Submission_event",
-		"iasted#Dinner_banquet"
+		"confOf#Science_Worker",
+		"iasted#Lecturer"
 	],
 	[
-		"confOf#Reception",
-		"iasted#Simulating"
+		"confOf#Member",
+		"iasted#IASTED_member"
 	],
 	[
-		"confOf#Administrative_event",
-		"iasted#Deadline"
-	],
-	[
-		"confOf#Administrator",
-		"iasted#Research"
+		"confOf#Scholar",
+		"iasted#Student_non_speaker"
 	],
 	[
 		"confOf#Conference",
-		"iasted#Conference_city"
+		"iasted#Conference_activity"
 	],
 	[
-		"confOf#Reviewing_event",
-		"iasted#PowerPoint_presentation"
+		"confOf#Workshop",
+		"iasted#Lecture"
 	],
 	[
-		"confOf#Volunteer",
+		"confOf#Event",
+		"iasted#Activity"
+	],
+	[
+		"confOf#Registration_of_participants_event",
 		"iasted#Registration"
 	],
 	[
 		"confOf#Trip",
-		"iasted#Submissions_deadline"
-	],
-	[
-		"confOf#City",
-		"iasted#City"
+		"iasted#Departure"
 	]
 ]

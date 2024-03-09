@@ -1,94 +1,54 @@
 [
 	[
-		"conference#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"conference#Workshop",
 		"ekaw#Workshop"
-	],
-	[
-		"conference#Tutorial",
-		"ekaw#Tutorial"
-	],
-	[
-		"conference#Reviewer",
-		"ekaw#Neutral_Review"
-	],
-	[
-		"conference#Conference_document",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"conference#Publisher",
-		"ekaw#Proceedings_Publisher"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"ekaw#Evaluated_Paper"
 	],
 	[
 		"conference#Invited_speaker",
 		"ekaw#Invited_Speaker"
 	],
 	[
+		"conference#Conference_participant",
+		"ekaw#Conference_Participant"
+	],
+	[
 		"conference#Paper",
 		"ekaw#Paper"
-	],
-	[
-		"conference#Conference_part",
-		"ekaw#Early-Registered_Participant"
-	],
-	[
-		"conference#Conference_proceedings",
-		"ekaw#Conference_Proceedings"
-	],
-	[
-		"conference#Accepted_contribution",
-		"ekaw#Conference_Session"
-	],
-	[
-		"conference#Organization",
-		"ekaw#Organisation"
 	],
 	[
 		"conference#Abstract",
 		"ekaw#Abstract"
 	],
 	[
-		"conference#Information_for_participants",
-		"ekaw#Document"
+		"conference#Review",
+		"ekaw#Review"
 	],
 	[
-		"conference#Review_expertise",
-		"ekaw#Accepted_Paper"
+		"conference#Tutorial",
+		"ekaw#Tutorial"
+	],
+	[
+		"conference#Conference_proceedings",
+		"ekaw#Conference_Proceedings"
 	],
 	[
 		"conference#Track",
 		"ekaw#Track"
 	],
 	[
-		"conference#Review",
-		"ekaw#Review"
-	],
-	[
-		"conference#Chair",
-		"ekaw#PC_Chair"
-	],
-	[
-		"conference#Conference_participant",
-		"ekaw#Conference_Participant"
-	],
-	[
 		"conference#Person",
 		"ekaw#Person"
+	],
+	[
+		"conference#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"conference#Invited_talk",
 		"ekaw#Invited_Talk"
 	],
 	[
-		"conference#Submitted_contribution",
-		"ekaw#Poster_Session"
+		"conference#Co-chair",
+		"ekaw#Workshop_Chair"
 	]
 ]

@@ -1,38 +1,26 @@
 [
 	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
-	],
-	[
-		"ekaw#Tutorial",
-		"iasted#Tutorial"
-	],
-	[
-		"ekaw#Social_Event",
-		"iasted#Coffee_break"
-	],
-	[
 		"ekaw#Review",
 		"iasted#Review"
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
 	],
 	[
 		"ekaw#Session",
 		"iasted#Session"
 	],
 	[
-		"ekaw#Student",
-		"iasted#Student_non_speaker"
-	],
-	[
-		"ekaw#Document",
-		"iasted#Document"
-	],
-	[
-		"ekaw#Conference",
-		"iasted#Coctail_reception"
+		"ekaw#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
 		"ekaw#Person",
 		"iasted#Person"
+	],
+	[
+		"ekaw#Document",
+		"iasted#Document"
 	]
 ]

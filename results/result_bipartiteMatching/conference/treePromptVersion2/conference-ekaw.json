@@ -1,51 +1,47 @@
 [
 	[
-		"conference#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"conference#Workshop",
 		"ekaw#Workshop"
-	],
-	[
-		"conference#Tutorial",
-		"ekaw#Tutorial"
 	],
 	[
 		"conference#Invited_speaker",
 		"ekaw#Invited_Speaker"
 	],
 	[
-		"conference#Paper",
-		"ekaw#Paper"
+		"conference#Conference_participant",
+		"ekaw#Conference_Participant"
 	],
 	[
-		"conference#Conference_proceedings",
-		"ekaw#Conference_Proceedings"
+		"conference#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"conference#Abstract",
 		"ekaw#Abstract"
 	],
 	[
-		"conference#Review_expertise",
-		"ekaw#Scientific_Event"
+		"conference#Review",
+		"ekaw#Review"
+	],
+	[
+		"conference#Tutorial",
+		"ekaw#Tutorial"
+	],
+	[
+		"conference#Conference_proceedings",
+		"ekaw#Conference_Proceedings"
 	],
 	[
 		"conference#Track",
 		"ekaw#Track"
 	],
 	[
-		"conference#Review",
-		"ekaw#Review"
-	],
-	[
-		"conference#Conference_participant",
-		"ekaw#Conference_Participant"
-	],
-	[
 		"conference#Person",
 		"ekaw#Person"
+	],
+	[
+		"conference#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"conference#Invited_talk",

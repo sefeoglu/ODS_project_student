@@ -10,7 +10,17 @@ from batch_loaders.ontology_parsing.ontology import Ontology
 
 
 logger = logging.getLogger("onto")
+"""
+generates a random tree in the ontology onto with root first_node according to the randomTreeConfig
 
+Args:
+    onto (Ontology): the ontology on which the tree is generated
+    first_node (str): name of the root node
+    randomTreeConfig (dict): dict containing tree configurations like breadth, path_depth, probabilities, ...
+
+Returns:
+    dict: containing a node as key and a set of tuples (relation, nextNode) as value
+"""
 def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
     #importing configs
     breadth = randomTreeConfig.get('breadth')
@@ -29,28 +39,23 @@ def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
     if not first_node:
         return None
     #initialize
-    tree = {}        #Dict format: {node1 : {(relation, node2), (relation, node3), ...}}
+    tree = {}                       #Dict format: {node1 : {(relation, node2), (relation, node3), ...}}
     Stack = [(first_node, 0)]       #Stack format: [(node1, depthOfNodeInTree), ...]
+    #run until no nodes to process
     while (len(Stack) != 0):
-        
         current_node, depth_Node = Stack.pop(0)
         if current_node != "Thing" and not tree.get(current_node):
-            """
-            Makes a Tree in the ontology with node types in probabilities
-            start algorithm
-            """ 
+            #load probabilities
             possible_parent_next_nodes       = onto.get_parents(current_node)
             possible_child_next_nodes        = onto.get_childs(current_node)
             possible_equivalent_next_nodes   = onto.get_equivalents(current_node)
             possible_object_prop_next_nodes  = onto.get_object_properties(current_node)
-
+            #adjust each probability to maximal count of specific node type
             true_parent_prob      = parent_prob if len(possible_parent_next_nodes) > 0 else 0
             true_child_prob       = child_prob if len(possible_child_next_nodes) > 0 else 0
             true_equivalent_prob  = equivalent_prob if len(possible_equivalent_next_nodes) > 0 else 0
             true_object_prop_prob = object_prob if len(possible_object_prop_next_nodes) > 0 else 0
-            
-            if (true_parent_prob + true_child_prob + true_equivalent_prob + true_object_prop_prob) == 0:
-                return None
+            #choose random nodes according to probabilities
             counterParent = 0
             counterChild = 0
             counterEquivalent = 0
@@ -102,11 +107,22 @@ def doRandomTree(onto: Ontology, first_node, randomTreeConfig):
                 Stack += [(ID[1], depth_Node+1) for ID in IDs if not tree.get(ID)]
     return tree
 
-def doRandomWalk(onto, first_node=None, path_length=None, exclude_nodes=None, parent_prob = 40, child_prob=40, equivalent_prob=20, object_prob=20):
-    """
-    Makes a walk in the ontology with paths types in probabilities
-    """
+"""
+generates a random walk in the ontology onto with root first_node according to the configurations provided by the other parameters
 
+Args:
+    onto (Ontology): the ontology on which the tree is generated
+    first_node (str): name of the root node
+    path_length (int): maximal length of a path
+    exclude_nodes (set): containing nodes which should not be included in walk
+    x_prob (int): probability for different node types
+
+Returns:
+    str: string containing relation and nodes
+    list: containing relation and node ids as elements
+"""
+def doRandomWalk(onto, first_node=None, path_length=None, exclude_nodes=None, parent_prob = 40, child_prob=40, equivalent_prob=20, object_prob=20):
+    #Makes a walk in the ontology with paths types in probabilities
     if not path_length:
         path_length = random.randint(2,6)
 
@@ -193,15 +209,21 @@ class RandomWalkConfig():
         self.use_synonyms = use_synonyms
 
 
-
 class RandomWalk():
+    """
+    init for class of RandomWalk providing variables like the ontology, the root node and a walk configuration
+
+    Args:
+        onto (Ontology): the ontology on which the tree is generated
+        first_node (str): name of the root node
+        walk_config (RandomWalkConfig): the configurations for this random walk
+
+    Returns:
+        None
+        but saves random walk as class variable
+    """
     def __init__(self, onto, first_node=None, walk_config: RandomWalkConfig=None):
-        """
-        walk_config.walk_type = 'randomWalk': Makes a walk in the ontology with paths types in probabilities
-        """
-
         triples = {}
-
         if walk_config is None:
             walk_config = RandomWalkConfig()
 
@@ -222,16 +244,15 @@ class RandomWalk():
         visited_nodes = set({})
         one_khop_neighbours = set()
 
+        #generate n_branches many walks
         for i in range(walk_config.n_branches):
-            
-            # Check if adding a branch is possible
-            
+            # Check if adding a branch is possible and for which node type
             unvisited_parent        = len(list(set(onto.get_parents(first_node)) - visited_nodes))
             unvisited_child         = len(list(set(onto.get_childs(first_node)) - visited_nodes))
             unvisited_equivalent    = len(list(set(onto.get_equivalents(first_node)) - visited_nodes))
             unvisited_object        = len(list(filter(lambda x: x[0] not in visited_nodes, onto.get_object_properties(first_node))))
-
-
+            
+            #define probabilities according to different walk strategies
             if (walk_config.strategy == WalkStrategy.ANY) and ((unvisited_parent + unvisited_child + unvisited_equivalent + unvisited_object) > 0):
                 parent_prob = 40
                 child_prob = 40
@@ -266,7 +287,6 @@ class RandomWalk():
             
 
             # Add a branch
-            
             self.branches_index.append(1 + len(walk_ids))
 
             if (walk_config.walk_type == 'randomWalk'):
@@ -278,9 +298,7 @@ class RandomWalk():
                 visited_nodes.update(set(sub_walk_ids))
                 walk_ids.extend(sub_walk_ids)
             elif (walk_config.walk_type == 'randomTree'):
-                print('################### use Ontology.doRandomWalk() ###################')
-                    
-                    
+                print('################### use Ontology.doRandomWalk() ###################')      
             else:
                 raise Exception(f"walk_type '{walk_config.walk_type}' does not exist")
 
@@ -310,6 +328,8 @@ class RandomWalk():
         textChildOf = 'is child of'
         textParentOf = 'is parent of'
         textEquivalentTo = 'is equivalent to'
+        #reformat old repository walk format to new format dict with the node name as key and the walk as value, 
+        #the walk is in the form of a list of tuples: [(node1, relation, node2), ...]
         import re
         L = re.split('\s(?=>)|\s(?=<)|\s(?=\=)|(?<=<)\s|(?<=>)\s|(?<=\=)\s|\[SEP\] ', self.sentence)[1:]
         rel = None

@@ -1,134 +1,38 @@
 [
 	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"edas#CallForManuscripts",
-		"iasted#Deadline_for_notification_of_acceptance"
-	],
-	[
-		"edas#ComputerNetworksSensorTopic",
-		"iasted#Computer"
-	],
-	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
-	],
-	[
-		"edas#AcceptedPaper",
-		"iasted#Session"
-	],
-	[
-		"edas#AcademicEvent",
-		"iasted#Author_cd_proceedings_included"
-	],
-	[
-		"edas#BreakEvent",
-		"iasted#Social_program"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#LCD_projector"
-	],
-	[
-		"edas#CryptographyTopic",
-		"iasted#Research"
-	],
-	[
-		"edas#GovernmentOrganization",
-		"iasted#Sponsor"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#MealEvent",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"edas#ConferenceSession",
-		"iasted#Activity"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Conference_activity"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
-		"edas#Presenter",
-		"iasted#State"
-	],
-	[
-		"edas#RejectedPaper",
-		"iasted#Refusing_manuscript"
-	],
-	[
-		"edas#Sponsorship",
-		"iasted#Money"
-	],
-	[
-		"edas#Attendee",
-		"iasted#Author_attendee_cd_registration_fee"
-	],
-	[
-		"edas#Paper",
-		"iasted#Item"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Hotel_presenter"
-	],
-	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#PublishedPaper",
-		"iasted#Cd_proceening"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
-		"edas#WelcomeTalk",
-		"iasted#Introduction"
+		"edas#Author",
+		"iasted#Author"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Nonmember_registration_fee"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
 		"iasted#Place"
 	],
 	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_days"
-	],
-	[
-		"edas#Conference",
-		"iasted#Student_registration_fee"
-	],
-	[
 		"edas#Person",
 		"iasted#Person"
 	],
 	[
-		"edas#ConferenceDinner",
-		"iasted#One_conference_day"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#Speaker"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_hall"
 	]
 ]

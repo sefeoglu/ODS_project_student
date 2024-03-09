@@ -4,43 +4,23 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Paper",
-		"iasted#Submission"
-	],
-	[
-		"cmt#ConferenceMember",
-		"iasted#Fee_for_extra_trip"
-	],
-	[
-		"cmt#Rejection",
-		"iasted#Lecturer"
-	],
-	[
-		"cmt#Bid",
-		"iasted#Fee"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Accepting_manuscript"
-	],
-	[
 		"cmt#Document",
 		"iasted#Document"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#Chairman",
-		"iasted#Transparency"
+		"cmt#Paper",
+		"iasted#Submission"
 	]
 ]

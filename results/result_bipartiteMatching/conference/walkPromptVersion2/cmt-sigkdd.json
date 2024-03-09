@@ -1,7 +1,7 @@
 [
 	[
-		"cmt#Review",
-		"sigkdd#Review"
+		"cmt#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"cmt#ProgramCommittee",
@@ -12,23 +12,23 @@
 		"sigkdd#Person"
 	],
 	[
-		"cmt#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"cmt#ProgramCommitteeMember",
 		"sigkdd#Program_Committee_member"
-	],
-	[
-		"cmt#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"cmt#Document",
 		"sigkdd#Document"
 	],
 	[
+		"cmt#Review",
+		"sigkdd#Review"
+	],
+	[
 		"cmt#Author",
 		"sigkdd#Author"
+	],
+	[
+		"cmt#Paper",
+		"sigkdd#Paper"
 	]
 ]

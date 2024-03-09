@@ -1,5 +1,16 @@
-#similar to Hopcroft–Karp Algorithm
+"""
+generates a bipartite matching using a approach similar to the Hopcroft–Karp Algorithm
+
+Args:
+    verticesL (list): list of vertex names on the left side
+    verticesR (list): list of vertex names on the right side
+    edges (dict): dict with vertex names as keys and a list of vertices to which they are matched as values ((n:m)-mapping)
+
+Returns:
+    list: of tuples which are finally matched in a (1:1)-mapping
+"""
 def findMaximumBipartiteMatching(verticesL, verticesR, edges):
+    #initialize nodes and edges
     startNode = 'startNode'
     endNode = 'endNode'
     edges[startNode] = []
@@ -11,9 +22,10 @@ def findMaximumBipartiteMatching(verticesL, verticesR, edges):
         edges[startNode].append(leftNode)
     for rightNode in verticesR:
         edges[rightNode].append(endNode)
+    #begin algorithm
     augmentingPath = checkForAugmentingPath(startNode, endNode, edges)
     while augmentingPath:
-        #send flow
+        #send flow along augmenting path and update edges
         fromNode = endNode
         while fromNode != startNode:
             toNode = augmentingPath.get(fromNode)
@@ -22,7 +34,7 @@ def findMaximumBipartiteMatching(verticesL, verticesR, edges):
             fromNode = toNode
         edges[startNode].append(fromNode)
         edges[fromNode].remove(startNode)
-        #update path
+        #compute new augmenting path if one exists
         augmentingPath = checkForAugmentingPath(startNode, endNode, edges)
     #prepare bipartite matching
     matching = []
@@ -31,8 +43,9 @@ def findMaximumBipartiteMatching(verticesL, verticesR, edges):
         matching.append((leftNode, rightNode))
     return matching
 
+#iterative BFS with queue stops if reached the node endNode
+#returns a dict with nodes as keys and nodes form which they are reached as values
 def checkForAugmentingPath(startNode, endNode, edges):
-    #bfs
     Queue = [startNode]
     visitedFrom = {}
     while len(Queue) > 0:
@@ -44,8 +57,3 @@ def checkForAugmentingPath(startNode, endNode, edges):
                 if node == endNode:
                     return visitedFrom
     return None
-
-# verticesL = [1, 2, 3, 4, 5, 6]
-# verticesR = ['A', 'B', 'C', 'D', 'E', 'F']
-# edges = {1: ['A', 'B'], 2: ['B', 'C'], 3: ['C', 'D'], 4: ['E'], 5: ['F'], 6: ['F']}
-# print(findMaximumBipartiteMatching(verticesL, verticesR, edges))

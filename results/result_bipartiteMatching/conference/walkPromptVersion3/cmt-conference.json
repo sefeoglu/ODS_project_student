@@ -1,106 +1,62 @@
 [
 	[
-		"cmt#Person",
-		"conference#Person"
-	],
-	[
-		"cmt#Paper",
-		"conference#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"conference#Review_expertise"
-	],
-	[
-		"cmt#ConferenceMember",
-		"conference#Conference_participant"
-	],
-	[
-		"cmt#Rejection",
-		"conference#Passive_conference_participant"
-	],
-	[
-		"cmt#Acceptance",
-		"conference#Active_conference_participant"
-	],
-	[
-		"cmt#PaperAbstract",
-		"conference#Submitted_contribution"
-	],
-	[
-		"cmt#AssociatedChair",
-		"conference#Regular_author"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"conference#Regular_contribution"
-	],
-	[
-		"cmt#ConferenceChair",
-		"conference#Conference_contributor"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"conference#Co-chair"
-	],
-	[
-		"cmt#Administrator",
-		"conference#Abstract"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"conference#Conference_contribution"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"conference#Committee_member"
-	],
-	[
-		"cmt#User",
-		"conference#Extended_abstract"
-	],
-	[
 		"cmt#Conference",
 		"conference#Conference"
-	],
-	[
-		"cmt#Document",
-		"conference#Contribution_co-author"
-	],
-	[
-		"cmt#Author",
-		"conference#Written_contribution"
-	],
-	[
-		"cmt#Reviewer",
-		"conference#Reviewer"
-	],
-	[
-		"cmt#Decision",
-		"conference#Committee"
-	],
-	[
-		"cmt#Review",
-		"conference#Review"
 	],
 	[
 		"cmt#ProgramCommittee",
 		"conference#Program_committee"
 	],
 	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"conference#Conference_participant"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"conference#Committee_member"
+	],
+	[
+		"cmt#Administrator",
+		"conference#Regular_author"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"conference#Co-chair"
+	],
+	[
+		"cmt#AssociatedChair",
+		"conference#Track-workshop_chair"
+	],
+	[
+		"cmt#PaperAbstract",
+		"conference#Extended_abstract"
+	],
+	[
+		"cmt#ConferenceChair",
+		"conference#Conference_contributor"
+	],
+	[
 		"cmt#Chairman",
-		"conference#Information_for_participants"
+		"conference#Chair"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"conference#Contribution_1th-author"
-	],
-	[
-		"cmt#Co-author",
-		"conference#Invited_speaker"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"conference#Conference_document"
+		"cmt#User",
+		"conference#Contribution_co-author"
 	]
 ]

@@ -1,15 +1,31 @@
 [
 	[
-		"iasted#Technic_activity",
-		"sigkdd#Conference"
+		"iasted#Document",
+		"sigkdd#Document"
 	],
 	[
-		"iasted#Review",
-		"sigkdd#Review"
+		"iasted#Listener",
+		"sigkdd#Listener"
+	],
+	[
+		"iasted#Author",
+		"sigkdd#Author"
 	],
 	[
 		"iasted#Main_office",
 		"sigkdd#Main_office"
+	],
+	[
+		"iasted#Conference_hall",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"iasted#Person",
+		"sigkdd#Person"
+	],
+	[
+		"iasted#Fee",
+		"sigkdd#Fee"
 	],
 	[
 		"iasted#Deadline",
@@ -20,47 +36,19 @@
 		"sigkdd#Speaker"
 	],
 	[
+		"iasted#Review",
+		"sigkdd#Review"
+	],
+	[
 		"iasted#Registration_fee",
 		"sigkdd#Registration_fee"
-	],
-	[
-		"iasted#Conference_hall",
-		"sigkdd#Conference_hall"
-	],
-	[
-		"iasted#Listener",
-		"sigkdd#Listener"
-	],
-	[
-		"iasted#Submission",
-		"sigkdd#Abstract"
-	],
-	[
-		"iasted#Money",
-		"sigkdd#Registration_SIGMOD_Member"
-	],
-	[
-		"iasted#Conference_days",
-		"sigkdd#ACM_SIGKDD"
-	],
-	[
-		"iasted#Fee",
-		"sigkdd#Fee"
-	],
-	[
-		"iasted#Person",
-		"sigkdd#Person"
-	],
-	[
-		"iasted#Document",
-		"sigkdd#Document"
 	],
 	[
 		"iasted#Place",
 		"sigkdd#Place"
 	],
 	[
-		"iasted#Author",
-		"sigkdd#Author"
+		"iasted#Author_book_proceedings_included",
+		"sigkdd#Author_of_paper"
 	]
 ]

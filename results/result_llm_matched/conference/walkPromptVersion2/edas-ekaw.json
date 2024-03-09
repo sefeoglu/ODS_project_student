@@ -1,9 +1,0 @@
-{
-	"edas#Paper;ekaw#Workshop_Paper": "yes",
-	"edas#Document;ekaw#Workshop_Paper": "yes",
-	"edas#ConferenceEvent;ekaw#Conference": "yes",
-	"edas#Presenter;ekaw#Paper_Author": "yes",
-	"edas#SocialEvent;ekaw#Social_Event": "yes",
-	"edas#SocialEvent;ekaw#Conference_Banquet": "yes",
-	"edas#Reception;ekaw#Conference_Banquet": "yes"
-}

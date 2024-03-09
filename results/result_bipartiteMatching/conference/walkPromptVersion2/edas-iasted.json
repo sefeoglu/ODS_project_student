@@ -1,43 +1,31 @@
 [
 	[
-		"edas#Document",
-		"iasted#Document"
+		"edas#SessionChair",
+		"iasted#Session_chair"
 	],
 	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Technic_activity"
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#WelcomeTalk",
-		"iasted#Welcome_address"
-	],
-	[
 		"edas#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"edas#SessionChair",
-		"iasted#Session_chair"
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
 		"iasted#Place"
-	],
-	[
-		"edas#MealEvent",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"edas#Review",
-		"iasted#Review"
 	],
 	[
 		"edas#Person",

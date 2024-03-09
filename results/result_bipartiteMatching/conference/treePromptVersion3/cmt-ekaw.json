@@ -1,7 +1,19 @@
 [
 	[
+		"cmt#Conference",
+		"ekaw#Conference"
+	],
+	[
 		"cmt#Person",
 		"ekaw#Person"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
 	],
 	[
 		"cmt#Paper",
@@ -9,102 +21,50 @@
 	],
 	[
 		"cmt#Meta-Review",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"cmt#ConferenceMember",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"cmt#Rejection",
-		"ekaw#Event"
-	],
-	[
-		"cmt#Acceptance",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"cmt#PaperAbstract",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"cmt#AssociatedChair",
 		"ekaw#Positive_Review"
 	],
 	[
-		"cmt#Bid",
-		"ekaw#Workshop_Paper"
+		"cmt#PaperFullVersion",
+		"ekaw#Regular_Paper"
 	],
 	[
-		"cmt#AuthorNotReviewer",
-		"ekaw#Industrial_Session"
-	],
-	[
-		"cmt#ConferenceChair",
-		"ekaw#Conference_Session"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"ekaw#Conference_Trip"
-	],
-	[
-		"cmt#Administrator",
+		"cmt#ConferenceMember",
 		"ekaw#Conference_Participant"
 	],
 	[
-		"cmt#ExternalReviewer",
-		"ekaw#Evaluated_Paper"
+		"cmt#PaperAbstract",
+		"ekaw#Poster_Paper"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"ekaw#Organisation"
+		"cmt#ExternalReviewer",
+		"ekaw#Possible_Reviewer"
 	],
 	[
 		"cmt#User",
-		"ekaw#Research_Topic"
-	],
-	[
-		"cmt#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"cmt#Document",
-		"ekaw#Document"
-	],
-	[
-		"cmt#Author",
-		"ekaw#Regular_Session"
-	],
-	[
-		"cmt#Reviewer",
-		"ekaw#Industrial_Paper"
-	],
-	[
-		"cmt#Decision",
-		"ekaw#Demo_Session"
-	],
-	[
-		"cmt#Review",
-		"ekaw#Review"
-	],
-	[
-		"cmt#ProgramCommittee",
-		"ekaw#Session"
+		"ekaw#Student"
 	],
 	[
 		"cmt#Chairman",
-		"ekaw#Abstract"
+		"ekaw#Agency_Staff_Member"
 	],
 	[
-		"cmt#Meta-Reviewer",
-		"ekaw#Submitted_Paper"
+		"cmt#ProgramCommitteeChair",
+		"ekaw#PC_Chair"
+	],
+	[
+		"cmt#AssociatedChair",
+		"ekaw#Session_Chair"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"ekaw#PC_Member"
 	],
 	[
 		"cmt#Co-author",
 		"ekaw#Paper_Author"
 	],
 	[
-		"cmt#PaperFullVersion",
-		"ekaw#Regular_Paper"
+		"cmt#ConferenceChair",
+		"ekaw#Demo_Chair"
 	]
 ]

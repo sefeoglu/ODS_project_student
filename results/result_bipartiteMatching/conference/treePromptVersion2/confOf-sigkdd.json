@@ -1,11 +1,11 @@
 [
 	[
-		"confOf#Member_PC",
-		"sigkdd#Abstract"
+		"confOf#Author",
+		"sigkdd#Author"
 	],
 	[
-		"confOf#Tutorial",
-		"sigkdd#Registration_Non-Member"
+		"confOf#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"confOf#Paper",
@@ -14,13 +14,5 @@
 	[
 		"confOf#Person",
 		"sigkdd#Person"
-	],
-	[
-		"confOf#Author",
-		"sigkdd#Author"
-	],
-	[
-		"confOf#Conference",
-		"sigkdd#Conference"
 	]
 ]

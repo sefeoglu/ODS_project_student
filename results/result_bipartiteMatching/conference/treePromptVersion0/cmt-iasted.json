@@ -1,38 +1,26 @@
 [
 	[
-		"cmt#ConferenceMember",
-		"iasted#Delegate"
-	],
-	[
-		"cmt#Review",
-		"iasted#Review"
-	],
-	[
 		"cmt#Person",
 		"iasted#Person"
-	],
-	[
-		"cmt#AssociatedChair",
-		"iasted#Session"
-	],
-	[
-		"cmt#Chairman",
-		"iasted#Technical_commitee"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Activity"
 	],
 	[
 		"cmt#Document",
 		"iasted#Document"
 	],
 	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
 		"cmt#Author",
 		"iasted#Author"
 	],
 	[
-		"cmt#Reviewer",
-		"iasted#Reviewer"
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Delegate"
 	]
 ]

@@ -1,51 +1,27 @@
 [
 	[
-		"edas#CallForManuscripts",
-		"iasted#Lecturer"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"iasted#Submission"
-	],
-	[
-		"edas#ComputerNetworksOpticalTopic",
-		"iasted#Fee"
-	],
-	[
-		"edas#MedicineTopic",
-		"iasted#Fee_for_extra_trip"
-	],
-	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
 	],
 	[
-		"edas#Presenter",
-		"iasted#Trip_day"
-	],
-	[
-		"edas#ClosingTalk",
-		"iasted#Worker_non_speaker"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_building"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
+		"edas#Review",
+		"iasted#Review"
 	],
 	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#Review",
-		"iasted#Review"
+		"edas#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
@@ -56,7 +32,7 @@
 		"iasted#Person"
 	],
 	[
-		"edas#Document",
-		"iasted#Document"
+		"edas#Paper",
+		"iasted#Submission"
 	]
 ]

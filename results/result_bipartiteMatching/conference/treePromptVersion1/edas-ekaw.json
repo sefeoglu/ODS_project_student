@@ -1,67 +1,51 @@
 [
 	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
-	],
-	[
-		"edas#Author",
-		"ekaw#Invited_Speaker"
-	],
-	[
-		"edas#SessionChair",
-		"ekaw#Session_Chair"
-	],
-	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"edas#Reviewer",
-		"ekaw#Possible_Reviewer"
-	],
-	[
-		"edas#MealBreak",
-		"ekaw#Event"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#PaperPresentation",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"edas#ConferenceSession",
-		"ekaw#Conference_Session"
 	],
 	[
 		"edas#Review",
 		"ekaw#Review"
 	],
 	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
 		"edas#Presenter",
 		"ekaw#Presenter"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"edas#RejectedPaper",
 		"ekaw#Rejected_Paper"
 	],
 	[
-		"edas#AntennasTopic",
-		"ekaw#Conference_Paper"
+		"edas#SessionChair",
+		"ekaw#Session_Chair"
 	],
 	[
-		"edas#TalkEvent",
-		"ekaw#Invited_Talk"
+		"edas#Document",
+		"ekaw#Document"
 	],
 	[
 		"edas#Paper",
 		"ekaw#Paper"
+	],
+	[
+		"edas#Person",
+		"ekaw#Person"
+	],
+	[
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
 	],
 	[
 		"edas#ConferenceEvent",
@@ -72,15 +56,7 @@
 		"ekaw#Workshop_Chair"
 	],
 	[
-		"edas#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"edas#Person",
-		"ekaw#Person"
-	],
-	[
-		"edas#ConferenceDinner",
-		"ekaw#Late-Registered_Participant"
+		"edas#MealEvent",
+		"ekaw#Event"
 	]
 ]

@@ -4,43 +4,27 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#ConferenceMember",
-		"iasted#Conference_Hiker"
-	],
-	[
-		"cmt#Rejection",
-		"iasted#Refusing_manuscript"
-	],
-	[
-		"cmt#ConferenceChair",
-		"iasted#Conference_activity"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"iasted#Activity"
-	],
-	[
-		"cmt#Conference",
-		"iasted#Dinner_banquet"
-	],
-	[
 		"cmt#Document",
 		"iasted#Document"
-	],
-	[
-		"cmt#Author",
-		"iasted#Author"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"iasted#Accepting_manuscript"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Conference_Hiker"
+	],
+	[
+		"cmt#Paper",
+		"iasted#Publication"
 	]
 ]

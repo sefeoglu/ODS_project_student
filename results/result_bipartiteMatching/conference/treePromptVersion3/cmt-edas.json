@@ -1,110 +1,54 @@
 [
 	[
-		"cmt#Person",
-		"edas#Person"
-	],
-	[
-		"cmt#Paper",
-		"edas#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"edas#SlideSet"
-	],
-	[
-		"cmt#ConferenceMember",
-		"edas#MealMenu"
-	],
-	[
-		"cmt#Rejection",
-		"edas#PersonalHistory"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#ReviewQuestion"
-	],
-	[
-		"cmt#PaperAbstract",
-		"edas#Organization"
-	],
-	[
-		"cmt#AssociatedChair",
-		"edas#Call"
-	],
-	[
-		"cmt#Bid",
-		"edas#Topic"
-	],
-	[
-		"cmt#AuthorNotReviewer",
-		"edas#Programme"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"edas#MealEvent"
-	],
-	[
-		"cmt#Administrator",
-		"edas#ConferenceEvent"
-	],
-	[
-		"cmt#ExternalReviewer",
-		"edas#ReviewRating"
-	],
-	[
-		"cmt#ProgramCommitteeMember",
-		"edas#SatelliteAndSpaceCommunicationsTopic"
-	],
-	[
-		"cmt#User",
-		"edas#Sponsorship"
-	],
-	[
 		"cmt#Conference",
 		"edas#Conference"
+	],
+	[
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Document",
 		"edas#Document"
 	],
 	[
-		"cmt#Author",
-		"edas#Author"
-	],
-	[
 		"cmt#Reviewer",
 		"edas#Reviewer"
 	],
 	[
-		"cmt#Decision",
-		"edas#CADTopic"
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
 	],
 	[
 		"cmt#Review",
 		"edas#Review"
 	],
 	[
-		"cmt#ProgramCommittee",
-		"edas#ConferenceSession"
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Paper",
+		"edas#Paper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"edas#Attendee"
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#PublishedPaper"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"edas#TPCMember"
+	],
+	[
+		"cmt#ProgramCommitteeChair",
+		"edas#SessionChair"
 	],
 	[
 		"cmt#Chairman",
-		"edas#AcceptRating"
-	],
-	[
-		"cmt#Meta-Reviewer",
-		"edas#BreakEvent"
-	],
-	[
-		"cmt#Co-author",
-		"edas#ParallelAndDistributedComputingTopic"
-	],
-	[
-		"cmt#PaperFullVersion",
-		"edas#WeekRejectRating"
+		"edas#Presenter"
 	]
 ]

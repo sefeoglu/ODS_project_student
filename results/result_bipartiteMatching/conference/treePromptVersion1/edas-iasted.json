@@ -1,78 +1,42 @@
 [
 	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
-	],
-	[
-		"edas#AcademicEvent",
-		"iasted#Author_attendee_cd_registration_fee"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Presenter_city"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#WelcomeTalk",
-		"iasted#Conference_activity"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
-		"edas#Presenter",
-		"iasted#Activity_before_conference"
-	],
-	[
-		"edas#RejectedPaper",
-		"iasted#Refusing_manuscript"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Record_of_attendance"
-	],
-	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#ComputerNetworksSwitchingTopic",
-		"iasted#Computer"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_hall"
+		"edas#Author",
+		"iasted#Author"
+	],
+	[
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
 		"iasted#Place"
 	],
 	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_days"
-	],
-	[
-		"edas#Conference",
-		"iasted#Deadline_hotel_reservation"
-	],
-	[
 		"edas#Person",
 		"iasted#Person"
 	],
 	[
-		"edas#ConferenceSession",
-		"iasted#Session"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_hall"
+	],
+	[
+		"edas#Presenter",
+		"iasted#Lecturer"
 	]
 ]

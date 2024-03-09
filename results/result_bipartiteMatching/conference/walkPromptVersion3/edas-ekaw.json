@@ -1,63 +1,15 @@
 [
 	[
-		"edas#CallForManuscripts",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
 	],
 	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"ekaw#Demo_Session"
+		"edas#Review",
+		"ekaw#Review"
 	],
 	[
-		"edas#Author",
-		"ekaw#Paper_Author"
-	],
-	[
-		"edas#MealMenu",
-		"ekaw#Abstract"
-	],
-	[
-		"edas#MedicineTopic",
-		"ekaw#Evaluated_Paper"
-	],
-	[
-		"edas#ComputerNetworksOpticalTopic",
-		"ekaw#Event"
-	],
-	[
-		"edas#SessionChair",
-		"ekaw#Session_Chair"
-	],
-	[
-		"edas#AccommodationPlace",
-		"ekaw#Positive_Review"
-	],
-	[
-		"edas#ComputerNetworksMeasurementsTopic",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"edas#OrganizationalMeeting",
-		"ekaw#Workshop_Paper"
-	],
-	[
-		"edas#TwoLevelConference",
-		"ekaw#Industrial_Paper"
-	],
-	[
-		"edas#PersonalHistory",
-		"ekaw#Track"
-	],
-	[
-		"edas#OperatingTopicsystems",
-		"ekaw#Poster_Session"
-	],
-	[
-		"edas#MultimediaTopic",
-		"ekaw#Session"
+		"edas#Conference",
+		"ekaw#Conference"
 	],
 	[
 		"edas#ConferenceSession",
@@ -68,219 +20,95 @@
 		"ekaw#Presenter"
 	],
 	[
-		"edas#RejectedPaper",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"edas#ClosingTalk",
-		"ekaw#Submitted_Paper"
-	],
-	[
-		"edas#MealBreak",
-		"ekaw#Regular_Session"
-	],
-	[
-		"edas#PersonalReviewHistory",
-		"ekaw#Neutral_Review"
-	],
-	[
-		"edas#ActivePaper",
-		"ekaw#Tutorial_Abstract"
-	],
-	[
-		"edas#PendingPaper",
-		"ekaw#Industrial_Session"
-	],
-	[
-		"edas#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"edas#MealEvent",
-		"ekaw#Organising_Agency"
-	],
-	[
-		"edas#ReviewQuestion",
-		"ekaw#Conference_Trip"
-	],
-	[
-		"edas#RatedPapers",
-		"ekaw#Poster_Paper"
-	],
-	[
-		"edas#TravelGrant",
-		"ekaw#Assigned_Paper"
-	],
-	[
-		"edas#ComputerNetworksSensorTopic",
-		"ekaw#Proceedings_Publisher"
-	],
-	[
-		"edas#ComputerNetworksTopic",
-		"ekaw#Invited_Talk_Abstract"
-	],
-	[
-		"edas#SecurityTopic",
-		"ekaw#Negative_Review"
-	],
-	[
-		"edas#WeekRejectRating",
-		"ekaw#Workshop_Session"
-	],
-	[
-		"edas#WirelessCommunicationsTopic",
-		"ekaw#Organisation"
-	],
-	[
-		"edas#AccpetIfRoomRating",
-		"ekaw#Regular_Paper"
-	],
-	[
-		"edas#Reviewer",
-		"ekaw#Conference_Participant"
-	],
-	[
-		"edas#PersonalPublicationHistory",
-		"ekaw#Demo_Paper"
-	],
-	[
-		"edas#ComputerArchitectureTopic",
-		"ekaw#PC_Chair"
-	],
-	[
-		"edas#DiningPlace",
-		"ekaw#Contributed_Talk"
-	],
-	[
-		"edas#PaperPresentation",
-		"ekaw#Academic_Institution"
-	],
-	[
-		"edas#AntennasTopic",
-		"ekaw#Tutorial"
-	],
-	[
-		"edas#ReviewRating",
-		"ekaw#Research_Institute"
-	],
-	[
-		"edas#PerformanceTopic",
-		"ekaw#Agency_Staff_Member"
-	],
-	[
-		"edas#Attendee",
-		"ekaw#Proceedings"
-	],
-	[
-		"edas#NumericalReviewQuestion",
-		"ekaw#Multi-author_Volume"
-	],
-	[
-		"edas#Paper",
-		"ekaw#Paper"
-	],
-	[
-		"edas#ConferenceEvent",
-		"ekaw#Scientific_Event"
-	],
-	[
-		"edas#PublishedPaper",
-		"ekaw#Web_Site"
-	],
-	[
-		"edas#CoffeeBreak",
-		"ekaw#Demo_Chair"
-	],
-	[
-		"edas#ConferenceVenuePlace",
-		"ekaw#Student"
-	],
-	[
-		"edas#SingleLevelConference",
-		"ekaw#Invited_Talk"
-	],
-	[
-		"edas#PowerlineTransmissionTopic",
-		"ekaw#Tutorial_Chair"
-	],
-	[
-		"edas#Organization",
-		"ekaw#OC_Member"
-	],
-	[
-		"edas#AcceptRating",
-		"ekaw#Flyer"
-	],
-	[
-		"edas#SlideSet",
-		"ekaw#Individual_Presentation"
-	],
-	[
-		"edas#BreakEvent",
-		"ekaw#Programme_Brochure"
-	],
-	[
-		"edas#CallForReviews",
-		"ekaw#Conference_Proceedings"
-	],
-	[
-		"edas#CommunicationsTopic",
-		"ekaw#PC_Member"
-	],
-	[
-		"edas#ParallelAndDistributedComputingTopic",
-		"ekaw#Invited_Speaker"
-	],
-	[
-		"edas#CommunicationTheoryTopic",
-		"ekaw#SC_Member"
-	],
-	[
 		"edas#Workshop",
 		"ekaw#Workshop"
 	],
 	[
-		"edas#Review",
-		"ekaw#Review"
+		"edas#RejectedPaper",
+		"ekaw#Rejected_Paper"
 	],
 	[
-		"edas#MeetingRoomPlace",
-		"ekaw#Early-Registered_Participant"
-	],
-	[
-		"edas#CADTopic",
-		"ekaw#OC_Chair"
-	],
-	[
-		"edas#RejectRating",
-		"ekaw#University"
-	],
-	[
-		"edas#ConferenceChair",
-		"ekaw#Conference_Banquet"
-	],
-	[
-		"edas#Place",
-		"ekaw#Possible_Reviewer"
-	],
-	[
-		"edas#Person",
-		"ekaw#Person"
+		"edas#SessionChair",
+		"ekaw#Session_Chair"
 	],
 	[
 		"edas#Document",
 		"ekaw#Document"
 	],
 	[
+		"edas#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"edas#Person",
+		"ekaw#Person"
+	],
+	[
 		"edas#AcceptedPaper",
 		"ekaw#Accepted_Paper"
 	],
 	[
-		"edas#FreeTimeBreak",
-		"ekaw#Workshop_Chair"
+		"edas#ActivePaper",
+		"ekaw#Submitted_Paper"
 	],
 	[
-		"edas#Reception",
-		"ekaw#Late-Registered_Participant"
+		"edas#WithdrawnPaper",
+		"ekaw#Conference_Paper"
+	],
+	[
+		"edas#TPCMember",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"edas#PendingPaper",
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"edas#Excursion",
+		"ekaw#Conference_Trip"
+	],
+	[
+		"edas#AcademicEvent",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"edas#ConferenceChair",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"edas#NonAcademicEvent",
+		"ekaw#Event"
+	],
+	[
+		"edas#PublishedPaper",
+		"ekaw#Demo_Paper"
+	],
+	[
+		"edas#Author",
+		"ekaw#Paper_Author"
+	],
+	[
+		"edas#Attendee",
+		"ekaw#Student"
+	],
+	[
+		"edas#WelcomeTalk",
+		"ekaw#Contributed_Talk"
+	],
+	[
+		"edas#ConferenceDinner",
+		"ekaw#Conference_Banquet"
+	],
+	[
+		"edas#RatedPapers",
+		"ekaw#Regular_Paper"
+	],
+	[
+		"edas#ClosingTalk",
+		"ekaw#Invited_Talk"
+	],
+	[
+		"edas#PaperPresentation",
+		"ekaw#Individual_Presentation"
 	]
 ]

@@ -1,26 +1,22 @@
 [
 	[
-		"cmt#ProgramCommitteeChair",
-		"confOf#Chair_PC"
-	],
-	[
 		"cmt#Administrator",
 		"confOf#Administrator"
-	],
-	[
-		"cmt#Person",
-		"confOf#Person"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
 	],
 	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
 		"cmt#Author",
 		"confOf#Author"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
 	]
 ]

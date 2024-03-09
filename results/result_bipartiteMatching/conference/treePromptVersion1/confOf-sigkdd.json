@@ -1,26 +1,18 @@
 [
 	[
-		"confOf#Scholar",
-		"sigkdd#Author_of_paper"
+		"confOf#Author",
+		"sigkdd#Author"
 	],
 	[
 		"confOf#Conference",
 		"sigkdd#Conference"
 	],
 	[
-		"confOf#Registration_of_participants_event",
-		"sigkdd#Registration_Non-Member"
-	],
-	[
-		"confOf#Person",
-		"sigkdd#Person"
-	],
-	[
 		"confOf#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"confOf#Author",
-		"sigkdd#Author"
+		"confOf#Person",
+		"sigkdd#Person"
 	]
 ]

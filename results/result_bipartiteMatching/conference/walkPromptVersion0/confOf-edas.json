@@ -1,98 +1,70 @@
 [
 	[
-		"confOf#Registration_of_participants_event",
-		"edas#ComputerNetworksTopic"
-	],
-	[
-		"confOf#Participant",
-		"edas#Attendee"
-	],
-	[
-		"confOf#Camera_Ready_event",
-		"edas#MultimediaTopic"
-	],
-	[
-		"confOf#Reviewing_results_event",
-		"edas#ReviewRating"
-	],
-	[
-		"confOf#Event",
-		"edas#ConferenceEvent"
-	],
-	[
-		"confOf#Tutorial",
-		"edas#ComputerNetworksAapplicationsTopic"
-	],
-	[
-		"confOf#Topic",
-		"edas#Topic"
-	],
-	[
-		"confOf#Poster",
-		"edas#Document"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
-	],
-	[
-		"confOf#Member",
-		"edas#TPCMember"
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Paper",
 		"edas#Paper"
 	],
 	[
+		"confOf#Organization",
+		"edas#Organization"
+	],
+	[
+		"confOf#Topic",
+		"edas#Topic"
+	],
+	[
 		"confOf#Social_event",
 		"edas#SocialEvent"
-	],
-	[
-		"confOf#Banquet",
-		"edas#MealEvent"
-	],
-	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Workshop",
-		"edas#Workshop"
-	],
-	[
-		"confOf#Submission_event",
-		"edas#AcademicEvent"
-	],
-	[
-		"confOf#Contribution",
-		"edas#ComputerArchitectureTopic"
-	],
-	[
-		"confOf#Short_paper",
-		"edas#PublishedPaper"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
 	],
 	[
 		"confOf#Country",
 		"edas#Country"
 	],
 	[
-		"confOf#Reception",
-		"edas#Reception"
-	],
-	[
 		"confOf#Conference",
 		"edas#Conference"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#Review"
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Reception",
+		"edas#Reception"
+	],
+	[
+		"confOf#Person",
+		"edas#Person"
+	],
+	[
+		"confOf#Participant",
+		"edas#Attendee"
 	],
 	[
 		"confOf#Working_event",
-		"edas#ConferenceVenuePlace"
+		"edas#AcademicEvent"
+	],
+	[
+		"confOf#Banquet",
+		"edas#MealEvent"
+	],
+	[
+		"confOf#Short_paper",
+		"edas#PublishedPaper"
+	],
+	[
+		"confOf#Event",
+		"edas#BreakEvent"
+	],
+	[
+		"confOf#Member",
+		"edas#TPCMember"
+	],
+	[
+		"confOf#Camera_Ready_event",
+		"edas#ConferenceEvent"
 	]
 ]

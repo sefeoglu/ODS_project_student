@@ -1,50 +1,22 @@
 [
 	[
-		"conference#Conference",
-		"iasted#Fee_for_extra_trip"
-	],
-	[
-		"conference#Workshop",
-		"iasted#Submission"
-	],
-	[
-		"conference#Paid_applicant",
-		"iasted#Fee"
-	],
-	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"conference#Presentation",
-		"iasted#Presentation"
-	],
-	[
-		"conference#Contribution_1th-author",
-		"iasted#Lecturer"
-	],
-	[
-		"conference#Late_paid_applicant",
-		"iasted#Worker_non_speaker"
-	],
-	[
-		"conference#Abstract",
-		"iasted#Trip_day"
-	],
-	[
-		"conference#Review_expertise",
-		"iasted#Full_day_tour"
-	],
-	[
-		"conference#Review",
-		"iasted#Review"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Person",
 		"iasted#Person"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
 	]
 ]

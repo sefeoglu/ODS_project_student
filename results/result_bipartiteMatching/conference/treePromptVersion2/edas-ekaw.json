@@ -1,54 +1,50 @@
 [
 	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
-	],
-	[
-		"edas#Author",
-		"ekaw#Track"
-	],
-	[
-		"edas#SessionChair",
-		"ekaw#Session_Chair"
-	],
-	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#ConferenceSession",
-		"ekaw#Conference_Session"
 	],
 	[
 		"edas#Review",
 		"ekaw#Review"
 	],
 	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
 		"edas#Presenter",
 		"ekaw#Presenter"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"edas#RejectedPaper",
 		"ekaw#Rejected_Paper"
 	],
 	[
+		"edas#SessionChair",
+		"ekaw#Session_Chair"
+	],
+	[
+		"edas#Document",
+		"ekaw#Document"
+	],
+	[
 		"edas#Paper",
 		"ekaw#Paper"
 	],
 	[
-		"edas#Conference",
-		"ekaw#Conference"
-	],
-	[
 		"edas#Person",
 		"ekaw#Person"
+	],
+	[
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
 	]
 ]

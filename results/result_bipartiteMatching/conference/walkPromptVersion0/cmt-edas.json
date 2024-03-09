@@ -1,58 +1,38 @@
 [
 	[
-		"cmt#Person",
-		"edas#Person"
-	],
-	[
-		"cmt#Paper",
-		"edas#Paper"
-	],
-	[
-		"cmt#Meta-Review",
-		"edas#ReviewRating"
-	],
-	[
-		"cmt#Rejection",
-		"edas#PendingPaper"
-	],
-	[
-		"cmt#Acceptance",
-		"edas#AccpetIfRoomRating"
-	],
-	[
-		"cmt#PaperAbstract",
-		"edas#PublishedPaper"
-	],
-	[
-		"cmt#ConferenceChair",
-		"edas#ConferenceChair"
-	],
-	[
-		"cmt#ProgramCommitteeChair",
-		"edas#ConferenceEvent"
-	],
-	[
-		"cmt#User",
-		"edas#ComputerNetworksEnterpriseTopic"
-	],
-	[
 		"cmt#Conference",
 		"edas#Conference"
+	],
+	[
+		"cmt#Person",
+		"edas#Person"
 	],
 	[
 		"cmt#Document",
 		"edas#Document"
 	],
 	[
-		"cmt#Author",
-		"edas#Author"
-	],
-	[
 		"cmt#Reviewer",
 		"edas#Reviewer"
 	],
 	[
+		"cmt#ConferenceChair",
+		"edas#ConferenceChair"
+	],
+	[
 		"cmt#Review",
 		"edas#Review"
+	],
+	[
+		"cmt#Author",
+		"edas#Author"
+	],
+	[
+		"cmt#Paper",
+		"edas#Paper"
+	],
+	[
+		"cmt#PaperAbstract",
+		"edas#PublishedPaper"
 	]
 ]

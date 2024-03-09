@@ -1,11 +1,15 @@
 [
 	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Person",
@@ -16,11 +20,7 @@
 		"iasted#Presentation"
 	],
 	[
-		"conference#Track",
-		"iasted#Coctail_reception"
-	],
-	[
-		"conference#Review",
-		"iasted#Review"
+		"conference#Conference_part",
+		"iasted#Conference_activity"
 	]
 ]

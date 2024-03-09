@@ -4,23 +4,19 @@
 		"confOf#Administrator"
 	],
 	[
-		"cmt#Person",
-		"confOf#Person"
-	],
-	[
-		"cmt#Paper",
-		"confOf#Paper"
-	],
-	[
-		"cmt#Chairman",
-		"confOf#Science_Worker"
-	],
-	[
 		"cmt#Conference",
 		"confOf#Conference"
 	],
 	[
+		"cmt#Person",
+		"confOf#Person"
+	],
+	[
 		"cmt#Author",
 		"confOf#Author"
+	],
+	[
+		"cmt#Paper",
+		"confOf#Paper"
 	]
 ]

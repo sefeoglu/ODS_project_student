@@ -1,90 +1,34 @@
 [
 	[
-		"conference#Conference",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"conference#Workshop",
-		"iasted#Activity"
-	],
-	[
-		"conference#Reviewer",
-		"iasted#Reviewer"
+		"conference#Review",
+		"iasted#Review"
 	],
 	[
 		"conference#Tutorial",
 		"iasted#Tutorial"
 	],
 	[
-		"conference#Review_preference",
-		"iasted#Form"
-	],
-	[
-		"conference#Presentation",
-		"iasted#Presentation"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"iasted#Conference_activity"
-	],
-	[
-		"conference#Invited_speaker",
-		"iasted#Author"
-	],
-	[
-		"conference#Paper",
-		"iasted#Item"
-	],
-	[
-		"conference#Organizer",
-		"iasted#Welcome_address"
-	],
-	[
-		"conference#Committee_member",
-		"iasted#Speaker"
-	],
-	[
-		"conference#Conference_part",
-		"iasted#Conference_state"
-	],
-	[
-		"conference#Rejected_contribution",
-		"iasted#Document"
-	],
-	[
-		"conference#Written_contribution",
-		"iasted#Author_cd_proceedings_included"
-	],
-	[
-		"conference#Accepted_contribution",
-		"iasted#Camera_ready_manuscript_deadline"
-	],
-	[
-		"conference#Review",
-		"iasted#Review"
-	],
-	[
-		"conference#Steering_committee",
-		"iasted#Conference_days"
-	],
-	[
-		"conference#Conference_participant",
-		"iasted#Conference_Hiker"
-	],
-	[
-		"conference#Conference_contribution",
-		"iasted#Introduction_of_speaker"
+		"conference#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
 		"conference#Person",
 		"iasted#Person"
 	],
 	[
-		"conference#Registeered_applicant",
-		"iasted#Fee"
+		"conference#Presentation",
+		"iasted#Presentation"
 	],
 	[
-		"conference#Call_for_participation",
-		"iasted#Deadline"
+		"conference#Workshop",
+		"iasted#Conference_activity"
+	],
+	[
+		"conference#Conference_participant",
+		"iasted#Conference_Hiker"
+	],
+	[
+		"conference#Invited_speaker",
+		"iasted#Speaker"
 	]
 ]

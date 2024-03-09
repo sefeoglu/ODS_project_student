@@ -1,130 +1,46 @@
 [
 	[
-		"edas#Document",
-		"iasted#Document"
-	],
-	[
-		"edas#Author",
-		"iasted#Author"
-	],
-	[
-		"edas#SocialEvent",
-		"iasted#Dinner_banquet"
-	],
-	[
-		"edas#Sponsorship",
-		"iasted#Money"
-	],
-	[
 		"edas#SessionChair",
 		"iasted#Session_chair"
-	],
-	[
-		"edas#AccommodationPlace",
-		"iasted#Hotel_fee"
-	],
-	[
-		"edas#BreakEvent",
-		"iasted#Social_program"
-	],
-	[
-		"edas#CommunicationsTopic",
-		"iasted#Introduction_of_speaker"
-	],
-	[
-		"edas#PaperPresentation",
-		"iasted#PowerPoint_presentation"
-	],
-	[
-		"edas#TwoLevelConference",
-		"iasted#Hotel_registration_form"
-	],
-	[
-		"edas#Reviewer",
-		"iasted#Reviewer"
-	],
-	[
-		"edas#PersonalPublicationHistory",
-		"iasted#Publication"
-	],
-	[
-		"edas#ConferenceDinner",
-		"iasted#Conference_activity"
-	],
-	[
-		"edas#ClosingTalk",
-		"iasted#Presentation"
 	],
 	[
 		"edas#Review",
 		"iasted#Review"
 	],
 	[
-		"edas#RejectedPaper",
-		"iasted#Refusing_manuscript"
-	],
-	[
-		"edas#AntennasTopic",
-		"iasted#Computer"
-	],
-	[
-		"edas#MeetingRoomPlace",
-		"iasted#Conference_hall"
-	],
-	[
-		"edas#Topic",
-		"iasted#Item"
-	],
-	[
-		"edas#TalkEvent",
-		"iasted#Conference_state"
-	],
-	[
-		"edas#Attendee",
-		"iasted#Record_of_attendance"
-	],
-	[
-		"edas#ConferenceEvent",
-		"iasted#Time"
-	],
-	[
 		"edas#CoffeeBreak",
 		"iasted#Coffee_break"
 	],
 	[
-		"edas#ConferenceVenuePlace",
-		"iasted#Conference_restaurant"
+		"edas#Reviewer",
+		"iasted#Reviewer"
 	],
 	[
-		"edas#Excursion",
-		"iasted#Departure"
+		"edas#Author",
+		"iasted#Author"
 	],
 	[
-		"edas#ConferenceChair",
-		"iasted#Activity"
+		"edas#Document",
+		"iasted#Document"
 	],
 	[
 		"edas#Place",
 		"iasted#Place"
 	],
 	[
-		"edas#SingleLevelConference",
-		"iasted#Conference_days"
-	],
-	[
-		"edas#Conference",
-		"iasted#Conference_city"
-	],
-	[
 		"edas#Person",
 		"iasted#Person"
 	],
 	[
-		"edas#TravelGrant",
-		"iasted#Sponsor_company_house"
+		"edas#Paper",
+		"iasted#Submission"
 	],
 	[
-		"edas#OrganizationalMeeting",
-		"iasted#Fee"
+		"edas#ConferenceVenuePlace",
+		"iasted#Conference_hall"
+	],
+	[
+		"edas#PublishedPaper",
+		"iasted#Publication"
 	]
 ]

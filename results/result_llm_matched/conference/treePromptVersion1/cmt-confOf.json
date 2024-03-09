@@ -1,7 +1,0 @@
-{
-	"cmt#Meta-Reviewer;confOf#Conference": "yes",
-	"cmt#Conference;confOf#Conference": "yes",
-	"cmt#ConferenceChair;confOf#Conference": "yes",
-	"cmt#ConferenceMember;confOf#Conference": "yes",
-	"cmt#Author;confOf#Author": "yes"
-}

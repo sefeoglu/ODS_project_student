@@ -1,23 +1,19 @@
 [
 	[
-		"edas#Document",
-		"sigkdd#Document"
+		"edas#Review",
+		"sigkdd#Review"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
 	],
 	[
-		"edas#SatelliteAndSpaceCommunicationsTopic",
-		"sigkdd#Abstract"
-	],
-	[
-		"edas#Review",
-		"sigkdd#Review"
-	],
-	[
-		"edas#ClosingTalk",
-		"sigkdd#Registration_Non-Member"
+		"edas#Document",
+		"sigkdd#Document"
 	],
 	[
 		"edas#Paper",
@@ -26,10 +22,6 @@
 	[
 		"edas#Place",
 		"sigkdd#Place"
-	],
-	[
-		"edas#Conference",
-		"sigkdd#Conference"
 	],
 	[
 		"edas#Person",

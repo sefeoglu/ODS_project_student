@@ -1,7 +1,0 @@
-{
-	"conference#Conference;confOf#Conference": "yes",
-	"conference#Paper;confOf#Short_paper": "yes",
-	"conference#Workshop;confOf#Workshop": "yes",
-	"conference#Tutorial;confOf#Tutorial": "yes",
-	"conference#Review_preference;confOf#Poster": "yes"
-}

@@ -1,86 +1,62 @@
 [
 	[
-		"edas#Document",
-		"ekaw#Document"
-	],
-	[
 		"edas#SocialEvent",
 		"ekaw#Social_Event"
-	],
-	[
-		"edas#Author",
-		"ekaw#Paper_Author"
-	],
-	[
-		"edas#TravelGrant",
-		"ekaw#Organisation"
-	],
-	[
-		"edas#MealMenu",
-		"ekaw#Conference_Banquet"
-	],
-	[
-		"edas#SessionChair",
-		"ekaw#Session_Chair"
-	],
-	[
-		"edas#AcceptedPaper",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"edas#AccommodationPlace",
-		"ekaw#Location"
-	],
-	[
-		"edas#FreeTimeBreak",
-		"ekaw#Event"
-	],
-	[
-		"edas#OperatingTopicsystems",
-		"ekaw#Session"
-	],
-	[
-		"edas#WithdrawnPaper",
-		"ekaw#Conference_Proceedings"
-	],
-	[
-		"edas#Reviewer",
-		"ekaw#Conference_Paper"
-	],
-	[
-		"edas#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"edas#ConferenceSession",
-		"ekaw#Conference_Session"
 	],
 	[
 		"edas#Review",
 		"ekaw#Review"
 	],
 	[
+		"edas#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"edas#ConferenceSession",
+		"ekaw#Conference_Session"
+	],
+	[
 		"edas#Presenter",
 		"ekaw#Presenter"
+	],
+	[
+		"edas#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"edas#RejectedPaper",
 		"ekaw#Rejected_Paper"
 	],
 	[
-		"edas#Paper",
-		"ekaw#Paper"
+		"edas#SessionChair",
+		"ekaw#Session_Chair"
 	],
 	[
-		"edas#Conference",
-		"ekaw#Conference"
+		"edas#Document",
+		"ekaw#Document"
+	],
+	[
+		"edas#Paper",
+		"ekaw#Paper"
 	],
 	[
 		"edas#Person",
 		"ekaw#Person"
 	],
 	[
-		"edas#CallForManuscripts",
-		"ekaw#Proceedings"
+		"edas#AcceptedPaper",
+		"ekaw#Accepted_Paper"
+	],
+	[
+		"edas#Author",
+		"ekaw#Paper_Author"
+	],
+	[
+		"edas#Attendee",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"edas#BreakEvent",
+		"ekaw#Event"
 	]
 ]

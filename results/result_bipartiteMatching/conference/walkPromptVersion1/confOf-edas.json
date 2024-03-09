@@ -1,62 +1,58 @@
 [
 	[
-		"confOf#Reception",
-		"edas#Reception"
-	],
-	[
-		"confOf#Banquet",
-		"edas#MealEvent"
-	],
-	[
-		"confOf#Organization",
-		"edas#Organization"
-	],
-	[
-		"confOf#Conference",
-		"edas#Conference"
-	],
-	[
-		"confOf#Person",
-		"edas#Person"
-	],
-	[
-		"confOf#Country",
-		"edas#Country"
+		"confOf#Author",
+		"edas#Author"
 	],
 	[
 		"confOf#Paper",
 		"edas#Paper"
 	],
 	[
-		"confOf#Workshop",
-		"edas#Workshop"
+		"confOf#Organization",
+		"edas#Organization"
 	],
 	[
-		"confOf#Reviewing_event",
-		"edas#Review"
-	],
-	[
-		"confOf#Working_event",
-		"edas#ConferenceEvent"
-	],
-	[
-		"confOf#Chair_PC",
-		"edas#ConferenceChair"
-	],
-	[
-		"confOf#Author",
-		"edas#Author"
-	],
-	[
-		"confOf#Event",
-		"edas#NonAcademicEvent"
+		"confOf#Topic",
+		"edas#Topic"
 	],
 	[
 		"confOf#Social_event",
 		"edas#SocialEvent"
 	],
 	[
-		"confOf#Topic",
-		"edas#Topic"
+		"confOf#Country",
+		"edas#Country"
+	],
+	[
+		"confOf#Conference",
+		"edas#Conference"
+	],
+	[
+		"confOf#Workshop",
+		"edas#Workshop"
+	],
+	[
+		"confOf#Reception",
+		"edas#Reception"
+	],
+	[
+		"confOf#Person",
+		"edas#Person"
+	],
+	[
+		"confOf#Chair_PC",
+		"edas#ConferenceChair"
+	],
+	[
+		"confOf#Event",
+		"edas#NonAcademicEvent"
+	],
+	[
+		"confOf#Banquet",
+		"edas#MealEvent"
+	],
+	[
+		"confOf#Working_event",
+		"edas#ConferenceEvent"
 	]
 ]

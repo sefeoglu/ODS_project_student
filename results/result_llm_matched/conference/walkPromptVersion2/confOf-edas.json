@@ -1,9 +1,0 @@
-{
-	"confOf#Trip;edas#Excursion": "yes",
-	"confOf#Banquet;edas#ConferenceDinner": "yes",
-	"confOf#Reception;edas#NonAcademicEvent": "yes",
-	"confOf#Social_event;edas#SocialEvent": "yes",
-	"confOf#Event;edas#SocialEvent": "yes",
-	"confOf#Scholar;edas#Presenter": "yes",
-	"confOf#Paper;edas#WithdrawnPaper": "yes"
-}
