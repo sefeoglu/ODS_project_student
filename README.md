@@ -1,6 +1,8 @@
 # Ontology Matching
 A Ontology Matcher utilizing Graph Search Algorithms and Prompt Generation for LLMs.
 
+Note: The repository consists of source codes of the paper "Exploring Prompt Generation utilizing Graph Search Algorithms for Ontology Matching" submitted to Special Track of ESWC 2024.
+
 ## Requirements
 use Python version >=3.10
 ```xml
