@@ -17,14 +17,14 @@ e.g.:
 >   
 > This is the context for the second concept "_{concept2}_":  
 > _{context2}_
-> Do these concepts "_{concept1}_" and "_{concept2}_" refer to the same real word entity? yes or no:
+> Do these concepts "_{concept1}_" and "_{concept2}_" refer to the same real world entity? yes or no:
 
 ## prompt 2:
 Short task description with context
 e.g.:
 > Classify if the following two concepts are the same.  
 > \###First concept _{concept1}_:  
-> _{context2}_
+> _{context1}_
 > \###Second concept _{concept2}_:  
 > _{context2}_
 > Answer yes or no:

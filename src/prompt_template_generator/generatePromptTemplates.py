@@ -119,7 +119,7 @@ def prompt0(triples, context, promptCounter):
 #function for prompt version 1
 def prompt1(triples, context, promptCounter):
     key1, key2, cont1, cont2, onto1, onto2, node1, node2 = extract(triples, context, promptCounter)
-    prompt = 'Classify if two concepts refer to the same real word entity.\n'
+    prompt = 'Classify if two concepts refer to the same real world entity.\n'
     prompt += f'This is the context for the first concept "{node1}":\n'
     prompt += f'{cont1}\n\n' if (cont1 != None) else ''
     prompt += f'This is the context for the second concept "{node2}":\n'
