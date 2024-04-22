@@ -3,7 +3,7 @@ from batch_loaders.alignment import Alignment, AlignmentDataset
 from batch_loaders.ontology_parsing.ontology import Ontology
 from batch_loaders.ontology_parsing.ontology_config import OntoConfig
 from batch_loaders.ontology_parsing.preprocessing import preprocessor
-from metrics import Metrics, Results
+#from metrics import Metrics, Results
 from sklearn.model_selection import train_test_split
 
 from typing import List
@@ -21,7 +21,7 @@ class Track():
 
         self.name = name
 
-        self.metrics = Metrics(**metrics_config, track_name=name)
+        #self.metrics = Metrics(**metrics_config, track_name=name)
 
         track_config = config[name]
         self.track_config = track_config

@@ -4,23 +4,23 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Author",
-		"iasted#Author"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#Chairman",
+		"cmt#ProgramCommitteeMember",
 		"iasted#Delegate"
 	],
 	[
@@ -36,10 +36,6 @@
 		"iasted#Session_chair"
 	],
 	[
-		"cmt#ConferenceChair",
-		"iasted#Conference_Hiker"
-	],
-	[
 		"cmt#ConferenceMember",
 		"iasted#IASTED_non_member"
 	],
@@ -48,7 +44,7 @@
 		"iasted#Publication"
 	],
 	[
-		"cmt#ProgramCommitteeMember",
-		"iasted#IASTED_member"
+		"cmt#ConferenceChair",
+		"iasted#Conference_Hiker"
 	]
 ]

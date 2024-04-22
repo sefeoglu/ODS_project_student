@@ -4,23 +4,23 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Author",
-		"iasted#Author"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
 		"iasted#Review"
 	],
 	[
-		"cmt#AssociatedChair",
+		"cmt#ProgramCommitteeChair",
 		"iasted#Session_chair"
 	]
 ]

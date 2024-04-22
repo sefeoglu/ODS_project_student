@@ -1,11 +1,15 @@
 [
 	[
-		"ekaw#Session",
-		"iasted#Session"
-	],
-	[
 		"ekaw#Review",
 		"iasted#Review"
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair"
+	],
+	[
+		"ekaw#Session",
+		"iasted#Session"
 	],
 	[
 		"ekaw#Tutorial",
@@ -20,15 +24,7 @@
 		"iasted#Document"
 	],
 	[
-		"ekaw#Session_Chair",
-		"iasted#Session_chair"
-	],
-	[
-		"ekaw#Proceedings",
-		"iasted#Publication"
-	],
-	[
-		"ekaw#Workshop_Session",
+		"ekaw#Conference_Session",
 		"iasted#Conference_activity"
 	],
 	[
@@ -36,27 +32,15 @@
 		"iasted#Speaker"
 	],
 	[
+		"ekaw#Proceedings",
+		"iasted#Publication"
+	],
+	[
 		"ekaw#Submitted_Paper",
 		"iasted#Submission"
 	],
 	[
-		"ekaw#Student",
-		"iasted#Student_lecturer"
-	],
-	[
 		"ekaw#Poster_Session",
 		"iasted#Presentation"
-	],
-	[
-		"ekaw#Social_Event",
-		"iasted#Social_program"
-	],
-	[
-		"ekaw#Event",
-		"iasted#Activity"
-	],
-	[
-		"ekaw#Individual_Presentation",
-		"iasted#PowerPoint_presentation"
 	]
 ]

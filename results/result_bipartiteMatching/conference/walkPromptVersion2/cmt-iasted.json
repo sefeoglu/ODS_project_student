@@ -4,16 +4,16 @@
 		"iasted#Person"
 	],
 	[
-		"cmt#Author",
-		"iasted#Author"
+		"cmt#Document",
+		"iasted#Document"
 	],
 	[
 		"cmt#Reviewer",
 		"iasted#Reviewer"
 	],
 	[
-		"cmt#Document",
-		"iasted#Document"
+		"cmt#Author",
+		"iasted#Author"
 	],
 	[
 		"cmt#Review",
