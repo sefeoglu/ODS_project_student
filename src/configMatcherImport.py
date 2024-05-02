@@ -69,7 +69,7 @@ configODSPath (str): the path to the configODS file
 Returns: 
 the configODS files data
 """
-def getConfigODS(configODSPath = './configODS.json'):
+def getConfig(configODSPath = './configMatcher.json'):
     #load configODS
     configODS = utilsODS.importFromJson(configODSPath)
     #Maintenance

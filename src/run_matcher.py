@@ -1,7 +1,7 @@
 import utilsODS
 import os
 import sys
-import configODSImport
+import configMatcherImport
 from prompt_template_generator import generatePromptTemplates
 sys.path.append('./verbalizer/')
 from maximum_bipartite_matching import generateMaximumBipartiteMatching
@@ -20,7 +20,8 @@ cachedLLMPredictions = {}
 llm = None
 modelSim = None
 preprocessorSim = None
-configODS = configODSImport.getConfigODS()
+configODS = configMatcherImport.getConfig()
+
 
 def candidate_concept_sim(concept1, concept2):
     """
