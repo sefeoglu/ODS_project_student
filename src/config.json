@@ -13,11 +13,11 @@
         "metrics_folder": "./OntologyAlignment/tensorboard/"
     },
     "conference": {
-            "ontologies_folder" : "../data/ontologies",
-            "alignments_folder" : "../data/alignments",
+            "ontologies_folder" : "../data/conference/ontologies",
+            "alignments_folder" : "../data/conference/alignments",
     
-            "//ontologies_folder": "../data/ontologies",
-            "//alignments_folder": "../data/alignments",
+            "//ontologies_folder": "../data/conference/ontologies",
+            "//alignments_folder": "../data/conference/alignments",
     
             "fine_tuned_path" : "./store/conference_MLM_pretrained/",
             "pair_tuned_path" : "./store/conference_pair_trained/",

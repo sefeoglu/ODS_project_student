@@ -1,34 +1,34 @@
 [
 	[
-		"edas#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"edas#Document",
-		"sigkdd#Document"
-	],
-	[
 		"edas#Review",
 		"sigkdd#Review"
 	],
 	[
-		"edas#Person",
-		"sigkdd#Person"
-	],
-	[
-		"edas#Place",
-		"sigkdd#Place"
-	],
-	[
-		"edas#Paper",
-		"sigkdd#Paper"
+		"edas#Conference",
+		"sigkdd#Conference"
 	],
 	[
 		"edas#Author",
 		"sigkdd#Author"
 	],
 	[
-		"edas#MeetingRoomPlace",
+		"edas#Document",
+		"sigkdd#Document"
+	],
+	[
+		"edas#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Person",
+		"sigkdd#Person"
+	],
+	[
+		"edas#ConferenceVenuePlace",
 		"sigkdd#Conference_hall"
 	],
 	[

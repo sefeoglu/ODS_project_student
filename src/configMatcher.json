@@ -1,0 +1,41 @@
+{
+	"reformatThisFile": false,
+	"resetThisFile": false,
+	"importOntologies": true,
+	"computeSimilarities": true,
+	"matchExactMatches": true,
+	"thresholdForExactMatches": 0.95,
+	"runRandomWalkAlgorithm": true,
+	"runRandomTreeAlgorithm": true,
+	"randomTreeConfig": {
+		"breadth": 2,
+		"path_depth": 3,
+		"parent_prob": 28,
+		"child_prob": 28,
+		"equivalent_prob": 28,
+		"object_prob": 16
+	},
+	"verbalizeAvailableTriples": true,
+	"promptVersions": [
+		0,
+		1,
+		2,
+		3
+	],
+	"generateWalkPrompts": true,
+	"generateTreePrompts": true,
+	"runAllPromptsOnLLM": false,
+	"runMissingPromptsOnDemandAndMatch": true,
+	"thresholdForConsideration": 0.4,
+	"neighborhoodRange": 2,
+	"exportFinalMatchingsToRDF": true,
+	"track": "conference",
+	"similarityPath": "../results/result_similarities/conference/",
+	"exactMatchPath": "../results/result_exactMatches/conference/",
+	"triplesPath": "../results/result_triples/conference/",
+	"triplesVerbalizedPath": "../results/result_triplesVerbalized/conference/",
+	"promptsPath": "../results/result_prompts/conference/",
+	"llmOutcomePath": "../results/result_llmOutcome/conference/",
+	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
+	"rdfPath": "../results/result_RDF/conference/"
+}

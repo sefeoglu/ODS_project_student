@@ -1,15 +1,7 @@
 [
 	[
-		"conference#Person",
-		"ekaw#Person"
-	],
-	[
-		"conference#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"conference#Tutorial",
-		"ekaw#Tutorial"
+		"conference#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"conference#Invited_speaker",
@@ -20,44 +12,44 @@
 		"ekaw#Conference_Participant"
 	],
 	[
-		"conference#Abstract",
-		"ekaw#Abstract"
-	],
-	[
 		"conference#Paper",
 		"ekaw#Paper"
 	],
 	[
-		"conference#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"conference#Track",
-		"ekaw#Track"
-	],
-	[
-		"conference#Invited_talk",
-		"ekaw#Invited_Talk"
+		"conference#Abstract",
+		"ekaw#Abstract"
 	],
 	[
 		"conference#Review",
 		"ekaw#Review"
 	],
 	[
+		"conference#Tutorial",
+		"ekaw#Tutorial"
+	],
+	[
 		"conference#Conference_proceedings",
 		"ekaw#Conference_Proceedings"
 	],
 	[
+		"conference#Track",
+		"ekaw#Track"
+	],
+	[
+		"conference#Person",
+		"ekaw#Person"
+	],
+	[
+		"conference#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"conference#Invited_talk",
+		"ekaw#Invited_Talk"
+	],
+	[
 		"conference#Conference_document",
 		"ekaw#Document"
-	],
-	[
-		"conference#Poster",
-		"ekaw#Submitted_Paper"
-	],
-	[
-		"conference#Presentation",
-		"ekaw#Proceedings"
 	],
 	[
 		"conference#Conference_contribution",
@@ -68,15 +60,11 @@
 		"ekaw#Workshop_Chair"
 	],
 	[
-		"conference#Conference_announcement",
-		"ekaw#Event"
+		"conference#Presentation",
+		"ekaw#Proceedings"
 	],
 	[
-		"conference#Rejected_contribution",
-		"ekaw#Rejected_Paper"
-	],
-	[
-		"conference#Accepted_contribution",
-		"ekaw#Accepted_Paper"
+		"conference#Poster",
+		"ekaw#Submitted_Paper"
 	]
 ]

@@ -1,30 +1,18 @@
 [
 	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#City",
 		"iasted#City"
 	],
 	[
+		"confOf#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
 		"confOf#Person",
 		"iasted#Person"
-	],
-	[
-		"confOf#Author",
-		"iasted#Author"
-	],
-	[
-		"confOf#Student",
-		"iasted#Student_non_speaker"
-	],
-	[
-		"confOf#Social_event",
-		"iasted#Social_program"
-	],
-	[
-		"confOf#Registration_of_participants_event",
-		"iasted#Registration"
 	]
 ]

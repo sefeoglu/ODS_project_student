@@ -1,5 +1,25 @@
 [
 	[
+		"conference#Workshop",
+		"confOf#Workshop"
+	],
+	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
+	],
+	[
+		"conference#Tutorial",
+		"confOf#Tutorial"
+	],
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
 		"conference#Person",
 		"confOf#Person"
 	],
@@ -8,31 +28,11 @@
 		"confOf#Conference"
 	],
 	[
-		"conference#Organization",
-		"confOf#Organization"
-	],
-	[
-		"conference#Topic",
-		"confOf#Topic"
-	],
-	[
 		"conference#Poster",
 		"confOf#Poster"
 	],
 	[
-		"conference#Paper",
-		"confOf#Paper"
-	],
-	[
-		"conference#Workshop",
-		"confOf#Workshop"
-	],
-	[
-		"conference#Tutorial",
-		"confOf#Tutorial"
-	],
-	[
-		"conference#Submitted_contribution",
+		"conference#Conference_contribution",
 		"confOf#Contribution"
 	],
 	[
@@ -40,12 +40,12 @@
 		"confOf#Participant"
 	],
 	[
-		"conference#Regular_author",
-		"confOf#Regular"
-	],
-	[
 		"conference#Conference_part",
 		"confOf#Event"
+	],
+	[
+		"conference#Regular_author",
+		"confOf#Regular"
 	],
 	[
 		"conference#Committee_member",

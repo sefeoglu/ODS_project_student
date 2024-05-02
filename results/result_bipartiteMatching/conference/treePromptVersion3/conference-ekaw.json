@@ -1,15 +1,7 @@
 [
 	[
-		"conference#Person",
-		"ekaw#Person"
-	],
-	[
-		"conference#Conference",
-		"ekaw#Conference"
-	],
-	[
-		"conference#Tutorial",
-		"ekaw#Tutorial"
+		"conference#Workshop",
+		"ekaw#Workshop"
 	],
 	[
 		"conference#Invited_speaker",
@@ -20,56 +12,56 @@
 		"ekaw#Conference_Participant"
 	],
 	[
-		"conference#Abstract",
-		"ekaw#Abstract"
-	],
-	[
 		"conference#Paper",
 		"ekaw#Paper"
 	],
 	[
-		"conference#Workshop",
-		"ekaw#Workshop"
-	],
-	[
-		"conference#Track",
-		"ekaw#Track"
-	],
-	[
-		"conference#Invited_talk",
-		"ekaw#Invited_Talk"
+		"conference#Abstract",
+		"ekaw#Abstract"
 	],
 	[
 		"conference#Review",
 		"ekaw#Review"
 	],
 	[
+		"conference#Tutorial",
+		"ekaw#Tutorial"
+	],
+	[
 		"conference#Conference_proceedings",
 		"ekaw#Conference_Proceedings"
+	],
+	[
+		"conference#Track",
+		"ekaw#Track"
+	],
+	[
+		"conference#Person",
+		"ekaw#Person"
+	],
+	[
+		"conference#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"conference#Invited_talk",
+		"ekaw#Invited_Talk"
 	],
 	[
 		"conference#Presentation",
 		"ekaw#Individual_Presentation"
 	],
 	[
-		"conference#Organizer",
-		"ekaw#Workshop_Chair"
-	],
-	[
 		"conference#Co-chair",
 		"ekaw#Demo_Chair"
 	],
 	[
-		"conference#Conference_contribution",
-		"ekaw#Conference_Paper"
+		"conference#Organizer",
+		"ekaw#Workshop_Chair"
 	],
 	[
-		"conference#Track-workshop_chair",
-		"ekaw#PC_Chair"
-	],
-	[
-		"conference#Committee_member",
-		"ekaw#PC_Member"
+		"conference#Conference_applicant",
+		"ekaw#Presenter"
 	],
 	[
 		"conference#Regular_author",
@@ -80,55 +72,27 @@
 		"ekaw#Submitted_Paper"
 	],
 	[
+		"conference#Committee_member",
+		"ekaw#PC_Member"
+	],
+	[
 		"conference#Conference_part",
-		"ekaw#Contributed_Talk"
-	],
-	[
-		"conference#Conference_applicant",
-		"ekaw#Presenter"
-	],
-	[
-		"conference#Early_paid_applicant",
-		"ekaw#Early-Registered_Participant"
-	],
-	[
-		"conference#Conference_www",
-		"ekaw#Conference_Session"
-	],
-	[
-		"conference#Late_paid_applicant",
-		"ekaw#Late-Registered_Participant"
-	],
-	[
-		"conference#Poster",
-		"ekaw#Flyer"
-	],
-	[
-		"conference#Conference_announcement",
 		"ekaw#Event"
 	],
 	[
-		"conference#Rejected_contribution",
-		"ekaw#Rejected_Paper"
+		"conference#Track-workshop_chair",
+		"ekaw#PC_Chair"
 	],
 	[
-		"conference#Accepted_contribution",
-		"ekaw#Accepted_Paper"
-	],
-	[
-		"conference#Conference_document",
-		"ekaw#Proceedings"
-	],
-	[
-		"conference#Camera_ready_contribution",
-		"ekaw#Camera_Ready_Paper"
-	],
-	[
-		"conference#Paid_applicant",
-		"ekaw#Agency_Staff_Member"
+		"conference#Conference_contribution",
+		"ekaw#Conference_Paper"
 	],
 	[
 		"conference#Call_for_paper",
 		"ekaw#Regular_Paper"
+	],
+	[
+		"conference#Poster",
+		"ekaw#Poster_Paper"
 	]
 ]

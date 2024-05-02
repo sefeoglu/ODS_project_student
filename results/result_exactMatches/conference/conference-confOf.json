@@ -5,6 +5,11 @@
 		1
 	],
 	[
+		"conference#Co-chair",
+		"confOf#Chair_PC",
+		1
+	],
+	[
 		"conference#Organization",
 		"confOf#Organization",
 		1
@@ -22,6 +27,11 @@
 	[
 		"conference#Paper",
 		"confOf#Paper",
+		1
+	],
+	[
+		"conference#Chair",
+		"confOf#Chair_PC",
 		1
 	],
 	[

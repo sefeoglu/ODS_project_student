@@ -1,66 +1,54 @@
 [
 	[
-		"conference#Person",
-		"sigkdd#Person"
-	],
-	[
-		"conference#Committee",
-		"sigkdd#Committee"
-	],
-	[
-		"conference#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"conference#Program_committee",
-		"sigkdd#Program_Committee"
-	],
-	[
 		"conference#Invited_speaker",
 		"sigkdd#Invited_Speaker"
-	],
-	[
-		"conference#Abstract",
-		"sigkdd#Abstract"
 	],
 	[
 		"conference#Paper",
 		"sigkdd#Paper"
 	],
 	[
-		"conference#Organizing_committee",
-		"sigkdd#Organizing_Committee"
+		"conference#Committee",
+		"sigkdd#Committee"
+	],
+	[
+		"conference#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"conference#Program_committee",
+		"sigkdd#Program_Committee"
 	],
 	[
 		"conference#Review",
 		"sigkdd#Review"
 	],
 	[
+		"conference#Organizing_committee",
+		"sigkdd#Organizing_Committee"
+	],
+	[
+		"conference#Person",
+		"sigkdd#Person"
+	],
+	[
+		"conference#Conference",
+		"sigkdd#Conference"
+	],
+	[
 		"conference#Conference_document",
 		"sigkdd#Document"
-	],
-	[
-		"conference#Passive_conference_participant",
-		"sigkdd#Listener"
-	],
-	[
-		"conference#Organizer",
-		"sigkdd#Organizing_Committee_member"
 	],
 	[
 		"conference#Co-chair",
 		"sigkdd#General_Chair"
 	],
 	[
-		"conference#Contribution_1th-author",
-		"sigkdd#Author_of_paper_student"
+		"conference#Organizer",
+		"sigkdd#Organizing_Committee_member"
 	],
 	[
-		"conference#Contribution_co-author",
-		"sigkdd#Author"
-	],
-	[
-		"conference#Regular_author",
-		"sigkdd#Author_of_paper"
+		"conference#Passive_conference_participant",
+		"sigkdd#Listener"
 	]
 ]

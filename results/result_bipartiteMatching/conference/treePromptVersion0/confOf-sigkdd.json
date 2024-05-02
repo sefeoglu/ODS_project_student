@@ -4,23 +4,23 @@
 		"sigkdd#Author"
 	],
 	[
-		"confOf#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"confOf#Conference",
 		"sigkdd#Conference"
+	],
+	[
+		"confOf#Paper",
+		"sigkdd#Paper"
 	],
 	[
 		"confOf#Person",
 		"sigkdd#Person"
 	],
 	[
-		"confOf#Short_paper",
-		"sigkdd#Document"
-	],
-	[
 		"confOf#Member_PC",
 		"sigkdd#Program_Committee_member"
+	],
+	[
+		"confOf#Short_paper",
+		"sigkdd#Document"
 	]
 ]

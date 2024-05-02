@@ -1,5 +1,13 @@
 [
 	[
+		"cmt#Administrator",
+		"confOf#Administrator"
+	],
+	[
+		"cmt#Conference",
+		"confOf#Conference"
+	],
+	[
 		"cmt#Person",
 		"confOf#Person"
 	],
@@ -8,31 +16,19 @@
 		"confOf#Author"
 	],
 	[
-		"cmt#Administrator",
-		"confOf#Administrator"
-	],
-	[
 		"cmt#Paper",
 		"confOf#Paper"
 	],
 	[
-		"cmt#Conference",
-		"confOf#Conference"
-	],
-	[
-		"cmt#Chairman",
+		"cmt#ConferenceMember",
 		"confOf#Member_PC"
 	],
 	[
-		"cmt#ConferenceMember",
+		"cmt#Chairman",
 		"confOf#Participant"
 	],
 	[
 		"cmt#User",
 		"confOf#Member"
-	],
-	[
-		"cmt#Co-author",
-		"confOf#Contribution"
 	]
 ]

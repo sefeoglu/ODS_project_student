@@ -4,6 +4,14 @@
 		"sigkdd#Review"
 	],
 	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
 		"ekaw#Abstract",
 		"sigkdd#Abstract"
 	],
@@ -16,23 +24,11 @@
 		"sigkdd#Document"
 	],
 	[
-		"ekaw#Conference",
-		"sigkdd#Conference"
-	],
-	[
-		"ekaw#Paper",
-		"sigkdd#Paper"
-	],
-	[
 		"ekaw#Invited_Speaker",
 		"sigkdd#Invited_Speaker"
 	],
 	[
 		"ekaw#PC_Member",
 		"sigkdd#Program_Committee_member"
-	],
-	[
-		"ekaw#Paper_Author",
-		"sigkdd#Author_of_paper"
 	]
 ]

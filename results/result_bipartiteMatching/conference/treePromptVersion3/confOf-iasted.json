@@ -1,70 +1,66 @@
 [
 	[
-		"confOf#Tutorial",
-		"iasted#Tutorial"
+		"confOf#Author",
+		"iasted#Author"
 	],
 	[
 		"confOf#City",
 		"iasted#City"
 	],
 	[
-		"confOf#Person",
-		"iasted#Person"
+		"confOf#Tutorial",
+		"iasted#Tutorial"
 	],
 	[
-		"confOf#Author",
-		"iasted#Author"
+		"confOf#Person",
+		"iasted#Person"
 	],
 	[
 		"confOf#Administrator",
 		"iasted#Delegate"
 	],
 	[
-		"confOf#Conference",
-		"iasted#Conference_activity"
+		"confOf#Contribution",
+		"iasted#Sponsor"
+	],
+	[
+		"confOf#Assistant",
+		"iasted#IASTED_non_member"
 	],
 	[
 		"confOf#Participant",
 		"iasted#Student_lecturer"
 	],
 	[
-		"confOf#Member",
-		"iasted#IASTED_non_member"
-	],
-	[
-		"confOf#Contribution",
-		"iasted#Sponsor"
-	],
-	[
 		"confOf#Science_Worker",
-		"iasted#Technical_commitee"
+		"iasted#Lecturer"
+	],
+	[
+		"confOf#Member",
+		"iasted#IASTED_member"
 	],
 	[
 		"confOf#Scholar",
 		"iasted#Student_non_speaker"
 	],
 	[
-		"confOf#Student",
-		"iasted#Lecturer"
+		"confOf#Conference",
+		"iasted#Conference_activity"
+	],
+	[
+		"confOf#Workshop",
+		"iasted#Lecture"
 	],
 	[
 		"confOf#Event",
 		"iasted#Activity"
 	],
 	[
-		"confOf#Trip",
-		"iasted#Departure"
-	],
-	[
 		"confOf#Registration_of_participants_event",
 		"iasted#Registration"
 	],
 	[
-		"confOf#Camera_Ready_event",
-		"iasted#Video_presentation"
-	],
-	[
-		"confOf#Banquet",
-		"iasted#Dinner_banquet"
+		"confOf#Trip",
+		"iasted#Departure"
 	]
 ]
